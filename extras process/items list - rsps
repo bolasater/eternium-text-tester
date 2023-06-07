@@ -1,0 +1,288 @@
+{
+  "items": [
+    {
+      "name": "rusty dagger",
+      "description": "A worn and corroded dagger, barely suitable for combat",
+      "level": 1,
+      "attack_strength": 5,
+      "attack_type": "normal"
+    },
+    {
+      "name": "wooden shield",
+      "description": "A basic shield made of wood, offering limited protection",
+      "level": 2,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "healing potion",
+      "description": "A small vial of healing liquid, capable of restoring minor wounds",
+      "level": 3,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "iron sword",
+      "description": "A sturdy sword forged from iron, reliable for close combat",
+      "level": 4,
+      "attack_strength": 10,
+      "attack_type": "normal"
+    },
+    {
+      "name": "leather armor",
+      "description": "Flexible armor made from leather, providing moderate protection",
+      "level": 5,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "fireball scroll",
+      "description": "A magical scroll containing the spell to conjure fiery projectiles",
+      "level": 6,
+      "attack_strength": 15,
+      "attack_type": "fire"
+    },
+    {
+      "name": "steel axe",
+      "description": "A heavy axe with a sharp steel blade, capable of inflicting powerful strikes",
+      "level": 7,
+      "attack_strength": 12,
+      "attack_type": "normal"
+    },
+    {
+      "name": "poisoned dagger",
+      "description": "A dagger coated with a deadly poison, inflicting additional damage over time",
+      "level": 8,
+      "attack_strength": 8,
+      "attack_type": "normal"
+    },
+    {
+      "name": "ice bow",
+      "description": "A bow infused with icy magic, launching freezing arrows at enemies",
+      "level": 9,
+      "attack_strength": 14,
+      "attack_type": "ice"
+    },
+    {
+      "name": "enchanted staff",
+      "description": "A mystical staff imbued with arcane energy, amplifying spellcasting abilities",
+      "level": 10,
+      "attack_strength": 5,
+      "attack_type": "normal"
+    },
+    {
+      "name": "thunder hammer",
+      "description": "A massive hammer crackling with electric energy, delivering devastating shocks",
+      "level": 11,
+      "attack_strength": 18,
+      "attack_type": "electricity"
+    },
+    {
+      "name": "silver longsword",
+      "description": "A finely crafted longsword made of silver, effective against supernatural foes",
+      "level": 12,
+      "attack_strength": 16,
+      "attack_type": "normal"
+    },
+    {
+      "name": "shield of resilience",
+      "description": "A durable shield blessed with protective enchantments, offering enhanced defense",
+      "level": 13,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "elixir of strength",
+      "description": "A potent elixir that temporarily enhances the user's physical power",
+      "level": 14,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+     
+
+ "name": "flaming sword",
+      "description": "A sword enveloped in flames, dealing fiery damage with each strike",
+      "level": 15,
+      "attack_strength": 20,
+      "attack_type": "fire"
+    },
+    {
+      "name": "frost armor",
+      "description": "Armor enchanted with ice magic, chilling and slowing down attackers",
+      "level": 16,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "lightning wand",
+      "description": "A wand capable of unleashing powerful bolts of lightning upon adversaries",
+      "level": 17,
+      "attack_strength": 22,
+      "attack_type": "electricity"
+    },
+    {
+      "name": "enchanted helmet",
+      "description": "A magical helmet offering enhanced protection and fortitude",
+      "level": 18,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "dagger of shadows",
+      "description": "A dagger infused with dark magic, capable of bypassing defenses and striking at the heart",
+      "level": 19,
+      "attack_strength": 25,
+      "attack_type": "normal"
+    },
+    {
+      "name": "bow of precision",
+      "description": "A bow crafted for accuracy and precision, enabling deadly long-range attacks",
+      "level": 20,
+      "attack_strength": 23,
+      "attack_type": "normal"
+    },
+    {
+      "name": "fire resistance potion",
+      "description": "A potion that grants temporary resistance to fire-based attacks",
+      "level": 21,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "ice lance",
+      "description": "A magical spear made of ice, impaling enemies and freezing them in place",
+      "level": 22,
+      "attack_strength": 28,
+      "attack_type": "ice"
+    },
+    {
+      "name": "blade of lightning",
+      "description": "A sword infused with electric energy, delivering shocking strikes",
+      "level": 23,
+      "attack_strength": 26,
+      "attack_type": "electricity"
+    },
+    {
+      "name": "dragon scale armor",
+      "description": "Armor crafted from the scales of a slain dragon, providing exceptional defense",
+      "level": 24,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "staff of the arcane",
+      "description": "A staff channeling the power of arcane magic, unleashing devastating spells",
+      "level": 25,
+      "attack_strength": 15,
+      "attack_type": "normal"
+    },
+    {
+      "name": "spear of the wyvern",
+      "description": "A legendary spear with the poison of a wyvern, dealing lethal venomous damage",
+      "level": 26,
+      "attack_strength": 30,
+      "attack_type": "normal"
+    },
+    {
+      "name": "inferno gauntlets",
+      "description": "Gauntlets infused with the flames of the underworld, engulfing foes in fiery infernos",
+      "level": 27,
+      "attack_strength": 35,
+      "attack_type": "fire"
+    },
+    {
+      "name": "frozen bow",
+      "description": "A bow empowered by ice magic, shooting arrows that freeze enemies upon impact",
+      "level": 28,
+      "attack_strength": 32,
+
+
+      "attack_type": "ice"
+    },
+    {
+      "name": "stormcaller staff",
+      "description": "A staff capable of summoning violent thunderstorms, striking down enemies with lightning",
+      "level": 29,
+      "attack_strength": 38,
+      "attack_type": "electricity"
+    },
+    {
+      "name": "ancient sword",
+      "description": "An ancient and legendary sword, possessing immense power and history",
+      "level": 30,
+      "attack_strength": 36,
+      "attack_type": "normal"
+    },
+    {
+      "name": "demonic shield",
+      "description": "A shield infused with dark energy, capable of repelling powerful attacks",
+      "level": 31,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "elixir of invincibility",
+      "description": "A mythical elixir that grants temporary invincibility to the drinker",
+      "level": 32,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "scythe of doom",
+      "description": "A cursed scythe bringing doom upon any who stand in its way, harvesting souls",
+      "level": 33,
+      "attack_strength": 40,
+      "attack_type": "normal"
+    },
+    {
+      "name": "fiery greatsword",
+      "description": "A colossal greatsword wreathed in flames, cleaving through enemies with devastating fire",
+      "level": 34,
+      "attack_strength": 42,
+      "attack_type": "fire"
+    },
+    {
+      "name": "glacial armor",
+      "description": "Armor forged from enchanted ice, providing unparalleled protection and resistance",
+      "level": 35,
+      "attack_strength": 0,
+      "attack_type": "normal"
+    },
+    {
+      "name": "staff of storms",
+      "description": "A staff channeling the might of thunderstorms, ravaging enemies with relentless lightning",
+      "level": 36,
+      "attack_strength": 45,
+      "attack_type": "electricity"
+    },
+    {
+      "name": "blade of the celestial",
+      "description": "A divine sword granted by celestial beings, capable of vanquishing evil with holy power",
+      "level": 37,
+      "attack_strength": 44,
+      "attack_type": "normal"
+    },
+    {
+      "name": "wyrmbane lance",
+      "description": "A lance specifically designed to slay mighty wyrms and dragons",
+      "level": 38,
+      "attack_strength": 48,
+      "attack_type": "normal"
+    },
+    {
+      "name": "eternal flame gauntlets",
+      "description": "Gauntlets infused with eternal flames, burning through enemies with unending fire",
+      "level": 39,
+      "attack_strength": 50,
+      "attack_type": "fire"
+    },
+    {
+      "name": "thunderstrike bow",
+      "description": "A bow empowered by the fury of thunder, launching arrows crackling with electric power",
+      "level": 40,
+      "attack_strength": 46,
+      "attack_type": "electricity"
+    }
+  ]
+}

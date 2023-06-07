@@ -1,0 +1,11 @@
+write a python snippet that takes JSON file foo.json with the following structure:
+{"quests":[
+    {"descrip":<description>, "obj":<objective>},
+    ...
+    {"descrip":<description>, "obj":<objective>}
+    ]
+}
+
+and creates a dictionary
+
+import

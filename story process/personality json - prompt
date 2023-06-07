@@ -1,0 +1,59 @@
+Put the following list delimited by triple backticks into JSON format:
+```
+1. Marcus
+   - Disposition: Friend
+   - Personality: Strong-arm and sharp-axe wielding, loyal friend to the protagonist.
+
+2. Eileen the Healer
+   - Disposition: Friend
+   - Personality: Compassionate and skilled healer, sought after for assistance in the protagonist's quest.
+
+3. Gorgona
+   - Disposition: Foe
+   - Personality: Tortured and mad due to the actions of Ragadam's disciple, Elban.
+
+4. Magroth
+   - Disposition: Foe
+   - Personality: Sinister and powerful demon seeking dominion over the lands.
+
+5. Elban
+   - Disposition: Foe
+   - Personality: Cruel and manipulative disciple of Ragadam, responsible for torturing Gorgona and spreading chaos.
+
+6. Robin the Archer
+   - Disposition: Friend
+   - Personality: Skilled and courageous archer, captured by Ragadam's Broken Dragon.
+
+7. Ragadam
+   - Disposition: Foe
+   - Personality: Twisted and malevolent lord, the primary target of the protagonist's vengeance.
+
+8. Elderath
+   - Disposition: N/A
+   - Personality: A world suffering from the influence of Ragadam and his minions, seeking peace.
+
+9. Levania
+   - Disposition: N/A
+   - Personality: A moon with tortured inhabitants and a history of Ragadam's dark deeds.
+
+10. Mawrth
+    - Disposition: Foe
+    - Personality: Ancient demon residing in the Crucible of Mawrth, once slain by Elban.
+
+11. Ursoc
+    - Disposition: Friend
+    - Personality: Noble and valiant defenders against the Minotaur attacks, affected by the blood craze.
+
+12. Rak'shul
+    - Disposition: Foe
+    - Personality: Agent of Ragadam, holding a keystone fragment and causing the Ursoc blood craze.
+
+13. Sivari
+    - Disposition: Foe
+    - Personality: Former Warchief of the Scartree tribe, now the Minotaur Overlord serving Ragadam.
+
+14. Kara, the Tempest Queen
+    - Disposition: Foe
+    - Personality: Leader of Ragadam's forces in the Underworld Necropolis, a significant threat.
+
+```

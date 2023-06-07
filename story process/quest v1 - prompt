@@ -1,0 +1,20 @@
+Create quests from the story summary bullet points delimited by triple backticks
+```
+* They start their journey on the Shores of Hope.
+* The protagonist is accompanied by Marcus.
+* They encounter ruins and the dead along the way.
+* They search for Eileen the Healer in Anderra.
+* They face minions of Magroth on the road to Anderra.
+* They encounter Gorgona, a tortured sorceress, on Misty Island.
+* The Grave Defiler stands between them and Anderra.
+* There is a training ground to hone skills and gear.
+* Eileen the Healer is held captive in Anderra.
+* Magroth, a demon, resides in The Severed Mountain.
+* They assault the fortress of Anderhelm to end Magroth's dominion.
+* Ragadam challenges the protagonist with continuous minion attacks in The Gauntlet.
+```
+{descrip: "They start their journey on the Shores of Hope."
+obj: <goto> "Shores of Hope"}
+{descrip: "The protagonist is accompanied by Marcus.",
+obj: <meet> "Marcus"}
+{descrip: 

@@ -1,0 +1,186 @@
+Replace the description field in the quests JSON below with a title field and a descripton field in appropriate quest language.
+{
+  "quests": [
+    {
+      "description": "The protagonist seeks revenge against Ragadam.",
+      "place": "The Shores of Hope",
+      "character": "Marcus"
+    },
+    {
+      "description": "They start their journey on the Shores of Hope.",
+      "place": "The Shores of Hope",
+      "character": ""
+    },
+    {
+      "description": "The protagonist is accompanied by Marcus.",
+      "place": "",
+      "character": "Marcus"
+    },
+    {
+      "description": "They encounter ruins and the dead along the way.",
+      "place": "Ruins of the Dead",
+      "character": ""
+    },
+    {
+      "description": "They search for Eileen the Healer in Anderra.",
+      "place": "Anderra",
+      "character": "Eileen the Healer"
+    },
+    {
+      "description": "They face minions of Magroth on the road to Anderra.",
+      "place": "Road to Anderra",
+      "character": ""
+    },
+    {
+      "description": "They encounter Gorgona, a tortured sorceress, on Misty Island.",
+      "place": "Misty Island",
+      "character": "Gorgona"
+    },
+    {
+      "description": "The Grave Defiler stands between them and Anderra.",
+      "place": "",
+      "character": ""
+    },
+    {
+      "description": "There is a training ground to hone skills and gear.",
+      "place": "The Gauntlet",
+      "character": ""
+    },
+    {
+      "description": "Eileen the Healer is held captive in Anderra.",
+      "place": "Anderra",
+      "character": "Eileen the Healer"
+    },
+    {
+      "description": "Magroth, a demon, resides in The Severed Mountain.",
+      "place": "The Severed Mountain",
+      "character": "Magroth"
+    },
+    {
+      "description": "They assault the fortress of Anderhelm to end Magroth's dominion.",
+      "place": "The Siege of Anderhelm",
+      "character": ""
+    },
+    {
+      "description": "Ragadam challenges the protagonist with continuous minion attacks in The Gauntlet.",
+      "place": "The Gauntlet",
+      "character": "Ragadam"
+    },
+    {
+      "description": "Ragadam's Broken Dragon holds Robin the Archer in the Wailing Peaks.",
+      "place": "The Wailing Peaks",
+      "character": "Robin the Archer"
+    },
+    {
+      "description": "They must pass through the grimlins' mines in The Descent to free Robin.",
+      "place": "The Descent",
+      "character": ""
+    },
+    {
+      "description": "The Fiery Pits are one of the Broken Dragon's lairs.",
+      "place": "The Fiery Pits",
+      "character": ""
+    },
+    {
+      "description": "Ragadam raised the Broken Dragon on Levania to channel his power into Elderath.",
+      "place": "Levania",
+      "character": "Ragadam"
+    },
+    {
+      "description": "In Act 2, the Dragon's spirit is unbroken, and they travel to Levania.",
+      "place": "Levania",
+      "character": ""
+    },
+    {
+      "description": "Levania is inhabited by aggressive creatures.",
+      "place": "Levania",
+      "character": ""
+    },
+    {
+      "description": "Meteors fall purposefully, suggesting a purposeful action.",
+      "place": "",
+      "character": ""
+    },
+    {
+      "description": "They encounter Levans who are unwilling to communicate.",
+      "place": "",
+      "character": ""
+    },
+    {
+      "description": "Levans seem to coexist with the walking dead.",
+      "place": "",
+      "character": ""
+    },
+    {
+      "description": "The Canyon of Whispers is filled with alien whispers and ragged Levans' minds.",
+      "place": "Canyon of Whispers",
+      "character": ""
+    },
+    {
+      "description": "They reach the Stairway to Levania and discover the Levanian Gardens.",
+      "place": "The Stairway to Levania",
+      "character": ""
+    },
+    {
+      "description": "The Levanian Gardens are twisted and tortured.",
+      "place": "The Levanian Gardens",
+      "character": ""
+    },
+    {
+      "description": "The Levanian Jungle is eerie and filled with anxiety-inducing whispers.",
+      "place": "The Levanian Jungle",
+      "character": ""
+    },
+    {
+      "description": "They find a stone structure reminiscent of home with ordered plants.",
+      "place": "",
+      "character": ""
+    },
+    {
+      "description": "They discover a log mentioning Ragadam, Project Desparia, and a snakewitch.",
+      "place": "",
+      "character": ""
+    },
+    {
+      "description": "They reach a canal where red ooze gathers, resembling a river.",
+      "place": "River of Blood",
+      "character": ""
+    },
+    {
+      "description": "They encounter a river of clear water and green plants, called the River of Dreams.",
+      "place": "River of Dreams",
+      "character": ""
+    },
+    {
+      "description": "Drinking the river's water leads to horrifying hallucinations.",
+      "place": "River of Dreams",
+      "character": ""
+    },
+    {
+      "description": "They continue downstream to another water mill of the Demiurge.",
+      "place": "",
+      "character": ""
+    },
+    {
+      "description": "Ragadam wants to create a world of anguish called Desparia.",
+      "place": "Demeter, the Shattered World",
+      "character": "Ragadam"
+    },
+    {
+      "description": "They reach Elban's Holy Halls in a vast temple, where a rumble begins.",
+      "place": "Darkhold Citadel",
+      "character": ""
+    }
+  ]
+}
+
+
+{
+  "quests": [
+    {
+      "title": "The Shores of Hope"
+      "description": "Begin your journey on the Shores of Hope, a place of refuge and potential. Explore the surroundings and learn about the challenges that lie ahead.",
+      "place": "The Shores of Hope",
+      "character": "Marcus"
+    },
+    {

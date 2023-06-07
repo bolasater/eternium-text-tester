@@ -1,0 +1,74 @@
+{
+  "characters": [
+    {
+      "name": "Marcus",
+      "disposition": "Friend",
+      "personality": "Strong-arm and sharp-axe wielding, loyal friend to the protagonist."
+    },
+    {
+      "name": "Eileen the Healer",
+      "disposition": "Friend",
+      "personality": "Compassionate and skilled healer, sought after for assistance in the protagonist's quest."
+    },
+    {
+      "name": "Gorgona",
+      "disposition": "Foe",
+      "personality": "Tortured and mad due to the actions of Ragadam's disciple, Elban."
+    },
+    {
+      "name": "Magroth",
+      "disposition": "Foe",
+      "personality": "Sinister and powerful demon seeking dominion over the lands."
+    },
+    {
+      "name": "Elban",
+      "disposition": "Foe",
+      "personality": "Cruel and manipulative disciple of Ragadam, responsible for torturing Gorgona and spreading chaos."
+    },
+    {
+      "name": "Robin the Archer",
+      "disposition": "Friend",
+      "personality": "Skilled and courageous archer, captured by Ragadam's Broken Dragon."
+    },
+    {
+      "name": "Ragadam",
+      "disposition": "Foe",
+      "personality": "Twisted and malevolent lord, the primary target of the protagonist's vengeance."
+    },
+    {
+      "name": "Elderath",
+      "disposition": "N/A",
+      "personality": "A world suffering from the influence of Ragadam and his minions, seeking peace."
+    },
+    {
+      "name": "Levania",
+      "disposition": "N/A",
+      "personality": "A moon with tortured inhabitants and a history of Ragadam's dark deeds."
+    },
+    {
+      "name": "Mawrth",
+      "disposition": "Foe",
+      "personality": "Ancient demon residing in the Crucible of Mawrth, once slain by Elban."
+    },
+    {
+      "name": "Ursoc",
+      "disposition": "Friend",
+      "personality": "Noble and valiant defenders against the Minotaur attacks, affected by the blood craze."
+    },
+    {
+      "name": "Rak'shul",
+      "disposition": "Foe",
+      "personality": "Agent of Ragadam, holding a keystone fragment and causing the Ursoc blood craze."
+    },
+    {
+      "name": "Sivari",
+      "disposition": "Foe",
+      "personality": "Former Warchief of the Scartree tribe, now the Minotaur Overlord serving Ragadam."
+    },
+    {
+      "name": "Kara, the Tempest Queen",
+      "disposition": "Foe",
+      "personality": "Leader of Ragadam's forces in the Underworld Necropolis, a significant threat."
+    }
+  ]
+}

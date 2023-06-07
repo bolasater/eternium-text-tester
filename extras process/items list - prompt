@@ -1,0 +1,2 @@
+Write a comma delimited list of 40 typical fantasy items from weakest to strongest in a JSON format. Items can be things like swords, daggers, bows, potions, wands, shields, and helmets.  For each item, write name, description, level, attack strength, and attack type.  Attack type can be 'normal', 'ice', 'fire', or 'electricity'.
+

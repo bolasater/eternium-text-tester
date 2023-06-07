@@ -1,0 +1,332 @@
+{
+  "monsters": [
+    {
+      "name": "big rat",
+      "description": "A filthy large rat with beady eyes and glistening teeth",
+      "level": 1,
+      "health": 5,
+      "attack": 2,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "purple slime",
+      "description": "An oozy, slimy, purplish blob with ill intent the size of a large dog",
+      "level": 2,
+      "health": 6,
+      "attack": 3,
+      "resistance": "electricity",
+      "weakness": "none"
+    },
+    {
+      "name": "goblin",
+      "description": "A small, green-skinned humanoid with a wicked grin and sharp claws",
+      "level": 3,
+      "health": 8,
+      "attack": 4,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "skeleton",
+      "description": "A reanimated skeleton with a rusty sword and hollow eye sockets",
+      "level": 3,
+      "health": 10,
+      "attack": 4,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "orc",
+      "description": "A brutish, muscular humanoid with green skin and a savage demeanor",
+      "level": 4,
+      "health": 12,
+      "attack": 5,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "giant spider",
+      "description": "A hairy, eight-legged monstrosity with venomous fangs and a web-spinning ability",
+      "level": 6,
+      "health": 15,
+      "attack": 6,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "zombie",
+      "description": "A decaying, mindless creature that craves human flesh and spreads a foul stench",
+      "level": 6,
+      "health": 18,
+      "attack": 6,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "skeleton mage",
+      "description": "A skeletal figure dressed in tattered robes, wielding dark magic",
+      "level": 8,
+      "health": 20,
+      "attack": 7,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "wraith",
+      "description": "A ghostly apparition with a malevolent aura, capable of draining life force",
+      "level": 8,
+      "health": 22,
+      "attack": 7,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "ogre",
+      "description": "A hulking giant with green skin, immense strength, and a simple-minded nature",
+      "level": 10,
+      "health": 25,
+      "attack": 8,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "werewolf",
+      "description": "A half-human, half-wolf creature with heightened senses and razor-sharp claws",
+      "level": 11,
+      "health": 28,
+      "attack": 8,
+     
+
+ "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "gargoyle",
+      "description": "A stone-like creature with wings and a menacing expression, capable of flight",
+      "level": 13,
+      "health": 32,
+      "attack": 9,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "minotaur",
+      "description": "A powerful humanoid with the head of a bull and a large, muscular body",
+      "level": 14,
+      "health": 36,
+      "attack": 10,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "medusa",
+      "description": "A serpent-haired woman with a petrifying gaze and a taste for tragedy",
+      "level": 16,
+      "health": 40,
+      "attack": 10,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "vampire",
+      "description": "An immortal creature that feeds on blood, possesses supernatural abilities",
+      "level": 17,
+      "health": 44,
+      "attack": 11,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "sorcerer",
+      "description": "A master of arcane magic, capable of casting devastating spells",
+      "level": 19,
+      "health": 48,
+      "attack": 12,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "elemental",
+      "description": "A creature born of the elements, wielding power over fire, water, earth, or air",
+      "level": 21,
+      "health": 52,
+      "attack": 12,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "griffon",
+      "description": "A majestic creature with the body of a lion and the wings of an eagle",
+      "level": 24,
+      "health": 60,
+      "attack": 13,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "golem",
+      "description": "A construct made of stone or metal, animated by magic or ancient rituals",
+      "level": 26,
+      "health": 64,
+      "attack": 14,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "wyvern",
+      "description": "A dragon-like creature with two legs, wings, and a venomous stinger",
+      "level": 27,
+      "health": 68,
+      "attack": 14,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "manticore",
+      "description": "A fearsome creature with the body of a lion, wings of a bat, and tail of a scorpion",
+      "level": 29,
+      "health": 72,
+      "attack": 15,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "giant",
+      "description": "An enormous humanoid with incredible strength and towering presence",
+      "level": 30,
+      "health": 76,
+      "attack": 15
+
+,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "demon",
+      "description": "A malevolent entity from the depths of the netherworld, wielding dark powers",
+      "level": 32,
+      "health": 80,
+      "attack": 16,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "lich",
+      "description": "An undead sorcerer who has achieved immortality by storing their soul in a phylactery",
+      "level": 34,
+      "health": 88,
+      "attack": 17,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "dragon",
+      "description": "A powerful, fire-breathing creature with scales, wings, and a long tail",
+      "level": 35,
+      "health": 100,
+      "attack": 50,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "kraken",
+      "description": "A gigantic sea monster with multiple tentacles, capable of sinking ships",
+      "level": 36,
+      "health": 110,
+      "attack": 18,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "behemoth",
+      "description": "A colossal creature with immense strength and thick, impenetrable skin",
+      "level": 38,
+      "health": 120,
+      "attack": 19,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "phoenix",
+      "description": "A majestic bird of fire, reborn from its ashes with fiery regenerative abilities",
+      "level": 39,
+      "health": 130,
+      "attack": 20,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "leviathan",
+      "description": "A massive sea serpent with impenetrable scales, capable of causing massive tidal waves",
+      "level": 40,
+      "health": 140,
+      "attack": 21,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "titans",
+      "description": "Ancient and powerful beings of immense size and strength, capable of toppling mountains",
+      "level": 42,
+      "health": 150,
+      "attack": 22,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "elder dragon",
+      "description": "A legendary dragon of immense age and power, with wisdom and devastating breath",
+      "level": 43,
+      "health": 160,
+      "attack": 23,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "celestial being",
+      "description": "A divine entity from the heavens, radiating celestial light and possessing godlike abilities",
+      "level": 45,
+      "health": 170,
+      "attack": 24,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "demon lord",
+      "description": "A powerful ruler of the underworld, commanding legions of demons and dark forces",
+      "level": 47,
+      "health": 180,
+      "attack": 25,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "immortal",
+      "description": "A being unaffected by time and age, possessing unparalleled knowledge and abilities",
+      "level": 50,
+      "health": 200,
+      "attack": 30,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "eldritch horror",
+      "description": "A cosmic abomination from beyond the realms of existence, defying comprehension",
+      "level": 55,
+      "health": 220,
+      "attack": 35,
+      "resistance": "none",
+      "weakness": "none"
+    },
+    {
+      "name": "red dragon",
+      "description": "The epitome of draconic power, breathing fire and reigning over mountains of gold",
+      "level": 60,
+      "health": 250,
+      "attack": 40,
+      "resistance": "none",
+      "weakness": "none"
+    }
+  ]
+}

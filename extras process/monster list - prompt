@@ -1,0 +1,31 @@
+Write a comma delimited list of 40 typical fantasy monsters from weakest to strongest in a JSON format. For each monster, write name, description, level, health, attack, and any resistance or weakness they might have.  
+
+Resistances and weaknesses should be from this list: {"none","fire","ice","electricity"}. 
+If a monster is known to be resistant to a particular type of damage, they should have that resistance.
+
+If a monster is known to be vulnerable to a particular type of damage, they should have that weakness.
+
+Level = round(sqrt(health*attack)/2)
+
+A red dragon should be the strongest monster. It has health = 100 and attack = 50 and level = 35
+
+
+{ "monsters":[
+   {
+    "name":"big rat",
+    "descrip":"A filthy large rat with beady eyes and glistening teeth"
+    "level::1,
+    "health":5,
+    "attack":2,
+    "resistance":"none"
+    "weakness":"none"
+   }
+   {
+    "name":"purple slime"
+    "descrip":"An oozy, slimy, purplish blob with ill intent the size of a large dog"
+    "level::2,
+    "health":6,
+    "attack":3,
+    "resistance":"electricity"
+    "weakness":"none"
+   }
