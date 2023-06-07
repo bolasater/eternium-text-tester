@@ -1,26 +1,12 @@
-import os
 import streamlit as st
-from langchain.llms import OpenAI
-from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain, SimpleSequentialChain, SequentialChain
-from langchain.memory import ConversationBufferMemory
-from langchain.utilities import WikipediaAPIWrapper
-import json
-
-#os.environ['OPENAI_API_KEY']
-#char_tuples = [(character["personality"],character["disposition"]) for character in characters if character["name"] == quest["character"]]
-
 import json
 
 @st.cache_data
 def loadData():
-    #data = json.load(open("quests.json", 'r') )
-    #quests = json.load(open("quests.json", 'r') )["quests"]
-    quests = json.load(open("quests_dialog.json", 'r') )
-    characters = json.load(open("characters.json", 'r') )["characters"]
-    monsters = json.load(open("monsters.json", 'r') )["monsters"]
-    items = json.load(open("items.json"))["items"]
-    #[quest["title"] for quest in quests]
+    quests = json.load(open("data/quests.json", 'r') )
+    characters = json.load(open("data/characters.json", 'r') )["characters"]
+    monsters = json.load(open("data/monsters.json", 'r') )["monsters"]
+    items = json.load(open("data/items.json"))["items"]
     return (quests,characters,monsters,items)
 
 (quests,characters,monsters,items) = loadData()
