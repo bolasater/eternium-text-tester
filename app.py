@@ -42,7 +42,7 @@ def showQuest():
     monster = monsters[st.session_state.currentQuest]
     item = items[st.session_state.currentQuest]
     place = quest["place"]
-    st.header(quest["title"])
+    st.header(f'{quest["title"]} ({st.session_state.currentQuest + 1} of {questQty})')
     if place != "":
         st.subheader(f'**Location**: {quest["place"]}')
     st.write(quest["description"])
@@ -58,7 +58,7 @@ def showQuest():
     
     dialog = quest["dialog"]
     if dialog is not None:
-        with st.expander("Dialog:"):
+        with st.expander("Dialog"):
             st.markdown(dialog)
     
     with st.expander("Combat Details"):
