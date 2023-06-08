@@ -26,7 +26,6 @@ def prevClick():
         st.session_state.atEndOfQuests = False
     else:
         st.session_state.atStartOfQuests = True
-    print("prevClick")
 
 def nextClick():
     if st.session_state.currentQuest < questQty-1:
@@ -34,7 +33,6 @@ def nextClick():
         st.session_state.atStartOfQuests = False
     else:
         st.session_state.atEndOfQuests = True
-    print("nextClick")
 
 st.title('Eternium Text Adventure')
 
