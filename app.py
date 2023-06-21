@@ -13,17 +13,16 @@ def loadData():
     act2 = json.load(open(dir+"/quests/act2main.json", 'r') )["quests"]
     act3 = json.load(open(dir+"/quests/act3main.json", 'r') )["quests"]
     act4 = json.load(open(dir+"/quests/act4main.json", 'r') )["quests"]
-    #characters = json.load(open("data/characters.json", 'r') )["characters"]
     creatures = json.load(open(dir+"/creatures/creatures.json", 'r'))
     gear_categories = json.load(open(dir+"/gear/gear_categories.json","r"))
     gear_models = json.load(open(dir+"/gear/gear_models.json","r"))
     item_sets = json.load(open(dir+"/gear/item_sets.json","r"))
-    #items = json.load(open(dir+"/books/index.json"))
+    books = json.load(open(dir+"/books/index.json"))
     #return (quests,characters,monsters,items)
     quests_by_act = (act1,act2,act3,act4)
-    return (quests_by_act,creatures, gear_categories, gear_models, item_sets) #,monsters)
+    return (quests_by_act,creatures, gear_categories, gear_models, item_sets, books) #,monsters)
 
-(quests_by_act,creatures, gear_categories, gear_models, item_sets) = loadData()
+(quests_by_act,creatures, gear_categories, gear_models, item_sets,books) = loadData()
 
 if 'currentView' not in st.session_state:
     st.session_state.currentView = "quests"
@@ -55,6 +54,11 @@ def showCreature(name,data):
    with st.expander(name):
        st.write(data)
 
+def showBooks(book):
+    with st.expander(book["title"]):
+        st.write(f'by {book["auth"]}')
+        st.write(book["desc"])
+
 with st.sidebar:
     st.header('Eternium Text Tester')
     if st.button("Quests"):
@@ -78,13 +82,18 @@ match st.session_state.currentView:
             showActQuests(3)
     case "creatures":
         st.header('Creatures')
-        search_key = st.text_input("Filter by Name",help="Enter some or all of a creature's name" )
+        search_key = st.text_input("Filter by Name",help="Enter some or all of a creature's name (case sensitive)" )
         {showCreature(k,v) for (k,v) in creatures.items() if search_key in k}
     case "items":
-        tab1, tab2, tab3 = st.tabs(["Gear categories", "Gear Models", "Item Sets"])   
+        st.header('Items')
+        tab1, tab2, tab3, tab4 = st.tabs(["Gear categories", "Gear Models", "Item Sets","Books"])   
         with tab1:
             st.write(gear_categories)
         with tab2:
             st.write(gear_models)
         with tab3:
             st.write(item_sets)
+        with tab4:
+            search_key = st.text_input("Filter by content",help="searches for text in a book's information (case sensitive)" )
+            [showBooks(book) for book in books if search_key in repr(book)]
+        
