@@ -1,0 +1,84 @@
+{
+   "equipped" : [
+      {
+         "actualBudget" : 1.0,
+         "color" : -10061158,
+         "colorTexture" : "white",
+         "decalColor" : -9729115,
+         "glowColor" : -8355712,
+         "itemClass" : "Staff",
+         "itemLevel" : 1,
+         "modelVariation" : 0,
+         "name" : "Apprentice Staff",
+         "quality" : 0,
+         "slotI" : 0,
+         "slotJ" : 0,
+         "textureVariation" : "staff_icon_01",
+         "upgrades" : [ "minDamage", 4, "maxDamage", 6 ]
+      }
+   ],
+   "inventory" : [
+      {
+         "actualBudget" : 0.0,
+         "color" : -1,
+         "colorTexture" : "empty",
+         "description" : "Heals your hero and allies over time.",
+         "fixedPrice" : 10,
+         "glowColor" : -14631937,
+         "glowTexture" : "GlowSquare",
+         "itemClass" : "Food",
+         "itemLevel" : 1,
+         "levelRequirement" : 1,
+         "materialVariations" : null,
+         "metaConsumable" : true,
+         "metaEffects" : [
+            {
+               "amount" : 5.0,
+               "duration" : 10,
+               "effect" : "AddHealthRegen",
+               "name" : ""
+            }
+         ],
+         "modelVariation" : 0,
+         "name" : "Apple",
+         "quality" : 0,
+         "quantity" : 3,
+         "slotI" : 0,
+         "slotJ" : 0,
+         "textureVariation" : "apple",
+         "upgrades" : null,
+         "useVerb" : "Eat"
+      },
+      {
+         "actualBudget" : 0.0,
+         "color" : -1,
+         "colorTexture" : "empty",
+         "description" : "Restores a large amount of life instantly.",
+         "fixedPrice" : 25,
+         "glowColor" : -14631937,
+         "glowTexture" : "GlowSquare",
+         "itemClass" : "Potion",
+         "itemLevel" : 1,
+         "levelRequirement" : 1,
+         "materialVariations" : null,
+         "metaConsumable" : true,
+         "metaEffects" : [
+            {
+               "amount" : 250.0,
+               "duration" : 0,
+               "effect" : "Heal",
+               "name" : ""
+            }
+         ],
+         "modelVariation" : 0,
+         "name" : "Health Potion",
+         "quality" : 0,
+         "quantity" : 1,
+         "slotI" : 0,
+         "slotJ" : 1,
+         "textureVariation" : "health_potion",
+         "upgrades" : null,
+         "useVerb" : "Use"
+      }
+   ]
+}

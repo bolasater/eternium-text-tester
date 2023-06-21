@@ -1,0 +1,36 @@
+{
+	"type":"Sequence",
+	"id": "WalkAround",
+	"children":[
+		{
+			"type":"Selector",
+			"children":[
+				{
+					"type":"HasVar",
+					"var":"roaming_pos"
+				},
+				{
+					"type":"PickRandomPos",
+					"center":"orgPos",
+					"radius":0.5,
+					"passable":true,
+					"lineOfSight":true,
+					"output":"roaming_pos"
+				}
+			]
+		},
+		{
+			"type":"Sequence",
+			"children":[
+				{
+					"type":"WalkTo",
+					"destination":"roaming_pos"
+				},
+				{
+					"type":"DeleteVar",
+					"var":"roaming_pos"
+				}
+			]
+		}
+	]
+}

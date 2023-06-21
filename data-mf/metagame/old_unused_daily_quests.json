@@ -1,0 +1,62 @@
+[
+    {
+        "description": "Find and destroy 50 skeleton archers.", 
+        "gemsReward": 20, 
+        "itemReward": "rare", 
+        "name": "Break their bows", 
+        "params": {
+            "amount": 50, 
+            "creature_flavor": "skeleton_archer"
+        }, 
+        "questType": "UnitsKilled", 
+        "xpReward": 500
+    }, 
+    {
+        "description": "Find and destroy 50 merlok toads.", 
+        "gemsReward": 20, 
+        "itemReward": "rare", 
+        "name": "Cleanse the ponds", 
+        "params": {
+            "amount": 50, 
+            "creature_flavor": "mugrunt"
+        }, 
+        "questType": "UnitsKilled", 
+        "xpReward": 500
+    }, 
+    {
+        "description": "Destroy 100 enemies.", 
+        "gemsReward": 20, 
+        "itemReward": "rare", 
+        "name": "Keep them at bay", 
+        "params": {
+            "amount": 100, 
+            "creature_flavor": "any"
+        }, 
+        "questType": "UnitsKilled", 
+        "xpReward": 500
+    }, 
+    {
+        "description": "Find and destroy 10 elite creatures.", 
+        "gemsReward": 20, 
+        "itemReward": "rare", 
+        "name": "Elitist jerks", 
+        "params": {
+            "amount": 10, 
+            "creature_flavor": "elite"
+        }, 
+        "questType": "UnitsKilled", 
+        "xpReward": 500
+    }, 
+    {
+        "description": "Find and terminate 15 sisters of Ragadam.", 
+        "gemsReward": 20, 
+        "itemReward": "rare", 
+        "name": "Extreme prejudice", 
+        "params": {
+            "amount": 15, 
+            "creature_flavor": "sister_of_ragadam"
+        }, 
+        "questType": "UnitsKilled", 
+        "xpReward": 500
+    }
+]

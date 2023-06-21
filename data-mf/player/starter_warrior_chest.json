@@ -1,0 +1,26 @@
+{
+ "actualBudget" : 1,
+ "color" : 2141891242,
+ "colorTexture" : "armor_torso_icon_08_channels",
+ "crtFusionLevels" : 0,
+ "decalColor" : 2141891242,
+ "equippedSlot" : "chest",
+ "glowColor" : 2141891242,
+ "glowTexture" : "",
+ "itemClass" : "Heavy Tunic",
+ "itemLevel" : 1,
+ "levelRequirement" : 0,
+ "materialVariations" : [ 7, 7 ],
+ "maxFusionLevels" : 0,
+ "modelVariation" : 0,
+ "name" : "Stock Mail Vest",
+ "quality" : 0,
+ "quantity" : 1,
+ "slotI" : 3,
+ "slotJ" : 0,
+ "textureVariation" : "armor_torso_icon_08",
+ "upgrades" : [
+	"baseArmor",
+	1
+ ]
+}

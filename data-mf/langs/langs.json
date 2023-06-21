@@ -1,0 +1,116 @@
+[
+	{
+		"id": "en",
+		"name": "English",
+		"name-en" : "English",
+		"enabled" : true
+	},
+	{
+		"id": "es",
+		"name": "Español",
+		"name-en": "Spanish",
+		"enabled" : true
+	},
+	{
+		"id": "ko",
+		"name": "한국어",
+		"name-en": "Korean",
+		"enabled" : true
+	},
+	{
+		"id": "fr",
+		"name": "Français",
+		"name-en": "French",
+		"enabled" : true
+	},
+	{
+		"id": "it",
+		"name": "Italiano",
+		"name-en": "Italian",
+		"enabled" : true
+	},
+	{
+		"id": "ru",
+		"name": "Русский",
+		"name-en": "Russian",
+		"enabled" : true
+	},
+	{
+		"id": "de",
+		"name": "Deutsch",
+		"name-en": "German",
+		"enabled" : true
+	},
+	{
+		"id" : "zh-s",
+		"name" : "简体中文",
+		"name-en": "Chinese Simplified",
+		"enabled" : true
+	},
+	{
+		"id" : "zh-t",
+		"name" : "繁体中文",
+		"name-en": "Chinese Traditional",
+		"enabled" : true
+	},
+	{
+		"id": "pt",
+		"name": "Português",
+		"name-en": "Portuguese",
+		"enabled" : false
+	},
+	{
+		"id": "pt-b",
+		"name": "Português (Brasil)",
+		"name-en": "Brazilian Portuguese",
+		"enabled" : true
+	},
+	{
+		"id": "sv",
+		"name": "Svenska",
+		"name-en": "Swedish",
+		"enabled" : true
+	},
+	{
+		"id": "nl",
+		"name": "Nederlands",
+		"name-en": "Dutch",
+		"enabled" : true
+	},
+	{
+		"id": "ro",
+		"name": "Română",
+		"name-en" : "Romanian",
+		"enabled" : true
+	},
+	{
+		"id": "cs",
+		"name": "Čeština",
+		"name-en": "Czech",
+		"enabled" : true
+	},
+	{
+		"id": "pl",
+		"name": "Polski",
+		"name-en": "Polish",
+		"enabled" : true
+	},
+	{
+		"id": "ind",
+		"name": "Bahasa Indonesia",
+		"name-en": "Indonesian",
+		"enabled" : true
+	},
+	{
+		"id": "gre",
+		"name": "ελληνικά",
+		"name-en": "Greek",
+		"enabled" : true
+	},
+	{
+		"id": "jpn",
+		"name": "日本語",
+		"name-en": "Japanese",
+		"enabled" : true
+	}
+]

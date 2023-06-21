@@ -1,0 +1,18 @@
+{
+	"type":"Sequence",
+	"id":"AvoidDamage",
+	"children":[
+		{
+			"type":"Negate",
+			"node": {
+				"type":"IsImmune",
+				"creature":"self"
+			}			
+		},
+		{
+			"type":"AvoidIncomingDamage",
+			"threshold":0.02,
+			"radius":1.0
+		}
+	]
+}

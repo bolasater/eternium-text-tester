@@ -1,0 +1,72 @@
+{
+   "ambient" : [ 32, 32, 32 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Eternium Level Designer",
+      "saveTime" : "1528122174214"
+   },
+   "enemyFlavors" : null,
+   "enemySetup" : [
+      {
+         "a" : 0.0,
+         "creature" : "gruffles",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : true,
+         "x" : -2.77210,
+         "z" : 2.2470
+      }
+   ],
+   "fog" : [ 0, 0, 0 ],
+   "heroOmni" : {
+      "blue" : 0.40,
+      "green" : 0.80,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 1.0
+   },
+   "lightCol" : [ 119, 119, 119 ],
+   "lightDir" : [ -0.62470, -0.46850, 0.62470 ],
+   "props" : [
+      {
+         "gameObject" : "Door",
+         "gameObjectParams" : {
+            "closeEvent" : "",
+            "closed" : true,
+            "openEvent" : ""
+         },
+         "heading" : 0.89590,
+         "height" : -0.00450,
+         "name" : "Bamboo Fence Gate 01",
+         "scaling" : 1.55830,
+         "x" : -1.85910,
+         "y" : -0.00450,
+         "z" : 1.59460
+      },
+      {
+         "gameObject" : "AreaTrigger",
+         "gameObjectParams" : {
+            "enterEvent" : "EnterArea",
+            "leaveEvent" : "LeaveArea",
+            "triggerOnce" : true,
+            "triggerRadius" : 0.40
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.01810,
+         "y" : 0.0,
+         "z" : 0.76280
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : null,
+   "startPosition" : [ 0.84680, 0.81040 ],
+   "tint" : [ 128, 128, 128, 0 ],
+   "title" : "",
+   "weather" : null
+}

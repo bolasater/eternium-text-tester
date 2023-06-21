@@ -1,0 +1,2568 @@
+{
+   "ambient" : [ 64, 48, 32 ],
+   "enemySetup" : [
+      {
+         "a" : 5.48520,
+         "creature" : "gorgona",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : true,
+         "x" : -4.54630,
+         "z" : 4.690
+      },
+      {
+         "a" : 5.7070,
+         "creature" : "boris_orc",
+         "eliteAbility0" : "monster_charge",
+         "eliteAbility1" : "enrage",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -3.18370,
+         "z" : 3.18080
+      },
+      {
+         "a" : 5.7070,
+         "creature" : "boris_orc",
+         "eliteAbility0" : "monster_charge",
+         "eliteAbility1" : "enrage",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -3.31030,
+         "z" : 2.9680
+      },
+      {
+         "a" : 5.7070,
+         "creature" : "boris_orc",
+         "eliteAbility0" : "monster_charge",
+         "eliteAbility1" : "enrage",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -3.51310,
+         "z" : 2.86050
+      },
+      {
+         "a" : 5.05260,
+         "creature" : "ritual_healer",
+         "eliteAbility0" : "regen_aura",
+         "eliteAbility1" : "regen_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -3.33870,
+         "z" : 3.39850
+      },
+      {
+         "a" : 5.05260,
+         "creature" : "ritual_healer",
+         "eliteAbility0" : "regen_aura",
+         "eliteAbility1" : "regen_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -3.47660,
+         "z" : 3.23640
+      },
+      {
+         "a" : 5.05260,
+         "creature" : "ritual_healer",
+         "eliteAbility0" : "regen_aura",
+         "eliteAbility1" : "regen_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -3.60150,
+         "z" : 3.10060
+      },
+      {
+         "a" : 5.33640,
+         "creature" : "lich",
+         "eliteAbility0" : "rev_blink",
+         "eliteAbility1" : "rapidfire",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -3.33510,
+         "z" : 3.18320
+      },
+      {
+         "a" : 5.33640,
+         "creature" : "lich",
+         "eliteAbility0" : "rev_blink",
+         "eliteAbility1" : "rapidfire",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -3.46730,
+         "z" : 3.06020
+      }
+   ],
+   "fog" : [ 112, 144, 238 ],
+   "heroOmni" : {
+      "blue" : 0.12550,
+      "green" : 0.18820,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 0.2510
+   },
+   "lightCol" : [ 128, 64, 32 ],
+   "lightDir" : [ -0.32140, -0.3420, 0.8830 ],
+   "props" : [
+      {
+         "heading" : 0.05930,
+         "height" : 0.00090,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.440,
+         "x" : -3.75310,
+         "y" : 0.04530,
+         "z" : 4.82690
+      },
+      {
+         "heading" : -0.20170,
+         "height" : 0.00390,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.36140,
+         "x" : -3.90410,
+         "y" : 0.04750,
+         "z" : 5.12750
+      },
+      {
+         "heading" : -1.40640,
+         "height" : 0.00120,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.4150,
+         "x" : -3.83190,
+         "y" : 0.04850,
+         "z" : 5.01070
+      },
+      {
+         "heading" : -3.020,
+         "height" : -0.00120,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.25650,
+         "x" : -4.23470,
+         "y" : 0.04880,
+         "z" : 5.45660
+      },
+      {
+         "heading" : -4.06420,
+         "height" : -0.00010,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.09270,
+         "x" : -4.13510,
+         "y" : 0.05160,
+         "z" : 5.35870
+      },
+      {
+         "heading" : -4.36680,
+         "height" : 0.00040,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.10940,
+         "x" : -4.00010,
+         "y" : 0.04650,
+         "z" : 5.27040
+      },
+      {
+         "heading" : -1.70280,
+         "height" : 0.00080,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.48420,
+         "x" : -4.63910,
+         "y" : 0.04370,
+         "z" : 5.47860
+      },
+      {
+         "heading" : 0.67040,
+         "height" : 0.01250,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.43120,
+         "x" : -4.95190,
+         "y" : 0.06320000000000001,
+         "z" : 5.35260
+      },
+      {
+         "heading" : 0.05930,
+         "height" : 0.00350,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -5.24050,
+         "y" : 0.03160,
+         "z" : 5.13750
+      },
+      {
+         "heading" : 0.38570,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.60340,
+         "x" : -4.39160,
+         "y" : 0.05440,
+         "z" : 5.46590
+      },
+      {
+         "heading" : -2.40290,
+         "height" : 0.00180,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.38150,
+         "x" : -4.83820,
+         "y" : 0.03730,
+         "z" : 5.53850
+      },
+      {
+         "heading" : -1.07390,
+         "height" : 0.00440,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.80670,
+         "x" : -5.07120,
+         "y" : 0.04490,
+         "z" : 5.32660
+      },
+      {
+         "heading" : -0.58740,
+         "height" : -0.00170,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.44480,
+         "x" : -5.11010,
+         "y" : 0.03280,
+         "z" : 5.13110
+      },
+      {
+         "heading" : -1.47740,
+         "height" : 0.00080,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.73970,
+         "x" : -4.75310,
+         "y" : 0.0470,
+         "z" : 5.36740
+      },
+      {
+         "heading" : -2.43260,
+         "height" : 0.0005999999999999999,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.28410,
+         "x" : -4.30780,
+         "y" : 0.05920,
+         "z" : 5.33270
+      },
+      {
+         "heading" : -3.12080,
+         "height" : 0.0020,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.30680,
+         "x" : -4.08730,
+         "y" : 0.05350,
+         "z" : 5.130
+      },
+      {
+         "heading" : 1.26970,
+         "height" : -0.00070,
+         "name" : "Round Desert Column 02",
+         "scaling" : 1.0,
+         "x" : -4.65370,
+         "y" : 0.0470,
+         "z" : 5.23590
+      },
+      {
+         "heading" : 1.35280,
+         "height" : 0.00020,
+         "name" : "Round Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -4.97780,
+         "y" : 0.04410,
+         "z" : 4.94780
+      },
+      {
+         "heading" : 0.8010,
+         "height" : 0.00520,
+         "name" : "Square Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -3.83320,
+         "y" : 0.03530,
+         "z" : 4.04440
+      },
+      {
+         "heading" : 0.8010,
+         "height" : -0.00510,
+         "name" : "Square Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -4.06740,
+         "y" : 0.01840,
+         "z" : 3.85350
+      },
+      {
+         "heading" : 0.8010,
+         "height" : -0.02330,
+         "name" : "Square Desert Column 02",
+         "scaling" : 1.0,
+         "x" : -4.1940,
+         "y" : 0.01470,
+         "z" : 3.96560
+      },
+      {
+         "heading" : 0.8010,
+         "height" : -0.0140,
+         "name" : "Square Desert Column 03",
+         "scaling" : 1.0,
+         "x" : -4.33220,
+         "y" : 0.040,
+         "z" : 4.10090
+      },
+      {
+         "heading" : 0.8010,
+         "height" : 0.01150,
+         "name" : "Square Desert Column 03",
+         "scaling" : 1.0,
+         "x" : -3.97640,
+         "y" : 0.05210,
+         "z" : 4.17860
+      },
+      {
+         "heading" : 0.8010,
+         "height" : -0.01680,
+         "name" : "Square Desert Column 02",
+         "scaling" : 1.0,
+         "x" : -4.12380,
+         "y" : 0.0320,
+         "z" : 4.32760
+      },
+      {
+         "heading" : 0.7000999999999999,
+         "height" : -0.009599999999999999,
+         "name" : "entrance",
+         "scaling" : 1.0,
+         "x" : -4.27430,
+         "y" : 0.06110,
+         "z" : 4.96120
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.30830,
+         "height" : -0.00560,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.40,
+            "col_green" : 0.70,
+            "col_red" : 1.40,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -3.98420,
+         "y" : 0.05050,
+         "z" : 4.93290
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -0.12460,
+         "height" : -0.00250,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.40,
+            "col_green" : 0.70,
+            "col_red" : 1.40,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -5.31380,
+         "y" : 0.03620,
+         "z" : 4.76930
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -0.30720,
+         "height" : -0.00420,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.40,
+            "col_green" : 0.70,
+            "col_red" : 1.40,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -4.74260,
+         "y" : 0.03610,
+         "z" : 3.86730
+      },
+      {
+         "heading" : 0.38570,
+         "height" : 0.008800000000000001,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -5.1180,
+         "y" : 0.03560,
+         "z" : 4.00710
+      },
+      {
+         "heading" : 0.36790,
+         "height" : 0.00360,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -5.38790,
+         "y" : 0.03220,
+         "z" : 4.51260
+      },
+      {
+         "heading" : 1.12730,
+         "height" : -0.00110,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -3.65170,
+         "y" : 0.02990,
+         "z" : 4.21970
+      },
+      {
+         "heading" : 0.47050,
+         "height" : 0.00360,
+         "name" : "Palm Tree 02",
+         "scaling" : 0.9068000000000001,
+         "x" : -4.59190,
+         "y" : 0.03720,
+         "z" : 3.76630
+      },
+      {
+         "heading" : 2.20870,
+         "height" : 0.03140,
+         "name" : "Very Long Stone Bridge",
+         "scaling" : 1.28470,
+         "x" : -3.76830,
+         "y" : 0.03140,
+         "z" : 3.71480
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.7272999999999999,
+         "x" : -4.5860,
+         "y" : 0.05960,
+         "z" : 4.16460
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.57980,
+         "x" : -4.87820,
+         "y" : 0.04270,
+         "z" : 5.10190
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.54610,
+         "x" : -4.04750,
+         "y" : 0.06650,
+         "z" : 4.56580
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.6290,
+         "x" : -4.28110,
+         "y" : 0.06640,
+         "z" : 5.10160
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.68710,
+         "x" : -5.06770,
+         "y" : 0.05940,
+         "z" : 4.53120
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 03",
+         "scaling" : 1.0,
+         "x" : -4.58190,
+         "y" : 0.05930,
+         "z" : 4.1610
+      },
+      {
+         "heading" : 0.44760,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 03",
+         "scaling" : 1.02430,
+         "x" : -5.05510,
+         "y" : 0.06070,
+         "z" : 4.54220
+      },
+      {
+         "heading" : -0.02910,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 03",
+         "scaling" : 1.03230,
+         "x" : -4.8710,
+         "y" : 0.04280,
+         "z" : 5.10810
+      },
+      {
+         "heading" : 0.63350,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 03",
+         "scaling" : 1.0,
+         "x" : -4.27770,
+         "y" : 0.06640,
+         "z" : 5.10170
+      },
+      {
+         "heading" : 1.41820,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 03",
+         "scaling" : 1.0,
+         "x" : -4.04440,
+         "y" : 0.06640,
+         "z" : 4.56420
+      },
+      {
+         "gameObject" : "AreaTrigger",
+         "gameObjectParams" : {
+            "enterEvent" : "RitualCenter",
+            "leaveEvent" : "LeaveArea",
+            "triggerOnce" : true,
+            "triggerRadius" : 0.050
+         },
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 0.68160,
+         "x" : -4.55180,
+         "y" : 0.07120,
+         "z" : 4.70790
+      },
+      {
+         "gameObject" : "AreaTrigger",
+         "gameObjectParams" : {
+            "enterEvent" : "RitualHealer",
+            "leaveEvent" : "LeaveArea",
+            "triggerOnce" : true,
+            "triggerRadius" : 0.050
+         },
+         "heading" : 0.0,
+         "height" : 0.0020,
+         "name" : "Dummy",
+         "scaling" : 0.68160,
+         "x" : -4.5810,
+         "y" : 0.06150,
+         "z" : 4.16280
+      },
+      {
+         "gameObject" : "AreaTrigger",
+         "gameObjectParams" : {
+            "enterEvent" : "RitualHealer",
+            "leaveEvent" : "LeaveArea",
+            "triggerOnce" : true,
+            "triggerRadius" : 0.050
+         },
+         "heading" : 0.0,
+         "height" : 0.01310,
+         "name" : "Dummy",
+         "scaling" : 0.68160,
+         "x" : -5.0590,
+         "y" : 0.07380,
+         "z" : 4.54380
+      },
+      {
+         "gameObject" : "AreaTrigger",
+         "gameObjectParams" : {
+            "enterEvent" : "RitualHealer",
+            "leaveEvent" : "LeaveArea",
+            "triggerOnce" : true,
+            "triggerRadius" : 0.050
+         },
+         "heading" : 0.0,
+         "height" : 0.02610,
+         "name" : "Dummy",
+         "scaling" : 0.68160,
+         "x" : -4.87820,
+         "y" : 0.06840,
+         "z" : 5.12150
+      },
+      {
+         "gameObject" : "AreaTrigger",
+         "gameObjectParams" : {
+            "enterEvent" : "RitualHealer",
+            "leaveEvent" : "LeaveArea",
+            "triggerOnce" : true,
+            "triggerRadius" : 0.050
+         },
+         "heading" : 0.0,
+         "height" : 0.03540,
+         "name" : "Dummy",
+         "scaling" : 0.68160,
+         "x" : -4.28490,
+         "y" : 0.10190,
+         "z" : 5.0980
+      },
+      {
+         "gameObject" : "AreaTrigger",
+         "gameObjectParams" : {
+            "enterEvent" : "RitualHealer",
+            "leaveEvent" : "LeaveArea",
+            "triggerOnce" : true,
+            "triggerRadius" : 0.050
+         },
+         "heading" : 0.0,
+         "height" : 0.02720,
+         "name" : "Dummy",
+         "scaling" : 0.68160,
+         "x" : -4.04620,
+         "y" : 0.09379999999999999,
+         "z" : 4.5670
+      },
+      {
+         "heading" : 2.37370,
+         "height" : 0.03610,
+         "name" : "Very Long Stone Bridge",
+         "scaling" : 1.2410,
+         "x" : -2.53620,
+         "y" : 0.03610,
+         "z" : 2.21370
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall Gate 01 Open",
+         "scaling" : 1.0,
+         "x" : -1.89010,
+         "y" : 0.03450,
+         "z" : 1.62520
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -2.16630,
+         "y" : 0.040,
+         "z" : 1.3490
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -2.16630,
+         "y" : 0.040,
+         "z" : 1.3490
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.89010,
+         "y" : 0.040,
+         "z" : 1.07280
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.89010,
+         "y" : 0.040,
+         "z" : 1.07280
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -2.44250,
+         "y" : 0.04230,
+         "z" : 1.62520
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.61380,
+         "y" : 0.040,
+         "z" : 1.90150
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.61380,
+         "y" : 0.02840,
+         "z" : 2.45390
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.89010,
+         "y" : 0.040,
+         "z" : 0.52040
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.33760,
+         "y" : 0.04620,
+         "z" : 2.17770
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.06140,
+         "y" : 0.04250,
+         "z" : 1.90150
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.06140,
+         "y" : 0.04250,
+         "z" : 1.90150
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.78520,
+         "y" : 0.040,
+         "z" : 1.62530
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.78520,
+         "y" : 0.04690,
+         "z" : 2.17770
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -2.16630,
+         "y" : 0.04160,
+         "z" : 0.79660
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.89010,
+         "y" : 0.040,
+         "z" : 0.52040
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.61380,
+         "y" : 0.040,
+         "z" : 0.24420
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.06140,
+         "y" : 0.040,
+         "z" : -0.30820
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.78520,
+         "y" : 0.040,
+         "z" : -0.58450
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.5090,
+         "y" : 0.04550,
+         "z" : 1.90150
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.23280,
+         "y" : 0.04480,
+         "z" : 1.62530
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.31960,
+         "y" : 0.04080,
+         "z" : 1.07280
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.59590,
+         "y" : 0.04150,
+         "z" : 0.79660
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.59590,
+         "y" : 0.04240,
+         "z" : 0.24420
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.31960,
+         "y" : 0.040,
+         "z" : -0.0320
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.5090,
+         "y" : 0.04170,
+         "z" : -0.86070
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.23280,
+         "y" : 0.040,
+         "z" : -0.58450
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall Gate 01 Open",
+         "scaling" : 1.0,
+         "x" : 0.04340,
+         "y" : 0.040,
+         "z" : -0.30820
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.78520,
+         "y" : 0.040,
+         "z" : -0.58450
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.59590,
+         "y" : 0.04150,
+         "z" : 0.79660
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.04340,
+         "y" : 0.04350,
+         "z" : 1.3490
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.23280,
+         "y" : 0.04480,
+         "z" : 1.62530
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.61380,
+         "y" : 0.040,
+         "z" : 0.24420
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.33760,
+         "y" : 0.03760,
+         "z" : -0.0320
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.23280,
+         "y" : 0.03450,
+         "z" : -0.0320
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.04340,
+         "y" : 0.040,
+         "z" : 0.24420
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.89010,
+         "y" : 0.04460,
+         "z" : 2.17770
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -2.16630,
+         "y" : 0.04030,
+         "z" : 1.90150
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.23280,
+         "y" : 0.040,
+         "z" : -0.58450
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.04340,
+         "y" : 0.040,
+         "z" : -0.86070
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.59590,
+         "y" : 0.04240,
+         "z" : 0.24420
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.87210,
+         "y" : 0.04350,
+         "z" : -0.0320
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.14830,
+         "y" : 0.04310,
+         "z" : -0.30820
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.31960,
+         "y" : 0.040,
+         "z" : -1.13690
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.14830,
+         "y" : 0.04320,
+         "z" : -0.86070
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.59590,
+         "y" : 0.04260,
+         "z" : -1.41310
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Stone Wall Gate 01 Open",
+         "scaling" : 1.0,
+         "x" : 0.87210,
+         "y" : 0.04180,
+         "z" : -1.13690
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.31960,
+         "y" : 0.040,
+         "z" : -1.13690
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : 1.14830,
+         "y" : 0.04310,
+         "z" : -0.30820
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.87210,
+         "y" : 0.040,
+         "z" : -0.58450
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.59590,
+         "y" : 0.040,
+         "z" : -0.86070
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.31960,
+         "y" : 0.040,
+         "z" : 0.52040
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.5090,
+         "y" : 0.040,
+         "z" : -0.30820
+      },
+      {
+         "heading" : 5.5330,
+         "height" : -0.00090,
+         "name" : "Well 01",
+         "scaling" : 0.56930,
+         "x" : -0.7000999999999999,
+         "y" : 0.03910,
+         "z" : 1.13760
+      },
+      {
+         "heading" : 8.62190,
+         "height" : 0.0,
+         "name" : "Signpost 01",
+         "scaling" : 0.54230,
+         "x" : -0.76310,
+         "y" : 0.03970,
+         "z" : 0.77160
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Stone House Outer 03",
+         "scaling" : 0.71530,
+         "x" : -0.5880,
+         "y" : 0.040,
+         "z" : 1.47740
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Stone House Outer 02",
+         "scaling" : 0.71530,
+         "x" : -0.78560,
+         "y" : 0.040,
+         "z" : 1.6750
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Stone House Outer 06",
+         "scaling" : 0.71530,
+         "x" : -0.39040,
+         "y" : 0.040,
+         "z" : 1.27980
+      },
+      {
+         "heading" : 6.29430,
+         "name" : "Autumn Tree 02",
+         "scaling" : 0.69180,
+         "x" : -1.61120,
+         "y" : 0.040,
+         "z" : 1.92230
+      },
+      {
+         "heading" : 5.55620,
+         "name" : "Autumn Tree 03",
+         "scaling" : 0.69180,
+         "x" : -1.27330,
+         "y" : 0.040,
+         "z" : 1.5420
+      },
+      {
+         "heading" : 6.11990,
+         "name" : "Autumn Tree 03",
+         "scaling" : 0.69180,
+         "x" : -2.20,
+         "y" : 0.040,
+         "z" : 1.34250
+      },
+      {
+         "heading" : 4.66110,
+         "name" : "Autumn Tree 03",
+         "scaling" : 0.69180,
+         "x" : 0.05740,
+         "y" : 0.040,
+         "z" : 0.7110
+      },
+      {
+         "heading" : 3.92870,
+         "name" : "Autumn Tree 02",
+         "scaling" : 0.69180,
+         "x" : 0.3480,
+         "y" : 0.040,
+         "z" : 0.48790
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Gate 01 Closed",
+         "scaling" : 1.0,
+         "x" : 0.04340,
+         "y" : 0.04350,
+         "z" : 1.3490
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Stone Wall Gate 01 Closed",
+         "scaling" : 1.0,
+         "x" : -1.33760,
+         "y" : 0.03760,
+         "z" : -0.0320
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 8.63940,
+         "name" : "Wall Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.74880,
+         "y" : 0.040,
+         "z" : -0.21090
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 10.21020,
+         "name" : "Wall Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 0.30
+         },
+         "scaling" : 1.0,
+         "x" : -0.2090,
+         "y" : 0.040,
+         "z" : -0.33130
+      },
+      {
+         "heading" : 0.84280,
+         "name" : "Crate 01",
+         "scaling" : 1.34720,
+         "x" : 0.32620,
+         "y" : 0.040,
+         "z" : 0.12690
+      },
+      {
+         "heading" : 0.47080,
+         "name" : "Crate 01",
+         "scaling" : 1.58810,
+         "x" : 0.3770,
+         "y" : 0.040,
+         "z" : 0.03960
+      },
+      {
+         "heading" : 0.62770,
+         "name" : "Crate 02",
+         "scaling" : 1.53960,
+         "x" : 0.26120,
+         "y" : 0.040,
+         "z" : 0.03720
+      },
+      {
+         "heading" : 0.92420,
+         "name" : "Crate 01",
+         "scaling" : 1.58810,
+         "x" : -0.25830,
+         "y" : 0.040,
+         "z" : -0.45860
+      },
+      {
+         "heading" : 0.92420,
+         "name" : "Straw Basket 01",
+         "scaling" : 1.58810,
+         "x" : -0.32080,
+         "y" : 0.040,
+         "z" : -0.54970
+      },
+      {
+         "heading" : 0.72650,
+         "name" : "Chair 03",
+         "scaling" : 0.8770,
+         "x" : 0.9090,
+         "y" : 0.040,
+         "z" : -0.45610
+      },
+      {
+         "heading" : 0.72650,
+         "name" : "Table 01",
+         "scaling" : 1.22660,
+         "x" : 0.84110,
+         "y" : 0.040,
+         "z" : -0.3860
+      },
+      {
+         "heading" : 4.36330,
+         "name" : "Chair 03",
+         "scaling" : 0.8770,
+         "x" : 0.75280,
+         "y" : 0.040,
+         "z" : -0.32280
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Barrel 01",
+         "scaling" : 1.0,
+         "x" : 1.01430,
+         "y" : 0.040,
+         "z" : -0.55630
+      },
+      {
+         "heading" : 2.37730,
+         "name" : "Closet 01",
+         "scaling" : 0.86280,
+         "x" : 0.49720,
+         "y" : 0.040,
+         "z" : -0.02480
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 8.63940,
+         "height" : -0.0010,
+         "name" : "Wall Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.01180,
+         "y" : 0.0390,
+         "z" : 1.05680
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 10.21020,
+         "height" : 0.00150,
+         "name" : "Wall Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -1.87070,
+         "y" : 0.04190,
+         "z" : 1.87620
+      },
+      {
+         "heading" : 10.21020,
+         "height" : -0.00150,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -1.0990,
+         "y" : 0.03850,
+         "z" : 0.49230
+      },
+      {
+         "heading" : 8.63940,
+         "height" : -0.00550,
+         "name" : "Stone House Outer 02",
+         "scaling" : 0.71530,
+         "x" : -0.43010,
+         "y" : 0.03450,
+         "z" : -0.27930
+      },
+      {
+         "heading" : 8.63940,
+         "height" : -0.00550,
+         "name" : "Stone House Outer 03",
+         "scaling" : 0.71530,
+         "x" : -0.62770,
+         "y" : 0.03450,
+         "z" : -0.08169999999999999
+      },
+      {
+         "heading" : 8.63940,
+         "height" : -0.00550,
+         "name" : "Stone House Outer 04",
+         "scaling" : 0.71530,
+         "x" : -0.82530,
+         "y" : 0.03450,
+         "z" : 0.11590
+      },
+      {
+         "heading" : 10.21020,
+         "height" : -0.00550,
+         "name" : "Stone House Outer 03",
+         "scaling" : 0.71530,
+         "x" : -1.22040,
+         "y" : 0.03450,
+         "z" : -0.27930
+      },
+      {
+         "heading" : 10.21020,
+         "height" : -0.00550,
+         "name" : "Stone House Outer 02",
+         "scaling" : 0.71530,
+         "x" : -1.02290,
+         "y" : 0.03450,
+         "z" : -0.08169999999999999
+      },
+      {
+         "heading" : 2.35620,
+         "height" : 0.0,
+         "name" : "Closet 01",
+         "scaling" : 0.7290,
+         "x" : -0.80460,
+         "y" : 0.040,
+         "z" : 0.1830
+      },
+      {
+         "heading" : 2.35620,
+         "height" : 0.00230,
+         "name" : "Closet 03",
+         "scaling" : 0.7290,
+         "x" : -0.72640,
+         "y" : 0.04230,
+         "z" : 0.10050
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.00230,
+         "name" : "Bookcase 01",
+         "scaling" : 0.7290,
+         "x" : -1.18290,
+         "y" : 0.04230,
+         "z" : -0.15080
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.00230,
+         "name" : "Table 04",
+         "scaling" : 0.82590,
+         "x" : -0.80630,
+         "y" : 0.04230,
+         "z" : -0.50590
+      },
+      {
+         "heading" : 4.59540,
+         "height" : 0.00230,
+         "name" : "Chair 03",
+         "scaling" : 0.82590,
+         "x" : -0.90420,
+         "y" : 0.04230,
+         "z" : -0.5050
+      },
+      {
+         "heading" : 6.80680,
+         "height" : 0.00230,
+         "name" : "Chair 03",
+         "scaling" : 0.82590,
+         "x" : -0.76190,
+         "y" : 0.04230,
+         "z" : -0.59130
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 8.63940,
+         "height" : -0.00240,
+         "name" : "Wall Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 0.7949000000000001,
+         "x" : -0.44750,
+         "y" : 0.03760,
+         "z" : -0.11210
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 10.12290,
+         "name" : "Wall Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.8970,
+         "y" : 0.040,
+         "z" : -0.88410
+      },
+      {
+         "heading" : 0.63350,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.80750,
+         "x" : 0.63730,
+         "y" : 0.04520,
+         "z" : 0.9864000000000001
+      },
+      {
+         "heading" : 6.10870,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.0,
+         "x" : 0.43350,
+         "y" : 0.04520,
+         "z" : 1.20130
+      },
+      {
+         "heading" : 6.10870,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.0,
+         "x" : 0.61580,
+         "y" : 0.04460,
+         "z" : 1.28430
+      },
+      {
+         "heading" : 7.05610,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -0.0470,
+         "y" : 0.04390,
+         "z" : 1.52620
+      },
+      {
+         "heading" : 7.55010,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -1.04810,
+         "y" : 0.04280,
+         "z" : 1.91890
+      },
+      {
+         "heading" : 9.200799999999999,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -0.36890,
+         "y" : 0.04690,
+         "z" : 1.8810
+      },
+      {
+         "heading" : 7.96280,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -1.78050,
+         "y" : 0.0450,
+         "z" : 2.26020
+      },
+      {
+         "heading" : 7.05610,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -1.93880,
+         "y" : 0.04570,
+         "z" : 0.09080000000000001
+      },
+      {
+         "heading" : 7.46870,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -2.11740,
+         "y" : 0.04320,
+         "z" : 0.80080
+      },
+      {
+         "heading" : 7.46870,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -2.38420,
+         "y" : 0.0430,
+         "z" : 1.10260
+      },
+      {
+         "heading" : 7.46870,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -1.16790,
+         "y" : 0.04420,
+         "z" : -0.67960
+      },
+      {
+         "heading" : 7.46870,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -0.42270,
+         "y" : 0.04450,
+         "z" : -0.89830
+      },
+      {
+         "heading" : 8.75910,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -1.69480,
+         "y" : 0.04950,
+         "z" : -0.35660
+      },
+      {
+         "heading" : 9.4740,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : 0.55130,
+         "y" : 0.04470,
+         "z" : 0.20960
+      },
+      {
+         "heading" : 10.31680,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : 0.98380,
+         "y" : 0.0460,
+         "z" : -0.09880
+      },
+      {
+         "heading" : 9.70650,
+         "height" : -0.00120,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : 1.35270,
+         "y" : 0.04390,
+         "z" : -0.59910
+      },
+      {
+         "heading" : 9.229799999999999,
+         "height" : 0.00070,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : 0.39160,
+         "y" : 0.04540,
+         "z" : -1.65570
+      },
+      {
+         "heading" : 9.8750,
+         "height" : -0.00030,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.0,
+         "x" : 0.58280,
+         "y" : 0.04520,
+         "z" : -1.5280
+      },
+      {
+         "heading" : 9.479799999999999,
+         "height" : 0.00660,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.0,
+         "x" : 0.05990,
+         "y" : 0.05170,
+         "z" : -1.43860
+      },
+      {
+         "heading" : 8.49170,
+         "height" : -0.00210,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.0,
+         "x" : 1.58540,
+         "y" : 0.04010,
+         "z" : -0.90790
+      },
+      {
+         "heading" : 6.04470,
+         "height" : -0.00320,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -0.1910,
+         "y" : 0.04250,
+         "z" : -1.22830
+      },
+      {
+         "heading" : 4.77180,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -0.49210,
+         "y" : 0.05020,
+         "z" : -1.2990
+      },
+      {
+         "heading" : 8.88110,
+         "height" : 0.00240,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.53110,
+         "x" : 0.84310,
+         "y" : 0.04970,
+         "z" : 0.17970
+      },
+      {
+         "heading" : 8.88110,
+         "height" : 0.00240,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.53110,
+         "x" : 1.15930,
+         "y" : 0.04370,
+         "z" : 0.09680
+      },
+      {
+         "heading" : 5.78320,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.0,
+         "x" : 0.19790,
+         "y" : 0.04340,
+         "z" : 1.21330
+      },
+      {
+         "heading" : 5.78320,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.0,
+         "x" : -0.5659999999999999,
+         "y" : 0.04550,
+         "z" : 1.99810
+      },
+      {
+         "heading" : 8.311500000000001,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -0.13140,
+         "y" : 0.04360,
+         "z" : 2.09840
+      },
+      {
+         "heading" : 6.64340,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -1.36580,
+         "y" : 0.04670,
+         "z" : 2.31420
+      },
+      {
+         "heading" : 6.64340,
+         "height" : 0.00050,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.7440,
+         "x" : -1.2090,
+         "y" : 0.04740,
+         "z" : 2.10930
+      },
+      {
+         "heading" : 6.64340,
+         "height" : 0.00050,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.7440,
+         "x" : -1.06460,
+         "y" : 0.04660,
+         "z" : 2.44210
+      },
+      {
+         "heading" : 6.23650,
+         "height" : 0.00240,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.0,
+         "x" : -2.41830,
+         "y" : 0.04840,
+         "z" : 0.83290
+      },
+      {
+         "heading" : 7.92790,
+         "height" : 0.00240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0,
+         "x" : -2.2030,
+         "y" : 0.04910,
+         "z" : 0.24190
+      },
+      {
+         "heading" : 1.12730,
+         "height" : 0.00170,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -3.41210,
+         "y" : 0.04820,
+         "z" : 3.60530
+      },
+      {
+         "heading" : 1.12730,
+         "height" : 0.0630,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -2.68150,
+         "y" : 0.09440,
+         "z" : 3.30260
+      },
+      {
+         "heading" : 1.55740,
+         "height" : -0.00040,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -3.03930,
+         "y" : 0.04910,
+         "z" : 3.51440
+      },
+      {
+         "heading" : 1.55740,
+         "height" : -0.00070,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -2.70540,
+         "y" : 0.03250,
+         "z" : 2.6590
+      },
+      {
+         "heading" : 1.55740,
+         "height" : 0.01630,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -3.23340,
+         "y" : 0.0440,
+         "z" : 1.95790
+      },
+      {
+         "heading" : 1.55740,
+         "height" : 0.0020,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -3.80680,
+         "y" : 0.03220,
+         "z" : 2.26460
+      },
+      {
+         "heading" : 1.17960,
+         "height" : -0.0010,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -3.77340,
+         "y" : 0.02880,
+         "z" : 3.39890
+      },
+      {
+         "heading" : 0.74370,
+         "height" : -0.00040,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.04480,
+         "x" : -3.90210,
+         "y" : 0.02940,
+         "z" : 3.08680
+      },
+      {
+         "heading" : 0.07530000000000001,
+         "height" : 0.01220,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.04480,
+         "x" : -3.96160,
+         "y" : 0.0430,
+         "z" : 2.56880
+      },
+      {
+         "heading" : 2.63270,
+         "height" : -0.00410,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.14080,
+         "x" : -3.94710,
+         "y" : 0.02870,
+         "z" : 2.71280
+      },
+      {
+         "heading" : 1.55740,
+         "height" : -0.00120,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.04480,
+         "x" : -2.6380,
+         "y" : 0.02880,
+         "z" : 3.08080
+      },
+      {
+         "heading" : 2.49320,
+         "height" : -0.00090,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.04480,
+         "x" : -2.8750,
+         "y" : 0.03370,
+         "z" : 3.3290
+      },
+      {
+         "heading" : 1.12730,
+         "height" : 0.00490,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.04480,
+         "x" : -3.26040,
+         "y" : 0.04910,
+         "z" : 3.52460
+      },
+      {
+         "heading" : 0.52360,
+         "height" : -0.010,
+         "name" : "Square Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -2.99110,
+         "y" : 0.02320,
+         "z" : 3.38320
+      },
+      {
+         "heading" : 1.04720,
+         "height" : -0.00660,
+         "name" : "Square Desert Column 02",
+         "scaling" : 1.0,
+         "x" : -3.01830,
+         "y" : 0.02530,
+         "z" : 2.1220
+      },
+      {
+         "heading" : 1.54130,
+         "height" : -0.01030,
+         "name" : "Square Desert Column 03",
+         "scaling" : 1.0,
+         "x" : -3.54270,
+         "y" : 0.02630,
+         "z" : 2.21930
+      },
+      {
+         "heading" : 2.13990,
+         "height" : -0.00360,
+         "name" : "Square Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -3.82410,
+         "y" : 0.02470,
+         "z" : 3.2610
+      },
+      {
+         "heading" : 0.52360,
+         "height" : -0.02070,
+         "name" : "Square Desert Column 02",
+         "scaling" : 1.0,
+         "x" : -3.52740,
+         "y" : 0.01040,
+         "z" : 3.60480
+      },
+      {
+         "heading" : 0.25620,
+         "height" : -0.00680,
+         "name" : "Square Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -2.72410,
+         "y" : 0.02910,
+         "z" : 2.8860
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.55240,
+         "height" : -0.00140,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.40,
+            "col_green" : 0.70,
+            "col_red" : 1.40,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -2.94990,
+         "y" : 0.04250,
+         "z" : 3.10950
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.51750,
+         "height" : -0.00120,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.40,
+            "col_green" : 0.70,
+            "col_red" : 1.40,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -3.63770,
+         "y" : 0.0430,
+         "z" : 2.50770
+      },
+      {
+         "heading" : 2.8710,
+         "height" : -0.00180,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.30860,
+         "x" : -2.93090,
+         "y" : 0.03810,
+         "z" : 3.48680
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 3.91180,
+         "height" : 0.0,
+         "name" : "Chest 02",
+         "scaling" : 0.72590,
+         "x" : -0.91830,
+         "y" : 0.040,
+         "z" : 0.09680
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 2.35980,
+         "name" : "Chest 02",
+         "scaling" : 0.72590,
+         "x" : -1.11430,
+         "y" : 0.040,
+         "z" : 1.56630
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 3.94080,
+         "name" : "Chest 02",
+         "scaling" : 0.72590,
+         "x" : 0.17390,
+         "y" : 0.040,
+         "z" : -0.01940
+      },
+      {
+         "heading" : 9.15760,
+         "height" : -0.0005999999999999999,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.08850,
+         "x" : 2.59830,
+         "y" : 0.04940,
+         "z" : -1.27160
+      },
+      {
+         "heading" : 9.348699999999999,
+         "height" : 0.00150,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.0570,
+         "x" : 2.85770,
+         "y" : 0.0530,
+         "z" : -1.93720
+      },
+      {
+         "heading" : 9.82940,
+         "height" : -0.00150,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.91770,
+         "x" : 2.73750,
+         "y" : 0.05160,
+         "z" : -1.57640
+      },
+      {
+         "heading" : 10.77910,
+         "height" : -0.00080,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.99890,
+         "x" : 3.14270,
+         "y" : 0.05040,
+         "z" : -2.29680
+      },
+      {
+         "heading" : 10.11310,
+         "height" : 0.01940,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.0880,
+         "x" : 1.86230,
+         "y" : 0.06110,
+         "z" : -3.30890
+      },
+      {
+         "heading" : 11.46240,
+         "height" : 0.02210,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.76250,
+         "x" : 1.50630,
+         "y" : 0.07210,
+         "z" : -2.30650
+      },
+      {
+         "heading" : 10.07840,
+         "height" : -0.00120,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.99890,
+         "x" : 3.24470,
+         "y" : 0.04890,
+         "z" : -5.49770
+      },
+      {
+         "heading" : 10.77910,
+         "height" : -0.00040,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.99890,
+         "x" : 3.77060,
+         "y" : 0.05310,
+         "z" : -3.80760
+      },
+      {
+         "heading" : 11.7230,
+         "height" : -0.00190,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.99890,
+         "x" : 4.12180,
+         "y" : 0.04920,
+         "z" : -4.08220
+      },
+      {
+         "heading" : 0.79920,
+         "height" : 0.03570,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 4.22010,
+         "y" : 0.0530,
+         "z" : -5.22330
+      },
+      {
+         "heading" : 0.79920,
+         "height" : 0.05440,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 4.50860,
+         "y" : 0.05440,
+         "z" : -5.48650
+      },
+      {
+         "heading" : 0.79920,
+         "height" : 0.0530,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 3.110,
+         "y" : 0.0530,
+         "z" : -3.74660
+      },
+      {
+         "heading" : 0.79920,
+         "height" : 0.0530,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 2.8210,
+         "y" : 0.0530,
+         "z" : -3.48290
+      },
+      {
+         "heading" : 0.79920,
+         "height" : 0.04860,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 1.66470,
+         "y" : 0.0530,
+         "z" : -1.69880
+      },
+      {
+         "heading" : 0.79920,
+         "height" : 0.05280,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 1.38010,
+         "y" : 0.0530,
+         "z" : -1.43290
+      },
+      {
+         "heading" : 0.7586000000000001,
+         "height" : 0.04040,
+         "name" : "Wooden Bridge Railing",
+         "scaling" : 1.0,
+         "x" : 4.21750,
+         "y" : 0.06900000000000001,
+         "z" : -5.2120
+      },
+      {
+         "heading" : 0.7586000000000001,
+         "height" : 0.06880,
+         "name" : "Wooden Bridge Railing",
+         "scaling" : 1.0,
+         "x" : 4.48510,
+         "y" : 0.06880,
+         "z" : -5.49690
+      },
+      {
+         "heading" : -0.79340,
+         "height" : 0.05360,
+         "name" : "Crate 08",
+         "scaling" : 1.02330,
+         "x" : 4.6720,
+         "y" : 0.05360,
+         "z" : -5.5340
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04930,
+         "name" : "Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 4.37970,
+         "y" : 0.04930,
+         "z" : -5.8350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04930,
+         "name" : "Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 4.09090,
+         "y" : 0.04930,
+         "z" : -5.57120
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00020,
+         "name" : "Campfire",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.40
+         },
+         "scaling" : 1.0,
+         "x" : 3.82260,
+         "y" : 0.05480,
+         "z" : -4.17880
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 3.83220,
+         "y" : 0.05510,
+         "z" : -4.17940
+      },
+      {
+         "heading" : 11.12070,
+         "height" : -0.00630,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.99890,
+         "x" : 4.29510,
+         "y" : 0.04640,
+         "z" : -4.55350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04550,
+         "name" : "Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 2.45560,
+         "y" : 0.04550,
+         "z" : -3.60120
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0490,
+         "name" : "Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 2.97150,
+         "y" : 0.0490,
+         "z" : -4.13090
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00630,
+         "name" : "Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 3.20740,
+         "y" : 0.05640,
+         "z" : -3.89170
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0050,
+         "name" : "Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 2.64050,
+         "y" : 0.04560,
+         "z" : -3.40980
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0190,
+         "name" : "Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 1.01660,
+         "y" : 0.04590,
+         "z" : -1.55970
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0060,
+         "name" : "Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 1.20310,
+         "y" : 0.04620,
+         "z" : -1.3640
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03360,
+         "name" : "Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 1.51260,
+         "y" : 0.04460,
+         "z" : -2.03780
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00570,
+         "name" : "Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 1.70550,
+         "y" : 0.04460,
+         "z" : -1.83670
+      },
+      {
+         "heading" : 6.52270,
+         "height" : -0.03120,
+         "name" : "Jungle Fallen Branch 04",
+         "scaling" : 1.12530,
+         "x" : 1.33270,
+         "y" : 0.00950,
+         "z" : -0.39090
+      },
+      {
+         "heading" : 7.94730,
+         "height" : -0.05090,
+         "name" : "Jungle Fallen Branch 04",
+         "scaling" : 1.12530,
+         "x" : 0.25910,
+         "y" : -0.00640,
+         "z" : -1.58360
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 1.0
+         },
+         "heading" : 0.0,
+         "height" : 0.00020,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.49370,
+         "y" : 0.05580,
+         "z" : -4.34530
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 1.0
+         },
+         "heading" : 0.0,
+         "height" : -0.00250,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.78490,
+         "y" : 0.05060,
+         "z" : -2.34460
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 1.0
+         },
+         "heading" : 0.0,
+         "height" : -0.00350,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.88170,
+         "y" : 0.04980,
+         "z" : -2.00760
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 1.0
+         },
+         "heading" : 0.0,
+         "height" : 0.00070,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.20510,
+         "y" : 0.04680,
+         "z" : -0.91120
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 1.0
+         },
+         "heading" : 0.0,
+         "height" : 0.00630,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.29980,
+         "y" : 0.04630,
+         "z" : -0.47050
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 1.0
+         },
+         "heading" : 0.0,
+         "height" : 0.00630,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.63110,
+         "y" : 0.04390,
+         "z" : 0.66440
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 1.0
+         },
+         "heading" : 0.0,
+         "height" : 0.00420,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.5510,
+         "y" : 0.03870,
+         "z" : 1.28760
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.55240,
+         "height" : -0.00220,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.40,
+            "col_green" : 0.70,
+            "col_red" : 1.40,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 2.58830,
+         "y" : 0.05290,
+         "z" : -1.81310
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.55240,
+         "height" : -0.00370,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.40,
+            "col_green" : 0.70,
+            "col_red" : 1.40,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 1.77860,
+         "y" : 0.04850,
+         "z" : -2.77430
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : -0.67180,
+         "height" : -0.00240,
+         "name" : "Dummy",
+         "scaling" : 1.39950,
+         "x" : 2.55880,
+         "y" : 0.04830,
+         "z" : -3.18140
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : -0.67180,
+         "height" : 0.00010,
+         "name" : "Dummy",
+         "scaling" : 1.39950,
+         "x" : 1.48190,
+         "y" : 0.00010,
+         "z" : -1.49010
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : -0.67180,
+         "height" : -0.0050,
+         "name" : "Dummy",
+         "scaling" : 1.44870,
+         "x" : -0.26620,
+         "y" : 0.0350,
+         "z" : 0.28280
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : -0.67180,
+         "height" : 0.03210,
+         "name" : "Dummy",
+         "scaling" : 1.39950,
+         "x" : -2.49660,
+         "y" : 0.03210,
+         "z" : 2.23340
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : -0.67180,
+         "height" : 0.0350,
+         "name" : "Dummy",
+         "scaling" : 1.39950,
+         "x" : -4.0,
+         "y" : 0.06909999999999999,
+         "z" : 3.99940
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00630,
+         "name" : "blocker",
+         "scaling" : 1.81830,
+         "x" : 2.68350,
+         "y" : 0.05730,
+         "z" : -1.36340
+      },
+      {
+         "heading" : 0.78540,
+         "height" : -0.01970,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 0.30640,
+         "x" : -0.35730,
+         "y" : 0.02030,
+         "z" : -0.21170
+      },
+      {
+         "heading" : 0.78540,
+         "height" : -0.01930,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 0.30640,
+         "x" : -1.10380,
+         "y" : 0.02030,
+         "z" : -0.00040
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00830,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : -2.53460,
+         "y" : 0.04470,
+         "z" : 1.34960
+      },
+      {
+         "heading" : 0.78540,
+         "height" : -0.01970,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 0.30640,
+         "x" : -0.86450,
+         "y" : 0.02030,
+         "z" : 1.59830
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00390,
+         "name" : "blocker",
+         "scaling" : 1.3940,
+         "x" : -4.78770,
+         "y" : 0.04050,
+         "z" : 5.52730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00620,
+         "name" : "blocker",
+         "scaling" : 1.3940,
+         "x" : -5.22990,
+         "y" : 0.03360,
+         "z" : 5.18060
+      }
+   ],
+   "spawnPoints" : null,
+   "startPosition" : [ 4.01250, -5.01340 ],
+   "tint" : [ 48, 255, 32, 48 ],
+   "title" : ""
+}

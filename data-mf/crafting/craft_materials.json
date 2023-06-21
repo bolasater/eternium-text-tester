@@ -1,0 +1,527 @@
+[	
+	{
+		"id":"silver_ingot",
+		"category":"materials",
+
+		"output":{
+			"type":"material",
+			"material":"silver_ingot"			
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":1000
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_ore",
+				"base":3
+			}
+		]
+	}
+	,
+	{
+		"id":"enchanted_leather",
+		"category":"materials",
+
+		"output":{
+			"type":"material",
+			"material":"enchanted_leather"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1000
+			},
+			{
+				"type":"material",
+				"subType":"leather",
+				"base":5
+			},
+			{
+				"type" : "material",
+				"subType":"silver_ingot",
+				"base":1
+			}
+		]			
+	}
+	,
+	{
+		"id":"mithril",
+		"category":"materials",
+
+		"output":{
+			"type":"material",
+			"material":"mithril"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1000
+			},
+			{
+				"type":"material",
+				"subType":"iron_bar",
+				"base":5
+			},
+			{
+				"type" : "material",
+				"subType":"silver_ingot",
+				"base":1
+			}
+		]
+	}
+	,
+	{
+		"id":"nightcloth",
+		"category":"materials",
+
+		"output":{
+			"type":"material",
+			"material":"nightcloth"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1000
+			},
+			{
+				"type":"material",
+				"subType":"bolt_of_cloth",
+				"base":5
+			},
+			{
+				"type" : "material",
+				"subType":"silver_ingot",
+				"base":1
+			}
+		]
+	}
+	,
+	{
+		"id":"essence_of_fire",
+		"category":"essences",
+		"output":{
+			"type":"material",
+			"essence":"essence",
+			"subType":"fire"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":100
+			},
+			{
+				"type":"lesser_essence",
+				"subType":"fire",
+				"base":10
+			}
+		]
+	}
+	,
+	{
+		"id":"greater_essence_of_fire",
+		"category":"essences",
+		"output":{
+			"type":"material",
+			"essence":"greater_essence",
+			"subType":"fire"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1000
+			},
+			{
+				"type":"essence",
+				"subType":"fire",
+				"base":10
+			}
+		]
+	}
+	,
+	{
+		"id":"essence_of_water",
+		"category":"essences",
+		"output":{
+			"type":"material",
+			"essence":"essence",
+			"subType":"water"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":100
+			},
+			{
+				"type":"lesser_essence",
+				"subType":"water",
+				"base":10
+			}
+		]
+	}
+	,
+	{
+		"id":"greater_essence_of_water",
+		"category":"essences",
+		"output":{
+			"type":"material",
+			"essence":"greater_essence",
+			"subType":"water"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1000
+			},
+			{
+				"type":"essence",
+				"subType":"water",
+				"base":10
+			}
+		]
+	}	
+	,
+	{
+		"id":"essence_of_air",
+		"category":"essences",
+		"output":{
+			"type":"material",
+			"essence":"essence",
+			"subType":"air"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":100
+			},
+			{
+				"type":"lesser_essence",
+				"subType":"air",
+				"base":10
+			}
+		]
+	}
+	,
+	{
+		"id":"greater_essence_of_air",
+		"category":"essences",
+		"output":{
+			"type":"material",
+			"essence":"greater_essence",
+			"subType":"air"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1000
+			},
+			{
+				"type":"essence",
+				"subType":"air",
+				"base":10
+			}
+		]
+	}
+	,	
+	{
+		"id":"essence_of_shadow",
+		"category":"essences",
+		"output":{
+			"type":"material",
+			"essence":"essence",
+			"subType":"shadow"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":100
+			},
+			{
+				"type":"lesser_essence",
+				"subType":"shadow",
+				"base":10
+			}
+		]
+	}
+	,
+	{
+		"id":"greater_essence_of_shadow",
+		"category":"essences",
+		"output":{
+			"type":"material",
+			"essence":"greater_essence",
+			"subType":"shadow"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1000
+			},
+			{
+				"type":"essence",
+				"subType":"shadow",
+				"base":10
+			}
+		]
+	}
+	,
+	{
+		"id":"essence_of_earth",
+		"category":"essences",
+		"output":{
+			"type":"material",
+			"essence":"essence",
+			"subType":"earth"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":100
+			},
+			{
+				"type":"lesser_essence",
+				"subType":"earth",
+				"base":10
+			}
+		]
+	}
+	,
+	{
+		"id":"greater_essence_of_earth",
+		"category":"essences",
+		"output":{
+			"type":"material",
+			"essence":"greater_essence",
+			"subType":"earth"
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1000
+			},
+			{
+				"type":"essence",
+				"subType":"earth",
+				"base":10
+			}
+		]
+	}
+	,
+	{
+		"id":"silver_dust",
+		"category":"enchanting_materials",
+
+		"output":{
+			"type":"material",
+			"material":"silver_dust"			
+		},
+		"outputAmount":5,
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":500
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_ore",
+				"base":1
+			}
+		]
+	}
+	,
+	{
+		"id":"haunting_spirit",
+		"category":"enchanting_materials",
+
+		"output":{
+			"type":"material",
+			"material":"haunting_spirit"			
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":1000
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_dust",
+				"base":3
+			},
+			{
+				"type" : "greater_essence",
+				"subType" : "shadow",
+				"base":1
+			},
+			{
+				"type" : "greater_essence",
+				"subType" : "air",
+				"base":1
+			}
+		]
+	}
+	,
+	{
+		"id":"primal_spirit",
+		"category":"enchanting_materials",
+
+		"output":{
+			"type":"material",
+			"material":"primal_spirit"			
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":1000
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_dust",
+				"base":3
+			},
+			{
+				"type" : "greater_essence",
+				"subType" : "fire",
+				"base":1
+			},
+			{
+				"type" : "greater_essence",
+				"subType" : "earth",
+				"base":1
+			}
+		]
+	}
+	,
+	{
+		"id":"spirit_of_war",
+		"category":"enchanting_materials",
+
+		"output":{
+			"type":"material",
+			"material":"spirit_of_war"			
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":1000
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_dust",
+				"base":3
+			},
+			{
+				"type" : "greater_essence",
+				"subType" : "shadow",
+				"base":1
+			},
+			{
+				"type" : "greater_essence",
+				"subType" : "fire",
+				"base":1
+			}
+		]
+	}
+	,
+	{
+		"id":"living_spirit",
+		"category":"enchanting_materials",
+
+		"output":{
+			"type":"material",
+			"material":"living_spirit"			
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":1000
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_dust",
+				"base":3
+			},
+			{
+				"type" : "greater_essence",
+				"subType" : "earth",
+				"base":1
+			},
+			{
+				"type" : "greater_essence",
+				"subType" : "water",
+				"base":1
+			}
+		]
+	}
+	,
+	{
+		"id":"spirit_of_harmony",
+		"category":"enchanting_materials",
+
+		"output":{
+			"type":"material",
+			"material":"spirit_of_harmony"			
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":1000
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_dust",
+				"base":3
+			},
+			{
+				"type" : "greater_essence",
+				"subType" : "air",
+				"base":1
+			},
+			{
+				"type" : "greater_essence",
+				"subType" : "water",
+				"base":1
+			}
+		]
+	}
+]

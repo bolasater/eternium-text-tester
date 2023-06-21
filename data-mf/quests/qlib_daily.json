@@ -1,0 +1,276 @@
+{
+	"name" : "Mitzu's Daily Quest Library",
+	"req" : { "never" : true }, // These quests never become available by themselves; they are only referenced by other quests.
+	"category" : "side",
+	
+	"quests" : [
+		{
+			"id" : "merlok_cleansing",
+			"name" : "Cleanse the Ponds",
+			"story" : "{HERO}, will you help us keep the Merlok infestation under control?",
+			"obj" : [
+				{
+					"obj_id" : "kill",
+					"type" : "kill",
+					"desc" : "Find and destroy {N} merlok toads",
+					"creature" : "*Merlok*",
+					"total" : 50
+				}
+			]
+		},
+		
+		{
+			"id" : "keep_them_at_bay",
+			"name" : "Keep Them at Bay",
+			"story" : "Ragadam's hordes are overrunning our lands! Go forth, {HEROCLASS}, and keep them at bay!",
+			"obj" : [
+				{
+					"obj_id" : "kill",
+					"type" : "kill",
+					"desc" : "Destroy {N} enemies",
+					"creature" : { "faction" : "enemy" },
+					"total" : 100
+				}
+			]
+		},
+		
+		{
+			"id" : "extreme_prejudice",
+			"name" : "Extreme Prejudice",
+			"story" : "The Sisters of Ragadam are a cult of healers who aid our enemies. Help us fight the good fight by thinning out their numbers.",
+			"obj" : [
+				{
+					"obj_id" : "kill",
+					"type" : "kill",
+					"desc" : "Find and terminate {N} Sisters of Ragadam",
+					"creature" : { "faction" : "enemy", "flavor": "sister_of_ragadam" },
+					"total" : 15
+				}
+			]
+		},
+
+		{
+			"id" : "elite_pruning",
+			"name" : "The Elitists",
+			"story" : "The Elites are some of the most dangerous of our enemies. The fewer of them are out there, the better.",
+			"obj" : [
+				{
+					"obj_id" : "kill",
+					"type" : "kill",
+					"desc" : "Find and destroy {N} elite creatures",
+					"creature" : { "faction" : "enemy", "elite" : true },
+					"total" : 10
+				}
+			]
+		},
+		
+		{
+			"id" : "lost_souls",
+			"name": "Lost Souls",
+			"story" : "Some of the undead who roam these lands still have a remnant of a soul. End their torment and reap their lost souls.",
+			"obj" : [
+				{
+					"type": "loot",
+					"obj_id": "loot",
+					"desc" : "Gather {N} Lost Souls from undead enemies",
+					"creature" : { "faction" : "enemy", "flavor" : "undead" },
+					"total" : 15,
+					"drop_rate" : 0.25,
+					"item" : { "name" : "Lost Soul", "icon" : "smoke_1" }
+				}
+			]
+		},
+		
+		{
+			"id" : "break_their_bows",
+			"name": "Break Their Bows",
+			"story" : "The Skeleton Archers are wretched creatures, but some of their bows are made of deadwood, which has many uses. Go forth and gather splinters from their broken deadwood bows.",
+			"obj" : [
+				{
+					"type": "loot",
+					"obj_id": "loot",
+					"desc" : "Loot {N} Deadwood Splinters from Skeleton Archers",
+					"creature" : { "faction" : "enemy", "flavor" : "skeleton_archer" },
+					"total" : 25,
+					"drop_rate" : 0.5,
+					"item" : { "name" : "Deadwood Splinter", "icon" : "wood_debris_1" }
+				}
+			]
+		},
+		
+		{
+			"id" : "short_dwarven_warrior",
+			"name" : "Conclave Envoy",
+			"story" : "Find and kill the conclave envoy at the Stairway to Levania",
+			"req" : { "never" : true },
+			"autocomplete" : false,
+			"obj" : [
+				{
+					"obj_id" : "kill_conclave_envoy",
+					"type" : "kill",
+					"creature" : "Conclave Envoy",
+					"location" : "Stairway to Levania",
+					"desc" : "Kill the envoy and acquire his intel"
+				}
+			]
+		},
+
+		{	"id" : "apple_daily",
+			"name" : "The Men and Women of A.P.P.L.E.",
+			"req" : { "never" : true },
+
+			"story" : {
+				"intro" : "There is a misterious missive for you. You are tasked with destroying defective automatons at a little apple farm in Anderra. The missive claims you know why and where is coming from, so I won't ask you anything more.",
+				"prog" : "Defeat the defective automatons at the apple farm in Anderra.",
+				"done" : "I hope whoever gave you this task is satisfied."
+			},
+
+			"obj" : [
+				{
+					"obj_id" : "kill_automatons",
+					"type" : "kill",
+					"creature" : "*Automaton*",
+					"location" : "Anderra",
+					"total" : 10,
+					"desc" : "Destroy the malfunctioning automatons at the A.P.P.L.E farm"
+				}
+			]
+		},
+
+		{
+			"id" : "fiery_remnants_daily",
+			"name" : "Fiery Remnants",
+			"story" : {
+				"intro" : "Meteors dig deep beneath the crust when they strike the surface, and leave behind fiery remnants. You can find many of them in the place known as the Rain of Fire, on Levania.||||Retrieve as many samples from the craters as you can find. The more fiery they are, the better.",
+				"prog" : "Have you found enough samples yet, {HERO}?",
+				"done" : "Thank you, champion."
+			},
+			"req" : { "never" : true },
+			"autocomplete" : false,
+			"obj" : [
+				{
+					"obj_id" : "pickup_fire",
+					"type" : "go_event",
+					"event":"pickup_fire",					
+					"desc" : "Collect {N} fiery remnants from the Rain of Fire",
+					"drop_rate" : 1,
+					"item" : {"name":"Fiery Remnant", "desc":"Fiery motes resulted from recent meteor impact craters.", "icon" : "fire_charge"},
+					"total" : 15,
+					"autoloot" : true,
+					"location" : "Rain of Fire"
+				}
+			]
+		},
+
+		{
+			"id" : "dels_tears_daily",
+			"name" : "Del's Tears",
+			"story" : {
+				"intro" : "May I trouble you for just a moment, {HERO}?||||There is a legend, nothing more than a rumour really, about a great former student of the Mage Guild of Anderra named Del. Allegedly, he vanished without a trace, but some people speculate that he went to Levania and spent the greater part of his existence in the place known as the Canyon of Whispers. Some say his ghost still roams the land.||||I would very much like to know if there is any truth to these rumors.||||It is said that within the canyon grows a weed I would like to get my hands on. It is called Del's Tears, named after the missing Mage Lord, and it only grows in the canyon there.||||Fetch some for me while you are there, and I will reward you properly, {HERO}.",
+				"prog" : "Recover Del's Tears from the Canyon of Whispers, {HERO}.",
+				"done" : "So the rumours are true. Thank you, {HEROCLASS}. Please accept this humble reward."
+			},
+			"req" : { "never" : true },
+			"autocomplete" : false,
+			"obj" : [
+				{
+					"obj_id" : "pickup_tears",
+					"type" : "go_event",
+					"event" : "pickup_tears",
+					"desc" : "Collect 7 Del's Tears from the Canyon of Whispers",
+					"total" : 7,
+					"drop_rate" : 1,
+					"item" : {"name":"Del's Tears", "desc":"This plant is the legacy of the legendary Archmage Del.", "icon" : "strawflower_blue"},
+					"autoloot" : true,
+					"location" : "Canyon of Whispers"					
+				}
+			]
+		},
+
+		{
+			"id" : "elban_lieutenants_daily",
+			"name" : "Elban's Lieutenants",
+			"story" : {
+				"intro" : "{HERO}, you are needed once again.||||Elban's lieutenants are inside the Void Temple. We identified the most important leaders. They are Cwn, the Packleader, a vicious hellhound, Eldricht, the Master of Necromancy, who is... well, a master of necromancy, X-43-RS Temple Archivist, an automaton that probably has precious information on the Temple, and Levanian Knight Ungriks, the leader of the Levanian contingent.||||Please cleanse the Temple of this evil.",
+				"prog" : "Kill Elban's Lieutenants in the Temple.",
+				"done" : "I don't know how we could ever manage without you, champion."
+			},
+
+			"req" : { "never" : true },
+			"common" : { "location" : "The Temple" },
+			"hide_spoilers" : false,
+			"obj" : [
+				{
+
+					"obj_id" : "kill_cwn",
+					"type" : "kill",
+					"creature" : "Cwn, the Packleader",
+					"total" : 1,
+					"desc" : "Defeat Cwn, the Packleader"
+				},
+				{
+					"obj_id" : "kill_eldricht",
+					"type" : "kill", 
+					"creature" : "Eldricht, Master of Necromancy",
+					"desc" : "Defeat Eldricht, Master of Necromancy"
+				},
+				{
+					"obj_id" : "kill_archivist",
+					"type" : "kill",
+					"creature" : "X-43-RS Temple Archivist",
+					"desc" : "Defeat X-43-RS Temple Archivist"
+				},
+				{
+					"obj_id" : "kill_ungriks",
+					"type" : "kill",
+					"creature" : "Levanian Knight Ungriks",
+					"desc" : "Defeat Levanian Knight Ungriks"
+				}
+			]
+		},
+
+		{
+			"id" : "jewel_of_minaris_daily",
+			"name" : "The Light of Minaris",
+			"story" : {
+				"intro" : "Legends speak of a mythical gemstone, the Light of Minaris. Please bring it to me, {HERO}.."
+			},
+			"req" : { "never" : true },
+
+			"obj" : [
+				{
+					"obj_id" : "light_of_minaris",
+					"type" : "go_event",
+					"event" : "light_of_minaris",
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"location" : "Ruins of Minaris",
+					"item" : {"name":"Light of Minaris", "desc":"The mythical gemstone of Minaris shines brightly.", "icon" : "gemstone4"},
+					"desc" : "Find and recover the Light of Minaris"
+				}
+			]
+		},
+
+		{
+			"id" : "jewel_of_malador_daily",
+			"name" : "The Flame of Malador",
+			"story" : {
+				"intro" : "It turns out the fortitied city of Malador also has a jewel, {HERO}. It is called the Dark Flame of Malador. Please bring it to me, {HERO}."
+			},
+			"req" : { "never" : true },
+
+			"obj" : [
+				{
+					"obj_id" : "flame_of_malador",
+					"type" : "go_event",
+					"event" : "flame_of_malador",
+					"location" : "The City of Malador",
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"item" : {"name":"Dark Flame of Malador", "desc":"The gemstone of Malador humms with dark energy.", "icon" : "gemstone5"},
+					"desc" : "Find and recover the Flame of Malador"
+				}
+			]
+		}
+	]
+}

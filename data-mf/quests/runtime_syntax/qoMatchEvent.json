@@ -1,0 +1,6 @@
+{
+   "event" : {
+      "mandatory" : true,
+      "type" : "string"
+   }
+}

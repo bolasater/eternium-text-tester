@@ -1,0 +1,9 @@
+{
+	"default":[1,1.25,1.5,1.75,2],
+	"expensive":[2,3,5,8,12],
+	"gold_default":[0.7,0.7,2,5,20],
+	"gold_expensive":[1,1,2.5,6.5,30],
+	"essence_default":[0,1,1.45,4,15],
+	"essence_set":[0,1.25,2.5,6,25],
+	"materials_default":[0.35,0.35,0.45,0.55,1]
+}

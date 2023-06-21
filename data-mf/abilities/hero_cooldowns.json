@@ -1,0 +1,127 @@
+[
+    {
+        "cooldown": 25, 
+        "ability": "rapid_fire", 
+        "new_cooldown": 12
+    }, 
+    {
+        "cooldown": 50, 
+        "ability": "smoke_screen", 
+        "new_cooldown": 25
+    }, 
+    {
+        "cooldown": 40, 
+        "ability": "frozen_trap", 
+        "new_cooldown": 20
+    }, 
+    {
+        "cooldown": 40, 
+        "ability": "magnetic_trap", 
+        "new_cooldown": 20
+    }, 
+    {
+        "cooldown": 30, 
+        "ability": "heatseekers", 
+        "new_cooldown": 15
+    }, 
+    {
+        "cooldown": 20, 
+        "ability": "ranger_multishot", 
+        "new_cooldown": 10
+    }, 
+    {
+        "cooldown": 30, 
+        "ability": "snipe", 
+        "new_cooldown": 15
+    }, 
+    {
+        "cooldown": 20, 
+        "ability": "leap", 
+        "new_cooldown": 10
+    }, 
+    {
+        "cooldown": 30, 
+        "ability": "battle_rage", 
+        "new_cooldown": 15
+    }, 
+    {
+        "cooldown": 30, 
+        "ability": "devastate", 
+        "new_cooldown": 15
+    }, 
+    {
+        "cooldown": 15, 
+        "ability": "deadly_throw", 
+        "new_cooldown": 7
+    }, 
+    {
+        "cooldown": 35, 
+        "ability": "shockwave_warrior", 
+        "new_cooldown": 17
+    }, 
+    {
+        "cooldown": 30, 
+        "ability": "whirlwind", 
+        "new_cooldown": 15
+    }, 
+    {
+        "cooldown": 30, 
+        "ability": "warrior_charge", 
+        "new_cooldown": 15
+    }, 
+    {
+        "cooldown": 60, 
+        "ability": "shield_block", 
+        "new_cooldown": 30
+    }, 
+    {
+        "cooldown": 30, 
+        "ability": "in_the_zone", 
+        "new_cooldown": 15
+    }, 
+    {
+        "cooldown": 40, 
+        "ability": "singularity", 
+        "new_cooldown": 20
+    }, 
+    {
+        "cooldown": 30, 
+        "ability": "blink_mage", 
+        "new_cooldown": 15
+    }, 
+    {
+        "cooldown": 45, 
+        "ability": "frost_beam", 
+        "new_cooldown": 22
+    }, 
+    {
+        "cooldown": 25, 
+        "ability": "immolate", 
+        "new_cooldown": 12
+    }, 
+    {
+        "cooldown": 25, 
+        "ability": "frostnova", 
+        "new_cooldown": 12
+    }, 
+    {
+        "cooldown": 60, 
+        "ability": "timewarp", 
+        "new_cooldown": 30
+    }, 
+    {
+        "cooldown": 90, 
+        "ability": "paradox", 
+        "new_cooldown": 45
+    }, 
+    {
+        "cooldown": 25, 
+        "ability": "blizzard", 
+        "new_cooldown": 12
+    }, 
+    {
+        "cooldown": 30, 
+        "ability": "death_from_above", 
+        "new_cooldown": 15
+    }
+]

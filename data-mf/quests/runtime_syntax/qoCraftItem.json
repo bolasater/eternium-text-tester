@@ -1,0 +1,6 @@
+{
+   "itemFilter" : {
+      "mandatory" : false,
+      "type" : "object"
+   }
+}

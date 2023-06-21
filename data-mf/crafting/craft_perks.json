@@ -1,0 +1,66 @@
+[
+	{
+		"id":"finesse",
+		"title":"Finesse",
+		"unlock_level":20,
+		"icon":"perk_finesse",
+		"params":{
+			"max_stat_chance":{"base":0.06, "perLevel":0.003}
+		}
+	}
+	,
+	{
+		"id":"scrounger",
+		"title":"Scrounger",
+		"comment":"Increases chance to find materials in chests.",
+		"unlock_level":3,
+		"icon":"perk_scrounger",
+		"params":{
+			"extra_loot_chance":{"base":0.015, "perLevel":0.005}
+		}
+	}
+	,
+	{
+		"id":"scrapper",
+		"title":"Scrapper",
+		"comment":"You have a chance to savalge double the amount of materials.",
+		"unlock_level":10,
+		"icon":"perk_scrapper",
+		"params":{
+			"double_salvage_chance":{"base":0.05, "perLevel":0.005}
+		}
+	}
+	,
+	{
+		"id":"master_crafter",
+		"title":"Master Crafter",
+		"comment":"You have a chance to gain one extra item level when creating an item.",
+		"unlock_level":25,
+		"icon":"perk_master_crafter",
+		"params":{
+			"extra_item_level_chance":{"base":0.30, "perLevel":0.008}
+		}
+	}
+	,
+	{
+		"id":"optimizer",
+		"title":"Optimizer",
+		"comment":"Improves dice rolls when generating attributes values",
+		"unlock_level":5,
+		"icon":"perk_optimizer",
+		"params":{
+			"improved_stat_rolls":{"base":0.025, "perLevel":0.005}
+		}
+	}
+	,
+	{
+		"id":"socketer",
+		"title":"Socketer",
+		"comment":"Extra chance to generate a socket",
+		"unlock_level":15,
+		"icon":"perk_socketer",
+		"params":{
+			"socket_chance":{"base":0.03, "perLevel":0.002}
+		}
+	}
+]

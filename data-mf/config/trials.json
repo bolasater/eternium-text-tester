@@ -1,0 +1,406 @@
+[
+	{
+		"title" : "[Trial] of Darkness",
+		"theme" : "mountain_cave",
+		"mood" : "night",
+		"desc"  : "Venture into the caves of Elderath and cleanse them of the minions of darkness. Defeat them and their boss swiftly to reap the best rewards and unlock your next trial."
+	},
+	{
+		"title" : "[Trial] of Mist",
+		"theme" : "elderan_summer",
+		"mood" : "misty_day",
+		"desc" : "The Elderan forests are swarming with undead hordes. Dispose of them quickly to encounter their master, claim your treasure and unlock your next challenge."
+	},
+	{
+		"title" : "[Trial] of Sand",
+		"theme" : "elderan_desert",
+		"mood" : "evening",
+		"desc" : "The ancient cities of Elderath have crumbled into the sands, and Ragadam's minions now crawl among their ruins. Lay waste to their army to summon their commander."
+	},
+	
+	{
+		"title" : "[Trial] of Nature",
+		"theme" : "elderan_swamp",
+		"mood" : "after_dusk",
+		"desc" : "Find your way through the mires of Murkvale, and cleanse them of their evil inhabitants. Make haste to reap the best rewards and unlock your next trial."
+	},
+	
+	
+	// 5
+	
+	{
+		"title" : "[Trial] of Frost",
+		"theme" : "elderan_winter",
+		"mood" : "dusk",
+		"desc" : "The northern highlands of Elderath have been home to Markeen herders since the turn of this age. Free the lands from Ragadam's hordes and you will be rewarded."
+	},
+	
+	{
+		"title" : "[Trial] of Honor"
+	},
+
+	{
+		"title" : "[Trial] of Justice"
+	},
+
+	{
+		"title" : "[Trial] of Sanity"
+	},
+
+	{
+		"title" : "[Trial] of Strength"
+	},
+
+	// 10
+	
+	{
+		"title" : "[Trial] of Chaos"
+	},
+
+	{
+		"title" : "[Trial] of Fate"
+	},
+
+	{
+		"title" : "[Trial] of Prudence"
+	},
+
+	{
+		"title" : "[Trial] of Chance"
+	},
+
+	{
+		"title" : "[Trial] of Order"
+	},
+
+	// 15
+	{
+		"title" : "[Trial] of Mystery"
+	},
+
+	{
+		"title" : "[Trial] of Glory"
+	},
+
+	{
+		"title" : "[Trial] of Greed"
+	},
+
+	{
+		"title" : "[Trial] of Fame"
+	},
+
+	{
+		"title" : "[Trial] of Fortune"
+	},
+	
+	// 20
+	{
+		"title" : "[Trial] of Earth",
+		"theme" : "mountain_cave"
+	},
+
+	{
+		"title" : "[Trial] of Water"
+	},
+
+	{
+		"title" : "[Trial] of Wind"
+	},
+
+	{
+		"title" : "[Trial] of Fire"
+	},
+
+	{
+		"title" : "[Trial] of Moonlight",
+		"theme" : "elderan_summer",
+		"mood" : "moonlight"
+	},
+
+	// 25
+	{
+		"title" : "[Trial] of Sunlight",
+		"theme" : "elderan_desert",
+		"mood" : "noon"
+	},
+	
+	{
+		"title" : "[Trial] of Iron"
+	},
+
+	{
+		"title" : "[Trial] of Bronze"
+	},
+
+	{
+		"title" : "[Trial] of Silver"
+	},
+
+	{
+		"title" : "[Trial] of Gold"
+	},
+
+	// 30
+	{
+		"title" : "[Trial] of Despair"
+	},
+
+	{
+		"title" : "[Trial] of Hope"
+	},
+
+	{
+		"title" : "[Trial] of Power"
+	},
+
+	{
+		"title" : "[Trial] of Discipline"
+	},
+
+	{
+		"title" : "[Trial] of Perseverence"
+	},
+
+	// 35
+	{
+		"title" : "[Trial] of Determination"
+	},
+	
+	{
+		"title" : "[Trial] of Ambition"
+	},
+
+	{
+		"title" : "[Trial] of Dedication"
+	},
+
+	{
+		"title" : "[Trial] of Stamina"
+	},
+	{
+		"title" : "[Trial] of Experience"
+	},
+	
+	// 40
+	{
+		"title" : "[Trial] of the Soldier"
+	},
+	{
+		"title" : "[Trial] of the Sage"
+	},
+	{
+		"title" : "[Trial] of the Fanatic"
+	},
+	{
+		"title" : "[Trial] of the Stranger"
+	},
+	{
+		"title" : "[Trial] of the King"
+	},
+	
+	// 45
+	{
+		"title" : "[Trial] of the Sword"
+	},
+	{
+		"title" : "[Trial] of the Shield"
+	},
+	{
+		"title" : "[Trial] of the Helm"
+	},
+	{
+		"title" : "[Trial] of the Fist"
+	},
+	{
+		"title" : "[Trial] of the Elements"
+	},
+	
+	// 50
+	{
+		"title" : "[Trial] of the Past"
+	},
+	{
+		"title" : "[Trial] of the Present"
+	},
+	{
+		"title" : "[Trial] of the Future"
+	},
+	{
+		"title" : "[Trial] of the Soul"
+	},
+	{
+		"title" : "[Trial] of the Mind"
+	},
+	
+	// 55
+	{
+		"title" : "[Trial] of Vastness"
+	},
+	{
+		"title" : "[Trial] of Wilderness"
+	},
+	{
+		"title" : "[Trial] of Serenity"
+	},
+	{
+		"title" : "[Trial] of Contemplation"
+	},
+	{
+		"title" : "[Trial] of Resolve"
+	},
+	
+	// 60
+	{
+		"title" : "[Trial] of the Echo"
+	},
+	{
+		"title" : "[Trial] of Thunder"
+	},
+	{
+		"title" : "[Trial] of the Storm"
+	},
+	{
+		"title" : "[Trial] of Lightning"
+	},
+	{
+		"title" : "[Trial] of the Rainbow"
+	},
+	
+	// 65
+	{
+		"title" : "[Trial] of the Sea"
+	},
+	{
+		"title" : "[Trial] of the Island"
+	},
+	{
+		"title" : "[Trial] of the Mountain",
+		"theme" : "elderan_winter",
+		"mood" : "moonlight"
+	},
+	{
+		"title" : "[Trial] of the Forest",
+		"theme" : "elderan_summer",
+		"mood" : "noon"
+	},
+	{
+		"title" : "[Trial] of the Cave",
+		"theme" : "mountain_cave"
+	},
+	
+	// 70
+	{
+		"title" : "[Trial] of the Emerald"
+	},
+	{
+		"title" : "[Trial] of the Amethyst"
+	},
+	{
+		"title" : "[Trial] of the Sapphire"
+	},
+	{
+		"title" : "[Trial] of the Topaz"
+	},
+	{
+		"title" : "[Trial] of the Ruby"
+	},
+	
+	// 75
+	{
+		"title" : "[Trial] of the Diamond"
+	},
+
+	{
+		"title" : "[Trial] of the Substance"
+	},
+
+	{
+		"title" : "[Trial] of the Essence"
+	},
+
+	{
+		"title" : "[Trial] of the Phenomenon"
+	},
+	
+	{
+		"title" : "[Trial] of the Numenon"
+	},
+	
+	// 80
+	{
+		"title" : "[Trial] of Ashes"
+	},
+
+	{
+		"title" : "[Trial] of Bones"
+	},
+
+	{
+		"title" : "[Trial] of Smoke"
+	},
+
+	{
+		"title" : "[Trial] of Scars"
+	},
+
+	{
+		"title" : "[Trial] of Ruins"
+	},
+
+	// 85
+	{
+		"title" : "[Trial] of Inspiration"
+	},
+	{
+		"title" : "[Trial] of Contingency"
+	},
+	{
+		"title" : "[Trial] of Uncertainty"
+	},
+	{
+		"title" : "[Trial] of Knowledge"
+	},
+	{
+		"title" : "[Trial] of Wisdom"
+	},
+	
+	// 90
+	{
+		"title" : "[Trial] of Lore"
+	},
+	{
+		"title" : "[Trial] of Legends"
+	},
+	{
+		"title" : "[Trial] of Vengeance"
+	},
+	{
+		"title" : "[Trial] of Triumph"
+	},
+	{
+		"title" : "[Trial] of Vision"
+	},
+	
+	// 95
+	{
+		"title" : "[Trial] of Aspiration"
+	},
+	{
+		"title" : "[Trial] of Achievement"
+	},
+	{
+		"title" : "[Trial] of Adventure"
+	},
+	{
+		"title" : "[Trial] of Accomplishment"
+	},
+	{
+		"title" : "[Trial] of Ascension"
+	},
+	
+	// 100
+	{
+		"title" : "[Trial] of Eternity"
+	}	
+]

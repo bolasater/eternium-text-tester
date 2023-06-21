@@ -1,0 +1,305 @@
+[
+	{
+		"id" : "TeachTeamManagement",
+		"text" : [ "This is your team", "Drag companions here to take them with you" ],
+		"context" : { "InTeamPage" : true, "HasAnyMinions":true },
+		"conditions" : { "TrivialTeam" : true },
+		"delay" : 2,
+		"point_to" : "TeamSlots",
+		"timeout" : 10,
+		"limit_per_game": 2,
+		"limit_per_player": 4
+	},
+	
+	{
+		"id" : "InGameAbilities",
+		"text" : [ "You have unused abilities", "Tap to equip your abilities" ],
+		
+		"context" : {
+			"InGame" : true,
+			"GameOver" : false, 
+			"EnemiesOnScreen" : false,
+			"UnderusedAbilitySlots" : true
+		},
+		
+		"conditions" : {
+		},
+		
+		"delay" : 5.0,
+		"point_to" : "GearButton",
+		"timeout" : 3600,
+		"limit_per_game": 2,
+		"limit_per_player": 4	
+	},
+
+	{
+		"id" : "BuyGems",
+		"text" : [ "Check out the gem store", "Here's where you can buy gems to boost your hero" ],
+		
+		"context" : {
+			"InMetaGame" : true,
+			"OtherHintsActive" : false,
+			"HeroPastLevel10" : true
+		},
+		
+		"conditions" : {
+			"GemStoreEverOpened" : false
+		},
+		
+		"delay" : 5.0,
+		"point_to" : "GemBalance",
+		"timeout" : 3600,
+		"limit_per_game": 1,
+		"limit_per_player": 1	
+	},
+
+	{
+		"id" : "HeroPage_Highlight",
+		"text" : [ "You have unused abilities", "Tap here to equip your abilities" ],
+		
+		"context" : {
+			"InMetaGame" : true,
+			"OtherHintsActive" : false,
+			"HeroPageAvailable" : true,
+			"UnderusedAbilitySlots" : true,
+			"InHeroPage" : false
+		},
+		
+		"conditions" : {
+		},
+
+		"delay" : 0.5,
+		"point_to" : "HeroTab",
+		"timeout" : 3600,
+		"limit_per_game": 2,
+		"limit_per_player": 4		
+	},
+
+	{
+		"id" : "EquipAbility",
+		"text" : [ "You have unused abilities", "Drag the ability to equip it" ],
+		
+		"context" : {
+			"InHeroPage" : true
+		},
+		
+		"conditions" : {
+			"UnderusedAbilitySlots" : true
+		},
+		
+		"delay" : 1,
+		"point_to" : "FirstEquippableAbility",
+		"timeout" : 3600,
+		"limit_per_game": 2,
+		"limit_per_player": 4		
+	},
+
+	{
+		"id" : "InGameGear",
+		"text" : [ "You have new items to equip", "Tap to access Inventory" ],
+		
+		"context" : {
+			"InGame" : true,
+			"GameOver" : false, 
+			"EnemiesOnScreen" : false
+		},
+		
+		"conditions" : {
+			"UnusedItems" : true
+		},
+		
+		"delay" : 3.0,
+		"point_to" : "GearButton",
+		"timeout" : 3600,
+		"limit_per_game": 2,
+		"limit_per_player": 4		
+	},
+	
+	{
+		"id" : "GearPage_Highlight",
+		"text" : [ "You have new items to equip" ],
+		
+		"context" : {
+			"OtherHintsActive" : false,
+			"InMetaGame" : true,
+			"InGearPage" : false,
+			"InCraftPage" : false,
+			"GearPageAvailable" : true,
+			"UnusedItems" : true
+		},
+		
+		"conditions" : {
+		},
+		
+		"delay" : 1.5,
+		"point_to" : "GearTab",
+		"timeout" : 3600,
+		"limit_per_game": 3,
+		"limit_per_player": 6		
+	},
+
+	{
+		"id" : "EquipNewItem",
+		"text" : [ "Drag this item to equip it", "Your Hero could use this item" ],
+		
+		"context" : {
+			"InGearPage" : true
+		},
+		
+		"conditions" : {
+			"UnusedItems" : true
+		},
+		
+		"delay" : 3,
+		"point_to" : "FirstUnusedItem",
+		"timeout" : 3600,
+		"limit_per_game": 4,
+		"limit_per_player": 6		
+	},
+	
+	{
+		"id" : "Use2Fingers",
+		"text" : [ ],
+		"visuals" : "Tap2",
+		
+		"context" : {
+			"InGame" : true,
+			"EnemiesOnScreen" : true
+		},
+		
+		"conditions" : {
+			"SecondaryAbilityReady" : true
+		},
+		
+		"delay" : 1,
+		"point_to" : "ClosestEnemy",
+		"timeout" : 3600,
+		"limit_per_game": 1,
+		"limit_per_player": 1
+	},
+	
+	{
+		"id" : "TapToMove",
+		"text" : [ "TAP TO MOVE" ],
+		"visuals" : "Tap1",
+		
+		"context" : {
+			"InGame" : true
+		},
+		
+		"conditions" : {
+			"HeroMoving" : false
+		},
+		
+		"delay" : 1,
+		"point_to" : "TowardsGoal",
+		"timeout" : 3600,
+		"limit_per_game": 1,
+		"limit_per_player": 1
+	},	
+
+	{
+		"id" : "TapToAttack",
+		"text" : [ "TAP TO ATTACK" ],
+		"visuals" : "Tap1",
+		
+		"context" : {
+			"InGame" : true,
+			"EnemiesOnScreen" : true
+		},
+		
+		"conditions" : {
+			"HeroAttacking" : false
+		},
+		
+		"delay" : 1,
+		"point_to" : "ClosestEnemy",
+		"timeout" : 3600,
+		"limit_per_game": 1,
+		"limit_per_player": 1
+	},
+	
+	{
+		"id" : "Gesture_#",
+		"idstar" : ["V","A","Z","O","M","W","D"],
+		"text" : [ "Draw the sign to use your new ability" ],
+		"visuals" : "Gesture",
+		"visualParam" : "#",
+		
+		"context" : {
+			"InGame" : true,
+			"EnemiesOnScreen" : true
+		},
+		
+		"conditions" : {
+			"HeroPastLevel10" : false,
+			"GestureReady_#" : true
+		},
+		
+		"delay" : 1,
+		"timeout" : 3600,
+		"limit_per_game": 2,
+		"limit_per_player": 2
+	},
+	
+	{
+		"id" : "Craft_Highlight",
+		"text" : [ "Tap to craft an item"],
+		
+		"context" : {
+			"InMetaGame" : true,
+			"CanCraft" : true,
+			"OtherHintsActive" : false
+		},
+		
+		"conditions" : {
+			"InCraftPage" : false
+		},
+		
+		"delay" : 5,
+		"point_to" : "CraftTab",
+		"timeout" : 3600,
+		"limit_per_game": 1,
+		"limit_per_player": 5
+	},
+	{
+		"id" : "Stash_Highlight",
+		"text" : [ "New Feature: Stash", "Store and transfer items here" ],
+		
+		"context" : {
+			"InMetaGame" : true,
+			"StashAvailable" : true,
+			"OtherHintsActive" : false
+		},
+		
+		"conditions" : {
+			"InStashPage" : false
+		},
+		
+		"delay" : 5,
+		"point_to" : "StashTab",
+		"timeout" : 3600,
+		"limit_per_game": 1,
+		"limit_per_player": 2
+	},
+	{
+		"id" : "JC_Highlight",
+		"text" : [ "New Feature: Jewelcrafting", "Craft and fuse rings and amulets here" ],
+		
+		"context" : {
+			"InMetaGame" : true,
+			"JewelcraftingAvailable" : true,
+			"OtherHintsActive" : false
+		},
+		
+		"conditions" : {
+			"InJCPage" : false
+		},
+		
+		"delay" : 5,
+		"point_to" : "JCTab",
+		"timeout" : 3600,
+		"limit_per_game": 1,
+		"limit_per_player": 2
+	}	
+]

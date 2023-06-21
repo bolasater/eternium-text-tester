@@ -1,0 +1,47 @@
+{
+   "boss" : {
+      "mandatory" : false,
+      "type" : "flag"
+   },
+   "elite" : {
+      "mandatory" : false,
+      "type" : "flag"
+   },
+   "faction" : {
+      "mandatory" : false,
+      "type" : [ "any", "enemy", "friendly" ]
+   },
+   "flavor" : {
+      "listy" : "true",
+      "type" : [
+         "alien",
+         "arena",
+         "beast",
+         "darkling",
+         "demon",
+         "dragon",
+         "dungeon",
+         "elemental",
+         "humanoid",
+         "mechanical",
+         "minotaur",
+         "minotaur boss",
+         "mugrunt",
+         "reptilian",
+         "savage beast",
+         "sister_of_ragadam",
+         "skeleton",
+         "skeleton_archer",
+         "undead",
+         "ursoc",
+         "ursoc boss"
+      ]
+   },
+   "name" : {
+      "type" : "string/list"
+   },
+   "npc" : {
+      "mandatory" : false,
+      "type" : "flag"
+   }
+}

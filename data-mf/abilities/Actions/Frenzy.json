@@ -1,0 +1,44 @@
+{
+	"id":"Frenzy",
+	"type":"ActionList",
+	"actions":[
+		{
+			"type":"DealWeaponDamage",
+			"damage_source":"melee",
+			"damage_type":"physical",
+			"percent":"2 + (abilityLevel-1)*0.25"
+		},
+		{
+			"type":"Condition",
+			"condition":"abilityLevel >= 3",
+			"true_branch":		{
+				"type":"ActionList",
+				"actions":[
+					{
+						"type":"AddEffect",
+						"target":"caster",
+						"effect":{
+							"type":"ModifyStats",
+							"duration":18,
+							"uniqueID":"FrenzyAS",
+							"icon":"frenzy_icon",
+							"maxStacks":5,
+							"stats":["attackSpeed", 0.06]
+						}
+					},
+					{
+						"type":"AddEffect",
+						"target":"caster",
+						"effect":{
+							"type":"FeetVFX",
+							"duration":18,
+							"uniqueID":"FrenzyASVfx",
+							"vfx":"whirlwind",
+							"maxStacks":5							
+						}
+					}					
+				]
+			}
+		}
+	]
+}

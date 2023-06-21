@@ -1,0 +1,444 @@
+{
+	"name" : "Act IV",
+	"req" : {},
+	"category" : "side",
+
+	"quests" : [
+		{
+			"id" : "the_void_corrupts",
+			"name" : "The Void Corrupts",
+			"story" : {
+				"intro" : "Champion! There is a place known as the Syndarian Mines. A birdie whispered me that you might venture in. No, actually I was evesdropping on Master Alarion when he spoke to Grizzwald the Ursoc.||||I heard some rumours that some crystals in the mines might be contaminated.||||But on the off-chance these rumours have some truth to them, you should know this: syndarian crystals are green. If you see any crystal in the mines that is not green, bring it to me.",
+				"prog" : "Retrieve any crystals that seem out of place from the Syndarian Mines in the 'On Wings of Aether' level.",
+				"done" : "The corruption runs deeper than I thought. We were lucky you found this crystal when you did, {HERO}. The violet crystal draws energy from the other crystals in the mines, and their power is diminished. I shall destroy it swiftly!"
+			},
+			"src" : "Liana",
+			"req" : { "quest" : ["signs_of_life"] },
+
+			"obj" : [
+				{
+					"obj_id" : "void_crystal",
+					"type" : "go_event",
+					"event" : "void_crystal",
+					"location" : "On Wings of Aether",
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"item" : { "name" : "Void Crystal" , "desc" : "The Void Crystal syphons power from the Syndarian Crystals" , "icon" : "gemstone5" },
+					"desc" : "Retrieve any crystal that looks out of place in the Syndarian Mines"
+				}
+			],
+			"rewards" : { 
+				"xp" : 30000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "lost_literature",
+			"name" : "Lost Literature of Elderath",
+			"story" : {
+				"intro" : "Our scouts recovered something suspicious, {HERO}.||||Do you remember how Ragadam’s minions burned our books when this madness begun on Elderath? We found that some of the Ursoc captains have parts of those very books that we lost.||||How could they be here? We never met the Ursoc before we traveled to Demeter!||||Venture into Darkhold, find any lost pages of Elderanian literature and bring them to me so I can put them back together!",
+				"prog" : "Recover book pages from the Ursoc captains.",
+				"done" : "Thank you, {HERO}. We must not forget to save Elderanian culture together with the rest of Elderath. These pages you recovered speak of countless worlds beyond our own in the Eternium. This knowledge could have been lost forever without you."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "wings_of_aether" },
+			"common" : { "location" : "Darkhold Citadel" },
+
+			"obj" : [
+				{
+					"obj_id" : "recover_books",
+					"type" : "loot",
+					"creature" : {"flavor":"ursoc"},
+					"item" : { "name" : "Torn Page of Elderanian Literature", "icon" : "calendar" },
+					"drop_rate" : 1,
+					"total" : 30,
+					"desc" : "Recover {N} Torn Pages from the Ursoc"
+				}
+			],
+			"rewards" : { 
+				"xp" : 40000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "ursoc_vandals",
+			"name" : "Vandalism on the Streets",
+			"story" : {
+				"intro" : "It turns out this blood craze isn't affecting all Ursoc in the same way. The younger ones are resorting to vandalism now, in Blenheim. Stop them, {HERO}. There could be worthwhile trade goods in that keep.",
+				"done" : "Well done, {HERO}. There is nothing worst than vandalism and destruction of property. How can an honest merchant make ends meet?"
+			},
+			"src" : "Gornathan",
+			"req" : { "quest" : "forbidden_knowledge" },
+
+			"obj" : [
+				{
+					"obj_id" : "ursoc_vandals",
+					"type" : "kill",
+					"creature" : "Ursoc Vandal",
+					"location" : "Blenheim",
+					"total" : 4,
+					"desc" : "Stop the Ursoc Vandals in Blenheim"
+				}
+			],
+			"rewards" : { 
+				"xp" : 50000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "flames_of_rebellion",
+			"name" : "The Flames of Rebellion",
+			"sequenced" : true,
+			"story" : {
+				"intro" : "Ragadam’s agent infected most of the Ursoc warriors with the blood craze, but they did not infect most of the civilian population as well. Perhaps they did not consider them a threat to their rule, or perhaps the mountain folk are more resilient. In any case, they are a force to be reckoned with.||||If we could show them the truth of Rak’shul’s betrayal, they could rise against his tyranny.",
+				"done" : "It seems you were inspiring, champion. Hastily armed civilians are already pouring into Grizzwald's camp, and their numbers increase as the hours pass by."
+			},
+			"src" : "Ingrid",
+			"req" : { "quest" : "source_of_corruption" },
+			"common" : { "location" : "The Highroad" },
+
+			"obj" : [
+				{
+					"obj_id" : "town_crier",
+					"type" : "talk_to",
+					"npc" : "Town Crier",
+					"dialog" : {
+						"dialog" : [{"hero":"Summon the townsfolk please, I wish to address them."}, "Very well, Outlander. Bang on the doors of the homes by the road and I will speak to Mayor Sands. By the time you reach the town center, there will be a gathering."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Ask the Town Crier to call an assembly"
+				},
+				{
+					"obj_id" : "bang_on_doors",
+					"type" : "go_event",
+					"event" : "rebellion",
+					"total" : 10,
+					"desc" : "Bang on doors calling the people to a gathering"
+				},
+				{
+					"obj_id" : "the_gathering",
+					"type" : "talk_to",
+					"npc" : "Mayor Sands",
+					"dialog" : {
+						"dialog" : [{"hero":"Mayor Sands, I am here to tell the people the truth about Rak'shul."}, "We will listen to you, Outlander, though I cannot guarantee we will trust you.", {"hero":"That's sufficient. Thank you, Mayor."}, {"hero":"Ursoc people! The usurper Rak'shul has deposed your rightful King, King Grizzwald!"}, {"narrator":"Murmurs can be heard among the crowd."}, {"hero":"The usurper is using shadow magic to corrupt the blood of the dragons to manufacture a plague!"}, {"hero":"He is inflicting a Blood Craze on your kin, driving them insane!"}, {"narrator":"The murmurs intensify..."}, {"hero":"Too long has Rak'shul sucked the wealth and blood of the common folk, only for him and his goons to gain power!"}, {"narrator":"Shouts of approval can be heard from the crowd."}, {"hero":"If you want freedom, you must take arms in defense of King and Country!"}, {"hero":"Rise up! Cast out the tyrant, the usurper!"}, {"narrator":"Powerful applause and shouts of 'Freedom!' and 'Death to the Usurper!' can be heard. Your job here is done."}],
+						"continue_to" : "quest"
+					},
+					"desc" : "Make an inspiring speech"
+				}
+			],
+			"rewards" : { 
+				"xp" : 75000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "legacy_of_the_dragons",
+			"name" : "Legacy of the Dragons",
+			"story" : {
+				"intro" : "The Dragons have always been a sacred part of Demeter, but now these defilers seek to corrupt their eggs and enslave their newborn. The one ultimately responsible for this is the leader of the Dark Mistresses, Aeforia, the Ritualist.||||Eradicate this filth, {HERO}!",
+				"prog" : "Slay Aeforia, the Ritualist.",
+				"done" : "The legacy of Demeter’s Dragons is saved, thanks to you. It is said the Dragons create the Aether that binds the Eternium together. Without them, we would all be lost."
+			},
+			"src" : "Alice",
+			"req" : { "quest" : "highroad" },
+
+			"obj" : [
+				{
+					"obj_id" : "kill_aeforia",
+					"type" : "kill",
+					"creature" : "Aeforia, the Ritualist",
+					"location" : "Dragon's Crag",
+					"desc" : "Slay Aeforia, the Ritualist at Dragon's Crag"
+				}
+			],
+			"rewards" : { 
+				"xp" : 85000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "reclaim_wealth",
+			"name" : "Reclaim their Wealth",
+			"story" : {
+				"intro" : "Rak’shul and his guard have plundered the wealth of the people, and hoard it in chests stored on the castle grounds. Relieve them of their wealth {HERO}, and put it to better use!"
+			},
+			"src" : "Liana",
+			"req" : { "quest" : "dragonspawn" },
+
+			"obj" : [
+				{
+					"obj_id" : "recover_wealth",
+					"type" : "go_event",
+					"event" : "loot_chest",
+					"location" : "Morgenheim",
+					"total" : 5,
+					"desc" : "Loot {N} chests in Morgenheim"
+				}
+			],
+			"rewards" : { 
+				"xp" : 100000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+
+		{
+			"id" : "proving_grounds",
+			"name" : "Proving Grounds",
+			"story" : {
+				"intro" : "{HERO}, Grizzwald the Ursoc King is awaiting for you in the Desolation Desert. He seems to have a mission for you, should you wish to aid him. He left a gift with me, should you accept. Return to me after you completed his mission.",
+				"prog" : "Aid Grizzwald in the Desolation Desert",
+				"done" : "Thank you, {HERO}."
+			},
+			"src" : "Morgan",
+			"common" : { "location" : "Desolation Desert" },
+			"sequenced" : true,
+			"req" : { "quest" : "kingmaker_conclusion" },
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_grizzwald_desolation_desert",
+					"type" : "talk_to",
+					"npc" : "Grizzwald",
+					"dialog" : {
+						"dialog" : ["Outlander, the Ursoc people never had good relations with the Minotaurs. They are savages that regale in the rush of battle. However, there is one thing they do respect, and that is strength. Defeat their strongest warriors in combat, and they will be more amenable towards you."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Grizzwald in Desolation Desert"
+				},
+				{
+					"obj_id" : "kill_minotaurs",
+					"type" : "kill",
+					"creature" : { "flavor" : "minotaur", "elite" : true },
+					"total" : 15,
+					"desc" : "Slay {N} elite Minotaurs in the Desolation Desert"
+				}
+			],
+			"rewards": {
+				"xp" : 120000,
+				"gold" : 6000,
+				"gear" : {
+					"itemClass": ["Ring"],
+					"name": ["Seal of Royal Power"],
+					
+					"levelOffset":3,
+					"variation":-1,
+					"quality":4,
+					"stats":["haste", "criticalRating", "criticalDamage", "power"],
+					"statBonus": 1,					
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "fire_and_steel",
+			"name" : "Through Fire and Steel",
+			"story" : {
+				"intro" : "The other minotaur tribes have no loyalty to Sivari. They only follow because their leaders have been proven weak. But if Sivari cannot defend her own people against us, dissent might arise in their ranks.||||Slay the Scartree and mark the ground with their blood!",
+				"prog" : "Kanthara tasked you to kill the Scartree in the Scartree Forest."
+			},
+			"common" : { "location" : "Scartree Forest" },
+			"autocomplete" : true,
+			"src" : "Kanthara",
+			"req" : { "quest" : "savage_warriors" },
+
+			"obj" : [
+				{
+					"obj_id" : "kill_the_scartree",
+					"type" : "kill",
+					"creature" : { "flavor" : "minotaur" },
+					"total" : 100,
+					"desc" : "Slay {N} Minotaurs in the Scartree Forest"
+				}
+			],
+			"rewards" : { 
+				"xp" : 150000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "chemical_warfare",
+			"name" : "Chemical Warfare",
+			"story" : {
+				"intro" : "My scouts tell me the Sisters of Ragadam are present inside of Scartree Hold, and they are performing some kind of experiments there. Bring me whatever they are working on, {HERO}."
+			},
+			"src" : "Alice",
+			"req" : { "quest" : "politics_of_blood" },
+
+			"obj" : [
+				{
+					"obj_id" : "retrieve_table",
+					"type" : "go_event",
+					"event" : "potion",
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"location" : "Scartree Hold",
+					"item" : {"name" : "Strange Potion" , "desc" : "A strange potion the Sisters of Ragadam inside Scartree Hold were working on" , "icon" : "potion_bottle" },
+					"desc" : "Retrieve whatever the Sisters were working on"
+				}
+			],
+			"rewards" : { 
+				"xp" : 150000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "power_of_the_enemy",
+			"name" : "The Power of the Enemy",
+			"story" : {
+				"intro" : "{HERO}, the Scartree Minotaurs on Crystal Mountain carry void infused talismans with them, the source of their increased power.||||Bring some samples to me if you come by them, so I can study them.",
+				"prog" : "Retrieve Void Infused Talismans from enemies at Crystal Mountain.",
+				"done" : "These talismans will prove invaluable in my research on Ragadam’s methods, {HERO}. Thank you."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "secret_scartree_hold" },
+
+			"obj" : [
+				{
+					"obj_id" : "retrieve_talismans",
+					"type" : "loot",
+					"location" : "Crystal Mountain",
+					"creature" : { "faction" : "enemy" },
+					"item" : { "name" : "Void Infused Talisman", "icon" : "skull", "desc" : "These talismans are carried by the Scartree and their allies at Crystal Mountain." },
+					"drop_rate" : 0.3,
+					"total" : 15,
+					"desc" : "Collect {N} Void Infused Talismans from {LOCATION}" 
+				}
+			],
+			"rewards" : { 
+				"xp" : 150000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "cover_of_darkness",
+			"name" : "Cover of Darkness",
+			"story" : {
+				"intro" : "The Scartree patrols lit torches on the road in the Drakenmoor Forest. We need the cover of darkness to assault the watchtower. Extinguish those torches, {HERO}!",
+				"prog" : "Extinguish the torches in the Drakenmoor Forest.",
+				"done" : "Good news, {HERO}! Our Bloodstone allies can move undetected through the forest."
+			},
+			"src" : "Liana",
+			"req" : { "quest" : "purging_the_void" },
+
+			"obj" : [
+				{
+					"obj_id" : "torches",
+					"type" : "go_event",
+					"event" : "torches",
+					"location" : "Drakenmoor Forest",
+					"total" : 7,
+					"desc" : "Extinguish {N} torches in Drakenmoor Forest"
+				}
+			],
+			"rewards" : { 
+				"xp" : 150000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "break_resistence",
+			"name" : "Breaking the Resistence",
+			"story" : {
+				"intro" : "The Bloodstone Guard Captain reached out to me. It appears he is in need of you, champion. Find him at the Drakenmoor Citadel and see what he wants.",
+				"done" : "Battle still rages across the Minotaur lands, but it looks like a victory."
+			},
+			"src" : "Ingrid",
+			"req" : { "quest" : "element_of_surprise" },
+			"sequenced" : true,
+			"common" : { "location" : "Drakenmoor Citadel" },
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_guard_captain",
+					"type" : "talk_to",
+					"npc" : "Bloodstone Guard Captain",
+					"dialog" : {
+						"dialog" : ["The tribes have witnessed your might, pinkskin, and are ready to stand behind you against any foe. However, we need your help defeating the Scartree Elite. They are void infused, and my forces are no match for them.", "Kill their Captain and resistence will crumble."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to the Bloodstone Guard Captain at the Drakenmoor Citadel"
+				},
+				{
+					"obj_id" : "kill_guard_captain",
+					"type" : "kill",
+					"creature" : "Captain of the Guard",
+					"desc" : "Slay the Scartree Captain of the Guard"
+				}
+			],
+			"rewards" : { 
+				"xp" : 150000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "clear_catacombs",
+			"name" : "Clear the Catacombs",
+			"story" : {
+				"intro" : "The final pocket of Scartree resistence is the Drakenmoor Catacombs, {HERO}. Venture in and destroy the enemy forces.",
+				"done" : "The Scartree resistence is broken, champion. The Catacombs are ours."
+			},
+			"src" : "Liana",
+			"req" : { "quest" : "minotaur_coup" },
+
+			"obj" : [
+				{
+					"obj_id" : "kill_forces_catacombs",
+					"type" : "kill",
+					"creature" : { "faction" : "enemy" },
+					"location" : "Drakenmoor Catacombs",
+					"total" : 150,
+					"desc" : "Slay {N} forces at {LOCATION}"
+				}
+			],
+			"rewards" : { 
+				"xp" : 150000,
+				"gold" : 5000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "kara_secret",
+			"name" : "Kara's Secret Power",
+			"story" : {
+				"intro" : "The Ursoc and Bloodstone have already infiltrated Kara's Necropolis compound, the Underworld. Their scouts are awaiting for you at the entrance with information on the enemy.",
+				"prog" : "Act upon the Infiltrator's intelligence."
+			},
+			"autocomplete" : true,
+			"req" : { "quest" : "lex_talionis_conclusion" },
+			"sequenced" : true,
+			"common" : { "location" : "The Underworld" },
+			"src" : "Ingrid",
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_infiltrator",
+					"type" : "talk_to",
+					"npc" : "Bloodstone Infiltrator",
+					"dialog" : {
+						"dialog" : [{"hero":"I was told you have information on our enemy."}, "Warbringer! We were waiting for you. The Tempest Queen draws power from the traitors that aid her. Kill the traitor leaders, and her power diminishes.", {"narrator":"The Minotaur grins wickedly."}, "The Ursoc traitor, Grumber, is located in the blood chambers to the east. The Scartree scum, Dragnak, is on the eerie slope, above Kara. And finally, the Lich commander, Modrok, is among the mausoleums to the west."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Learn what intelligence the Infiltrator has for you"
+				},
+				{
+					"obj_id" : "kill_grumber",
+					"type" : "kill",
+					"creature" : ["Grumber", "Dragnak", "Modrok"],
+					"total" : 3,
+					"desc" : "Find and slay Grumber, Dragnak and Modrok"
+				}
+			]
+		}		
+	]
+}

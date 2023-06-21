@@ -1,0 +1,110 @@
+[
+   {
+      "id" : "axe",
+      "slots" : [ "main_hand" ]
+   },
+   {
+      "id" : "cape",
+      "slots" : [ "cape" ]
+   },
+   {
+      "id" : "heavy_armor_boots",
+      "slots" : [ "boots" ]
+   },
+   {
+      "id" : "heavy_armor_chest",
+      "slots" : [ "chest" ]
+   },
+   {
+      "id" : "heavy_armor_gloves",
+      "slots" : [ "gloves" ]
+   },
+   {
+      "id" : "heavy_armor_head",
+      "slots" : [ "head" ]
+   },
+   {
+      "id" : "heavy_armor_pants",
+      "slots" : [ "pants" ]
+   },
+   {
+      "id" : "heavy_armor_shoulders",
+      "slots" : [ "shoulders" ]
+   },
+   {
+      "id" : "leather_armor_boots",
+      "slots" : [ "boots" ]
+   },
+   {
+      "id" : "leather_armor_chest",
+      "slots" : [ "chest" ]
+   },
+   {
+      "id" : "leather_armor_gloves",
+      "slots" : [ "gloves" ]
+   },
+   {
+      "id" : "leather_armor_head",
+      "slots" : [ "head" ]
+   },
+   {
+      "id" : "leather_armor_pants",
+      "slots" : [ "pants" ]
+   },
+   {
+      "id" : "leather_armor_shoulders",
+      "slots" : [ "shoulders" ]
+   },
+   {
+      "id" : "light_armor_boots",
+      "slots" : [ "boots" ]
+   },
+   {
+      "id" : "light_armor_chest",
+      "slots" : [ "chest" ]
+   },
+   {
+      "id" : "light_armor_gloves",
+      "slots" : [ "gloves" ]
+   },
+   {
+      "id" : "light_armor_head",
+      "slots" : [ "head" ]
+   },
+   {
+      "id" : "light_armor_pants",
+      "slots" : [ "pants" ]
+   },
+   {
+      "id" : "light_armor_shoulders",
+      "slots" : [ "shoulders" ]
+   },
+   {
+      "id" : "mace",
+      "slots" : [ "main_hand" ]
+   },
+   {
+      "id" : "pistol",
+      "slots" : [ "main_hand" ]
+   },
+   {
+      "id" : "shield",
+      "slots" : [ "off_hand" ]
+   },
+   {
+      "id" : "staff",
+      "slots" : [ "main_hand" ]
+   },
+   {
+      "id" : "sword",
+      "slots" : [ "main_hand" ]
+   },
+   {
+      "id" : "sword_2h",
+      "slots" : [ "two_hand" ]
+   },
+   {
+      "id" : "tome",
+      "slots" : [ "off_hand" ]
+   }
+]

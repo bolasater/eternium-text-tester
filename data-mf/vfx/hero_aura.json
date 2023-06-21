@@ -1,0 +1,15 @@
+[
+	["ClavLeft", "ArmLeft", "LightningAura", 200, 1.0],
+	["ArmLeft", "ForearmLeft", "LightningAura", 200, 0.8],
+	["ForearmLeft", "HandLeft", "LightningAura", 200, 0.6],
+
+	["ClavRight", "ArmRight", "LightningAura", 200, 1.0],
+	["ArmRight", "ForearmRight", "LightningAura", 200, 0.8],
+	["ForearmRight", "HandRight", "LightningAura", 200, 0.6],
+
+	["UpperLegLeft", "LowerLegLeft", "LightningAura", 200, 1.0],
+	["LowerLegLeft", "FootLeft", "LightningAura", 200, 0.8],
+	
+	["UpperLegRight", "LowerLegRight", "LightningAura", 200, 1.0],
+	["LowerLegRight", "FootRight", "LightningAura", 200, 0.8]
+]

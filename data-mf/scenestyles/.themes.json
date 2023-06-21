@@ -1,0 +1,37 @@
+[
+	{
+		"id" : "elderan_summer",
+		"name" : "Elderan Summer",
+		"styles" : ["SummerPlain"],
+		"music" : ["Path_to_Lake_Land", "combat", "Perpetual_Tension"],
+		"weather" : ["summer", "whitemist"]
+	},
+	{
+		"id" : "elderan_desert",
+		"name" : "Elderan Desert",
+		"styles" : [ "DesertPlain" ],
+		"music" : ["Caves_of_Sorrow", "Mysthical_Theme", "Steps_of_Destiny", "Perpetual_Tension", "Second_Stand", "Industrial"],
+		"weather" : ["whitemist", "redmist"]
+	},
+	{
+		"id" : "mountain_cave",
+		"name" : "Mountain Cave",
+		"styles" : ["Cave"],
+		"music" : ["Caves_of_Sorrow", "Mysthical_Theme", "Steps_of_Destiny", "Perpetual_Tension", "Second_Stand", "Industrial"],
+		"weather" : ["whitemist", "redmist", "greenmist"]
+	},
+	{
+		"id" : "elderan_winter",
+		"name" : "Elderan Winter",
+		"styles" : ["SnowyPlain"],
+		"music" : ["Caves_of_Sorrow", "Mysthical_Theme", "Steps_of_Destiny", "Perpetual_Tension", "Second_Stand", "Industrial", "Wind"],
+		"weather" : ["whitemist", "snow", "blizzard"]
+	},
+	{
+		"id" : "elderan_swamp",
+		"name" : "Elderan Swamp",
+		"styles" : ["Swamp"],
+		"music" : ["Path_to_Lake_Land", "Mysthical_Theme", "Perpetual_Tension"],
+		"weather" : ["whitemist", "greenmist", "summer"]
+	}
+]

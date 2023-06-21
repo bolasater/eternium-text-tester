@@ -1,0 +1,15 @@
+{
+   "abilities" : "7ff54d8889c3ee8888b9aea925091d750bace79b",
+   "achievements" : "2324594b9537d5637a37bcade91f32a97a249797",
+   "acts" : "87f95f83961f414e0aa0272be14b5b438068a439",
+   "creatures" : "c19e1964b8207b068ba0387d2b3d9c1de4e501ec",
+   "dialogs" : "907724a8e7cc5ca29a50600cf75136da1d5addb8",
+   "economy" : "8cef46b8124f8f22910add5501abf39726142877",
+   "item_classes" : "17b7018a503dc44bbc7d51f92a029ab62026f511",
+   "levels" : "3b7eef55bd489ef1ac85133cc0d2cc7f038515b9",
+   "loot_tables" : "05f63e47fe6f6d92c4b44a2a083fc5415afb5df9",
+   "quests" : "72acd5fc1d6f4a3fb1efdd8e2fb8b18e5b4ec728",
+   "stats" : "81c26acec262eaea6331a9ce335f5db8e0cb7ec5",
+   "store" : "c265578b4b9dd99ae5f08b66b10edcffc6236af3",
+   "wave_types" : "263d7e9b2dbecd5070fa48d5971626abc0ee2e12"
+}

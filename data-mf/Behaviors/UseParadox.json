@@ -1,0 +1,37 @@
+{
+	"id":"UseParadox",
+	"type":"Sequence",
+	"children":[
+		{
+			"type":"Negate",
+			"node": {
+				"type":"IsImmune",
+				"creature":"self"
+			}
+		},
+		{
+			"type":"AbilityReady",
+			"ability":"paradox"
+		},
+		{
+			"type":"Negate",
+			"node":{
+				"type":"HasEffect",
+				"creature":"self",
+				"effect":"paradox"
+			}
+		},
+		{
+			"type":"Negate",
+			"node":{
+				"type":"HasEffect",
+				"creature":"self",
+				"effect":"paradoxShield"
+			}
+		},		
+		{
+			"type":"CastAbility",
+			"ability":"paradox"
+		}
+	]
+}

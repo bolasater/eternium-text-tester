@@ -1,0 +1,562 @@
+[
+	{
+		"id":"normal_pistols",
+		"category":"normal_pistols",		
+		"name":"Handguns",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["weapon"],
+				"requireTags":["ranged"],
+				"excludeTags":["set", "unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"weapon_essence_cheap",
+				"qualityMultiplier":"essence_default"	
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"weapon_gold_cost",
+				"qualityMultiplier":"gold_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "iron_bar",
+				"amountPerItemLevel":0.4,
+				"qualityMultiplier":"materials_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "leather",
+				"amountPerItemLevel":0.2,
+				"qualityMultiplier":"materials_default"
+			}
+		]			
+	},
+	{
+		"id":"unique_pistols",
+		"category":"unique_pistols",		
+		"name":"Handguns",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":2,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["weapon"],
+				"requireTags":["ranged", "unique"]				
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":1,
+				"qualityMultiplier":"essence_set"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"weapon_gold_cost",
+				"qualityMultiplier":"gold_expensive"
+			},
+			{
+				"type" : "material",
+				"subType" : "mithril",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "leather",
+				"amountPerItemLevel":0.0285,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"amountPerItemLevel":0.00855,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	},
+	{
+		"id":"set_pistols",
+		"category":"set_pistols",		
+		"name":"Handguns",
+
+		"output":{
+			"type":"gear",
+			"selection":["set"],
+			"itemFilter" : {
+				"minQuality":2,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["weapon"],
+				"requireTags":["ranged", "set"]				
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":1,
+				"qualityMultiplier":"essence_set"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"weapon_gold_cost",
+				"qualityMultiplier":"gold_expensive"
+			},
+			{
+				"type" : "material",
+				"subType" : "mithril",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "leather",
+				"amountPerItemLevel":0.0285,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"amountPerItemLevel":0.00855,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	},
+	{
+		"id":"normal_melee",
+		"category":"normal_melee",		
+		"name":"Normal Melee",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["weapon"],
+				"requireTags":["melee"],
+				"excludeTags":["set", "unique", "2h"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"weapon_essence_cheap",
+				"qualityMultiplier":"essence_default"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"weapon_gold_cost",
+				"qualityMultiplier":"gold_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "iron_bar",
+				"amountPerItemLevel":0.5,
+				"qualityMultiplier":"materials_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "leather",
+				"amountPerItemLevel":0.2,
+				"qualityMultiplier":"materials_default"
+			}
+		]			
+	},
+	{
+		"id":"normal_staff",
+		"category":"normal_staff",		
+		"name":"Normal Melee",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["weapon"],
+				"requireTags":["magic"],
+				"excludeTags":["set", "unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"weapon_essence_cheap",
+				"qualityMultiplier":"essence_default"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"weapon_gold_cost",
+				"qualityMultiplier":"gold_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "iron_bar",
+				"amountPerItemLevel":0.5,
+				"qualityMultiplier":"materials_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "leather",
+				"amountPerItemLevel":0.2,
+				"qualityMultiplier":"materials_default"
+			}
+		]			
+	},
+	{
+		"id":"unique_melee",
+		"category":"unique_melee",		
+		"name":"Unique Melee",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":2,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["weapon"],
+				"requireTags":["unique", "melee"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":1,
+				"qualityMultiplier":"essence_set"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"weapon_gold_cost",
+				"qualityMultiplier":"gold_expensive"
+			},
+			{
+				"type" : "material",
+				"subType" : "mithril",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "leather",
+				"amountPerItemLevel":0.0285,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"amountPerItemLevel":0.00855,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	},
+	{
+		"id":"set_melee_weapons",
+		"category":"set_melee",
+		"name":"Set Melee",
+
+		"output":{
+			"type":"gear",
+			"selection":["set"],
+			"itemFilter" : {
+				"minQuality":2,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["weapon", "shield"],
+				"requireTags":["set", "melee"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":1,
+				"qualityMultiplier":"essence_set"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"weapon_gold_cost",
+				"qualityMultiplier":"gold_expensive"
+			},
+			{
+				"type" : "material",
+				"subType" : "mithril",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "leather",
+				"amountPerItemLevel":0.0285,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"amountPerItemLevel":0.00855,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	},
+	{
+		"id":"normal_tome",
+		"category":"normal_arcane",		
+		"name":"Normal Arcane",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["orb"],
+				"requireTags":["magic"],
+				"excludeTags":["set", "unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"oh_essence_cheap",
+				"qualityMultiplier":"essence_default"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"oh_gold_cost",
+				"qualityMultiplier":"gold_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_ingot",
+				"amountPerItemLevel":0.25,
+				"qualityMultiplier":"essence_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "leather",
+				"amountPerItemLevel":0.2,
+				"qualityMultiplier":"materials_default"
+			}
+		]			
+	},
+	{
+		"id":"unique_arcane_tome",
+		"category":"unique_arcane",		
+		"name":"Unique Arcane",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":2,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["orb"],
+				"requireTags":["unique", "magic"],
+				"excludeTags":["set"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0.666,
+				"qualityMultiplier":"essence_set"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"oh_gold_cost",
+				"qualityMultiplier":"gold_expensive"
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_ingot",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "enchanted_leather",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"amountPerItemLevel":0.00855,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	},
+	{
+		"id":"set_arcane_weap",
+		"category":"arcane_weapon_oh_sets",		
+		"name":"Set Staff",
+
+		"output":{
+			"type":"gear",
+			"selection":["set"],
+			"itemFilter" : {
+				"minQuality":2,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["weapon", "orb"],
+				"requireTags":["set", "magic"],
+				"excludeTags":["unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":1,
+				"qualityMultiplier":"essence_set"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"weapon_gold_cost",
+				"qualityMultiplier":"gold_expensive"
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_ingot",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "enchanted_leather",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"amountPerItemLevel":0.00855,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	},
+	{
+		"id":"normal_shield",
+		"category":"normal_shield",		
+		"name":"Normal",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["shield"],
+				"excludeTags":["set", "unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"oh_essence_cheap",
+				"qualityMultiplier":"essence_default"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"gear_gold_cost",
+				"qualityMultiplier":"gold_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_ingot",
+				"amountPerItemLevel":0.15,
+				"qualityMultiplier":"essence_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "iron_bar",
+				"amountPerItemLevel":1,
+				"qualityMultiplier":"materials_default"
+			}
+		]			
+	},
+	{
+		"id":"unique_shield",
+		"category":"unique_shield",		
+		"name":"Unique",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":2,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["shield"],
+				"requireTags":["unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":1,
+				"qualityMultiplier":"essence_default"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"gear_gold_cost",
+				"qualityMultiplier":"gold_expensive"
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_ingot",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "mithril",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"amountPerItemLevel":0.00855,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	}
+]

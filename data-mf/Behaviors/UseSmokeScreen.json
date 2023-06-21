@@ -1,0 +1,67 @@
+{
+	"id":"UseSmokeScreen",
+	"type":"Sequence",
+	"children":[
+		{
+			"type":"AbilityReady",
+			"ability":"smoke_screen"
+		},
+		{
+			"type":"Negate",
+			"node":{
+				"type":"HasEffect",
+				"creature":"hero",
+				"effect":"smoke_screen_blind"
+			}
+		},
+		{
+			"type":"Negate",
+			"node": {
+				"type":"IsCCImmune",
+				"creature":"hero"
+			}								
+		},				
+		{
+			"type":"Negate",
+			"node":{
+				"type":"HasEffect",
+				"creature":"hero",
+				"effect":"smoke_screen_blind"
+			}
+		},		
+		{
+			"type":"Selector",
+			"children":[
+				{
+					"comment":"Use it on close range warriors",
+					"type":"Sequence",
+					"children":[
+						{
+							"type":"MatchHeroClass",
+							"creature":"hero",
+							"class":"warrior"
+						},
+						{
+							"type":"RangeToEnemy",
+							"comparison":"lesser",
+							"value":0.5
+						}
+					]
+				},
+				{
+					"comment":"Or use it freely on any other classes",
+					"type":"Negate",
+					"node":{
+						"type":"MatchHeroClass",
+						"creature":"hero",
+						"class":"warrior"
+					}
+				}
+			]
+		},
+		{
+			"type":"CastAbility",
+			"ability":"smoke_screen"
+		}
+	]
+}

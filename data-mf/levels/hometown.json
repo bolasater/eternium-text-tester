@@ -1,0 +1,6108 @@
+{
+   "ambient" : [ 0, 32, 69 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Simulator1.5.33: My Computer",
+      "saveTime" : "1613579065003"
+   },
+   "enemyFlavors" : null,
+   "enemySetup" : [
+      {
+         "a" : 5.66070,
+         "creature" : "npc_blacksmith",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "npc" : {
+            "crt_icon" : null,
+            "icon" : "craft_icon",
+            "role" : "crafter gear",
+            "scaling" : "1.3",
+            "title" : "Blacksmith"
+         },
+         "x" : -1.49220,
+         "z" : -1.24320
+      },
+      {
+         "a" : 5.1080,
+         "creature" : "npc_equipment_trader",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "name" : "Gornathan",
+         "npc" : {
+            "icon" : "hero_icon",
+            "role" : "trader gear",
+            "scaling" : 1.20,
+            "title" : "Weapons & Armor"
+         },
+         "x" : -1.00390,
+         "z" : -0.07020
+      },
+      {
+         "a" : 4.02590,
+         "creature" : "npc_consumable_trader",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "name" : "Ruby",
+         "npc" : {
+            "crt_icon" : null,
+            "icon" : "gemstone_pile",
+            "role" : "trader item",
+            "scaling" : "1.15",
+            "title" : "Consumable Trader"
+         },
+         "x" : 1.49130,
+         "z" : -0.84790
+      },
+      {
+         "a" : 5.04390,
+         "creature" : "npc_innkeeper",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "name" : "Alice",
+         "npc" : {
+            "icon" : "team_icon; beer_mug",
+            "role" : "trader minion; trader tavern",
+            "scaling" : 1.130,
+            "title" : "Innkeeper"
+         },
+         "x" : 0.71690,
+         "z" : 0.07190000000000001
+      },
+      {
+         "a" : 4.44480,
+         "creature" : "npc_jeweler",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "name" : "Morgan",
+         "npc" : {
+            "crt_icon" : null,
+            "icon" : "jewelcraft_icon",
+            "role" : "crafter jewelry",
+            "scaling" : "1.15",
+            "title" : "Jeweler"
+         },
+         "x" : 1.34870,
+         "z" : -0.48140
+      },
+      {
+         "a" : 3.97350,
+         "creature" : "npc_elder_sage",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "name" : "Alarion",
+         "npc" : {
+            "icon" : "",
+            "role" : "none",
+            "scaling" : 1.150,
+            "title" : "Elder Sage"
+         },
+         "x" : 0.17730,
+         "z" : -0.07170
+      },
+      {
+         "a" : 7.00460,
+         "creature" : "npc_hoarder",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "name" : "Mitzu",
+         "npc" : {
+            "icon" : "coin",
+            "role" : "trader sell",
+            "scaling" : 1.20,
+            "title" : "Hoarder"
+         },
+         "x" : -0.33120,
+         "z" : -1.16570
+      },
+      {
+         "a" : 3.16490,
+         "creature" : "npc_recipe_trader",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "name" : "Liana",
+         "npc" : {
+            "crt_icon" : null,
+            "icon" : "scroll",
+            "role" : "trader craft_recipe",
+            "scaling" : 1.0,
+            "title" : "Recipe Trader"
+         },
+         "x" : 1.31730,
+         "z" : -1.37550
+      }
+   ],
+   "fog" : [ 0, 16, 32 ],
+   "heroOmni" : {
+      "blue" : 0.5020,
+      "green" : 0.56470,
+      "r0" : 0.10,
+      "r1" : 1.0,
+      "red" : 0.66670
+   },
+   "lightCol" : [ 144, 64, 0 ],
+   "lightDir" : [ 0.0, -0.70710, 0.70710 ],
+   "props" : [
+      {
+         "heading" : 54.10520,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 00",
+         "scaling" : 0.72710,
+         "x" : 1.30220,
+         "y" : 0.0,
+         "z" : -0.25520
+      },
+      {
+         "heading" : 7.24310,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.19790,
+         "y" : -0.010,
+         "z" : -1.29180
+      },
+      {
+         "heading" : 6.27150,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.01970,
+         "y" : -0.010,
+         "z" : -1.18680
+      },
+      {
+         "heading" : 52.44710,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 01",
+         "scaling" : 0.72710,
+         "x" : 1.53220,
+         "y" : 0.0,
+         "z" : -0.31960
+      },
+      {
+         "heading" : 6.81260,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.19350,
+         "y" : -0.010,
+         "z" : -1.08060
+      },
+      {
+         "heading" : 7.36530,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.33960,
+         "y" : -0.010,
+         "z" : -1.26240
+      },
+      {
+         "heading" : 11.31550,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : -0.36060,
+         "y" : -0.010,
+         "z" : -1.4650
+      },
+      {
+         "heading" : 14.96910,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.22980,
+         "y" : -0.010,
+         "z" : -1.64840
+      },
+      {
+         "heading" : 15.6440,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.05340,
+         "y" : -0.010,
+         "z" : -1.72970
+      },
+      {
+         "heading" : 19.5360,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : 0.17820,
+         "y" : -0.010,
+         "z" : -1.64010
+      },
+      {
+         "heading" : 23.48630,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 0.34180,
+         "y" : -0.010,
+         "z" : -1.43260
+      },
+      {
+         "heading" : 24.03320,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.27340,
+         "y" : -0.010,
+         "z" : -1.18760
+      },
+      {
+         "heading" : 54.27970,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 00",
+         "scaling" : 0.72710,
+         "x" : -0.85320,
+         "y" : 0.0,
+         "z" : -0.82320
+      },
+      {
+         "heading" : 21.66530,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : 0.10130,
+         "y" : -0.010,
+         "z" : -1.05490
+      },
+      {
+         "heading" : 18.8670,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.01670,
+         "y" : -0.010,
+         "z" : -1.03170
+      },
+      {
+         "heading" : 15.99880,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.11620,
+         "y" : -0.010,
+         "z" : -1.85530
+      },
+      {
+         "heading" : 16.47590,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 0.34060,
+         "y" : -0.010,
+         "z" : -1.76590
+      },
+      {
+         "heading" : 19.96650,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : 0.45920,
+         "y" : -0.010,
+         "z" : -1.5990
+      },
+      {
+         "heading" : 23.56190,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.50380,
+         "y" : -0.010,
+         "z" : -1.37280
+      },
+      {
+         "heading" : 24.12040,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 0.42010,
+         "y" : -0.010,
+         "z" : -1.14690
+      },
+      {
+         "heading" : 21.44430,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : 0.30340,
+         "y" : -0.010,
+         "z" : -0.96340
+      },
+      {
+         "heading" : 18.8030,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.04040,
+         "y" : -0.010,
+         "z" : -0.8970
+      },
+      {
+         "heading" : 19.18120,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.18510,
+         "y" : -0.010,
+         "z" : -0.92270
+      },
+      {
+         "heading" : 19.85020,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.39480,
+         "y" : -0.010,
+         "z" : -1.06990
+      },
+      {
+         "heading" : 23.43980,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : -0.48780,
+         "y" : -0.010,
+         "z" : -1.29480
+      },
+      {
+         "heading" : 27.03510,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.47460,
+         "y" : -0.010,
+         "z" : -1.53740
+      },
+      {
+         "heading" : 27.53540,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.38470,
+         "y" : -0.010,
+         "z" : -1.74710
+      },
+      {
+         "heading" : 27.97760,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.16450,
+         "y" : -0.010,
+         "z" : -1.86950
+      },
+      {
+         "heading" : 31.3810,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : -0.05150,
+         "y" : 0.0,
+         "z" : -2.07230
+      },
+      {
+         "heading" : 34.0630,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.31380,
+         "y" : 0.0,
+         "z" : -2.02010
+      },
+      {
+         "heading" : 33.79530,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.51830,
+         "y" : 0.0,
+         "z" : -1.86890
+      },
+      {
+         "heading" : 33.19030,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.67470,
+         "y" : 0.0,
+         "z" : -1.63070
+      },
+      {
+         "heading" : 39.16510,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.71110,
+         "y" : 0.0,
+         "z" : -1.34550
+      },
+      {
+         "heading" : 38.66480,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.59280,
+         "y" : -0.00180,
+         "z" : -1.06440
+      },
+      {
+         "heading" : 38.28670,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.4010,
+         "y" : -0.00160,
+         "z" : -0.83940
+      },
+      {
+         "heading" : 37.72820,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.12030,
+         "y" : -0.00950,
+         "z" : -0.74860
+      },
+      {
+         "heading" : 37.22210,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.18490,
+         "y" : -0.00360,
+         "z" : -0.75420
+      },
+      {
+         "heading" : 39.92730,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : 0.49450,
+         "y" : -0.00010,
+         "z" : -0.93350
+      },
+      {
+         "heading" : 42.71980,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.65620,
+         "y" : 0.0,
+         "z" : -1.24870
+      },
+      {
+         "heading" : 42.26020,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 0.6657999999999999,
+         "y" : 0.0,
+         "z" : -1.55780
+      },
+      {
+         "heading" : 41.84720,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.51450,
+         "y" : 0.0,
+         "z" : -1.8420
+      },
+      {
+         "heading" : 47.60660,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 0.2420,
+         "y" : 0.0,
+         "z" : -2.02160
+      },
+      {
+         "heading" : 32.09660,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : 0.47020,
+         "y" : 0.0,
+         "z" : -2.08070
+      },
+      {
+         "heading" : 33.79530,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.53940,
+         "y" : 0.0,
+         "z" : -2.05410
+      },
+      {
+         "heading" : 33.32410,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.7570,
+         "y" : 0.0,
+         "z" : -1.82320
+      },
+      {
+         "heading" : 38.45540,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.62370,
+         "y" : 0.0,
+         "z" : -0.81820
+      },
+      {
+         "heading" : 37.61190,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.05950,
+         "y" : -0.010,
+         "z" : -0.56350
+      },
+      {
+         "heading" : 36.9080,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 0.44010,
+         "y" : 0.0,
+         "z" : -0.7000999999999999
+      },
+      {
+         "heading" : 36.55890,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.7252999999999999,
+         "y" : 0.0,
+         "z" : -1.00110
+      },
+      {
+         "heading" : 41.98110,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.74690,
+         "y" : 0.0,
+         "z" : -1.76690
+      },
+      {
+         "heading" : 37.6990,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : -0.09530,
+         "y" : 0.0,
+         "z" : -2.34030
+      },
+      {
+         "heading" : 40.21220,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.48310,
+         "y" : 0.0,
+         "z" : -2.24860
+      },
+      {
+         "heading" : 39.96790,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.7685999999999999,
+         "y" : 0.0,
+         "z" : -2.03260
+      },
+      {
+         "heading" : 42.2310,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : -1.00180,
+         "y" : 0.0,
+         "z" : -1.24720
+      },
+      {
+         "heading" : 44.42430,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.5358000000000001,
+         "y" : 0.0,
+         "z" : -0.59960
+      },
+      {
+         "heading" : 44.02870,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.1060,
+         "y" : -0.010,
+         "z" : -0.44110
+      },
+      {
+         "heading" : 48.82830,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 0.88950,
+         "y" : 0.0,
+         "z" : -1.16880
+      },
+      {
+         "heading" : 34.1270,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.3640,
+         "y" : 0.0,
+         "z" : -2.45760
+      },
+      {
+         "heading" : 37.02420,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : -0.60170,
+         "y" : 0.0,
+         "z" : -2.32390
+      },
+      {
+         "heading" : 39.86320,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.88750,
+         "y" : 0.0,
+         "z" : -2.04270
+      },
+      {
+         "heading" : 39.61890,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.98130,
+         "y" : 0.0,
+         "z" : -1.8320
+      },
+      {
+         "heading" : 39.46760,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -1.07930,
+         "y" : 0.0,
+         "z" : -1.60850
+      },
+      {
+         "heading" : 42.28920,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : -1.10990,
+         "y" : 0.0,
+         "z" : -1.3970
+      },
+      {
+         "heading" : 45.3610,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -1.09670,
+         "y" : 0.0,
+         "z" : -1.1780
+      },
+      {
+         "heading" : 45.09920,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -1.00580,
+         "y" : 0.0,
+         "z" : -0.98130
+      },
+      {
+         "heading" : 50.88780,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : -0.63040,
+         "y" : 0.0,
+         "z" : -0.47710
+      },
+      {
+         "heading" : 50.60270,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.38590,
+         "y" : 0.0,
+         "z" : -0.38260
+      },
+      {
+         "heading" : 50.35840,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.17110,
+         "y" : 0.0,
+         "z" : -0.32130
+      },
+      {
+         "heading" : 50.18390,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.07760,
+         "y" : -0.010,
+         "z" : -0.30890
+      },
+      {
+         "heading" : 56.00740,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.50850,
+         "y" : 0.0,
+         "z" : -0.45380
+      },
+      {
+         "heading" : 55.80960,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 0.69590,
+         "y" : 0.0,
+         "z" : -0.60620
+      },
+      {
+         "heading" : 55.57690,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.83050,
+         "y" : 0.0,
+         "z" : -0.7616000000000001
+      },
+      {
+         "heading" : 58.46250,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : 0.94750,
+         "y" : 0.0,
+         "z" : -0.94660
+      },
+      {
+         "heading" : 61.3830,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 1.03340,
+         "y" : 0.0,
+         "z" : -1.15670
+      },
+      {
+         "heading" : 61.24340,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 1.04790,
+         "y" : 0.0,
+         "z" : -1.37570
+      },
+      {
+         "heading" : 61.05720,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 1.0330,
+         "y" : 0.0,
+         "z" : -1.60930
+      },
+      {
+         "heading" : 64.03590,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : 0.95560,
+         "y" : 0.0,
+         "z" : -1.83020
+      },
+      {
+         "heading" : 66.90410,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.84510,
+         "y" : 0.0,
+         "z" : -2.00650
+      },
+      {
+         "heading" : 66.70630,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 0.67310,
+         "y" : 0.0,
+         "z" : -2.15780
+      },
+      {
+         "heading" : 66.60740,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.54060,
+         "y" : 0.0,
+         "z" : -2.34920
+      },
+      {
+         "heading" : 72.34380,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.14220,
+         "y" : 0.0,
+         "z" : -2.48310
+      },
+      {
+         "heading" : 72.13440,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.12230,
+         "y" : 0.0,
+         "z" : -2.48820
+      },
+      {
+         "heading" : 57.28150,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 01",
+         "scaling" : 0.65340,
+         "x" : -0.85750,
+         "y" : 0.0,
+         "z" : -2.24280
+      },
+      {
+         "heading" : 60.94070,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.65340,
+         "x" : 0.35930,
+         "y" : 0.0,
+         "z" : -0.25050
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 2.31550,
+         "name" : "Lamp Post 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 1.02430,
+         "y" : 0.0,
+         "z" : -0.29820
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 4.15390,
+         "name" : "Lamp Post 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -0.21350,
+         "y" : 0.0,
+         "z" : 0.08670
+      },
+      {
+         "heading" : 50.27120,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 00",
+         "scaling" : 0.65340,
+         "x" : 0.01520,
+         "y" : -0.010,
+         "z" : 0.16340
+      },
+      {
+         "heading" : 62.76740,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 03",
+         "scaling" : 0.65340,
+         "x" : -0.13920,
+         "y" : -0.00410,
+         "z" : 0.16750
+      },
+      {
+         "heading" : 50.2130,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 01",
+         "scaling" : 0.65340,
+         "x" : 0.01690,
+         "y" : -0.010,
+         "z" : -0.03890
+      },
+      {
+         "heading" : 1.57660,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 06",
+         "scaling" : 0.65670,
+         "x" : -0.16590,
+         "y" : -0.00020,
+         "z" : -0.2060
+      },
+      {
+         "heading" : 62.80810,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 03",
+         "scaling" : 0.65340,
+         "x" : 0.15390,
+         "y" : -0.00690,
+         "z" : -0.0790
+      },
+      {
+         "heading" : 62.81980,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.65340,
+         "x" : 0.15120,
+         "y" : -0.008399999999999999,
+         "z" : 0.13880
+      },
+      {
+         "heading" : 62.78490,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 01",
+         "scaling" : 0.65340,
+         "x" : -0.15350,
+         "y" : -0.00280,
+         "z" : -0.06160
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 3.14160,
+         "height" : 0.0190,
+         "name" : "Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.1970,
+         "y" : 0.0190,
+         "z" : 0.8594000000000001
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 3.14160,
+         "height" : 0.010,
+         "name" : "Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -0.17460,
+         "y" : 0.010,
+         "z" : 0.86130
+      },
+      {
+         "heading" : 1.49520,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.65670,
+         "x" : 0.21680,
+         "y" : 0.0,
+         "z" : -0.23060
+      },
+      {
+         "heading" : 59.63740,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 03",
+         "scaling" : 0.65340,
+         "x" : 0.14090,
+         "y" : -0.008699999999999999,
+         "z" : -0.38460
+      },
+      {
+         "heading" : 59.66650,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 01",
+         "scaling" : 0.65340,
+         "x" : 0.13970,
+         "y" : -0.00810,
+         "z" : -0.62880
+      },
+      {
+         "heading" : 59.66650,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.65340,
+         "x" : -0.19270,
+         "y" : -0.00030,
+         "z" : -0.46410
+      },
+      {
+         "heading" : 59.620,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 03",
+         "scaling" : 0.65340,
+         "x" : -0.18670,
+         "y" : -0.0010,
+         "z" : -0.63240
+      },
+      {
+         "heading" : 3.10090,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 05",
+         "scaling" : 0.65670,
+         "x" : -0.17880,
+         "y" : 0.0,
+         "z" : -0.30640
+      },
+      {
+         "heading" : 64.00650,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.65340,
+         "x" : 0.24190,
+         "y" : -0.00290,
+         "z" : -0.77630
+      },
+      {
+         "heading" : 63.55280,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 03",
+         "scaling" : 0.65340,
+         "x" : 0.41510,
+         "y" : -0.00250,
+         "z" : -0.8866000000000001
+      },
+      {
+         "heading" : 63.27360,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 01",
+         "scaling" : 0.65340,
+         "x" : 0.5450,
+         "y" : -0.00510,
+         "z" : -1.08140
+      },
+      {
+         "heading" : 63.11060,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.65340,
+         "x" : 0.61680,
+         "y" : -0.0030,
+         "z" : -1.27990
+      },
+      {
+         "heading" : 62.60450,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 03",
+         "scaling" : 0.65340,
+         "x" : 0.6210,
+         "y" : -0.00140,
+         "z" : -1.4910
+      },
+      {
+         "heading" : 68.53870000000001,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 03",
+         "scaling" : 0.65340,
+         "x" : 0.53410,
+         "y" : -0.00020,
+         "z" : -1.71920
+      },
+      {
+         "heading" : 68.19530,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.65340,
+         "x" : 0.38180,
+         "y" : -0.0010,
+         "z" : -1.87690
+      },
+      {
+         "heading" : 71.04590,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 01",
+         "scaling" : 0.65340,
+         "x" : 0.21620,
+         "y" : -0.00050,
+         "z" : -1.97660
+      },
+      {
+         "heading" : 70.66190,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 03",
+         "scaling" : 0.65340,
+         "x" : -0.01310,
+         "y" : -0.00090,
+         "z" : -2.01680
+      },
+      {
+         "heading" : 70.48160,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.65340,
+         "x" : -0.21570,
+         "y" : 0.0,
+         "z" : -1.99990
+      },
+      {
+         "heading" : 70.07420,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 01",
+         "scaling" : 0.65340,
+         "x" : -0.40940,
+         "y" : -0.0,
+         "z" : -1.92310
+      },
+      {
+         "heading" : 69.73680,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 03",
+         "scaling" : 0.65340,
+         "x" : -0.56630,
+         "y" : -0.0,
+         "z" : -1.75560
+      },
+      {
+         "heading" : 69.4110,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 01",
+         "scaling" : 0.65340,
+         "x" : -0.68020,
+         "y" : 0.0,
+         "z" : -1.56270
+      },
+      {
+         "heading" : 69.07920,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.65340,
+         "x" : -0.71070,
+         "y" : 0.0,
+         "z" : -1.37330
+      },
+      {
+         "heading" : 68.74169999999999,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 01",
+         "scaling" : 0.65340,
+         "x" : -0.680,
+         "y" : -0.0,
+         "z" : -1.18210
+      },
+      {
+         "heading" : 68.32850000000001,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 03",
+         "scaling" : 0.65340,
+         "x" : -0.49830,
+         "y" : -0.0,
+         "z" : -0.89690
+      },
+      {
+         "heading" : 67.97360,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 01",
+         "scaling" : 0.65340,
+         "x" : -0.31890,
+         "y" : -0.0,
+         "z" : -0.76190
+      },
+      {
+         "heading" : 68.66020,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.65340,
+         "x" : -0.60210,
+         "y" : 0.0,
+         "z" : -1.02720
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.13510,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.60,
+            "col_green" : 0.70,
+            "col_red" : 0.0,
+            "radius0" : 0.20,
+            "radius1" : 0.40
+         },
+         "scaling" : 1.0,
+         "x" : -0.03550,
+         "y" : 0.12510,
+         "z" : -1.39070
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 03",
+         "scaling" : 1.32140,
+         "x" : 0.25840,
+         "y" : 0.0,
+         "z" : -0.13610
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00410,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.32140,
+         "x" : 0.27790,
+         "y" : 0.00410,
+         "z" : 0.11530
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00150,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.32140,
+         "x" : 0.17150,
+         "y" : -0.00590,
+         "z" : 0.19380
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00410,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.32140,
+         "x" : -0.2530,
+         "y" : 0.00410,
+         "z" : -0.02210
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 04",
+         "scaling" : 1.32140,
+         "x" : -0.2020,
+         "y" : 0.0,
+         "z" : -0.01840
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 03",
+         "scaling" : 1.32140,
+         "x" : -0.26910,
+         "y" : 0.0,
+         "z" : 0.15380
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 03",
+         "scaling" : 1.32140,
+         "x" : -0.44510,
+         "y" : 0.0,
+         "z" : 0.13460
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 03",
+         "scaling" : 1.32140,
+         "x" : -0.89650,
+         "y" : 0.0,
+         "z" : -0.39980
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.51580,
+         "x" : -0.9036999999999999,
+         "y" : 0.0,
+         "z" : -0.50030
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.17310,
+         "name" : "Town Portal",
+         "omniParams" : {
+            "col_blue" : 1.50,
+            "col_green" : 0.250,
+            "col_red" : 0.20,
+            "radius0" : 0.050,
+            "radius1" : 0.150
+         },
+         "scaling" : 1.0,
+         "x" : -0.0340,
+         "y" : 0.16310,
+         "z" : -1.38890
+      },
+      {
+         "heading" : 39.67840,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 12",
+         "scaling" : 0.61310,
+         "x" : 0.94820,
+         "y" : 0.0,
+         "z" : -0.96750
+      },
+      {
+         "heading" : 42.76060,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 11",
+         "scaling" : 0.61310,
+         "x" : 0.77440,
+         "y" : 0.0,
+         "z" : -1.05890
+      },
+      {
+         "heading" : 42.76060,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 14",
+         "scaling" : 0.61310,
+         "x" : 0.62660,
+         "y" : -0.0,
+         "z" : -1.1160
+      },
+      {
+         "heading" : 43.33710,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 10",
+         "scaling" : 0.61310,
+         "x" : 0.5550,
+         "y" : 0.0,
+         "z" : -0.48890
+      },
+      {
+         "heading" : 43.28810,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 13",
+         "scaling" : 0.61310,
+         "x" : 0.45660,
+         "y" : 0.0,
+         "z" : -0.61420
+      },
+      {
+         "heading" : 43.34570,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 14",
+         "scaling" : 0.61310,
+         "x" : 0.36640,
+         "y" : 0.0,
+         "z" : -0.75870
+      },
+      {
+         "heading" : 44.66310,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 14",
+         "scaling" : 0.61310,
+         "x" : -0.59980,
+         "y" : 0.0,
+         "z" : -0.47450
+      },
+      {
+         "heading" : 44.58640,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 12",
+         "scaling" : 0.61310,
+         "x" : -0.50910,
+         "y" : 0.0,
+         "z" : -0.59250
+      },
+      {
+         "heading" : 46.15480,
+         "height" : 0.010,
+         "name" : "Cobblestone Border Decal 02",
+         "scaling" : 0.61310,
+         "x" : -0.42120,
+         "y" : 0.0,
+         "z" : -0.72010
+      },
+      {
+         "heading" : -0.41730,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.46640,
+         "x" : 0.21440,
+         "y" : 0.0,
+         "z" : 0.08409999999999999
+      },
+      {
+         "heading" : -0.34050,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.46640,
+         "x" : 0.22190,
+         "y" : 0.0,
+         "z" : -0.07220
+      },
+      {
+         "heading" : 2.95930,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.46640,
+         "x" : -0.20810,
+         "y" : 0.0,
+         "z" : 0.13950
+      },
+      {
+         "heading" : 2.95930,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.46640,
+         "x" : -0.23440,
+         "y" : 0.0,
+         "z" : -0.00910
+      },
+      {
+         "heading" : 1.8610,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.63950,
+         "x" : -0.90690,
+         "y" : 0.0,
+         "z" : -0.44930
+      },
+      {
+         "heading" : 0.68110,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.63950,
+         "x" : 1.28360,
+         "y" : 0.0,
+         "z" : -1.43270
+      },
+      {
+         "heading" : 2.03840,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.63950,
+         "x" : 0.27770,
+         "y" : 0.0,
+         "z" : -0.16420
+      },
+      {
+         "heading" : 0.7818000000000001,
+         "height" : 0.010,
+         "name" : "Grass Decal 07",
+         "scaling" : 0.63950,
+         "x" : -0.28680,
+         "y" : 0.0,
+         "z" : -0.15030
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 02",
+         "scaling" : 0.58890,
+         "x" : 1.94590,
+         "y" : 0.0,
+         "z" : -1.43830
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 03",
+         "scaling" : 0.58890,
+         "x" : 1.62070,
+         "y" : 0.0,
+         "z" : -1.72690
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 02",
+         "scaling" : 0.58890,
+         "x" : 1.79320,
+         "y" : 0.0,
+         "z" : -1.72690
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 06",
+         "scaling" : 0.58890,
+         "x" : 1.96580,
+         "y" : 0.0,
+         "z" : -1.72690
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 07",
+         "scaling" : 0.58890,
+         "x" : 2.13830,
+         "y" : 0.0,
+         "z" : -1.72690
+      },
+      {
+         "heading" : 9.424799999999999,
+         "name" : "Fence 05",
+         "scaling" : 0.58890,
+         "x" : -1.50230,
+         "y" : 0.0,
+         "z" : -1.61280
+      },
+      {
+         "heading" : 9.424799999999999,
+         "name" : "Fence 03",
+         "scaling" : 0.58890,
+         "x" : -1.67580,
+         "y" : 0.0,
+         "z" : -1.61190
+      },
+      {
+         "heading" : 9.424799999999999,
+         "name" : "Fence 02",
+         "scaling" : 0.58890,
+         "x" : -1.84730,
+         "y" : 0.0,
+         "z" : -1.61280
+      },
+      {
+         "heading" : 9.424799999999999,
+         "name" : "Fence 06",
+         "scaling" : 0.58890,
+         "x" : -2.01970,
+         "y" : 0.0,
+         "z" : -1.61280
+      },
+      {
+         "heading" : -1.18750,
+         "height" : 0.0005999999999999999,
+         "name" : "Short Pine Tree 03",
+         "scaling" : 0.71910,
+         "x" : 1.20030,
+         "y" : 0.0005999999999999999,
+         "z" : -2.10610
+      },
+      {
+         "heading" : -5.98130,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 02",
+         "scaling" : 0.88840,
+         "x" : 1.38160,
+         "y" : 0.0005999999999999999,
+         "z" : -2.1880
+      },
+      {
+         "heading" : -8.46550,
+         "height" : -0.0150,
+         "name" : "Tree 02",
+         "scaling" : 0.88840,
+         "x" : -1.51950,
+         "y" : -0.0150,
+         "z" : -1.92830
+      },
+      {
+         "heading" : -1.18750,
+         "height" : 0.0005999999999999999,
+         "name" : "Short Pine Tree 04",
+         "scaling" : 0.91510,
+         "x" : 1.050,
+         "y" : 0.0005999999999999999,
+         "z" : -2.48190
+      },
+      {
+         "heading" : -1.18750,
+         "height" : 0.0005999999999999999,
+         "name" : "Tall Pine Tree 02",
+         "scaling" : 0.91510,
+         "x" : 0.61020,
+         "y" : 0.0005999999999999999,
+         "z" : -2.86930
+      },
+      {
+         "heading" : -1.18750,
+         "height" : 0.0005999999999999999,
+         "name" : "Tall Pine Tree 02",
+         "scaling" : 0.91510,
+         "x" : -0.99290,
+         "y" : 0.0005999999999999999,
+         "z" : -2.80230
+      },
+      {
+         "heading" : -1.75180,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 04",
+         "scaling" : 0.91510,
+         "x" : -0.55960,
+         "y" : 0.0005999999999999999,
+         "z" : -2.67050
+      },
+      {
+         "heading" : -3.10740,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 04",
+         "scaling" : 0.91510,
+         "x" : 0.5530,
+         "y" : 0.0005999999999999999,
+         "z" : -2.91730
+      },
+      {
+         "heading" : -1.62970,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 03",
+         "scaling" : 0.91510,
+         "x" : -0.4260,
+         "y" : 0.0005999999999999999,
+         "z" : -2.97830
+      },
+      {
+         "heading" : -1.62970,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 03",
+         "scaling" : 0.91510,
+         "x" : 0.5230,
+         "y" : 0.0005999999999999999,
+         "z" : -3.03640
+      },
+      {
+         "heading" : 0.19130,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 03",
+         "scaling" : 0.8310999999999999,
+         "x" : 1.25050,
+         "y" : 0.0005999999999999999,
+         "z" : -2.46590
+      },
+      {
+         "heading" : -1.18750,
+         "height" : 0.00860,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.91510,
+         "x" : 1.13590,
+         "y" : 0.00860,
+         "z" : -2.62950
+      },
+      {
+         "heading" : -1.62970,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 03",
+         "scaling" : 0.91510,
+         "x" : 0.74410,
+         "y" : 0.0005999999999999999,
+         "z" : -3.03950
+      },
+      {
+         "heading" : -1.62970,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 01",
+         "scaling" : 0.91510,
+         "x" : -1.01010,
+         "y" : 0.0005999999999999999,
+         "z" : -2.63760
+      },
+      {
+         "heading" : -1.62970,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 01",
+         "scaling" : 1.08570,
+         "x" : -0.75140,
+         "y" : 0.0005999999999999999,
+         "z" : -3.16990
+      },
+      {
+         "heading" : -1.18750,
+         "height" : 0.00480,
+         "name" : "Tall Pine Tree 04",
+         "scaling" : 0.91510,
+         "x" : -0.5286999999999999,
+         "y" : 0.00480,
+         "z" : -3.1610
+      },
+      {
+         "heading" : -1.18750,
+         "height" : 0.00480,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.91510,
+         "x" : 0.41010,
+         "y" : 0.00480,
+         "z" : -3.1410
+      },
+      {
+         "heading" : -1.18750,
+         "name" : "Short Pine Tree 03",
+         "scaling" : 0.71910,
+         "x" : -1.36510,
+         "y" : 0.0,
+         "z" : -2.10790
+      },
+      {
+         "heading" : -9.69890,
+         "height" : -0.0150,
+         "name" : "Tree 04",
+         "scaling" : 0.88840,
+         "x" : -1.51910,
+         "y" : -0.0150,
+         "z" : -2.22780
+      },
+      {
+         "heading" : -1.18750,
+         "height" : 0.00480,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.91510,
+         "x" : -0.34750,
+         "y" : 0.00480,
+         "z" : -3.27140
+      },
+      {
+         "heading" : -1.18750,
+         "height" : 0.00480,
+         "name" : "Tall Pine Tree 02",
+         "scaling" : 0.91510,
+         "x" : 0.35780,
+         "y" : 0.00480,
+         "z" : -3.2720
+      },
+      {
+         "heading" : -1.56570,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 04",
+         "scaling" : 1.18390,
+         "x" : 0.06340,
+         "y" : 0.0005999999999999999,
+         "z" : -3.2210
+      },
+      {
+         "heading" : 0.46470,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 04",
+         "scaling" : 1.18390,
+         "x" : 1.25580,
+         "y" : 0.0005999999999999999,
+         "z" : -2.82180
+      },
+      {
+         "heading" : 1.73950,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.82240,
+         "y" : 0.0,
+         "z" : -1.17390
+      },
+      {
+         "heading" : -2.18820,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 04",
+         "scaling" : 1.08570,
+         "x" : -0.99260,
+         "y" : 0.0005999999999999999,
+         "z" : -2.99760
+      },
+      {
+         "heading" : -1.18750,
+         "height" : 0.0005999999999999999,
+         "name" : "Tall Pine Tree 02",
+         "scaling" : 0.73370,
+         "x" : -0.8705000000000001,
+         "y" : 0.0005999999999999999,
+         "z" : -2.73460
+      },
+      {
+         "heading" : -1.18750,
+         "name" : "Short Pine Tree 01",
+         "scaling" : 0.86150,
+         "x" : -0.80380,
+         "y" : 0.0,
+         "z" : -2.60230
+      },
+      {
+         "heading" : 3.36270,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.23940,
+         "y" : 0.0,
+         "z" : -0.47280
+      },
+      {
+         "heading" : -1.5010,
+         "height" : 0.010,
+         "name" : "Grass Decal 07",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.40150,
+         "y" : 0.0,
+         "z" : -0.52410
+      },
+      {
+         "heading" : 2.69940,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.71530,
+         "y" : 0.0,
+         "z" : -0.66640
+      },
+      {
+         "heading" : 5.23020,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.78540,
+         "y" : 0.0,
+         "z" : -0.57140
+      },
+      {
+         "heading" : 2.31550,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.28110,
+         "y" : 0.0,
+         "z" : -0.6310
+      },
+      {
+         "heading" : 4.63680,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.8381999999999999,
+         "y" : 0.0,
+         "z" : -0.99530
+      },
+      {
+         "heading" : 2.89140,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.75240,
+         "y" : 0.0,
+         "z" : -1.12560
+      },
+      {
+         "heading" : 2.96710,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.35440,
+         "y" : 0.0,
+         "z" : -0.46480
+      },
+      {
+         "heading" : 6.17850,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.2310,
+         "y" : 0.0,
+         "z" : -0.36320
+      },
+      {
+         "heading" : 4.56690,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.86290,
+         "y" : 0.0,
+         "z" : -1.33530
+      },
+      {
+         "heading" : 6.07370,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.74440,
+         "y" : 0.0,
+         "z" : -1.50640
+      },
+      {
+         "heading" : 8.88950,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.92220,
+         "y" : 0.0,
+         "z" : -1.67070
+      },
+      {
+         "heading" : 8.88950,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.6850000000000001,
+         "y" : 0.0,
+         "z" : -1.97330
+      },
+      {
+         "heading" : 5.70140,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.60450,
+         "y" : 0.0,
+         "z" : -1.89990
+      },
+      {
+         "heading" : 5.02070,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.32350,
+         "y" : 0.0,
+         "z" : -2.12980
+      },
+      {
+         "heading" : 5.02070,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.10960,
+         "y" : 0.0,
+         "z" : -2.1870
+      },
+      {
+         "heading" : 3.130,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.38050,
+         "y" : 0.0,
+         "z" : -2.23570
+      },
+      {
+         "heading" : 1.95480,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.27990,
+         "y" : 0.0,
+         "z" : -2.3610
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.02480,
+         "y" : 0.0,
+         "z" : -2.26150
+      },
+      {
+         "heading" : -1.94890,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.22810,
+         "y" : 0.0,
+         "z" : -2.15220
+      },
+      {
+         "heading" : -3.36850,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.20930,
+         "y" : 0.0,
+         "z" : -2.27720
+      },
+      {
+         "heading" : -0.66320,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.35050,
+         "y" : 0.0,
+         "z" : -2.19960
+      },
+      {
+         "heading" : -1.75110,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.6689000000000001,
+         "y" : 0.0,
+         "z" : -2.12720
+      },
+      {
+         "heading" : -2.7460,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.81270,
+         "y" : 0.0,
+         "z" : -1.61330
+      },
+      {
+         "heading" : -0.5410,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.97310,
+         "y" : 0.0,
+         "z" : -1.39920
+      },
+      {
+         "heading" : -2.57730,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.85850,
+         "y" : 0.0,
+         "z" : -1.45540
+      },
+      {
+         "heading" : -2.7460,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -1.03580,
+         "y" : 0.0,
+         "z" : -1.80070
+      },
+      {
+         "heading" : -2.72850,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.81130,
+         "y" : 0.0,
+         "z" : -2.26190
+      },
+      {
+         "heading" : -1.13450,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.03530,
+         "y" : -0.010,
+         "z" : 0.19880
+      },
+      {
+         "heading" : -1.80350,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.6410,
+         "y" : 0.0,
+         "z" : -1.87360
+      },
+      {
+         "heading" : 9.424799999999999,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.90870,
+         "y" : 0.0,
+         "z" : -1.48550
+      },
+      {
+         "heading" : 10.71630,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.64380,
+         "y" : 0.0,
+         "z" : -0.73710
+      },
+      {
+         "heading" : 6.75440,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.62230,
+         "y" : 0.0,
+         "z" : -0.84280
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.32140,
+         "x" : 0.34960,
+         "y" : 0.0,
+         "z" : -0.35690
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 04",
+         "scaling" : 1.16370,
+         "x" : 0.26130,
+         "y" : 0.0,
+         "z" : -0.32820
+      },
+      {
+         "heading" : 0.72140,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.32140,
+         "x" : 0.65920,
+         "y" : 0.0,
+         "z" : -0.82470
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.32140,
+         "x" : 0.8650,
+         "y" : 0.0,
+         "z" : -1.52480
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.32140,
+         "x" : 0.86220,
+         "y" : 0.0,
+         "z" : -1.41470
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.32140,
+         "x" : 0.27680,
+         "y" : 0.0,
+         "z" : -0.40960
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.32140,
+         "x" : -0.78290,
+         "y" : 0.0,
+         "z" : -0.6195000000000001
+      },
+      {
+         "heading" : -2.7460,
+         "height" : 0.010,
+         "name" : "Grass Decal 10",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.54070,
+         "y" : -0.00830,
+         "z" : -1.67480
+      },
+      {
+         "heading" : -0.7504999999999999,
+         "height" : 0.010,
+         "name" : "Grass Decal 10",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.54510,
+         "y" : -0.00980,
+         "z" : -1.49310
+      },
+      {
+         "heading" : -0.2560,
+         "height" : 0.010,
+         "name" : "Grass Decal 09",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.47550,
+         "y" : 0.0,
+         "z" : -0.62160
+      },
+      {
+         "heading" : -9.66910,
+         "height" : 0.010,
+         "name" : "Grass Decal 10",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.10530,
+         "y" : -0.00950,
+         "z" : -0.05650
+      },
+      {
+         "heading" : -6.12030,
+         "height" : 0.010,
+         "name" : "Grass Decal 09",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.10320,
+         "y" : -0.010,
+         "z" : 0.13960
+      },
+      {
+         "heading" : -2.05370,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.42620,
+         "y" : -0.010,
+         "z" : -1.1280
+      },
+      {
+         "heading" : -1.5650,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.03110,
+         "y" : -0.010,
+         "z" : -1.90070
+      },
+      {
+         "heading" : -1.19850,
+         "height" : 0.010,
+         "name" : "Grass Decal 10",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.32290,
+         "y" : -0.009900000000000001,
+         "z" : -1.84760
+      },
+      {
+         "heading" : -0.4480,
+         "height" : 0.010,
+         "name" : "Grass Decal 09",
+         "scaling" : 0.39550,
+         "x" : 0.24290,
+         "y" : -0.010,
+         "z" : -1.80790
+      },
+      {
+         "heading" : -1.71040,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.39550,
+         "x" : 0.04630,
+         "y" : -0.010,
+         "z" : -1.76760
+      },
+      {
+         "heading" : 0.11640,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.45840,
+         "x" : 0.16820,
+         "y" : -0.010,
+         "z" : -0.91940
+      },
+      {
+         "heading" : -4.00260,
+         "height" : 0.010,
+         "name" : "Grass Decal 10",
+         "scaling" : 0.45840,
+         "x" : -0.20410,
+         "y" : -0.010,
+         "z" : -0.83660
+      },
+      {
+         "heading" : -0.56430,
+         "height" : 0.010,
+         "name" : "Grass Decal 09",
+         "scaling" : 0.45840,
+         "x" : -0.4810,
+         "y" : -0.009299999999999999,
+         "z" : -0.97960
+      },
+      {
+         "heading" : 2.170,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.45840,
+         "x" : -0.49660,
+         "y" : -0.010,
+         "z" : -1.04880
+      },
+      {
+         "heading" : -0.5120,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.31050,
+         "x" : -0.2540,
+         "y" : -0.010,
+         "z" : -0.84010
+      },
+      {
+         "heading" : 41.49240,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 14",
+         "scaling" : 0.61310,
+         "x" : 0.6163999999999999,
+         "y" : 0.0,
+         "z" : -2.31410
+      },
+      {
+         "heading" : 41.53890,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 12",
+         "scaling" : 0.61310,
+         "x" : 0.52120,
+         "y" : 0.0,
+         "z" : -2.18140
+      },
+      {
+         "heading" : 46.24540,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 14",
+         "scaling" : 0.61310,
+         "x" : -0.61820,
+         "y" : 0.0,
+         "z" : -1.86940
+      },
+      {
+         "heading" : 46.24540,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 12",
+         "scaling" : 0.61310,
+         "x" : -0.76960,
+         "y" : 0.0,
+         "z" : -2.00210
+      },
+      {
+         "heading" : 46.24540,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 14",
+         "scaling" : 0.61310,
+         "x" : -0.89390,
+         "y" : 0.0,
+         "z" : -2.11290
+      },
+      {
+         "heading" : 43.12710,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 14",
+         "scaling" : 0.61310,
+         "x" : 0.44720,
+         "y" : 0.0,
+         "z" : -2.02230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00980,
+         "name" : "Town Wall Gate 01",
+         "scaling" : 2.43310,
+         "x" : 0.009900000000000001,
+         "y" : 0.00980,
+         "z" : 0.89650
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : 0.28950,
+         "y" : 0.0,
+         "z" : 0.88990
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : -0.26710,
+         "y" : 0.0,
+         "z" : 0.89240
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Town Portal 01",
+         "scaling" : 1.96190,
+         "x" : -0.03420,
+         "y" : -0.010,
+         "z" : -1.35550
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenMailbox",
+            "text" : "Mail"
+         },
+         "heading" : 5.58510,
+         "name" : "Mail Box",
+         "scaling" : 2.1170,
+         "x" : 0.5830,
+         "y" : 0.0,
+         "z" : -0.13730
+      },
+      {
+         "heading" : 43.33710,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 11",
+         "scaling" : 0.61310,
+         "x" : 0.66450,
+         "y" : 0.0,
+         "z" : -0.35330
+      },
+      {
+         "heading" : 50.88780,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 12",
+         "scaling" : 0.65340,
+         "x" : -0.6929999999999999,
+         "y" : 0.0,
+         "z" : -0.35360
+      },
+      {
+         "heading" : 50.88780,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 11",
+         "scaling" : 0.65340,
+         "x" : -0.81860,
+         "y" : 0.0,
+         "z" : -0.24290
+      },
+      {
+         "heading" : 51.39990,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 12",
+         "scaling" : 0.65340,
+         "x" : -0.75650,
+         "y" : 0.0,
+         "z" : -1.15180
+      },
+      {
+         "heading" : 51.39990,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 11",
+         "scaling" : 0.65340,
+         "x" : -0.90840,
+         "y" : 0.0,
+         "z" : -1.07940
+      },
+      {
+         "heading" : 51.39990,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 10",
+         "scaling" : 0.65340,
+         "x" : -1.06980,
+         "y" : 0.0,
+         "z" : -1.01560
+      },
+      {
+         "heading" : 39.67840,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 11",
+         "scaling" : 0.61310,
+         "x" : 1.13060,
+         "y" : 0.0,
+         "z" : -0.88390
+      },
+      {
+         "heading" : 39.67840,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 10",
+         "scaling" : 0.61310,
+         "x" : 1.28180,
+         "y" : 0.0,
+         "z" : -0.80320
+      },
+      {
+         "heading" : 51.39990,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 12",
+         "scaling" : 0.65340,
+         "x" : -1.22180,
+         "y" : 0.0,
+         "z" : -0.93170
+      },
+      {
+         "heading" : 51.05090,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 13",
+         "scaling" : 0.65340,
+         "x" : -0.93230,
+         "y" : 0.0,
+         "z" : -0.11380
+      },
+      {
+         "heading" : 51.39990,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 13",
+         "scaling" : 0.65340,
+         "x" : -1.31070,
+         "y" : 0.0,
+         "z" : -0.8846000000000001
+      },
+      {
+         "heading" : 1.13450,
+         "name" : "Blacksmith Home",
+         "scaling" : 1.71930,
+         "x" : -1.82620,
+         "y" : 0.0,
+         "z" : -0.7717000000000001
+      },
+      {
+         "heading" : 51.39990,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 14",
+         "scaling" : 0.65340,
+         "x" : -1.43450,
+         "y" : 0.0,
+         "z" : -0.82470
+      },
+      {
+         "heading" : 0.7504999999999999,
+         "name" : "House Home 04B",
+         "scaling" : 1.71930,
+         "x" : -1.26220,
+         "y" : 0.0,
+         "z" : 0.31360
+      },
+      {
+         "heading" : 5.21270,
+         "name" : "Consumables Home",
+         "scaling" : 1.71930,
+         "x" : 1.79550,
+         "y" : 0.0,
+         "z" : -0.54410
+      },
+      {
+         "heading" : 5.27670,
+         "name" : "House Home 02B",
+         "scaling" : 1.71930,
+         "x" : 1.59050,
+         "y" : 0.0,
+         "z" : -0.22060
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09030000000000001,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.750,
+            "col_red" : 2.0,
+            "radius0" : 0.050,
+            "radius1" : 0.07000000000000001
+         },
+         "scaling" : 1.0,
+         "x" : -1.71510,
+         "y" : 0.09030000000000001,
+         "z" : -1.02610
+      },
+      {
+         "heading" : 43.33710,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 14",
+         "scaling" : 0.61310,
+         "x" : 0.76290,
+         "y" : 0.0,
+         "z" : -0.20610
+      },
+      {
+         "heading" : 43.33710,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 11",
+         "scaling" : 0.61310,
+         "x" : 0.84890,
+         "y" : 0.0,
+         "z" : -0.07480000000000001
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 4.10150,
+         "name" : "Lamp Post 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -0.93120,
+         "y" : 0.0,
+         "z" : -0.6320
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenFriends",
+            "text" : "Friends"
+         },
+         "heading" : 6.98130,
+         "height" : 0.00090,
+         "name" : "Signpost Home 04",
+         "scaling" : 1.60480,
+         "x" : -0.88570,
+         "y" : 0.00090,
+         "z" : -1.94320
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 6.98130,
+         "name" : "Signpost Home 01",
+         "scaling" : 1.34360,
+         "x" : -0.83660,
+         "y" : 0.0,
+         "z" : 0.08459999999999999
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 7.24310,
+         "name" : "Signpost Home 03",
+         "scaling" : 1.34360,
+         "x" : -1.18650,
+         "y" : 0.0,
+         "z" : -0.70190
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 8.552099999999999,
+         "name" : "Signpost Home 02",
+         "scaling" : 1.34360,
+         "x" : 1.10130,
+         "y" : 0.0,
+         "z" : -0.34370
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.32330,
+         "name" : "Signpost Home 01",
+         "scaling" : 1.34360,
+         "x" : 1.81180,
+         "y" : 0.0,
+         "z" : -0.91740
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 4.27610,
+         "name" : "Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -1.84040,
+         "y" : 0.0,
+         "z" : -1.07230
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 2.79250,
+         "height" : -0.00330,
+         "name" : "Torch 03",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.29470,
+         "y" : -0.00330,
+         "z" : -0.12560
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 1.35730,
+         "y" : 0.0,
+         "z" : -0.03320
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : 1.10140,
+         "y" : 0.0,
+         "z" : -0.40110
+      },
+      {
+         "heading" : 5.2360,
+         "name" : "Short Wood Fence 02",
+         "scaling" : 0.54240,
+         "x" : 1.1890,
+         "y" : 0.0,
+         "z" : -0.52960
+      },
+      {
+         "heading" : 5.58510,
+         "name" : "Short Wood Fence 02",
+         "scaling" : 0.54240,
+         "x" : 1.46410,
+         "y" : 0.0,
+         "z" : -0.95190
+      },
+      {
+         "heading" : 6.19590,
+         "name" : "Short Wood Fence 03",
+         "scaling" : 0.54350,
+         "x" : 1.60190,
+         "y" : 0.0,
+         "z" : -1.00690
+      },
+      {
+         "heading" : 6.5450,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : 1.75410,
+         "y" : 0.0,
+         "z" : -0.9923999999999999
+      },
+      {
+         "heading" : 6.80680,
+         "name" : "Short Wood Fence 02",
+         "scaling" : 0.54240,
+         "x" : 1.89660,
+         "y" : 0.0,
+         "z" : -0.92610
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : 2.00310,
+         "y" : 0.0,
+         "z" : -0.81850
+      },
+      {
+         "heading" : 7.67940,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : 2.05490,
+         "y" : 0.0,
+         "z" : -0.66970
+      },
+      {
+         "heading" : 6.89410,
+         "name" : "Short Wood Fence 02",
+         "scaling" : 0.54240,
+         "x" : 1.61850,
+         "y" : 0.0,
+         "z" : -0.43390
+      },
+      {
+         "heading" : 6.89410,
+         "name" : "Short Wood Fence 02",
+         "scaling" : 0.54240,
+         "x" : 1.48830,
+         "y" : 0.0,
+         "z" : -0.52510
+      },
+      {
+         "heading" : 7.94120,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : 2.06310,
+         "y" : 0.0,
+         "z" : -0.51230
+      },
+      {
+         "heading" : 8.202999999999999,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : 2.02990,
+         "y" : 0.0,
+         "z" : -0.35840
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 1.56570,
+         "y" : 0.0,
+         "z" : 0.17520
+      },
+      {
+         "heading" : 2.26890,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 1.56590,
+         "y" : 0.0,
+         "z" : 0.17820
+      },
+      {
+         "heading" : 2.26890,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 1.37640,
+         "y" : 0.0,
+         "z" : 0.4040
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 04",
+         "scaling" : 0.58890,
+         "x" : 2.11830,
+         "y" : 0.0,
+         "z" : -1.4370
+      },
+      {
+         "heading" : 11.69370,
+         "height" : 0.02540,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.8680,
+         "y" : 0.02540,
+         "z" : 0.14980
+      },
+      {
+         "heading" : 51.22540,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 14",
+         "scaling" : 0.65340,
+         "x" : -1.03450,
+         "y" : 0.0,
+         "z" : 0.01670
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Short Wood Fence 02",
+         "scaling" : 0.54240,
+         "x" : -0.92080,
+         "y" : 0.0,
+         "z" : 0.18050
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Short Wood Fence 02",
+         "scaling" : 0.54240,
+         "x" : -1.61970,
+         "y" : 0.0,
+         "z" : 0.34390
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Short Wood Fence 02",
+         "scaling" : 0.54240,
+         "x" : -1.51760,
+         "y" : 0.0,
+         "z" : 0.22220
+      },
+      {
+         "heading" : 2.6180,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : -1.34480,
+         "y" : 0.0,
+         "z" : -0.58060
+      },
+      {
+         "heading" : 2.6180,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : -1.48240,
+         "y" : 0.0,
+         "z" : -0.50110
+      },
+      {
+         "heading" : 2.79250,
+         "name" : "Table 03",
+         "scaling" : 1.09740,
+         "x" : -1.79310,
+         "y" : 0.0,
+         "z" : -1.1960
+      },
+      {
+         "heading" : 5.84690,
+         "name" : "Anvil",
+         "scaling" : 2.17870,
+         "x" : -1.52710,
+         "y" : 0.0,
+         "z" : -1.03030
+      },
+      {
+         "heading" : 4.79970,
+         "height" : 0.0620,
+         "name" : "Blacksmith Hammer 1",
+         "scaling" : 2.36830,
+         "x" : -1.52670,
+         "y" : 0.0620,
+         "z" : -1.03330
+      },
+      {
+         "heading" : 4.36330,
+         "name" : "Blacksmith Hammer 2",
+         "scaling" : 2.63060,
+         "x" : -1.76840,
+         "y" : 0.0,
+         "z" : -1.27550
+      },
+      {
+         "heading" : 4.27610,
+         "name" : "Blacksmith Hammer 2",
+         "scaling" : 2.63060,
+         "x" : -1.64020,
+         "y" : 0.0,
+         "z" : -0.90810
+      },
+      {
+         "heading" : 8.11580,
+         "height" : 0.06020,
+         "name" : "Blacksmith Hammer 1",
+         "scaling" : 1.85450,
+         "x" : -1.78620,
+         "y" : 0.06020,
+         "z" : -1.21370
+      },
+      {
+         "heading" : 1.48350,
+         "height" : 0.05650,
+         "name" : "Blacksmith Sword 1",
+         "scaling" : 1.87960,
+         "x" : -1.80320,
+         "y" : 0.05650,
+         "z" : -1.1840
+      },
+      {
+         "heading" : 1.13450,
+         "name" : "Blacksmith Sword 2",
+         "scaling" : 1.30550,
+         "x" : -1.63760,
+         "y" : 0.0,
+         "z" : -1.05280
+      },
+      {
+         "heading" : 4.27610,
+         "height" : 0.04720,
+         "name" : "Blacksmith Sword 3",
+         "scaling" : 1.30550,
+         "x" : -1.57330,
+         "y" : 0.04720,
+         "z" : -0.90530
+      },
+      {
+         "heading" : 3.49070,
+         "height" : 0.04730,
+         "name" : "Blacksmith Sword 4",
+         "scaling" : 0.8614000000000001,
+         "x" : -1.70040,
+         "y" : 0.04730,
+         "z" : -1.19240
+      },
+      {
+         "heading" : 3.83970,
+         "height" : 0.06390,
+         "name" : "Blacksmith Sword 1",
+         "scaling" : 1.43410,
+         "x" : -1.68750,
+         "y" : 0.06390,
+         "z" : -1.07550
+      },
+      {
+         "heading" : 5.84690,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 04",
+         "scaling" : 0.51730,
+         "x" : -1.53140,
+         "y" : 0.0,
+         "z" : -1.03620
+      },
+      {
+         "heading" : 5.84690,
+         "height" : 0.010,
+         "name" : "Shadow Square 02",
+         "scaling" : 0.61370,
+         "x" : -1.3520,
+         "y" : 0.0,
+         "z" : -0.6490
+      },
+      {
+         "heading" : 5.75960,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.35020,
+         "x" : -0.66450,
+         "y" : 0.0,
+         "z" : -0.1370
+      },
+      {
+         "heading" : 5.75960,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.35020,
+         "x" : 0.29690,
+         "y" : 0.0,
+         "z" : -0.12960
+      },
+      {
+         "heading" : 5.75960,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.35090,
+         "x" : 1.10160,
+         "y" : 0.0,
+         "z" : -0.34380
+      },
+      {
+         "heading" : 4.27610,
+         "name" : "Blacksmith Hammer 2",
+         "scaling" : 1.99940,
+         "x" : -1.52630,
+         "y" : 0.0,
+         "z" : -1.08420
+      },
+      {
+         "heading" : 8.05180,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 1.16480,
+         "y" : 0.0,
+         "z" : -0.68760
+      },
+      {
+         "heading" : 7.67940,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 1.04070,
+         "y" : 0.0,
+         "z" : -0.71250
+      },
+      {
+         "heading" : 6.66710,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.81970,
+         "y" : 0.0,
+         "z" : -0.48970
+      },
+      {
+         "heading" : 9.768000000000001,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.53470,
+         "y" : 0.0,
+         "z" : -0.04290
+      },
+      {
+         "heading" : 8.435700000000001,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.50040,
+         "y" : 0.0,
+         "z" : -0.16980
+      },
+      {
+         "heading" : 8.91860,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.5911999999999999,
+         "y" : 0.0,
+         "z" : 0.1330
+      },
+      {
+         "heading" : 8.91860,
+         "height" : 0.010,
+         "name" : "Grass Decal 03",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.67230,
+         "y" : 0.0,
+         "z" : 0.26610
+      },
+      {
+         "heading" : 11.70530,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 1.35380,
+         "y" : 0.0,
+         "z" : -0.97550
+      },
+      {
+         "heading" : 12.30460,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 1.24750,
+         "y" : 0.0,
+         "z" : -1.04940
+      },
+      {
+         "heading" : 13.80550,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.5570000000000001,
+         "x" : 1.22960,
+         "y" : 0.0,
+         "z" : -1.29820
+      },
+      {
+         "heading" : 15.89990,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.1890,
+         "y" : 0.0,
+         "z" : 0.37330
+      },
+      {
+         "heading" : 13.49720,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.20010,
+         "y" : 0.0,
+         "z" : 0.49920
+      },
+      {
+         "heading" : 12.50820,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.2220,
+         "y" : 0.0,
+         "z" : 0.7310
+      },
+      {
+         "heading" : 13.61350,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.6470,
+         "y" : 0.0,
+         "z" : 0.00430
+      },
+      {
+         "heading" : 14.8760,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.82960,
+         "y" : 0.0,
+         "z" : 0.1810
+      },
+      {
+         "heading" : 16.02790,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.5570000000000001,
+         "x" : -1.02590,
+         "y" : 0.0,
+         "z" : -0.5180
+      },
+      {
+         "heading" : 16.23160,
+         "height" : 0.010,
+         "name" : "Grass Decal 07",
+         "scaling" : 0.5570000000000001,
+         "x" : -1.04210,
+         "y" : 0.0,
+         "z" : -0.33170
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : -0.0150,
+         "y" : -0.010,
+         "z" : -1.36770
+      },
+      {
+         "heading" : 15.8650,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.22370,
+         "y" : 0.0,
+         "z" : 0.65520
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Table 02",
+         "scaling" : 1.0,
+         "x" : -0.99230,
+         "y" : 0.0,
+         "z" : 0.12780
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Table 03",
+         "scaling" : 1.0,
+         "x" : -1.1610,
+         "y" : 0.0,
+         "z" : -0.10470
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Closet 01",
+         "scaling" : 0.90220,
+         "x" : -1.24660,
+         "y" : 0.0,
+         "z" : -0.01960
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Table 04",
+         "scaling" : 1.22660,
+         "x" : 1.65820,
+         "y" : 0.0,
+         "z" : -0.86210
+      },
+      {
+         "heading" : 8.63940,
+         "height" : 0.05880,
+         "name" : "Blacksmith Sword 1",
+         "scaling" : 1.30550,
+         "x" : -1.12570,
+         "y" : 0.05880,
+         "z" : -0.15950
+      },
+      {
+         "heading" : 8.63940,
+         "height" : 0.05880,
+         "name" : "Blacksmith Sword 1",
+         "scaling" : 1.30550,
+         "x" : -1.14770,
+         "y" : 0.05880,
+         "z" : -0.1350
+      },
+      {
+         "heading" : 8.63940,
+         "height" : 0.05880,
+         "name" : "Blacksmith Sword 1",
+         "scaling" : 1.30550,
+         "x" : -1.17080,
+         "y" : 0.05880,
+         "z" : -0.10960
+      },
+      {
+         "heading" : 6.98130,
+         "height" : 0.04540,
+         "name" : "Blacksmith Sword 2",
+         "scaling" : 0.95790,
+         "x" : -1.20420,
+         "y" : 0.04540,
+         "z" : -0.03560
+      },
+      {
+         "heading" : 6.98130,
+         "height" : 0.04540,
+         "name" : "Blacksmith Sword 2",
+         "scaling" : 0.95790,
+         "x" : -1.22220,
+         "y" : 0.04540,
+         "z" : -0.04880
+      },
+      {
+         "heading" : 6.98130,
+         "height" : 0.04540,
+         "name" : "Blacksmith Sword 2",
+         "scaling" : 1.16980,
+         "x" : -1.23980,
+         "y" : 0.04540,
+         "z" : -0.06610000000000001
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.05880,
+         "name" : "Blacksmith Sword 1",
+         "scaling" : 1.30550,
+         "x" : -0.99350,
+         "y" : 0.05880,
+         "z" : 0.14570
+      },
+      {
+         "heading" : 6.98130,
+         "height" : 0.05880,
+         "name" : "Blacksmith Sword 1",
+         "scaling" : 0.96330,
+         "x" : -1.02330,
+         "y" : 0.05880,
+         "z" : 0.07410
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.05280,
+         "name" : "Blacksmith Sword 1",
+         "scaling" : 0.96330,
+         "x" : -0.9651999999999999,
+         "y" : 0.05280,
+         "z" : 0.11320
+      },
+      {
+         "heading" : 5.58510,
+         "height" : 0.010,
+         "name" : "Shadow Square 02",
+         "scaling" : 0.61370,
+         "x" : -0.99810,
+         "y" : 0.0,
+         "z" : 0.15710
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.010,
+         "name" : "Shadow Square 02",
+         "scaling" : 0.61370,
+         "x" : -1.17120,
+         "y" : 0.0,
+         "z" : -0.10590
+      },
+      {
+         "heading" : 0.6981000000000001,
+         "name" : "Table 01",
+         "scaling" : 1.22660,
+         "x" : 1.28380,
+         "y" : 0.0,
+         "z" : -0.2220
+      },
+      {
+         "heading" : 5.41050,
+         "height" : 0.010,
+         "name" : "Shadow Square 04",
+         "opacity" : 0.750,
+         "scaling" : 0.45630,
+         "x" : 1.2840,
+         "y" : 0.0,
+         "z" : -0.21610
+      },
+      {
+         "heading" : 3.83970,
+         "height" : 0.06619999999999999,
+         "name" : "Chest 01B",
+         "scaling" : 1.0,
+         "x" : 1.27370,
+         "y" : 0.06619999999999999,
+         "z" : -0.20810
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Bookcase 03",
+         "scaling" : 0.90220,
+         "x" : 1.53860,
+         "y" : 0.0,
+         "z" : -0.5580000000000001
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 8.46480,
+         "name" : "Lamp Post 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 1.70530,
+         "y" : 0.0,
+         "z" : -0.93880
+      },
+      {
+         "heading" : 12.47910,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 1.23240,
+         "y" : 0.0,
+         "z" : -1.16160
+      },
+      {
+         "heading" : 14.13720,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 1.4550,
+         "y" : 0.0,
+         "z" : -1.43030
+      },
+      {
+         "heading" : 14.13720,
+         "height" : 0.010,
+         "name" : "Grass Decal 07",
+         "scaling" : 0.5570000000000001,
+         "x" : 1.60320,
+         "y" : 0.0,
+         "z" : -1.39970
+      },
+      {
+         "heading" : 7.06860,
+         "height" : 0.010,
+         "name" : "Grass Decal 07",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.95060,
+         "y" : 0.0,
+         "z" : -0.65970
+      },
+      {
+         "heading" : 5.41050,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.90390,
+         "y" : 0.0,
+         "z" : -0.35970
+      },
+      {
+         "heading" : 4.62510,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 1.01130,
+         "y" : 0.0,
+         "z" : -0.22650
+      },
+      {
+         "heading" : 2.53070,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.57660,
+         "y" : 0.0,
+         "z" : -0.03010
+      },
+      {
+         "heading" : 1.74530,
+         "height" : 0.010,
+         "name" : "Grass Decal 07",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.72440,
+         "y" : 0.0,
+         "z" : 0.20790
+      },
+      {
+         "heading" : 13.96260,
+         "height" : 0.010,
+         "name" : "Grass Decal 07",
+         "scaling" : 0.5570000000000001,
+         "x" : -1.65770,
+         "y" : 0.0,
+         "z" : -1.28220
+      },
+      {
+         "heading" : 13.96260,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -1.79530,
+         "y" : 0.0,
+         "z" : -1.27690
+      },
+      {
+         "heading" : 16.58060,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -1.55060,
+         "y" : 0.0,
+         "z" : -1.16980
+      },
+      {
+         "heading" : 15.35890,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -1.49680,
+         "y" : 0.0,
+         "z" : -1.26810
+      },
+      {
+         "heading" : 15.53340,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.5570000000000001,
+         "x" : -1.95020,
+         "y" : 0.0,
+         "z" : -1.27270
+      },
+      {
+         "heading" : 15.53340,
+         "height" : 0.010,
+         "name" : "Grass Decal 06",
+         "scaling" : 0.5570000000000001,
+         "x" : -1.10160,
+         "y" : 0.0,
+         "z" : -0.69930
+      },
+      {
+         "heading" : 13.61360,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -1.21690,
+         "y" : 0.0,
+         "z" : -0.66770
+      },
+      {
+         "heading" : 13.96260,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.7320,
+         "y" : 0.0,
+         "z" : 0.06419999999999999
+      },
+      {
+         "heading" : 12.47910,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : 0.19720,
+         "y" : -0.00050,
+         "z" : 0.3440
+      },
+      {
+         "heading" : 10.72790,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 05",
+         "scaling" : 0.65340,
+         "x" : 0.19280,
+         "y" : -0.010,
+         "z" : -1.46620
+      },
+      {
+         "heading" : 14.89930,
+         "height" : 0.010,
+         "name" : "Grass Decal 05",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.19590,
+         "y" : 0.0,
+         "z" : 0.81390
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.00780,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.18920,
+         "y" : 0.00780,
+         "z" : 0.78570
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.00780,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.18920,
+         "y" : 0.00780,
+         "z" : 0.49090
+      },
+      {
+         "heading" : 1.46610,
+         "height" : 0.0080,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.20020,
+         "y" : 0.0080,
+         "z" : 0.21860
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00330,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.21540,
+         "y" : -0.00330,
+         "z" : 0.1770
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00330,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.21090,
+         "y" : -0.00330,
+         "z" : 0.47190
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00330,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.21540,
+         "y" : -0.00330,
+         "z" : 0.7665999999999999
+      },
+      {
+         "heading" : 12.47910,
+         "height" : 0.01430,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.62970,
+         "y" : 0.01430,
+         "z" : 0.05650
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.04730,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.34930,
+         "y" : -0.04730,
+         "z" : 0.12840
+      },
+      {
+         "heading" : 2.82160,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.36050,
+         "y" : 0.0,
+         "z" : -0.01570
+      },
+      {
+         "heading" : 4.06080,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.59090,
+         "y" : 0.0,
+         "z" : 0.05590
+      },
+      {
+         "heading" : 0.95990,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.7635999999999999,
+         "y" : 0.0,
+         "z" : 0.29480
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 1.14880,
+         "y" : 0.0,
+         "z" : -0.24170
+      },
+      {
+         "heading" : 5.75960,
+         "name" : "Fence 03",
+         "scaling" : 0.58890,
+         "x" : 1.78640,
+         "y" : 0.0,
+         "z" : -1.39750
+      },
+      {
+         "heading" : 7.94120,
+         "name" : "Fence 06",
+         "scaling" : 0.58890,
+         "x" : 1.70440,
+         "y" : 0.0,
+         "z" : -1.26970
+      },
+      {
+         "heading" : 7.94120,
+         "name" : "Fence 07",
+         "scaling" : 0.58890,
+         "x" : 1.68950,
+         "y" : 0.0,
+         "z" : -1.10060
+      },
+      {
+         "heading" : 2.6180,
+         "name" : "Short Wood Fence 03",
+         "scaling" : 0.54240,
+         "x" : -1.20720,
+         "y" : 0.0,
+         "z" : -0.660
+      },
+      {
+         "heading" : 4.18880,
+         "name" : "Short Wood Fence 03",
+         "scaling" : 0.54240,
+         "x" : -1.09760,
+         "y" : 0.0,
+         "z" : -0.6425999999999999
+      },
+      {
+         "heading" : 4.01430,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : -1.00730,
+         "y" : 0.0,
+         "z" : -0.51090
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : -1.00680,
+         "y" : 0.0,
+         "z" : -0.38650
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Short Wood Fence 02",
+         "scaling" : 0.54240,
+         "x" : -1.1090,
+         "y" : 0.0,
+         "z" : -0.26480
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Short Wood Fence 03",
+         "scaling" : 0.54240,
+         "x" : -1.21110,
+         "y" : 0.0,
+         "z" : -0.14310
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : -1.31330,
+         "y" : 0.0,
+         "z" : -0.02130
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Short Wood Fence 01",
+         "scaling" : 0.54240,
+         "x" : -1.41540,
+         "y" : 0.0,
+         "z" : 0.10040
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Fence 03",
+         "scaling" : 0.58890,
+         "x" : -1.68210,
+         "y" : 0.0,
+         "z" : -1.36480
+      },
+      {
+         "heading" : 9.1630,
+         "name" : "Fence 02",
+         "scaling" : 0.58890,
+         "x" : -1.84890,
+         "y" : 0.0,
+         "z" : -1.34250
+      },
+      {
+         "heading" : 9.424799999999999,
+         "name" : "Fence 05",
+         "scaling" : 0.58890,
+         "x" : -2.01720,
+         "y" : 0.0,
+         "z" : -1.32010
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00190,
+         "name" : "Foliage 01",
+         "scaling" : 1.32140,
+         "x" : 1.02650,
+         "y" : 0.00190,
+         "z" : -0.41970
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "name" : "Bush 01",
+         "scaling" : 1.15460,
+         "x" : 1.08150,
+         "y" : 0.0,
+         "z" : -0.15470
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "name" : "Bush 01",
+         "scaling" : 1.15460,
+         "x" : 2.02340,
+         "y" : 0.0,
+         "z" : -0.67630
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "name" : "Bush 01",
+         "scaling" : 1.15460,
+         "x" : 1.61930,
+         "y" : 0.0,
+         "z" : -1.08880
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Grass Shrub 02",
+         "scaling" : 1.32140,
+         "x" : 0.3970,
+         "y" : 0.010,
+         "z" : -0.13160
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 02",
+         "scaling" : 1.32140,
+         "x" : 1.11030,
+         "y" : 0.0,
+         "z" : -0.5150
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 04",
+         "scaling" : 1.32140,
+         "x" : 0.99610,
+         "y" : 0.0,
+         "z" : -0.26790
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.51580,
+         "x" : -1.01080,
+         "y" : 0.0,
+         "z" : -0.64170
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.51580,
+         "x" : -1.5540,
+         "y" : 0.0,
+         "z" : -1.3020
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 04",
+         "scaling" : 1.36440,
+         "x" : -1.63940,
+         "y" : 0.0,
+         "z" : -1.28050
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "name" : "Bush 01",
+         "scaling" : 1.15460,
+         "x" : 0.47140,
+         "y" : 0.0,
+         "z" : 0.13330
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "height" : 0.00970,
+         "name" : "Crop Bush 01",
+         "scaling" : 1.15460,
+         "x" : 0.56890,
+         "y" : 0.00970,
+         "z" : 0.23130
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "height" : 0.00970,
+         "name" : "Crop Bush 01",
+         "scaling" : 1.15460,
+         "x" : 0.31230,
+         "y" : 0.00970,
+         "z" : 0.16560
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "height" : 0.01850,
+         "name" : "Bush 01",
+         "scaling" : 1.15460,
+         "x" : -0.7290,
+         "y" : 0.01850,
+         "z" : 0.24640
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "height" : 0.01850,
+         "name" : "Bush 01",
+         "scaling" : 0.85680,
+         "x" : -0.54260,
+         "y" : 0.01850,
+         "z" : 0.15220
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "height" : 0.01850,
+         "name" : "Bush 01",
+         "scaling" : 0.85680,
+         "x" : -1.0660,
+         "y" : 0.01850,
+         "z" : -0.45980
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "height" : 0.01850,
+         "name" : "Bush 01",
+         "scaling" : 0.85680,
+         "x" : -1.35630,
+         "y" : 0.01850,
+         "z" : -0.46950
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Grass Shrub 03",
+         "scaling" : 1.32140,
+         "x" : -0.68930,
+         "y" : 0.010,
+         "z" : -0.0170
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Short Pine Tree 04",
+         "scaling" : 1.0,
+         "x" : 0.40090,
+         "y" : 0.0,
+         "z" : 0.27580
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008800000000000001,
+         "name" : "Short Pine Tree 01",
+         "scaling" : 1.0,
+         "x" : 0.7112000000000001,
+         "y" : 0.008800000000000001,
+         "z" : 0.4650
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008800000000000001,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 1.0,
+         "x" : 0.38530,
+         "y" : 0.008800000000000001,
+         "z" : 0.66410
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008800000000000001,
+         "name" : "Tall Pine Tree 04",
+         "scaling" : 1.0,
+         "x" : -0.3560,
+         "y" : 0.008800000000000001,
+         "z" : 0.27920
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008800000000000001,
+         "name" : "Short Pine Tree 01",
+         "scaling" : 0.79140,
+         "x" : -0.29390,
+         "y" : 0.008800000000000001,
+         "z" : 0.72840
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008800000000000001,
+         "name" : "Tall Pine Tree 03",
+         "scaling" : 1.0,
+         "x" : -0.82520,
+         "y" : 0.008800000000000001,
+         "z" : 0.29560
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008800000000000001,
+         "name" : "Short Pine Tree 01",
+         "scaling" : 0.73190,
+         "x" : -0.59410,
+         "y" : 0.008800000000000001,
+         "z" : 0.23540
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008800000000000001,
+         "name" : "Short Pine Tree 01",
+         "scaling" : 0.73190,
+         "x" : -0.67930,
+         "y" : 0.008800000000000001,
+         "z" : 0.40810
+      },
+      {
+         "heading" : 6.10870,
+         "name" : "Tree 02",
+         "scaling" : 1.28250,
+         "x" : -0.57020,
+         "y" : 0.0,
+         "z" : 0.5538999999999999
+      },
+      {
+         "heading" : 5.14870,
+         "name" : "Tree 04",
+         "scaling" : 1.28250,
+         "x" : 0.62710,
+         "y" : 0.0,
+         "z" : 0.76870
+      },
+      {
+         "heading" : 4.62510,
+         "name" : "Tree 02",
+         "scaling" : 1.28250,
+         "x" : -0.94070,
+         "y" : 0.0,
+         "z" : 0.53960
+      },
+      {
+         "heading" : 6.02140,
+         "name" : "Tree 04",
+         "scaling" : 1.13560,
+         "x" : -1.53910,
+         "y" : 0.0,
+         "z" : -0.38420
+      },
+      {
+         "heading" : 4.79970,
+         "name" : "Short Pine Tree 01",
+         "scaling" : 0.77220,
+         "x" : -1.17150,
+         "y" : 0.0,
+         "z" : -0.51930
+      },
+      {
+         "heading" : 4.79970,
+         "name" : "Tall Pine Tree 04",
+         "scaling" : 0.70590,
+         "x" : -1.23860,
+         "y" : 0.0,
+         "z" : -0.34120
+      },
+      {
+         "heading" : 4.79970,
+         "name" : "Tree 04",
+         "scaling" : 1.40350,
+         "x" : 1.63860,
+         "y" : 0.0,
+         "z" : 0.21440
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Tree 03",
+         "scaling" : 1.40350,
+         "x" : 2.04990,
+         "y" : 0.0,
+         "z" : -0.28410
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Tree 01",
+         "scaling" : 1.40350,
+         "x" : 2.10710,
+         "y" : 0.0,
+         "z" : -1.09080
+      },
+      {
+         "heading" : 1.48350,
+         "name" : "Tree 01",
+         "scaling" : 1.4690,
+         "x" : -1.68830,
+         "y" : 0.0,
+         "z" : -0.22070
+      },
+      {
+         "heading" : 2.6180,
+         "name" : "Tree 01",
+         "scaling" : 1.4690,
+         "x" : -2.13680,
+         "y" : 0.0,
+         "z" : -0.34190
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00150,
+         "name" : "Short Pine Tree 04",
+         "scaling" : 1.0,
+         "x" : 1.88440,
+         "y" : 0.00150,
+         "z" : -1.28740
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00150,
+         "name" : "Tall Pine Tree 02",
+         "scaling" : 0.56290,
+         "x" : 1.77080,
+         "y" : 0.00150,
+         "z" : -1.1370
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 05",
+         "scaling" : 0.58890,
+         "x" : 2.29080,
+         "y" : 0.0,
+         "z" : -1.4370
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 03",
+         "scaling" : 0.58890,
+         "x" : 2.46360,
+         "y" : 0.0,
+         "z" : -1.4370
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 05",
+         "scaling" : 0.58890,
+         "x" : 2.310,
+         "y" : 0.0,
+         "z" : -1.72690
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 06",
+         "scaling" : 0.58890,
+         "x" : 2.48250,
+         "y" : 0.0,
+         "z" : -1.72560
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Fence 04",
+         "scaling" : 0.58890,
+         "x" : 1.44790,
+         "y" : 0.0,
+         "z" : -1.72580
+      },
+      {
+         "heading" : 4.79970,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.77220,
+         "x" : -2.0660,
+         "y" : 0.0,
+         "z" : -1.21380
+      },
+      {
+         "heading" : 4.79970,
+         "name" : "Tall Pine Tree 04",
+         "scaling" : 0.5711000000000001,
+         "x" : -1.93340,
+         "y" : 0.0,
+         "z" : -1.23630
+      },
+      {
+         "heading" : 5.14870,
+         "height" : 0.00970,
+         "name" : "Foliage 01",
+         "scaling" : 1.51190,
+         "x" : 0.63250,
+         "y" : 0.00970,
+         "z" : 0.38050
+      },
+      {
+         "heading" : 5.14870,
+         "height" : 0.00970,
+         "name" : "Fern 03",
+         "scaling" : 1.51190,
+         "x" : 0.54130,
+         "y" : 0.00970,
+         "z" : 0.47640
+      },
+      {
+         "heading" : 0.6981000000000001,
+         "name" : "Fern 02",
+         "scaling" : 1.65240,
+         "x" : -0.46260,
+         "y" : 0.0,
+         "z" : 0.2420
+      },
+      {
+         "heading" : 0.6981000000000001,
+         "name" : "Fern 02",
+         "scaling" : 1.65240,
+         "x" : -0.27810,
+         "y" : 0.0,
+         "z" : 0.47590
+      },
+      {
+         "heading" : 0.6981000000000001,
+         "name" : "Fern 02",
+         "scaling" : 1.65240,
+         "x" : -1.16760,
+         "y" : 0.0,
+         "z" : -0.63140
+      },
+      {
+         "heading" : 1.48350,
+         "name" : "Fern 02",
+         "scaling" : 1.28460,
+         "x" : -1.87190,
+         "y" : 0.0,
+         "z" : -1.28090
+      },
+      {
+         "heading" : 5.14870,
+         "height" : -0.00030,
+         "name" : "Foliage 01",
+         "scaling" : 1.64160,
+         "x" : 0.3410,
+         "y" : -0.00030,
+         "z" : 0.54580
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00980,
+         "name" : "Town Wall 01",
+         "scaling" : 2.43310,
+         "x" : -0.54850,
+         "y" : 0.00980,
+         "z" : 0.89370
+      },
+      {
+         "heading" : 0.26180,
+         "height" : 0.00980,
+         "name" : "Town Wall Curved 01",
+         "scaling" : 2.43310,
+         "x" : -1.09140,
+         "y" : 0.00980,
+         "z" : 0.8342000000000001
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : -0.80340,
+         "y" : 0.0,
+         "z" : 0.9016999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00980,
+         "name" : "Town Wall 01",
+         "scaling" : 2.43310,
+         "x" : 0.56860,
+         "y" : 0.00980,
+         "z" : 0.8915999999999999
+      },
+      {
+         "heading" : 0.6981000000000001,
+         "height" : 0.00980,
+         "name" : "Town Wall 01",
+         "scaling" : 2.43310,
+         "x" : -1.52060,
+         "y" : 0.00980,
+         "z" : 0.60630
+      },
+      {
+         "heading" : 0.61090,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : -1.3280,
+         "y" : 0.0,
+         "z" : 0.750
+      },
+      {
+         "heading" : 6.02140,
+         "height" : 0.00980,
+         "name" : "Town Wall Curved 01",
+         "scaling" : 2.43310,
+         "x" : 1.05880,
+         "y" : 0.00980,
+         "z" : 0.82890
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : 0.81380,
+         "y" : 0.0,
+         "z" : 0.88280
+      },
+      {
+         "heading" : 5.67230,
+         "height" : 0.00980,
+         "name" : "Town Wall 01",
+         "scaling" : 2.43310,
+         "x" : 1.50420,
+         "y" : 0.00980,
+         "z" : 0.61670
+      },
+      {
+         "heading" : 5.75960,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : 1.2870,
+         "y" : 0.0,
+         "z" : 0.76210
+      },
+      {
+         "heading" : 0.6981000000000001,
+         "height" : 0.00980,
+         "name" : "Town Wall 01",
+         "scaling" : 2.43310,
+         "x" : -1.90150,
+         "y" : 0.00980,
+         "z" : 0.28520
+      },
+      {
+         "heading" : 3.49070,
+         "height" : 0.00980,
+         "name" : "Town Wall Curved 01",
+         "scaling" : 2.43310,
+         "x" : -2.32340,
+         "y" : 0.00980,
+         "z" : 0.03550
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00980,
+         "name" : "Town Wall 01",
+         "scaling" : 2.43310,
+         "x" : -2.80140,
+         "y" : 0.00980,
+         "z" : -0.04790
+      },
+      {
+         "heading" : 5.67230,
+         "height" : 0.00980,
+         "name" : "Town Wall 01",
+         "scaling" : 2.43310,
+         "x" : 1.91210,
+         "y" : 0.00980,
+         "z" : 0.3270
+      },
+      {
+         "heading" : 2.79250,
+         "height" : 0.00980,
+         "name" : "Town Wall Curved 01",
+         "scaling" : 2.43310,
+         "x" : 2.34810,
+         "y" : 0.00980,
+         "z" : 0.09690
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.00980,
+         "name" : "Town Wall 01",
+         "scaling" : 2.43310,
+         "x" : 2.83240,
+         "y" : 0.00980,
+         "z" : 0.010
+      },
+      {
+         "heading" : 5.58510,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : 1.72280,
+         "y" : 0.0,
+         "z" : 0.4620
+      },
+      {
+         "heading" : 5.75960,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : 2.11240,
+         "y" : 0.0,
+         "z" : 0.18650
+      },
+      {
+         "heading" : 6.19590,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : 2.60290,
+         "y" : 0.0,
+         "z" : 0.00310
+      },
+      {
+         "heading" : 0.6981000000000001,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : -1.68880,
+         "y" : 0.0,
+         "z" : 0.46920
+      },
+      {
+         "heading" : 0.61090,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : -2.05960,
+         "y" : 0.0,
+         "z" : 0.13910
+      },
+      {
+         "heading" : 0.08730,
+         "name" : "Town Wall Pillar 02",
+         "scaling" : 2.43310,
+         "x" : -2.52830,
+         "y" : 0.0,
+         "z" : -0.04740
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Fence 07",
+         "scaling" : 0.58890,
+         "x" : -2.18920,
+         "y" : 0.0,
+         "z" : -1.31970
+      },
+      {
+         "heading" : 9.424799999999999,
+         "name" : "Fence 07",
+         "scaling" : 0.58890,
+         "x" : -2.19260,
+         "y" : 0.0,
+         "z" : -1.61360
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Fence 04",
+         "scaling" : 0.58890,
+         "x" : -2.36060,
+         "y" : 0.0,
+         "z" : -1.320
+      },
+      {
+         "heading" : 9.424799999999999,
+         "name" : "Fence 04",
+         "scaling" : 0.58890,
+         "x" : -2.36460,
+         "y" : 0.0,
+         "z" : -1.61420
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Wooden Gate 06",
+         "scaling" : 1.04740,
+         "x" : 2.03520,
+         "y" : 0.0,
+         "z" : -1.57710
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Gate Doors 01",
+         "scaling" : 1.04740,
+         "x" : 2.03520,
+         "y" : 0.0,
+         "z" : -1.57710
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "",
+            "text" : "Coming Soon"
+         },
+         "heading" : 7.8540,
+         "height" : -0.00560,
+         "name" : "Barrier 01",
+         "scaling" : 1.04740,
+         "x" : 2.0390,
+         "y" : -0.00560,
+         "z" : -1.58210
+      },
+      {
+         "heading" : 5.2360,
+         "name" : "Tree 04",
+         "scaling" : 1.40350,
+         "x" : 2.2780,
+         "y" : 0.0,
+         "z" : -1.25190
+      },
+      {
+         "heading" : 5.2360,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 04",
+         "scaling" : 0.88840,
+         "x" : 1.55470,
+         "y" : 0.0005999999999999999,
+         "z" : -1.92220
+      },
+      {
+         "heading" : 8.81390,
+         "height" : 0.0005999999999999999,
+         "name" : "Tree 04",
+         "scaling" : 1.0580,
+         "x" : 2.07520,
+         "y" : 0.0005999999999999999,
+         "z" : -2.08060
+      },
+      {
+         "heading" : 8.81390,
+         "height" : 0.0005999999999999999,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.93120,
+         "x" : 1.81020,
+         "y" : 0.0005999999999999999,
+         "z" : -2.21710
+      },
+      {
+         "heading" : 8.81390,
+         "height" : 0.0005999999999999999,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.93120,
+         "x" : 1.62010,
+         "y" : 0.0005999999999999999,
+         "z" : -2.23540
+      },
+      {
+         "heading" : 8.81390,
+         "height" : 0.0005999999999999999,
+         "name" : "Tall Pine Tree 04",
+         "scaling" : 0.93120,
+         "x" : 2.25990,
+         "y" : 0.0005999999999999999,
+         "z" : -1.91640
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.007900000000000001,
+         "name" : "House Home 03A",
+         "scaling" : 1.71930,
+         "x" : 0.01060,
+         "y" : 0.007900000000000001,
+         "z" : -3.06160
+      },
+      {
+         "heading" : 3.83970,
+         "height" : 0.007900000000000001,
+         "name" : "House Home 04A",
+         "scaling" : 1.71930,
+         "x" : 0.88650,
+         "y" : 0.007900000000000001,
+         "z" : -2.72470
+      },
+      {
+         "heading" : 2.26890,
+         "height" : 0.007900000000000001,
+         "name" : "House Home 04A",
+         "scaling" : 1.71930,
+         "x" : -1.2510,
+         "y" : 0.007900000000000001,
+         "z" : -2.43030
+      },
+      {
+         "heading" : -1.18750,
+         "name" : "Short Pine Tree 01",
+         "scaling" : 0.71910,
+         "x" : -1.27110,
+         "y" : 0.0,
+         "z" : -1.98760
+      },
+      {
+         "heading" : 4.18880,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 1.12730,
+         "y" : 0.0,
+         "z" : -1.94910
+      },
+      {
+         "heading" : 4.01430,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.95890,
+         "y" : 0.0,
+         "z" : -2.19020
+      },
+      {
+         "heading" : 3.83970,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.75270,
+         "y" : 0.0,
+         "z" : -2.39660
+      },
+      {
+         "heading" : 3.66520,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.51410,
+         "y" : 0.0,
+         "z" : -2.56630
+      },
+      {
+         "heading" : 3.40340,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.24730,
+         "y" : 0.0,
+         "z" : -2.67940
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.04020,
+         "y" : 0.0,
+         "z" : -2.71810
+      },
+      {
+         "heading" : 2.87980,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.33070,
+         "y" : 0.0,
+         "z" : -2.6770
+      },
+      {
+         "heading" : 2.6180,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.59820,
+         "y" : 0.0,
+         "z" : -2.56530
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.82850,
+         "y" : 0.0,
+         "z" : -2.39150
+      },
+      {
+         "heading" : 2.18170,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -1.01530,
+         "y" : 0.0,
+         "z" : -2.16960
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -1.1750,
+         "y" : 0.0,
+         "z" : -1.92120
+      },
+      {
+         "heading" : 2.26890,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : -1.34230,
+         "y" : 0.0,
+         "z" : -1.68150
+      },
+      {
+         "heading" : 3.40340,
+         "name" : "Wood Fence 01",
+         "scaling" : 1.0,
+         "x" : 1.34710,
+         "y" : 0.0,
+         "z" : -1.77730
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Wooden Gate 06",
+         "scaling" : 1.04740,
+         "x" : -1.99370,
+         "y" : 0.0,
+         "z" : -1.46660
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00560,
+         "name" : "Gate Doors 02",
+         "scaling" : 1.04740,
+         "x" : -1.99980,
+         "y" : -0.00560,
+         "z" : -1.46450
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "",
+            "text" : "Coming Soon"
+         },
+         "heading" : 4.71240,
+         "height" : -0.00560,
+         "name" : "Barrier 01",
+         "scaling" : 1.04740,
+         "x" : -1.99860,
+         "y" : -0.00560,
+         "z" : -1.47560
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Tree 04",
+         "scaling" : 1.13560,
+         "x" : -2.27620,
+         "y" : 0.0,
+         "z" : -1.18370
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Tree 01",
+         "scaling" : 1.29130,
+         "x" : -2.35880,
+         "y" : 0.0,
+         "z" : -0.90740
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Tree 01",
+         "scaling" : 1.29130,
+         "x" : -2.16880,
+         "y" : 0.0,
+         "z" : -1.96280
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.8624000000000001,
+         "x" : -1.90830,
+         "y" : 0.0,
+         "z" : -1.83120
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.65550,
+         "x" : -1.74090,
+         "y" : 0.0,
+         "z" : -1.82090
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Short Pine Tree 04",
+         "scaling" : 0.94980,
+         "x" : -1.85920,
+         "y" : 0.0,
+         "z" : -2.06170
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenStash",
+            "text" : "Your Stash"
+         },
+         "heading" : 0.0,
+         "height" : -0.00280,
+         "name" : "Stash Closed",
+         "scaling" : 1.56930,
+         "x" : -0.28560,
+         "y" : -0.00280,
+         "z" : -0.01690
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 06",
+         "scaling" : 1.04870,
+         "x" : -0.03380,
+         "y" : -0.010,
+         "z" : -1.35890
+      },
+      {
+         "heading" : 4.62510,
+         "name" : "Tree 04",
+         "scaling" : 1.7180,
+         "x" : -2.66520,
+         "y" : 0.0,
+         "z" : -1.01880
+      },
+      {
+         "heading" : 4.62510,
+         "name" : "Tree 03",
+         "scaling" : 1.7180,
+         "x" : -2.8410,
+         "y" : 0.0,
+         "z" : -0.77380
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.8624000000000001,
+         "x" : -2.93190,
+         "y" : 0.0,
+         "z" : -1.16540
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.8624000000000001,
+         "x" : -2.57590,
+         "y" : 0.0,
+         "z" : -1.24010
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 0.8624000000000001,
+         "x" : -2.48140,
+         "y" : 0.0,
+         "z" : -1.90830
+      },
+      {
+         "heading" : 6.71950,
+         "name" : "Tree 04",
+         "scaling" : 1.7180,
+         "x" : -3.00880,
+         "y" : 0.0,
+         "z" : -2.23860
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Fence 05",
+         "scaling" : 0.58890,
+         "x" : -2.53030,
+         "y" : 0.0,
+         "z" : -1.32060
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Fence 03",
+         "scaling" : 0.58890,
+         "x" : -2.70130,
+         "y" : 0.0,
+         "z" : -1.32150
+      },
+      {
+         "heading" : 9.424799999999999,
+         "name" : "Fence 07",
+         "scaling" : 0.58940,
+         "x" : -2.53950,
+         "y" : 0.0,
+         "z" : -1.61420
+      },
+      {
+         "heading" : 9.424799999999999,
+         "name" : "Fence 02",
+         "scaling" : 0.58890,
+         "x" : -2.71270,
+         "y" : 0.0,
+         "z" : -1.61450
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Fence 08",
+         "scaling" : 0.58890,
+         "x" : -2.87370,
+         "y" : 0.0,
+         "z" : -1.3230
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 05",
+         "scaling" : 0.58890,
+         "x" : 2.63610,
+         "y" : 0.0,
+         "z" : -1.4370
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 03",
+         "scaling" : 0.58890,
+         "x" : 2.80850,
+         "y" : 0.0,
+         "z" : -1.4370
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Fence 04",
+         "scaling" : 0.58890,
+         "x" : 2.98070,
+         "y" : 0.0,
+         "z" : -1.43650
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Fence 07",
+         "scaling" : 0.58890,
+         "x" : 3.15170,
+         "y" : 0.0,
+         "z" : -1.43570
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Fence 07",
+         "scaling" : 0.58890,
+         "x" : 2.65540,
+         "y" : 0.0,
+         "z" : -1.7260
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Fence 05",
+         "scaling" : 0.58890,
+         "x" : 2.82880,
+         "y" : 0.0,
+         "z" : -1.72490
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Fence 03",
+         "scaling" : 0.58890,
+         "x" : 3.00010,
+         "y" : 0.0,
+         "z" : -1.72490
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Fence 08",
+         "scaling" : 0.58890,
+         "x" : 3.17220,
+         "y" : 0.0,
+         "z" : -1.72460
+      },
+      {
+         "heading" : 3.75250,
+         "name" : "Tree 03",
+         "scaling" : 1.58850,
+         "x" : 2.79390,
+         "y" : 0.0,
+         "z" : -1.21840
+      },
+      {
+         "heading" : 0.34910,
+         "name" : "Tree 04",
+         "scaling" : 1.58850,
+         "x" : 2.45780,
+         "y" : 0.0,
+         "z" : -2.06170
+      },
+      {
+         "heading" : 4.36330,
+         "name" : "Tree 04",
+         "scaling" : 1.58850,
+         "x" : 2.56360,
+         "y" : 0.0,
+         "z" : -0.7707000000000001
+      },
+      {
+         "heading" : 8.81390,
+         "height" : 0.0005999999999999999,
+         "name" : "Tall Pine Tree 04",
+         "scaling" : 0.93120,
+         "x" : 2.44620,
+         "y" : 0.0005999999999999999,
+         "z" : -1.32040
+      },
+      {
+         "heading" : 8.81390,
+         "height" : 0.0005999999999999999,
+         "name" : "Tall Pine Tree 01",
+         "scaling" : 1.12030,
+         "x" : 2.83570,
+         "y" : 0.0005999999999999999,
+         "z" : -1.92670
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "TownGateTap",
+            "text" : "Gate to Adventure"
+         },
+         "heading" : 0.0,
+         "height" : -0.00510,
+         "name" : "Dummy",
+         "scaling" : 5.97040,
+         "x" : 0.0050,
+         "y" : -0.00510,
+         "z" : 0.93430
+      },
+      {
+         "heading" : 53.40710,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 00",
+         "scaling" : 0.65340,
+         "x" : 0.01620,
+         "y" : -0.00020,
+         "z" : 0.49740
+      },
+      {
+         "heading" : 52.97070,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 00",
+         "opacity" : 0.650,
+         "scaling" : 0.54270,
+         "x" : 0.01420,
+         "y" : 0.0,
+         "z" : 0.75640
+      },
+      {
+         "heading" : 53.40710,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 00",
+         "scaling" : 0.65340,
+         "x" : -0.01240,
+         "y" : -0.010,
+         "z" : -0.26940
+      },
+      {
+         "heading" : 6.71950,
+         "name" : "Tree 02",
+         "scaling" : 1.68890,
+         "x" : 0.49830,
+         "y" : 0.0,
+         "z" : 1.30770
+      },
+      {
+         "heading" : 5.14870,
+         "name" : "Tree 02",
+         "scaling" : 1.68890,
+         "x" : -0.43720,
+         "y" : 0.0,
+         "z" : 1.40090
+      },
+      {
+         "heading" : 4.53790,
+         "name" : "Tree 04",
+         "scaling" : 1.68890,
+         "x" : 1.16580,
+         "y" : 0.0,
+         "z" : 1.62990
+      },
+      {
+         "heading" : 3.83970,
+         "name" : "Tree 04",
+         "scaling" : 1.68890,
+         "x" : 0.4590,
+         "y" : 0.0,
+         "z" : 1.97740
+      },
+      {
+         "heading" : 5.06150,
+         "name" : "Tree 03",
+         "scaling" : 1.68890,
+         "x" : -0.32230,
+         "y" : 0.0,
+         "z" : 2.12490
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Tree 01",
+         "scaling" : 1.68890,
+         "x" : -0.9147999999999999,
+         "y" : 0.0,
+         "z" : 1.51760
+      },
+      {
+         "heading" : 0.26180,
+         "name" : "Tree 01",
+         "scaling" : 1.86960,
+         "x" : -1.5070,
+         "y" : 0.0,
+         "z" : 1.18520
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Tree 01",
+         "scaling" : 1.86960,
+         "x" : 1.65870,
+         "y" : 0.0,
+         "z" : 1.18660
+      },
+      {
+         "heading" : 6.89410,
+         "name" : "Tree 02",
+         "scaling" : 1.86960,
+         "x" : 0.96990,
+         "y" : 0.0,
+         "z" : 1.8730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008800000000000001,
+         "name" : "Short Pine Tree 04",
+         "scaling" : 1.0,
+         "x" : -0.21890,
+         "y" : 0.008800000000000001,
+         "z" : 1.80180
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008800000000000001,
+         "name" : "Short Pine Tree 04",
+         "scaling" : 1.50210,
+         "x" : -0.74610,
+         "y" : 0.008800000000000001,
+         "z" : 2.02350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008800000000000001,
+         "name" : "Short Pine Tree 03",
+         "scaling" : 1.50210,
+         "x" : 0.60080,
+         "y" : 0.008800000000000001,
+         "z" : 2.2280
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 2.33740,
+         "x" : 1.91280,
+         "y" : 0.01670,
+         "z" : -1.1780
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.97290,
+         "x" : -0.8540,
+         "y" : 0.01670,
+         "z" : -1.90580
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.97290,
+         "x" : -0.91860,
+         "y" : 0.01670,
+         "z" : -1.96030
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 2.36020,
+         "x" : -2.03750,
+         "y" : 0.01670,
+         "z" : -1.43920
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 2.36020,
+         "x" : 2.14320,
+         "y" : 0.01670,
+         "z" : -1.53370
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.8431999999999999,
+         "x" : 1.10260,
+         "y" : 0.01670,
+         "z" : -0.37640
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.8431999999999999,
+         "x" : 1.19130,
+         "y" : 0.01670,
+         "z" : -0.52620
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.8431999999999999,
+         "x" : 1.080,
+         "y" : 0.01670,
+         "z" : -0.28880
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.8431999999999999,
+         "x" : 1.15450,
+         "y" : 0.01670,
+         "z" : -0.2190
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 2.10330,
+         "x" : 0.76280,
+         "y" : 0.01670,
+         "z" : 0.27060
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 2.10330,
+         "x" : 0.45860,
+         "y" : 0.01670,
+         "z" : 0.14510
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 2.10330,
+         "x" : 0.41130,
+         "y" : 0.01670,
+         "z" : 0.32690
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03450,
+         "name" : "blocker",
+         "scaling" : 2.10330,
+         "x" : 0.40340,
+         "y" : 0.03450,
+         "z" : 0.68650
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02870,
+         "name" : "blocker",
+         "scaling" : 2.10330,
+         "x" : -0.38620,
+         "y" : 0.02870,
+         "z" : 0.66210
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008399999999999999,
+         "name" : "blocker",
+         "scaling" : 2.10330,
+         "x" : -0.38880,
+         "y" : 0.008399999999999999,
+         "z" : 0.30020
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04340,
+         "name" : "blocker",
+         "scaling" : 2.10330,
+         "x" : -0.38550,
+         "y" : 0.04340,
+         "z" : 0.47950
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04320,
+         "name" : "blocker",
+         "scaling" : 2.10330,
+         "x" : 0.41680,
+         "y" : 0.04320,
+         "z" : 0.45240
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 2.00230,
+         "x" : -1.17420,
+         "y" : 0.01670,
+         "z" : -0.43320
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.8431999999999999,
+         "x" : 1.14110,
+         "y" : 0.01670,
+         "z" : -0.43950
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.8431999999999999,
+         "x" : 1.57430,
+         "y" : 0.01670,
+         "z" : -1.00910
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.8431999999999999,
+         "x" : 1.44550,
+         "y" : 0.01670,
+         "z" : -0.96190
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.8431999999999999,
+         "x" : 1.70090,
+         "y" : 0.01670,
+         "z" : -1.02970
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 0.8431999999999999,
+         "x" : 1.50590,
+         "y" : 0.01670,
+         "z" : -0.5175999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 1.29320,
+         "x" : -0.74820,
+         "y" : 0.01670,
+         "z" : 0.0890
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 1.29320,
+         "x" : -0.87130,
+         "y" : 0.01670,
+         "z" : 0.15820
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 1.29320,
+         "x" : -1.27970,
+         "y" : 0.01670,
+         "z" : -0.04910
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 1.29320,
+         "x" : -1.24820,
+         "y" : 0.01670,
+         "z" : -0.22690
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00070,
+         "name" : "blocker",
+         "scaling" : 1.29320,
+         "x" : -0.55060,
+         "y" : -0.00070,
+         "z" : 0.00160
+      },
+      {
+         "heading" : 5.75960,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.35020,
+         "x" : -0.79980,
+         "y" : 0.0,
+         "z" : -1.87520
+      },
+      {
+         "heading" : 5.75960,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.35020,
+         "x" : -0.96640,
+         "y" : 0.0,
+         "z" : -2.01430
+      },
+      {
+         "heading" : 5.75960,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.40230,
+         "x" : 0.58150,
+         "y" : 0.0,
+         "z" : -0.14290
+      },
+      {
+         "heading" : -0.70390,
+         "height" : 0.00210,
+         "name" : "Inn Door",
+         "scaling" : 1.95160,
+         "x" : 0.91960,
+         "y" : 0.00210,
+         "z" : 0.0240
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenInn",
+            "text" : ""
+         },
+         "heading" : -0.70390,
+         "height" : 0.00210,
+         "name" : "Inn Home",
+         "scaling" : 1.95160,
+         "x" : 1.10980,
+         "y" : 0.00210,
+         "z" : 0.23840
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "",
+            "onlyOnce" : false,
+            "proxyAnim" : "open",
+            "proxyParam" : 95,
+            "replace" : "",
+            "sndApproach" : "unlock wood-creak",
+            "sndLeave" : "thud1 wood_clonk",
+            "sndMidAnim" : "thud1 wood_clonk",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Town Wall Gate Door 01",
+         "scaling" : 2.57990,
+         "x" : 0.17570,
+         "y" : 0.0,
+         "z" : 0.89710
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "",
+            "onlyOnce" : false,
+            "proxyAnim" : "open",
+            "proxyParam" : -95,
+            "replace" : "",
+            "sndApproach" : "wood-creak unlock",
+            "sndLeave" : "wood_clonk thud1",
+            "sndMidAnim" : "thud1 wood_clonk",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Town Wall Gate Door 02",
+         "scaling" : 2.56920,
+         "x" : -0.16330,
+         "y" : 0.0,
+         "z" : 0.89680
+      },
+      {
+         "heading" : 5.75960,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.35020,
+         "x" : -1.18480,
+         "y" : 0.0,
+         "z" : -0.70780
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 04",
+         "scaling" : 1.51580,
+         "x" : -1.13350,
+         "y" : 0.0,
+         "z" : -0.7445000000000001
+      },
+      {
+         "heading" : 15.62070,
+         "height" : 0.010,
+         "name" : "Grass Decal 08",
+         "scaling" : 0.5570000000000001,
+         "x" : -0.19850,
+         "y" : 0.0,
+         "z" : 0.51540
+      },
+      {
+         "heading" : 3.29290,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 04",
+         "scaling" : 0.65340,
+         "x" : 0.02640,
+         "y" : -0.010,
+         "z" : -1.55990
+      },
+      {
+         "heading" : 2.28060,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : 0.16830,
+         "y" : -0.010,
+         "z" : -1.27610
+      },
+      {
+         "heading" : 54.6810,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 00",
+         "scaling" : 0.72710,
+         "x" : -1.29070,
+         "y" : 0.0,
+         "z" : -1.23170
+      },
+      {
+         "heading" : 52.27260,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 00",
+         "scaling" : 0.72710,
+         "x" : 1.53780,
+         "y" : 0.0,
+         "z" : -0.66130
+      },
+      {
+         "heading" : 55.1930,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 00",
+         "scaling" : 0.72710,
+         "x" : -1.28780,
+         "y" : 0.0,
+         "z" : -1.57960
+      },
+      {
+         "heading" : 55.58870,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 00",
+         "scaling" : 0.72710,
+         "x" : 1.45410,
+         "y" : 0.0,
+         "z" : -0.45330
+      },
+      {
+         "heading" : 52.44710,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 01",
+         "scaling" : 0.72710,
+         "x" : 1.68030,
+         "y" : 0.0,
+         "z" : -0.78080
+      },
+      {
+         "heading" : 5.33490,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 06",
+         "scaling" : 0.65340,
+         "x" : -0.15360,
+         "y" : -0.010,
+         "z" : -1.48930
+      },
+      {
+         "heading" : 39.67840,
+         "height" : 0.010,
+         "name" : "Cobblestone Decal 10",
+         "scaling" : 0.61310,
+         "x" : 1.64410,
+         "y" : 0.0,
+         "z" : -0.62470
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.010,
+         "name" : "Shadow Round 05",
+         "opacity" : 0.80,
+         "scaling" : 0.51690,
+         "x" : 1.6550,
+         "y" : 0.0,
+         "z" : -0.85630
+      },
+      {
+         "heading" : 2.26890,
+         "name" : "Chest 01B",
+         "scaling" : 1.02920,
+         "x" : 1.77560,
+         "y" : 0.0,
+         "z" : -0.85790
+      },
+      {
+         "heading" : 3.75250,
+         "name" : "Chest 01",
+         "scaling" : 1.61480,
+         "x" : 1.89360,
+         "y" : 0.0,
+         "z" : -0.84070
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "name" : "Crop Bush 01",
+         "scaling" : 0.74440,
+         "x" : 1.64760,
+         "y" : 0.0,
+         "z" : -1.20720
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "name" : "Bush 01",
+         "scaling" : 0.74440,
+         "x" : 1.18230,
+         "y" : 0.0,
+         "z" : -0.31760
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "name" : "Bush 01",
+         "scaling" : 0.74440,
+         "x" : 0.77230,
+         "y" : 0.0,
+         "z" : 0.17660
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "disableInPlayableArea" : true,
+            "touchActions" : "shake",
+            "touchSound" : "attack1 heavygrass1"
+         },
+         "heading" : 0.0,
+         "name" : "Bush 01",
+         "scaling" : 0.57820,
+         "x" : 0.72040,
+         "y" : 0.0,
+         "z" : 0.13270
+      },
+      {
+         "heading" : 3.05430,
+         "name" : "Grass Shrub 03",
+         "scaling" : 1.5350,
+         "x" : -0.4730,
+         "y" : 0.0,
+         "z" : -0.02610
+      },
+      {
+         "heading" : 3.83970,
+         "name" : "Grass Shrub 04",
+         "scaling" : 1.32140,
+         "x" : 0.5973000000000001,
+         "y" : 0.0,
+         "z" : -0.19310
+      },
+      {
+         "heading" : 3.49070,
+         "name" : "Grass Shrub 04",
+         "scaling" : 1.32140,
+         "x" : 0.99820,
+         "y" : 0.0,
+         "z" : -0.35830
+      },
+      {
+         "heading" : 2.79250,
+         "name" : "Grass Shrub 04",
+         "scaling" : 1.32140,
+         "x" : -0.29220,
+         "y" : 0.0,
+         "z" : -0.5440
+      },
+      {
+         "heading" : 2.79250,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.12860,
+         "x" : -0.32180,
+         "y" : 0.0,
+         "z" : -0.64320
+      },
+      {
+         "heading" : 2.79250,
+         "height" : 0.00090,
+         "name" : "Grass Shrub 01",
+         "scaling" : 1.12860,
+         "x" : 0.26430,
+         "y" : 0.00090,
+         "z" : -0.57970
+      },
+      {
+         "heading" : 2.26890,
+         "name" : "Chest 01B",
+         "scaling" : 0.50430,
+         "x" : 1.38150,
+         "y" : 0.0,
+         "z" : -0.26270
+      },
+      {
+         "heading" : 6.98130,
+         "height" : 0.09540,
+         "name" : "Sign Equipment",
+         "scaling" : 1.63220,
+         "x" : -0.87220,
+         "y" : 0.09540,
+         "z" : 0.05090
+      },
+      {
+         "heading" : 7.24310,
+         "height" : 0.11850,
+         "name" : "Sign Blacksmith",
+         "scaling" : 1.27310,
+         "x" : -1.22040,
+         "y" : 0.11850,
+         "z" : -0.75440
+      },
+      {
+         "heading" : 5.41050,
+         "height" : 0.09950000000000001,
+         "name" : "Sign Jeweler",
+         "scaling" : 1.3950,
+         "x" : 1.1360,
+         "y" : 0.09950000000000001,
+         "z" : -0.38810
+      },
+      {
+         "heading" : 5.32330,
+         "height" : 0.09070,
+         "name" : "Sign Consumables",
+         "scaling" : 1.56220,
+         "x" : 1.77630,
+         "y" : 0.09070,
+         "z" : -0.87430
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenInn",
+            "text" : "The Inn"
+         },
+         "heading" : 0.0,
+         "height" : 0.03660,
+         "name" : "Dummy",
+         "scaling" : 2.18720,
+         "x" : 0.9130,
+         "y" : 0.03660,
+         "z" : -0.01020
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenSalvage",
+            "text" : ""
+         },
+         "heading" : 5.84690,
+         "name" : "Salvage Table",
+         "scaling" : 1.48360,
+         "x" : -1.37850,
+         "y" : 0.0,
+         "z" : -0.69980
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Grass Shrub 01",
+         "scaling" : 0.82330,
+         "x" : -1.67970,
+         "y" : 0.0,
+         "z" : -1.15370
+      },
+      {
+         "heading" : 6.10870,
+         "height" : 0.010,
+         "name" : "Shadow Square 01",
+         "scaling" : 0.62530,
+         "x" : -1.76520,
+         "y" : 0.0,
+         "z" : -1.19150
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenSalvage",
+            "text" : "Salvage"
+         },
+         "heading" : 5.84690,
+         "name" : "Salvage Vice",
+         "scaling" : 1.48360,
+         "x" : -1.37850,
+         "y" : 0.0,
+         "z" : -0.69980
+      },
+      {
+         "heading" : 11.43190,
+         "height" : 0.05970,
+         "name" : "Blacksmith Pliers 01",
+         "scaling" : 1.54860,
+         "x" : -1.74230,
+         "y" : 0.05970,
+         "z" : -1.22210
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenDressingRoom",
+            "text" : "Dressing Room"
+         },
+         "heading" : 3.95610,
+         "height" : 0.00340,
+         "name" : "Dressing Room",
+         "scaling" : 1.40260,
+         "x" : -1.01990,
+         "y" : 0.00340,
+         "z" : -0.74490
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenPvP",
+            "onlyOnce" : false,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "Arena",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 1.4050,
+         "height" : -0.00630,
+         "name" : "Blacksmith Sword 3",
+         "scaling" : 2.63570,
+         "x" : 0.73320,
+         "y" : -0.00630,
+         "z" : -1.96450
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenPvP",
+            "onlyOnce" : false,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 4.52910,
+         "height" : -0.00630,
+         "name" : "Blacksmith Sword 3",
+         "scaling" : 2.63570,
+         "x" : 0.7495000000000001,
+         "y" : -0.00630,
+         "z" : -1.95090
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenPvP",
+            "onlyOnce" : false,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "height" : -0.18470,
+         "name" : "Red Brick Tower Top B 01",
+         "scaling" : 0.4930,
+         "x" : 0.74470,
+         "y" : -0.18470,
+         "z" : -1.95860
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00220,
+         "name" : "Round Red Brick Column 01",
+         "scaling" : 0.62690,
+         "x" : 0.5750,
+         "y" : -0.00220,
+         "z" : -1.95280
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00290,
+         "name" : "Round Red Brick Column 01",
+         "scaling" : 0.62690,
+         "x" : 0.75140,
+         "y" : -0.00290,
+         "z" : -1.78750
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00250,
+         "name" : "Round Red Brick Column 01",
+         "scaling" : 0.62690,
+         "x" : 0.91240,
+         "y" : -0.00250,
+         "z" : -1.98560
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00320,
+         "name" : "Round Red Brick Column 01",
+         "scaling" : 0.62690,
+         "x" : 0.75030,
+         "y" : -0.00320,
+         "z" : -2.12940
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00220,
+         "name" : "Round Red Brick Column 01",
+         "scaling" : 0.62690,
+         "x" : 0.62180,
+         "y" : -0.00220,
+         "z" : -2.0710
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00220,
+         "name" : "Round Red Brick Column 01",
+         "scaling" : 0.62690,
+         "x" : 0.85910,
+         "y" : -0.00220,
+         "z" : -2.08490
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00220,
+         "name" : "Round Red Brick Column 01",
+         "scaling" : 0.62690,
+         "x" : 0.88350,
+         "y" : -0.00220,
+         "z" : -1.85160
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00220,
+         "name" : "Round Red Brick Column 01",
+         "scaling" : 0.62690,
+         "x" : 0.6210,
+         "y" : -0.00220,
+         "z" : -1.84120
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenWardrobe",
+            "text" : "Armory"
+         },
+         "heading" : 3.15330,
+         "height" : -0.00150,
+         "name" : "Closet 04",
+         "scaling" : 1.39970,
+         "x" : -0.67420,
+         "y" : -0.00150,
+         "z" : -0.04010
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01840,
+         "name" : "blocker",
+         "scaling" : 1.16710,
+         "x" : -0.29040,
+         "y" : 0.01840,
+         "z" : 0.10510
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01910,
+         "name" : "blocker",
+         "scaling" : 1.16710,
+         "x" : -0.42220,
+         "y" : 0.01910,
+         "z" : 0.09909999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01910,
+         "name" : "blocker",
+         "scaling" : 1.16710,
+         "x" : -0.56690,
+         "y" : 0.01910,
+         "z" : 0.12440
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "OpenExtraStash",
+            "text" : ""
+         },
+         "heading" : -3.14160,
+         "height" : 0.010,
+         "name" : "Chest 04",
+         "scaling" : 1.69970,
+         "x" : -0.49960,
+         "y" : 0.010,
+         "z" : -0.03660
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : null,
+   "startPosition" : [ -0.04070, -0.84970 ],
+   "tint" : [ 128, 128, 128, 0 ],
+   "title" : "",
+   "weather" : [ "summer" ]
+}

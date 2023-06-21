@@ -1,0 +1,20 @@
+	{
+		"id" : "StorePage_Highlight",
+		"text" : [ "Tap to view the Store", "You can hire allies and buy gear from the Store" ],
+		
+		"context" : {
+			"InMetaGame" : true,
+			"StorePageAvailable" : true,
+			"OtherHintsActive" : false
+		},
+		
+		"conditions" : {
+			"InStorePage" : false
+		},
+		
+		"delay" : 1,
+		"point_to" : "StoreTab",
+		"timeout" : 3600,
+		"limit_per_game": 1,
+		"limit_per_player": 1	
+	},

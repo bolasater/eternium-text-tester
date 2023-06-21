@@ -1,0 +1,18 @@
+{
+   "color" : {
+      "mandatory" : false,
+      "type" : "array"
+   },
+   "desc" : {
+      "mandatory" : false,
+      "type" : "string"
+   },
+   "icon" : {
+      "mandatory" : false,
+      "type" : "string"
+   },
+   "name" : {
+      "mandatory" : true,
+      "type" : "string"
+   }
+}

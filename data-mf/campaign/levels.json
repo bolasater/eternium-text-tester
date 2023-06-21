@@ -1,0 +1,1025 @@
+[
+    {
+        "act": 1, 
+        "boss": "mugrunt", 
+        "damage_scale": 1, 
+        "flavors": [
+            "mugrunt"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "L1", 
+        "monster_level": 1, 
+        "music": "Path_to_Lake_Land", 
+        "name": "The Shores of Hope", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "They burned our books and they enslaved us in the name of Ragadam, their twisted lord. On these shores begins my vengeance: I will hunt you, Ragadam, across the worlds!", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 1, 
+        "boss": "undead", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "L2", 
+        "monster_level": 1, 
+        "music": "Mysthical_Theme", 
+        "name": "Ruins of the Dead", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "I need the strong arm and sharp axe of my old friend, Marcus. I must cross these ruins to reach his village. The dead stand in the way, mumbling Ragadam's name.", 
+        "weather": "whitemist"
+    }, 
+    {
+        "act": 1, 
+        "boss": "undead", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "icons": [
+            {
+                "icon": "boris_norse_portrait", 
+                "text": "Find Marcus the warrior blacksmith. He will join your party, and will do his best to keep you from harm in combat."
+            }, 
+            {
+                "icon": "charge_icon", 
+                "text": "You will be able to use Marcus' Charge, that stuns enemies and compels them to attack him."
+            }
+        ], 
+        "map": "L3", 
+        "monster_level": 2, 
+        "music": "combat", 
+        "name": "Marcus' Village", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Marcus must be here. With him by my side, my hunt for Ragadam may stand a chance.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 1, 
+        "boss": "undead", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "marcus_training", 
+        "monster_level": 2, 
+        "music": "Path_to_Lake_Land", 
+        "name": "Road to Anderra", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We're heading to Anderra to find Eileen the Healer. But the road ahead is crawling with the minions of Magroth, the Demon of the Severed Mountain.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 1, 
+        "boss": "undead", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "arena", 
+        "hp_scale": 1, 
+        "map": "arena_simple", 
+        "monster_level": 3, 
+        "music": "Industrial", 
+        "name": "Out of Nowhere", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We spent the night in peace and quiet, in an abandoned farm. But then, at dawn, the dead surround us, and so we mean them harm.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 1, 
+        "boss": "undead", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "dungeon", 
+        "hp_scale": 2, 
+        "map": "misty_island", 
+        "monster_level": 0, 
+        "music": "Mysthical_Theme", 
+        "name": "Misty Island", 
+        "optional": 1, 
+        "requiredLevel": 20, 
+        "story": "The peaceful sorceress Gorgona has been tortured to madness by Ragadam's disciple, Elban, until she gave up the secrets of invoking life from bare stone. Elban left for Levania, but Gorgona still haunts this island, mad and lost, poisoning the waters she once loved.", 
+        "weather": "whitemist"
+    }, 
+    {
+        "act": 1, 
+        "boss": "undead", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "graveyard", 
+        "monster_level": 4, 
+        "music": "Mysthical_Theme", 
+        "name": "The Defiler", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Only a graveyard lays between us and Anderra. The Demon Magroth has dispatched a Grave Defiler here to unearth more minions for him.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 1, 
+        "boss": "undead", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "practice", 
+        "hp_scale": 1, 
+        "map": "practice_room", 
+        "monster_level": 0, 
+        "music": "Caves_of_Sorrow", 
+        "name": "Training Grounds", 
+        "optional": 1, 
+        "requiredLevel": 15, 
+        "story": "Your personal training grounds. Hone your skills and gear against target dummies.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 1, 
+        "boss": "undead", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "icons": [
+            {
+                "icon": "hela_portrait", 
+                "text": "Find Eileen the healer. She will join your party, and will heal you and your allies."
+            }, 
+            {
+                "icon": "vortex_icon", 
+                "text": "You will be able to use Eileen's Vortex, that groups and dazes enemies."
+            }
+        ], 
+        "map": "L5", 
+        "monster_level": 5, 
+        "music": "combat", 
+        "name": "Anderra", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Eileen the Healer is held captive here, in Anderra. Let's hope we find her before we encounter the Demon Magroth.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 1, 
+        "boss": "demon", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "icons": [
+            {
+                "icon": "magroth", 
+                "text": "Defeat Magroth, the demon of the Severed Mountain."
+            }
+        ], 
+        "map": "L6", 
+        "monster_level": 7, 
+        "music": "Steps_of_Destiny", 
+        "name": "The Severed Mountain", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Magroth has dwelt for centuries in his mountain, as demons do, their love of caves and fire keeping them contained and content. But then a sinister call silently echoed across the worlds. Magroth heard himself whisper: \"Ragadam...\", and saw himself rise. Elderath hasn't known peace since.", 
+        "weather": "snow"
+    }, 
+    {
+        "act": 1, 
+        "boss": "demon", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "anderhelm", 
+        "monster_level": 8, 
+        "music": "Steps_of_Destiny", 
+        "name": "The Siege of Anderhelm", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The Demon Magroth escaped to Anderhelm. We must assault the fortress and end his dominion over these lands.", 
+        "weather": "whitemist"
+    }, 
+    {
+        "act": 1, 
+        "boss": "undead", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead", 
+            "arena"
+        ], 
+        "gameMode": "survival_arena", 
+        "hp_scale": 1, 
+        "icons": [
+            {
+                "icon": "skull", 
+                "text": "Test your skill in the endless arena challenge!"
+            }
+        ], 
+        "map": "survival2", 
+        "monster_level": 0, 
+        "music": "Industrial", 
+        "name": "The Gauntlet", 
+        "optional": 1, 
+        "requiredLevel": 0, 
+        "story": "\"So, you enjoy slaying my minions?\", Ragadam laughs from across the ether. \"What if they never stopped coming?\"", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 1, 
+        "boss": "beast", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "L7", 
+        "monster_level": 9, 
+        "music": "Wind", 
+        "name": "The Wailing Peaks", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Ragadam's Broken Dragon holds Robin the Archer. We must make our way through these frozen peaks to the dragon's den.", 
+        "weather": "blizzard"
+    }, 
+    {
+        "act": 1, 
+        "boss": "demon", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead", 
+            "demon"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "L8", 
+        "monster_level": 10, 
+        "music": "Caves_of_Sorrow", 
+        "name": "The Descent", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The grimlins have dug their mines deep inside the mountain. They're not too welcoming of visitors, but we have no choice. We must pass through them if we are to reach the Broken Dragon's den and free Robin.", 
+        "weather": "redmist"
+    }, 
+    {
+        "act": 1, 
+        "boss": "demon", 
+        "damage_scale": 1, 
+        "flavors": [
+            "demon"
+        ], 
+        "gameMode": "arena", 
+        "hp_scale": 1, 
+        "map": "hellgate_05", 
+        "monster_level": 11, 
+        "music": "Second_Stand", 
+        "name": "The Fiery Pits", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "This cave must be one of the Broken Dragon's lairs. She is not here, and the place swarms with restless minions. We hoped slaying Magroth would stop them, but Ragadam still grasps their feeble minds through the Broken Dragon's presence.", 
+        "weather": "redmist"
+    }, 
+    {
+        "act": 1, 
+        "boss": "demon", 
+        "damage_scale": 1, 
+        "flavors": [
+            "demon"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "icons": [
+            {
+                "icon": "onyxia", 
+                "text": "Defeat the Broken Dragon."
+            }, 
+            {
+                "icon": "audrey_icon", 
+                "text": "Find Robin the archer. She will join your party, and hunt your enemies from a distance."
+            }, 
+            {
+                "icon": "ally_multishot_icon", 
+                "text": "You will be able to use Robin's Multishot, that fires a cone of deadly arrows."
+            }
+        ], 
+        "map": "L10", 
+        "monster_level": 11, 
+        "music": "Caves_of_Sorrow", 
+        "name": "The Broken Dragon", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "A century ago, Ragadam found a dragon egg on the barren moon Levania. Hungry for anguish, he raised the hatchling in chains, clawing at her mind and breaking her spirit. Feeding on her terror, he was invigorated, and sent her then to Elderath, to channel his power into this world.", 
+        "weather": "redmist"
+    }, 
+    {
+        "act": 2, 
+        "boss": "alien", 
+        "damage_scale": 1, 
+        "flavors": [
+            "alien"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "icons": [
+            {
+                "icon": "space_dragon", 
+                "text": "Make your way to the Moon on the back of a space faring dragon."
+            }
+        ], 
+        "map": "a2l1", 
+        "monster_level": 12, 
+        "music": "Second_Stand", 
+        "name": "Currents of the Ether", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We have defeated the Dragon, and removed Ragadam's Claw from her head, unbreaking her spirit. She now relishes flying between the worlds on the currents of the ether. She has taken us to Levania to hunt for Ragadam, and left on a journey among the stars to cleanse her mind of his terror.", 
+        "weather": "whitemist"
+    }, 
+    {
+        "act": 2, 
+        "boss": "alien", 
+        "damage_scale": 1, 
+        "flavors": [
+            "alien", 
+            "mechanical"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a2new1", 
+        "monster_level": 13, 
+        "music": "Second_Stand", 
+        "name": "Rain of Fire", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We were awed to find our moon is inhabited by strange creatures that seem sentient. Too bad they are aggressive. As we ponder this, several meteors blast huge craters in the plateau ahead. A minute passes, then several more. It almost looks like someone is doing this with a purpose."
+    }, 
+    {
+        "act": 2, 
+        "boss": "alien", 
+        "damage_scale": 1, 
+        "flavors": [
+            "alien"
+        ], 
+        "gameMode": "story",
+        "hp_scale": 1, 
+        "map": "a2l2", 
+        "monster_level": 14, 
+        "music": "Industrial", 
+        "name": "Stones and Bones", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "A crater is a perfect place for an ambush. Let's hope instead of a fight we can have a talk. We just want to find Ragadam.", 
+        "weather": "redmist"
+    }, 
+    {
+        "act": 2, 
+        "boss": "alien", 
+        "damage_scale": 1, 
+        "flavors": [
+            "alien"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a2l3", 
+        "monster_level": 15, 
+        "music": "combat", 
+        "name": "Canyon of Whispers", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The alien creatures we've come to call Levans are not willing to talk to us, and seem to get along well with the walking dead. They look sentient, but not sane. Alien whispers fill this valley, like shreds of the Levans' ragged minds.", 
+        "weather": "greenmist"
+    }, 
+    {
+        "act": 2, 
+        "boss": "alien", 
+        "damage_scale": 1, 
+        "flavors": [
+            "alien"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "levania", 
+        "monster_level": 16, 
+        "music": "Mysthical_Theme", 
+        "name": "Stairway to Levania", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The air is fresher, the sand is moist, and lichens grow on some stones. Could the myth of the Levanian Gardens be true?", 
+        "weather": "greenmist"
+    }, 
+    {
+        "act": 2, 
+        "boss": "mechanical", 
+        "damage_scale": 1, 
+        "flavors": [
+            "mechanical"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "levania2", 
+        "monster_level": 17, 
+        "music": "Path_to_Lake_Land", 
+        "name": "The Levanian Gardens", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The Levanian Gardens are real, but most things growing in them are twisted and tortured, like the spirits of their wretched Levan gardeners.", 
+        "weather": "greenmist"
+    }, 
+    {
+        "act": 2, 
+        "boss": "mechanical", 
+        "damage_scale": 1, 
+        "flavors": [
+            "mechanical"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "levanian_jungle", 
+        "monster_level": 18, 
+        "music": "Caves_of_Sorrow", 
+        "name": "The Levanian Jungle", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The thick forest on the bottom of these once barren canyons weeps quietly in the wind. It could be beautiful, in an alien way, but in the weeping wind we hear a whisper... \"Ragadam...\" and beauty is drowned by anxiety.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 2, 
+        "boss": "alien", 
+        "damage_scale": 1, 
+        "flavors": [
+            "alien", 
+            "mechanical"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "s2", 
+        "monster_level": 19, 
+        "music": "Industrial", 
+        "name": "The Scent of Home", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We found a huge stone structure, filled with the sound of flowing water and with familiar smells. There are plants from Elderath here, but they're confined and ordered like the vials in alchemist's lab.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 2, 
+        "boss": "mechanical", 
+        "damage_scale": 1, 
+        "flavors": [
+            "mechanical"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a2river1", 
+        "monster_level": 20, 
+        "music": "Caves_of_Sorrow", 
+        "name": "River of Blood", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "In the stone laboratory, we found a log written in archaic Elderan by an Elban the Demiurge. It speaks of Levans as \"drones\", mentions \"Master Ragadam\", \"Project Desparia\" and a \"lying snakewitch\". We reach a canal where rivulets of thick red ooze are gathering into a sickly parody of a river.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 2, 
+        "boss": "mechanical", 
+        "damage_scale": 1, 
+        "flavors": [
+            "mechanical"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "s1", 
+        "monster_level": 21, 
+        "music": "Path_to_Lake_Land", 
+        "name": "River of Dreams", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Flowing out of the colossal system of dams and reservoirs, the ooze changes into clear water, and green plants grow on the shores. We rush to get a drink of water...", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 2, 
+        "boss": "mechanical", 
+        "damage_scale": 1, 
+        "flavors": [
+            "mechanical"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "s3", 
+        "monster_level": 21, 
+        "music": "Mysthical_Theme", 
+        "name": "Going with the Flow", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "After drinking the river's water we had hours of horrifying hallucinations. We waited them out in agony until evening, and then continued downstream, keeping our distance from the bank. The river leads us underground, to what looks like another of the Demiurge's water \"enrichment\" mills.", 
+        "weather": "whitemist"
+    }, 
+    {
+        "act": 2, 
+        "boss": "mechanical", 
+        "damage_scale": 1, 
+        "flavors": [
+            "mechanical"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "s4", 
+        "monster_level": 22, 
+        "music": "Second_Stand", 
+        "name": "The Seeds of Life", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The Demiurge's log, the whispers in the air, the nightmares in the water, the tortured denizens and plants leave little doubt: Ragadam wants to grow a whole world for himself here, Desparia, a world of beings knowing only anguish, and speaking only his name, for his eternal sustenance.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 2, 
+        "boss": "mechanical", 
+        "damage_scale": 1, 
+        "flavors": [
+            "mechanical"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "alien_temple", 
+        "monster_level": 23, 
+        "music": "Steps_of_Destiny", 
+        "name": "The Temple", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We reach a vast temple, bearing Elban's seal and the words \"Elban's Holy Halls\" in archaic Elderan above the entrance. As we step in, the gate closes behind us, and a humming starts filling the air, followed by a deep rumble.", 
+        "weather": "whitemist"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a3l1", 
+        "monster_level": 24, 
+        "music": "Path_to_Lake_Land", 
+        "name": "The Rusty Planet", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Elban's temple turned out to be a space faring vessel, and has transported us to Nirgal, the rusty planet in Elderath's sky. Maybe he and his master Ragadam hide here, among palm trees and pyramids...", 
+        "weather": "redmist"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead", 
+            "reptilian"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a3l2", 
+        "monster_level": 26, 
+        "music": "Mysthical_Theme", 
+        "name": "Twilight Garden", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The beautiful stone cities of Nirgal are inhabited by a reptilian species, who coexist with Ragadam's undead minions. They look like brutal warriors, but architecture (or clothes) seem to elude them.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "reptilian"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a3l3", 
+        "monster_level": 28, 
+        "music": "Caves_of_Sorrow", 
+        "name": "Beneath the Pyramids", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The lush garden's alleys lead us to the entrance to one of these magnificent pyramids. The corridors inside are lit by glass tubes, cold to the touch, and lined by iron conduits that carry fire. ", 
+        "weather": "whitemist"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "beast", 
+            "undead", 
+            "reptilian"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a3l4", 
+        "monster_level": 29, 
+        "music": "Industrial", 
+        "name": "Path of Sand", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We exit the catacombs into a sandy canyon, walled by red, Nirgalian cliffs. The manuscripts we found inside the pyramid indicate this is the way to The Wall, and to Elban's city of Malador.", 
+        "weather": "whitemist"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "reptilian"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a3l5", 
+        "monster_level": 31, 
+        "music": "combat", 
+        "name": "Oasis", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We have been wandering the desert canyons for days. From the top of a high dune, we see in the distance a lake, palm trees and ruins.", 
+        "weather": "whitemist"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead", 
+            "reptilian"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a3l6", 
+        "monster_level": 32, 
+        "music": "Second_Stand", 
+        "name": "Ruins of Minaris", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Beautiful arched gates and decorated walls slowly crumble into the red sands. This must have been Minaris, the City of Three Canyons, the old capital of the Southern Nirgal lands, from before the Coming of the Demiurge.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a3l7", 
+        "monster_level": 34, 
+        "music": "Perpetual_Tension", 
+        "name": "The Wall", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Built between two mountain ranges, the titanic Wall once protected the realms of Minaris from the more aggressive peoples of the Mire and Malador in times of war, while the narrow path on its top was used by traders in times of peace.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "reptilian"
+        ], 
+        "gameMode": "arena", 
+        "hp_scale": 1, 
+        "map": "a3l8", 
+        "monster_level": 34, 
+        "music": "Industrial", 
+        "name": "Trial of the Mire", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "As we descend off the Wall into the Mire, we find ourselves in a sturdy wooden enclosure. Whatever its purpose might once have been, now it's a place for us to be ambushed by Elban's reptilians and Ragadam's dead.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "reptilian"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a3l9", 
+        "monster_level": 36, 
+        "music": "Path_to_Lake_Land", 
+        "name": "Murkvale", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Murkvale was a village of the Mirefolk, or, as we knew them on Elderath, the Merloks. Now it has been taken over by the Demiurge's creations, the vile reptilians. Beyond it, we can see the walls of Malador.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead", 
+            "reptilian"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a3l10", 
+        "monster_level": 38, 
+        "music": "Second_Stand", 
+        "name": "The City of Malador", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Malador, the Crown of the Mire, is being slowly consumed by the jungle's neverending twilight. The screeches of Elban's abominations echo among the stone walls. This is their city now, and the seat of their warlord, Gorlak.", 
+        "weather": "summer"
+    }, 
+    {
+        "act": 3, 
+        "boss": "reptilian", 
+        "damage_scale": 1, 
+        "flavors": [
+            "undead", 
+            "reptilian"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "a3l11", 
+        "monster_level": 40, 
+        "music": "Steps_of_Destiny", 
+        "name": "The Crucible of Mawrth", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Deep beneath Malador lies the Crucible of Mawrth, a vast dungeon built among flowing fires to contain Mawrth, Nirgal's ancient demon. The demon was long since slain by Elban, and the crucible is his lair now.", 
+        "weather": "redmist"
+    },
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "ursoc", 
+            "beast"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "forest_gy", 
+        "monster_level": 43,
+        "music": "Path_to_Lake_Land", 
+        "name": "Demeter, the Shattered World", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We travelled to the place that could not be seen from afar and have discovered the fragments of a world floating in space, teeming with life. Whether these people will receive us as allies or conquerors remains to be seen. The temple ship dropped us in a forest.", 
+        "weather": "redmist"
+    }, 
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "ursoc"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "lost_realm", 
+        "monster_level": 45,
+        "music": "Mysthical_Theme", 
+        "name": "On Wings of Aether", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The Aether is the mysterious energy source that still holds these shattered remains together. There should be 5 kinds of crystals: Red, Yellow, Green, Blue and White.We must collect them all to be able to travel freely across the Aether."
+    }, 
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "ursoc"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "frozen_towers", 
+        "monster_level": 48, 
+        "music": "Steps_of_Destiny",
+        "name": "Darkhold Citadel", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The once great Keep of Whitemoon, the Ursoc bulwark against the Minotaurs savage attacks, is now a dark shadow upon the bleak land of the Isle of the Ursoc kingdom. The blood crazed servants of Rak’shul now call it Darkhold Citadel. One thing hasn’t changed: it is still considered impregnable, so forbidden knowledge is brought here to be stored. Perhaps this knowledge can be used to reactivate the gateway that would take us to Ragadam."
+    }, 
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "ursoc"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "g7_winter_castle", 
+        "monster_level": 50, 
+        "music": "Path_to_Lake_Land",
+        "name": "Blenheim", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We learned that Rak’shul is an agent of Ragadam that holds one of the keystone fragments used to power the gateway, and someone named Sivari holds the other. The town of Blenheim seems to be at the center of the spreading corruption. The town is guarded by a fallen champion of the Ursol that has eventually succumbed to the same mysterious “blood craze” as most of their warriors."
+    }, 
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "ursoc"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "g3_mountain_side", 
+        "monster_level": 53, 
+        "music": "Path_to_Lake_Land",
+        "name": "The Highroad", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We discovered that the blood craze is fabricated by corrupting dragon blood. We must cross the Highroad, the path through the mountains and through ursoc territory, to get to Dragon’s Crag - the only likely source of dragon blood on Demeter. Curing the blood craze will surely disrupt whatever plan Rak’shul has."
+    },
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "ursoc"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "g5_oasis_volcanos", 
+        "monster_level": 55, 
+        "music": "Steps_of_Destiny",
+        "name": "Dragon's Crag", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Garm, the Keeper guards the Dragonspawn at the center of Dragon’s Crag. He could be under Ragadam’s control, or he could be his captive. Either way, this is where the alchemist corruptor got the dragon blood from."
+    },
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "ursoc"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "haunted_fortress", 
+        "monster_level": 57,
+        "music": "Caves_of_Sorrow", 
+        "name": "Morgenheim", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Once we stopped the corruption rituals, most of the ursoc begun reverting to their regular selves. Rak’shul the Usurper, Ragadam’s minion who caused the Ursoc blood craze, retreated inside Morgenheim Castle together with his loyalists. He must be dealt with, and we must recover the keystone fragment from him."
+    },
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "minotaur"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "desolation_desert", 
+        "monster_level": 59, 
+        "music": "Mysthical_Theme",
+        "name": "Desolation Desert", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "With the Ursoc usurper dealt with, the blood craze cured and the rightful king back on the throne, we focus on the Minotaur tribes. The Minotaurs are savage warriors who respect strength above all else. We travel to the Desolation Desert in search of the second keystone fragment."
+    },
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "minotaur"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "forgotten_islands", 
+        "monster_level": 61, 
+        "music": "Path_to_Lake_Land",
+        "name": "Scartree Forest", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "We learned that Sivari is the former Warchief of the Scartree tribe, that proclaimed herself Overlord of the Minotaurs. Although not all follow her rule, she and her followers display unnatural strength. We travel through Scartree Forest to reach the Scartree tribe’s home grounds and find the source of her strange and newly gained power. "
+    },
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "minotaur"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "g6_underground_village", 
+        "monster_level": 63, 
+        "music": "Caves_of_Sorrow",
+        "name": "Scartree Hold", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Before their newfound mysterious strength, the Scartree were the weakest of the Minotaurs. These outcasts learned to construct their settlements undergrounds, unlike the rest of their kind. Scartree Hold is their underground capital. We could find the answers we are looking for here."
+    },
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "minotaur"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "crystal_mountain", 
+        "monster_level": 65, 
+        "music": "Steps_of_Destiny",
+        "name": "Crystal Mountain", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The Void Infusers at Scartree Hold were corrupting Aether crystals from Crystal Mountain. If we cut their supply, the source of the Scartree power will be shattered, and the way to Sivari will be open."
+    },
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "minotaur"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "misty_forest", 
+        "monster_level": 67, 
+        "music": "Path_to_Lake_Land",
+        "name": "Drakenmoor Forest", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "The watchtower in Drakenmoor Forest could warn Sivari of our impending assault. We must capture the watchtower before we proceed any further."
+    },
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "minotaur"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "g8_citadel", 
+        "monster_level": 69, 
+        "music": "Mysthical_Theme",
+        "name": "Drakenmoor Citadel", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Drakenmoor Citadel is the seat of power of the Minotaur Overlord. Sivari, the agent of Ragadam that holds the second keystone shard, must be here with her elite forces."
+    },
+    {
+        "act": 4, 
+        "damage_scale": 1, 
+        "flavors": [
+            "minotaur"
+        ], 
+        "gameMode": "story", 
+        "hp_scale": 1, 
+        "map": "dark_dominion", 
+        "monster_level": 70, 
+        "music": "Caves_of_Sorrow",
+        "name": "Drakenmoor Catacombs", 
+        "optional": 0, 
+        "requiredLevel": 0, 
+        "story": "Sivari fled in the underground catacombs below Drakenmoor Citadel. We must pursue her and obtain the keystone shard."
+    },
+    {
+        "act": 4,
+        "damage_scale": 1,
+        "flavors": [
+            "undead"
+        ],
+        "gameMode": "story",
+        "hp_scale": 1,
+        "map": "g9_underworld",
+        "monster_level": 70,
+        "music": "Steps_of_Destiny",
+        "name": "The Underworld",
+        "optional": 0,
+        "requiredLevel": 0,
+        "story": "Kara, the Tempest Queen, leads what’s left of Ragadam’s forces on Demeter from the center of the Underworld Necropolis. Ending her means undoing the threat that Ragadam poses to this collection of worlds."
+    }
+]

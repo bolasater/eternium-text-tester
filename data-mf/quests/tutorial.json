@@ -1,0 +1,286 @@
+{
+	"name" : "Tutorial",
+	"category" : "tutorial",
+
+	"quests" : [
+		{
+			"id" : "vendor_sell_tutorial",
+			"name" : "Sell Extra Items",
+			"story" : "You have some useless items in your inventory. You can sell them to a merchant to free up some inventory space.",
+			"req" : { "hero_level":2, "story_level":"@Marcus' Village", "state" : ["InHomeTown", "FreeInventorySlots<5", "CommonItemsInInventory", "!UnusedItems", "!ItemsSold"] },
+			"autostart" : true,
+			"autoaccept": true,
+			"autocomplete" : true,
+			"tutorialSkipLevel" : 10,
+			"priorityBoost" : 1000000,
+			
+			"common" : { "location" : "hometown", "npc" : "Mitzu" },
+			
+			"obj" : [
+				{
+					"obj_id" : "sell_something",
+					"type" : "match_event",
+					"event" : "sell_item",
+					"desc" : "Sell an item to Mitzu",
+					"show_in" : "store",
+					"point_to" : "BestItemToSell",
+					"say" : ["You can sell this", "Sell this to make more room"]
+				}
+			]
+		},
+
+		{
+			"id" : "new_companion",
+			"name" : "A New Companion",
+			"story" : "You have a new companion waiting for you in the Inn. Visit the Inn to see your new companion's abilities, to choose which companions come with you in battle, or even unlock more companion slots.",
+			"req" : { "state" : ["NewMinions","InHomeTown"], "repeat" : "always" },
+			"autostart" : true,
+			"autoaccept" : false,
+			"autocomplete" : true,
+			
+			"common" : { "location" : "hometown" },
+			
+			"obj" : [
+				{
+					"obj_id" : "visit_inn",
+					"type" : "in_page",
+					"page" : "team",
+					"desc" : "Go to the Inn",
+					"walk_to" : "OpenInn"
+				},
+				{
+					"obj_id" : "inspect_minions",
+					"type" : "inspect_minions",
+					"desc" : "Inspect your new companion",
+					"show_in" : "team",
+					"point_to" : "NewMinion",
+					"say" : [ "New Companion", "Tap to See Details" ]
+				}
+			]
+		}
+		,
+		{
+			"id" : "craft_ring",
+			"name" : "Crafting Jewellery",
+			"src" : "Morgan",
+			"story" : {
+				"intro" : "Hello again, {HERO}! Want to learn how to craft rings & necklaces?",
+				"done" : "Nice jewelry you crafted there! Wear them with pride, they will serve you well!"
+			},
+			"req" : { "story_level":10 },
+			"autostart" : false,
+			"autocomplete" : false,
+			"tutorialSkipLevel" : 20,
+			"common" : { "location" : "hometown", "npc":"Morgan", "show_in":"jewelcrafting" },
+			"obj" : [
+				{
+					"obj_id" : "craft_N_rings",
+					"type" : "craft_item",
+					"itemFilter" : {"requireTypes":["ring"]},
+					"total":2,
+					"desc" : "Craft {N} rings",
+					"icon" : "jewelcraft_icon"
+				},
+				{
+					"obj_id" : "craft_a_necklace",
+					"type" : "craft_item",
+					"itemFilter" : {"requireTypes":["necklace"]},
+					"desc" : "Craft a necklace",
+					"icon" : "jewelcraft_icon"
+				}			
+			]
+		}
+		,
+		{
+			"id" : "fuse_rings",
+			"name" : "Ring Fusion",
+			"src" : "Morgan",
+			"story" : {
+				"intro" : "You can fuse together three rings of a lower quality to obtain a ring of higher quality.||||Craft three green rings.||Place them together in a horizontal line in your inventory.||Talk to me and use the fuse option.",
+				"done" : "Congratulations! You have crafted a higher quality ring. Fusing jewellery is really important to increase your power level.||||You can also fuse togehter three rare rings to obtain an epic ring, or three epic rings to obtain a legendary ring.||||Oh, not to forget! You can also fuse necklaces in the same way."
+			},
+
+			"req" : { "quest" : "craft_ring", "story_level":11 },
+			"autostart" : false,
+			"autocomplete" : false,
+			"tutorialSkipLevel" : 20,
+			"common" : { "location" : "hometown", "npc":"Morgan", "show_in":"jewelcrafting" },
+			"obj" : [
+				{
+					"obj_id" : "craft_N_rings",
+					"type" : "craft_item",
+					"itemFilter" : {"requireTypes":["ring"], "minQuality":1, "maxQuality":1},
+					"total":3,
+					"desc" : "Craft {N} rings",
+					"icon" : "jewelcraft_icon"
+				},
+				{
+					"obj_id" : "fuse_three_green_rings",
+					"type" : "craft_item",
+					"itemFilter" : {"requireTypes":["ring"], "minQuality":2, "maxQuality":2},
+					"desc" : "Fuse three green rings into a blue ring",
+					"icon" : "jewelcraft_icon"
+				}			
+			]
+		},
+		{
+			"id" : "visit_blacksmith",
+			"name" : "Visit Ingrid",
+			
+			"src" : "Alarion",
+			"dest" : "Ingrid",
+			
+			"story" : {
+				"intro" : "It's time you learned how to craft. Ingrid, our blacksmith, is waiting for you with a crate of materials and some good advice.",
+				"done" : "Here, I got a crate of materials for you. Open it up. Then tell me what you want to make. We'll craft it together."
+			},
+			
+			"req" : { "story_level" : 6 },
+			"tutorialSkipLevel" : 20,
+			
+			"autostart" : false,
+			"autoaccept" : false,
+			"autocomplete" : false,
+			"silent" : true,
+			"lockGateWhileAvailable": false,
+			"lockGateWhileInProgress": false,
+			
+			"obj" : [
+				{
+					"obj_id" : "hello",
+					"type" : "talk_to",
+					"npc" : "Ingrid",
+					"desc" : "Meet Ingrid the Blacksmith",
+					"dialog" : {
+						"dialog" : [
+							"{HEROCLASS}, been hearing about you.",
+
+							{"hero": "Greetings, ma'am. I'm {HERO}."},
+
+							"Name's Ingrid. I work the smithy here. I can craft just 'bout anything. Swords, tough clothes, you name it.", 
+
+							"I'll show you how it's done."
+						],
+						"continue_to": "quest"
+					}
+				}
+			],
+
+			"rewards": {
+				"metaitem":"basic_resource_crate",
+				"target_quest_id" : "craft_gear"
+			}			
+			
+		},
+		{
+			"id" : "craft_gear",
+			"name" : "Learn to Craft Equipment",
+			"story" : "Open the Resource Crate I gave you. You will find crafting ingredients inside. Then Talk to me again and Craft any item.",
+			"req" : { "quest" : "visit_blacksmith", "location":"hometown" },
+			"src" : "Ingrid",
+			"autostart" : true,
+			"autoaccept" : true,
+			"autocomplete" : true,
+			"lockGateWhileAvailable": false,
+			"lockGateWhileInProgress": false,
+			"sequenced" : true,
+			
+			"tutorialSkipLevel" : 20,
+			"common" : { "location" : "hometown" },
+			"obj" : [
+				{
+					"obj_id" : "open_inv",
+					"type" : "in_page",
+					"page" : "inventory",
+					"desc" : "Open the Inventory",
+					"point_to" : "GearButton",
+					"say" : [ "Open your Inventory", "Your Resource Crate is here" ],
+					"optional" : true
+				},
+				
+				{
+					"obj_id" : "open_crate",
+					"type" : "use_item",
+					"item" : "Basic Resource Crate",
+					"desc" : "Open the resource crate you got from Ingrid",
+					"icon" : "mat_crate_basic",
+					"point_to" : "QuestItem",
+					"say" : [ "Open the crate", "Select the crate and press Open" ],
+					"optional" : true,
+					"milestone" : true
+				},
+
+				{
+					"obj_id" : "close_inv",
+					"type" : "in_page",
+					"page" : "game",
+					"desc" : "Close the Inventory window",
+					"icon" : "x",
+					"point_to" : "MetaGameCloseBtn",
+					"say" : ["Close this window", "Close Inventory to continue"],
+					"optional" : true,
+					"milestone" : true
+				},
+
+				{
+					"obj_id" : "open_crafting",
+					"type" : "in_page",
+					"page" : "crafting",
+					"desc" : "Go to Ingrid to Craft a new item",
+					"npc" : "Ingrid",
+					"optional" : true
+				},
+				
+				{
+					"obj_id" : "craft_item",
+					"type" : "craft_item",
+					"itemFilter" : {},
+					"desc" : "Craft an new item",
+					"npc" : "Ingrid",
+					"show_in" : "crafting",
+					"icon" : "craft_icon",
+					"milestone" : true
+				},
+
+				{
+					"obj_id" : "close_craft",
+					"type" : "in_page",
+					"page" : "game",
+					"desc" : "Close the Crafting window to complete the quest",
+					"icon" : "x",
+					"show_in" : "crafting"
+				}
+			]
+		},
+
+		{
+			"id" : "salvage_gear",
+			"name" : "Salvage Equipment",
+			"src" : "Ingrid",
+			"story" : {
+				"intro":"You hero types always come back with bags full of old clothes and weapons. Don't throw 'em away. There's good metal and cloth in them, and lots of other parts to salvage. Try it out, at the salvage table, over there.",
+				"done": "You did good. Here's another crate of materials I saved for you. Keep up the good work."
+			},
+			"req" : { "quest" : "craft_gear", "story_level":7,  "state" : ["CommonItemsInInventory"] },
+			"autostart" : false,
+			"autocomplete" : false,
+			"lockGateWhileAvailable": false,
+			"lockGateWhileInProgress": false,
+			"tutorialSkipLevel" : 20,
+			"obj" : [			
+				{
+					"obj_id" : "salvage_item",
+					"type" : "match_event",
+					"event" : "item_salvaged",
+					"desc" : "Salvage a weapon or armor",
+					"icon":"materials",
+					"walk_to" : "OpenSalvage",
+					"location" : "hometown"
+				}
+			],
+			"rewards": {
+				"metaitem":"basic_resource_crate"
+			}
+		}			
+	]
+}

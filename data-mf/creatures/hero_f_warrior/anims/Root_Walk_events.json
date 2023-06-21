@@ -1,0 +1,12 @@
+[
+{
+	"id":"left_foot_down",
+	"bone":"FootLeft",
+	"t":0.1775
+},
+{
+	"id":"right_foot_down",
+	"bone":"FootRight",
+	"t":0.5325
+}
+]

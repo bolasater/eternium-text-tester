@@ -1,0 +1,3437 @@
+{
+   "ambient" : [ 0, 21, 48 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Eternium Level Designer",
+      "saveTime" : "1565007952334"
+   },
+   "enemyFlavors" : [ "reptilian" ],
+   "enemySetup" : null,
+   "fog" : [ 48, 32, 16 ],
+   "heroOmni" : {
+      "blue" : 0.40,
+      "green" : 0.80,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 1.0
+   },
+   "lightCol" : [ 221, 112, 32 ],
+   "lightDir" : [ -0.0, -0.42260, -0.90630 ],
+   "props" : [
+      {
+         "heading" : 4.88690,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 2.50830,
+         "y" : 0.0,
+         "z" : 0.60080
+      },
+      {
+         "heading" : 5.06150,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 2.39740,
+         "y" : 0.0,
+         "z" : 1.01590
+      },
+      {
+         "heading" : 5.2360,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 2.2160,
+         "y" : 0.0,
+         "z" : 1.40480
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.96970,
+         "y" : 0.0,
+         "z" : 1.75780
+      },
+      {
+         "heading" : 5.58510,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.66630,
+         "y" : 0.0,
+         "z" : 2.06130
+      },
+      {
+         "heading" : 5.75960,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.31560,
+         "y" : 0.0,
+         "z" : 2.30780
+      },
+      {
+         "heading" : 5.93410,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 0.9260,
+         "y" : 0.0,
+         "z" : 2.49190
+      },
+      {
+         "heading" : 6.10870,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 0.50870,
+         "y" : 0.0,
+         "z" : 2.60420
+      },
+      {
+         "heading" : 6.45770,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -0.36090,
+         "y" : 0.0,
+         "z" : 2.59980
+      },
+      {
+         "heading" : 6.63230,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -0.77590,
+         "y" : 0.0,
+         "z" : 2.48840
+      },
+      {
+         "heading" : 6.80680,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.16560,
+         "y" : 0.0,
+         "z" : 2.30720
+      },
+      {
+         "heading" : 6.98130,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.51630,
+         "y" : 0.0,
+         "z" : 2.060
+      },
+      {
+         "heading" : 7.15580,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.82090,
+         "y" : 0.0,
+         "z" : 1.75550
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -2.06490,
+         "y" : 0.0,
+         "z" : 1.40860
+      },
+      {
+         "heading" : 7.50490,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -2.24570,
+         "y" : 0.0,
+         "z" : 1.0190
+      },
+      {
+         "heading" : 7.67940,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -2.35720,
+         "y" : 0.0,
+         "z" : 0.6080
+      },
+      {
+         "heading" : 4.53790,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 2.50740,
+         "y" : 0.0,
+         "z" : -0.25630
+      },
+      {
+         "heading" : 4.36330,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 2.39570,
+         "y" : 0.0,
+         "z" : -0.67160
+      },
+      {
+         "heading" : 4.18880,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 2.21480,
+         "y" : 0.0,
+         "z" : -1.05940
+      },
+      {
+         "heading" : 4.01430,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.96920,
+         "y" : 0.0,
+         "z" : -1.40990
+      },
+      {
+         "heading" : 3.83970,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.66520,
+         "y" : 0.0,
+         "z" : -1.71190
+      },
+      {
+         "heading" : 3.66520,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.31280,
+         "y" : 0.0,
+         "z" : -1.95890
+      },
+      {
+         "heading" : 3.49070,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 0.92340,
+         "y" : 0.0,
+         "z" : -2.13890
+      },
+      {
+         "heading" : 3.31610,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 0.50740,
+         "y" : 0.0,
+         "z" : -2.24980
+      },
+      {
+         "heading" : 2.96710,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -0.34890,
+         "y" : 0.0,
+         "z" : -2.25170
+      },
+      {
+         "heading" : 2.79250,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -0.76680,
+         "y" : 0.0,
+         "z" : -2.13970
+      },
+      {
+         "heading" : 2.6180,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.15620,
+         "y" : 0.0,
+         "z" : -1.9570
+      },
+      {
+         "heading" : 2.44350,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.5090,
+         "y" : 0.0,
+         "z" : -1.710
+      },
+      {
+         "heading" : 2.26890,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.81340,
+         "y" : 0.0,
+         "z" : -1.40740
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -2.0620,
+         "y" : 0.0,
+         "z" : -1.05430
+      },
+      {
+         "heading" : 1.74530,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -2.35650,
+         "y" : 0.0,
+         "z" : -0.24770
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.5721000000000001,
+         "y" : 0.0,
+         "z" : 2.55280
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.97570,
+         "y" : 0.0,
+         "z" : 2.40680
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.34320,
+         "y" : 0.0,
+         "z" : 2.19280
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.67820,
+         "y" : 0.0,
+         "z" : 1.91670
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.95440,
+         "y" : 0.0,
+         "z" : 1.58920
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -2.16540,
+         "y" : 0.0,
+         "z" : 1.22440
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -2.31560,
+         "y" : 0.0,
+         "z" : 0.81960
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -2.3180,
+         "y" : 0.0,
+         "z" : -0.45890
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -2.17150,
+         "y" : 0.0,
+         "z" : -0.8660
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.95070,
+         "y" : 0.0,
+         "z" : -1.24210
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.67470,
+         "y" : 0.0,
+         "z" : -1.5750
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.34220,
+         "y" : 0.0,
+         "z" : -1.85120
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.9693000000000001,
+         "y" : 0.0,
+         "z" : -2.06770
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.56370,
+         "y" : 0.0,
+         "z" : -2.21510
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 0.72380,
+         "y" : 0.0,
+         "z" : -2.21360
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.13160,
+         "y" : 0.0,
+         "z" : -2.06440
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.50360,
+         "y" : 0.0,
+         "z" : -1.85010
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.83260,
+         "y" : 0.0,
+         "z" : -1.57380
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 2.10940,
+         "y" : 0.0,
+         "z" : -1.25030
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 2.32540,
+         "y" : 0.0,
+         "z" : -0.87130
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 2.46850,
+         "y" : 0.0,
+         "z" : -0.47030
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 2.46930,
+         "y" : 0.0,
+         "z" : 0.8110000000000001
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 2.32240,
+         "y" : 0.0,
+         "z" : 1.21560
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 2.10970,
+         "y" : 0.0,
+         "z" : 1.58710
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.83290,
+         "y" : 0.0,
+         "z" : 1.92210
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.49750,
+         "y" : 0.0,
+         "z" : 2.20070
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.12560,
+         "y" : 0.0,
+         "z" : 2.41390
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 0.72270,
+         "y" : 0.0,
+         "z" : 2.56450
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.83530,
+         "y" : 0.0,
+         "z" : 0.14440
+      },
+      {
+         "heading" : 4.97420,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.78130,
+         "y" : 0.0,
+         "z" : 0.56830
+      },
+      {
+         "heading" : 5.2360,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.62010,
+         "y" : 0.0,
+         "z" : 0.9622000000000001
+      },
+      {
+         "heading" : 4.45060,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.77970,
+         "y" : 0.0,
+         "z" : -0.27810
+      },
+      {
+         "heading" : 4.18880,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 1.61770,
+         "y" : 0.0,
+         "z" : -0.67070
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.68720,
+         "y" : 0.0,
+         "z" : 0.12650
+      },
+      {
+         "heading" : 8.11580,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.63190,
+         "y" : 0.0,
+         "z" : -0.29910
+      },
+      {
+         "heading" : 8.377599999999999,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.46640,
+         "y" : 0.0,
+         "z" : -0.6950
+      },
+      {
+         "heading" : 7.59220,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.63140,
+         "y" : 0.0,
+         "z" : 0.55120
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -1.46690,
+         "y" : 0.0,
+         "z" : 0.9461000000000001
+      },
+      {
+         "heading" : 2.87980,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -0.37050,
+         "y" : 0.0,
+         "z" : -1.45780
+      },
+      {
+         "heading" : 2.6180,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -0.76480,
+         "y" : 0.0,
+         "z" : -1.29510
+      },
+      {
+         "heading" : 3.40340,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 0.47760,
+         "y" : 0.0,
+         "z" : -1.45690
+      },
+      {
+         "heading" : 3.66520,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : 0.87270,
+         "y" : 0.0,
+         "z" : -1.29310
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.0910,
+         "y" : 0.0,
+         "z" : 1.55860
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 0.71070,
+         "y" : 0.0,
+         "z" : 1.77630
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 0.29510,
+         "y" : 0.0,
+         "z" : 1.88510
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.1380,
+         "y" : 0.0,
+         "z" : 1.88570
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.54830,
+         "y" : 0.0,
+         "z" : 1.77810
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.90670,
+         "y" : 0.0,
+         "z" : 1.52480
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Bamboo Fence Gate 01",
+         "scaling" : 1.47210,
+         "x" : 0.29380,
+         "y" : 0.0,
+         "z" : 2.64070
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Bamboo Fence Gate 01",
+         "scaling" : 1.47210,
+         "x" : -0.1430,
+         "y" : 0.0,
+         "z" : 2.63590
+      },
+      {
+         "heading" : 7.06860,
+         "name" : "Bamboo Fence Gate 01",
+         "scaling" : 1.47210,
+         "x" : 2.54390,
+         "y" : 0.0,
+         "z" : -0.04120
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Bamboo Fence Gate 01",
+         "scaling" : 1.47210,
+         "x" : 2.5460,
+         "y" : 0.0,
+         "z" : 0.38330
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.50770,
+         "y" : 0.0,
+         "z" : 1.15380
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.7210,
+         "y" : 0.0,
+         "z" : 0.77630
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.83570,
+         "y" : 0.0,
+         "z" : 0.36230
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.83370,
+         "y" : 0.0,
+         "z" : -0.06940
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.72260,
+         "y" : 0.0,
+         "z" : -0.48310
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.50820,
+         "y" : 0.0,
+         "z" : -0.85730
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.06770,
+         "y" : 0.0,
+         "z" : -1.18540
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 0.69030,
+         "y" : 0.0,
+         "z" : -1.40440
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 0.26780,
+         "y" : 0.0,
+         "z" : -1.51740
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.16190,
+         "y" : 0.0,
+         "z" : -1.52320
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.57640,
+         "y" : 0.0,
+         "z" : -1.40650
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.95810,
+         "y" : 0.0,
+         "z" : -1.1840
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.36070,
+         "y" : 0.0,
+         "z" : -0.8830
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.57760,
+         "y" : 0.0,
+         "z" : -0.50810
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.68740,
+         "y" : 0.0,
+         "z" : -0.09290
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.68540,
+         "y" : 0.0,
+         "z" : 0.34080
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.57270,
+         "y" : 0.0,
+         "z" : 0.75560
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.35730,
+         "y" : 0.0,
+         "z" : 1.13360
+      },
+      {
+         "heading" : 9.86110,
+         "name" : "Bamboo Fence Gate 01",
+         "scaling" : 1.47210,
+         "x" : -2.39480,
+         "y" : 0.0,
+         "z" : 0.39740
+      },
+      {
+         "heading" : 8.81390,
+         "name" : "Bamboo Fence Gate 01",
+         "scaling" : 1.47210,
+         "x" : -2.39380,
+         "y" : 0.0,
+         "z" : -0.02960
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Bamboo Fence Gate 01",
+         "scaling" : 1.47210,
+         "x" : -0.12970,
+         "y" : 0.0,
+         "z" : -2.28990
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Bamboo Fence Gate 01",
+         "scaling" : 1.47210,
+         "x" : 0.29290,
+         "y" : 0.0,
+         "z" : -2.28990
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.1510,
+         "y" : 0.0,
+         "z" : 0.37240
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 1.03310,
+         "y" : 0.0,
+         "z" : 0.79530
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 0.7566000000000001,
+         "y" : 0.0,
+         "z" : 1.13060
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : 0.36150,
+         "y" : 0.0,
+         "z" : 1.31180
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.27540,
+         "y" : 0.0,
+         "z" : 1.32090
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.67010,
+         "y" : 0.0,
+         "z" : 1.13440
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -0.94830,
+         "y" : 0.0,
+         "z" : 0.8070000000000001
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Bamboo Fence Pillar 01",
+         "scaling" : 1.47210,
+         "x" : -1.06430,
+         "y" : 0.0,
+         "z" : 0.38860
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.850,
+            "col_red" : 1.70,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.73150,
+         "y" : 0.0,
+         "z" : -2.02980
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.850,
+            "col_red" : 1.70,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -0.55540,
+         "y" : 0.0,
+         "z" : -2.02180
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Pillar 06",
+         "scaling" : 1.0,
+         "x" : 0.2890,
+         "y" : 0.0,
+         "z" : 2.69740
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Pillar 06",
+         "scaling" : 1.0,
+         "x" : -0.13710,
+         "y" : 0.0,
+         "z" : 2.69690
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Pillar 06",
+         "scaling" : 1.0,
+         "x" : 0.3060,
+         "y" : 0.0,
+         "z" : -2.34510
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Pillar 06",
+         "scaling" : 1.0,
+         "x" : -0.1450,
+         "y" : 0.0,
+         "z" : -2.35250
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20250,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.69080,
+         "y" : 0.20250,
+         "z" : 2.48530
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20250,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -0.54730,
+         "y" : 0.20250,
+         "z" : 2.46470
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20250,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -0.30430,
+         "y" : 0.20250,
+         "z" : 1.21760
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20250,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.3930,
+         "y" : 0.20250,
+         "z" : 1.21820
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20250,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 2.40050,
+         "y" : 0.20250,
+         "z" : 0.72260
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20250,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 2.38720,
+         "y" : 0.20250,
+         "z" : -0.4530
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20250,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -2.22130,
+         "y" : 0.20250,
+         "z" : 0.74360
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20250,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -2.23150,
+         "y" : 0.20250,
+         "z" : -0.42340
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20250,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.7320,
+         "y" : 0.20250,
+         "z" : -2.03110
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20250,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -0.55520,
+         "y" : 0.20250,
+         "z" : -2.02250
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 0.39330,
+         "y" : 0.0,
+         "z" : 1.21650
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : -0.30460,
+         "y" : 0.0,
+         "z" : 1.22180
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 0.68910,
+         "y" : 0.0,
+         "z" : 2.48470
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : -0.5459000000000001,
+         "y" : 0.0,
+         "z" : 2.46540
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.21060,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.850,
+            "col_red" : 1.750,
+            "radius0" : 0.40,
+            "radius1" : 1.30
+         },
+         "scaling" : 1.0,
+         "x" : 0.03010,
+         "y" : 0.21060,
+         "z" : 1.21430
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.34980,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.850,
+            "col_red" : 1.750,
+            "radius0" : 0.650,
+            "radius1" : 1.10
+         },
+         "scaling" : 1.0,
+         "x" : 0.060,
+         "y" : 0.34980,
+         "z" : 2.43980
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.5280,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.28920,
+         "y" : 0.5280,
+         "z" : 2.69240
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20160,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.62550,
+         "x" : 0.2890,
+         "y" : 0.20160,
+         "z" : 2.69740
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20460,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.62550,
+         "x" : -0.13710,
+         "y" : 0.20460,
+         "z" : 2.69690
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.5280,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -0.13690,
+         "y" : 0.5280,
+         "z" : 2.69650
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Shrine 02",
+         "scaling" : 1.0,
+         "x" : 0.90490,
+         "y" : 0.0,
+         "z" : -0.89410
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Shrine 02",
+         "scaling" : 1.0,
+         "x" : -0.82180,
+         "y" : 0.0,
+         "z" : -0.92070
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.28950,
+         "y" : 0.0,
+         "z" : 2.91410
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.28950,
+         "y" : 0.0,
+         "z" : 3.30470
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.28950,
+         "y" : 0.0,
+         "z" : 3.69530
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.13220,
+         "y" : 0.0,
+         "z" : 2.91780
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.13220,
+         "y" : 0.0,
+         "z" : 3.30840
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.13220,
+         "y" : 0.0,
+         "z" : 3.6990
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.07170,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.31890,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.70960,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.10020,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.49080,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.41540,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.02480,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.63420,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.24360,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.85290,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.46230,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.88140,
+         "y" : 0.0,
+         "z" : 4.25820
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00760,
+         "name" : "Graveyard Fence 01",
+         "scaling" : 2.490,
+         "x" : 0.07049999999999999,
+         "y" : -0.00760,
+         "z" : 3.20840
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00760,
+         "name" : "Graveyard Fence 01",
+         "scaling" : 2.490,
+         "x" : 2.91620,
+         "y" : -0.00760,
+         "z" : 0.16420
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00760,
+         "name" : "Graveyard Fence 01",
+         "scaling" : 2.490,
+         "x" : -2.75180,
+         "y" : -0.00760,
+         "z" : 0.18330
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Pillar 06",
+         "scaling" : 1.0,
+         "x" : 2.61180,
+         "y" : 0.0,
+         "z" : 0.37890
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Pillar 06",
+         "scaling" : 1.0,
+         "x" : 2.60920,
+         "y" : 0.0,
+         "z" : -0.04970
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Pillar 06",
+         "scaling" : 1.0,
+         "x" : -2.45440,
+         "y" : 0.0,
+         "z" : 0.3920
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Pillar 06",
+         "scaling" : 1.0,
+         "x" : -2.45250,
+         "y" : 0.0,
+         "z" : -0.03240
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 2.81880,
+         "y" : 0.0,
+         "z" : 0.38330
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 3.20940,
+         "y" : 0.0,
+         "z" : 0.38330
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 3.60,
+         "y" : 0.0,
+         "z" : 0.38330
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 3.99060,
+         "y" : 0.0,
+         "z" : 0.38330
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 2.82430,
+         "y" : 0.0,
+         "z" : -0.05110
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 3.21490,
+         "y" : 0.0,
+         "z" : -0.05110
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 3.60550,
+         "y" : 0.0,
+         "z" : -0.05110
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 3.99620,
+         "y" : 0.0,
+         "z" : -0.05110
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 4.16480,
+         "y" : 0.0,
+         "z" : 0.16910
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -2.65510,
+         "y" : 0.0,
+         "z" : -0.03240
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -3.04570,
+         "y" : 0.0,
+         "z" : -0.03240
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -3.43630,
+         "y" : 0.0,
+         "z" : -0.03240
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -3.8270,
+         "y" : 0.0,
+         "z" : -0.03240
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -2.66270,
+         "y" : 0.0,
+         "z" : 0.39860
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -3.05340,
+         "y" : 0.0,
+         "z" : 0.39860
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -3.4440,
+         "y" : 0.0,
+         "z" : 0.39860
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -3.83460,
+         "y" : 0.0,
+         "z" : 0.39860
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -3.99350,
+         "y" : 0.0,
+         "z" : 0.18410
+      },
+      {
+         "heading" : 5.84690,
+         "name" : "Bamboo Fence 02",
+         "scaling" : 1.47210,
+         "x" : 0.56380,
+         "y" : 0.0,
+         "z" : 1.22210
+      },
+      {
+         "heading" : 9.86110,
+         "name" : "Bamboo Fence 02",
+         "scaling" : 1.47210,
+         "x" : -0.47840,
+         "y" : 0.0,
+         "z" : 1.23050
+      },
+      {
+         "heading" : 8.552099999999999,
+         "name" : "Bamboo Fence 02",
+         "scaling" : 1.47210,
+         "x" : 0.89810,
+         "y" : 0.0,
+         "z" : 0.96440
+      },
+      {
+         "heading" : 4.97420,
+         "name" : "Bamboo Fence 02",
+         "scaling" : 1.47210,
+         "x" : 1.09290,
+         "y" : 0.0,
+         "z" : 0.58910
+      },
+      {
+         "heading" : 7.15580,
+         "name" : "Bamboo Fence 02",
+         "scaling" : 1.47210,
+         "x" : -0.81180,
+         "y" : 0.0,
+         "z" : 0.97190
+      },
+      {
+         "heading" : 10.73380,
+         "name" : "Bamboo Fence 02",
+         "scaling" : 1.47210,
+         "x" : -1.00850,
+         "y" : 0.0,
+         "z" : 0.59950
+      },
+      {
+         "heading" : 6.02140,
+         "name" : "Bamboo Fence 02",
+         "scaling" : 1.47210,
+         "x" : 0.5050,
+         "y" : 0.0,
+         "z" : 1.83370
+      },
+      {
+         "heading" : 9.68660,
+         "name" : "Bamboo Fence 02",
+         "scaling" : 1.47210,
+         "x" : -0.34280,
+         "y" : 0.0,
+         "z" : 1.83490
+      },
+      {
+         "heading" : 6.89410,
+         "name" : "Bamboo Fence 02",
+         "scaling" : 1.47210,
+         "x" : -0.7270,
+         "y" : 0.0,
+         "z" : 1.65570
+      },
+      {
+         "heading" : 8.901199999999999,
+         "name" : "Bamboo Fence 02",
+         "scaling" : 1.47210,
+         "x" : 0.8997000000000001,
+         "y" : 0.0,
+         "z" : 1.66990
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.28950,
+         "y" : 0.0,
+         "z" : 4.0860
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.13220,
+         "y" : 0.0,
+         "z" : 4.08960
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 0.30790,
+         "y" : 0.0,
+         "z" : -2.55470
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 0.30790,
+         "y" : 0.0,
+         "z" : -2.94530
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 0.30790,
+         "y" : 0.0,
+         "z" : -3.33590
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 0.30790,
+         "y" : 0.0,
+         "z" : -3.72650
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -0.14790,
+         "y" : 0.0,
+         "z" : -2.55660
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -0.14790,
+         "y" : 0.0,
+         "z" : -2.94720
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -0.14790,
+         "y" : 0.0,
+         "z" : -3.33790
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : -0.14790,
+         "y" : 0.0,
+         "z" : -3.72850
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Wall 05",
+         "scaling" : 1.0,
+         "x" : 0.07380,
+         "y" : 0.0,
+         "z" : -3.8810
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 2.40190,
+         "y" : 0.0,
+         "z" : 0.72820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 2.38770,
+         "y" : 0.0,
+         "z" : -0.44190
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : -2.23340,
+         "y" : 0.0,
+         "z" : -0.41520
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : -2.2210,
+         "y" : 0.0,
+         "z" : 0.74690
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.34980,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.850,
+            "col_red" : 1.750,
+            "radius0" : 0.650,
+            "radius1" : 1.10
+         },
+         "scaling" : 1.0,
+         "x" : -2.25860,
+         "y" : 0.34980,
+         "z" : 0.14920
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.34980,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.850,
+            "col_red" : 1.750,
+            "radius0" : 0.650,
+            "radius1" : 1.10
+         },
+         "scaling" : 1.0,
+         "x" : 2.4190,
+         "y" : 0.34980,
+         "z" : 0.1720
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00760,
+         "name" : "Graveyard Fence 01",
+         "scaling" : 2.490,
+         "x" : 0.04990,
+         "y" : -0.00760,
+         "z" : -2.6460
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.42840,
+         "x" : 2.83550,
+         "y" : 0.0,
+         "z" : 0.69470
+      },
+      {
+         "heading" : -1.85590,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.42840,
+         "x" : 2.76580,
+         "y" : 0.0,
+         "z" : -0.8764999999999999
+      },
+      {
+         "heading" : -1.1810,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.42840,
+         "x" : 2.59460,
+         "y" : 0.0,
+         "z" : -1.65260
+      },
+      {
+         "heading" : -1.1810,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : 1.98560,
+         "y" : 0.0,
+         "z" : -2.25770
+      },
+      {
+         "heading" : -3.62450,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.15750,
+         "x" : 1.20880,
+         "y" : 0.0,
+         "z" : -2.61990
+      },
+      {
+         "heading" : -4.07240,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : -0.5921999999999999,
+         "y" : 0.0,
+         "z" : -2.99660
+      },
+      {
+         "heading" : -7.54560,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.12160,
+         "x" : 0.71550,
+         "y" : 0.0,
+         "z" : -2.8190
+      },
+      {
+         "heading" : -3.71760,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.53250,
+         "x" : 0.46160,
+         "y" : 0.0,
+         "z" : -3.62230
+      },
+      {
+         "heading" : -2.07690,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : -1.35240,
+         "y" : 0.0,
+         "z" : -2.82060
+      },
+      {
+         "heading" : 0.51780,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.42840,
+         "x" : -1.720,
+         "y" : 0.0,
+         "z" : -2.15760
+      },
+      {
+         "heading" : 0.93670,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.42840,
+         "x" : -2.46660,
+         "y" : 0.0,
+         "z" : -1.54840
+      },
+      {
+         "heading" : 1.15770,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : -2.83890,
+         "y" : 0.0,
+         "z" : -0.53520
+      },
+      {
+         "heading" : 2.39690,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : -2.7080,
+         "y" : 0.0,
+         "z" : 0.83910
+      },
+      {
+         "heading" : 1.8210,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : -2.22250,
+         "y" : 0.0,
+         "z" : 1.5710
+      },
+      {
+         "heading" : -0.59920,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.42840,
+         "x" : -1.5520,
+         "y" : 0.0,
+         "z" : 2.34040
+      },
+      {
+         "heading" : 2.19330,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.42840,
+         "x" : -1.26740,
+         "y" : 0.0,
+         "z" : 3.23230
+      },
+      {
+         "heading" : 3.11830,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.42840,
+         "x" : -0.44510,
+         "y" : 0.0,
+         "z" : 2.95280
+      },
+      {
+         "heading" : 4.07820,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.14040,
+         "x" : -0.98130,
+         "y" : 0.0,
+         "z" : 2.64970
+      },
+      {
+         "heading" : 1.18680,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.42840,
+         "x" : 2.41890,
+         "y" : 0.0,
+         "z" : 1.50940
+      },
+      {
+         "heading" : -1.19850,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.42840,
+         "x" : 1.85720,
+         "y" : 0.0,
+         "z" : 2.14490
+      },
+      {
+         "heading" : -1.46610,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : 0.96730,
+         "y" : 0.0,
+         "z" : 2.69260
+      },
+      {
+         "heading" : -0.640,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.05890,
+         "x" : 1.41740,
+         "y" : 0.0,
+         "z" : 2.66890
+      },
+      {
+         "heading" : -0.18620,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.19030,
+         "x" : 1.70890,
+         "y" : 0.0,
+         "z" : 3.41040
+      },
+      {
+         "heading" : -0.40720,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.19030,
+         "x" : 0.61490,
+         "y" : 0.0,
+         "z" : 3.54910
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "mirefolk",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Jungle Shrine 03",
+         "scaling" : 1.0,
+         "x" : 0.69640,
+         "y" : 0.0,
+         "z" : -0.02350
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "mirefolk",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Jungle Shrine 03",
+         "scaling" : 1.0,
+         "x" : 0.48070,
+         "y" : 0.0,
+         "z" : 0.69730
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "mirefolk",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Jungle Shrine 03",
+         "scaling" : 1.0,
+         "x" : -0.39010,
+         "y" : 0.0,
+         "z" : 0.69730
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "mirefolk",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Jungle Shrine 03",
+         "scaling" : 1.0,
+         "x" : -0.65650,
+         "y" : 0.0,
+         "z" : -0.09250
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.17290,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.40,
+            "col_green" : 0.750,
+            "col_red" : 1.60,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.90190,
+         "y" : 0.17290,
+         "z" : -0.89710
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.17290,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.40,
+            "col_green" : 0.750,
+            "col_red" : 1.60,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -0.82050,
+         "y" : 0.17290,
+         "z" : -0.92220
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "mirefolk",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Jungle Shrine 04",
+         "scaling" : 1.0,
+         "x" : 0.02650,
+         "y" : 0.0,
+         "z" : -0.63880
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0120,
+         "name" : "blocker",
+         "scaling" : 1.99240,
+         "x" : 2.68510,
+         "y" : 0.0120,
+         "z" : 0.18350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0120,
+         "name" : "blocker",
+         "scaling" : 1.99240,
+         "x" : -2.51410,
+         "y" : 0.0120,
+         "z" : 0.19140
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0120,
+         "name" : "blocker",
+         "scaling" : 1.99240,
+         "x" : 0.0780,
+         "y" : 0.0120,
+         "z" : 2.83320
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0120,
+         "name" : "blocker",
+         "scaling" : 1.99240,
+         "x" : 0.08050,
+         "y" : 0.0120,
+         "z" : -2.42260
+      },
+      {
+         "heading" : -0.55850,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : -0.28060,
+         "y" : 0.0,
+         "z" : 2.79690
+      },
+      {
+         "heading" : -1.61150,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : -0.61860,
+         "y" : 0.0,
+         "z" : 2.79110
+      },
+      {
+         "heading" : -1.61150,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : -0.76450,
+         "y" : 0.0,
+         "z" : 2.6070
+      },
+      {
+         "heading" : -1.61150,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : -1.56880,
+         "y" : 0.0,
+         "z" : 2.19530
+      },
+      {
+         "heading" : -1.61150,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : -2.33790,
+         "y" : 0.0,
+         "z" : 1.02050
+      },
+      {
+         "heading" : -1.61150,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : -2.48230,
+         "y" : 0.0,
+         "z" : -0.37440
+      },
+      {
+         "heading" : -1.61150,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : -1.65590,
+         "y" : 0.0,
+         "z" : -1.92830
+      },
+      {
+         "heading" : -1.15770,
+         "name" : "Bamboo 2",
+         "scaling" : 1.8050,
+         "x" : -1.21310,
+         "y" : 0.0,
+         "z" : -2.07890
+      },
+      {
+         "heading" : -2.77510,
+         "name" : "Bamboo 2",
+         "scaling" : 1.8050,
+         "x" : -0.56440,
+         "y" : 0.0,
+         "z" : -2.34820
+      },
+      {
+         "heading" : -2.77510,
+         "name" : "Bamboo 2",
+         "scaling" : 1.8050,
+         "x" : 0.94380,
+         "y" : 0.0,
+         "z" : -2.47180
+      },
+      {
+         "heading" : -2.77510,
+         "name" : "Bamboo 3",
+         "scaling" : 1.8050,
+         "x" : 1.31830,
+         "y" : 0.0,
+         "z" : -2.35340
+      },
+      {
+         "heading" : -1.36140,
+         "name" : "Bamboo 3",
+         "scaling" : 1.8050,
+         "x" : 2.4450,
+         "y" : 0.0,
+         "z" : -1.02780
+      },
+      {
+         "heading" : -1.36140,
+         "name" : "Bamboo 3",
+         "scaling" : 1.8050,
+         "x" : 1.21510,
+         "y" : 0.0,
+         "z" : 2.48320
+      },
+      {
+         "heading" : 0.01750,
+         "name" : "Bamboo 3",
+         "scaling" : 1.70430,
+         "x" : 0.80230,
+         "y" : 0.0,
+         "z" : 2.69120
+      },
+      {
+         "heading" : -0.89010,
+         "name" : "Bamboo 3",
+         "scaling" : 1.70430,
+         "x" : 0.39110,
+         "y" : 0.0,
+         "z" : 2.75880
+      },
+      {
+         "heading" : -1.36140,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : 2.49770,
+         "y" : 0.0,
+         "z" : 1.03610
+      },
+      {
+         "heading" : -2.62960,
+         "name" : "Bamboo 2",
+         "scaling" : 1.8050,
+         "x" : 2.04060,
+         "y" : 0.0,
+         "z" : 1.8930
+      },
+      {
+         "heading" : 0.61090,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.42840,
+         "x" : 2.61640,
+         "y" : 0.0,
+         "z" : 2.34990
+      },
+      {
+         "heading" : 0.82030,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.42840,
+         "x" : 2.22220,
+         "y" : 0.0,
+         "z" : 3.01940
+      },
+      {
+         "heading" : -0.27340,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : 3.35030,
+         "y" : 0.0,
+         "z" : 1.54680
+      },
+      {
+         "heading" : -0.49450,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : 3.50730,
+         "y" : 0.0,
+         "z" : 0.52250
+      },
+      {
+         "heading" : 2.38530,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.42840,
+         "x" : -2.28390,
+         "y" : 0.0,
+         "z" : 2.96370
+      },
+      {
+         "heading" : 3.00780,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.42840,
+         "x" : -2.80920,
+         "y" : 0.0,
+         "z" : 2.0520
+      },
+      {
+         "heading" : 4.28770,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : -3.53530,
+         "y" : 0.0,
+         "z" : 1.36050
+      },
+      {
+         "heading" : 2.47260,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : -3.3880,
+         "y" : 0.0,
+         "z" : 0.54040
+      },
+      {
+         "heading" : 2.71690,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : -3.32430,
+         "y" : 0.0,
+         "z" : -1.23890
+      },
+      {
+         "heading" : 1.13450,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : -2.55350,
+         "y" : 0.0,
+         "z" : -2.41550
+      },
+      {
+         "heading" : 3.48480,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.42840,
+         "x" : -1.06290,
+         "y" : 0.0,
+         "z" : -3.68730
+      },
+      {
+         "heading" : -5.35810,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : 1.63860,
+         "y" : 0.0,
+         "z" : -3.37540
+      },
+      {
+         "heading" : 1.1810,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.42840,
+         "x" : 3.53250,
+         "y" : 0.0,
+         "z" : -1.12760
+      },
+      {
+         "heading" : -0.48290,
+         "name" : "Bamboo 2",
+         "scaling" : 1.39520,
+         "x" : 0.40320,
+         "y" : 0.0,
+         "z" : -2.44960
+      },
+      {
+         "heading" : -0.40140,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : -2.23280,
+         "y" : 0.0,
+         "z" : -1.07570
+      },
+      {
+         "heading" : -1.26250,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 0.75440,
+         "x" : 0.58430,
+         "y" : 0.0,
+         "z" : 0.56250
+      },
+      {
+         "heading" : -1.47190,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.0,
+         "x" : 0.58970,
+         "y" : 0.0,
+         "z" : -0.16870
+      },
+      {
+         "heading" : -1.47190,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.0,
+         "x" : -0.44340,
+         "y" : 0.0,
+         "z" : 0.52140
+      },
+      {
+         "heading" : -2.47250,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 0.7697000000000001,
+         "x" : -0.29290,
+         "y" : 0.0,
+         "z" : 0.7927999999999999
+      },
+      {
+         "heading" : -2.47250,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 0.7750,
+         "x" : -0.64020,
+         "y" : 0.0,
+         "z" : -0.27160
+      },
+      {
+         "heading" : -3.35680,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : -0.53080,
+         "y" : 0.0,
+         "z" : -0.02920
+      },
+      {
+         "heading" : -3.35680,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : -0.88980,
+         "y" : 0.0,
+         "z" : 0.73120
+      },
+      {
+         "heading" : -3.35680,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : 0.61860,
+         "y" : 0.0,
+         "z" : 0.72150
+      },
+      {
+         "heading" : -4.00840,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : 1.06850,
+         "y" : 0.0,
+         "z" : 0.35770
+      },
+      {
+         "heading" : -4.00840,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : 0.8360,
+         "y" : 0.0,
+         "z" : -1.02720
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : 1.0070,
+         "y" : 0.0,
+         "z" : -0.8715000000000001
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : 0.14310,
+         "y" : 0.0,
+         "z" : -0.67160
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 1.0,
+         "x" : -0.70730,
+         "y" : 0.0,
+         "z" : -0.950
+      },
+      {
+         "heading" : -2.80420,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 1.0,
+         "x" : -1.48130,
+         "y" : 0.0,
+         "z" : -0.86380
+      },
+      {
+         "heading" : -2.80420,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 1.0,
+         "x" : -2.24720,
+         "y" : 0.0,
+         "z" : -0.28690
+      },
+      {
+         "heading" : -1.58830,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.0,
+         "x" : 1.01290,
+         "y" : 0.0,
+         "z" : 0.77030
+      },
+      {
+         "heading" : -1.58830,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : 0.39550,
+         "y" : 0.0,
+         "z" : 1.1990
+      },
+      {
+         "heading" : -0.18040,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : -0.95320,
+         "y" : 0.0,
+         "z" : 1.6150
+      },
+      {
+         "heading" : -0.18040,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : -0.61690,
+         "y" : 0.0,
+         "z" : 2.42660
+      },
+      {
+         "heading" : -1.07630,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 0.70580,
+         "x" : -0.51050,
+         "y" : 0.0,
+         "z" : 2.47540
+      },
+      {
+         "heading" : -1.07630,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 0.70580,
+         "x" : 0.23120,
+         "y" : 0.0,
+         "z" : 2.78980
+      },
+      {
+         "heading" : -0.76210,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.1770,
+         "x" : -0.06440,
+         "y" : 0.0,
+         "z" : 3.32320
+      },
+      {
+         "heading" : -0.18040,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.14150,
+         "x" : 1.05380,
+         "y" : 0.0,
+         "z" : 2.3530
+      },
+      {
+         "heading" : -0.99480,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.14150,
+         "x" : 1.13370,
+         "y" : 0.0,
+         "z" : 1.52250
+      },
+      {
+         "heading" : -1.92570,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 0.81870,
+         "x" : 1.45060,
+         "y" : 0.0,
+         "z" : 1.12710
+      },
+      {
+         "heading" : -1.00650,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 0.81870,
+         "x" : 1.52490,
+         "y" : 0.0,
+         "z" : -0.88250
+      },
+      {
+         "heading" : -0.23850,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : -1.6480,
+         "y" : 0.0,
+         "z" : 1.83610
+      },
+      {
+         "heading" : -2.76340,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : -1.85240,
+         "y" : 0.0,
+         "z" : 1.84270
+      },
+      {
+         "heading" : -1.61150,
+         "name" : "Bamboo 1",
+         "scaling" : 1.8050,
+         "x" : -1.32220,
+         "y" : 0.0,
+         "z" : 2.48230
+      },
+      {
+         "heading" : -3.39760,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : -1.62790,
+         "y" : 0.0,
+         "z" : 0.29360
+      },
+      {
+         "heading" : -2.06530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 06",
+         "scaling" : 1.0,
+         "x" : 0.10670,
+         "y" : 0.0,
+         "z" : -0.66040
+      },
+      {
+         "heading" : -2.06530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 05",
+         "scaling" : 1.0,
+         "x" : 0.60650,
+         "y" : 0.0,
+         "z" : -0.19560
+      },
+      {
+         "heading" : -2.06530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 05",
+         "scaling" : 0.7455000000000001,
+         "x" : 0.58020,
+         "y" : 0.0,
+         "z" : 0.58980
+      },
+      {
+         "heading" : -2.06530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 05",
+         "scaling" : 0.69960,
+         "x" : 1.01480,
+         "y" : 0.0,
+         "z" : 0.74250
+      },
+      {
+         "heading" : -2.06530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 05",
+         "scaling" : 0.7455000000000001,
+         "x" : 1.0690,
+         "y" : 0.0,
+         "z" : 0.35870
+      },
+      {
+         "heading" : -2.06530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 05",
+         "scaling" : 0.7455000000000001,
+         "x" : 0.8342000000000001,
+         "y" : 0.0,
+         "z" : -1.02280
+      },
+      {
+         "heading" : -2.06530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 05",
+         "scaling" : 0.7455000000000001,
+         "x" : 0.99310,
+         "y" : 0.0,
+         "z" : -0.86650
+      },
+      {
+         "heading" : -2.06530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 05",
+         "scaling" : 0.7455000000000001,
+         "x" : -0.53930,
+         "y" : 0.0,
+         "z" : -0.07199999999999999
+      },
+      {
+         "heading" : -2.06530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 06",
+         "scaling" : 0.7455000000000001,
+         "x" : -0.63380,
+         "y" : 0.0,
+         "z" : -0.27270
+      },
+      {
+         "heading" : -2.06530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 06",
+         "scaling" : 0.7455000000000001,
+         "x" : -0.70540,
+         "y" : 0.0,
+         "z" : -0.92850
+      },
+      {
+         "heading" : -1.86750,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.7455000000000001,
+         "x" : -1.57940,
+         "y" : 0.0,
+         "z" : 0.26660
+      },
+      {
+         "heading" : -4.88690,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.8564000000000001,
+         "x" : -1.12470,
+         "y" : 0.0,
+         "z" : 0.65360
+      },
+      {
+         "heading" : -4.42730,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.8564000000000001,
+         "x" : 0.37650,
+         "y" : 0.0,
+         "z" : 0.62120
+      },
+      {
+         "heading" : -4.42730,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : 0.32410,
+         "y" : 0.0,
+         "z" : 1.17380
+      },
+      {
+         "heading" : -4.87530,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.8564000000000001,
+         "x" : 0.27180,
+         "y" : 0.0,
+         "z" : 2.39020
+      },
+      {
+         "heading" : -3.05430,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.8564000000000001,
+         "x" : -0.1760,
+         "y" : 0.0,
+         "z" : 2.52550
+      },
+      {
+         "heading" : -3.05430,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 06",
+         "scaling" : 0.8564000000000001,
+         "x" : -0.54840,
+         "y" : 0.0,
+         "z" : 2.44390
+      },
+      {
+         "heading" : -1.03560,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.8564000000000001,
+         "x" : -2.17660,
+         "y" : 0.0,
+         "z" : -0.28680
+      },
+      {
+         "heading" : 1.02970,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 03",
+         "scaling" : 0.8564000000000001,
+         "x" : -1.58010,
+         "y" : 0.0,
+         "z" : -0.8310999999999999
+      },
+      {
+         "heading" : 1.01230,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.8564000000000001,
+         "x" : -0.29060,
+         "y" : 0.0,
+         "z" : -0.43910
+      },
+      {
+         "heading" : -1.05880,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.8564000000000001,
+         "x" : -0.20250,
+         "y" : 0.0,
+         "z" : -0.91290
+      },
+      {
+         "heading" : 1.15190,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.8564000000000001,
+         "x" : 0.25940,
+         "y" : 0.0,
+         "z" : -0.99460
+      },
+      {
+         "heading" : 0.7504999999999999,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.6536999999999999,
+         "x" : 0.3080,
+         "y" : 0.0,
+         "z" : -0.56390
+      },
+      {
+         "heading" : 1.6290,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 03",
+         "scaling" : 0.62870,
+         "x" : 0.30050,
+         "y" : 0.0,
+         "z" : -0.75330
+      },
+      {
+         "heading" : -0.58760,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.8564000000000001,
+         "x" : 1.22170,
+         "y" : 0.0,
+         "z" : -0.24320
+      },
+      {
+         "heading" : 0.22110,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.8564000000000001,
+         "x" : 0.98580,
+         "y" : 0.0,
+         "z" : -0.26330
+      },
+      {
+         "heading" : 1.11120,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.8564000000000001,
+         "x" : 1.59290,
+         "y" : 0.0,
+         "z" : -0.22880
+      },
+      {
+         "heading" : 1.60570,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.8564000000000001,
+         "x" : 1.68350,
+         "y" : 0.0,
+         "z" : 0.31020
+      },
+      {
+         "heading" : -1.08790,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.7141999999999999,
+         "x" : 2.25180,
+         "y" : 0.0,
+         "z" : -0.19710
+      },
+      {
+         "heading" : -0.1920,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.58760,
+         "x" : 2.12460,
+         "y" : 0.0,
+         "z" : -0.11080
+      },
+      {
+         "heading" : 0.00580,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.60110,
+         "x" : 2.00230,
+         "y" : 0.0,
+         "z" : -0.11140
+      },
+      {
+         "heading" : -0.15130,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 06",
+         "scaling" : 0.65610,
+         "x" : 2.09940,
+         "y" : 0.0,
+         "z" : -0.23210
+      },
+      {
+         "heading" : -0.15130,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 06",
+         "scaling" : 0.8564000000000001,
+         "x" : 2.16130,
+         "y" : 0.0,
+         "z" : -0.41520
+      },
+      {
+         "heading" : -0.15130,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 06",
+         "scaling" : 0.8564000000000001,
+         "x" : 2.40040,
+         "y" : 0.0,
+         "z" : 0.72240
+      },
+      {
+         "heading" : 1.40790,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.8564000000000001,
+         "x" : 2.31720,
+         "y" : 0.0,
+         "z" : 0.9752999999999999
+      },
+      {
+         "heading" : 3.71170,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.8564000000000001,
+         "x" : 1.15520,
+         "y" : 0.0,
+         "z" : 1.47270
+      },
+      {
+         "heading" : -2.75760,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 03",
+         "scaling" : 0.5770999999999999,
+         "x" : -0.27250,
+         "y" : 0.0,
+         "z" : 1.15620
+      },
+      {
+         "heading" : -3.72920,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.58630,
+         "x" : 1.48310,
+         "y" : 0.0,
+         "z" : -0.92730
+      },
+      {
+         "heading" : -1.70460,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.51780,
+         "x" : -0.12510,
+         "y" : 0.0,
+         "z" : -1.53050
+      },
+      {
+         "heading" : 0.8260999999999999,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.51780,
+         "x" : 0.23760,
+         "y" : 0.0,
+         "z" : -1.49640
+      },
+      {
+         "heading" : -4.67750,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.53250,
+         "x" : 0.31620,
+         "y" : 0.0,
+         "z" : 1.31690
+      },
+      {
+         "heading" : -1.07630,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.53250,
+         "x" : -0.22180,
+         "y" : 0.0,
+         "z" : 1.35180
+      },
+      {
+         "heading" : -1.85590,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.53250,
+         "x" : -0.10290,
+         "y" : 0.0,
+         "z" : 1.8710
+      },
+      {
+         "heading" : -4.660,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.53250,
+         "x" : 0.24940,
+         "y" : 0.0,
+         "z" : 1.88490
+      },
+      {
+         "heading" : -3.86880,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.53250,
+         "x" : 0.23390,
+         "y" : 0.0,
+         "z" : 2.62110
+      },
+      {
+         "heading" : -2.09440,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.53250,
+         "x" : -0.09350,
+         "y" : 0.0,
+         "z" : 2.65360
+      },
+      {
+         "heading" : -3.98520,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 06",
+         "scaling" : 0.53250,
+         "x" : 0.69030,
+         "y" : 0.0,
+         "z" : 2.4860
+      },
+      {
+         "heading" : -3.14160,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 0.79430,
+         "x" : 0.70260,
+         "y" : 0.0,
+         "z" : -1.48890
+      },
+      {
+         "heading" : -6.96970,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.0,
+         "x" : -0.05870,
+         "y" : 0.0,
+         "z" : -0.5490
+      },
+      {
+         "heading" : 3.29280,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.62870,
+         "x" : 0.67580,
+         "y" : 0.0,
+         "z" : -0.86270
+      },
+      {
+         "heading" : 3.29280,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.62870,
+         "x" : 0.5518999999999999,
+         "y" : 0.0,
+         "z" : -1.15620
+      },
+      {
+         "heading" : 6.76020,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.62870,
+         "x" : -0.46930,
+         "y" : 0.0,
+         "z" : -0.93360
+      },
+      {
+         "heading" : 3.69430,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.62870,
+         "x" : -0.5538999999999999,
+         "y" : 0.0,
+         "z" : -0.65520
+      },
+      {
+         "heading" : 2.77510,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 06",
+         "scaling" : 0.47160,
+         "x" : -0.44550,
+         "y" : 0.0,
+         "z" : 0.50880
+      },
+      {
+         "heading" : 2.77510,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.47160,
+         "x" : -1.07430,
+         "y" : 0.0,
+         "z" : 0.34250
+      },
+      {
+         "heading" : 4.42150,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.47160,
+         "x" : -1.32160,
+         "y" : 0.0,
+         "z" : -0.8970
+      },
+      {
+         "heading" : 7.6620,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.47160,
+         "x" : -0.99920,
+         "y" : 0.0,
+         "z" : -1.18330
+      },
+      {
+         "heading" : 4.660,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 04",
+         "scaling" : 0.47160,
+         "x" : 1.11560,
+         "y" : 0.0,
+         "z" : -1.18390
+      },
+      {
+         "heading" : -4.66580,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : 0.16350,
+         "y" : 0.0,
+         "z" : 0.35110
+      },
+      {
+         "heading" : -0.94830,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : -0.120,
+         "y" : 0.0,
+         "z" : 0.36580
+      },
+      {
+         "heading" : -3.6710,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : -0.24170,
+         "y" : 0.0,
+         "z" : 0.14390
+      },
+      {
+         "heading" : -4.89850,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : -0.56610,
+         "y" : 0.0,
+         "z" : 0.33750
+      },
+      {
+         "heading" : -5.81770,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : 0.71790,
+         "y" : 0.0,
+         "z" : 0.39040
+      },
+      {
+         "heading" : 2.47830,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.50520,
+         "x" : 2.52380,
+         "y" : 0.0,
+         "z" : 0.33970
+      },
+      {
+         "heading" : 1.62310,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.50520,
+         "x" : 2.35550,
+         "y" : 0.0,
+         "z" : -0.4390
+      },
+      {
+         "heading" : -4.42730,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : 0.23090,
+         "y" : 0.0,
+         "z" : 0.95020
+      },
+      {
+         "heading" : -2.19330,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : -0.11570,
+         "y" : 0.0,
+         "z" : 1.7310
+      },
+      {
+         "heading" : -1.66390,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : -0.13430,
+         "y" : 0.0,
+         "z" : 1.58590
+      },
+      {
+         "heading" : -2.54240,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : -0.18120,
+         "y" : 0.0,
+         "z" : 1.46850
+      },
+      {
+         "heading" : -4.82870,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : 0.20830,
+         "y" : 0.0,
+         "z" : 1.75570
+      },
+      {
+         "heading" : -4.00840,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : 0.2070,
+         "y" : 0.0,
+         "z" : 1.55240
+      },
+      {
+         "heading" : -3.70590,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : 0.30340,
+         "y" : 0.0,
+         "z" : 1.41330
+      },
+      {
+         "heading" : -1.98390,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.59590,
+         "x" : -0.09010,
+         "y" : 0.0,
+         "z" : 2.30990
+      },
+      {
+         "heading" : -4.28190,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.54870,
+         "x" : -0.93420,
+         "y" : 0.0,
+         "z" : 1.50940
+      },
+      {
+         "heading" : -1.37880,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 07",
+         "scaling" : 0.54870,
+         "x" : -1.3110,
+         "y" : 0.0,
+         "z" : 1.12080
+      },
+      {
+         "heading" : -4.66580,
+         "height" : 0.010,
+         "name" : "Jungle Grass Decal 01",
+         "scaling" : 0.47930,
+         "x" : -0.29270,
+         "y" : 0.0,
+         "z" : 0.80180
+      },
+      {
+         "heading" : -2.47250,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 0.7697000000000001,
+         "x" : -0.3020,
+         "y" : 0.0,
+         "z" : 1.19750
+      },
+      {
+         "heading" : 1.91990,
+         "name" : "Bamboo Fence 01",
+         "scaling" : 1.47210,
+         "x" : -2.24790,
+         "y" : 0.0,
+         "z" : -0.65710
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "set_fire_west",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "Burning Object",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.39570,
+         "y" : 0.0,
+         "z" : 0.23840
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "set_fire_north",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "Burning Object",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.18660,
+         "y" : 0.0,
+         "z" : 2.57630
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "set_fire_east",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "Burning Object",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.2360,
+         "y" : 0.0,
+         "z" : 0.14640
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : [
+      {
+         "name" : "Spawn Point 0",
+         "x" : 0.07110,
+         "y" : 0.0,
+         "z" : 2.5610
+      },
+      {
+         "name" : "Spawn Point 1",
+         "x" : -2.1660,
+         "y" : 0.0,
+         "z" : 0.22140
+      },
+      {
+         "name" : "Spawn Point 2",
+         "x" : 2.29020,
+         "y" : 0.0,
+         "z" : 0.24930
+      }
+   ],
+   "startPosition" : [ 0.0570, -1.38790 ],
+   "tint" : [ 16, 32, 64, 21 ],
+   "title" : "",
+   "weather" : null
+}

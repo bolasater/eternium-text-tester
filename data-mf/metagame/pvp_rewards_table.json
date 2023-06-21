@@ -1,0 +1,65 @@
+{ 
+	"RewardTypes":[
+		{
+			"Id" : "Glory",
+			"Type" : "Currency",
+			"Params":{
+				"range":[3,7]
+			}
+		},
+		{
+			"Id" : "Gold",
+			"Type" : "Currency",
+			"Params":{
+				"range":[1000,2000]
+			}
+		},
+		{
+			"Id" : "Cosmetic",
+			"Type" : "Currency",
+			"Params":{
+				"range":[5,10]
+			}
+		},
+		{
+			"Id" : "Gemstone",
+			"Type" : "Item",
+			"Params":{
+				"levelChance":[5,7,6,4,1,0.5]
+			}	
+		},
+		{
+			"Id" : "Gear",
+			"Type" : "Item",
+			"Params":{
+				"Set" : 0.05,
+				"Common": 0, 
+				"Uncommon": 0.6, 
+				"Rare": 0.34,
+				"Epic": 0.05, 
+				"Legendary": 0.01
+			}	
+		}
+	],
+	
+	"Boxes":{
+		"Easy":[
+			[{"Id":"Gold"}],
+			[{"Id":"Gemstone"}],
+			[{"Id":"Gear", "Chance":0.5}, {"Id":"Gold", "Chance":0.25}, {"Id":"Gemstone", "Chance":0.25}]
+		],
+		"Medium":[
+			[{"Id":"Gemstone"}],
+			[{"Id":"Gold"}],
+			[{"Id":"Gear","Chance":0.94},{"Id":"Glory","Chance":0.01},{"Id":"Cosmetic","Chance":0.05}],
+			[{"Id":"Gemstone"}]
+		],
+		"Hard":[
+			[{"Id":"Gemstone"}],
+			[{"Id":"Gemstone"}],
+			[{"Id":"Gold"}],
+			[{"Id":"Gear","Chance":0.93},{"Id":"Glory","Chance":0.02},{"Id":"Cosmetic","Chance":0.05}],
+			[{"Id":"Gemstone","Chance":0.97},{"Id":"Glory","Chance":0.01},{"Id":"Cosmetic","Chance":0.02}]			
+		]
+	}
+}

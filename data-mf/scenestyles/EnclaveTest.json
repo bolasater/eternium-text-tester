@@ -1,0 +1,24 @@
+{
+	"baseTerrain" : "Autumn Grass 01",
+	"height" : 0.02,
+
+	"portal" : {
+		"width" : 0.4,
+		"slope" : 0.15,
+		"curvature" : 1,
+		"chamfer" : 0
+	},
+	
+	"tools" : [
+		{
+			"tool":"wall",
+			"wallProp" : [
+				"Fence 01"
+				
+			],
+			"offset" : -0.05,
+			"propScaling" : 1.0,
+			"overlap" : 0
+		}
+	]
+}

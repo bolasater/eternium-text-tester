@@ -1,0 +1,201 @@
+[
+	{
+		"id":"greater_essence",
+		"category":"combine",
+		"name":"Essence",
+		
+		"output":{
+			"type":"transmutation",
+
+			"output":{
+				"reagentType":"greater_essence",
+				"reagentSubtype":"any"
+			},
+			"outputAmount":1,
+
+			"input":{
+				"reagentType":"greater_essence",
+				"reagentSubtype":"any"
+			},
+			"inputAmount":2,
+
+			"allowSame":false
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":10000
+			}
+		]
+	}
+	,
+	{
+		"id":"shatter_greater_essence",
+		"category":"shatter",
+		"name":"Greater Essence",
+
+		"output":{
+			"type":"transmutation",
+
+			"output":{
+				"reagentType":"essence",
+				"reagentSubtype":"any"
+			},
+			"outputAmount":10,
+
+			"input":{
+				"reagentType":"greater_essence",
+				"reagentSubtype":"any"
+			},
+			"inputAmount":1,
+
+			"requireSame":true
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1000
+			}
+		]
+	}
+	,
+	{
+		"id":"shatter_essence",
+		"category":"shatter",
+		"name":"Essence",
+
+		"output":{
+			"type":"transmutation",
+
+			"output":{
+				"reagentType":"lesser_essence",
+				"reagentSubtype":"any"
+			},
+			"outputAmount":10,
+
+			"input":{
+				"reagentType":"essence",
+				"reagentSubtype":"any"
+			},
+			"inputAmount":1,
+
+			"requireSame":true
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":500
+			}
+		]
+	}	
+	,	
+	{
+		"id":"gemstone",
+		"category":"combine",
+		"name":"Gemstone",
+
+		"output":{
+			"type":"transmutation",
+
+			"output":{
+				"gemstoneType":"any",
+				"gemstoneMinTier":6,
+				"gemstoneMaxTier":6
+			},
+			"outputAmount":1,
+
+			"input":{
+				"gemstoneType":"any",
+				"gemstoneMinTier":6,
+				"gemstoneMaxTier":6
+			},
+
+			"inputAmount":2,
+			"allowSame":false
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":30000
+			}
+		]
+	}
+	,
+	{
+		"id":"gemstone_brilliant",
+		"category":"shatter",
+		"name":"Brilliant",
+
+		"output":{
+			"type":"transmutation",
+
+			"output":{
+				"gemstoneType":"any",
+				"gemstoneMinTier":5,
+				"gemstoneMaxTier":5
+			},
+
+			"outputAmount":3,
+
+			"input":{
+				"gemstoneType":"any",
+				"gemstoneMaxTier":6,
+				"gemstoneMinTier":6
+			},
+			"inputAmount":1,
+
+			"requireSame":true
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":5000
+			}
+		]
+	}
+	,
+	{
+		"id":"gemstone_trillion",
+		"category":"shatter",
+		"name":"Trillion",
+
+		"output":{
+			"type":"transmutation",
+
+			"output":{
+				"gemstoneType":"any",
+				"gemstoneMinTier":4,
+				"gemstoneMaxTier":4
+			},
+
+			"outputAmount":3,
+
+			"input":{
+				"gemstoneType":"any",
+				"gemstoneMaxTier":5,
+				"gemstoneMinTier":5
+			},
+			"inputAmount":1,
+
+			"requireSame":true
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1000
+			}
+		]
+	}				
+]

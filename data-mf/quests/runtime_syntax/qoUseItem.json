@@ -1,0 +1,6 @@
+{
+   "item" : {
+      "mandatory" : true,
+      "type" : "string"
+   }
+}

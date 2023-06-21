@@ -1,0 +1,111 @@
+{
+	"title":"Ironbound",
+	"id":"ironbound_xpromo",
+	"description":"Play Ironbound - the turn-based multiplayer strategy game - where you use your wits to prevail in fast-paced duel matches. The game is published by Making Fun and developed by an indie game studio that happens to share office space with Eternium developers.\n\nInstall the game following the link below and use your Eternium account to log in.",
+	"loc_event_desc_id":"ironbound_xpromo_desc",
+	"icon":"ironbound",
+	"start_date":"0",
+	"end_date":  "1209600000",
+	"version" : 1,
+
+	"minLevelRequired": 10,
+
+	"rules":{
+	},
+
+	"milestones":[
+		{
+			"description":"Install and Log into Ironbound using your Eternium account",
+			"rewards":[
+				{
+					"meta_item":"gemstone_selection",
+					"quantity":1
+				}
+			],
+			"rule":{
+				"type":"ironbound_login",
+				"link":"steam://rungameid/643980"
+			}
+		}
+		,		
+		{
+			"description":"Play Tutorial in Ironbound",
+			"rewards":[
+				{
+					"meta_item":"xp_booster_200",
+					"quantity":1
+				}
+			],
+			"rule":{
+				"type":"ironbound_tutorial"
+			}
+		}
+		,		
+		{
+			"description":"Defeat the Hard AI in Ironbound practice mode",
+			"rewards":[
+				{
+					"meta_item":"xp_booster_200",
+					"quantity":1
+				}
+				,
+				{
+					"meta_item":"currency_booster_200",
+					"quantity":1
+				}
+			],
+			"rule":{
+				"type":"ironbound_practice",
+				"value":1
+			}
+		}
+		,		
+		{
+			"description":"Win 5 Irounbound ranked games",
+			"rewards":[
+				{
+					"meta_item":"random_set_item",
+					"quantity":1
+				}
+			],
+			"rule":{
+				"type":"ironbound_wins",
+				"mode":"ranked",
+				"value":5
+			}
+		}		
+		,		
+		{
+			"description":"Reach 150 rating on Ironbound leaderboars",
+			"rewards":[
+				{
+					"meta_item":"custom_jewelry",
+					"quantity":3
+				}
+			],
+			"rule":{
+				"type":"ironbound_rating",
+				"value":150
+			}
+		}
+		,		
+		{
+			"description":"Reach 200 rating on Ironbound leaderboars",
+			"rewards":[
+				{
+					"meta_item":"custom_legendary",
+					"quantity":1
+				}
+				,
+				{
+					"meta_item":"ironbound_cape",
+					"quantity":1
+				}
+			],
+			"rule":{
+				"type":"ironbound_rating",
+				"value":200
+			}
+		}								
+	]	
+}

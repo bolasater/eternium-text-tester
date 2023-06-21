@@ -1,0 +1,107 @@
+{
+    "desc": {
+        "mandatory": true,
+        "type": "string"
+    },
+    "fire_go_event": {
+        "mandatory": false,
+        "type": "string"
+    },
+    "icon": {
+        "mandatory": false,
+        "type": "string"
+    },
+    "location": {
+        "mandatory": false,
+        "type": "string"
+    },
+    "milestone": {
+        "mandatory": false,
+        "type": "flag"
+    },
+    "npc": {
+        "mandatory": false,
+        "type": "string"
+    },
+    "obj_id": {
+        "mandatory": true,
+        "type": "string"
+    },
+    "optional": {
+        "mandatory": false,
+        "type": "flag"
+    },
+    "permahint": {
+        "mandatory": false,
+        "type": "flag"
+    },
+    "point_to": {
+        "mandatory": false,
+        "type": [
+            "AbilityAndUpgradeSlot",
+            "BestItemToSell",
+            "ClosestEnemy",
+            "CraftTab",
+            "CraftingCloseBtn",
+            "FirstEquippableAbility",
+            "FirstUnusedItem",
+            "GearButton",
+            "GearTab",
+            "GemBalance",
+            "HeroTab",
+            "JCTab",
+            "LevelUpMinion",
+            "LevelableMinion",
+            "MetaGameCloseBtn",
+            "MinionWithReadyAbility",
+            "NewMinion",
+            "QuestItem",
+            "StashTab",
+            "StoreTab",
+            "TeamSlots",
+            "TeamTab",
+            "TowardsEnemy",
+            "TowardsGoal"
+        ]
+    },
+    "say": {
+        "mandatory": false,
+        "type": "string/list"
+    },
+    "show_in": {
+        "listy": true,
+        "mandatory": false,
+        "type": [
+            "abilities",
+            "campaign_map",
+            "craft_inventory",
+            "crafting",
+            "friends",
+            "game",
+            "gold_exchange",
+            "inventory",
+            "jewelcrafting",
+            "mailbox",
+            "main_menu",
+            "quest",
+            "rm_store",
+            "salvage",
+            "stash",
+            "store",
+            "team",
+            "vault"
+        ]
+    },
+    "total": {
+        "mandatory": false,
+        "type": "integer"
+    },
+    "type": {
+        "mandatory": true,
+        "type": "string"
+    },
+    "walk_to": {
+        "mandatory": false,
+        "type": "string"
+    }
+}

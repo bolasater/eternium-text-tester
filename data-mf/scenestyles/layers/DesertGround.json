@@ -1,0 +1,45 @@
+[
+	{
+		"tool" : "randombrush",
+		"brush" : {
+			"height" : 0.0,
+			"width" : 0.3,
+			"hardness" : 0.7,
+			"opacity" : 0.75,
+			"strength" : 0
+		},
+		"minDist" : 0.025,
+		"avoidBuilt" : true,
+		"density" : 40,
+		"terrains" : ["Sand 02", "Sand 03"],
+		"randomScaling" : 0.75
+	},
+	
+	{
+		"tool" : "randomprop",
+		"props" : "#props/DesertPlants",
+		"propScaling" : 1,
+		"randomScaling" : 0.2,
+		"minDist" : 0.025,
+		"maxDist" : 0.1,
+		"avoidBuilt" : 1,
+		"markBuilt" : 0,
+		"density" : 5
+	},
+	
+	{
+		"tool" : "crest",
+		"slope" : 0,
+		"max_height" : 0.05,
+		"curve_gamma" : 0.25,
+		"flow_through_portals":true
+	},
+	
+	{
+		"tool" : "bump",
+		"height" : 0.0,
+		"fade" : 0.4,
+		"bump_size" : 1.0,
+		"flow_through_portals":false
+	}
+]

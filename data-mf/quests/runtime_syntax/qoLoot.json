@@ -1,0 +1,19 @@
+{
+   "autoloot" : {
+      "mandatory" : false,
+      "type" : "flag"
+   },
+   "creature" : {
+      "mandatory" : true
+   },
+   "drop_rate" : {
+      "mandatory" : true,
+      "type" : [
+         [ 0, 1 ]
+      ]
+   },
+   "item" : {
+      "mandatory" : true,
+      "type" : "object"
+   }
+}

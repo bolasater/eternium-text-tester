@@ -1,81 +1,90 @@
 import streamlit as st
 import json
-#this commit is after the label.
+
+#import ptvsd
+# print(“Waiting for debugger attach”)
+# ptvsd.enable_attach(address=(‘localhost’, 5678), redirect_output=True)
+# ptvsd.wait_for_attach()
 
 @st.cache_data
 def loadData():
-    quests = json.load(open("data/quests.json", 'r') )
-    characters = json.load(open("data/characters.json", 'r') )["characters"]
-    monsters = json.load(open("data/monsters.json", 'r') )["monsters"]
-    items = json.load(open("data/items.json"))["items"]
-    return (quests,characters,monsters,items)
+    dir = "data-mf"
+    act1 = json.load(open(dir+"/quests/act1main.json", 'r') )["quests"]
+    act2 = json.load(open(dir+"/quests/act2main.json", 'r') )["quests"]
+    act3 = json.load(open(dir+"/quests/act3main.json", 'r') )["quests"]
+    act4 = json.load(open(dir+"/quests/act4main.json", 'r') )["quests"]
+    #characters = json.load(open("data/characters.json", 'r') )["characters"]
+    creatures = json.load(open(dir+"/creatures/creatures.json", 'r'))
+    gear_categories = json.load(open(dir+"/gear/gear_categories.json","r"))
+    gear_models = json.load(open(dir+"/gear/gear_models.json","r"))
+    item_sets = json.load(open(dir+"/gear/item_sets.json","r"))
+    #items = json.load(open(dir+"/books/index.json"))
+    #return (quests,characters,monsters,items)
+    quests_by_act = (act1,act2,act3,act4)
+    return (quests_by_act,creatures, gear_categories, gear_models, item_sets) #,monsters)
 
-(quests,characters,monsters,items) = loadData()
+(quests_by_act,creatures, gear_categories, gear_models, item_sets) = loadData()
 
-if 'currentQuest' not in st.session_state:
-    st.session_state.currentQuest = 0
-if 'atStartOfQuests' not in st.session_state:
-    st.session_state.atStartOfQuests = True
-if 'atEndOfQuests' not in st.session_state:
-    st.session_state.atEndOfQuests = False
-
-questQty = len(quests)
-
-def prevClick():
-    if st.session_state.currentQuest > 0:
-        st.session_state.currentQuest -= 1
-        st.session_state.atEndOfQuests = False
-    else:
-        st.session_state.atStartOfQuests = True
-
-def nextClick():
-    if st.session_state.currentQuest < questQty-1:
-        st.session_state.currentQuest += 1
-        st.session_state.atStartOfQuests = False
-    else:
-        st.session_state.atEndOfQuests = True
-
-st.title('Eternium Text Adventure')
+if 'currentView' not in st.session_state:
+    st.session_state.currentView = "quests"
 
 
-def showQuest():
-    quest = quests[st.session_state.currentQuest]
-    monster = monsters[st.session_state.currentQuest]
-    item = items[st.session_state.currentQuest]
-    place = quest["place"]
-    st.header(f'{quest["title"]} ({st.session_state.currentQuest + 1} of {questQty})')
-    if place != "":
-        st.subheader(f'**Location**: {quest["place"]}')
-    st.write(quest["description"])
+def showQuest(quest):
+    with st.expander(f'{quest["name"]}'):                   
+        src = quest.get("src",None)
+        if src is not None:
+            st.markdown(f'**Source**: {src}')
+        
+        story = quest.get("story",None)
+        if story is not None:
+            st.write(story)
 
+        objectives = quest.get("obj", None)
+        if objectives is not None:
+            st.write(objectives)
 
-    char_name = quest["character"]
-    if char_name != "":
-        char =  [char for char in characters if char["name"] == char_name][0]
-        dispo = char["disposition"]
-        char_color = "green" if dispo=="Friend" else "red"
-        st.markdown(f'Your {dispo.lower()} **:{char_color}[{char_name}]** is here.')
-        st.markdown(f'_{char["personality"]}_')
+        rewards  = quest.get("rewards", None)
+        if rewards is not None:
+            st.write(rewards)
+
+def showActQuests(act):
+    quests = quests_by_act[act]
+    [showQuest(quest) for quest in quests]
     
-    dialog = quest["dialog"]
-    if dialog is not None:
-        with st.expander("Dialog"):
-            st.markdown(dialog)
-    
-    with st.expander("Combat Details"):
-        if st.session_state.currentQuest >0:
-            weapon = items[st.session_state.currentQuest -1]["name"]
-        else:
-            weapon = "bare hands"
-        st.markdown(f'_{monster["description"]}_ confronts you!  You manage to defeat the :red[{monster["name"]}] with your :blue[{weapon}].')
-        st.markdown(f':violet[{item["description"]}] is on the ground. It\'s a **:violet[{item["name"]}]**!!')
-            
-    
-showQuest()
+def showCreature(name,data):
+   with st.expander(name):
+       st.write(data)
 
-col1, col2 = st.columns(2)
-with col1:
-    st.button("Previous", key="prevButton", on_click=prevClick, disabled=st.session_state.atStartOfQuests, type="secondary")
+with st.sidebar:
+    st.header('Eternium Text Tester')
+    if st.button("Quests"):
+        st.session_state.currentView = "quests"
+    if st.button("Creatures"):
+        st.session_state.currentView = "creatures"
+    if st.button("Items"):
+        st.session_state.currentView = "items"
 
-with col2:
-    st.button("Next", key="nextButton", on_click= nextClick, disabled=st.session_state.atEndOfQuests, type="primary")
+match st.session_state.currentView:
+    case "quests":
+        st.header('Quests')
+        tab1, tab2, tab3, tab4 = st.tabs(["Act 1", "Act 2", "Act 3", "Act 4"])   
+        with tab1:
+            showActQuests(0)
+        with tab2:
+            showActQuests(1)
+        with tab3:
+            showActQuests(2)
+        with tab4:
+            showActQuests(3)
+    case "creatures":
+        st.header('Creatures')
+        search_key = st.text_input("Filter by Name",help="Enter some or all of a creature's name" )
+        {showCreature(k,v) for (k,v) in creatures.items() if search_key in k}
+    case "items":
+        tab1, tab2, tab3 = st.tabs(["Gear categories", "Gear Models", "Item Sets"])   
+        with tab1:
+            st.write(gear_categories)
+        with tab2:
+            st.write(gear_models)
+        with tab3:
+            st.write(item_sets)

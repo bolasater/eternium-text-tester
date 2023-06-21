@@ -1,0 +1,543 @@
+{
+	"hammer_hit0": {
+		"generators":[
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.1,
+				"rate":300,
+				"ignoreFog":true,
+				"particleTypes":["incandescent_line"],
+				"alphaMode":"add",
+				"rotSpeed" : 0.0,
+				"randomizeRot" : false,
+				"orientation":"VelTangentH",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.00,
+				"minSpeed":3.0, "maxSpeed":5.0,
+				"minSize":0.02, "maxSize":0.03,
+				"sizeSpeed":0.00,
+				"color0":"0xffffffff",
+				"color1":"0xffffffff",
+				"fadeInTime":0.1,
+				"particleTTL":1.0,
+				"fadeOutTime":0.5,
+				"aspectRatio" : 16,
+				"velDamp":0
+			}
+			,	
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.2,
+				"rate":300,
+				"ignoreFog":true,
+				"particleTypes":["greysmoke"],
+				"alphaMode":"add",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.0,
+				"minSpeed":3.0, "maxSpeed":4.5,
+				"minSize":0.6, "maxSize":0.7,
+				"sizeSpeed":0.7,
+				"color0":"0x40806040",
+				"color1":"0x40806040",
+				"fadeInTime":0.0,
+				"particleTTL":0.9,
+				"fadeOutTime":0.7
+			}							
+		]
+	}
+	,
+	"glow_line0": {
+		"generators":[
+			{
+				"source":"Line",
+				"x0":0, "y0":0, "z0":0,
+				"x1":0, "y1":0, "z1":0,
+
+				"startTime":0,
+				"duration":0.5,
+				"rate":10,
+				"ignoreFog":true,
+				"particleTypes":["fire_glow"],
+				"alphaMode":"add",
+				"rotSpeed" : 0.0,
+				"randomizeRot" : true,
+				"orientation":"Screen",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.00,
+				"minSpeed":0.0, "maxSpeed":0.0,
+				"minSize":0.3, "maxSize":0.45,
+				"sizeSpeed":0.0,
+				"color0":"0x80808040",
+				"color1":"0x80808040",
+				"fadeInTime":0.05,
+				"particleTTL":0.5,
+				"fadeOutTime":0.4,
+				"aspectRatio" : 1,
+				"zBias":true,
+				"velDamp":0
+			}										
+		]
+	}
+	,
+	"line_rays0": {
+		"generators":[
+			{
+				"source":"LineExtrude",
+				"x0":0, "y0":0, "z0":0,
+				"x1":0, "y1":0, "z1":0,
+				"orgX":0, "orgY":0, "orgZ":0,
+
+				"startTime":0,
+				"duration":0.2,
+				"rate":50,
+				"ignoreFog":true,
+				"particleTypes":["glow"],
+				"alphaMode":"add",
+				"rotSpeed" : 0.0,
+				"randomizeRot" : false,
+				"orientation":"VelTangentH",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.00,
+				"minSpeed":0.1, "maxSpeed":0.2,
+				"minSize":0.15, "maxSize":0.2,
+				"sizeSpeed":0.0,
+				"color0":"0x80606060",
+				"color1":"0x80606060",
+				"fadeInTime":0.1,
+				"particleTTL":0.9,
+				"fadeOutTime":0.6,
+				"aspectRatio" : 15,
+				"velDamp":0
+			}			
+		]		
+	}
+	,
+	"hammer_hit1": {
+		"generators":[
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.1,
+				"rate":300,
+				"ignoreFog":true,
+				"particleTypes":["incandescent_line"],
+				"alphaMode":"add",
+				"rotSpeed" : 0.0,
+				"randomizeRot" : false,
+				"orientation":"VelTangentH",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.00,
+				"minSpeed":3.0, "maxSpeed":5.0,
+				"minSize":0.02, "maxSize":0.03,
+				"sizeSpeed":0.00,
+				"color0":"0xffffffff",
+				"color1":"0xffffffff",
+				"fadeInTime":0.1,
+				"particleTTL":1.0,
+				"fadeOutTime":0.5,
+				"aspectRatio" : 16,
+				"velDamp":0
+			}
+			,	
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.2,
+				"rate":300,
+				"ignoreFog":true,
+				"particleTypes":["greysmoke"],
+				"alphaMode":"add",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.0,
+				"minSpeed":3.0, "maxSpeed":4.5,
+				"minSize":0.6, "maxSize":0.7,
+				"sizeSpeed":0.7,
+				"color0":"0x40806040",
+				"color1":"0x40806040",
+				"fadeInTime":0.0,
+				"particleTTL":0.9,
+				"fadeOutTime":0.7
+			}							
+		]
+	}
+	,
+	"glow_line1": {
+		"generators":[
+			{
+				"source":"Line",
+				"x0":0, "y0":0, "z0":0,
+				"x1":0, "y1":0, "z1":0,
+
+				"startTime":0,
+				"duration":0.15,
+				"rate":20,
+				"ignoreFog":true,
+				"particleTypes":["fire_glow"],
+				"alphaMode":"add",
+				"rotSpeed" : 0.0,
+				"randomizeRot" : true,
+				"orientation":"Screen",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.00,
+				"minSpeed":0.0, "maxSpeed":0.0,
+				"minSize":0.6, "maxSize":0.7,
+				"sizeSpeed":0.0,
+				"color0":"0x40808040",
+				"color1":"0x40808040",
+				"fadeInTime":0.05,
+				"particleTTL":0.9,
+				"fadeOutTime":0.7,
+				"aspectRatio" : 1,
+				"zBias":true,
+				"velDamp":0
+			}										
+		]
+	}
+	,
+	"line_rays1": {
+		"generators":[
+			{
+				"source":"LineExtrude",
+				"x0":0, "y0":0, "z0":0,
+				"x1":0, "y1":0, "z1":0,
+				"orgX":0, "orgY":0, "orgZ":0,
+
+				"startTime":0,
+				"duration":0.2,
+				"rate":50,
+				"ignoreFog":true,
+				"particleTypes":["glow"],
+				"alphaMode":"add",
+				"rotSpeed" : 0.0,
+				"randomizeRot" : false,
+				"orientation":"VelTangentH",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.00,
+				"minSpeed":0.1, "maxSpeed":0.2,
+				"minSize":0.2, "maxSize":0.3,
+				"sizeSpeed":0.0,
+				"color0":"0x80606060",
+				"color1":"0x80606060",
+				"fadeInTime":0.1,
+				"particleTTL":0.9,
+				"fadeOutTime":0.6,
+				"aspectRatio" : 15,
+				"velDamp":0
+			}			
+		]		
+	}
+	,
+	"hammer_hit2": {
+		"generators":[
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.1,
+				"rate":300,
+				"ignoreFog":true,
+				"particleTypes":["incandescent_line"],
+				"alphaMode":"add",
+				"rotSpeed" : 0.0,
+				"randomizeRot" : false,
+				"orientation":"VelTangentH",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.00,
+				"minSpeed":3.0, "maxSpeed":5.0,
+				"minSize":0.01, "maxSize":0.02,
+				"sizeSpeed":0.00,
+				"color0":"0xffffffff",
+				"color1":"0xffffffff",
+				"fadeInTime":0.1,
+				"particleTTL":1.0,
+				"fadeOutTime":0.5,
+				"aspectRatio" : 16,
+				"velDamp":0
+			}
+			,	
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.2,
+				"rate":300,
+				"ignoreFog":true,
+				"particleTypes":["greysmoke"],
+				"alphaMode":"add",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.0,
+				"minSpeed":3.0, "maxSpeed":4.5,
+				"minSize":0.6, "maxSize":0.7,
+				"sizeSpeed":0.7,
+				"color0":"0x40806040",
+				"color1":"0x40806040",
+				"fadeInTime":0.0,
+				"particleTTL":0.9,
+				"fadeOutTime":0.7
+			}							
+		]
+	}
+	,
+	"glow_line2": {
+		"generators":[
+			{
+				"source":"Line",
+				"x0":0, "y0":0, "z0":0,
+				"x1":0, "y1":0, "z1":0,
+
+				"startTime":0,
+				"duration":0.2,
+				"rate":100,
+				"ignoreFog":true,
+				"particleTypes":["fire_glow"],
+				"alphaMode":"add",
+				"rotSpeed" : 0.0,
+				"randomizeRot" : true,
+				"orientation":"Screen",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.00,
+				"minSpeed":0.0, "maxSpeed":0.0,
+				"minSize":0.1, "maxSize":0.2,
+				"sizeSpeed":2.0,
+				"color0":"0x80808040",
+				"color1":"0x80808040",
+				"fadeInTime":0.05,
+				"particleTTL":0.2,
+				"fadeOutTime":0.05,
+				"aspectRatio" : 1,
+				"velDamp":0
+			}										
+		]
+	}
+	,
+	"line_rays2": {
+		"generators":[
+			{
+				"source":"LineExtrude",
+				"x0":0, "y0":0, "z0":0,
+				"x1":0, "y1":0, "z1":0,
+				"orgX":0, "orgY":0, "orgZ":0,
+
+				"startTime":0,
+				"duration":0.2,
+				"rate":50,
+				"ignoreFog":true,
+				"particleTypes":["glow"],
+				"alphaMode":"add",
+				"rotSpeed" : 0.0,
+				"randomizeRot" : false,
+				"orientation":"VelTangentH",
+				"direction":[ 0, 1, 0],
+				"gravity": 0.00,
+				"minSpeed":2.5, "maxSpeed":2.7,
+				"minSize":0.4, "maxSize":0.5,
+				"sizeSpeed":0.0,
+				"color0":"0x80606060",
+				"color1":"0x80606060",
+				"fadeInTime":0.05,
+				"particleTTL":0.3,
+				"fadeOutTime":0.05,
+				"aspectRatio" : 15,
+				"velDamp":0
+			}			
+		]		
+	}
+	,
+	"craft_explosion1":{
+		"generators":[
+			
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.1,
+				"rate":500,
+				"particleTypes":["radial_glow"],
+				"alphaMode":"add",
+				"direction":[ 0, 1, 0],
+				"orientation":"VerticalRandRot",
+				"rotSpeed" : 0.3,
+				"randomizeRot" : true,
+				"gravity": 0.0,
+				"minSpeed":0.0, "maxSpeed":0.0,
+				"minSize":5.0, "maxSize":10.0,
+				"sizeSpeed":30.0,
+				"color0":"0x40ffaa20",
+				"color1":"0x40ffaa20",
+				"fadeInTime":0.1,
+				"particleTTL":1.0,
+				"fadeOutTime":0.75
+			}
+			
+						
+		]
+	}	
+	,
+	"craft_explosion":{
+		"generators":[							
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.2,
+				"rate":300,
+				"ignoreFog":true,
+				"particleTypes":["lens_flare1"],
+				"alphaMode":"add",
+				"rotSpeed" : 0.0,
+				"randomizeRot" : true,
+				"gravity": 0.0,
+				"minSpeed":3.0, "maxSpeed":4.0,
+				"minSize":0.7, "maxSize":0.8,
+				"sizeSpeed":0.5,
+				"color0":"0xffffffff",
+				"color1":"0xffffffff",
+				"fadeInTime":0.1,
+				"particleTTL":1.0,
+				"fadeOutTime":0.5,
+				"bounceOnGround": false,
+				"velDamp":0
+			}
+			,
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.3,
+				"rate":300,
+				"ignoreFog":true,
+				"particleTypes":["arcane_flare"],
+				"alphaMode":"blend",
+				"randomizeRot" : true,
+				"gravity": 0.0,
+				"minSpeed":6.0, "maxSpeed":7.0,
+				"minSize":0.2, "maxSize":0.3,
+				"sizeSpeed":0.2,
+				"color0":"0xffffffff",
+				"color1":"0xffffffff",
+				"fadeInTime":0.5,
+				"particleTTL":1.5,
+				"fadeOutTime":0.5,
+				"bounceOnGround": false,
+				"velDamp":0
+			}			
+			,
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.5,
+				"rate":25,
+				"ignoreFog":true,
+				"particleTypes":["lightning"],
+				"alphaMode":"blend",
+				"rotSpeed":0,
+				"randomizeRot" : true,
+				"gravity": 0.0,
+				"minSpeed":0.0, "maxSpeed":0.0,
+				"minSize":5.0, "maxSize":6,
+				"sizeSpeed":3.0,
+				"color0":"0xffffffff",
+				"color1":"0xffffffff",
+				"fadeInTime":0.1,
+				"particleTTL":0.7,
+				"fadeOutTime":0.6,
+				"bounceOnGround": false,
+				"velDamp":0
+			}											
+		]
+	}
+	,
+	"final_rays": {
+		"generators":[
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.1,
+				"rate":250,
+				"particleTypes":["radial_glow"],
+				"alphaMode":"add",
+				"direction":[ 0, 1, 0],
+				"orientation":"VerticalRandRot",
+				"rotSpeed" : 0.3,
+				"randomizeRot" : true,
+				"gravity": 0.0,
+				"minSpeed":0.0, "maxSpeed":0.0,
+				"minSize":3.0, "maxSize":4.0,
+				"sizeSpeed":20.0,
+				"color0":"0x40ffaa20",
+				"color1":"0x40ffaa20",
+				"fadeInTime":0.1,
+				"particleTTL":0.9,
+				"fadeOutTime":0.3,
+				"zBias":true
+			}
+			,
+			{
+				"source":"Point",
+				"theta0":0,
+				"theta1":360,
+				"phi0":-90,
+				"phi1":90,
+				"startTime":0,
+				"duration":0.75,
+				"rate":20,
+				"particleTypes":["greysmoke"],
+				"alphaMode":"add",
+				"direction":[ 0, 1, 0],
+				"rotSpeed" : 0.0,
+				"randomizeRot" : true,
+				"gravity": 0.0,
+				"minSpeed":0.1, "maxSpeed":0.2,
+				"minSize":1.0, "maxSize":2.0,
+				"sizeSpeed":8.0,
+				"alpha":0.5,
+				"color0":"0x40ffaa20",
+				"color1":"0x40ffaa20",
+				"fadeInTime":0.25,
+				"particleTTL":1.0,
+				"fadeOutTime":0.9
+			}												
+		]		
+	}	
+}

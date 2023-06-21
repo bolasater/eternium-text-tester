@@ -1,0 +1,65 @@
+[
+	{
+		"tool" : "randombrush",
+		"brush" : {
+			"height" : 0.0,
+			"width" : 0.3,
+			"hardness" : 0.7,
+			"opacity" : 0.75,
+			"strength" : 0
+		},
+		"minDist" : 0.025,
+		"avoidBuilt" : true,
+		"density" : 120,
+		"terrains" : "#terrains/SummerGrass",
+		"randomScaling" : 0.75
+	},		
+	
+	{
+		"tool" : "randomprop",
+		"props" : "#props/SummerGrassDecals",
+		"propScaling" : 0.25,
+		"randomScaling" : 0.2,
+		"minDist" : 0.025,
+		"maxDist" : 0.075,
+		"avoidBuilt" : 1,
+		"markBuilt" : 0,
+		"density" : 400
+	},
+
+	{
+		"tool" : "randomprop",
+		"props" : "#props/SummerGrassDecals",
+		"propScaling" : 0.25,
+		"randomScaling" : 0.2,
+		"minDist" : 0.1,
+		"maxDist" : 100,
+		"avoidBuilt" : 1,
+		"markBuilt" : 0,
+		"density" : 20
+	},
+	
+	{
+		"tool" : "randomprop",
+		"props" : "#props/SummerShrubs",
+		"propScaling" : 0.75,
+		"randomScaling" : 0.25,
+		"minDist" : 0.01,
+		"maxDist" : 0.1,
+		"avoidBuilt" : 1,
+		"markBuilt" : 0,
+		"density" : 40
+	},
+	
+	{
+		"tool" : "randomprop",
+		"props" : "#props/SummerShrubs",
+		"propScaling" : 1.5,
+		"randomScaling" : 0.25,
+		"minDist" : 0.01,
+		"maxDist" : 100,
+		"avoidBuilt" : 1,
+		"markBuilt" : 0,
+		"density" : 1
+	}
+]

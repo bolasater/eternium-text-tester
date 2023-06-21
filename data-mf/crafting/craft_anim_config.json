@@ -1,0 +1,35 @@
+{
+	"group":"craft",
+	"group_path":"crafting/craft_anim/craft.group",
+	"model":"craftbox",
+	"skeleton":"skel",
+	"skin":"craftbox",
+	"anim":"skel_Hammer_hit",
+
+	"hammer_hit_bone":"crack_face_center",
+	"scene_scale":0.02,
+	"camera_target":[0, 0, 0],
+	"camera_pos":[10, 4, 10],
+	"camera_up":[0, -1, 0],
+	"cracks":[
+		["dummy_front_piece_A_01", "dummy_front_piece_A_02", "dummy_front_piece_A_03", "dummy_front_piece_A_04", "dummy_front_piece_A_05", "dummy_front_piece_A_06", "dummy_front_piece_A_07", "dummy_front_piece_A_08", "dummy_front_piece_A_09", "dummy_front_piece_A_10", "dummy_front_piece_A_11", "dummy_front_piece_A_12", "dummy_front_piece_A_13", "dummy_front_piece_A_14", "dummy_front_piece_A_15", "dummy_front_piece_A_16", "dummy_front_piece_A_17", "dummy_front_piece_A_18"],
+		["dummy_front_piece_B_01", "dummy_front_piece_B_02", "dummy_front_piece_B_03", "dummy_front_piece_B_04", "dummy_front_piece_B_05", "dummy_front_piece_B_06", "dummy_front_piece_B_07", "dummy_front_piece_B_08", "dummy_front_piece_B_09", "dummy_front_piece_B_10", "dummy_front_piece_B_11"],
+		["dummy_front_piece_C_01", "dummy_front_piece_C_02", "dummy_front_piece_C_03", "dummy_front_piece_C_04"],
+		["dummy_front_piece_D_01", "dummy_front_piece_D_02", "dummy_front_piece_D_03", "dummy_front_piece_D_04"],
+		
+		["dummy_left_piece_A_01", "dummy_left_piece_A_02", "dummy_left_piece_A_03", "dummy_left_piece_A_04", "dummy_left_piece_A_05"],
+		["dummy_left_piece_B_01", "dummy_left_piece_B_02", "dummy_left_piece_B_03", "dummy_left_piece_B_04", "dummy_left_piece_B_05", "dummy_left_piece_B_06", "dummy_left_piece_B_07", "dummy_left_piece_B_08", "dummy_left_piece_B_09", "dummy_left_piece_B_10", "dummy_left_piece_B_11"],
+		["dummy_left_piece_C_01", "dummy_left_piece_C_02", "dummy_left_piece_C_03", "dummy_left_piece_C_04", "dummy_left_piece_C_05", "dummy_left_piece_C_06"],
+		["dummy_left_piece_D_01", "dummy_left_piece_D_02", "dummy_left_piece_D_03", "dummy_left_piece_D_04", "dummy_left_piece_D_05", "dummy_left_piece_D_06", "dummy_left_piece_D_07", "dummy_left_piece_D_08", "dummy_left_piece_D_09", "dummy_left_piece_D_10", "dummy_left_piece_D_11", "dummy_left_piece_D_12"],
+		
+		["dummy_top_piece_A_01", "dummy_top_piece_A_02", "dummy_top_piece_A_03", "dummy_top_piece_A_04", "dummy_top_piece_A_05", "dummy_top_piece_A_06", "dummy_top_piece_A_07", "dummy_top_piece_A_08", "dummy_top_piece_A_09", "dummy_top_piece_A_10", "dummy_top_piece_A_11", "dummy_top_piece_A_12", "dummy_top_piece_A_13"],
+		["dummy_top_piece_B_01", "dummy_top_piece_B_02", "dummy_top_piece_B_03", "dummy_top_piece_B_04", "dummy_top_piece_B_05", "dummy_top_piece_B_06", "dummy_top_piece_B_07", "dummy_top_piece_B_08", "dummy_top_piece_B_09"],
+		["dummy_top_piece_C_01", "dummy_top_piece_C_02", "dummy_top_piece_C_03", "dummy_top_piece_C_04", "dummy_top_piece_C_05", "dummy_top_piece_C_06", "dummy_top_piece_C_07", "dummy_top_piece_C_08", "dummy_top_piece_C_09", "dummy_top_piece_C_10", "dummy_top_piece_C_11", "dummy_top_piece_C_12", "dummy_top_piece_C_13"],
+		["dummy_top_piece_D_01", "dummy_top_piece_D_02", "dummy_top_piece_D_03", "dummy_top_piece_D_04", "dummy_top_piece_D_05", "dummy_top_piece_D_06", "dummy_top_piece_D_07", "dummy_top_piece_D_08"]
+		],
+	"events":[
+		{"id":"hammer_hit0", "frame":10},
+		{"id":"hammer_hit1", "frame":30},
+		{"id":"final_hit", "frame":50}
+	]
+}

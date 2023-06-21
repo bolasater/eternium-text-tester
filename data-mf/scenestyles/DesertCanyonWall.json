@@ -1,0 +1,36 @@
+{
+	"baseTerrain" : "Desert Rock 01",
+	"height" : 0,
+	"playable" : false,
+
+	"tools" : [
+	
+		{
+			"tool" : "crest",
+			"slope" : 0.4,
+			"flow_through_portals":true
+		},
+	
+		{
+			"tool" : "bump",
+			"height" : 0.2,
+			"fade" : 0.1,
+			"flow_through_portals":true
+		},
+		
+		{
+			"tool" : "randombrush",
+			"brush" : {
+				"height" : 0.35,
+				"width" : 0.3,
+				"hardness" : 0.7,
+				"opacity" : 1,
+				"strength" : 0
+			},
+			"density" : 30,
+			"terrains" : ["Desert Rock 02"],
+			"randomScaling" : 0.5,
+			"extendColor" : 0.15
+		}
+	]
+}

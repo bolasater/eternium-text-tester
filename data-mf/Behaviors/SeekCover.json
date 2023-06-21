@@ -1,0 +1,28 @@
+{
+	"type":"Sequence",
+	"id":"SeekCover",
+	"children":[
+		{
+			"type":"LowHealth",
+			"healthPercent":0.15,
+			"creature":"self"
+		},
+		{
+			"type":"Negate",
+			"node": {
+				"type":"LowHealth",
+				"healthPercent":0.25,
+				"creature":"hero"
+			}
+		},		
+		{
+			"type":"Negate",
+			"node": {
+				"type":"IsImmune",
+				"remainingTime":1.0,
+				"creature":"self"
+			}								
+		},		
+		"RunInCover"
+	]
+}

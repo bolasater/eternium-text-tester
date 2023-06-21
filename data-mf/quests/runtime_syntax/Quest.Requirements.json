@@ -1,0 +1,192 @@
+{
+   "challengeLevel" : {
+      "mandatory" : false,
+      "type" : [
+         [ 0, 3 ]
+      ]
+   },
+   "dlg" : {
+      "mandatory" : false,
+      "type" : "string"
+   },
+   "hero_level" : {
+      "type" : [
+         [ 1, 999 ]
+      ]
+   },
+   "item" : {
+      "type" : "string"
+   },
+   "location" : {
+      "type" : "string"
+   },
+   "maxProfileLevel" : {
+      "type" : [
+         [ 1, 999 ]
+      ]
+   },
+   "max_level" : {
+      "type" : [
+         [ 1, 999 ]
+      ]
+   },
+   "never" : {
+      "mandatory" : false,
+      "type" : "flag"
+   },
+   "qline" : {
+      "listy" : true,
+      "type" : [
+         "act1main",
+         "act1side",
+         "act2main",
+         "act2side",
+         "act3main",
+         "act3side",
+         "act4main",
+         "act4side",
+         "dailyquests",
+         "qlib_daily",
+         "tutorial"
+      ]
+   },
+   "quest" : {
+      "listy" : true,
+      "type" : [
+         "a_dangerous_journey",
+         "alarion_nirgal_talk",
+         "alarions_daily_quest",
+         "ancient_evil",
+         "ancient_knowledge",
+         "apple",
+         "apple_daily",
+         "automaton_malfunction",
+         "blessings_of_spirits",
+         "blood_river",
+         "break_resistence",
+         "break_their_bows",
+         "burn_the_gates",
+         "chemical_warfare",
+         "clear_catacombs",
+         "cover_of_darkness",
+         "craft_gear",
+         "craft_ring",
+         "dark_dominion",
+         "dark_side_of_levania",
+         "decapitation_strike",
+         "dels_tears",
+         "dels_tears_daily",
+         "demeter_shattered_world",
+         "demonic_advisors",
+         "destroy_cauldron",
+         "dont_push_the_button",
+         "dragon_crystals",
+         "dragonspawn",
+         "dreamland",
+         "dwarven_warrior",
+         "elban_lieutenants",
+         "elban_lieutenants_daily",
+         "element_of_surprise",
+         "elite_pruning",
+         "ethereal_ice_tea",
+         "extreme_prejudice",
+         "fiery_pits",
+         "fiery_remnants",
+         "fiery_remnants_daily",
+         "fire_and_steel",
+         "first_contact",
+         "flames_of_rebellion",
+         "forbidden_knowledge",
+         "fuse_rings",
+         "heaven_stair",
+         "highroad",
+         "ingrid_daily_quest",
+         "into_the_crucible",
+         "into_the_fray",
+         "intro_to_nirgal",
+         "jewel_of_malador",
+         "jewel_of_malador_daily",
+         "jewel_of_minaris",
+         "jewel_of_minaris_daily",
+         "jungle_flowers",
+         "jungle_path",
+         "kara",
+         "kara_secret",
+         "keep_them_at_bay",
+         "kingmaker",
+         "kingmaker_conclusion",
+         "legacy_of_the_dragons",
+         "lex_talionis",
+         "lex_talionis_conclusion",
+         "lianas_daily_quest",
+         "logistics_quartermaster",
+         "lost_literature",
+         "lost_souls",
+         "maddening_light",
+         "malador",
+         "merlok_cleansing",
+         "minotaur_coup",
+         "mitzus_daily_quest",
+         "moon_landing",
+         "morgans_brother",
+         "mushshroom_stew",
+         "new_companion",
+         "onwards_to_anderra",
+         "onwards_to_malador",
+         "politics_of_blood",
+         "power_of_the_enemy",
+         "proving_grounds",
+         "purging_the_void",
+         "quacks_errand",
+         "reclaim_wealth",
+         "recruit_eileen",
+         "repair_wall",
+         "rescue_marcus",
+         "ritual_residue",
+         "road_to_malador",
+         "rubys_daily_quest",
+         "salvage_gear",
+         "sand_ghosts",
+         "savage_warriors",
+         "search_for_robin",
+         "secret_scartree_hold",
+         "seeds_of_life",
+         "short_dwarven_warrior",
+         "signs_of_life",
+         "source_of_corruption",
+         "teddy_and_marty",
+         "the_broken_dragon",
+         "the_deceiver",
+         "the_descent",
+         "the_ruins_of_the_dead",
+         "the_rusty_planet",
+         "the_void_corrupts",
+         "torches_of_descent",
+         "upgrade_ability",
+         "ursoc_vandals",
+         "vendor_sell_tutorial",
+         "vinedale_arena",
+         "vinedale_graveyard",
+         "visit_blacksmith",
+         "void_temple",
+         "water",
+         "welcome_home",
+         "welcome_to_eternium",
+         "wield_your_weapon",
+         "wings_of_aether"
+      ]
+   },
+   "repeat" : {
+      "mandatory" : false,
+      "type" : "string"
+   },
+   "state" : {
+      "type" : "string/list"
+   },
+   "story_level" : {
+      "type" : "level"
+   },
+   "victory" : {
+      "type" : "flag"
+   }
+}

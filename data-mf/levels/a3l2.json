@@ -1,0 +1,4706 @@
+{
+   "ambient" : [ 0, 32, 96 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Eternium Level Designer",
+      "saveTime" : "1565000407655"
+   },
+   "enemyFlavors" : [ "undead", "reptilian" ],
+   "enemySetup" : [
+      {
+         "a" : 2.81620,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "ally_multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "name" : "Hunter Killer",
+         "x" : 4.41980,
+         "z" : -1.06860
+      },
+      {
+         "a" : 3.13820,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "name" : "Hunter Killer",
+         "x" : 4.30310,
+         "z" : -0.86470
+      },
+      {
+         "a" : 1.88430,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "name" : "Hunter Killer",
+         "x" : 4.29190,
+         "z" : -1.35740
+      },
+      {
+         "a" : -0.60660,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "ally_multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -1.05880,
+         "z" : -1.03810
+      },
+      {
+         "a" : -0.60660,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -1.14940,
+         "z" : -0.8110000000000001
+      },
+      {
+         "a" : -0.39650,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -1.12380,
+         "z" : -1.24310
+      }
+   ],
+   "fog" : [ 0, 32, 48 ],
+   "heroOmni" : {
+      "blue" : 0.2510,
+      "green" : 0.43920,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 0.66670
+   },
+   "lightCol" : [ 144, 48, 0 ],
+   "lightDir" : [ -0.32880, -0.27560, 0.90330 ],
+   "props" : [
+      {
+         "heading" : 6.79120,
+         "height" : -0.03360,
+         "name" : "Jungle Fallen Branch 04",
+         "scaling" : 1.07980,
+         "x" : -1.56850,
+         "y" : 0.71260,
+         "z" : -0.52710
+      },
+      {
+         "heading" : 5.63480,
+         "height" : -0.03240,
+         "name" : "Jungle Fallen Branch 02",
+         "scaling" : 1.06160,
+         "x" : -1.53490,
+         "y" : 0.71230,
+         "z" : -1.43660
+      },
+      {
+         "heading" : 3.18170,
+         "height" : 0.00370,
+         "name" : "Jungle Fallen Branch 02",
+         "scaling" : 1.06160,
+         "x" : -1.39020,
+         "y" : 0.7161999999999999,
+         "z" : 0.64280
+      },
+      {
+         "heading" : 5.76180,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.94150,
+         "x" : 2.22270,
+         "y" : 0.250,
+         "z" : 3.07920
+      },
+      {
+         "heading" : 2.93140,
+         "height" : -0.00150,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.03770,
+         "x" : 1.74070,
+         "y" : 0.1860,
+         "z" : 3.20060
+      },
+      {
+         "heading" : 0.5810,
+         "height" : -0.00320,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.07070,
+         "x" : 1.19240,
+         "y" : 0.18430,
+         "z" : 3.2430
+      },
+      {
+         "heading" : 6.14950,
+         "height" : 0.00120,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.07070,
+         "x" : 0.82470,
+         "y" : 0.18870,
+         "z" : 3.2020
+      },
+      {
+         "heading" : 5.73510,
+         "height" : -0.00220,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.07070,
+         "x" : 0.27310,
+         "y" : 0.18530,
+         "z" : 3.22170
+      },
+      {
+         "heading" : 5.1210,
+         "height" : 0.00210,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.07070,
+         "x" : -0.30980,
+         "y" : 0.18960,
+         "z" : 3.19330
+      },
+      {
+         "heading" : 6.38350,
+         "height" : -0.00020,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.07070,
+         "x" : -0.90770,
+         "y" : 0.18730,
+         "z" : 3.21280
+      },
+      {
+         "heading" : 5.88320,
+         "height" : -0.00420,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.07070,
+         "x" : -1.52930,
+         "y" : 0.18330,
+         "z" : 3.23510
+      },
+      {
+         "heading" : 7.50640,
+         "height" : -0.00020,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.07070,
+         "x" : -2.03880,
+         "y" : 0.18730,
+         "z" : 3.26520
+      },
+      {
+         "heading" : 6.89790,
+         "height" : 0.00460,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.07070,
+         "x" : -2.58160,
+         "y" : 0.19210,
+         "z" : 3.24860
+      },
+      {
+         "heading" : 7.17490,
+         "height" : -0.02220,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.07070,
+         "x" : -3.12790,
+         "y" : 0.16530,
+         "z" : 3.26410
+      },
+      {
+         "heading" : 6.40350,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.07070,
+         "x" : -3.59730,
+         "y" : 0.250,
+         "z" : 3.14580
+      },
+      {
+         "heading" : 8.18150,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.07070,
+         "x" : -4.2530,
+         "y" : 0.250,
+         "z" : 3.21320
+      },
+      {
+         "heading" : 5.4610,
+         "height" : -0.00020,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.11720,
+         "x" : -4.78870,
+         "y" : 0.18730,
+         "z" : 3.28370
+      },
+      {
+         "heading" : 4.4450,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.11720,
+         "x" : -5.40520,
+         "y" : 0.250,
+         "z" : 2.95580
+      },
+      {
+         "heading" : 4.4450,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.11720,
+         "x" : -5.42820,
+         "y" : 0.250,
+         "z" : 2.38510
+      },
+      {
+         "heading" : 4.43170,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 02",
+         "scaling" : 1.11720,
+         "x" : -5.50310,
+         "y" : 0.250,
+         "z" : 1.81580
+      },
+      {
+         "heading" : 1.92510,
+         "height" : -0.00020,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.11720,
+         "x" : -5.40070,
+         "y" : 0.18730,
+         "z" : 0.76820
+      },
+      {
+         "heading" : 11.25040,
+         "height" : -0.00070,
+         "name" : "Jungle Fallen Branch 02",
+         "scaling" : 1.06160,
+         "x" : -2.76150,
+         "y" : 0.71180,
+         "z" : 0.49460
+      },
+      {
+         "heading" : 11.00170,
+         "height" : -0.0120,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.9360000000000001,
+         "x" : 1.0860,
+         "y" : 0.40050,
+         "z" : 0.18020
+      },
+      {
+         "heading" : 9.05710,
+         "height" : -0.05530,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.9360000000000001,
+         "x" : 1.09470,
+         "y" : 0.35720,
+         "z" : -0.52110
+      },
+      {
+         "heading" : 5.14690,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.94080,
+         "x" : 2.23670,
+         "y" : 0.250,
+         "z" : 2.50320
+      },
+      {
+         "heading" : 2.31940,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.94080,
+         "x" : 2.26360,
+         "y" : 0.250,
+         "z" : 1.92390
+      },
+      {
+         "heading" : -1.44380,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.94080,
+         "x" : 2.30,
+         "y" : 0.250,
+         "z" : 1.36860
+      },
+      {
+         "heading" : 2.09220,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.94080,
+         "x" : 2.26860,
+         "y" : 0.250,
+         "z" : 0.93790
+      },
+      {
+         "heading" : 1.81140,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.94080,
+         "x" : 2.28430,
+         "y" : 0.250,
+         "z" : 0.3820
+      },
+      {
+         "heading" : 3.59610,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.94080,
+         "x" : 2.32540,
+         "y" : 0.250,
+         "z" : -0.21270
+      },
+      {
+         "heading" : 2.52660,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.94080,
+         "x" : 2.26110,
+         "y" : 0.250,
+         "z" : -0.62120
+      },
+      {
+         "heading" : 1.5240,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.94080,
+         "x" : 2.26830,
+         "y" : 0.250,
+         "z" : -1.20880
+      },
+      {
+         "heading" : 1.5240,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.94080,
+         "x" : 2.24110,
+         "y" : 0.250,
+         "z" : -1.83640
+      },
+      {
+         "heading" : 3.79670,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.94080,
+         "x" : 2.26810,
+         "y" : 0.250,
+         "z" : -2.34580
+      },
+      {
+         "heading" : 4.41830,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.94080,
+         "x" : 2.30,
+         "y" : 0.250,
+         "z" : -2.77010
+      },
+      {
+         "heading" : 4.41830,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.94080,
+         "x" : 2.40670,
+         "y" : 0.250,
+         "z" : -3.27060
+      },
+      {
+         "heading" : 3.48920,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.94080,
+         "x" : 2.22010,
+         "y" : 0.250,
+         "z" : -3.84450
+      },
+      {
+         "heading" : 4.5720,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.94080,
+         "x" : 2.32120,
+         "y" : 0.250,
+         "z" : -4.35330
+      },
+      {
+         "heading" : 3.33540,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.94080,
+         "x" : 2.23690,
+         "y" : 0.250,
+         "z" : -4.95280
+      },
+      {
+         "heading" : 3.99050,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.94080,
+         "x" : 2.23090,
+         "y" : 0.250,
+         "z" : -5.37360
+      },
+      {
+         "heading" : 17.8470,
+         "height" : 0.06250,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.90560,
+         "x" : -5.36090,
+         "y" : 0.250,
+         "z" : -4.53620
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.0030,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -5.2330,
+         "y" : 0.2280,
+         "z" : -0.27540
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.0750,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -5.19980,
+         "y" : 0.30,
+         "z" : 1.33730
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00320,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -4.36720,
+         "y" : 0.45320,
+         "z" : 1.84820
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00280,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -3.47050,
+         "y" : 0.45280,
+         "z" : 1.85080
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00120,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -3.9150,
+         "y" : 0.45120,
+         "z" : -0.19950
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00390,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -3.92620,
+         "y" : 0.45390,
+         "z" : -1.87210
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.01760,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -3.48030,
+         "y" : 0.46730,
+         "z" : -3.80070
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.08620,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -4.40580,
+         "y" : 0.45580,
+         "z" : -3.79680
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00760,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -2.30090,
+         "y" : 0.7576000000000001,
+         "z" : -2.99590
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00250,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -0.76850,
+         "y" : 0.7524999999999999,
+         "z" : -2.99290
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.008500000000000001,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : 0.06460,
+         "y" : 0.75850,
+         "z" : -2.18840
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.01420,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : 0.06410,
+         "y" : 0.76420,
+         "z" : -1.24990
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00560,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : 0.07070,
+         "y" : 0.75560,
+         "z" : -0.86470
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00510,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : 0.07770000000000001,
+         "y" : 0.75510,
+         "z" : 0.22290
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.01960,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -0.73410,
+         "y" : 0.75620,
+         "z" : 0.98710
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00440,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -2.67170,
+         "y" : 0.75440,
+         "z" : 1.0190
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00260,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -2.27710,
+         "y" : 0.75260,
+         "z" : 1.01950
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.01270,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -3.13130,
+         "y" : 0.75280,
+         "z" : -0.1620
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00320,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -3.11420,
+         "y" : 0.75320,
+         "z" : -1.9290
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00130,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -2.67520,
+         "y" : 0.75130,
+         "z" : -2.97920
+      },
+      {
+         "heading" : -1.72450,
+         "height" : -0.11650,
+         "name" : "blocker",
+         "scaling" : 1.12140,
+         "x" : 4.75210,
+         "y" : 0.74980,
+         "z" : -1.87150
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.03890,
+         "name" : "blocker",
+         "scaling" : 2.06890,
+         "x" : 4.710,
+         "y" : 0.80660,
+         "z" : -0.18660
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00390,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -5.19450,
+         "y" : 0.22890,
+         "z" : -1.67550
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00430,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -6.57770,
+         "y" : 0.04180,
+         "z" : -0.68820
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.00740,
+         "name" : "blocker",
+         "scaling" : 0.68710,
+         "x" : -6.56880,
+         "y" : 0.04490,
+         "z" : -1.34670
+      },
+      {
+         "heading" : 1.46380,
+         "height" : 0.0750,
+         "name" : "Short Wooden Bridge",
+         "scaling" : 2.10330,
+         "x" : -7.62330,
+         "y" : 0.0,
+         "z" : 0.40420
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02530,
+         "name" : "blocker",
+         "scaling" : 1.00510,
+         "x" : -7.83060,
+         "y" : 0.02620,
+         "z" : 3.52840
+      },
+      {
+         "heading" : -0.04010,
+         "height" : -0.0150,
+         "name" : "Cactus 2 01",
+         "scaling" : 1.0,
+         "x" : -6.19080,
+         "y" : 0.0010,
+         "z" : 2.73040
+      },
+      {
+         "heading" : -0.04010,
+         "height" : -0.01690,
+         "name" : "Cactus 2 02",
+         "scaling" : 1.0,
+         "x" : -7.63640,
+         "y" : -0.00120,
+         "z" : 2.29640
+      },
+      {
+         "heading" : -0.04010,
+         "height" : -0.02430,
+         "name" : "Cactus 2 03",
+         "scaling" : 1.0,
+         "x" : -7.4770,
+         "y" : -0.00220,
+         "z" : 1.48270
+      },
+      {
+         "heading" : -3.44240,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.84930,
+         "x" : -6.73480,
+         "y" : 0.0,
+         "z" : 0.12340
+      },
+      {
+         "heading" : -2.62690,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.34260,
+         "x" : -7.09050,
+         "y" : 0.0,
+         "z" : 0.14940
+      },
+      {
+         "heading" : -4.20440,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.62360,
+         "x" : -7.40980,
+         "y" : 0.0,
+         "z" : 0.15210
+      },
+      {
+         "heading" : -4.69150,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.39130,
+         "x" : -7.50680,
+         "y" : 0.0,
+         "z" : -2.12140
+      },
+      {
+         "heading" : -5.94230,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.59530,
+         "x" : -6.82590,
+         "y" : 0.0,
+         "z" : -2.13890
+      },
+      {
+         "heading" : -5.16850,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.4110,
+         "x" : -7.12750,
+         "y" : 0.0,
+         "z" : -2.15510
+      },
+      {
+         "heading" : -0.04010,
+         "height" : -0.00630,
+         "name" : "Cactus 2 04",
+         "scaling" : 1.0,
+         "x" : -6.40440,
+         "y" : 0.01070,
+         "z" : 2.1010
+      },
+      {
+         "heading" : 1.55890,
+         "height" : -0.06290,
+         "name" : "Chain 01",
+         "scaling" : 1.64930,
+         "x" : -6.68850,
+         "y" : -0.01580,
+         "z" : -1.05170
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00250,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -5.00310,
+         "y" : 0.22750,
+         "z" : -0.95760
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00230,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -4.6590,
+         "y" : 0.22730,
+         "z" : 0.94950
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.00090,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -4.63850,
+         "y" : 0.22410,
+         "z" : -2.99690
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00440,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.47720,
+         "y" : 0.75440,
+         "z" : -1.06930
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00070,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.46690,
+         "y" : 0.75070,
+         "z" : 0.77220
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00020,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.46970,
+         "y" : 0.75020,
+         "z" : -2.70270
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00050,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.38120,
+         "y" : 0.7504999999999999,
+         "z" : 0.59170
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.26980,
+         "y" : 0.750,
+         "z" : -2.62590
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 0.72370,
+         "height" : 0.00230,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -0.05910,
+         "y" : 0.75230,
+         "z" : -2.85950
+      },
+      {
+         "gameObject" : "LockedChest",
+         "gameObjectParams" : null,
+         "heading" : 2.46040,
+         "height" : 0.00070,
+         "name" : "Chest 04",
+         "scaling" : 1.0,
+         "x" : -0.03280,
+         "y" : 0.75070,
+         "z" : 0.86120
+      },
+      {
+         "gameObject" : "EpicChest",
+         "gameObjectParams" : null,
+         "heading" : 4.69040,
+         "height" : -0.00070,
+         "name" : "Chest 03",
+         "scaling" : 1.0,
+         "x" : -1.3480,
+         "y" : 0.74930,
+         "z" : -1.01960
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00350,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.57020,
+         "y" : 0.7534999999999999,
+         "z" : -1.06590
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00090,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.88990,
+         "y" : 0.75090,
+         "z" : -1.04420
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00330,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.97640,
+         "y" : 0.76350,
+         "z" : -0.28320
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.00190,
+         "name" : "Dummy",
+         "scaling" : 1.75850,
+         "x" : -3.68050,
+         "y" : 0.44810,
+         "z" : -1.01450
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.00230,
+         "name" : "Dummy",
+         "scaling" : 1.75850,
+         "x" : -1.4330,
+         "y" : 0.75230,
+         "z" : 0.39630
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.00050,
+         "name" : "Dummy",
+         "scaling" : 1.75850,
+         "x" : -1.43790,
+         "y" : 0.7495000000000001,
+         "z" : -2.36330
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.00050,
+         "name" : "Dummy",
+         "scaling" : 1.75850,
+         "x" : -0.18030,
+         "y" : 0.7495000000000001,
+         "z" : -1.05440
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.9150,
+         "x" : -1.7890,
+         "y" : 0.71250,
+         "z" : -1.21040
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.03780,
+         "name" : "blocker",
+         "scaling" : 2.03560,
+         "x" : 4.57510,
+         "y" : 0.8512999999999999,
+         "z" : 0.02320
+      },
+      {
+         "heading" : -1.72450,
+         "height" : -0.04750,
+         "name" : "blocker",
+         "scaling" : 2.03560,
+         "x" : 4.36770,
+         "y" : 0.85310,
+         "z" : 0.27870
+      },
+      {
+         "heading" : -1.72450,
+         "height" : -0.03620,
+         "name" : "blocker",
+         "scaling" : 2.03560,
+         "x" : 4.08530,
+         "y" : 0.84790,
+         "z" : 0.45060
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.05130,
+         "name" : "blocker",
+         "scaling" : 2.03560,
+         "x" : 3.76140,
+         "y" : 0.84940,
+         "z" : 0.52140
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.0620,
+         "name" : "blocker",
+         "scaling" : 2.03560,
+         "x" : 3.51080,
+         "y" : 0.82950,
+         "z" : 0.50060
+      },
+      {
+         "heading" : -1.72450,
+         "height" : 0.009299999999999999,
+         "name" : "blocker",
+         "scaling" : 2.03560,
+         "x" : 3.48590,
+         "y" : 0.78820,
+         "z" : -2.6250
+      },
+      {
+         "heading" : 1.96060,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -0.8520,
+         "y" : 0.71250,
+         "z" : 0.82470
+      },
+      {
+         "heading" : -0.49450,
+         "height" : 0.00190,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -1.04410,
+         "y" : 0.71440,
+         "z" : 0.70580
+      },
+      {
+         "heading" : 2.55980,
+         "height" : 0.00090,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -1.64660,
+         "y" : 0.71340,
+         "z" : 0.66950
+      },
+      {
+         "heading" : 2.97870,
+         "height" : 0.00090,
+         "name" : "Jungle Fern 2",
+         "scaling" : 1.64110,
+         "x" : -1.36320,
+         "y" : 0.71340,
+         "z" : 0.72550
+      },
+      {
+         "heading" : 2.97870,
+         "height" : 0.00090,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.64110,
+         "x" : -1.82240,
+         "y" : 0.71340,
+         "z" : 0.60630
+      },
+      {
+         "heading" : 4.98580,
+         "height" : 0.00140,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.64110,
+         "x" : -2.08340,
+         "y" : 0.71390,
+         "z" : 0.71360
+      },
+      {
+         "heading" : 3.86880,
+         "height" : 0.00320,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -2.19270,
+         "y" : 0.71570,
+         "z" : 0.66310
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.00140,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -0.86030,
+         "y" : 0.71390,
+         "z" : 0.67120
+      },
+      {
+         "heading" : 3.0950,
+         "height" : 0.00140,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.64110,
+         "x" : -1.15310,
+         "y" : 0.71390,
+         "z" : 0.76230
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00050,
+         "name" : "Desert Obelisk 01",
+         "scaling" : 2.2120,
+         "x" : -6.69060,
+         "y" : -0.00050,
+         "z" : -1.43670
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00040,
+         "name" : "Desert Obelisk 01",
+         "scaling" : 2.2120,
+         "x" : -6.68990,
+         "y" : 0.00040,
+         "z" : -0.65830
+      },
+      {
+         "heading" : 0.66840,
+         "height" : 0.00050,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.11720,
+         "x" : -5.38520,
+         "y" : 0.1880,
+         "z" : 0.00660
+      },
+      {
+         "heading" : 0.66840,
+         "height" : -0.00070,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.11720,
+         "x" : -5.40530,
+         "y" : 0.18680,
+         "z" : -3.09190
+      },
+      {
+         "heading" : 0.77960,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.84440,
+         "x" : -3.80330,
+         "y" : 0.18750,
+         "z" : 3.20490
+      },
+      {
+         "heading" : -2.13510,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.84440,
+         "x" : -4.10660,
+         "y" : 0.18750,
+         "z" : 3.19860
+      },
+      {
+         "heading" : -0.16290,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.84440,
+         "x" : -5.09290,
+         "y" : 0.18750,
+         "z" : 3.22080
+      },
+      {
+         "heading" : -0.16290,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.84440,
+         "x" : -4.91930,
+         "y" : 0.18750,
+         "z" : 3.13450
+      },
+      {
+         "heading" : -0.76210,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.84440,
+         "x" : -4.37280,
+         "y" : 0.18750,
+         "z" : 3.17950
+      },
+      {
+         "heading" : -1.4370,
+         "height" : -0.00210,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.84440,
+         "x" : -3.94860,
+         "y" : 0.18540,
+         "z" : 3.17090
+      },
+      {
+         "heading" : 0.31420,
+         "height" : 0.01340,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.84440,
+         "x" : -5.28010,
+         "y" : 0.20090,
+         "z" : 2.5890
+      },
+      {
+         "heading" : 2.52490,
+         "height" : -0.00490,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.84440,
+         "x" : -5.29970,
+         "y" : 0.18260,
+         "z" : 1.86780
+      },
+      {
+         "heading" : 0.21530,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.84440,
+         "x" : -5.22020,
+         "y" : 0.18750,
+         "z" : 3.17120
+      },
+      {
+         "heading" : 0.87270,
+         "height" : 0.00140,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.84440,
+         "x" : -3.3530,
+         "y" : 0.18890,
+         "z" : 3.22870
+      },
+      {
+         "heading" : 1.50680,
+         "height" : 0.00140,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.84440,
+         "x" : -4.59750,
+         "y" : 0.18890,
+         "z" : 3.21590
+      },
+      {
+         "heading" : 0.72720,
+         "height" : 0.00190,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.76010,
+         "x" : -2.22310,
+         "y" : 0.18940,
+         "z" : 3.26280
+      },
+      {
+         "heading" : 1.34970,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.84440,
+         "x" : -2.76350,
+         "y" : 0.18730,
+         "z" : 3.29460
+      },
+      {
+         "heading" : 0.35490,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.84440,
+         "x" : -2.89030,
+         "y" : 0.18730,
+         "z" : 3.18780
+      },
+      {
+         "heading" : 0.35490,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.84440,
+         "x" : -1.68870,
+         "y" : 0.18730,
+         "z" : 3.24140
+      },
+      {
+         "heading" : -0.22110,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.84440,
+         "x" : -1.10440,
+         "y" : 0.18730,
+         "z" : 3.20530
+      },
+      {
+         "heading" : -1.5010,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.84440,
+         "x" : -1.35560,
+         "y" : 0.18730,
+         "z" : 3.30450
+      },
+      {
+         "heading" : -1.5010,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.84440,
+         "x" : -0.45020,
+         "y" : 0.18730,
+         "z" : 3.30080
+      },
+      {
+         "heading" : -1.5010,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.84440,
+         "x" : -0.6870000000000001,
+         "y" : 0.18730,
+         "z" : 3.17630
+      },
+      {
+         "heading" : -1.5010,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.84440,
+         "x" : 0.13170,
+         "y" : 0.18730,
+         "z" : 3.3010
+      },
+      {
+         "heading" : -3.95610,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.84440,
+         "x" : 1.04730,
+         "y" : 0.18730,
+         "z" : 3.16780
+      },
+      {
+         "heading" : -4.45640,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.84440,
+         "x" : 0.69540,
+         "y" : 0.18730,
+         "z" : 3.14340
+      },
+      {
+         "heading" : -4.45640,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.84440,
+         "x" : 0.51020,
+         "y" : 0.18730,
+         "z" : 3.19870
+      },
+      {
+         "heading" : -3.87460,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.84440,
+         "x" : -0.03080,
+         "y" : 0.18730,
+         "z" : 3.12480
+      },
+      {
+         "heading" : -3.87460,
+         "height" : -0.03770,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.84440,
+         "x" : -0.55670,
+         "y" : 0.14980,
+         "z" : 3.32620
+      },
+      {
+         "heading" : -5.36980,
+         "height" : -0.00230,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 1.84440,
+         "x" : -1.84820,
+         "y" : 0.18520,
+         "z" : 3.17560
+      },
+      {
+         "heading" : -0.48290,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.84440,
+         "x" : -2.37260,
+         "y" : 0.18730,
+         "z" : 3.20960
+      },
+      {
+         "heading" : 2.90310,
+         "height" : 0.00190,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.76010,
+         "x" : -1.25610,
+         "y" : 0.18940,
+         "z" : 3.22710
+      },
+      {
+         "heading" : -0.27340,
+         "height" : 0.00190,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.76010,
+         "x" : 1.54780,
+         "y" : 0.18940,
+         "z" : 3.28050
+      },
+      {
+         "heading" : 0.50030,
+         "height" : -0.03560,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.76010,
+         "x" : 2.21070,
+         "y" : 0.15190,
+         "z" : 2.82810
+      },
+      {
+         "heading" : -3.95610,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.84440,
+         "x" : 1.39760,
+         "y" : 0.18730,
+         "z" : 3.14490
+      },
+      {
+         "heading" : -6.92310,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.84440,
+         "x" : 1.91940,
+         "y" : 0.18730,
+         "z" : 3.14660
+      },
+      {
+         "heading" : 9.05710,
+         "height" : 0.00190,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.9360000000000001,
+         "x" : 1.08520,
+         "y" : 0.41440,
+         "z" : -4.03450
+      },
+      {
+         "heading" : 10.07530,
+         "height" : -0.00270,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.9360000000000001,
+         "x" : 1.17460,
+         "y" : 0.40980,
+         "z" : -2.52910
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00540,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.9150,
+         "x" : -4.18410,
+         "y" : 0.40710,
+         "z" : -1.1930
+      },
+      {
+         "heading" : -1.01810,
+         "height" : -0.00540,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.8430,
+         "x" : -4.10370,
+         "y" : 0.40710,
+         "z" : -1.76060
+      },
+      {
+         "heading" : 12.57240,
+         "height" : -0.0120,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.9360000000000001,
+         "x" : 1.09510,
+         "y" : 0.40050,
+         "z" : 1.54990
+      },
+      {
+         "heading" : 8.731400000000001,
+         "height" : -0.04020,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.9360000000000001,
+         "x" : 1.0760,
+         "y" : 0.37230,
+         "z" : -3.26330
+      },
+      {
+         "heading" : 10.63370,
+         "height" : -0.00430,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.85540,
+         "x" : 1.10760,
+         "y" : 0.40820,
+         "z" : -1.53630
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.00140,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -1.16210,
+         "y" : 0.71390,
+         "z" : -0.32730
+      },
+      {
+         "heading" : 1.49520,
+         "height" : 0.00140,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -1.8750,
+         "y" : 0.71390,
+         "z" : -0.24180
+      },
+      {
+         "heading" : 1.49520,
+         "height" : 0.0020,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -1.32620,
+         "y" : 0.71450,
+         "z" : -0.43530
+      },
+      {
+         "heading" : 2.62960,
+         "height" : -0.03550,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.64110,
+         "x" : -1.60430,
+         "y" : 0.6770,
+         "z" : -0.18190
+      },
+      {
+         "heading" : 1.27990,
+         "height" : -0.03550,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.64110,
+         "x" : -1.73250,
+         "y" : 0.6770,
+         "z" : -0.4080
+      },
+      {
+         "heading" : 1.27990,
+         "height" : -0.03550,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -1.47930,
+         "y" : 0.6770,
+         "z" : -0.28710
+      },
+      {
+         "heading" : 3.17070,
+         "height" : -0.03550,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -1.90510,
+         "y" : 0.6770,
+         "z" : -0.44840
+      },
+      {
+         "heading" : -0.75630,
+         "height" : -0.00010,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.25270,
+         "x" : -1.13650,
+         "y" : 0.71240,
+         "z" : -0.42990
+      },
+      {
+         "heading" : -5.36980,
+         "height" : -0.00390,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 1.84440,
+         "x" : -1.89770,
+         "y" : 0.70860,
+         "z" : 0.75330
+      },
+      {
+         "heading" : -4.75310,
+         "height" : -0.00390,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 1.84440,
+         "x" : -1.58530,
+         "y" : 0.70860,
+         "z" : -0.46460
+      },
+      {
+         "heading" : -4.94510,
+         "height" : -0.02310,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.58220,
+         "x" : -0.93620,
+         "y" : 0.70850,
+         "z" : 0.58240
+      },
+      {
+         "heading" : 0.50030,
+         "height" : -0.00140,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -1.08320,
+         "y" : 0.71110,
+         "z" : -1.67480
+      },
+      {
+         "heading" : 0.50030,
+         "height" : -0.01410,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -1.35840,
+         "y" : 0.69840,
+         "z" : -1.61920
+      },
+      {
+         "heading" : 1.43110,
+         "height" : -0.01410,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -1.42180,
+         "y" : 0.69840,
+         "z" : -1.75450
+      },
+      {
+         "heading" : 0.83190,
+         "height" : -0.01410,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.64110,
+         "x" : -1.72320,
+         "y" : 0.69840,
+         "z" : -1.51860
+      },
+      {
+         "heading" : 0.83190,
+         "height" : -0.01410,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.64110,
+         "x" : -1.89180,
+         "y" : 0.69840,
+         "z" : -1.79540
+      },
+      {
+         "heading" : 2.54230,
+         "height" : -0.01410,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.64110,
+         "x" : -1.89270,
+         "y" : 0.69840,
+         "z" : -1.57050
+      },
+      {
+         "heading" : 1.4370,
+         "height" : -0.00370,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -1.61170,
+         "y" : 0.70880,
+         "z" : -1.74280
+      },
+      {
+         "heading" : -0.27350,
+         "height" : -0.00370,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -1.20960,
+         "y" : 0.70880,
+         "z" : -1.72970
+      },
+      {
+         "heading" : 0.26760,
+         "height" : -0.00370,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -1.78020,
+         "y" : 0.70880,
+         "z" : -1.39680
+      },
+      {
+         "heading" : 1.61150,
+         "height" : -0.00370,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -1.7520,
+         "y" : 0.70880,
+         "z" : -1.74740
+      },
+      {
+         "heading" : 5.88320,
+         "height" : -0.00230,
+         "name" : "Jungle Tree 03",
+         "scaling" : 1.07070,
+         "x" : -0.65960,
+         "y" : 0.41020,
+         "z" : 1.95990
+      },
+      {
+         "heading" : 5.88320,
+         "height" : -0.00230,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.07070,
+         "x" : -1.7530,
+         "y" : 0.41020,
+         "z" : 1.97560
+      },
+      {
+         "heading" : 8.27430,
+         "height" : -0.00230,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.07070,
+         "x" : -2.90780,
+         "y" : 0.41020,
+         "z" : 1.97870
+      },
+      {
+         "heading" : 5.69130,
+         "height" : -0.00230,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.92110,
+         "x" : 0.32920,
+         "y" : 0.41020,
+         "z" : 1.99630
+      },
+      {
+         "heading" : 3.5430,
+         "height" : -0.04560,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.98860,
+         "x" : -0.16840,
+         "y" : 0.66690,
+         "z" : -0.22450
+      },
+      {
+         "heading" : 9.33310,
+         "height" : -0.00280,
+         "name" : "Jungle Tree 01",
+         "scaling" : 1.07070,
+         "x" : -3.93320,
+         "y" : 0.40970,
+         "z" : 2.00160
+      },
+      {
+         "heading" : -2.63540,
+         "height" : -0.0070,
+         "name" : "Jungle Tree 02",
+         "scaling" : 0.8430,
+         "x" : -2.84920,
+         "y" : 0.70550,
+         "z" : -2.71120
+      },
+      {
+         "heading" : -0.41890,
+         "height" : -0.00050,
+         "name" : "Jungle Tree 01",
+         "scaling" : 0.9150,
+         "x" : -0.09810000000000001,
+         "y" : 0.7120,
+         "z" : -1.95730
+      },
+      {
+         "heading" : 4.14570,
+         "height" : -0.08890000000000001,
+         "name" : "Jungle Tree 03",
+         "scaling" : 0.94080,
+         "x" : 3.5070,
+         "y" : 0.70620,
+         "z" : -2.80030
+      },
+      {
+         "heading" : 0.58760,
+         "height" : -0.04480,
+         "name" : "Desert Rock Small 01",
+         "scaling" : 1.0,
+         "x" : 4.1530,
+         "y" : 0.70950,
+         "z" : 0.11390
+      },
+      {
+         "heading" : 1.43120,
+         "height" : -0.00710,
+         "name" : "Desert Rock Flat 01",
+         "scaling" : 1.0,
+         "x" : 4.15620,
+         "y" : 0.74730,
+         "z" : -0.06270000000000001
+      },
+      {
+         "heading" : 1.43120,
+         "height" : -0.01330,
+         "name" : "Desert Rock Flat 02",
+         "scaling" : 1.0,
+         "x" : 3.95580,
+         "y" : 0.7475000000000001,
+         "z" : 0.08980
+      },
+      {
+         "heading" : 7.32460,
+         "height" : -0.01720,
+         "name" : "Desert Rock Flat 03",
+         "scaling" : 1.0,
+         "x" : 3.74320,
+         "y" : 0.73920,
+         "z" : 0.15120
+      },
+      {
+         "heading" : 6.60310,
+         "height" : -0.01890,
+         "name" : "Desert Rock Small 05",
+         "scaling" : 1.21950,
+         "x" : 3.87040,
+         "y" : 0.7324000000000001,
+         "z" : 0.37480
+      },
+      {
+         "heading" : 6.60310,
+         "height" : -0.07940,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.21950,
+         "x" : 4.07760,
+         "y" : 0.7040,
+         "z" : 0.31620
+      },
+      {
+         "heading" : 6.42280,
+         "height" : -0.12860,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.21950,
+         "x" : 4.47380,
+         "y" : 0.62140,
+         "z" : -0.31770
+      },
+      {
+         "heading" : 0.25010,
+         "height" : -0.13160,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.21950,
+         "x" : 4.32410,
+         "y" : 0.62290,
+         "z" : -0.17190
+      },
+      {
+         "heading" : 3.49060,
+         "height" : -0.00730,
+         "name" : "Desert Rock Small 01",
+         "scaling" : 1.21950,
+         "x" : 4.4720,
+         "y" : 0.75530,
+         "z" : -0.09640
+      },
+      {
+         "heading" : 3.03680,
+         "height" : -0.15750,
+         "name" : "Desert Rock Med 01",
+         "scaling" : 1.21950,
+         "x" : 4.41580,
+         "y" : 0.73350,
+         "z" : 0.23980
+      },
+      {
+         "heading" : 4.47380,
+         "height" : -0.03370,
+         "name" : "Desert Rock Med 03",
+         "scaling" : 1.21950,
+         "x" : 4.76730,
+         "y" : 0.72970,
+         "z" : -0.19750
+      },
+      {
+         "heading" : 4.9160,
+         "height" : -0.16460,
+         "name" : "Desert Rock Med 03",
+         "scaling" : 1.21950,
+         "x" : 4.28070,
+         "y" : 0.6677999999999999,
+         "z" : -2.20550
+      },
+      {
+         "heading" : 6.64970,
+         "height" : -0.10450,
+         "name" : "Desert Rock Med 01",
+         "scaling" : 1.21950,
+         "x" : 3.79720,
+         "y" : 0.68210,
+         "z" : -2.4440
+      },
+      {
+         "heading" : 4.66580,
+         "height" : -0.01650,
+         "name" : "Desert Rock Flat 01",
+         "scaling" : 1.0,
+         "x" : 4.02390,
+         "y" : 0.73510,
+         "z" : -2.17830
+      },
+      {
+         "heading" : 9.989000000000001,
+         "height" : 0.00260,
+         "name" : "Desert Rock Small 06",
+         "scaling" : 1.10260,
+         "x" : 4.52090,
+         "y" : 0.75330,
+         "z" : -1.60250
+      },
+      {
+         "heading" : 8.17970,
+         "height" : -0.08090,
+         "name" : "Desert Rock Small 02",
+         "scaling" : 1.03930,
+         "x" : 4.50010,
+         "y" : 0.76250,
+         "z" : -1.91260
+      },
+      {
+         "heading" : 1.43110,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -0.87510,
+         "y" : 0.71230,
+         "z" : -2.7080
+      },
+      {
+         "heading" : 1.43110,
+         "height" : -0.03770,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -1.20680,
+         "y" : 0.67480,
+         "z" : -2.87650
+      },
+      {
+         "heading" : 1.43110,
+         "height" : -0.03770,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -1.92960,
+         "y" : 0.67480,
+         "z" : -2.75190
+      },
+      {
+         "heading" : 2.54230,
+         "height" : -0.03770,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -2.03220,
+         "y" : 0.67480,
+         "z" : -2.80570
+      },
+      {
+         "heading" : 3.67680,
+         "height" : -0.0460,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.64110,
+         "x" : -2.21360,
+         "y" : 0.66650,
+         "z" : -2.67670
+      },
+      {
+         "heading" : 1.09370,
+         "height" : -0.0460,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -1.50790,
+         "y" : 0.66650,
+         "z" : -2.6970
+      },
+      {
+         "heading" : 0.69230,
+         "height" : -0.00160,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -1.02070,
+         "y" : 0.71090,
+         "z" : -2.81340
+      },
+      {
+         "heading" : 2.75760,
+         "height" : -0.00160,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -1.67760,
+         "y" : 0.71090,
+         "z" : -2.85910
+      },
+      {
+         "heading" : 2.01290,
+         "height" : -0.00160,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.42950,
+         "x" : -2.17120,
+         "y" : 0.71090,
+         "z" : -2.84480
+      },
+      {
+         "heading" : 2.75760,
+         "height" : 0.00020,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -1.3620,
+         "y" : 0.71270,
+         "z" : -2.79160
+      },
+      {
+         "heading" : 4.52620,
+         "height" : 0.00020,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -1.8030,
+         "y" : 0.71270,
+         "z" : -2.77150
+      },
+      {
+         "heading" : 3.67680,
+         "height" : 0.00020,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.64110,
+         "x" : -0.8310999999999999,
+         "y" : 0.71270,
+         "z" : -2.86930
+      },
+      {
+         "heading" : 7.04860,
+         "height" : -0.0010,
+         "name" : "Jungle Fallen Branch 02",
+         "scaling" : 1.06160,
+         "x" : -1.42250,
+         "y" : 0.71150,
+         "z" : -2.74970
+      },
+      {
+         "heading" : 4.1940,
+         "height" : 0.00370,
+         "name" : "Jungle Fallen Branch 04",
+         "scaling" : 1.06160,
+         "x" : -5.42960,
+         "y" : 0.19120,
+         "z" : -2.03890
+      },
+      {
+         "heading" : 2.54230,
+         "height" : -0.00070,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -3.65440,
+         "y" : 0.41180,
+         "z" : -3.96050
+      },
+      {
+         "heading" : 3.26960,
+         "height" : -0.00070,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.64110,
+         "x" : -4.20390,
+         "y" : 0.41180,
+         "z" : -3.95080
+      },
+      {
+         "heading" : 3.26960,
+         "height" : -0.00070,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -3.88850,
+         "y" : 0.41180,
+         "z" : -4.12760
+      },
+      {
+         "heading" : 3.26960,
+         "height" : -0.00070,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -3.70650,
+         "y" : 0.41180,
+         "z" : -4.06650
+      },
+      {
+         "heading" : 2.2340,
+         "height" : -0.01140,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 1.64110,
+         "x" : -4.14540,
+         "y" : 0.40110,
+         "z" : -4.08890
+      },
+      {
+         "heading" : 0.77960,
+         "height" : -0.00130,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -4.00130,
+         "y" : 0.41120,
+         "z" : -4.04460
+      },
+      {
+         "heading" : -5.4920,
+         "height" : -0.00020,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.70140,
+         "x" : 1.09660,
+         "y" : 0.41230,
+         "z" : 1.11480
+      },
+      {
+         "heading" : -5.4920,
+         "height" : 0.0005999999999999999,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.70140,
+         "x" : 1.04550,
+         "y" : 0.41310,
+         "z" : -0.09890
+      },
+      {
+         "heading" : -3.74660,
+         "height" : 0.0005999999999999999,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.70140,
+         "x" : 0.69780,
+         "y" : 0.41310,
+         "z" : 1.93420
+      },
+      {
+         "heading" : -4.59020,
+         "height" : 0.0005999999999999999,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.70140,
+         "x" : -0.04220,
+         "y" : 0.41310,
+         "z" : 1.97660
+      },
+      {
+         "heading" : -5.28830,
+         "height" : 0.0005999999999999999,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 1.70140,
+         "x" : -0.94140,
+         "y" : 0.41310,
+         "z" : 1.93550
+      },
+      {
+         "heading" : -5.28830,
+         "height" : 0.0005999999999999999,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.70140,
+         "x" : -1.58950,
+         "y" : 0.41310,
+         "z" : 1.94180
+      },
+      {
+         "heading" : -5.28830,
+         "height" : 0.0005999999999999999,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.70140,
+         "x" : -1.12720,
+         "y" : 0.41310,
+         "z" : 1.96170
+      },
+      {
+         "heading" : -8.947699999999999,
+         "height" : 0.0080,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.70140,
+         "x" : -1.4010,
+         "y" : 0.42050,
+         "z" : 1.9310
+      },
+      {
+         "heading" : -5.28830,
+         "height" : 0.00150,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.70140,
+         "x" : -0.19150,
+         "y" : 0.4140,
+         "z" : 2.01710
+      },
+      {
+         "heading" : -6.17850,
+         "height" : 0.00150,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.70140,
+         "x" : -0.41630,
+         "y" : 0.4140,
+         "z" : 1.94240
+      },
+      {
+         "heading" : -3.60120,
+         "height" : 0.00150,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.70140,
+         "x" : 0.09920,
+         "y" : 0.4140,
+         "z" : 1.90820
+      },
+      {
+         "heading" : -3.07760,
+         "height" : 0.00150,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.70140,
+         "x" : 0.93390,
+         "y" : 0.4140,
+         "z" : 1.23780
+      },
+      {
+         "heading" : -3.07760,
+         "height" : 0.00260,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.70140,
+         "x" : 0.99720,
+         "y" : 0.41510,
+         "z" : 0.89490
+      },
+      {
+         "heading" : 3.14160,
+         "height" : -0.00160,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -0.06980,
+         "y" : 0.71090,
+         "z" : -0.72750
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.00420,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -0.29660,
+         "y" : 0.71670,
+         "z" : -0.73680
+      },
+      {
+         "heading" : 3.06590,
+         "height" : 0.00420,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.64110,
+         "x" : -0.16930,
+         "y" : 0.71670,
+         "z" : -0.7939000000000001
+      },
+      {
+         "heading" : 4.60760,
+         "height" : -0.02380,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.64110,
+         "x" : -0.23590,
+         "y" : 0.68870,
+         "z" : 0.14730
+      },
+      {
+         "heading" : 4.60760,
+         "height" : 0.00440,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -0.07360,
+         "y" : 0.71690,
+         "z" : 0.08820
+      },
+      {
+         "heading" : 0.83190,
+         "height" : 0.01530,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.64110,
+         "x" : -2.71930,
+         "y" : 0.72780,
+         "z" : -2.04820
+      },
+      {
+         "heading" : 1.06460,
+         "height" : 0.0040,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.64110,
+         "x" : -2.97110,
+         "y" : 0.71650,
+         "z" : -2.05710
+      },
+      {
+         "heading" : 1.06460,
+         "height" : 0.0040,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -2.86380,
+         "y" : 0.71650,
+         "z" : -2.1820
+      },
+      {
+         "heading" : -0.55850,
+         "height" : 0.0040,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.64110,
+         "x" : -2.75680,
+         "y" : 0.71650,
+         "z" : -2.8770
+      },
+      {
+         "heading" : -0.91920,
+         "height" : -0.03260,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.64110,
+         "x" : -2.9450,
+         "y" : 0.6798999999999999,
+         "z" : -2.85080
+      },
+      {
+         "heading" : -1.23920,
+         "height" : -0.00040,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.64110,
+         "x" : -0.2670,
+         "y" : 0.71210,
+         "z" : -2.07060
+      },
+      {
+         "heading" : -1.23920,
+         "height" : -0.03790,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -0.03150,
+         "y" : 0.67460,
+         "z" : -2.11910
+      },
+      {
+         "heading" : -1.65810,
+         "height" : 0.01930,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -0.19320,
+         "y" : 0.73620,
+         "z" : -2.13510
+      },
+      {
+         "heading" : 3.06590,
+         "height" : 0.00140,
+         "name" : "Jungle Plant 2 2",
+         "scaling" : 1.64110,
+         "x" : -0.06809999999999999,
+         "y" : 0.71390,
+         "z" : -1.40260
+      },
+      {
+         "heading" : 8.65610,
+         "height" : -0.00070,
+         "name" : "Jungle Fallen Branch 03",
+         "scaling" : 1.06160,
+         "x" : -2.02020,
+         "y" : 0.71180,
+         "z" : 0.79710
+      },
+      {
+         "heading" : 1.71040,
+         "height" : -0.00280,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -2.72060,
+         "y" : 0.70970,
+         "z" : 0.8010
+      },
+      {
+         "heading" : 3.29280,
+         "height" : -0.04030,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -2.75550,
+         "y" : 0.67220,
+         "z" : -0.07340000000000001
+      },
+      {
+         "heading" : 3.29280,
+         "height" : -0.04030,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -2.98650,
+         "y" : 0.67220,
+         "z" : -0.09940
+      },
+      {
+         "heading" : 3.29280,
+         "height" : 0.01250,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -2.98560,
+         "y" : 0.7250,
+         "z" : 0.43520
+      },
+      {
+         "heading" : 3.77570,
+         "height" : 0.00130,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -2.80270,
+         "y" : 0.71380,
+         "z" : 0.41410
+      },
+      {
+         "heading" : 2.78090,
+         "height" : 0.00130,
+         "name" : "Jungle Plant 2 3",
+         "scaling" : 1.64110,
+         "x" : -2.9120,
+         "y" : 0.71380,
+         "z" : 0.84540
+      },
+      {
+         "heading" : -1.59990,
+         "height" : 0.00130,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.71010,
+         "x" : -2.87070,
+         "y" : 0.71380,
+         "z" : 0.07520
+      },
+      {
+         "heading" : 3.29280,
+         "height" : 0.01290,
+         "name" : "Jungle Plant 1 1",
+         "scaling" : 1.64110,
+         "x" : -3.99190,
+         "y" : 0.42540,
+         "z" : -0.41410
+      },
+      {
+         "heading" : 1.41370,
+         "height" : -0.00540,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.64110,
+         "x" : -4.28440,
+         "y" : 0.40710,
+         "z" : -0.4040
+      },
+      {
+         "heading" : 3.33360,
+         "height" : -0.00070,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -4.1050,
+         "y" : 0.41180,
+         "z" : -0.47130
+      },
+      {
+         "heading" : 5.2360,
+         "height" : -0.00070,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -3.9660,
+         "y" : 0.41180,
+         "z" : -1.23820
+      },
+      {
+         "heading" : -8.947699999999999,
+         "height" : 0.0080,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.70140,
+         "x" : -2.09510,
+         "y" : 0.42050,
+         "z" : 2.02060
+      },
+      {
+         "heading" : -5.28830,
+         "height" : 0.0005999999999999999,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.70140,
+         "x" : -2.6710,
+         "y" : 0.41310,
+         "z" : 2.00110
+      },
+      {
+         "heading" : -5.28830,
+         "height" : 0.0005999999999999999,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.70140,
+         "x" : -2.00510,
+         "y" : 0.41310,
+         "z" : 1.9830
+      },
+      {
+         "heading" : -4.60180,
+         "height" : 0.0005999999999999999,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.70140,
+         "x" : -2.52610,
+         "y" : 0.41310,
+         "z" : 1.96140
+      },
+      {
+         "heading" : -5.65490,
+         "height" : -0.00130,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.70140,
+         "x" : -2.30580,
+         "y" : 0.41120,
+         "z" : 1.93780
+      },
+      {
+         "heading" : -6.71370,
+         "height" : -0.0020,
+         "name" : "Jungle Fern 1",
+         "scaling" : 1.70140,
+         "x" : -1.28290,
+         "y" : 0.41050,
+         "z" : 1.9830
+      },
+      {
+         "heading" : -0.23270,
+         "height" : 0.00440,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.64110,
+         "x" : -5.53170,
+         "y" : 0.19190,
+         "z" : -0.15060
+      },
+      {
+         "heading" : 1.41370,
+         "height" : 0.01080,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -5.26310,
+         "y" : 0.19830,
+         "z" : -0.10990
+      },
+      {
+         "heading" : -0.23270,
+         "height" : 0.00340,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.64110,
+         "x" : -5.35230,
+         "y" : 0.19090,
+         "z" : -2.0920
+      },
+      {
+         "heading" : -0.23270,
+         "height" : -0.03410,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.64110,
+         "x" : -5.52440,
+         "y" : 0.15340,
+         "z" : -1.90870
+      },
+      {
+         "heading" : -0.23270,
+         "height" : 0.00250,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.64110,
+         "x" : -5.31430,
+         "y" : 0.190,
+         "z" : -2.27620
+      },
+      {
+         "heading" : -0.37820,
+         "height" : 0.01270,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.64110,
+         "x" : -5.24430,
+         "y" : 0.20020,
+         "z" : -3.24170
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00070,
+         "name" : "Desert Obelisk 01",
+         "scaling" : 1.38410,
+         "x" : -0.64790,
+         "y" : 0.74930,
+         "z" : 0.9640
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00140,
+         "name" : "Desert Obelisk 01",
+         "scaling" : 1.38410,
+         "x" : 0.03630,
+         "y" : 0.74860,
+         "z" : 0.30790
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00090,
+         "name" : "Desert Obelisk 01",
+         "scaling" : 1.38410,
+         "x" : 0.03630,
+         "y" : 0.74910,
+         "z" : -2.26150
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00020,
+         "name" : "Desert Obelisk 01",
+         "scaling" : 1.38410,
+         "x" : -0.66810,
+         "y" : 0.74980,
+         "z" : -2.93930
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00120,
+         "name" : "Desert Obelisk 01",
+         "scaling" : 1.38410,
+         "x" : -1.46130,
+         "y" : 0.74880,
+         "z" : -0.6310
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00070,
+         "name" : "Desert Obelisk 01",
+         "scaling" : 1.38410,
+         "x" : -1.49360,
+         "y" : 0.74930,
+         "z" : -1.33380
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00520,
+         "name" : "Desert Obelisk 01",
+         "scaling" : 2.19550,
+         "x" : 3.71350,
+         "y" : 0.7465000000000001,
+         "z" : -0.77830
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00590,
+         "name" : "Desert Obelisk 01",
+         "scaling" : 2.19550,
+         "x" : 3.72950,
+         "y" : 0.75610,
+         "z" : -1.34470
+      },
+      {
+         "heading" : -4.60180,
+         "height" : 0.0005999999999999999,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.70140,
+         "x" : -3.63280,
+         "y" : 0.41310,
+         "z" : 1.90840
+      },
+      {
+         "heading" : -5.57920,
+         "height" : -0.0005999999999999999,
+         "name" : "Jungle Plant 2 1",
+         "scaling" : 1.70140,
+         "x" : -4.22640,
+         "y" : 0.41190,
+         "z" : 1.91170
+      },
+      {
+         "heading" : -5.57920,
+         "height" : -0.0005999999999999999,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.70140,
+         "x" : -4.06150,
+         "y" : 0.41190,
+         "z" : 1.92760
+      },
+      {
+         "heading" : -6.46930,
+         "height" : -0.0005999999999999999,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.70140,
+         "x" : -3.81310,
+         "y" : 0.41190,
+         "z" : 1.91560
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.01750,
+         "name" : "blocker",
+         "scaling" : 1.03030,
+         "x" : -6.6940,
+         "y" : 0.0640,
+         "z" : -0.82950
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.02880,
+         "name" : "blocker",
+         "scaling" : 1.03030,
+         "x" : -6.69410,
+         "y" : 0.07530000000000001,
+         "z" : -0.97670
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.03250,
+         "name" : "blocker",
+         "scaling" : 1.03030,
+         "x" : -6.6960,
+         "y" : 0.07870000000000001,
+         "z" : -1.12310
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.01670,
+         "name" : "blocker",
+         "scaling" : 1.03030,
+         "x" : -6.69920,
+         "y" : 0.06260,
+         "z" : -1.26440
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -2.47920,
+         "y" : 0.750,
+         "z" : 0.93630
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.19140,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -2.47940,
+         "y" : 0.94140,
+         "z" : 0.9320000000000001
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -2.46640,
+         "y" : 0.750,
+         "z" : -2.94040
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.19420,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -2.46690,
+         "y" : 0.94420,
+         "z" : -2.94370
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -5.08160,
+         "y" : 0.2250,
+         "z" : -0.19520
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.19330,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -5.08070,
+         "y" : 0.41830,
+         "z" : -0.19860
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -5.09270,
+         "y" : 0.2250,
+         "z" : -1.7830
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.1970,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -5.09240,
+         "y" : 0.4220,
+         "z" : -1.78960
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -3.54950,
+         "y" : 0.450,
+         "z" : 1.68120
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18960,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -3.55260,
+         "y" : 0.6395999999999999,
+         "z" : 1.67330
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -3.53810,
+         "y" : 0.450,
+         "z" : -3.6580
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.19680,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -3.53870,
+         "y" : 0.64680,
+         "z" : -3.66080
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.38410,
+         "x" : -3.04010,
+         "y" : 0.750,
+         "z" : -0.34010
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.38410,
+         "x" : -3.0280,
+         "y" : 0.750,
+         "z" : -1.76810
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.19510,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -3.02990,
+         "y" : 0.9451000000000001,
+         "z" : -1.77140
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.19560,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -3.04150,
+         "y" : 0.94560,
+         "z" : -0.340
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.70,
+            "col_red" : 1.250,
+            "radius0" : 0.20,
+            "radius1" : 1.10
+         },
+         "scaling" : 1.85270,
+         "x" : 0.03820,
+         "y" : 0.750,
+         "z" : 0.95640
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.25580,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.04070,
+         "y" : 1.00580,
+         "z" : 0.96730
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.70,
+            "col_red" : 1.250,
+            "radius0" : 0.20,
+            "radius1" : 1.10
+         },
+         "scaling" : 2.22890,
+         "x" : 0.03440,
+         "y" : 0.750,
+         "z" : -2.94420
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.3030,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.03490,
+         "y" : 1.0530,
+         "z" : -2.93960
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18770,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.0340,
+         "y" : 0.93770,
+         "z" : -0.87830
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18890,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.03610,
+         "y" : 0.93890,
+         "z" : -1.23810
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.24910,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.70,
+            "col_red" : 1.250,
+            "radius0" : 0.20,
+            "radius1" : 0.850
+         },
+         "scaling" : 1.0,
+         "x" : -0.02980,
+         "y" : 0.99910,
+         "z" : -1.04140
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 0.03520,
+         "y" : 0.750,
+         "z" : -0.87670
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 0.03670,
+         "y" : 0.750,
+         "z" : -1.23880
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -1.49220,
+         "y" : 0.750,
+         "z" : -0.99660
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.13630,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -1.49240,
+         "y" : 0.88630,
+         "z" : -0.9970
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03610,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 0.80850,
+         "x" : -2.47780,
+         "y" : 0.750,
+         "z" : -0.65410
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 0.80850,
+         "x" : -2.48310,
+         "y" : 0.750,
+         "z" : -1.47910
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03610,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -2.47780,
+         "y" : 0.750,
+         "z" : -0.65410
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.03610,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -2.47780,
+         "y" : 0.750,
+         "z" : -0.65410
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.03610,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -2.47780,
+         "y" : 0.750,
+         "z" : -0.65410
+      },
+      {
+         "heading" : 7.8540,
+         "height" : 0.03610,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -2.47780,
+         "y" : 0.750,
+         "z" : -0.65410
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -2.48310,
+         "y" : 0.750,
+         "z" : -1.47910
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -2.48310,
+         "y" : 0.750,
+         "z" : -1.47910
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -2.48310,
+         "y" : 0.750,
+         "z" : -1.47910
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -2.48310,
+         "y" : 0.750,
+         "z" : -1.47910
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 0.80850,
+         "x" : -3.67910,
+         "y" : 0.450,
+         "z" : -0.04230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -3.67910,
+         "y" : 0.450,
+         "z" : -0.04230
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -3.67910,
+         "y" : 0.450,
+         "z" : -0.04230
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -3.67910,
+         "y" : 0.450,
+         "z" : -0.04230
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -3.67910,
+         "y" : 0.450,
+         "z" : -0.04230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 0.80850,
+         "x" : -3.67210,
+         "y" : 0.450,
+         "z" : -2.05270
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -3.67210,
+         "y" : 0.450,
+         "z" : -2.05270
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -3.67210,
+         "y" : 0.450,
+         "z" : -2.05270
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -3.67210,
+         "y" : 0.450,
+         "z" : -2.05270
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -3.67210,
+         "y" : 0.450,
+         "z" : -2.05270
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 0.80850,
+         "x" : -4.94390,
+         "y" : 0.2250,
+         "z" : -0.51250
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -4.94390,
+         "y" : 0.2250,
+         "z" : -0.51250
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -4.94390,
+         "y" : 0.2250,
+         "z" : -0.51250
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -4.94390,
+         "y" : 0.2250,
+         "z" : -0.51250
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -4.94390,
+         "y" : 0.2250,
+         "z" : -0.51250
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 0.80850,
+         "x" : -4.93650,
+         "y" : 0.2250,
+         "z" : -1.50670
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -4.93650,
+         "y" : 0.2250,
+         "z" : -1.50670
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -4.93650,
+         "y" : 0.2250,
+         "z" : -1.50670
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -4.93650,
+         "y" : 0.2250,
+         "z" : -1.50670
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -4.93650,
+         "y" : 0.2250,
+         "z" : -1.50670
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.33750,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 1.0,
+         "x" : 0.28360,
+         "y" : 0.750,
+         "z" : -1.06320
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.30,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 1.0,
+         "x" : 0.67430,
+         "y" : 0.750,
+         "z" : -1.06320
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.33750,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 1.0,
+         "x" : 1.06490,
+         "y" : 0.750,
+         "z" : -1.06320
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.56250,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 1.0,
+         "x" : 1.45550,
+         "y" : 0.750,
+         "z" : -1.06320
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.56250,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 1.0,
+         "x" : 2.28970,
+         "y" : 0.750,
+         "z" : -1.05270
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.750,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 1.0,
+         "x" : 2.68030,
+         "y" : 0.750,
+         "z" : -1.05270
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.24760,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 1.0,
+         "x" : 3.07090,
+         "y" : 0.750,
+         "z" : -1.05270
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.0120,
+         "name" : "Jungle Stone Bridge 01 Segment 01",
+         "scaling" : 1.0,
+         "x" : 3.46160,
+         "y" : 0.750,
+         "z" : -1.05270
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.33750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.28360,
+         "y" : 0.750,
+         "z" : -1.06320
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.33750,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.28360,
+         "y" : 0.750,
+         "z" : -1.06320
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.56250,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : 1.45550,
+         "y" : 0.750,
+         "z" : -1.06320
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.56250,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : 1.45550,
+         "y" : 0.750,
+         "z" : -1.06320
+      },
+      {
+         "heading" : 7.8540,
+         "height" : 0.56250,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : 2.28970,
+         "y" : 0.750,
+         "z" : -1.05270
+      },
+      {
+         "heading" : 9.424799999999999,
+         "height" : 0.56250,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : 2.28970,
+         "y" : 0.750,
+         "z" : -1.05270
+      },
+      {
+         "heading" : 10.99560,
+         "height" : 0.0120,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : 3.46160,
+         "y" : 0.750,
+         "z" : -1.05270
+      },
+      {
+         "heading" : 12.56640,
+         "height" : 0.0120,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : 3.46160,
+         "y" : 0.750,
+         "z" : -1.05270
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Jungle Pillar 03",
+         "scaling" : 1.0,
+         "x" : 0.67010,
+         "y" : 0.450,
+         "z" : -1.23280
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02440,
+         "name" : "Jungle Pillar 03",
+         "scaling" : 1.0,
+         "x" : 0.67110,
+         "y" : 0.47440,
+         "z" : -0.88970
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.41090,
+         "name" : "Jungle Pillar 03",
+         "scaling" : 1.22230,
+         "x" : 0.11370,
+         "y" : 0.33910,
+         "z" : -1.23660
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.41090,
+         "name" : "Jungle Pillar 03",
+         "scaling" : 1.22230,
+         "x" : 0.11390,
+         "y" : 0.33910,
+         "z" : -0.90150
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Square 01",
+         "scaling" : 1.0,
+         "x" : 0.68750,
+         "y" : 0.450,
+         "z" : -0.85870
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Square 01",
+         "scaling" : 1.0,
+         "x" : 0.6689000000000001,
+         "y" : 0.450,
+         "z" : -1.23410
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Square 02",
+         "scaling" : 1.0,
+         "x" : 0.1810,
+         "y" : 0.41250,
+         "z" : -0.93390
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Square 02",
+         "scaling" : 1.0,
+         "x" : 0.1820,
+         "y" : 0.41250,
+         "z" : -1.24120
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.17940,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.20310,
+         "y" : 0.4680,
+         "z" : 0.81590
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.06469999999999999,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.20310,
+         "y" : 0.4680,
+         "z" : 1.20650
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.0180,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.20310,
+         "y" : 0.4680,
+         "z" : 1.59710
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.05550,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.20310,
+         "y" : 0.4680,
+         "z" : 1.98770
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.17940,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -4.20310,
+         "y" : 0.4680,
+         "z" : 0.81590
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.08119999999999999,
+         "name" : "Jungle Pillar 02",
+         "scaling" : 1.20780,
+         "x" : -4.37580,
+         "y" : 0.22490,
+         "z" : 0.6114000000000001
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.05550,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -4.20310,
+         "y" : 0.4680,
+         "z" : 1.98770
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.70980,
+         "y" : 0.450,
+         "z" : 1.08650
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.70980,
+         "y" : 0.450,
+         "z" : 0.69590
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.70980,
+         "y" : 0.450,
+         "z" : 0.30530
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.31920,
+         "y" : 0.450,
+         "z" : 1.86780
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.31920,
+         "y" : 0.450,
+         "z" : 1.47710
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.31920,
+         "y" : 0.450,
+         "z" : 1.08650
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.31920,
+         "y" : 0.450,
+         "z" : 0.69590
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.31920,
+         "y" : 0.450,
+         "z" : 0.30530
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.05550,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.30140,
+         "y" : 0.4680,
+         "z" : -0.70160
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.05550,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.30140,
+         "y" : 0.4680,
+         "z" : -0.38250
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.05550,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -3.30060,
+         "y" : 0.4680,
+         "z" : -0.69530
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.05550,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.30220,
+         "y" : 0.4680,
+         "z" : -1.55270
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.05550,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -3.30060,
+         "y" : 0.4680,
+         "z" : -1.63360
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.05550,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -3.30210,
+         "y" : 0.4680,
+         "z" : -1.48440
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.63960,
+         "y" : 0.450,
+         "z" : -2.3670
+      },
+      {
+         "heading" : 3.14160,
+         "height" : -0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.68680,
+         "y" : 0.450,
+         "z" : -2.38110
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.68680,
+         "y" : 0.450,
+         "z" : -2.77170
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.68680,
+         "y" : 0.450,
+         "z" : -3.16230
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -3.70980,
+         "y" : 0.450,
+         "z" : 1.08650
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.63960,
+         "y" : 0.450,
+         "z" : -2.75770
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.63960,
+         "y" : 0.450,
+         "z" : -3.14830
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.63960,
+         "y" : 0.450,
+         "z" : -3.53890
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -3.63960,
+         "y" : 0.450,
+         "z" : -3.92950
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.03960,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -3.64160,
+         "y" : 0.45210,
+         "z" : -3.9750
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -3.68680,
+         "y" : 0.450,
+         "z" : -3.16230
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.13140,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.20540,
+         "y" : 0.44670,
+         "z" : -2.88470
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.02140,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.20540,
+         "y" : 0.44660,
+         "z" : -3.27530
+      },
+      {
+         "heading" : 3.14160,
+         "height" : -0.00330,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.20540,
+         "y" : 0.44670,
+         "z" : -3.6660
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.03420,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.20540,
+         "y" : 0.44670,
+         "z" : -4.05660
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.13140,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -4.20540,
+         "y" : 0.44670,
+         "z" : -2.88470
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -2.48310,
+         "y" : 0.750,
+         "z" : -1.79050
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -2.48310,
+         "y" : 0.750,
+         "z" : -2.05260
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -2.16430,
+         "y" : 0.750,
+         "z" : -2.34740
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -1.84850,
+         "y" : 0.750,
+         "z" : -2.34740
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -1.53260,
+         "y" : 0.750,
+         "z" : -2.34740
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -1.21680,
+         "y" : 0.750,
+         "z" : -2.34740
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -0.9010,
+         "y" : 0.750,
+         "z" : -2.34740
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -2.20230,
+         "y" : 0.750,
+         "z" : -2.34520
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -2.48110,
+         "y" : 0.750,
+         "z" : -0.90950
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -2.48110,
+         "y" : 0.750,
+         "z" : -1.22530
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -0.5810,
+         "y" : 0.750,
+         "z" : -2.3440
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -2.47470,
+         "y" : 0.750,
+         "z" : -0.29150
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -2.47470,
+         "y" : 0.750,
+         "z" : 0.02430
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -2.47480,
+         "y" : 0.750,
+         "z" : 0.07710
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.0,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -2.15620,
+         "y" : 0.750,
+         "z" : 0.34860
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -1.84040,
+         "y" : 0.750,
+         "z" : 0.34860
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -1.52460,
+         "y" : 0.750,
+         "z" : 0.34860
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -1.20870,
+         "y" : 0.750,
+         "z" : 0.34860
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -0.89290,
+         "y" : 0.750,
+         "z" : 0.34860
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.01170,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 0.80850,
+         "x" : -0.84840,
+         "y" : 0.76170,
+         "z" : 0.34050
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.0,
+         "x" : -6.5060,
+         "y" : 0.00670,
+         "z" : 2.22850
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00210,
+         "name" : "Desert Rock Small 05",
+         "scaling" : 1.0,
+         "x" : -7.2120,
+         "y" : 0.02130,
+         "z" : 1.02370
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -0.57070,
+         "y" : 0.750,
+         "z" : 0.03260
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -0.57070,
+         "y" : 0.750,
+         "z" : -0.28320
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -0.57070,
+         "y" : 0.750,
+         "z" : -0.59910
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -0.56880,
+         "y" : 0.750,
+         "z" : -2.01890
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -0.56880,
+         "y" : 0.750,
+         "z" : -1.70310
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.00010,
+         "name" : "Jungle Stone Bridge 01 Railing",
+         "scaling" : 0.80850,
+         "x" : -0.56870,
+         "y" : 0.75010,
+         "z" : -1.4440
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04030,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.8826000000000001,
+         "y" : 0.79030,
+         "z" : -1.01170
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00280,
+         "name" : "Jungle Stone Bridge 01 Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.88060,
+         "y" : 0.79030,
+         "z" : -1.46040
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Square 01",
+         "opacity" : 0.90,
+         "scaling" : 0.67980,
+         "x" : -0.70520,
+         "y" : 0.750,
+         "z" : -0.86630
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Square 01",
+         "opacity" : 0.90,
+         "scaling" : 0.67980,
+         "x" : -0.69230,
+         "y" : 0.80920,
+         "z" : -1.3020
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02710,
+         "name" : "Graveyard Fence 01",
+         "scaling" : 1.2190,
+         "x" : 1.78220,
+         "y" : 0.72290,
+         "z" : -0.85340
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02710,
+         "name" : "Graveyard Fence 01",
+         "scaling" : 1.2190,
+         "x" : 2.02030,
+         "y" : 0.72290,
+         "z" : -0.85340
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02710,
+         "name" : "Graveyard Fence 01",
+         "scaling" : 1.2190,
+         "x" : 2.00540,
+         "y" : 0.72290,
+         "z" : -1.2260
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02710,
+         "name" : "Graveyard Fence 01",
+         "scaling" : 1.2190,
+         "x" : 1.76730,
+         "y" : 0.72290,
+         "z" : -1.2260
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.2560,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.70,
+            "col_red" : 1.250,
+            "radius0" : 0.20,
+            "radius1" : 0.850
+         },
+         "scaling" : 1.0,
+         "x" : 1.8860,
+         "y" : 1.0060,
+         "z" : -1.00450
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.26520,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.70,
+            "col_red" : 1.250,
+            "radius0" : 0.20,
+            "radius1" : 0.850
+         },
+         "scaling" : 1.0,
+         "x" : 3.80080,
+         "y" : 1.01520,
+         "z" : -1.02140
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 2.03830,
+         "y" : 0.750,
+         "z" : -0.8810
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 1.7140,
+         "y" : 0.750,
+         "z" : -0.8866000000000001
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 2.03490,
+         "y" : 0.750,
+         "z" : -1.16650
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 1.7150,
+         "y" : 0.750,
+         "z" : -1.17210
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20930,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 2.03670,
+         "y" : 0.95930,
+         "z" : -0.89180
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20120,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 1.71210,
+         "y" : 0.95120,
+         "z" : -0.89180
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.19720,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 1.71210,
+         "y" : 0.94720,
+         "z" : -1.170
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20210,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 2.03490,
+         "y" : 0.9520999999999999,
+         "z" : -1.16650
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 3.85770,
+         "y" : 0.75020,
+         "z" : -0.82220
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 3.86360,
+         "y" : 0.7635999999999999,
+         "z" : -1.33020
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.19740,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 3.85590,
+         "y" : 0.94770,
+         "z" : -0.82050
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.19740,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 3.86140,
+         "y" : 0.9612000000000001,
+         "z" : -1.33770
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pillars_of_nirgal_1",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : -3.12410,
+         "height" : -0.0110,
+         "name" : "Desert Tower 01",
+         "scaling" : 1.0,
+         "x" : -4.81110,
+         "y" : 0.2140,
+         "z" : -3.27260
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pillars_of_nirgal_2",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : -6.24820,
+         "height" : -0.0110,
+         "name" : "Desert Tower 01",
+         "scaling" : 1.0,
+         "x" : -4.86730,
+         "y" : 0.2140,
+         "z" : 1.16890
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pillars_of_nirgal_3",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : -6.24820,
+         "height" : -0.03150,
+         "name" : "Desert Tower 01",
+         "scaling" : 1.0,
+         "x" : -0.38250,
+         "y" : 0.71850,
+         "z" : 0.89760
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pillars_of_nirgal_4",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : -6.24820,
+         "height" : -0.00580,
+         "name" : "Desert Tower 01",
+         "scaling" : 1.0,
+         "x" : -0.03890,
+         "y" : 0.74420,
+         "z" : -2.58360
+      },
+      {
+         "gameObject" : "AreaTrigger",
+         "gameObjectParams" : {
+            "enterEvent" : "intelligent_species",
+            "leaveEvent" : "",
+            "triggerOnce" : true,
+            "triggerRadius" : 1.0
+         },
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "trigger" : "intelligent_species",
+         "x" : -4.87170,
+         "y" : 0.2250,
+         "z" : -0.95520
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pick_flowers",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Jungle Flower 1 1",
+         "scaling" : 1.0,
+         "x" : -4.26010,
+         "y" : 0.450,
+         "z" : 1.77540
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pick_flowers",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "name" : "Jungle Flower 1 1",
+         "scaling" : 1.0,
+         "x" : -2.66610,
+         "y" : 0.450,
+         "z" : 1.79920
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pick_flowers",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Flower 1 1",
+         "scaling" : 1.0,
+         "x" : -0.20340,
+         "y" : 0.750,
+         "z" : -0.310
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pick_flowers",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Jungle Flower 1 1",
+         "scaling" : 1.0,
+         "x" : -2.33620,
+         "y" : 0.750,
+         "z" : 0.62090
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pick_flowers",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Jungle Flower 1 1",
+         "scaling" : 1.0,
+         "x" : -2.20870,
+         "y" : 0.750,
+         "z" : -2.48830
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pick_flowers",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Jungle Flower 1 1",
+         "scaling" : 1.0,
+         "x" : -0.40640,
+         "y" : 0.750,
+         "z" : -1.85540
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pick_flowers",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Flower 1 1",
+         "scaling" : 1.0,
+         "x" : -3.83850,
+         "y" : 0.48750,
+         "z" : -1.47370
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pick_flowers",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "height" : 0.03750,
+         "name" : "Jungle Flower 1 1",
+         "scaling" : 1.0,
+         "x" : -5.07970,
+         "y" : 0.26250,
+         "z" : -2.4510
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : [
+      {
+         "name" : "Spawn Point 0",
+         "x" : -5.11440,
+         "y" : 0.2250,
+         "z" : 0.13270
+      },
+      {
+         "name" : "Spawn Point 1",
+         "x" : -5.11080,
+         "y" : 0.2250,
+         "z" : -2.08880
+      },
+      {
+         "name" : "Spawn Point 3",
+         "x" : -3.94980,
+         "y" : 0.450,
+         "z" : 1.78940
+      },
+      {
+         "name" : "Spawn Point 3",
+         "x" : -3.91030,
+         "y" : 0.450,
+         "z" : -3.71740
+      },
+      {
+         "name" : "Spawn Point 4",
+         "x" : -3.85740,
+         "y" : 0.450,
+         "z" : -0.4740
+      },
+      {
+         "name" : "Spawn Point 5",
+         "x" : -3.83840,
+         "y" : 0.450,
+         "z" : -1.57440
+      },
+      {
+         "name" : "Spawn Point 6",
+         "x" : -2.86410,
+         "y" : 0.750,
+         "z" : -0.2330
+      },
+      {
+         "name" : "Spawn Point 7",
+         "x" : -2.87140,
+         "y" : 0.750,
+         "z" : -1.89810
+      },
+      {
+         "name" : "Spawn Point 8",
+         "x" : -1.87320,
+         "y" : 0.750,
+         "z" : -2.50070
+      },
+      {
+         "name" : "Spawn Point 9",
+         "x" : -1.02030,
+         "y" : 0.750,
+         "z" : -2.4960
+      },
+      {
+         "name" : "Spawn Point 10",
+         "x" : -1.84630,
+         "y" : 0.750,
+         "z" : 0.49040
+      },
+      {
+         "name" : "Spawn Point 11",
+         "x" : -1.13820,
+         "y" : 0.750,
+         "z" : 0.49660
+      },
+      {
+         "name" : "Spawn Point 12",
+         "x" : -0.41340,
+         "y" : 0.750,
+         "z" : -0.27770
+      },
+      {
+         "name" : "Spawn Point 13",
+         "x" : -0.36970,
+         "y" : 0.750,
+         "z" : -1.67290
+      }
+   ],
+   "startPosition" : [ -6.06250, -1.00360 ],
+   "tint" : [ 255, 117, 64, 32 ],
+   "title" : "",
+   "weather" : null
+}

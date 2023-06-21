@@ -1,0 +1,2012 @@
+[
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 1, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 12, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 12
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }
+        ], 
+        "maxDiffLevel": 6, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 12, 
+        "minDiffLevel": 2, 
+        "minSpawnLoc": 1, 
+        "minWave": 12
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 2, 
+                "type": "elite"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }
+        ], 
+        "maxDiffLevel": 13, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 12, 
+        "minDiffLevel": 7, 
+        "minSpawnLoc": 1, 
+        "minWave": 12
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 2, 
+                "type": "elite"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 12, 
+        "minDiffLevel": 14, 
+        "minSpawnLoc": 1, 
+        "minWave": 12
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 1, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 7, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 7
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 7, 
+        "minDiffLevel": 2, 
+        "minSpawnLoc": 1, 
+        "minWave": 7
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 7, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 7
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "elite"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 7, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 1, 
+        "minWave": 7
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 5, 
+                "min": 3, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 9, 
+                "min": 7, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 5, 
+                "min": 3, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 9, 
+                "min": 7, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 5, 
+                "min": 3, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 4, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 6, 
+                "min": 4, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 9, 
+                "min": 6, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 11, 
+                "min": 8, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 6, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 6
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 5, 
+                "min": 3, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 9, 
+                "min": 7, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 5, 
+                "min": 3, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 9, 
+                "min": 7, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 5, 
+                "min": 3, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 4, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 11, 
+                "min": 8, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 12, 
+                "min": 9, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 8, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 8
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 9, 
+                "min": 7, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 5, 
+                "min": 3, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 9, 
+                "min": 7, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 5, 
+                "min": 3, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 4, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 11, 
+                "min": 8, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 10, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 12, 
+                "min": 9, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 11, 
+        "minDiffLevel": 11, 
+        "minSpawnLoc": 6, 
+        "minWave": 11
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 5, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 3
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 4, 
+                "min": 3, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 2, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 3, 
+        "minWave": 1
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 1, 
+                "type": "light_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "medium_melee"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 3, 
+        "maxWave": 3, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 2, 
+        "minWave": 1
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 3, 
+        "maxWave": 4, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 2, 
+        "minWave": 1
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 4, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 1
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 4, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 1
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 5, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 2
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 5, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 2, 
+        "minWave": 2
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 5, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 3
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 5, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 4
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 5, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 3
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 3, 
+                "type": "light_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 2, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 3, 
+        "minWave": 1
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 5, 
+                "min": 3, 
+                "type": "light_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 3, 
+        "maxWave": 3, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 1
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 3, 
+        "maxWave": 4, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 1
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 4, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 4, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 1
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 1, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 4, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 1
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 4, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 1, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 5, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 2
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 5, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 2
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 1, 
+                "type": "caster"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 5, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 3
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "caster"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 5, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 3
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "caster"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "healer"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 5, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 4
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 4, 
+                "min": 2, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "ranged_dps"
+            }, 
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "healer"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 5, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 4
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 9, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 3, 
+        "maxWave": 9, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 2, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 9, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 9, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 9, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 9, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 2, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 9, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 9, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 9, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 3, 
+        "maxWave": 9, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 4, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 9, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 1, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 9, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 4, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 1, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 9, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 9, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 1, 
+                "type": "caster"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 9, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "caster"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 9, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "caster"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "healer"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 9, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 4, 
+                "min": 2, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "ranged_dps"
+            }, 
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "healer"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 9, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 9
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 10, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 6, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 3, 
+        "maxWave": 10, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 2, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 10, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 10, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 10, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 10, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 2, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 10, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 4, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 10, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 7, 
+                "min": 5, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 6, 
+        "maxWave": 10, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 6, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 3, 
+        "maxWave": 10, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 4, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 10, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 1, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 10, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 4, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 1, 
+                "type": "caster"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 2, 
+        "maxWave": 10, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 10, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "medium_melee"
+            }, 
+            {
+                "max": 3, 
+                "min": 1, 
+                "type": "caster"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 10, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "caster"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 10, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "caster"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "healer"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 10, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 1, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "heavy_melee"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "ranged_dps"
+            }, 
+            {
+                "max": 3, 
+                "min": 2, 
+                "type": "healer"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 4, 
+        "maxWave": 10, 
+        "minDiffLevel": 5, 
+        "minSpawnLoc": 2, 
+        "minWave": 10
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "elite"
+            }, 
+            {
+                "max": 2, 
+                "min": 1, 
+                "type": "elite"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 13, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 13
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }, 
+            {
+                "max": 2, 
+                "min": 2, 
+                "type": "elite"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 13, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 13
+    }, 
+    {
+        "creatures": [
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }, 
+            {
+                "max": 1, 
+                "min": 1, 
+                "type": "elite"
+            }
+        ], 
+        "maxDiffLevel": 100000, 
+        "maxSpawnLoc": 1, 
+        "maxWave": 13, 
+        "minDiffLevel": 1, 
+        "minSpawnLoc": 1, 
+        "minWave": 13
+    }
+]

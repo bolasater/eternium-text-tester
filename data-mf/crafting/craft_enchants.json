@@ -1,0 +1,2387 @@
+[
+	{
+		"id":"stat_increase",
+		"category":"enchanting",
+		"name":"Celestial Orb",
+
+		"output":{
+			"type":"enchantment",
+			"enchantType":"stat_increase",			
+			"slots":["main_hand", "two_hand", "head", "chest", "shoulders", "pants", "boots", "gloves", "cape", "off_hand", "belt", "bracer", "trinket"],
+			"name":"Celestial Orb",
+			"description":"Permanently increase an attribute of your choice on one of items by a small amount. The resulting value cannot exceed the maximum amount.",
+			"icon":"celestial_orb"
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":500000
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"base":100
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":30
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":30
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":30
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":30
+			},
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":30
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":100
+			}
+		],
+
+		"xpPerItem":10000
+
+	},
+	{
+		"id":"celestial_transform",
+		"category":"enchanting",
+		"name":"Celestial Transform",
+
+		"output":{
+			"type":"enchantment",
+			"enchantType":"transform_to_celestial",			
+			"slots":["main_hand", "two_hand", "head", "chest", "shoulders", "pants", "boots", "gloves", "cape", "off_hand", "belt", "bracer", "trinket"],
+			"name":"Celestial Transform",
+			"description":"Transform a normal item to celestial.",
+			"icon":"celestial_transform"
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":250000
+			},
+			{
+				"type":"material",
+				"subType":"celestial_essence",
+				"base":3
+			}
+		],
+
+		"xpPerItem":10000
+
+	}
+	,
+	{
+		"id":"helm_rage",
+		"category":"l_head_enchants",
+		"name":"Rage",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["head"],
+
+			"name":"Enchant Helmet: Rage",
+			"icon":"lesser_enchant",
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"power", "amount":75}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType":"fire",
+				"base":10
+			},
+			{
+				"type":"essence",
+				"subType":"shadow",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":150
+	}
+	,
+	{
+		"id":"helm_alacrity",
+		"category":"l_head_enchants",
+		"name":"Alacrity",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["head"],
+
+			"name":"Enchant Helmet: Alacrity",
+			"icon":"lesser_enchant",
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"haste", "amount":75}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType":"water",
+				"base":10
+			},
+			{
+				"type":"essence",
+				"subType":"air",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":150
+	}
+	,
+	{
+		"id":"helm_clarity",
+		"category":"l_head_enchants",
+		"name":"Clarity",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["head"],
+
+			"name":"Enchant Helmet: Clarity",
+			"icon":"lesser_enchant",
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"criticalRating", "amount":75}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType":"fire",
+				"base":10
+			},
+			{
+				"type":"essence",
+				"subType":"earth",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":150
+	}
+	,
+	{
+		"id":"vigor",
+		"category":"l_chest_enchants",
+		"name":"Vigor",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["chest"],
+			
+			"name":"Enchant Chest: Vigor",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"vitality", "amount":25}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":5000
+			},
+			{
+				"type":"essence",
+				"subType":"earth",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":3
+			}
+		],
+
+		"xpPerItem":75
+	}
+	,
+	{
+		"id":"greater_vigor",
+		"category":"g_chest_enchants",
+		"name":"Greater Vigor",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["chest"],
+			
+			"name":"Enchant Chest: Greater Vigor",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"vitality", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":25000
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			},
+			{
+				"type":"gemstone",
+				"subType":"Radiant emerald",
+				"base":1
+			}
+		],
+
+		"xpPerItem":275
+	}
+	,
+	{
+		"id":"leeching",
+		"category":"l_chest_enchants",
+		"name":"Leeching",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["chest"],
+			
+			"name":"Enchant Chest: Leeching",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"lifeOnHit", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":5000
+			},
+			{
+				"type":"essence",
+				"subType":"water",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":3
+			}
+		],
+
+		"xpPerItem":75
+	}
+	,
+	{
+		"id":"vampirism",
+		"category":"g_chest_enchants",
+		"name":"Vampirism",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["chest"],
+			
+			"name":"Enchant Chest: Vampirism",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"lifeOnHit", "amount":400}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":25000
+			},
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			},
+			{
+				"type":"gemstone",
+				"subType":"Radiant amethyst",
+				"base":1
+			}
+		],
+
+		"xpPerItem":275
+	}
+	,
+	{
+		"id":"rage",
+		"category":"l_shoulder_enchants",
+		"name":"Rage",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["shoulders"],
+			
+			"name":"Enchant Shoulder: Rage",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"power", "amount":25}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":5000
+			},
+			{
+				"type":"essence",
+				"subType":"fire",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":3
+			}
+		],
+
+		"xpPerItem":75
+	}
+	,
+	{
+		"id":"burning_rage",
+		"category":"g_shoulder_enchants",
+		"name":"Burning Rage",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["shoulders"],
+			
+			"name":"Enchant Shoulder: Burning Rage",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"power", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":25000
+			},
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			},
+			{
+				"type":"gemstone",
+				"subType":"Trillion ruby",
+				"base":1
+			}
+		],
+
+		"xpPerItem":275
+	}
+	,
+	{
+		"id":"precision",
+		"category":"l_shoulder_enchants",
+		"name":"Precision",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["shoulders"],
+			
+			"name":"Enchant Shoulder: Precision",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"criticalRating", "amount":25}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":5000
+			},
+			{
+				"type":"essence",
+				"subType":"air",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":3
+			}
+		],
+
+		"xpPerItem":75
+	}
+	,
+	{
+		"id":"clarity",
+		"category":"g_shoulder_enchants",
+		"name":"Clarity",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["shoulders"],
+			
+			"name":"Enchant Shoulder: Clarity",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"criticalRating", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":25000
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			},
+			{
+				"type":"gemstone",
+				"subType":"Trillion topaz",
+				"base":1
+			}
+		],
+
+		"xpPerItem":275
+	}		
+	,
+	{
+		"id":"fury",
+		"category":"l_shoulder_enchants",
+		"name":"Fury",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["shoulders"],
+			
+			"name":"Enchant Shoulder: Fury",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"criticalDamage", "amount":20}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":5000
+			},
+			{
+				"type":"essence",
+				"subType":"shadow",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":3
+			}
+		],
+
+		"xpPerItem":75
+	}	
+	,
+	{
+		"id":"ferocity",
+		"category":"g_shoulder_enchants",
+		"name":"Ferocity",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["shoulders"],
+			
+			"name":"Enchant Shoulder: Ferocity",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"criticalDamage", "amount":70}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":25000
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			}
+			
+		],
+
+		"xpPerItem":275
+	}
+	,		
+	{
+		"id":"quickness",
+		"category":"l_gloves_enchants",
+		"name":"Quickness",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["gloves"],
+			
+			"name":"Enchant Gloves: Quickness",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"dodgeRating", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType":"air",
+				"base":10
+			},
+			{
+				"type":"essence",
+				"subType":"water",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":175
+	}
+	,
+	{
+		"id":"brawler",
+		"category":"l_gloves_enchants",
+		"name":"Brawler",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["gloves"],
+			
+			"name":"Enchant Gloves: Brawler",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"parryRating", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType":"fire",
+				"base":10
+			},
+			{
+				"type":"essence",
+				"subType":"earth",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":175
+	}
+	,
+	{
+		"id":"redoubt",
+		"category":"l_gloves_enchants",
+		"name":"Redoubt",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["gloves"],
+			
+			"name":"Enchant Gloves: Redoubt",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"blockRating", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType":"shadow",
+				"base":10
+			},
+			{
+				"type":"essence",
+				"subType":"earth",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":175
+	}
+	,
+	{
+		"id":"deflection",
+		"category":"l_gloves_enchants",
+		"name":"Deflection",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["gloves"],
+			
+			"name":"Enchant Gloves: Deflection",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"deflectRating", "amount":500}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType":"shadow",
+				"base":20
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":175
+	}
+	,
+	{
+		"id":"enchant_armor",
+		"category":"l_gloves_enchants",
+		"name":"Armor",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["gloves"],
+			
+			"name":"Enchant Gloves: Armor",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"armor", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType":"earth",
+				"base":20
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":175
+	}
+	,
+	{
+		"id":"flurry",
+		"category":"g_weapon_enchants",
+		"name":"Flurry",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["main_hand", "two_hand", "off_hand"],
+			"requiresTags": ["weapon"],
+			
+			"name":"Enchant Weapon: Flurry",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"haste", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":25000
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":2
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":2
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":2
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":2
+			},
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":2
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":25
+			}
+		],
+
+		"xpPerItem":400
+	}
+	,
+	{
+		"id":"rune_of_the_storm",
+		"category":"e_weapon_enchants",
+		"name":"Rune of the Storm",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["main_hand", "two_hand", "off_hand"],
+			"requiresTags": ["weapon"],
+			
+			"name":"Rune of the Storm",
+			"icon":"rune_of_the_storm",			
+			"enchantType":"gear_effect",
+			"lockable":true,
+			"params":{
+				"type":"ChainLightningProc",
+				"weaponDamagePercent":8,
+				"chance":0.1,
+				"icd":0,
+				"proc_type":"onAttackPerformed"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":150000
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"base":12
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":20
+			},
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":20
+			}
+		],
+
+		"xpPerItem":2500
+	}
+	,
+	{
+		"id":"windfury",
+		"category":"g_weapon_enchants",
+		"name":"Windfury",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["main_hand", "two_hand", "off_hand"],
+			"requiresTags": ["weapon"],
+			
+			"name":"Windfury",
+			"icon":"rune_of_the_storm",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"ChainLightningProc",
+				"weaponDamagePercent":2.0,
+				"chance":0.1,
+				"icd":0,
+				"proc_type":"onAttackPerformed"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":35000
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":4
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":4
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":4
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":100
+			}
+		],
+
+		"xpPerItem":750
+	}
+	,
+	{
+		"id":"ordnance",
+		"category":"g_ranged_weapon_enchants",
+		"name":"Ordnance",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["main_hand", "off_hand"],
+			"requiresTags":["ranged"],
+						
+			"name":"Enchant Weapon: Ordnance",
+			"icon":"bombardment",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"MissileOnAttack",
+				"weaponDamagePercent":3.5,
+				"chance":0.06,
+				"icd":0,
+				"proc_type":"onAttackPerformed"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":35000
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":4
+			},
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":4
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":4
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":100
+			}
+		],
+
+		"xpPerItem":750
+	}		
+	,
+	{
+		"id":"bombardment",
+		"category":"e_ranged_weapon_enchants",
+		"name":"Bombardment",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["main_hand", "off_hand"],
+			"requiresTags":["ranged"],
+						
+			"name":"Enchant Weapon: Bombardment",
+			"icon":"bombardment",			
+			"enchantType":"gear_effect",
+
+			"lockable":true,
+			"params":{
+				"type":"MissileOnAttack",
+				"weaponDamagePercent":14,
+				"chance":0.06,
+				"icd":0,
+				"proc_type":"onAttackPerformed"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":150000
+			},
+			{
+				"type":"material",
+				"subType":"mark_of_the_titans",
+				"base":12
+			},			
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":20
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":20
+			}
+		],
+
+		"xpPerItem":2500
+	}
+	,
+	{
+		"id":"tortoise",
+		"category":"g_oh_enchants",
+		"name":"Tortoise",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["off_hand"],
+			"excludeTags": ["weapon"],
+			
+			"name":"Enchant Off-Hand: Tortoise",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"armor", "amount":250}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1
+			},			
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":6			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":10
+			},
+			{
+				"type":"gemstone",
+				"subType":"Brilliant diamond",
+				"base":3
+			}
+		],
+
+		"xpPerItem":1000
+	}
+	,
+	{
+		"id":"tactician",
+		"category":"g_oh_enchants",
+		"name":"Tactician",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["off_hand"],
+			"excludeTags": ["weapon"],
+			
+			"name":"Enchant Off-Hand: Tactician",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"abilityRating", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":100000
+			},			
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":10			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":6
+			},
+			{
+				"type":"gemstone",
+				"subType":"Brilliant amethyst",
+				"base":3
+			}
+		],
+
+		"xpPerItem":1000
+	}
+	,
+	{
+		"id":"r_vigor",
+		"category":"g_ring_enchants",
+		"name":"Vigor",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["ring"],
+			
+			"name":"Enchant Ring: Vigor",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":true,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"vitality", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":150000
+			},			
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":10			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":6
+			},
+			{
+				"type":"gemstone",
+				"subType":"Radiant emerald",
+				"base":20
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":75
+			},
+			{
+				"type":"material",
+				"subType":"mark_of_the_titans",
+				"base":3
+			}
+		],
+
+		"xpPerItem":1500
+	}
+	,
+	{
+		"id":"r_rage",
+		"category":"g_ring_enchants",
+		"name":"Rage",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["ring"],
+			
+			"name":"Enchant Ring: Rage",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":true,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"power", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":150000
+			},			
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":10			},
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":6
+			},
+			{
+				"type":"gemstone",
+				"subType":"Radiant ruby",
+				"base":20
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":75
+			},
+			{
+				"type":"material",
+				"subType":"mark_of_the_titans",
+				"base":3
+			}
+		],
+
+		"xpPerItem":1500
+	}
+	,
+	{
+		"id":"r_deadly_clarity",
+		"category":"g_ring_enchants",
+		"name":"Deadly Clarity",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["ring"],
+			
+			"name":"Enchant Ring: Deadly Clarity",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":true,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"criticalRating", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":150000
+			},			
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":10			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":6
+			},
+			{
+				"type":"gemstone",
+				"subType":"Radiant topaz",
+				"base":20
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":75
+			},
+			{
+				"type":"material",
+				"subType":"mark_of_the_titans",
+				"base":3
+			}
+		],
+
+		"xpPerItem":1500
+	}
+	,
+	{
+		"id":"helm_doom",
+		"category":"g_helm_enchants",
+		"name":"Doom",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["head"],
+
+			"name":"Enchant Helmet: Doom",
+			"icon":"greater_enchant",
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"physicalDamage", "amount":10}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":50000
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":15
+			},
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":15
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			}
+		],
+
+		"xpPerItem":1300
+	}
+	,
+	{
+		"id":"helm_nature",
+		"category":"g_helm_enchants",
+		"name":"Nature's Fury",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["head"],
+
+			"name":"Enchant Helmet: Nature's Fury",
+			"icon":"greater_enchant",
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"natureDamage", "amount":10}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":50000
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":15
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":15
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			}
+		],
+
+		"xpPerItem":1300
+	}
+	,
+	{
+		"id":"helm_pyro",
+		"category":"g_helm_enchants",
+		"name":"Pyromaniac",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["head"],
+
+			"name":"Enchant Helmet: Pyromaniac",
+			"icon":"greater_enchant",
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"fireDamage", "amount":10}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":50000
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":15
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":15
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			}
+		],
+
+		"xpPerItem":1300
+	}
+	,
+	{
+		"id":"helm_frostbite",
+		"category":"g_helm_enchants",
+		"name":"Frostbite",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["head"],
+
+			"name":"Enchant Helmet: Frostbite",
+			"icon":"greater_enchant",
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"frostDamage", "amount":10}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":50000
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":15
+			},
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":15
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			}
+		],
+
+		"xpPerItem":1300
+	}
+	,
+	{
+		"id":"helm_slayer",
+		"category":"l_head_enchants",
+		"name":"Slayer",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["head"],
+
+			"name":"Enchant Helmet: Slayer",
+			"icon":"lesser_enchant",
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"helm_slayer_eff",
+				"bonusDamage_1":0.50
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":50000
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":15
+			},
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":15
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			}
+		],
+
+		"xpPerItem":1300
+	}
+	,
+	{
+		"id":"boots_speed",
+		"category":"l_boots_enchants",
+		"name":"Speed",
+		
+		"output":{
+			"type":"enchantment",
+			"slots":["boots"],
+
+			"name":"Enchant Boots: Speed",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"movementSpeed", "amount":5}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":10000
+			},
+			{
+				"type" : "material",
+				"subType" : "living_spirit",
+				"base" : 5
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_dust",
+				"base" : 25
+			}
+		],
+
+		"xpPerItem":300
+	}
+	,
+	{
+		"id":"pants_speed",
+		"category":"l_pants_enchants",
+		"name":"Speed",
+		
+		"output":{
+			"type":"enchantment",
+			"slots":["pants"],
+
+			"name":"Enchant Pants: Speed",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"movementSpeed", "amount":5}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":10000
+			},
+			{
+				"type" : "material",
+				"subType" : "living_spirit",
+				"base" : 5
+			},
+			{
+				"type" : "material",
+				"subType" : "silver_dust",
+				"base" : 25
+			}
+		],
+
+		"xpPerItem":300
+	}
+	,
+	{
+		"id":"cape_burning_rage",
+		"category":"l_cape_enchants",
+		"name":"Burning Rage",
+		
+		"output":{
+			"type":"enchantment",
+			"slots":["cape"],
+
+			"name":"Enchant Cloak: Burning Rage",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"power", "amount":50}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType":"fire",
+				"base":10
+			},
+			{
+				"type":"essence",
+				"subType":"shadow",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":175
+	}
+	,
+	{
+		"id":"cape_clarity",
+		"category":"l_cape_enchants",
+		"name":"Clarity",
+		
+		"output":{
+			"type":"enchantment",
+			"slots":["cape"],
+
+			"name":"Enchant Cloak: Clarity",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"criticalRating", "amount":50}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType":"fire",
+				"base":10
+			},
+			{
+				"type":"essence",
+				"subType":"earth",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":175
+	}
+	,
+	{
+		"id":"cape_alacrity",
+		"category":"l_cape_enchants",
+		"name":"Alacrity",
+		
+		"output":{
+			"type":"enchantment",
+			"slots":["cape"],
+
+			"name":"Enchant Cloak: Alacrity",
+			"icon":"lesser_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"haste", "amount":50}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":15000
+			},
+			{
+				"type":"essence",
+				"subType": "water",
+				"base":10
+			},
+			{
+				"type":"essence",
+				"subType":"earth",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":10
+			}
+		],
+
+		"xpPerItem":175
+	}
+	,
+	{
+		"id":"necklace_burning_rage",
+		"category":"g_necklace_enchants",
+		"name":"Burning Rage",
+		
+		"output":{
+			"type":"enchantment",
+			"slots":["necklace"],
+
+			"name":"Enchant Necklace: Burning Rage",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"power", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":200000
+			},		
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":10
+			},			
+			{
+				"type":"material",
+				"subType":"haunting_spirit",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":150
+			},
+			{
+				"type":"material",
+				"subType":"mark_of_the_titans",
+				"base":6
+			}
+		],
+
+		"xpPerItem":2000
+	}
+	,
+	{
+		"id":"necklace_vigor",
+		"category":"g_necklace_enchants",
+		"name":"Vigor",
+		
+		"output":{
+			"type":"enchantment",
+			"slots":["necklace"],
+
+			"name":"Enchant Necklace: Vigor",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"BonusStats",
+				"bonuses":[
+					{"stat":"vitality", "amount":100}
+				]
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":200000
+			},			
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":10			
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":10
+			},			
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":10
+			},			
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":150
+			},
+			{
+				"type":"material",
+				"subType":"mark_of_the_titans",
+				"base":6
+			}
+		],
+
+		"xpPerItem":2000
+	},
+	{
+		"id":"gore",
+		"category":"e_weapon_enchants",
+		"name":"Gore",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["main_hand", "two_hand", "off_hand"],
+			"requiresTags": ["weapon"],
+			
+			"name":"Enchant Weapon: Gore",
+			"icon":"exotic_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":true,
+
+			"params":{
+				"type":"EffectProc",
+				"proc_type":"onAttackPerformed",
+				"description":"Chance on hit to cause the target to bleed for 1000% weapon damage per second for 5 seconds.",
+				"effectType":1,
+				"gate_chance":1.0,
+				"chance":1,
+				"ppm0":40,
+				"ppm1":40,
+				"params":{
+					"uniqueID" : "gore_eff",
+					"effectIcon":"gore_icon",
+					"dotFromCasterWeapon":2.0,
+					"duration":5,
+					"maxStack":1000,
+					"damageSchool": "physical",
+					"parentAbility": "Gore"
+				}
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":150000
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"base":12
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":30
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_war",
+				"base":30
+			}
+		],
+
+		"xpPerItem":2500
+	},
+	{
+		"id":"incinerate",
+		"category":"e_weapon_enchants",
+		"name":"Incinerate",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["main_hand", "two_hand", "off_hand"],
+			"requiresTags": ["weapon"],
+			
+			"name":"Enchant Weapon: Incinerate",
+			"icon":"exotic_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":true,
+			
+			"params":{
+				"type":"EffectProc",
+				"proc_type":"onAttackPerformed",
+				"description":"Chance on hit to cause the target to burn for 1000% weapon damage per second for 5 seconds.",
+				"effectType":1,
+				"gate_chance":1.0,
+				"chance":1,
+				"ppm0":40,
+				"ppm1":40,
+				"params":{
+					"uniqueID" : "incinerate_eff",
+					"effectIcon":"incinerate_icon",
+					"dotFromCasterWeapon":2.0,
+					"duration":5,
+					"maxStack":1000,
+					"damageSchool":"fire",
+					"parentAbility": "Incinerate (DOT)"
+				}
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":150000
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"base":12
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":30
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":30
+			}
+		],
+
+		"xpPerItem":2500
+	},
+	{
+		"id":"obfuscation",
+		"category":["g_oh_enchants","g_weapon_enchants"],
+		"name":"Obfuscation",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["main_hand", "two_hand", "off_hand"],
+			
+			"name":"Enchant Main-Hand and Off-Hand: Obfuscation",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"CustomAttribute",
+				"attributes":[ "obfuscation_atr",1 ],
+				"description":"Reduces damage taken from a distant target by up to 20%. The farther away the damage source is, the higher the damage reduction. Does not stack for duplicates."
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":1
+			},			
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":10
+			},
+			{
+				"type":"gemstone",
+				"subType":"Brilliant amethyst",
+				"base":3
+			}
+		],
+
+		"xpPerItem":1000
+	},
+	{
+		"id":"osmosis",
+		"category":"g_helm_enchants",
+		"name":"Osmosis",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["head"],
+
+			"name":"Osmosis",
+			"icon":"greater_enchant",
+			"enchantType":"gear_effect",
+			"lockable":false,
+			
+			"params":{
+				"type":"EffectProc",
+				"proc_type":"onDamageInflicted",
+				"description":"When damage is dealt to a target, there is a chance that further damage dealt to that target is increased by 1.0%.",
+				"effectType":1,
+				"gate_chance":1.0,
+				"chance":1,
+				"ppm0":30,
+				"ppm1":30,
+				"params":{
+					"uniqueID" : "osmosis",
+					"effectIcon":"osmosis_icon",
+					"receivedDamageMultiplier":1.01,
+					"duration":60,
+					"numCharges":1,
+					"maxStack":1,
+					"maxCharges":500
+					
+				}
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":100000
+			},
+			{
+				"type":"material",
+				"subType":"spirit_of_harmony",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":10
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			}
+		],
+
+		"xpPerItem":2750
+		
+	},
+	{
+		"id":"reactive_armor",
+		"category":"g_chest_enchants",
+		"name":"Reactive Armor",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["chest"],
+			
+			"name":"Enchant Chest: Reactive Armor",
+			"icon":"greater_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":false,
+			"params":{
+				"type":"ArmorDmgOnDmgReceived",
+				"chance":0.1,
+				"armorDmgMult":1.0,
+				"proc_type":"onDamageReceived"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type":"currency",
+				"subType":"gold",
+				"base":50000
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":3
+			},
+			{
+				"type":"material",
+				"subType":"silver_dust",
+				"base":20
+			},
+			{
+				"type":"gemstone",
+				"subType":"Radiant ruby",
+				"base":5
+			}
+		],
+
+		"xpPerItem":275
+	}
+	,
+	{
+		"id":"weapon_slayer",
+		"category":"e_weapon_enchants",
+		"name":"Slayer",
+
+		"output":{
+			"type":"enchantment",
+			"slots":["main_hand", "two_hand", "off_hand"],
+			"requiresTags": ["weapon"],
+			
+			"name":"Enchant Weapon: Slayer",
+			"icon":"exotic_enchant",			
+			"enchantType":"gear_effect",
+			"lockable":true,
+			"params":{
+				"type":"SlayerWeaponDebuff",
+				"proc_type":"onAttackPerformed",
+				"description":"Chance on hit to increase damage done to elite and boss creatures by 100% for 5 seconds.",
+				"effectType":1,
+				"gate_chance":1.0,
+				"chance":1,
+				"ppm0":3,
+				"ppm1":3,
+				"params":{
+					"uniqueID" : "slayer_weapon_eff",
+					"effectIcon":"slayer_icon",
+					"receivedDamageMultiplier":2.0,
+					"duration":5,
+					"maxStack":1
+				}
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"base":150000
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"base":12
+			},
+			{
+				"type":"material",
+				"subType":"living_spirit",
+				"base":30
+			},
+			{
+				"type":"material",
+				"subType":"primal_spirit",
+				"base":30
+			}
+		],
+
+		"xpPerItem":2500
+	}
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": "challenger", 
+        "title": "Challenger"
+    },
+    {
+        "id": "centurion", 
+        "title": "Centurion"
+    },
+    {
+        "id": "warlord", 
+        "title": "Warlord"
+    },
+    {
+        "id": "war_hero", 
+        "title": "War Hero"
+    },
+    {
+        "id": "champion", 
+        "title": "Champion"
+    }
+]

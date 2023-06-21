@@ -1,0 +1,32 @@
+{
+	"experience":"fire",
+	"criticalDamage":"fire",
+	"parryRating":"fire",
+	"fireDamage":"fire",
+
+	"lifeRegen":"water",
+	"lifeOnHit":"water",
+	"dodgeRating":"water",
+	"deflectRating":"water",
+	"frostDamage":"water",
+
+	"armor":"earth",
+	"vitality":"earth",
+	"blockRating":"earth",
+	"extraGold":"earth",
+	"physicalDamage":"earth",
+
+	"haste":"air",
+	"movementSpeed":"air",
+	"criticalRating":"air",
+	"natureDamage":"air",
+
+	"abilityRating":"shadow",
+	"damageReflected":"shadow",
+	"power":"shadow",
+	"arcaneDamage":"shadow"
+
+}
+
+
+

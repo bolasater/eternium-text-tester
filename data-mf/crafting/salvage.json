@@ -1,0 +1,296 @@
+[	
+	{
+		"rule":"salvage_essence",
+		"itemFilter" : {
+			"excludeTypes":["ring", "necklace"]
+		},
+		"essenceQuality":"lesser_essence",
+		"rolls":1,
+		"baseChance":0.4,
+		"chancePerLevel":[[1, 1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 1, 1, 1, 1]
+	}
+	,
+	{
+		"rule":"salvage_essence",
+		"itemFilter" : {
+			"excludeTypes":["ring", "necklace"]
+		},
+		"essenceQuality":"lesser_essence",
+		"rolls":1,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [10, 0.5], [20, 1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 1, 1, 1, 1]
+	}
+	,
+	{
+		"rule":"salvage_essence",
+		"itemFilter" : {
+			"excludeTypes":["ring", "necklace"]
+		},
+		"essenceQuality":"lesser_essence",
+		"rolls":3,
+		"baseChance":0.5,
+		"chancePerLevel":[[1, 0], [10, 0], [30, 1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 1, 1, 1, 1]
+	}
+	,
+	{
+		"rule":"salvage_essence",
+		"itemFilter" : {
+			"excludeTypes":["ring", "necklace"]
+		},
+		"essenceQuality":"lesser_essence",
+		"rolls":15,
+		"baseChance":0.5,
+		"chancePerLevel":[[1, 0], [5, 0], [19, 0], [20, 0.1], [45, 1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 0, 0.3, 0.85, 1]
+	}
+	,	
+	{
+		"rule":"salvage_essence",
+		"itemFilter" : {
+			"excludeTypes":["ring", "necklace"]
+		},
+		"essenceQuality":"lesser_essence",
+		"rolls":10,
+		"baseChance":0.5,
+		"chancePerLevel":[[1, 0], [5, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 0.15, 0.22, 0.35, 0.40]
+	}
+	,	
+	{
+		"rule":"salvage_essence",
+		"itemFilter" : {
+			"excludeTypes":["ring", "necklace"]
+		},
+		"essenceQuality":"essence",
+		"rolls":4,
+		"baseChance":1.0,
+		"chancePerLevel":[[1, 0.01], [5, 0.05], [15, 0.1], [70, 0.5], [100, 0.5]],
+		"chancePerQuality":[0, 0.01, 0.20, 0.25, 0.35]
+	}
+	,	
+	{
+		"rule":"salvage_essence",
+		"itemFilter" : {
+			"excludeTypes":["ring", "necklace"]
+		},
+		"essenceQuality":"essence",
+		"rolls":4,
+		"baseChance":1.0,
+		"chancePerLevel":[[1, 0], [5, 0], [59, 0], [60, 0.1], [70, 0.5], [100, 0.5]],
+		"chancePerQuality":[0, 0.01, 0.20, 0.25, 1]
+	}
+	,
+	{
+		"rule":"salvage_essence",
+		"itemFilter" : {
+			"excludeTypes":["ring", "necklace"]
+		},
+		"essenceQuality":"greater_essence",
+		"rolls":3,
+		"baseChance":1.0,
+		"chancePerLevel":[[1, 0], [5, 0.001], [10, 0.01], [70, 0.02], [100, 0.02]],
+		"chancePerQuality":[0, 0.0, 0.20, 0.25, 0.35]
+	}
+	,
+	{
+		"rule":"salvage_essence",
+		"itemFilter" : {
+			"excludeTypes":["ring", "necklace"]
+		},
+		"essenceQuality":"greater_essence",
+		"rolls":3,
+		"baseChance":1.0,
+		"chancePerLevel":[[1, 0], [5, 0], [59, 0], [60, 0.01], [70, 0.16], [100, 0.16]],
+		"chancePerQuality":[0, 0.0, 0.20, 0.25, 1]
+	}
+	,
+	{
+		"rule":"salvage_material",
+		"material":"mark_of_the_titans",
+		"itemFilter": {
+			"requireTags":["set"]
+		},		
+		"rolls":2,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 0.01, 0.1, 0.25, 0.5]
+	}
+	,
+	{
+		"rule":"salvage_material",
+		"material":"mark_of_the_titans",
+		"itemFilter": {
+			"requireTags":["unique"]
+		},		
+		"rolls":2,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 0.01, 0.1, 0.25, 0.5]
+	}
+	,
+	
+	/* GUARANTEED BASIC MATERIALS FOR ALL ITEMS */
+	{
+		"rule":"salvage_material",
+		"material":"iron_bar",
+		"itemFilter": {
+			"requireTypes":["heavy_armor", "weapon", "shield", "Trinket", "heavy_belt", "heavy_bracer"]
+		},
+		"rolls":1,
+		"baseChance":1,
+		"chancePerLevel":[[1, 1], [70, 1], [100, 1]],
+		"chancePerQuality":[1, 1, 1, 1, 1]
+	}
+	,
+	{
+		"rule":"salvage_material",
+		"material":"leather",
+		"itemFilter": {
+			"requireTypes":["leather_armor", "orb", "medium_belt", "medium_bracer"]
+		},
+		"rolls":1,
+		"baseChance":1,
+		"chancePerLevel":[[1, 1], [70, 1], [100, 1]],
+		"chancePerQuality":[1, 1, 1, 1, 1]
+	}
+	,
+	{
+		"rule":"salvage_material",
+		"material":"bolt_of_cloth",
+		"itemFilter": {
+			"requireTypes":["light_armor", "light_belt", "light_bracer"]
+		},
+		"rolls":1,
+		"baseChance":1,
+		"chancePerLevel":[[1, 1], [70, 1], [100, 1]],
+		"chancePerQuality":[1, 1, 1, 1, 1]
+	}
+	,
+	/* END OF GUARANTEED BASIC MATERIALS FOR ALL ITEMS */
+	
+	{
+		"rule":"salvage_material",
+		"material":"iron_bar",
+		"itemFilter": {
+			"requireTypes":["heavy_armor", "weapon", "shield", "Trinket", "heavy_bracer", "heavy_belt"]
+		},
+		"rolls":5,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0.01, 0.05, 0.2, 0.35, 0.5]
+	}
+	,
+	{
+		"rule":"salvage_material",
+		"material":"leather",
+		"itemFilter": {
+			"requireTypes":["leather_armor", "orb", "medium_belt", "medium_bracer"]
+		},
+		"rolls":5,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0.01, 0.05, 0.2, 0.35, 0.5]
+	}
+	,
+	{
+		"rule":"salvage_material",
+		"material":"bolt_of_cloth",
+		"itemFilter": {
+			"requireTypes":["light_armor", "cape", "light_bracer", "light_belt"]
+		},
+		"rolls":5,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0.01, 0.05, 0.2, 0.35, 0.5]
+	}
+	,
+	{
+		"rule":"salvage_material",
+		"material":"enchanted_leather",
+		"itemFilter": {
+			"requireTypes":["leather_armor", "orb", "medium_bracer", "medium_belt"],
+			"requireTags":["unique"]
+		},
+		"rolls":3,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 0.02, 0.1, 0.2, 0.3]
+	}	
+	,
+	{
+		"rule":"salvage_material",
+		"material":"enchanted_leather",
+		"itemFilter": {
+			"requireTypes":["leather_armor", "orb"],
+			"requireTags":["set"]
+		},
+		"rolls":3,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 0.02, 0.1, 0.2, 0.3]
+	}	
+	,
+	{
+		"rule":"salvage_material",
+		"material":"mithril",
+		"itemFilter": {
+			"requireTypes":["heavy_armor", "weapon", "shield", "Trinket", "heavy_bracer", "heavy_belt"],
+			"requireTags":["unique"]
+		},
+		"rolls":3,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 0.02, 0.1, 0.2, 0.3]
+	}	
+	,
+	{
+		"rule":"salvage_material",
+		"material":"mithril",
+		"itemFilter": {
+			"requireTypes":["heavy_armor", "weapon", "shield", "Trinket"],
+			"requireTags":["set"]
+		},
+		"rolls":3,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 0.02, 0.1, 0.2, 0.3]
+	}	
+	,
+	{
+		"rule":"salvage_material",
+		"material":"nightcloth",
+		"itemFilter": {
+			"requireTypes":["light_armor", "cape", "light_belt", "light_bracer"],
+			"requireTags":["unique"]
+		},
+		"rolls":3,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 0.02, 0.1, 0.2, 0.3]
+	}
+	,
+	{
+		"rule":"salvage_material",
+		"material":"nightcloth",
+		"itemFilter": {
+			"requireTypes":["light_armor", "cape"],
+			"requireTags":["set"]
+		},
+		"rolls":3,
+		"baseChance":1,
+		"chancePerLevel":[[1, 0], [19, 0], [20, 0.1], [70, 1], [100, 1]],
+		"chancePerQuality":[0, 0.02, 0.1, 0.2, 0.3]
+	}	
+	,
+	{
+		"rule":"salvage_celestial",
+		"material":"celestial_essence",
+		"rolls":1,
+		"baseChance":1,
+		"chancePerLevel":[[1, 1], [70, 1], [100, 1]],
+		"chancePerQuality":[1, 1, 1, 1, 1]
+	}	
+]

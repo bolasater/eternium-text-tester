@@ -1,0 +1,329 @@
+{
+	"name" : "Act I Side Quests",
+	"req" : {},
+	"category" : "side",
+	
+	"quests" : [
+		
+		{
+			"id" : "quacks_errand",
+			"name" : "The Free Merloks",
+			"story" : {
+				"intro" : "Hello, {HEROCLASS}! My merlok brethren have been enslaved by Ragadam to work and fight for him. Help me! Free them from Ragadam's mind shackles!||I'm not a fighter, but I will accompany you in this grim task.",
+				"done" : "Thank you, {HEROCLASS}!"
+			},
+			"src" : "Quack",
+			"req" : { "location" : "Marcus' Village", "quest" : "the_ruins_of_the_dead" , "repeat" : "daily" },
+			"common" : { "location" : "Marcus' Village" },
+			"autocomplete" : false,
+			"local" : true,
+			"npc_follow" : true,
+			"obj" : [
+				{
+					"obj_id":"loot",
+					"type" : "loot",
+					"creature" : "*Merlok*",
+					"total" : 12,
+					"drop_rate" : 1,
+					"item" : { "name" : "Mind Shackle", "icon" : "lightning_charge" },
+					"desc" : "Gather {N} Mind Shackles from merloks in Marcus' Village"
+				}
+			],
+			"rewards" : { "xp" : 100, "gems" : 1 }
+		},
+
+		{
+			"id" : "automaton_malfunction",
+			"name" : "Automaton Malfunction",
+			"sequenced" : true,
+			"hide_spoilers" : false,
+			"story" : {
+				"intro":"My Automatons have gone insane. They used to help me with the farm and protected me from these damn skeletons, but now they turned on me! I can't even go into my house!||||I did a year of pregramming apprenticeship at the Academy. Please, break them and bring me their pregrams, maybe I can figure what went wrong.", 
+				"prog":"Please, help me with these crazy automatons!",
+				"done":"Thank you! I think I can rebuild a couple of automatons from the scraps, and I'll try to pregram them myself from scratch. I don't have nothing else to do anyways. Send my best to Morgan."
+			},
+			"src" : "Walt",
+			"req" : { "location" : "Road to Anderra" },
+			"common" : { "location" : "Road to Anderra" },
+			"npc_follow" : false,
+			"obj" : [
+				{
+					"obj_id" : "loot",
+					"type" : "loot",
+					"creature" : "Automaton *",
+					"total" : 7,
+					"drop_rate" : 1,
+					"desc" : "Collect {N} Corrupted Pregrams from Automatons in Walt's farm",
+					"item" : { "name": "Corrupted Automaton Pregram", "icon" : "calendar"}
+				},
+				{
+					"obj_id" : "talk",
+					"type" : "talk_to",
+					"npc" : "Walt",
+					"desc" : "Show the pregrams to Walt",
+					"dialog" : {
+						"dialog":[{"hero":"Here, I got 'em."}, "Oh, good! Let me take a look!", {"narrator":"He bites his lip and frowns...","actor":"npc"}, "That's not right...", "Troll it! They were regrammed from afar. How? They're supposed to be regrammable only by me.", "Oh well, at least I can get back into my house now." ],
+						"continue_to" : "quest"
+					}
+				}
+			],
+			"rewards" :	{ "xp" : 100, "gems" : 1 }
+		},
+
+		{
+			"id" : "morgans_brother",
+			"name" : "The Lefthand Brotherhood",
+			"req" : { "story_level" : "@Road to Anderra" },
+			"src" : "Morgan",
+			"story" : {
+				"intro": "{HERO}, my brother Walt lives on a farm on the road to Anderra. If you're going there anyway, can you make sure he's fine?",
+				"prog" : "Have you found Walt?",
+				"done" : "Oh, Walt... he's a good lad, but a bit strange.||||Thank you, {HERO}. Here, have this ring. Me and Walt crafted it when we were boys."
+			},
+
+			"sequenced" : true,
+
+			"lockGateWhileAvailable" : true,
+
+			"obj" : [
+				{
+					"obj_id" : "greet_walt",
+					"type" : "talk_to",
+					"npc" : "Walt",
+					"desc" : "Talk to Morgan's brother, Walt",
+					"dialog" : {
+						"dialog" : [ {"hero":"You must be Walt. Your brother Morgan wants to know how you're doing."}, "Oh, wow! You know Morgan? You must've come all the way from Oldinn!", {"narrator":"He smiles but avoids your gaze."}, "Is Morgan okay?", {"hero":"He seemed fine to me."}, {"narrator":"Walt nods."},"I'm not doing so great.", {"hero":"How come?"}],
+						"continue_to" : "quest"
+					},
+					"location" : "Road to Anderra"
+				},
+				{
+					"obj_id" : "report_to_morgan",
+					"type" : "talk_to",
+					"npc" : "Morgan",
+					"location" : "hometown",
+					"desc" : "Tell Morgan about Walt",
+					"dialog" : {
+						"dialog" : [ {"hero":"Walt is okay. I helped him take apart some farming implements. He sends his regards."}],
+						"continue_to" : "quest"
+					}
+				}				
+			],
+
+			"rewards" : { "gear" : {"itemClass":"Ring", "quality":"green", "socket":1, "stats":"lifeRegen", "name":"Lefthand Brotherhood Ring"} }
+		},
+		{
+			"id":"mushshroom_stew",
+			"name":"Mushroom Stew",
+			"story" : "There are some really tasty mushrooms growing along the road to Anderra. Please bring me some. I'll make a stew so good, I bet you your last coin you'll love it.",
+			"req" : { "story_level" : "@Road to Anderra", "quest" : "rescue_marcus" },
+			"src":"Morgan",
+			"lockGateWhileAvailable" : true,
+			"common" : {},
+			"obj" : [
+				{
+					"obj_id":"shrooms",
+					"type":"go_event",
+					"event":"pickup_shroom",					
+					"desc" : "Collect {N} mushrooms from the Road to Anderra",
+					"icon" : "shroom_red",
+					"total" : 10,
+					"location" : "Road to Anderra",
+					"drop_rate":1,
+					"item" : {"name":"Anderra Mushroom", "desc":"It looks tasty. Hopefully it's not poisonous.", "icon":"shroom_red"},
+					"autoloot" : true
+				}
+			],
+			"rewards": {
+				"xp" : 250,
+				"item" :
+				{
+				   "description" : "A bowl of mushroom stew. Eat it to double your gained experience for 15 minutes of active playing.",
+				   "fixedPrice" : -1,
+				   "glowColor" : -13596417,
+				   "itemClass" : "Consumable",
+				   "itemLevel" : 1,
+				   "metaConsumable" : true,
+				   "metaEffects" : [
+					  {
+						 "amount" : 1.0,
+						 "duration" : 900,
+						 "effect" : "BoostXP",
+						 "name" : "You gain 100% more experience."
+					  }
+				   ],
+				   "name" : "Bowl of Mushroom Stew",
+				   "quality" : 1,
+				   "textureVariation" : "bowl_of_stew",
+				   "useVerb" : "Eat"
+			   }
+			}
+		},
+
+		{
+			"id" : "apple",
+			"name" : "The Men and Women of A.P.P.L.E.",
+			"src" : "Liana",
+			"req" : { "quest" : "vinedale_graveyard" },
+
+			"story" : {
+				"intro" : "Psst, hero! I wish to speak to you.",
+				"prog" : "Liana has given you a secret task.",
+				"done" : "I hope you understand nothing can be mentioned of this, {HERO}."
+			},
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_liana_apple",
+					"type" : "talk_to",
+					"npc" : "Liana",
+					"location" : "hometown",
+					"dialog" : {
+						"dialog" : [{"narrator":"Liana leans towards you and speaks in a low voice."},"This briefing is for your ears only. Before I continue, I have to make sure you understand this.", {"hero":"I understand. What is this about?"}, "You may have thought I am a mere recipe vendor, but that's only my cover. I work for the Anderran Secret Service.", "Don't worry! We are on the same side. However, I have a task for you.", "There is a farm in Anderra, an apple farm. That too is a disguise. As a matter of fact, inside the farm building, there are scientists working for our secret project, known as Alternate Persistent Pregram Learning Experiment, or the A.P.P.L.E farm. It is an attempt to develop a way to remotely overwrite the preexisting pregram of automatons and androids.", "However, I have received word that something malfunctioned and the automatons have turned hostile.", "Help me solve this issue please, and remember to keep it quiet, and the Service will owe you a big favor."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Liana" 
+				},
+				{
+					"obj_id" : "kill_automatons",
+					"type" : "kill",
+					"creature" : "*Automaton*",
+					"location" : "Anderra",
+					"total" : 10,
+					"desc" : "Destroy the malfunctioning automatons at the A.P.P.L.E farm"
+				}
+			],
+			"rewards" : {
+				"gold" : 1000,
+				"xp" : 1500,
+				"gems" : 3
+			}
+		},
+
+		{
+			"id" : "ethereal_ice_tea",
+			"name" : "Ethereal Ice Tea",
+			"story" : "I've been trying to make some ethereal ice tea, and I need some special ethereal ice cubes. They naturally grow on the Wailing Peaks, but the undead dwelling there are collecting them all. Defeat them and bring me the ice cubes, {HEROCLASS}, and I will share my special tea with you.",
+			"lockGateWhileAvailable" : true,
+			"req" : { "quest" : "dark_dominion" , "story_level" : "@The Wailing Peaks" },
+			"src" : "Alarion",
+			"obj" : [
+				{
+					"obj_id":"loot_ice_cubes",
+					"type" : "loot",
+					"location" : "The Wailing Peaks",
+					"creature" : { "faction" : "enemy" },
+					"item" : { "name" : "Ethereal Ice Cube", "icon" : "icecube1", "desc":"The cube does not seem to melt in your hand, and exudes a faint pine tree scent." },
+					"drop_rate" : 0.25,
+					"total" : 5,
+					"desc" : "Collect {N} Ethereal Ice Cubes from {LOCATION}"
+				}
+			],
+			"rewards": {
+				"xp" : 1000,
+				"item" : { 
+					"name" : "Ethereal Ice Tea", 
+					"textureVariation" : "potion_bottle",
+					"description" : "A bottle of special tea. Drink it to double your gained experience for 20 minutes of active play time.",
+					"fixedPrice" : -1,
+					"glowColor" : -13596417,
+					"itemClass" : "Consumable",
+					"metaConsumable" : true,
+					"metaEffects" : [
+					  {
+						 "amount" : 1.0,
+						 "duration" : 1200,
+						 "effect" : "BoostXP",
+						 "name" : "You gain 100% more experience."
+					  }
+					],
+					"useVerb" : "Drink"
+				}
+			}
+		},
+		{
+			"id":"torches_of_descent",
+			"name":"Torches of the Descent",
+			"story" : {
+				"intro" : "There are dark places in the caves of The Descent, and the spirits of the heroes who fell there cannot find their way home. {HERO}, go and light the torches you find in the cave!",
+				"done" : "You made a dangerous route safer today, {HERO}. Well done!"
+			},
+			"src":"Ingrid",
+			"lockGateWhileAvailable" : false,
+			"hide_spoilers" : false,
+			"req" : { "quest" : "search_for_robin" , "story_level" : "@The Descent" },
+			"obj" : [
+				{
+					"obj_id":"light_torches",
+					"type":"go_event",
+					"event":"light_torch",
+					"location" : "The Descent",
+					"desc" : "Light {N} torches in the caves of The Descent",
+					"icon" : "fireball",
+					"total" : 7
+				}
+			],
+			"rewards": {
+				"gems" : 3,
+				"xp" : 1300,
+				"gold" : 300
+			}
+		},
+		{
+			"id":"dragon_crystals",
+			"name":"Crystals of the Dragon",
+			"req" : { "quest" : "fiery_pits" , "story_level" : "@The Broken Dragon" },
+			"story" : "Rare dragonblood crystals grow in the Broken Dragon's lair. I need them for my jewelcrafting. Bring them to me, and I will cut some of them into gems for you.",
+			"src":"Morgan",
+			"lockGateWhileAvailable" : false,
+			"obj" : [
+				{
+					"obj_id":"cls_crys",
+					"type":"go_event",
+					"event":"pickup_red_crystal",
+					"location" : "The Broken Dragon",
+					"desc" : "Collect {N} red crystals from the Broken Dragon's lair",
+					"icon" : "gem",
+					"total" : 7
+				}
+			],
+			"rewards": {
+				"gems" : 7,
+				"xp" : 1500
+			}
+		},
+		{
+			"id":"demonic_advisors",
+			"name":"The Demon's Minions",
+			"req" : { "story_level" : "@The Siege of Anderhelm" , "quest" : "ancient_evil" },
+			"story" : {
+				"intro" : "Champion, before you take on Magroth head on, I have some information.||||Magroth placed a contingent of Sisters of Ragadam and a contingent of Liches in the towers of Anderhelm.||||Your fight with Magroth will be considerably easier if you dispose of them first, but at any rate, they must be disposed of.||||Slay the Sisters and the Liches, {HERO}!",
+				"prog" : "Dispose of Ragadam's minions.",
+				"done" : "The Service thanks you once again, champion."
+			},
+			"src" : "Liana",
+			"common" : { "location" : "The Siege of Anderhelm" },
+			"hide_spoilers" : false,
+			"obj" : [
+				{
+					"obj_id" : "kill_sisters",
+					"type" : "kill",
+					"creature" : ["Sister Agapia", "Sister Evanora", "Sister Medea"],
+					"total" : 3,
+					"desc" : "Slay Sisters Agapia, Evanora and Medea"
+				},
+				{
+					"obj_id" : "kill_liches",
+					"type" : "kill",
+					"creature" : ["Idetic the Black", "Loxiz the Decrepit", "Obelos the Hollow"],
+					"total" : 3,
+					"desc" : "Slay Idetic the Black, Loxiz the Decrepit and Obelos the Hollow"
+				}
+			],
+			"rewards": {
+				"xp" : 1000,
+				"gems" : 3
+			}
+		}
+	]
+}

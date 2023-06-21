@@ -1,0 +1,5925 @@
+{
+   "ambient" : [ 80, 112, 204 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Eternium Level Designer",
+      "saveTime" : "1564749325296"
+   },
+   "enemyFlavors" : [ "undead", "reptilian", "beast" ],
+   "enemySetup" : [
+      {
+         "a" : 2.78910,
+         "creature" : "ghost01",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "name" : "Desert Apparition",
+         "x" : 6.06440,
+         "z" : -2.27340
+      },
+      {
+         "a" : 2.78910,
+         "creature" : "ghost03",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "ally_multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "name" : "Desert Apparition",
+         "x" : 5.88750,
+         "z" : -2.42470
+      },
+      {
+         "a" : 2.78910,
+         "creature" : "ghost01",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "name" : "Desert Apparition",
+         "x" : 5.79550,
+         "z" : -2.73860
+      },
+      {
+         "a" : 2.78910,
+         "creature" : "ghost02",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "name" : "Desert Apparition",
+         "x" : 6.20770,
+         "z" : -2.0750
+      },
+      {
+         "a" : 2.78910,
+         "creature" : "ghost04",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "name" : "Desert Apparition",
+         "x" : 6.00580,
+         "z" : -2.570
+      },
+      {
+         "a" : 4.38090,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : -0.72510,
+         "z" : 1.26340
+      },
+      {
+         "a" : -1.67910,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : -0.58510,
+         "z" : 1.26340
+      },
+      {
+         "a" : -1.51250,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : -0.67460,
+         "z" : 1.19810
+      },
+      {
+         "a" : 0.0,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : -0.76310,
+         "z" : 1.01460
+      },
+      {
+         "a" : -1.09270,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : -0.66570,
+         "z" : 0.9890
+      },
+      {
+         "a" : 0.0,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : -0.73570,
+         "z" : 0.86780
+      },
+      {
+         "a" : 0.20660,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : -0.66570,
+         "z" : 0.7465000000000001
+      },
+      {
+         "a" : -0.83290,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : -0.59860,
+         "z" : 0.9080
+      },
+      {
+         "a" : -1.34590,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : -0.5050,
+         "z" : 0.90760
+      },
+      {
+         "a" : -1.37920,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : -0.58940,
+         "z" : 1.06490
+      },
+      {
+         "a" : -1.70570,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 1.15470,
+         "z" : -1.04340
+      },
+      {
+         "a" : -1.70570,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 1.08470,
+         "z" : -1.16460
+      },
+      {
+         "a" : -1.70570,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 1.15470,
+         "z" : -1.28590
+      },
+      {
+         "a" : -1.70570,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 1.29470,
+         "z" : -1.28590
+      },
+      {
+         "a" : -1.70570,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 1.36470,
+         "z" : -1.16460
+      },
+      {
+         "a" : -1.70570,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 1.29470,
+         "z" : -1.04340
+      },
+      {
+         "a" : -1.70570,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 1.15470,
+         "z" : -1.04340
+      },
+      {
+         "a" : -1.70570,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 1.19730,
+         "z" : -1.12140
+      },
+      {
+         "a" : -1.70570,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 1.22770,
+         "z" : -1.27880
+      },
+      {
+         "a" : 0.0,
+         "creature" : "ghost03",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 5.37790,
+         "z" : 0.47090
+      },
+      {
+         "a" : 0.0,
+         "creature" : "ghost03",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 4.35450,
+         "z" : -0.30810
+      },
+      {
+         "a" : -3.52470,
+         "creature" : "ghost03",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 5.560,
+         "z" : -0.68850
+      },
+      {
+         "a" : 0.0,
+         "creature" : "ghost03",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 4.31580,
+         "z" : 1.41640
+      },
+      {
+         "a" : -2.59190,
+         "creature" : "ghost03",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 2.67870,
+         "z" : 2.69510
+      },
+      {
+         "a" : 0.0,
+         "creature" : "ghost01",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 0.7340,
+         "z" : -3.19380
+      },
+      {
+         "a" : -2.95840,
+         "creature" : "ghost01",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 0.6640,
+         "z" : -3.3150
+      },
+      {
+         "a" : -2.30540,
+         "creature" : "ghost01",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 0.87330,
+         "z" : -3.20880
+      },
+      {
+         "a" : 0.0,
+         "creature" : "ghost02",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 0.63150,
+         "z" : -3.13810
+      },
+      {
+         "a" : -2.07220,
+         "creature" : "ghost02",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 0.79850,
+         "z" : -3.04610
+      },
+      {
+         "a" : 0.0,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Desert Ghost",
+         "x" : 0.78690,
+         "z" : -3.27830
+      }
+   ],
+   "fog" : [ 160, 112, 64 ],
+   "heroOmni" : {
+      "blue" : 0.06270000000000001,
+      "green" : 0.2510,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 0.43920
+   },
+   "lightCol" : [ 221, 170, 96 ],
+   "lightDir" : [ -0.6040, -0.3420, 0.71980 ],
+   "props" : [
+      {
+         "heading" : 0.0,
+         "height" : 0.28920,
+         "name" : "Extremely Long Metal Bridge",
+         "scaling" : 1.65330,
+         "x" : -4.38250,
+         "y" : 0.30,
+         "z" : 0.90410
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00310,
+         "name" : "blocker",
+         "scaling" : 1.08890,
+         "x" : -2.83980,
+         "y" : -0.0,
+         "z" : -0.23890
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.008800000000000001,
+         "name" : "blocker",
+         "scaling" : 1.34250,
+         "x" : -3.44820,
+         "y" : 0.00020,
+         "z" : -0.27410
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.008800000000000001,
+         "name" : "blocker",
+         "scaling" : 1.34250,
+         "x" : -3.45690,
+         "y" : 0.0,
+         "z" : -0.14760
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00980,
+         "name" : "blocker",
+         "scaling" : 1.15210,
+         "x" : -2.82180,
+         "y" : -0.0,
+         "z" : -0.11920
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00360,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.21280,
+         "x" : -2.13220,
+         "y" : 0.01230,
+         "z" : 0.36380
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01380,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.1160,
+         "x" : -2.11420,
+         "y" : 0.03080,
+         "z" : -0.07090
+      },
+      {
+         "heading" : -1.8590,
+         "height" : 0.01010,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.64660,
+         "x" : -2.75540,
+         "y" : 0.02560,
+         "z" : -0.22970
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01140,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.76560,
+         "x" : -1.59450,
+         "y" : 0.02010,
+         "z" : -0.06650
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00780,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.92750,
+         "x" : -2.16760,
+         "y" : 0.009299999999999999,
+         "z" : 0.60590
+      },
+      {
+         "heading" : 1.1430,
+         "height" : 0.02120,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.21280,
+         "x" : -2.00630,
+         "y" : 0.03690,
+         "z" : -0.18550
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.84060,
+         "x" : -2.44660,
+         "y" : 0.00510,
+         "z" : -0.07430
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01660,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.21280,
+         "x" : -1.82280,
+         "y" : 0.02860,
+         "z" : 0.40490
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00110,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.21280,
+         "x" : -1.85070,
+         "y" : 0.04520,
+         "z" : 0.080
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01560,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.78520,
+         "x" : -1.79520,
+         "y" : 0.03810,
+         "z" : 0.87510
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01160,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.21280,
+         "x" : -1.50630,
+         "y" : 0.03710,
+         "z" : 0.55970
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.030,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.21280,
+         "x" : -1.72510,
+         "y" : 0.01290,
+         "z" : 0.12850
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00670,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.21280,
+         "x" : -1.85140,
+         "y" : 0.01290,
+         "z" : -0.21920
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00150,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.97440,
+         "x" : -2.32280,
+         "y" : 0.00190,
+         "z" : -0.22840
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00620,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.51220,
+         "x" : -1.91410,
+         "y" : 0.01320,
+         "z" : 0.71570
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.07250,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.87590,
+         "x" : -2.64190,
+         "y" : 0.09429999999999999,
+         "z" : -0.19260
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.07149999999999999,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.90170,
+         "x" : -2.54030,
+         "y" : 0.14370,
+         "z" : -0.33780
+      },
+      {
+         "heading" : 4.63890,
+         "height" : 0.0020,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.09390,
+         "x" : -2.15940,
+         "y" : 0.0030,
+         "z" : 0.85510
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00750,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.21280,
+         "x" : -1.42090,
+         "y" : 0.03210,
+         "z" : 0.23510
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00110,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.51820,
+         "x" : -1.29280,
+         "y" : 0.03460,
+         "z" : 0.46380
+      },
+      {
+         "heading" : 0.9960,
+         "height" : 0.01720,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.63770,
+         "x" : -1.42320,
+         "y" : 0.03450,
+         "z" : 0.05090
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00040,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.72820,
+         "x" : -2.16720,
+         "y" : 0.00040,
+         "z" : 1.11560
+      },
+      {
+         "heading" : -1.53740,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.05430,
+         "x" : -2.18770,
+         "y" : 0.0,
+         "z" : 1.56160
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00510,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.21280,
+         "x" : -1.9770,
+         "y" : 0.02120,
+         "z" : 1.32260
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0050,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.64040,
+         "x" : -1.59990,
+         "y" : 0.01270,
+         "z" : 0.90090
+      },
+      {
+         "heading" : -4.02390,
+         "height" : 0.0030,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.41370,
+         "x" : -2.4970,
+         "y" : 0.00310,
+         "z" : 1.88060
+      },
+      {
+         "heading" : -1.53740,
+         "height" : 0.00250,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.05650,
+         "x" : -2.75120,
+         "y" : 0.00350,
+         "z" : 1.86830
+      },
+      {
+         "heading" : -0.59490,
+         "height" : 0.00090,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.64140,
+         "x" : -3.30450,
+         "y" : 0.00160,
+         "z" : 1.85560
+      },
+      {
+         "heading" : -2.84080,
+         "height" : 0.0010,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.06890,
+         "x" : -3.82730,
+         "y" : 0.00150,
+         "z" : 1.96870
+      },
+      {
+         "heading" : -1.3770,
+         "height" : -0.00360,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.95630,
+         "x" : -3.50140,
+         "y" : 0.00360,
+         "z" : 1.9730
+      },
+      {
+         "heading" : -2.74050,
+         "height" : 0.00040,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.24640,
+         "x" : -3.0540,
+         "y" : 0.00040,
+         "z" : 1.86610
+      },
+      {
+         "heading" : -1.53740,
+         "height" : 0.00420,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.01990,
+         "x" : -2.55820,
+         "y" : 0.01090,
+         "z" : 2.09460
+      },
+      {
+         "heading" : -3.56940,
+         "height" : 0.01050,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.75130,
+         "x" : -2.29870,
+         "y" : 0.01250,
+         "z" : 1.88260
+      },
+      {
+         "heading" : -2.21250,
+         "height" : -0.00130,
+         "name" : "Palm Tree 01",
+         "scaling" : 0.97370,
+         "x" : -2.88330,
+         "y" : 0.00980,
+         "z" : 2.11170
+      },
+      {
+         "heading" : -2.20580,
+         "height" : -0.02240,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.33510,
+         "x" : -1.38570,
+         "y" : 0.02410,
+         "z" : 1.32710
+      },
+      {
+         "heading" : -1.53740,
+         "height" : 0.00130,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.85810,
+         "x" : -1.3270,
+         "y" : 0.04720,
+         "z" : 1.04680
+      },
+      {
+         "heading" : -1.53740,
+         "height" : -0.00830,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.21280,
+         "x" : -2.81980,
+         "y" : 0.0150,
+         "z" : 2.25630
+      },
+      {
+         "heading" : -1.53740,
+         "height" : -0.00190,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.21280,
+         "x" : -3.18550,
+         "y" : 0.01380,
+         "z" : 2.33770
+      },
+      {
+         "heading" : -1.53740,
+         "height" : 0.00570,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.19380,
+         "x" : -3.65650,
+         "y" : 0.010,
+         "z" : 1.90950
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.00390,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.21280,
+         "x" : -4.06320,
+         "y" : 0.00350,
+         "z" : 1.8630
+      },
+      {
+         "heading" : 0.08019999999999999,
+         "height" : 0.00020,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.40210,
+         "x" : -4.09020,
+         "y" : 0.00030,
+         "z" : 1.42770
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.00860,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.67420,
+         "x" : -4.22850,
+         "y" : 0.0070,
+         "z" : 1.60750
+      },
+      {
+         "heading" : 0.20050,
+         "height" : 0.00610,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.20060,
+         "x" : -4.55630,
+         "y" : 0.00810,
+         "z" : 1.37040
+      },
+      {
+         "heading" : -0.1270,
+         "height" : 0.00070,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.21280,
+         "x" : -4.34690,
+         "y" : 0.01440,
+         "z" : 1.44880
+      },
+      {
+         "heading" : -2.48650,
+         "height" : -0.00650,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.28840,
+         "x" : -4.55760,
+         "y" : 0.00160,
+         "z" : 1.15490
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.00950,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.21280,
+         "x" : -4.08950,
+         "y" : -0.0,
+         "z" : 0.57970
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.00650,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.14340,
+         "x" : -4.5870,
+         "y" : 0.00080,
+         "z" : 0.50
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.00190,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.21280,
+         "x" : -4.29880,
+         "y" : 0.008200000000000001,
+         "z" : 0.35060
+      },
+      {
+         "heading" : 0.20050,
+         "height" : 0.00140,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.30480,
+         "x" : -4.12670,
+         "y" : 0.00490,
+         "z" : 0.27280
+      },
+      {
+         "heading" : 0.20050,
+         "height" : 0.00320,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.5530,
+         "x" : -4.59470,
+         "y" : 0.00970,
+         "z" : 0.09329999999999999
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.00080,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.33610,
+         "x" : -4.33760,
+         "y" : 0.00660,
+         "z" : 0.03150
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.01790,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.21280,
+         "x" : -4.54440,
+         "y" : 0.00190,
+         "z" : 0.36460
+      },
+      {
+         "heading" : 0.20050,
+         "height" : 0.00680,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.19980,
+         "x" : -4.49270,
+         "y" : 0.007900000000000001,
+         "z" : 1.61250
+      },
+      {
+         "heading" : -1.57750,
+         "height" : 0.01030,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.780,
+         "x" : -4.65820,
+         "y" : 0.01030,
+         "z" : 1.7320
+      },
+      {
+         "heading" : -0.73530,
+         "height" : -0.00120,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.54260,
+         "x" : -4.02170,
+         "y" : 0.00580,
+         "z" : 2.22940
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.00740,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.7470,
+         "x" : -4.34550,
+         "y" : 0.01240,
+         "z" : 1.97790
+      },
+      {
+         "heading" : 1.73790,
+         "height" : -0.00440,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.62760,
+         "x" : -4.27470,
+         "y" : 0.01250,
+         "z" : 2.31610
+      },
+      {
+         "heading" : -3.40230,
+         "height" : 0.00090,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.5130,
+         "x" : -4.85340,
+         "y" : 0.00090,
+         "z" : 1.91350
+      },
+      {
+         "heading" : -2.78730,
+         "height" : 0.00270,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.73160,
+         "x" : -5.15430,
+         "y" : 0.00580,
+         "z" : 2.01160
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.00030,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.11250,
+         "x" : -5.1670,
+         "y" : 0.01230,
+         "z" : 2.19570
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.0060,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.66480,
+         "x" : -3.48460,
+         "y" : 0.00370,
+         "z" : -0.10020
+      },
+      {
+         "heading" : 3.87690,
+         "height" : 0.01150,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.26880,
+         "x" : -3.43440,
+         "y" : 0.03570,
+         "z" : -0.33570
+      },
+      {
+         "heading" : 3.87690,
+         "height" : -0.01720,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.0420,
+         "x" : -3.66560,
+         "y" : 0.00250,
+         "z" : -0.14640
+      },
+      {
+         "heading" : 5.12680,
+         "height" : 0.00970,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.15020,
+         "x" : -3.66380,
+         "y" : 0.01340,
+         "z" : -0.37060
+      },
+      {
+         "heading" : 6.70430,
+         "height" : 0.00170,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.93970,
+         "x" : -3.85290,
+         "y" : 0.01340,
+         "z" : -0.16960
+      },
+      {
+         "heading" : 6.70430,
+         "height" : 0.00050,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.07920,
+         "x" : -3.83730,
+         "y" : 0.00220,
+         "z" : -0.57880
+      },
+      {
+         "heading" : 6.70430,
+         "height" : 0.00580,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.96470,
+         "x" : -3.78030,
+         "y" : 0.01160,
+         "z" : -0.88690
+      },
+      {
+         "heading" : 6.70430,
+         "height" : -0.0060,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.15690,
+         "x" : -3.87020,
+         "y" : 0.00690,
+         "z" : -1.11420
+      },
+      {
+         "heading" : 6.70430,
+         "height" : 0.00020,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.11140,
+         "x" : -3.72350,
+         "y" : 0.01320,
+         "z" : -1.2670
+      },
+      {
+         "heading" : 6.70430,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.62880,
+         "x" : -3.90110,
+         "y" : 0.00010,
+         "z" : -1.47810
+      },
+      {
+         "heading" : 6.70430,
+         "height" : -0.00380,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.05960,
+         "x" : -3.77870,
+         "y" : 0.008699999999999999,
+         "z" : -1.70990
+      },
+      {
+         "heading" : 6.7110,
+         "height" : -0.00230,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.33410,
+         "x" : -3.71850,
+         "y" : 0.008800000000000001,
+         "z" : -2.31320
+      },
+      {
+         "heading" : 7.67350,
+         "height" : -0.00160,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.29210,
+         "x" : -3.90060,
+         "y" : 0.00010,
+         "z" : -1.95630
+      },
+      {
+         "heading" : 6.7110,
+         "height" : 0.00170,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.92820,
+         "x" : -3.76230,
+         "y" : 0.01340,
+         "z" : -2.01070
+      },
+      {
+         "heading" : 6.44360,
+         "height" : 0.00580,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.90420,
+         "x" : -3.88590,
+         "y" : 0.01380,
+         "z" : -2.39280
+      },
+      {
+         "heading" : 7.01850,
+         "height" : -0.00470,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.00130,
+         "x" : -3.68240,
+         "y" : 0.01370,
+         "z" : -2.46860
+      },
+      {
+         "heading" : 8.869999999999999,
+         "height" : 0.00730,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.55890,
+         "x" : -3.90910,
+         "y" : 0.00860,
+         "z" : -2.72570
+      },
+      {
+         "heading" : 10.41410,
+         "height" : 0.00330,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.12680,
+         "x" : -3.51660,
+         "y" : 0.01770,
+         "z" : -2.94160
+      },
+      {
+         "heading" : 10.41410,
+         "height" : -0.00010,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.71060,
+         "x" : -3.68930,
+         "y" : 0.01160,
+         "z" : -2.76620
+      },
+      {
+         "heading" : -1.08950,
+         "height" : 0.01850,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.27140,
+         "x" : -5.02490,
+         "y" : 0.0260,
+         "z" : -0.01270
+      },
+      {
+         "heading" : -3.39560,
+         "height" : 0.00040,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.92670,
+         "x" : -4.14010,
+         "y" : 0.00470,
+         "z" : 0.040
+      },
+      {
+         "heading" : 3.86410,
+         "height" : -0.00680,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.35290,
+         "x" : -3.97150,
+         "y" : 0.0,
+         "z" : -0.04810
+      },
+      {
+         "heading" : 4.34480,
+         "height" : 0.00070,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.8630,
+         "x" : -4.06510,
+         "y" : 0.00280,
+         "z" : 0.14290
+      },
+      {
+         "heading" : 7.8540,
+         "height" : 0.02150,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.860,
+         "x" : -4.72160,
+         "y" : 0.03060,
+         "z" : -0.01550
+      },
+      {
+         "heading" : -5.30320,
+         "height" : -0.00610,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.70550,
+         "x" : -5.5630,
+         "y" : 0.0,
+         "z" : 1.94140
+      },
+      {
+         "heading" : -4.0640,
+         "height" : -0.00780,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.21280,
+         "x" : -5.41260,
+         "y" : 0.008699999999999999,
+         "z" : 2.17360
+      },
+      {
+         "heading" : -4.0640,
+         "height" : -0.0010,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.51020,
+         "x" : -5.81070,
+         "y" : 0.0,
+         "z" : 1.91050
+      },
+      {
+         "heading" : -4.0640,
+         "height" : -0.0150,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.21280,
+         "x" : -5.67330,
+         "y" : 0.00220,
+         "z" : 2.20120
+      },
+      {
+         "heading" : -5.60140,
+         "height" : 0.05870,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.03690,
+         "x" : -6.030,
+         "y" : 0.0590,
+         "z" : 1.83170
+      },
+      {
+         "heading" : -5.60140,
+         "height" : 0.00490,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.87570,
+         "x" : -5.99040,
+         "y" : 0.01910,
+         "z" : 2.12020
+      },
+      {
+         "heading" : -5.60140,
+         "height" : -0.01440,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.21280,
+         "x" : -6.12240,
+         "y" : 0.00410,
+         "z" : 2.31290
+      },
+      {
+         "heading" : -5.60140,
+         "height" : 0.00650,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.64580,
+         "x" : -6.27260,
+         "y" : 0.00650,
+         "z" : 1.8990
+      },
+      {
+         "heading" : -8.087899999999999,
+         "height" : 0.00860,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.1710,
+         "x" : -6.51440,
+         "y" : 0.01330,
+         "z" : 1.8930
+      },
+      {
+         "heading" : -8.087899999999999,
+         "height" : -0.00220,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.33720,
+         "x" : -6.63980,
+         "y" : 0.01080,
+         "z" : 2.12780
+      },
+      {
+         "heading" : -8.087899999999999,
+         "height" : 0.00460,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.57430,
+         "x" : -6.61290,
+         "y" : 0.01270,
+         "z" : 1.6480
+      },
+      {
+         "heading" : -8.087899999999999,
+         "height" : 0.01090,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.76560,
+         "x" : -6.5940,
+         "y" : 0.0110,
+         "z" : 1.23980
+      },
+      {
+         "heading" : -9.017099999999999,
+         "height" : 0.00220,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.81520,
+         "x" : -6.57280,
+         "y" : 0.00620,
+         "z" : 0.95160
+      },
+      {
+         "heading" : -11.41670,
+         "height" : 0.00120,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.8550,
+         "x" : -6.60040,
+         "y" : 0.0050,
+         "z" : 0.65230
+      },
+      {
+         "heading" : -12.37920,
+         "height" : 0.00560,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.21280,
+         "x" : -6.58390,
+         "y" : 0.00710,
+         "z" : 0.36260
+      },
+      {
+         "heading" : -11.41670,
+         "height" : 0.00390,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.89060,
+         "x" : -6.58850,
+         "y" : 0.00540,
+         "z" : 0.07940
+      },
+      {
+         "heading" : -8.602600000000001,
+         "height" : 0.01050,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.94810,
+         "x" : -6.79910,
+         "y" : 0.0130,
+         "z" : 0.02750
+      },
+      {
+         "heading" : -8.602600000000001,
+         "height" : 0.02330,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.42870,
+         "x" : -6.41020,
+         "y" : 0.02640,
+         "z" : -0.00530
+      },
+      {
+         "heading" : -8.602600000000001,
+         "height" : 0.02350,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.06520,
+         "x" : -6.11880,
+         "y" : 0.02640,
+         "z" : -0.0050
+      },
+      {
+         "heading" : -9.738899999999999,
+         "height" : 0.01150,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.6920,
+         "x" : -5.21230,
+         "y" : 0.01840,
+         "z" : -0.01180
+      },
+      {
+         "heading" : 5.12680,
+         "height" : -0.0005999999999999999,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.14020,
+         "x" : -3.53910,
+         "y" : 0.01260,
+         "z" : -0.25220
+      },
+      {
+         "heading" : -4.79260,
+         "height" : 0.0030,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.21280,
+         "x" : -6.79570,
+         "y" : 0.0160,
+         "z" : 1.51930
+      },
+      {
+         "heading" : -4.79260,
+         "height" : -0.00020,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.21280,
+         "x" : -7.04390,
+         "y" : 0.01680,
+         "z" : 1.54420
+      },
+      {
+         "heading" : -3.5560,
+         "height" : -0.00370,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.81430,
+         "x" : -6.78620,
+         "y" : 0.01870,
+         "z" : 1.06740
+      },
+      {
+         "heading" : -2.07210,
+         "height" : -0.00050,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.96850,
+         "x" : -6.78830,
+         "y" : 0.01210,
+         "z" : 0.62580
+      },
+      {
+         "heading" : -2.07210,
+         "height" : -0.0080,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.46620,
+         "x" : -7.09180,
+         "y" : 0.01160,
+         "z" : 1.18650
+      },
+      {
+         "heading" : -2.92770,
+         "height" : 0.00830,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -6.99640,
+         "y" : 0.02510,
+         "z" : 0.87390
+      },
+      {
+         "heading" : -2.92770,
+         "height" : -0.01150,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.19440,
+         "x" : -7.02960,
+         "y" : 0.00580,
+         "z" : 0.52520
+      },
+      {
+         "heading" : -2.92770,
+         "height" : 0.00140,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.19440,
+         "x" : -6.82940,
+         "y" : 0.01390,
+         "z" : 0.29010
+      },
+      {
+         "heading" : -2.92770,
+         "height" : -0.00340,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.19440,
+         "x" : -7.18660,
+         "y" : 0.008399999999999999,
+         "z" : 0.34030
+      },
+      {
+         "heading" : -2.78730,
+         "height" : -0.00160,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.57060,
+         "x" : -6.98320,
+         "y" : 0.00630,
+         "z" : 0.08620
+      },
+      {
+         "heading" : -2.92770,
+         "height" : -0.00050,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.19440,
+         "x" : -7.22020,
+         "y" : 0.00920,
+         "z" : 0.83680
+      },
+      {
+         "heading" : -1.10290,
+         "height" : 0.01560,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.2030,
+         "x" : -7.1780,
+         "y" : 0.01770,
+         "z" : 0.05210
+      },
+      {
+         "heading" : -2.92770,
+         "height" : -0.01730,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.19440,
+         "x" : -7.39510,
+         "y" : 0.00530,
+         "z" : 0.49690
+      },
+      {
+         "heading" : -2.00530,
+         "height" : -0.01520,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.19440,
+         "x" : -7.38790,
+         "y" : 0.00120,
+         "z" : 0.20580
+      },
+      {
+         "heading" : -1.16310,
+         "height" : 0.01210,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.70310,
+         "x" : -7.36860,
+         "y" : 0.01220,
+         "z" : 0.03850
+      },
+      {
+         "heading" : -1.16310,
+         "height" : -0.00940,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -7.61350,
+         "y" : -0.0,
+         "z" : 0.6336000000000001
+      },
+      {
+         "heading" : -0.52140,
+         "height" : 0.00090,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.7130,
+         "x" : -7.59010,
+         "y" : 0.01380,
+         "z" : 0.25640
+      },
+      {
+         "heading" : -0.52140,
+         "height" : -0.00720,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.12430,
+         "x" : -7.60940,
+         "y" : 0.00550,
+         "z" : -0.22180
+      },
+      {
+         "heading" : -0.52140,
+         "height" : 0.00180,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.89610,
+         "x" : -7.75990,
+         "y" : 0.01340,
+         "z" : 0.00560
+      },
+      {
+         "heading" : -0.52140,
+         "height" : -0.00020,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.99340,
+         "x" : -7.61540,
+         "y" : 0.00570,
+         "z" : -0.60850
+      },
+      {
+         "heading" : 0.30080,
+         "height" : -0.00910,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.82570,
+         "x" : -7.8190,
+         "y" : 0.008800000000000001,
+         "z" : -0.36120
+      },
+      {
+         "heading" : 0.30080,
+         "height" : -0.00020,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.25010,
+         "x" : -7.8970,
+         "y" : 0.00450,
+         "z" : 0.26350
+      },
+      {
+         "heading" : -0.52140,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.28690,
+         "x" : -7.57610,
+         "y" : 0.0,
+         "z" : -0.90250
+      },
+      {
+         "heading" : -0.52140,
+         "height" : -0.00270,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.16250,
+         "x" : -7.59850,
+         "y" : 0.00480,
+         "z" : -1.20120
+      },
+      {
+         "heading" : 0.30750,
+         "height" : 0.00040,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.41990,
+         "x" : -7.5820,
+         "y" : 0.00230,
+         "z" : -1.4760
+      },
+      {
+         "heading" : 0.30750,
+         "height" : -0.009299999999999999,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.78150,
+         "x" : -7.75490,
+         "y" : 0.01380,
+         "z" : -0.87390
+      },
+      {
+         "heading" : -0.77540,
+         "height" : -0.00380,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.2480,
+         "x" : -7.78550,
+         "y" : 0.010,
+         "z" : -1.26290
+      },
+      {
+         "heading" : -3.16830,
+         "height" : 0.00070,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -7.68180,
+         "y" : 0.00920,
+         "z" : -1.80040
+      },
+      {
+         "heading" : -3.16830,
+         "height" : -0.00590,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.6150,
+         "x" : -7.59850,
+         "y" : 0.0,
+         "z" : -2.04570
+      },
+      {
+         "heading" : -3.16830,
+         "height" : 0.00740,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -7.58470,
+         "y" : 0.008699999999999999,
+         "z" : -2.25320
+      },
+      {
+         "heading" : 0.22060,
+         "height" : 0.00780,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.86190,
+         "x" : -7.6080,
+         "y" : 0.009900000000000001,
+         "z" : -2.52440
+      },
+      {
+         "heading" : -3.48250,
+         "height" : 0.01130,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.60450,
+         "x" : -1.49740,
+         "y" : 0.0640,
+         "z" : 0.96630
+      },
+      {
+         "heading" : 1.36360,
+         "height" : -0.0070,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.01580,
+         "x" : -2.18950,
+         "y" : 0.0,
+         "z" : -0.27730
+      },
+      {
+         "heading" : -2.27260,
+         "height" : 0.0120,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.85490,
+         "x" : -1.37610,
+         "y" : 0.05150,
+         "z" : 0.28530
+      },
+      {
+         "heading" : 8.869999999999999,
+         "height" : -0.00050,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.12680,
+         "x" : -3.43990,
+         "y" : 0.0070,
+         "z" : -3.2010
+      },
+      {
+         "heading" : 8.114699999999999,
+         "height" : -0.008800000000000001,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.12680,
+         "x" : -3.6280,
+         "y" : 0.01220,
+         "z" : -3.08630
+      },
+      {
+         "heading" : 10.70150,
+         "height" : -0.00260,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.77680,
+         "x" : -3.88440,
+         "y" : 0.00360,
+         "z" : -3.36170
+      },
+      {
+         "heading" : 12.34580,
+         "height" : -0.00380,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.02380,
+         "x" : -3.68720,
+         "y" : 0.01930,
+         "z" : -3.3350
+      },
+      {
+         "heading" : 8.869999999999999,
+         "height" : 0.00510,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.86410,
+         "x" : -3.45680,
+         "y" : 0.02810,
+         "z" : -3.51050
+      },
+      {
+         "heading" : 8.869999999999999,
+         "height" : -0.01750,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.86670,
+         "x" : -3.58480,
+         "y" : 0.01360,
+         "z" : -3.45910
+      },
+      {
+         "heading" : 8.869999999999999,
+         "height" : -0.01090,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.12680,
+         "x" : -3.71230,
+         "y" : 0.01640,
+         "z" : -3.57440
+      },
+      {
+         "heading" : 8.869999999999999,
+         "height" : 0.00730,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.03590,
+         "x" : -3.45380,
+         "y" : 0.0180,
+         "z" : -3.91570
+      },
+      {
+         "heading" : 8.869999999999999,
+         "height" : -0.00220,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.7010,
+         "x" : -3.66060,
+         "y" : 0.02250,
+         "z" : -3.9970
+      },
+      {
+         "heading" : 8.869999999999999,
+         "height" : -0.00120,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.85650,
+         "x" : -3.46360,
+         "y" : 0.009599999999999999,
+         "z" : -4.23550
+      },
+      {
+         "heading" : 8.869999999999999,
+         "height" : 0.00170,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.12680,
+         "x" : -4.01620,
+         "y" : 0.00390,
+         "z" : -3.64290
+      },
+      {
+         "heading" : 10.54770,
+         "height" : 0.00240,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.38550,
+         "x" : -4.20220,
+         "y" : 0.01010,
+         "z" : -3.66240
+      },
+      {
+         "heading" : 10.54770,
+         "height" : 0.00110,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.48860,
+         "x" : -4.44810,
+         "y" : 0.00310,
+         "z" : -3.62920
+      },
+      {
+         "heading" : 10.10660,
+         "height" : -0.007900000000000001,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.04880,
+         "x" : -4.09410,
+         "y" : 0.009299999999999999,
+         "z" : -3.8220
+      },
+      {
+         "heading" : 10.10660,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.12680,
+         "x" : -3.8490,
+         "y" : 0.008800000000000001,
+         "z" : -3.66250
+      },
+      {
+         "heading" : 10.10660,
+         "height" : -0.00450,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.03370,
+         "x" : -4.31310,
+         "y" : 0.01070,
+         "z" : -3.91270
+      },
+      {
+         "heading" : 10.10660,
+         "height" : -0.01650,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.04950,
+         "x" : -3.75790,
+         "y" : 0.01370,
+         "z" : -3.86340
+      },
+      {
+         "heading" : -1.22320,
+         "height" : 0.00940,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -7.63460,
+         "y" : 0.0110,
+         "z" : -2.75260
+      },
+      {
+         "heading" : -0.85560,
+         "height" : 0.0050,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.30080,
+         "x" : -7.57640,
+         "y" : 0.00660,
+         "z" : -2.92980
+      },
+      {
+         "heading" : -1.60420,
+         "height" : 0.00560,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -7.59040,
+         "y" : 0.00570,
+         "z" : -3.26850
+      },
+      {
+         "heading" : -0.29410,
+         "height" : 0.0120,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.25170,
+         "x" : -7.48960,
+         "y" : 0.0280,
+         "z" : -3.66520
+      },
+      {
+         "heading" : -3.16830,
+         "height" : -0.01810,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.19440,
+         "x" : -7.88580,
+         "y" : 0.01630,
+         "z" : -0.83080
+      },
+      {
+         "heading" : -3.16830,
+         "height" : -0.00250,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.09180,
+         "x" : -7.57950,
+         "y" : 0.00350,
+         "z" : 0.09160
+      },
+      {
+         "heading" : -3.64290,
+         "height" : -0.0030,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -7.23310,
+         "y" : 0.00860,
+         "z" : 1.1270
+      },
+      {
+         "heading" : -2.88090,
+         "height" : -0.0005999999999999999,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.07910,
+         "x" : -7.06550,
+         "y" : 0.01370,
+         "z" : 0.20330
+      },
+      {
+         "heading" : -2.76730,
+         "height" : 0.00540,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.08030,
+         "x" : -5.67930,
+         "y" : 0.00560,
+         "z" : 1.8820
+      },
+      {
+         "heading" : -2.78730,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.97410,
+         "x" : -5.07650,
+         "y" : 0.0,
+         "z" : 1.88650
+      },
+      {
+         "heading" : 3.37550,
+         "height" : 0.00020,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.88050,
+         "x" : -5.24370,
+         "y" : 0.00330,
+         "z" : 1.91510
+      },
+      {
+         "heading" : 0.20050,
+         "height" : -0.00280,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.21280,
+         "x" : -4.46430,
+         "y" : 0.01040,
+         "z" : 0.23010
+      },
+      {
+         "heading" : -0.59490,
+         "height" : 0.00630,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.11190,
+         "x" : -3.17940,
+         "y" : 0.01920,
+         "z" : 2.04190
+      },
+      {
+         "heading" : -4.33140,
+         "height" : 0.00050,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.11640,
+         "x" : -2.90410,
+         "y" : 0.01120,
+         "z" : 1.96070
+      },
+      {
+         "heading" : 7.28580,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.97710,
+         "x" : -3.93070,
+         "y" : 0.0,
+         "z" : -3.10830
+      },
+      {
+         "heading" : 10.10660,
+         "height" : 0.0150,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.97330,
+         "x" : -4.65860,
+         "y" : 0.0240,
+         "z" : -3.62930
+      },
+      {
+         "heading" : 10.10660,
+         "height" : 0.009299999999999999,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.00220,
+         "x" : -4.52810,
+         "y" : 0.02570,
+         "z" : -3.81910
+      },
+      {
+         "heading" : 10.10660,
+         "height" : -0.0080,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.96930,
+         "x" : -4.88430,
+         "y" : 0.00120,
+         "z" : -3.61820
+      },
+      {
+         "heading" : 10.10660,
+         "height" : -0.00190,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.28990,
+         "x" : -4.74130,
+         "y" : 0.020,
+         "z" : -3.95680
+      },
+      {
+         "heading" : 8.91680,
+         "height" : 0.00380,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.43470,
+         "x" : -4.62090,
+         "y" : 0.02140,
+         "z" : -4.08150
+      },
+      {
+         "heading" : 8.91680,
+         "height" : 0.01820,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.64130,
+         "x" : -5.04770,
+         "y" : 0.02310,
+         "z" : -3.66650
+      },
+      {
+         "heading" : 8.91680,
+         "height" : -0.00240,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.97470,
+         "x" : -4.95640,
+         "y" : 0.01390,
+         "z" : -3.90520
+      },
+      {
+         "heading" : 10.76160,
+         "height" : -0.008699999999999999,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.61350,
+         "x" : -5.32440,
+         "y" : 0.00180,
+         "z" : -3.70580
+      },
+      {
+         "heading" : 10.76160,
+         "height" : -0.01040,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.170,
+         "x" : -5.15950,
+         "y" : 0.01230,
+         "z" : -3.91880
+      },
+      {
+         "heading" : 10.76160,
+         "height" : 0.00630,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.74410,
+         "x" : -4.84840,
+         "y" : 0.01750,
+         "z" : -4.1890
+      },
+      {
+         "heading" : 8.950200000000001,
+         "height" : -0.01040,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.88210,
+         "x" : -5.08540,
+         "y" : 0.01390,
+         "z" : -4.1470
+      },
+      {
+         "heading" : 8.91680,
+         "height" : 0.12490,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.60160,
+         "x" : -5.46450,
+         "y" : 0.14310,
+         "z" : -3.770
+      },
+      {
+         "heading" : 8.91680,
+         "height" : -0.01230,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.96060,
+         "x" : -5.33690,
+         "y" : 0.00590,
+         "z" : -3.90440
+      },
+      {
+         "heading" : 8.91680,
+         "height" : 0.00080,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.49710,
+         "x" : -5.56610,
+         "y" : 0.02490,
+         "z" : -3.87610
+      },
+      {
+         "heading" : 8.91680,
+         "height" : -0.00660,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.72880,
+         "x" : -5.2980,
+         "y" : 0.02210,
+         "z" : -4.15010
+      },
+      {
+         "heading" : 10.00630,
+         "height" : 0.00630,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.0490,
+         "x" : -5.52970,
+         "y" : 0.02210,
+         "z" : -4.03330
+      },
+      {
+         "heading" : 10.00630,
+         "height" : 0.00260,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.33720,
+         "x" : -5.7580,
+         "y" : 0.00460,
+         "z" : -3.63720
+      },
+      {
+         "heading" : 11.42340,
+         "height" : -0.01990,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.27220,
+         "x" : -5.96530,
+         "y" : 0.0,
+         "z" : -3.69070
+      },
+      {
+         "heading" : 8.53580,
+         "height" : 0.00730,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.20910,
+         "x" : -5.77580,
+         "y" : 0.02940,
+         "z" : -3.8970
+      },
+      {
+         "heading" : 9.60530,
+         "height" : 0.05430,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.07960,
+         "x" : -5.97450,
+         "y" : 0.07610,
+         "z" : -3.89510
+      },
+      {
+         "heading" : 9.60530,
+         "height" : 0.00550,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.16780,
+         "x" : -5.70410,
+         "y" : 0.02650,
+         "z" : -4.17490
+      },
+      {
+         "heading" : 9.60530,
+         "height" : -0.00140,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.90290,
+         "x" : -5.94220,
+         "y" : 0.01620,
+         "z" : -4.18980
+      },
+      {
+         "heading" : 8.108000000000001,
+         "height" : 0.05240,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.26110,
+         "x" : -6.18350,
+         "y" : 0.06740,
+         "z" : -3.69060
+      },
+      {
+         "heading" : 7.33260,
+         "height" : 0.0970,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.57660,
+         "x" : -6.3850,
+         "y" : 0.12340,
+         "z" : -3.8840
+      },
+      {
+         "heading" : 5.3340,
+         "height" : 0.00690,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.39870,
+         "x" : -6.12720,
+         "y" : 0.02310,
+         "z" : -4.10920
+      },
+      {
+         "heading" : 5.3340,
+         "height" : -0.01040,
+         "name" : "Palm Tree 03",
+         "scaling" : 2.09240,
+         "x" : -6.26440,
+         "y" : 0.01630,
+         "z" : -3.96210
+      },
+      {
+         "heading" : 1.42370,
+         "height" : -0.00080,
+         "name" : "Palm Tree 03",
+         "scaling" : 1.86650,
+         "x" : -6.33820,
+         "y" : 0.02220,
+         "z" : -4.08310
+      },
+      {
+         "heading" : -0.29410,
+         "height" : -0.00150,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.87140,
+         "x" : -7.32310,
+         "y" : 0.00860,
+         "z" : -3.64750
+      },
+      {
+         "heading" : 2.59350,
+         "height" : 0.00040,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.87640,
+         "x" : -7.20550,
+         "y" : 0.0310,
+         "z" : -3.9260
+      },
+      {
+         "heading" : 2.59350,
+         "height" : 0.01040,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.47760,
+         "x" : -7.11620,
+         "y" : 0.02390,
+         "z" : -3.61440
+      },
+      {
+         "heading" : -2.46650,
+         "height" : 0.08660,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.30860,
+         "x" : -6.98410,
+         "y" : 0.10620,
+         "z" : -3.73410
+      },
+      {
+         "heading" : -1.43710,
+         "height" : 0.03660,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.63830,
+         "x" : -7.07390,
+         "y" : 0.06880,
+         "z" : -3.88560
+      },
+      {
+         "heading" : -1.43710,
+         "height" : -0.00940,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.57180,
+         "x" : -6.63630,
+         "y" : 0.00730,
+         "z" : -3.78420
+      },
+      {
+         "heading" : 0.06020,
+         "height" : 0.00760,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.75050,
+         "x" : -6.83910,
+         "y" : 0.02040,
+         "z" : -3.70880
+      },
+      {
+         "heading" : 0.06020,
+         "height" : -0.0030,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.1090,
+         "x" : -6.48040,
+         "y" : 0.01940,
+         "z" : -3.98230
+      },
+      {
+         "heading" : 0.06020,
+         "height" : -0.00620,
+         "name" : "Palm Tree 01",
+         "scaling" : 3.0980,
+         "x" : -6.7290,
+         "y" : 0.0080,
+         "z" : -3.65550
+      },
+      {
+         "heading" : 0.06020,
+         "height" : -0.01450,
+         "name" : "Palm Tree 01",
+         "scaling" : 2.15810,
+         "x" : -6.67840,
+         "y" : 0.00860,
+         "z" : -4.01910
+      },
+      {
+         "heading" : 0.06020,
+         "height" : 0.00320,
+         "name" : "Palm Tree 01",
+         "scaling" : 1.8250,
+         "x" : -6.89010,
+         "y" : 0.009299999999999999,
+         "z" : -4.01430
+      },
+      {
+         "heading" : -2.23250,
+         "height" : 0.00010,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -6.87420,
+         "y" : 0.01260,
+         "z" : 0.15520
+      },
+      {
+         "heading" : -2.23250,
+         "height" : 0.01020,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -6.90050,
+         "y" : 0.02150,
+         "z" : 0.69840
+      },
+      {
+         "heading" : -3.5560,
+         "height" : -0.00420,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -7.36870,
+         "y" : 0.00240,
+         "z" : 0.82620
+      },
+      {
+         "heading" : -3.5560,
+         "height" : 0.009599999999999999,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -7.57350,
+         "y" : 0.01250,
+         "z" : 0.65210
+      },
+      {
+         "heading" : -3.5560,
+         "height" : -0.00780,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -6.84870,
+         "y" : 0.01180,
+         "z" : 1.33230
+      },
+      {
+         "heading" : -3.5560,
+         "height" : -0.00540,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -6.94270,
+         "y" : 0.01350,
+         "z" : 1.75050
+      },
+      {
+         "heading" : -3.5560,
+         "height" : -0.01210,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -5.82960,
+         "y" : 0.01020,
+         "z" : 2.1870
+      },
+      {
+         "heading" : -3.5560,
+         "height" : 0.01550,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.30770,
+         "x" : -6.15570,
+         "y" : 0.0220,
+         "z" : 1.95260
+      },
+      {
+         "heading" : -3.5560,
+         "height" : 0.00520,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.61250,
+         "x" : -4.99070,
+         "y" : 0.01110,
+         "z" : 2.03510
+      },
+      {
+         "heading" : -3.5560,
+         "height" : 0.00740,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.92870,
+         "x" : -4.16760,
+         "y" : 0.01810,
+         "z" : 2.06730
+      },
+      {
+         "heading" : -3.5560,
+         "height" : -0.00450,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -4.30620,
+         "y" : 0.01790,
+         "z" : 1.58180
+      },
+      {
+         "heading" : -3.07480,
+         "height" : 0.01850,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.31080,
+         "x" : -3.2010,
+         "y" : 0.02380,
+         "z" : 1.91160
+      },
+      {
+         "heading" : -3.07480,
+         "height" : 0.0180,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.74450,
+         "x" : -2.67380,
+         "y" : 0.01990,
+         "z" : 1.9260
+      },
+      {
+         "heading" : -3.07480,
+         "height" : -0.00610,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -1.87610,
+         "y" : 0.02410,
+         "z" : 1.2850
+      },
+      {
+         "heading" : -3.07480,
+         "height" : -0.0170,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -1.61920,
+         "y" : 0.02210,
+         "z" : 0.4040
+      },
+      {
+         "heading" : -3.07480,
+         "height" : -0.02670,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.19440,
+         "x" : -2.00920,
+         "y" : 0.00730,
+         "z" : 0.32660
+      },
+      {
+         "heading" : 6.57730,
+         "height" : -0.00430,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.10420,
+         "x" : -3.55140,
+         "y" : 0.01120,
+         "z" : -4.08630
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.11810,
+         "name" : "Desert Pillar 01",
+         "scaling" : 1.560,
+         "x" : -5.39510,
+         "y" : 0.28190,
+         "z" : 0.01010
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Pillar 01",
+         "scaling" : 1.0,
+         "x" : -4.53080,
+         "y" : 0.60,
+         "z" : -3.02860
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Pillar 01",
+         "scaling" : 1.0,
+         "x" : -6.95890,
+         "y" : 0.60,
+         "z" : -3.03750
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Pillar 01",
+         "scaling" : 1.0,
+         "x" : -6.96020,
+         "y" : 0.60,
+         "z" : -0.56550
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Tower 01",
+         "scaling" : 0.61150,
+         "x" : -2.78130,
+         "y" : 0.40,
+         "z" : 0.5910
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Tower 01",
+         "scaling" : 0.61150,
+         "x" : -3.44590,
+         "y" : 0.40,
+         "z" : 0.5872000000000001
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Tower 01",
+         "scaling" : 0.61150,
+         "x" : -2.78490,
+         "y" : 0.40,
+         "z" : 1.23710
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Tower 01",
+         "scaling" : 0.61150,
+         "x" : -3.44530,
+         "y" : 0.40,
+         "z" : 1.24190
+      },
+      {
+         "heading" : -0.67510,
+         "height" : -0.04770,
+         "name" : "Desert Wall 04",
+         "scaling" : 0.91390,
+         "x" : -4.43960,
+         "y" : 0.17920,
+         "z" : -0.69420
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0340,
+         "name" : "Desert Pillar 01",
+         "scaling" : 1.96210,
+         "x" : -4.35650,
+         "y" : -0.03260,
+         "z" : 1.22210
+      },
+      {
+         "gameObject" : "AoeTrap",
+         "gameObjectParams" : {
+            "activateEvent" : "",
+            "alwaysOn" : true,
+            "damagePerHeroLevel" : 10.0,
+            "deactivateEvent" : "",
+            "duration" : -1.0,
+            "radius" : 0.20,
+            "sectorArea" : false,
+            "sectorR0" : 0.0,
+            "sectorR1" : 0.050,
+            "sectorRGrowth" : 0.0,
+            "sectorTheta0" : 0.0,
+            "sectorTheta1" : 360.0,
+            "sectorThetaGrowth" : 0.0
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -5.16210,
+         "y" : 0.30,
+         "z" : 1.33030
+      },
+      {
+         "gameObject" : "AoeTrap",
+         "gameObjectParams" : {
+            "activateEvent" : "",
+            "alwaysOn" : true,
+            "damagePerHeroLevel" : 10.0,
+            "deactivateEvent" : "",
+            "duration" : -1.0,
+            "radius" : 0.20,
+            "sectorArea" : false,
+            "sectorR0" : 0.0,
+            "sectorR1" : 0.050,
+            "sectorRGrowth" : 0.0,
+            "sectorTheta0" : 0.0,
+            "sectorTheta1" : 360.0,
+            "sectorThetaGrowth" : 0.0
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -6.05490,
+         "y" : 0.30,
+         "z" : 1.33240
+      },
+      {
+         "gameObject" : "AoeTrap",
+         "gameObjectParams" : {
+            "activateEvent" : "",
+            "alwaysOn" : true,
+            "damagePerHeroLevel" : 10.0,
+            "deactivateEvent" : "",
+            "duration" : -1.0,
+            "radius" : 0.20,
+            "sectorArea" : false,
+            "sectorR0" : 0.0,
+            "sectorR1" : 0.050,
+            "sectorRGrowth" : 0.0,
+            "sectorTheta0" : 0.0,
+            "sectorTheta1" : 360.0,
+            "sectorThetaGrowth" : 0.0
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -5.15290,
+         "y" : 0.30,
+         "z" : 0.47540
+      },
+      {
+         "gameObject" : "AoeTrap",
+         "gameObjectParams" : {
+            "activateEvent" : "",
+            "alwaysOn" : true,
+            "damagePerHeroLevel" : 10.0,
+            "deactivateEvent" : "",
+            "duration" : -1.0,
+            "radius" : 0.20,
+            "sectorArea" : false,
+            "sectorR0" : 0.0,
+            "sectorR1" : 0.050,
+            "sectorRGrowth" : 0.0,
+            "sectorTheta0" : 0.0,
+            "sectorTheta1" : 360.0,
+            "sectorThetaGrowth" : 0.0
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -6.04970,
+         "y" : 0.30,
+         "z" : 0.46620
+      },
+      {
+         "heading" : -3.28860,
+         "height" : 0.00430,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.40690,
+         "x" : -5.41670,
+         "y" : 0.00940,
+         "z" : 1.88760
+      },
+      {
+         "heading" : 4.23110,
+         "height" : 0.00430,
+         "name" : "Palm Tree 02",
+         "scaling" : 2.42150,
+         "x" : -4.1680,
+         "y" : 0.00560,
+         "z" : 1.15810
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00180,
+         "name" : "Cactus 1 01",
+         "scaling" : 1.0,
+         "x" : 0.67120,
+         "y" : -0.18630,
+         "z" : -0.15140
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0230,
+         "name" : "Cactus 1 02",
+         "scaling" : 1.0,
+         "x" : 0.57270,
+         "y" : -0.10030,
+         "z" : -1.15290
+      },
+      {
+         "heading" : -0.66420,
+         "height" : -0.00890,
+         "name" : "Cactus 1 03",
+         "scaling" : 1.0,
+         "x" : 1.52460,
+         "y" : -0.19210,
+         "z" : -1.88950
+      },
+      {
+         "heading" : 1.0370,
+         "height" : -0.01480,
+         "name" : "Cactus 2 02",
+         "scaling" : 1.0,
+         "x" : -0.01080,
+         "y" : -0.1750,
+         "z" : 0.50520
+      },
+      {
+         "heading" : 1.0370,
+         "height" : 0.00180,
+         "name" : "Cactus 2 03",
+         "scaling" : 1.0,
+         "x" : -0.90130,
+         "y" : -0.19270,
+         "z" : -0.31530
+      },
+      {
+         "heading" : 1.0370,
+         "height" : 0.0350,
+         "name" : "Cactus 2 04",
+         "scaling" : 1.0,
+         "x" : -1.08730,
+         "y" : -0.13670,
+         "z" : 1.69190
+      },
+      {
+         "heading" : 1.0370,
+         "height" : -0.01070,
+         "name" : "Cactus 2 01",
+         "scaling" : 1.0,
+         "x" : 0.02020,
+         "y" : -0.19330,
+         "z" : -3.2670
+      },
+      {
+         "heading" : 0.14910,
+         "height" : -0.01610,
+         "name" : "Cactus 2 01",
+         "scaling" : 1.0,
+         "x" : -2.3630,
+         "y" : -0.20570,
+         "z" : -2.6750
+      },
+      {
+         "heading" : 1.5860,
+         "height" : -0.02140,
+         "name" : "Cactus 2 03",
+         "scaling" : 1.0,
+         "x" : -2.28650,
+         "y" : -0.19760,
+         "z" : -1.33870
+      },
+      {
+         "heading" : 1.5860,
+         "height" : 0.02080,
+         "name" : "Cactus 2 04",
+         "scaling" : 1.0,
+         "x" : -2.73050,
+         "y" : -0.16770,
+         "z" : -3.48590
+      },
+      {
+         "heading" : -3.35050,
+         "height" : 0.00220,
+         "name" : "Cactus 1 03",
+         "scaling" : 1.0,
+         "x" : -3.31010,
+         "y" : -0.17960,
+         "z" : -1.56490
+      },
+      {
+         "heading" : -3.56520,
+         "height" : -0.0190,
+         "name" : "Cactus 1 01",
+         "scaling" : 1.0,
+         "x" : -2.75460,
+         "y" : -0.17290,
+         "z" : -3.31710
+      },
+      {
+         "heading" : 2.61630,
+         "height" : -0.07550,
+         "name" : "Cactus 2 02",
+         "scaling" : 1.0,
+         "x" : -1.28310,
+         "y" : -0.25910,
+         "z" : -2.18070
+      },
+      {
+         "heading" : -0.92860,
+         "height" : 0.0310,
+         "name" : "Cactus 1 02",
+         "scaling" : 1.0,
+         "x" : 1.65390,
+         "y" : -0.12530,
+         "z" : 1.13730
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00020,
+         "name" : "Cactus 1 01",
+         "scaling" : 1.0,
+         "x" : 2.07250,
+         "y" : 0.00230,
+         "z" : 1.83930
+      },
+      {
+         "heading" : 0.54220,
+         "height" : 0.03140,
+         "name" : "Cactus 1 03",
+         "scaling" : 1.0,
+         "x" : 0.95520,
+         "y" : -0.14180,
+         "z" : 2.44740
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -6.55620,
+         "y" : 0.30,
+         "z" : -2.78950
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.00530,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -5.44390,
+         "y" : 0.29470,
+         "z" : -2.70860
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -4.75490,
+         "y" : 0.30,
+         "z" : -2.40650
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -4.66890,
+         "y" : 0.30,
+         "z" : -1.54640
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -4.8740,
+         "y" : 0.30,
+         "z" : -0.79250
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -5.62550,
+         "y" : 0.20,
+         "z" : -0.0270
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -5.77050,
+         "y" : 0.30,
+         "z" : 0.92540
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -3.11890,
+         "y" : 0.30,
+         "z" : 0.95260
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -5.4360,
+         "y" : 0.30,
+         "z" : 0.92270
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.00690,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -3.0090,
+         "y" : -0.20,
+         "z" : -1.02170
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.00830,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.72810,
+         "y" : -0.18990,
+         "z" : -1.64970
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00370,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.9860,
+         "y" : -0.1860,
+         "z" : -2.55180
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00150,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.25820,
+         "y" : -0.17890,
+         "z" : -3.34460
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.42590,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.92420,
+         "y" : 0.41350,
+         "z" : -4.0810
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00090,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.57260,
+         "y" : -0.19820,
+         "z" : -3.490
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.45180,
+         "y" : -0.20,
+         "z" : -3.62350
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.01240,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.75540,
+         "y" : -0.19460,
+         "z" : -2.09490
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00440,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.23460,
+         "y" : -0.18330,
+         "z" : -0.39210
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00810,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.91860,
+         "y" : -0.1830,
+         "z" : -0.54980
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.01160,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.32820,
+         "y" : -0.17860,
+         "z" : 0.44510
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00290,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.9020,
+         "y" : -0.17660,
+         "z" : 0.76380
+      },
+      {
+         "gameObject" : "LockedChest",
+         "gameObjectParams" : null,
+         "heading" : -2.83320,
+         "name" : "Chest 04",
+         "scaling" : 1.0,
+         "x" : -0.86520,
+         "y" : -0.20,
+         "z" : 1.6120
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.00010,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.25560,
+         "y" : -0.19990,
+         "z" : 1.9570
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.008500000000000001,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.05620,
+         "y" : -0.18740,
+         "z" : 2.69910
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.3470,
+         "y" : -0.19990,
+         "z" : 2.58850
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00120,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.63850,
+         "y" : -0.19590,
+         "z" : 1.36840
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00280,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 4.28840,
+         "y" : -0.19720,
+         "z" : 2.25540
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 5.35610,
+         "y" : -0.20,
+         "z" : 1.50140
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.01580,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.65870,
+         "y" : -0.19480,
+         "z" : -0.00710
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.008200000000000001,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 4.97370,
+         "y" : -0.19550,
+         "z" : -0.23410
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.00010,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 4.29160,
+         "y" : -0.17140,
+         "z" : -1.59440
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.0005999999999999999,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 4.48610,
+         "y" : -0.17510,
+         "z" : -3.39810
+      },
+      {
+         "gameObject" : "SuperiorChest",
+         "gameObjectParams" : null,
+         "heading" : -1.38950,
+         "height" : -0.00020,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : 2.93550,
+         "y" : -0.20010,
+         "z" : -2.96560
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 6.25720,
+         "y" : -0.20,
+         "z" : -0.93470
+      },
+      {
+         "gameObject" : "SuperiorChest",
+         "gameObjectParams" : null,
+         "heading" : 0.87440,
+         "height" : -0.0,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : 6.1460,
+         "y" : -0.20,
+         "z" : -2.64320
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -6.85530,
+         "y" : 0.30,
+         "z" : -0.94820
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 2.00350,
+         "x" : -5.67590,
+         "y" : 0.30,
+         "z" : -0.81190
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.00250,
+         "name" : "Dummy",
+         "scaling" : 2.00350,
+         "x" : -2.71830,
+         "y" : -0.19280,
+         "z" : -1.29770
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.00170,
+         "name" : "Dummy",
+         "scaling" : 2.00350,
+         "x" : 1.12980,
+         "y" : -0.18660,
+         "z" : 1.44540
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.00620,
+         "name" : "Dummy",
+         "scaling" : 2.00350,
+         "x" : 4.6350,
+         "y" : -0.18420,
+         "z" : 0.53910
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.9461000000000001,
+         "name" : "Desert Pillar 01",
+         "scaling" : 2.93570,
+         "x" : -5.39510,
+         "y" : -0.54610,
+         "z" : 0.01010
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.95560,
+         "name" : "Desert Pillar 01",
+         "scaling" : 2.93570,
+         "x" : -5.85640,
+         "y" : -0.55560,
+         "z" : -0.009599999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.12810,
+         "name" : "Desert Pillar 01",
+         "scaling" : 1.560,
+         "x" : -5.85860,
+         "y" : 0.27190,
+         "z" : -0.00610
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01420,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 0.74310,
+         "x" : -5.62880,
+         "y" : 0.18580,
+         "z" : -0.02770
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.04640,
+         "name" : "Desert Pillar 01",
+         "scaling" : 1.96210,
+         "x" : -4.34130,
+         "y" : -0.0450,
+         "z" : 0.49820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.43460,
+         "x" : -2.9550,
+         "y" : 0.30,
+         "z" : 1.21480
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00050,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.42460,
+         "x" : -3.25260,
+         "y" : 0.30050,
+         "z" : 1.21370
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00150,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.42460,
+         "x" : -2.80110,
+         "y" : 0.29850,
+         "z" : 1.05740
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.0005999999999999999,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.42460,
+         "x" : -2.79960,
+         "y" : 0.30060,
+         "z" : 0.77320
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Round Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -3.11080,
+         "y" : 0.30,
+         "z" : 1.21480
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Round Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -2.8020,
+         "y" : 0.30,
+         "z" : 0.90310
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00070,
+         "name" : "Square Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -5.93340,
+         "y" : 0.29910,
+         "z" : 1.18870
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00090,
+         "name" : "Square Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -5.91950,
+         "y" : 0.29910,
+         "z" : 0.61920
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00080,
+         "name" : "Square Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -5.32320,
+         "y" : 0.29920,
+         "z" : 0.6215000000000001
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00080,
+         "name" : "Square Desert Column 01",
+         "scaling" : 1.0,
+         "x" : -5.60580,
+         "y" : 0.29920,
+         "z" : 1.20120
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0005999999999999999,
+         "name" : "Square Desert Column 02",
+         "scaling" : 1.0,
+         "x" : -5.93070,
+         "y" : 0.29930,
+         "z" : 0.91350
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Square Desert Column 03",
+         "scaling" : 1.0,
+         "x" : -5.30590,
+         "y" : 0.30,
+         "z" : 1.18550
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.007900000000000001,
+         "name" : "Desert Rock Small 01",
+         "scaling" : 1.0,
+         "x" : -3.18580,
+         "y" : -0.09940,
+         "z" : -1.49280
+      },
+      {
+         "heading" : 6.38790,
+         "height" : -0.05690,
+         "name" : "Desert Rock Flat 01",
+         "scaling" : 1.0,
+         "x" : -3.14160,
+         "y" : -0.21070,
+         "z" : -1.62150
+      },
+      {
+         "heading" : 6.38790,
+         "height" : -0.08939999999999999,
+         "name" : "Desert Rock Flat 02",
+         "scaling" : 1.0,
+         "x" : -3.05630,
+         "y" : -0.20060,
+         "z" : -1.46050
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00170,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.0,
+         "x" : -2.68030,
+         "y" : -0.14450,
+         "z" : -3.3720
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0070,
+         "name" : "Desert Rock Flat 04",
+         "scaling" : 1.0,
+         "x" : -2.89060,
+         "y" : -0.19960,
+         "z" : -3.34750
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.30690,
+         "name" : "Desert Rock Med 02",
+         "scaling" : 1.69240,
+         "x" : -1.98640,
+         "y" : -0.19350,
+         "z" : -2.83610
+      },
+      {
+         "heading" : 0.50610,
+         "height" : -0.22990,
+         "name" : "Desert Rock Med 04",
+         "scaling" : 1.27860,
+         "x" : -1.69130,
+         "y" : -0.1890,
+         "z" : -2.95790
+      },
+      {
+         "heading" : -1.3730,
+         "height" : -0.09920,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.38420,
+         "x" : -1.85920,
+         "y" : -0.22370,
+         "z" : -3.1240
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.30590,
+         "name" : "Desert Rock Med 04",
+         "scaling" : 1.65490,
+         "x" : -2.49590,
+         "y" : -0.20330,
+         "z" : -0.64010
+      },
+      {
+         "heading" : 6.38790,
+         "height" : -0.02450,
+         "name" : "Desert Rock Flat 02",
+         "scaling" : 1.2820,
+         "x" : -2.36170,
+         "y" : -0.21680,
+         "z" : -1.04880
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03650,
+         "name" : "Desert Rock Small 05",
+         "scaling" : 1.0,
+         "x" : -2.30590,
+         "y" : -0.11170,
+         "z" : -0.96310
+      },
+      {
+         "heading" : 0.5410,
+         "height" : -0.05680,
+         "name" : "Desert Rock Med 02",
+         "scaling" : 1.24220,
+         "x" : -3.61560,
+         "y" : -0.20310,
+         "z" : -0.5710
+      },
+      {
+         "heading" : 2.37950,
+         "height" : -0.35160,
+         "name" : "Desert Rock Med 02",
+         "scaling" : 1.69240,
+         "x" : -2.23420,
+         "y" : -0.20450,
+         "z" : -2.18370
+      },
+      {
+         "heading" : 1.15780,
+         "height" : -0.23230,
+         "name" : "Desert Rock Small 02",
+         "scaling" : 1.58870,
+         "x" : -2.18670,
+         "y" : -0.16540,
+         "z" : -2.46370
+      },
+      {
+         "heading" : 0.50610,
+         "height" : -0.38710,
+         "name" : "Desert Rock Med 01",
+         "scaling" : 1.27860,
+         "x" : -0.7030,
+         "y" : -0.20820,
+         "z" : -3.19380
+      },
+      {
+         "heading" : 4.19460,
+         "height" : -0.11860,
+         "name" : "Desert Rock Med 03",
+         "scaling" : 1.27860,
+         "x" : -0.36070,
+         "y" : -0.20290,
+         "z" : -3.18220
+      },
+      {
+         "heading" : -0.33740,
+         "height" : -0.12220,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.38420,
+         "x" : -0.52330,
+         "y" : 0.11810,
+         "z" : -3.08240
+      },
+      {
+         "heading" : -1.3730,
+         "height" : -0.17410,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.38420,
+         "x" : -1.26090,
+         "y" : -0.31780,
+         "z" : -3.47010
+      },
+      {
+         "heading" : 4.19460,
+         "height" : -0.17420,
+         "name" : "Desert Rock Med 04",
+         "scaling" : 1.42740,
+         "x" : 0.18020,
+         "y" : -0.20230,
+         "z" : -2.94630
+      },
+      {
+         "heading" : 4.19460,
+         "height" : -0.31940,
+         "name" : "Desert Rock Med 05",
+         "scaling" : 1.42740,
+         "x" : 0.58960,
+         "y" : -0.1920,
+         "z" : -2.60440
+      },
+      {
+         "heading" : -0.78540,
+         "height" : -0.18810,
+         "name" : "Desert Rock Small 06",
+         "scaling" : 1.38420,
+         "x" : 0.29470,
+         "y" : -0.05160,
+         "z" : -2.57510
+      },
+      {
+         "heading" : -0.78540,
+         "height" : -0.24630,
+         "name" : "Desert Rock Small 02",
+         "scaling" : 1.38420,
+         "x" : -0.12760,
+         "y" : -0.16540,
+         "z" : -3.0170
+      },
+      {
+         "heading" : 1.36140,
+         "height" : -0.06230,
+         "name" : "Desert Rock Small 01",
+         "scaling" : 1.30710,
+         "x" : -3.5060,
+         "y" : -0.18160,
+         "z" : -2.20390
+      },
+      {
+         "heading" : 3.65930,
+         "height" : -0.09680,
+         "name" : "Desert Rock Small 01",
+         "scaling" : 1.30710,
+         "x" : -3.4360,
+         "y" : -0.21420,
+         "z" : -2.43340
+      },
+      {
+         "heading" : 2.37950,
+         "height" : -0.26660,
+         "name" : "Desert Rock Med 02",
+         "scaling" : 1.69240,
+         "x" : -3.48860,
+         "y" : -0.24770,
+         "z" : -3.06340
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.10120,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.12890,
+         "x" : -3.59170,
+         "y" : -0.26980,
+         "z" : -1.62390
+      },
+      {
+         "heading" : -3.58370,
+         "height" : -0.07370,
+         "name" : "Desert Rock Small 06",
+         "scaling" : 1.38420,
+         "x" : 0.41080,
+         "y" : -0.23170,
+         "z" : -1.11720
+      },
+      {
+         "heading" : -3.06010,
+         "height" : -0.12890,
+         "name" : "Desert Rock Small 02",
+         "scaling" : 1.38420,
+         "x" : -0.20350,
+         "y" : -0.21380,
+         "z" : -0.90160
+      },
+      {
+         "heading" : -0.81450,
+         "height" : -0.19940,
+         "name" : "Desert Rock Small 02",
+         "scaling" : 1.38420,
+         "x" : -0.25820,
+         "y" : -0.34010,
+         "z" : -1.05960
+      },
+      {
+         "heading" : -2.63540,
+         "height" : -0.10920,
+         "name" : "Desert Rock Small 01",
+         "scaling" : 1.27290,
+         "x" : 0.51720,
+         "y" : -0.26570,
+         "z" : -1.24720
+      },
+      {
+         "heading" : -3.31030,
+         "height" : -0.06270000000000001,
+         "name" : "Desert Rock Flat 02",
+         "scaling" : 1.38420,
+         "x" : 0.49320,
+         "y" : -0.24210,
+         "z" : -0.19820
+      },
+      {
+         "heading" : -3.06010,
+         "height" : -0.01490,
+         "name" : "Desert Rock Small 01",
+         "scaling" : 1.38420,
+         "x" : 1.40470,
+         "y" : -0.16430,
+         "z" : -0.13380
+      },
+      {
+         "heading" : 0.36070,
+         "height" : -0.0060,
+         "name" : "Cactus 2 03",
+         "scaling" : 1.0,
+         "x" : 1.50190,
+         "y" : -0.18890,
+         "z" : -0.33480
+      },
+      {
+         "heading" : -3.06010,
+         "height" : -0.16190,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.38420,
+         "x" : 0.14750,
+         "y" : -0.29930,
+         "z" : 0.55350
+      },
+      {
+         "heading" : -1.63480,
+         "height" : -0.33710,
+         "name" : "Desert Rock Med 02",
+         "scaling" : 1.69240,
+         "x" : -1.15850,
+         "y" : -0.18870,
+         "z" : -1.32570
+      },
+      {
+         "heading" : -2.89140,
+         "height" : -0.31780,
+         "name" : "Desert Rock Med 02",
+         "scaling" : 1.69240,
+         "x" : -1.37480,
+         "y" : -0.18470,
+         "z" : -1.77010
+      },
+      {
+         "heading" : -0.58180,
+         "height" : -0.32610,
+         "name" : "Desert Rock Med 06",
+         "scaling" : 1.35680,
+         "x" : -1.46010,
+         "y" : -0.26790,
+         "z" : -2.41760
+      },
+      {
+         "heading" : 5.66650,
+         "height" : -0.01360,
+         "name" : "Desert Rock Flat 06",
+         "scaling" : 1.38420,
+         "x" : -1.41760,
+         "y" : -0.18860,
+         "z" : -2.77790
+      },
+      {
+         "heading" : -1.63480,
+         "height" : -0.42380,
+         "name" : "Desert Rock Med 03",
+         "scaling" : 1.69240,
+         "x" : 0.07199999999999999,
+         "y" : -0.20030,
+         "z" : 1.24510
+      },
+      {
+         "heading" : -0.55270,
+         "height" : -0.40810,
+         "name" : "Desert Rock Med 01",
+         "scaling" : 1.69240,
+         "x" : -0.2330,
+         "y" : -0.20950,
+         "z" : 1.39760
+      },
+      {
+         "heading" : 0.61090,
+         "height" : -0.41880,
+         "name" : "Desert Rock Med 04",
+         "scaling" : 1.69240,
+         "x" : -1.02690,
+         "y" : -0.21470,
+         "z" : 1.97860
+      },
+      {
+         "heading" : -1.12280,
+         "height" : -0.11680,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.38420,
+         "x" : -0.24320,
+         "y" : -0.30230,
+         "z" : 1.03520
+      },
+      {
+         "heading" : -1.12280,
+         "height" : -0.05230,
+         "name" : "Desert Rock Flat 03",
+         "scaling" : 1.38420,
+         "x" : -1.05070,
+         "y" : -0.25120,
+         "z" : -0.04540
+      },
+      {
+         "heading" : -1.63480,
+         "height" : -0.25660,
+         "name" : "Desert Rock Med 04",
+         "scaling" : 1.69240,
+         "x" : -1.17750,
+         "y" : -0.22190,
+         "z" : 0.26790
+      },
+      {
+         "heading" : -2.48420,
+         "height" : -0.0410,
+         "name" : "Desert Rock Small 01",
+         "scaling" : 1.38420,
+         "x" : -1.20210,
+         "y" : -0.2370,
+         "z" : -0.3810
+      },
+      {
+         "heading" : -1.46030,
+         "height" : -0.11910,
+         "name" : "Desert Rock Small 02",
+         "scaling" : 1.38420,
+         "x" : -1.02710,
+         "y" : -0.25130,
+         "z" : 1.10260
+      },
+      {
+         "heading" : 4.19460,
+         "height" : -0.49150,
+         "name" : "Desert Rock Med 05",
+         "scaling" : 2.24820,
+         "x" : 1.63610,
+         "y" : -0.1620,
+         "z" : -3.13560
+      },
+      {
+         "heading" : 3.55460,
+         "height" : -0.71970,
+         "name" : "Desert Rock Med 03",
+         "scaling" : 2.24820,
+         "x" : 1.24450,
+         "y" : -0.31950,
+         "z" : -3.6890
+      },
+      {
+         "heading" : 4.24690,
+         "height" : -0.2930,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.73150,
+         "x" : -0.1030,
+         "y" : 0.10820,
+         "z" : -4.41040
+      },
+      {
+         "heading" : 4.24690,
+         "height" : -0.25670,
+         "name" : "Desert Rock Small 05",
+         "scaling" : 1.73150,
+         "x" : 0.64220,
+         "y" : 0.08110000000000001,
+         "z" : -4.17170
+      },
+      {
+         "heading" : -1.3730,
+         "height" : -0.27090,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.7860,
+         "x" : -1.1170,
+         "y" : 0.12460,
+         "z" : -4.51720
+      },
+      {
+         "heading" : 8.17980,
+         "height" : -0.08640,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.38420,
+         "x" : -0.29180,
+         "y" : 0.02950,
+         "z" : -2.62710
+      },
+      {
+         "heading" : 4.92770,
+         "height" : -0.07270,
+         "name" : "Desert Rock Small 05",
+         "scaling" : 1.47490,
+         "x" : 0.06330,
+         "y" : 0.06370000000000001,
+         "z" : -2.40830
+      },
+      {
+         "heading" : 3.11830,
+         "height" : -0.34220,
+         "name" : "Desert Rock Med 05",
+         "scaling" : 2.24820,
+         "x" : 1.89310,
+         "y" : -0.16180,
+         "z" : -1.58630
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.2450,
+         "name" : "Desert Rock Med 04",
+         "scaling" : 2.24820,
+         "x" : 2.13880,
+         "y" : -0.19440,
+         "z" : 0.25180
+      },
+      {
+         "heading" : 3.09510,
+         "height" : -0.40430,
+         "name" : "Desert Rock Med 03",
+         "scaling" : 1.7580,
+         "x" : 1.92120,
+         "y" : -0.1830,
+         "z" : 0.83830
+      },
+      {
+         "heading" : 1.34970,
+         "height" : -0.0530,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.91990,
+         "x" : 2.12740,
+         "y" : -0.17170,
+         "z" : -0.18790
+      },
+      {
+         "heading" : 6.46360,
+         "height" : -0.44930,
+         "name" : "Desert Rock Med 04",
+         "scaling" : 2.24820,
+         "x" : 0.54660,
+         "y" : -0.2110,
+         "z" : 1.78990
+      },
+      {
+         "heading" : -3.06010,
+         "height" : -0.15710,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.70140,
+         "x" : 0.4910,
+         "y" : -0.22160,
+         "z" : 1.30650
+      },
+      {
+         "heading" : -4.13060,
+         "height" : -0.02850,
+         "name" : "Desert Rock Small 05",
+         "scaling" : 1.50950,
+         "x" : 1.39360,
+         "y" : -0.20110,
+         "z" : 2.75460
+      },
+      {
+         "heading" : 6.25410,
+         "height" : -0.30370,
+         "name" : "Desert Rock Med 04",
+         "scaling" : 2.24820,
+         "x" : 1.59820,
+         "y" : -0.20880,
+         "z" : 3.27440
+      },
+      {
+         "heading" : -2.06530,
+         "height" : -0.01220,
+         "name" : "Desert Rock Flat 06",
+         "scaling" : 1.62160,
+         "x" : 1.99860,
+         "y" : -0.1930,
+         "z" : 3.17830
+      },
+      {
+         "heading" : 25.84190,
+         "height" : -0.40240,
+         "name" : "Desert Rock Med 06",
+         "scaling" : 2.51920,
+         "x" : 2.54880,
+         "y" : -0.21640,
+         "z" : 3.7750
+      },
+      {
+         "heading" : 29.73390,
+         "height" : -0.62020,
+         "name" : "Desert Rock Med 05",
+         "scaling" : 2.51920,
+         "x" : 3.42280,
+         "y" : -0.24850,
+         "z" : 3.61990
+      },
+      {
+         "heading" : -4.13060,
+         "height" : -0.04810,
+         "name" : "Desert Rock Small 05",
+         "scaling" : 1.50950,
+         "x" : 3.44580,
+         "y" : -0.18170,
+         "z" : 1.910
+      },
+      {
+         "heading" : -2.00720,
+         "height" : -0.08530,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.50950,
+         "x" : 3.70560,
+         "y" : -0.25170,
+         "z" : 1.86550
+      },
+      {
+         "heading" : -2.76930,
+         "height" : -0.00810,
+         "name" : "Desert Rock Flat 02",
+         "scaling" : 1.0610,
+         "x" : 3.5210,
+         "y" : -0.19650,
+         "z" : 1.66210
+      },
+      {
+         "heading" : -2.64130,
+         "height" : -0.02750,
+         "name" : "Cactus 1 01",
+         "scaling" : 1.0,
+         "x" : 3.55010,
+         "y" : -0.1850,
+         "z" : 1.78970
+      },
+      {
+         "heading" : 2.54820,
+         "height" : -0.11130,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.50950,
+         "x" : 4.17440,
+         "y" : -0.24660,
+         "z" : 0.43460
+      },
+      {
+         "heading" : -2.15260,
+         "height" : -0.04180,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.50950,
+         "x" : 3.94870,
+         "y" : -0.18830,
+         "z" : -0.73880
+      },
+      {
+         "heading" : -2.15260,
+         "height" : -0.04560,
+         "name" : "Desert Rock Small 02",
+         "scaling" : 1.15810,
+         "x" : 3.47390,
+         "y" : -0.20120,
+         "z" : -0.69350
+      },
+      {
+         "heading" : 3.09510,
+         "height" : -0.37940,
+         "name" : "Desert Rock Med 03",
+         "scaling" : 1.7580,
+         "x" : 3.37380,
+         "y" : -0.28120,
+         "z" : 0.34810
+      },
+      {
+         "heading" : 4.06660,
+         "height" : -0.24530,
+         "name" : "Desert Rock Med 04",
+         "scaling" : 2.18910,
+         "x" : 3.18550,
+         "y" : -0.24410,
+         "z" : -0.12990
+      },
+      {
+         "heading" : -1.92570,
+         "height" : -0.20430,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.83070,
+         "x" : 2.67290,
+         "y" : -0.10430,
+         "z" : 1.66970
+      },
+      {
+         "heading" : -4.85790,
+         "height" : -0.20750,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.50950,
+         "x" : 2.46980,
+         "y" : -0.19030,
+         "z" : 1.94410
+      },
+      {
+         "heading" : -0.11630,
+         "height" : -0.48510,
+         "name" : "Desert Rock Med 03",
+         "scaling" : 2.1750,
+         "x" : 3.11060,
+         "y" : -0.25410,
+         "z" : -1.28640
+      },
+      {
+         "heading" : -2.810,
+         "height" : -0.30590,
+         "name" : "Desert Rock Med 04",
+         "scaling" : 2.1750,
+         "x" : 2.83770,
+         "y" : -0.21630,
+         "z" : -1.83610
+      },
+      {
+         "heading" : 2.43180,
+         "height" : -0.43320,
+         "name" : "Desert Rock Med 06",
+         "scaling" : 2.4960,
+         "x" : 2.3340,
+         "y" : -0.2250,
+         "z" : -2.62870
+      },
+      {
+         "heading" : -2.15260,
+         "height" : -0.08350,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.50950,
+         "x" : 2.74680,
+         "y" : -0.22550,
+         "z" : -2.26450
+      },
+      {
+         "heading" : 0.03490,
+         "height" : -0.03160,
+         "name" : "Desert Rock Flat 04",
+         "scaling" : 1.50950,
+         "x" : 2.83990,
+         "y" : -0.23160,
+         "z" : -2.59350
+      },
+      {
+         "heading" : 2.15840,
+         "height" : 0.03730,
+         "name" : "Cactus 2 03",
+         "scaling" : 0.79060,
+         "x" : 3.3650,
+         "y" : 0.0010,
+         "z" : -0.66560
+      },
+      {
+         "heading" : 2.54820,
+         "height" : -0.05480,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.50950,
+         "x" : 3.51240,
+         "y" : -0.18410,
+         "z" : -2.23710
+      },
+      {
+         "heading" : 2.54820,
+         "height" : -0.10080,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.50950,
+         "x" : 3.67630,
+         "y" : -0.19370,
+         "z" : -2.1730
+      },
+      {
+         "heading" : 2.15840,
+         "height" : -0.01680,
+         "name" : "Cactus 2 03",
+         "scaling" : 0.990,
+         "x" : 3.64380,
+         "y" : -0.16550,
+         "z" : -2.40440
+      },
+      {
+         "heading" : 2.54820,
+         "height" : -0.07010,
+         "name" : "Desert Rock Small 04",
+         "scaling" : 1.50950,
+         "x" : 5.7920,
+         "y" : -0.17430,
+         "z" : -1.80060
+      },
+      {
+         "heading" : 1.62310,
+         "height" : -0.03570,
+         "name" : "Desert Rock Small 03",
+         "scaling" : 1.50950,
+         "x" : 5.61720,
+         "y" : -0.17380,
+         "z" : -1.86710
+      },
+      {
+         "heading" : 3.30450,
+         "height" : -0.03750,
+         "name" : "Desert Rock Small 01",
+         "scaling" : 1.50950,
+         "x" : 5.40840,
+         "y" : -0.19360,
+         "z" : -1.96820
+      },
+      {
+         "heading" : 3.97930,
+         "height" : -0.03070,
+         "name" : "Desert Rock Small 06",
+         "scaling" : 1.50950,
+         "x" : 5.23220,
+         "y" : -0.20210,
+         "z" : -2.25340
+      },
+      {
+         "heading" : 3.97930,
+         "height" : -0.01120,
+         "name" : "Desert Rock Small 05",
+         "scaling" : 1.10870,
+         "x" : 5.08960,
+         "y" : -0.18970,
+         "z" : -2.45010
+      },
+      {
+         "heading" : 3.97930,
+         "height" : -0.02160,
+         "name" : "Desert Rock Small 02",
+         "scaling" : 1.10870,
+         "x" : 4.93490,
+         "y" : -0.20370,
+         "z" : -2.94110
+      },
+      {
+         "heading" : 6.2890,
+         "height" : -0.01710,
+         "name" : "Desert Rock Flat 01",
+         "scaling" : 1.50950,
+         "x" : 5.33040,
+         "y" : -0.19730,
+         "z" : -1.77740
+      },
+      {
+         "heading" : 11.67610,
+         "height" : -0.0190,
+         "name" : "Desert Rock Flat 05",
+         "scaling" : 1.50950,
+         "x" : 5.23550,
+         "y" : -0.1870,
+         "z" : -2.05940
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00070,
+         "name" : "blocker",
+         "scaling" : 1.38820,
+         "x" : -6.28890,
+         "y" : 0.30070,
+         "z" : -1.87450
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01850,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -6.26460,
+         "y" : 0.03240,
+         "z" : -0.02360
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03350,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -6.54440,
+         "y" : 0.03520,
+         "z" : 0.15130
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0020,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -4.5810,
+         "y" : 0.01170,
+         "z" : -0.01650
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00260,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -4.38150,
+         "y" : 0.01060,
+         "z" : 0.27750
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0005999999999999999,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -4.97250,
+         "y" : -0.00030,
+         "z" : 1.95410
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -5.32760,
+         "y" : 0.01060,
+         "z" : 2.04460
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0010,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -5.45260,
+         "y" : 0.01820,
+         "z" : 2.26110
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0010,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -5.93160,
+         "y" : 0.00420,
+         "z" : 1.94850
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00230,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -6.15030,
+         "y" : 0.00240,
+         "z" : 1.85680
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00230,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -3.50760,
+         "y" : 0.00350,
+         "z" : 1.8480
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0030,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -3.25760,
+         "y" : 0.00350,
+         "z" : 1.8480
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.009900000000000001,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -3.13260,
+         "y" : 0.00350,
+         "z" : 2.06450
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01770,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -2.81730,
+         "y" : -0.01240,
+         "z" : 1.92740
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01880,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -3.76840,
+         "y" : -0.01880,
+         "z" : 1.89590
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0180,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -4.2040,
+         "y" : -0.00140,
+         "z" : 1.45090
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02030,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -2.17370,
+         "y" : 0.02070,
+         "z" : 0.71110
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.10440,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -2.22590,
+         "y" : 0.12090,
+         "z" : 1.22750
+      },
+      {
+         "heading" : 0.55270,
+         "height" : 0.10120,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.24590,
+         "x" : -2.22890,
+         "y" : 0.11950,
+         "z" : 1.0840
+      },
+      {
+         "heading" : 0.55270,
+         "height" : -0.008800000000000001,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.24590,
+         "x" : -2.20690,
+         "y" : -0.00510,
+         "z" : 1.79380
+      },
+      {
+         "heading" : 0.55270,
+         "height" : 0.00210,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.24590,
+         "x" : 0.03020,
+         "y" : -0.17060,
+         "z" : 0.38590
+      },
+      {
+         "heading" : 0.55270,
+         "height" : 0.00570,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.24590,
+         "x" : 0.36580,
+         "y" : -0.15950,
+         "z" : -1.27710
+      },
+      {
+         "heading" : 0.55270,
+         "height" : 0.05690,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.24590,
+         "x" : -1.01230,
+         "y" : -0.09810000000000001,
+         "z" : -1.71420
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.00340,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.47580,
+         "x" : -0.96810,
+         "y" : -0.18450,
+         "z" : -1.89190
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.00490,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.47580,
+         "x" : -0.11630,
+         "y" : 0.14280,
+         "z" : -2.69340
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.07530000000000001,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.47580,
+         "x" : -0.24130,
+         "y" : 0.23840,
+         "z" : -2.47690
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.00220,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.47580,
+         "x" : 1.47820,
+         "y" : -0.19310,
+         "z" : -1.96960
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.02440,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.90760,
+         "x" : 1.42210,
+         "y" : -0.21430,
+         "z" : -1.85980
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.01110,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.90760,
+         "x" : 0.6012999999999999,
+         "y" : -0.15590,
+         "z" : -2.89720
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.02070,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.90760,
+         "x" : -0.09240,
+         "y" : -0.16320,
+         "z" : -3.35080
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.01590,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.72440,
+         "x" : -0.50540,
+         "y" : -0.1790,
+         "z" : -3.41370
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.00210,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.72440,
+         "x" : -1.68160,
+         "y" : -0.20110,
+         "z" : -3.24120
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.00770,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.72440,
+         "x" : -2.00410,
+         "y" : -0.18280,
+         "z" : -3.19110
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.00670,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.72440,
+         "x" : -1.22610,
+         "y" : -0.19330,
+         "z" : -2.64810
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.0160,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.72440,
+         "x" : 1.32250,
+         "y" : -0.16930,
+         "z" : -0.32740
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.01310,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.72440,
+         "x" : 0.72280,
+         "y" : -0.16760,
+         "z" : -0.2680
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.01070,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.72440,
+         "x" : 0.71790,
+         "y" : -0.1870,
+         "z" : 1.28360
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.01210,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.76640,
+         "x" : 0.44280,
+         "y" : -0.16380,
+         "z" : 1.08540
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.0260,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.76640,
+         "x" : -0.68310,
+         "y" : -0.17320,
+         "z" : 1.73770
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.0160,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.76640,
+         "x" : -0.5800999999999999,
+         "y" : -0.16850,
+         "z" : 1.60950
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.00940,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.35580,
+         "x" : -1.07980,
+         "y" : -0.1570,
+         "z" : 1.60440
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.00160,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.35580,
+         "x" : -0.99020,
+         "y" : -0.17750,
+         "z" : 0.90040
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.0050,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.35580,
+         "x" : 1.60690,
+         "y" : -0.16260,
+         "z" : 1.06350
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.03740,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.35580,
+         "x" : 1.0310,
+         "y" : -0.15660,
+         "z" : 2.45250
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.00640,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.6520,
+         "x" : 0.95730,
+         "y" : -0.18930,
+         "z" : 2.39460
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.00830,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.6520,
+         "x" : 2.14560,
+         "y" : 0.02240,
+         "z" : 1.84760
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.00070,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.6520,
+         "x" : 2.2510,
+         "y" : -0.18230,
+         "z" : 3.26750
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.00670,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.6520,
+         "x" : 2.4150,
+         "y" : -0.17910,
+         "z" : 3.25670
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.02330,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.6520,
+         "x" : 3.55620,
+         "y" : -0.16230,
+         "z" : 3.11320
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.04550,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.6520,
+         "x" : 3.11230,
+         "y" : 0.05590,
+         "z" : 3.39010
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.03250,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.6520,
+         "x" : 3.72170,
+         "y" : -0.14920,
+         "z" : 1.63140
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.03810,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.6520,
+         "x" : 2.88810,
+         "y" : -0.10330,
+         "z" : 1.63890
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.03050,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.6520,
+         "x" : 3.58460,
+         "y" : -0.13640,
+         "z" : -0.03540
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.00380,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.29950,
+         "x" : 4.08990,
+         "y" : -0.18030,
+         "z" : -0.87110
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.00980,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.65460,
+         "x" : 4.14440,
+         "y" : -0.18270,
+         "z" : -0.67670
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.00080,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.65460,
+         "x" : 3.74490,
+         "y" : -0.17950,
+         "z" : -2.41760
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.01190,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.90890,
+         "x" : 3.5670,
+         "y" : -0.15140,
+         "z" : -2.47890
+      },
+      {
+         "heading" : 0.19780,
+         "height" : -0.00010,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.90890,
+         "x" : 4.99770,
+         "y" : -0.17110,
+         "z" : -2.32380
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.00860,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.90890,
+         "x" : 5.72610,
+         "y" : -0.14390,
+         "z" : -2.02280
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.03670,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.20650,
+         "x" : 5.48630,
+         "y" : -0.12540,
+         "z" : -2.20560
+      },
+      {
+         "heading" : 0.19780,
+         "height" : 0.00390,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.44650,
+         "x" : 5.16230,
+         "y" : -0.18050,
+         "z" : -2.58110
+      },
+      {
+         "heading" : 0.7504999999999999,
+         "height" : -0.00120,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.44650,
+         "x" : 4.98420,
+         "y" : -0.19010,
+         "z" : -3.09990
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.03980,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 4.33770,
+         "y" : -0.06450,
+         "z" : 3.22560
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.10260,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 4.7730,
+         "y" : -0.07520,
+         "z" : 2.69180
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00730,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 5.22430,
+         "y" : -0.04680,
+         "z" : 2.19180
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 6.05450,
+         "y" : -0.06859999999999999,
+         "z" : 1.85440
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.05950,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 6.31130,
+         "y" : -0.02970,
+         "z" : 1.06170
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.07420,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 6.40920,
+         "y" : -0.02950,
+         "z" : 0.35770
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02110,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 6.85910,
+         "y" : -0.02930,
+         "z" : -0.32710
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.05020,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 7.28020,
+         "y" : -0.030,
+         "z" : -1.02970
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.05450,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 7.10750,
+         "y" : 0.01460,
+         "z" : -1.74670
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01570,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 6.96290,
+         "y" : 0.03250,
+         "z" : -2.6090
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09110,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 6.68860,
+         "y" : -0.00280,
+         "z" : -3.36170
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.08169999999999999,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 6.1710,
+         "y" : 0.02350,
+         "z" : -3.72470
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.08230,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 5.66150,
+         "y" : 0.05070,
+         "z" : -4.02060
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.03390,
+         "name" : "blocker",
+         "scaling" : 4.71670,
+         "x" : 4.89150,
+         "y" : 0.05460,
+         "z" : -4.43760
+      },
+      {
+         "heading" : -1.3770,
+         "height" : -0.00270,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.95630,
+         "x" : -3.42030,
+         "y" : 0.01510,
+         "z" : 2.10950
+      },
+      {
+         "heading" : -1.3770,
+         "height" : 0.00070,
+         "name" : "Palm Tree 02",
+         "scaling" : 1.95630,
+         "x" : -3.60350,
+         "y" : 0.02120,
+         "z" : 2.22970
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01010,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -5.62930,
+         "y" : 0.01760,
+         "z" : 1.98210
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01090,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -5.75630,
+         "y" : 0.02690,
+         "z" : 2.080
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01870,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -4.69850,
+         "y" : 0.01940,
+         "z" : 1.89810
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01920,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.28690,
+         "x" : -4.62850,
+         "y" : 0.01920,
+         "z" : 1.44920
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0060,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.28690,
+         "x" : -4.79890,
+         "y" : 0.01780,
+         "z" : 2.16720
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00150,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -4.96780,
+         "y" : 0.01040,
+         "z" : 2.22770
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00430,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -5.23720,
+         "y" : 0.01590,
+         "z" : 2.25590
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00320,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -4.4970,
+         "y" : 0.00610,
+         "z" : 1.80310
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01280,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -4.13990,
+         "y" : 0.02280,
+         "z" : 1.69730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03080,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -3.56690,
+         "y" : 0.04640,
+         "z" : 2.09020
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02060,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -3.95890,
+         "y" : 0.02280,
+         "z" : 2.09550
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00890,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -2.39950,
+         "y" : 0.02130,
+         "z" : 1.99620
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.007900000000000001,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -2.07130,
+         "y" : 0.01850,
+         "z" : 1.73830
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -2.17880,
+         "y" : 0.01820,
+         "z" : 1.99640
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01180,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -2.77310,
+         "y" : 0.02380,
+         "z" : 2.06060
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00680,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -2.95060,
+         "y" : 0.0170,
+         "z" : 2.20380
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01040,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -6.19520,
+         "y" : 0.03130,
+         "z" : 2.11890
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01240,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -6.3860,
+         "y" : 0.01250,
+         "z" : 1.89830
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0030,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -6.32690,
+         "y" : 0.00530,
+         "z" : 2.06490
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.009599999999999999,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -6.60330,
+         "y" : 0.00660,
+         "z" : 2.01850
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00390,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -5.94770,
+         "y" : 0.02220,
+         "z" : 2.26290
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01630,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -6.56470,
+         "y" : 0.01910,
+         "z" : 1.4870
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0070,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -6.58760,
+         "y" : 0.00760,
+         "z" : 1.10850
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01470,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -6.58180,
+         "y" : -0.0110,
+         "z" : 1.39150
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00210,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -6.61560,
+         "y" : -0.00040,
+         "z" : 0.82340
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00190,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -6.01660,
+         "y" : 0.00350,
+         "z" : -0.00910
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00540,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -5.1250,
+         "y" : 0.01030,
+         "z" : -0.00830
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00250,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -4.87370,
+         "y" : 0.00250,
+         "z" : 0.01480
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00170,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -4.65650,
+         "y" : 0.0050,
+         "z" : 0.32560
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00970,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -4.23990,
+         "y" : 0.02140,
+         "z" : 0.15660
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00040,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -1.31330,
+         "y" : 0.04080,
+         "z" : 0.8720
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01390,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -1.40070,
+         "y" : 0.07120,
+         "z" : 1.13490
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02790,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -1.47320,
+         "y" : 0.05360,
+         "z" : 0.74230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00440,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -1.47730,
+         "y" : 0.01360,
+         "z" : -0.02930
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00730,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -1.39110,
+         "y" : 0.03750,
+         "z" : 0.10480
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02790,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -1.59440,
+         "y" : 0.04530,
+         "z" : 0.1320
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01390,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -2.10870,
+         "y" : 0.02230,
+         "z" : -0.18160
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01060,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -2.81410,
+         "y" : 0.01840,
+         "z" : -0.08080
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04180,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -2.64280,
+         "y" : 0.06690,
+         "z" : -0.30870
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00480,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -2.37580,
+         "y" : 0.00660,
+         "z" : -0.08440
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01550,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -3.42070,
+         "y" : 0.02260,
+         "z" : -0.18060
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00420,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -3.60260,
+         "y" : 0.01540,
+         "z" : -0.11930
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02320,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -3.91370,
+         "y" : 0.03290,
+         "z" : -0.39760
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008699999999999999,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -3.88940,
+         "y" : 0.02140,
+         "z" : -0.76010
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00480,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -3.85520,
+         "y" : 0.01060,
+         "z" : -0.91290
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00620,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.33930,
+         "x" : -3.88410,
+         "y" : 0.00190,
+         "z" : -0.47880
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00540,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -6.70410,
+         "y" : 0.01530,
+         "z" : 0.10310
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00730,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -6.70750,
+         "y" : 0.00190,
+         "z" : 0.48510
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00270,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -7.28140,
+         "y" : 0.00970,
+         "z" : 0.22840
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00940,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -7.60410,
+         "y" : -0.00050,
+         "z" : -0.42160
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0120,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -7.61040,
+         "y" : -0.010,
+         "z" : -0.73720
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00670,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -6.73410,
+         "y" : 0.00830,
+         "z" : 0.34390
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00390,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -7.10310,
+         "y" : 0.01840,
+         "z" : 0.31090
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01070,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -7.48270,
+         "y" : 0.008500000000000001,
+         "z" : 0.33040
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00270,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -7.54840,
+         "y" : 0.00090,
+         "z" : -0.00140
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01160,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -7.57130,
+         "y" : -0.00440,
+         "z" : -1.31680
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0020,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -7.60750,
+         "y" : -0.00010,
+         "z" : -1.86950
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00590,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -7.63330,
+         "y" : 0.01630,
+         "z" : -1.66880
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00570,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -7.57850,
+         "y" : 0.00640,
+         "z" : -2.66260
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00570,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -7.61160,
+         "y" : -0.00510,
+         "z" : -2.77950
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01080,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -7.6220,
+         "y" : -0.00430,
+         "z" : -2.30710
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01870,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -7.75420,
+         "y" : -0.00750,
+         "z" : -2.11140
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.007900000000000001,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -3.94750,
+         "y" : 0.0080,
+         "z" : -1.29060
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03580,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -3.92910,
+         "y" : 0.03580,
+         "z" : -1.82940
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02670,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -3.89310,
+         "y" : -0.02330,
+         "z" : -2.13130
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00520,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -3.90690,
+         "y" : 0.01080,
+         "z" : -2.2840
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00220,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -3.93620,
+         "y" : -0.0010,
+         "z" : -2.5060
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.03010,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -3.78590,
+         "y" : -0.01790,
+         "z" : -2.4730
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00690,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -3.81770,
+         "y" : 0.00590,
+         "z" : -1.07960
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01540,
+         "name" : "Desert Foil Plant 2 02",
+         "scaling" : 1.53470,
+         "x" : -4.12140,
+         "y" : 0.01950,
+         "z" : 0.42870
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00480,
+         "name" : "Desert Foil Plant 2 01",
+         "scaling" : 1.53470,
+         "x" : -4.12920,
+         "y" : 0.00480,
+         "z" : 0.96310
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00020,
+         "name" : "Hell Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : -5.10220,
+         "y" : 0.29980,
+         "z" : 1.38390
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00070,
+         "name" : "Hell Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : -6.11250,
+         "y" : 0.30070,
+         "z" : 1.3740
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00340,
+         "name" : "Hell Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : -6.1070,
+         "y" : 0.30340,
+         "z" : 0.42420
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00340,
+         "name" : "Hell Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : -5.11790,
+         "y" : 0.30340,
+         "z" : 0.42720
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.22130,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -5.10410,
+         "y" : 0.52130,
+         "z" : 1.38570
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.23330,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -5.11740,
+         "y" : 0.53330,
+         "z" : 0.42990
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.2180,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -6.11380,
+         "y" : 0.5180,
+         "z" : 1.37850
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.23530,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -6.1080,
+         "y" : 0.53530,
+         "z" : 0.42760
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.10650,
+         "name" : "Hell Cauldron 01",
+         "scaling" : 1.0,
+         "x" : -5.16350,
+         "y" : 0.19350,
+         "z" : 1.34010
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.10690,
+         "name" : "Hell Cauldron 01",
+         "scaling" : 1.0,
+         "x" : -6.060,
+         "y" : 0.19310,
+         "z" : 1.31260
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.10690,
+         "name" : "Hell Cauldron 01",
+         "scaling" : 1.0,
+         "x" : -5.15910,
+         "y" : 0.19310,
+         "z" : 0.46970
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.1080,
+         "name" : "Hell Cauldron 01",
+         "scaling" : 1.0,
+         "x" : -6.05590,
+         "y" : 0.1920,
+         "z" : 0.4580
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02250,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.40
+         },
+         "scaling" : 1.0,
+         "x" : -5.16050,
+         "y" : 0.32250,
+         "z" : 1.37290
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02250,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.40
+         },
+         "scaling" : 1.0,
+         "x" : -6.05960,
+         "y" : 0.32250,
+         "z" : 1.32260
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03240,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.40
+         },
+         "scaling" : 1.0,
+         "x" : -6.05970,
+         "y" : 0.33240,
+         "z" : 0.47060
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04390,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.40
+         },
+         "scaling" : 1.0,
+         "x" : -5.15820,
+         "y" : 0.34390,
+         "z" : 0.47050
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : null,
+   "startPosition" : [ -6.51910, -1.88540 ],
+   "tint" : [ 128, 64, 0, 48 ],
+   "title" : "",
+   "weather" : null
+}

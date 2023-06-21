@@ -1,0 +1,30 @@
+[
+    {
+        "bgcolor": "228811", 
+        "fgcolor": "00AAFF", 
+        "location": "Elderath", 
+        "location_desc": "Human Home World", 
+        "name": "The Broken Dragon"
+    }, 
+    {
+        "bgcolor": "662222", 
+        "fgcolor": "AA2211", 
+        "location": "Levania", 
+        "location_desc": "Elderath's Moon", 
+        "name": "Project Desparia"
+    }, 
+    {
+        "bgcolor": "662222", 
+        "fgcolor": "FFDD88", 
+        "location": "Nirgal", 
+        "location_desc": "The Rusty Planet", 
+        "name": "Pyramids of the Gods"
+    }, 
+    {
+        "bgcolor": "662222", 
+        "fgcolor": "FFDD88", 
+        "location": "Demeter", 
+        "location_desc": "The Shattered World", 
+        "name": "Ragadam's Dominion"
+    }
+]

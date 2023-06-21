@@ -1,0 +1,6 @@
+{
+   "quest" : {
+      "mandatory" : true,
+      "type" : "string"
+   }
+}

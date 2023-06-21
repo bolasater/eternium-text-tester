@@ -1,0 +1,21 @@
+{
+   "actor" : {
+      "mandatory" : false,
+      "type" : [ "hero", "narrator", "npc" ]
+   },
+   "hero" : {
+      "forgo" : [ "npc", "narrator" ],
+      "mandatory" : true,
+      "type" : "string"
+   },
+   "narrator" : {
+      "forgo" : [ "npc", "hero" ],
+      "mandatory" : true,
+      "type" : "string"
+   },
+   "npc" : {
+      "forgo" : [ "hero", "narrator" ],
+      "mandatory" : true,
+      "type" : "string"
+   }
+}

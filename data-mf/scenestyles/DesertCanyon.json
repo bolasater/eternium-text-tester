@@ -1,0 +1,21 @@
+{
+	"baseTerrain" : "Sand 01",
+	"height" : 0.05,
+	"soundEnv" : "canyon",
+	
+	"portal" : {
+		"width" : 1,
+		"slope" : 0.1,
+		"curvature" : 0,
+		"chamfer" : 0.25
+	},
+	
+	"tools" : [
+		{
+			"tool" : "split",
+			"method" : "antcave",
+			"outside" : "DesertCanyonWall"
+		},
+		{ "import" : "layers/DesertGround" }
+	]
+}

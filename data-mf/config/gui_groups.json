@@ -1,0 +1,19 @@
+{
+	"screens":
+	{
+		"MainMenuScreen": "gui/main.group",
+		"OptionsScreen" : "gui/main.group",
+
+		"AlertScreen": "gui/support.group",
+
+		"TutorialBand": "gui/tutorial.group",
+
+		"HUDScreen": "gui/battle.group",
+		"CreatureInfo": "gui/battle.group"
+	},
+	//stylesheets that are autoloaded when a group is loaded
+	"stylesheets":
+	{
+		"gui/main.group": "iwui"
+	}
+}

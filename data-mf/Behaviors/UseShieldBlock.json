@@ -1,0 +1,22 @@
+{
+	"id":"UseShieldBlock",
+	"type":"Sequence",
+	"children":[
+		{
+			"type":"AbilityReady",
+			"ability":"shield_block"
+		},
+		{
+			"type":"Negate",
+			"node":{
+				"type":"HasEffect",
+				"creature":"self",
+				"effect":"ShieldBlock"
+			}
+		},
+		{
+			"type":"CastAbility",
+			"ability":"shield_block"
+		}
+	]
+}

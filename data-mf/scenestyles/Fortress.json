@@ -1,0 +1,56 @@
+{
+	"baseTerrain" : "Cobblestone 01",
+	"height" : 0.15,
+	"soundEnv" : "castle",
+	
+	"portal" : {
+		"width" : 0.5,
+		"slope" : 0.5,
+		"curvature" : 0,
+		"chamfer" : 0.25
+	},
+	
+	"tools" : [
+		{
+			"tool":"wall",
+			"wallProp" : ["Brick Wall 01","Brick Wall 02","Brick Wall 03","Brick Wall 04","Brick Wall 05"],
+			"offset" : -0.15,
+			"overlap" : 0.01
+		},
+		
+		
+		{
+			"tool":"ring",
+			"terrain" : "Rock 05",
+			"offset" : -0.02,
+			"height" : -0.1,
+			"width" : 0.25,
+			"hardness" : 1,
+			"opacity" : 1.0,
+			"strength" : 1.0,
+			"extendColor" : 0.25
+		},
+
+		{
+			"tool":"ring",
+			"terrain" : "Rock 05",
+			"offset" : -0.1,
+			"height" : 0.025,
+			"width" : 0.2,
+			"hardness" : 0.3,
+			"opacity" : 1.0,
+			"strength" : 1.0,
+			"extendColor" : 0.25
+		},
+
+		{
+			"tool" : "crossroads",
+			"terrain" : "Alien Ground 1",
+			"width" : 0.35,
+			"height" : 0.0,
+			"curliness" : 0.3,
+			"hardness" : 0
+		}		
+	
+	]
+}

@@ -1,0 +1,18 @@
+[
+	{
+		"tool" : "enclave",
+		"maxNum" : 1,
+		"spacing" : 0.3,
+
+		"shape" : {
+			"size" : [2.5,3.5],
+			"verts" : 4,
+			"jumble" : 0,
+			"smooth" : 0,
+			"rot" : 0,
+			"portals" : [[-45,45]]
+		},
+
+		"style" : "Farm"
+	}
+]

@@ -1,0 +1,84 @@
+{
+	"baseTerrain" : "Autumn Grass 01",
+	"height" : -0.005,
+	"soundEnv" : "village",
+	"portal" : {
+		"width" : 0.3,
+		"slope" : 0.25,
+		"curvature" : 1,
+		"chamfer" : 0
+	},
+	
+	"tools" : [
+		
+		{
+			"tool" : "randombrush",
+			"brush" : {
+				"height" : 0.0,
+				"width" : 0.3,
+				"hardness" : 0.7,
+				"opacity" : 0.85,
+				"strength" : 0
+			},
+			"density" : 20,
+			"terrains" : ["Grass 01", "Grass 01a", "Grass 01b"],
+			"randomScaling" : 0.75
+		},
+
+		{
+			"tool":"wall",
+			"wallProp" : [
+				"Fence 01", "Fence 02", "Fence 03", "Fence 04","Fence 05", "Fence 06","Fence 07", "Fence 08","Fence 09", "Fence 10","Fence 11", "Fence 12"
+				
+			],
+			"offset" : -0.05,
+			"propScaling" : 1.0,
+			"randomRotation" : false,
+			"overlap" : 0
+		},
+		
+		{
+			"tool" : "gate",
+			"gateProp" : ["Wooden Gate 01","Wooden Gate 02","Wooden Gate 03","Wooden Gate 04","Wooden Gate 05","Wooden Gate 06"],
+			"offset" : -0.05			
+		},
+		
+		{
+			"tool" : "randomprop",
+			"props" : ["House 01", "Wood Stone House Small 02", "Red Brick House Small 02"],
+			"density" : 0,
+			"propScaling" : 1,
+			"randomScaling" : 0,
+			"minDist" : 0.7,
+			"maxDist" : 100,
+			"avoidBuilt" : 1,
+			"markBuilt" : 1,
+			"rot" : [ -45, 45 ]
+		},
+
+		{
+			"tool" : "randomprop",
+			"props" : ["Well 01", "Cart 01", "Cart 02", "Lamp Post 01", "Lamp Post 02", "Cart Wheel 01", "Barrel 01", "Barrel 02", "Barrel 09", "Barrel 10", "Crate 01", "Crate 02", "Crate 03", "Crate 04", "Crate 05", "Crate 06", "Crate 07", "Sack Tied 01", "Sack Tied 02", "Sack Tied 03", "Sack Tied 04", "Sack Tied 05", "Sack Tied 06", "Table 03", "Table 04"],
+			"density" : 2,
+			"propScaling" : 1,
+			"randomScaling" : 0,
+			"minDist" : 0.2,
+			"maxDist" : 100,
+			"avoidBuilt" : 1,
+			"avoidEachOther" : 1,
+			"markBuilt" : 1
+		},
+		
+		{
+			"tool" : "randomprop",
+			"props" : ["Crop Bush 01"],
+			"density" : 20,
+			"propScaling" : 1,
+			"randomScaling" : 0.25,
+			"minDist" : 0.1,
+			"maxDist" : 100,
+			"avoidBuilt" : 1,
+			"markBuilt" : 1
+		}
+	]
+}

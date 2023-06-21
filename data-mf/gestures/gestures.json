@@ -1,0 +1,146 @@
+[
+	{
+		"name" : "O",
+		"smooth" : true,
+		"rotation_tolerance" : 180,
+		"works_in_reverse" : true,
+		"shape" :
+		[
+			[-1.0, 0.0],
+			[-0.7,-0.7],
+			[ 0.0,-1.0],
+			[ 0.7,-0.7],
+			[ 1.0, 0.0],
+			[ 0.7, 0.7],
+			[ 0.0, 1.0],
+			[-0.7, 0.7],
+			[-1.0, 0.0]
+		]
+	},
+	{
+		"name" : "D",
+		"smooth" : false,
+		"rotation_tolerance" : 20,
+		"works_in_reverse" : true,
+		"shape" :
+		[
+			[-1.0,-1.0],
+			[ 1.0, 0.0],
+			[ -1.0, 1.0]
+		]
+	},	
+	{
+		"name" : "V",
+		"smooth" : false,
+		"rotation_tolerance" : 20,
+		"works_in_reverse" : true,
+		"shape" :
+		[
+			[-1.0,-1.0],
+			[ 0.0, 1.0],
+			[ 1.0,-1.0]
+		]
+	},
+	{
+		"name" : "A",
+		"smooth" : false,
+		"rotation_tolerance" : 20,
+		"works_in_reverse" : true,
+		"shape" :
+		[
+			[-1.0, 1.0],
+			[ 0.0,-1.0],
+			[ 1.0, 1.0]
+		]
+	},
+	{
+		"name" : "W",
+		"smooth" : false,
+		"rotation_tolerance" : 20,
+		"works_in_reverse" : true,
+		"shape" :
+		[
+			[-1.0,-1.0],
+			[-0.5, 1.0],
+			[ 0.0,-1.0],
+			[ 0.5, 1.0],
+			[ 1.0,-1.0]
+		]
+	},
+	{
+		"name" : "M",
+		"smooth" : false,
+		"rotation_tolerance" : 20,
+		"works_in_reverse" : true,
+		"shape" :
+		[
+			[-1.0, 1.0],
+			[-0.5,-1.0],
+			[ 0.0, 1.0],
+			[ 0.5,-1.0],
+			[ 1.0, 1.0]
+		]
+	},
+	{
+		"name" : "Z",
+		"smooth" : false,
+		"rotation_tolerance" : 20,
+		"works_in_reverse" : true,
+		"shape" :
+		[
+			[-1,-1],
+			[ 1,-1],
+			[-1, 1],
+			[ 1, 1]
+		]
+	},
+	{
+		"name" : "S",
+		"smooth" : true,
+		"rotation_tolerance" : 20,
+		"works_in_reverse" : true,
+		"shape" :
+		[
+			[ 1,-1],
+			[-1,-1],
+			[ 1, 1],
+			[-1, 1]
+		]
+	},
+	{
+		"name" : "K",
+		"smooth" : false,
+		"rotation_tolerance" : 20,
+		"works_in_reverse" : true,
+		"shape" :
+		[
+			[ 1.0,-1.0],
+			[-1.0, 0.0],
+			[ 1.0, 1.0]
+		]
+	}
+	,
+	{
+		"name" : "LineDown",
+		"smooth" : false,
+		"rotation_tolerance" : 20,
+		"works_in_reverse" : false,
+		"shape" :
+		[
+			[0, -1],
+			[0, 1]
+		]
+	}	
+	,
+	{
+		"name" : "LineUp",
+		"smooth" : false,
+		"rotation_tolerance" : 20,
+		"works_in_reverse" : false,
+		"shape" :
+		[
+			[0, 1],
+			[0, -1]
+		]
+	}	
+]

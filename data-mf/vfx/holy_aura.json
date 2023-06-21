@@ -1,0 +1,15 @@
+[
+	["ClavLeft", "ArmLeft", "HolyAura", 0.5, 1.0],
+	["ArmLeft", "ForearmLeft", "HolyAura", 0.5, 0.8],
+	["ForearmLeft", "HandLeft", "HolyAura", 0.5, 0.6],
+
+	["ClavRight", "ArmRight", "HolyAura", 0.5, 1.0],
+	["ArmRight", "ForearmRight", "HolyAura", 0.5, 0.8],
+	["ForearmRight", "HandRight", "HolyAura", 0.5, 0.6],
+
+	["UpperLegLeft", "LowerLegLeft", "HolyAura", 0.5, 1.0],
+	["LowerLegLeft", "FootLeft", "HolyAura", 0.5, 0.8],
+	
+	["UpperLegRight", "LowerLegRight", "HolyAura", 0.5, 1.0],
+	["LowerLegRight", "FootRight", "HolyAura", 0.5, 0.8]
+]

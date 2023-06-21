@@ -1,0 +1,18 @@
+{
+	"reagent_stack_size" : 10000000,
+	"essence_disenchant_70" : {
+		"uncommon" : 	[12,16],
+		"rare" : 		[25,35],
+		"epic" : 		[50,80],
+		"legendary" : 	[90,130]
+	},
+	"greater_reagent_disenchant_70" : {
+		"chance" : 0.1,
+		"amount" : [1,2]
+	},
+	"material_disenchant_70" : {
+		"chance" : 0.2,
+		"amount" : 1
+	},
+	"level_1_disenchant_scaling" : 0.3
+}

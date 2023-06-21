@@ -1,0 +1,14 @@
+{
+   "done" : {
+      "mandatory" : false,
+      "type" : "string"
+   },
+   "intro" : {
+      "mandatory" : true,
+      "type" : "string"
+   },
+   "prog" : {
+      "mandatory" : false,
+      "type" : "string"
+   }
+}

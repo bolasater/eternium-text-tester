@@ -1,0 +1,27 @@
+{
+   "continue_to" : {
+      "mandatory" : false,
+      "type" : [ "dialog", "quest", "quest_dialog", "role" ]
+   },
+   "dialog" : {
+      "listy" : true,
+      "mandatory" : true
+   },
+   "goto" : {
+      "forgo" : [ "id", "option", "dialog" ],
+      "type" : "string"
+   },
+   "id" : {
+      "type" : "string"
+   },
+   "option" : {
+      "type" : "string"
+   },
+   "req" : {
+      "mandatory" : false,
+      "type" : "object"
+   },
+   "tree" : {
+      "type" : "list"
+   }
+}

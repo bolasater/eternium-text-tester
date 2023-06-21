@@ -1,0 +1,421 @@
+{
+	"blue_aura":{
+		"title":"Blue Aura",
+		"description":"",
+		"cosmeticPoints": 125,
+		"categories":["heavy_armor_chest","leather_armor_chest","light_armor_chest"],
+		"effects":[
+			{
+				"type":"BodyAura",
+				"vfx":"BlueAura",
+				"density":1.0,
+				"scale":1.0
+			}
+		]
+	},
+	"red_aura":{
+		"title":"Red Aura",
+		"description":"",
+		"cosmeticPoints":125,
+		"categories":["heavy_armor_chest","leather_armor_chest","light_armor_chest"],
+		"effects":[
+			{
+				"type":"BodyAura",
+				"vfx":"RedAura",
+				"density":2.0,
+				"scale":1.0
+			}
+		]
+	},
+	"green_aura":{
+		"title":"Green Aura",
+		"description":"",
+		"cosmeticPoints":125,
+		"categories":["heavy_armor_chest","leather_armor_chest","light_armor_chest"],
+		"effects":[
+			{
+				"type":"BodyAura",
+				"vfx":"GreenAura",
+				"density":2.0,
+				"scale":1.0
+			}
+		]
+	},
+	"purple_aura":{
+		"title":"Purple Aura",
+		"description":"",
+		"cosmeticPoints": 125,
+		"categories":["heavy_armor_chest","leather_armor_chest","light_armor_chest"],
+		"effects":[
+			{
+				"type":"BodyAura",
+				"vfx":"PurpleAura",
+				"density":2.0,
+				"scale":1.0
+			}
+		]
+	},
+	"nature_aura":{
+		"title":"Rejuvenation Aura",
+		"description":"",
+		"cosmeticPoints":250,
+		"categories":["heavy_armor_chest","leather_armor_chest","light_armor_chest"],
+		"effects":[
+			{
+				"type":"BodyAura",
+				"vfx":"NatureAura",
+				"density":2.0,
+				"scale":1.0
+			}
+		]
+	},
+	"frozen_aura":{
+		"title":"Frozen Aura",
+		"description":"",
+		"cosmeticPoints":250,
+		"categories":["heavy_armor_chest","leather_armor_chest","light_armor_chest"],
+		"effects":[
+			{
+				"type":"BodyAura",
+				"vfx":"FrozenAura",
+				"density":2.0,
+				"scale":1.0
+			}
+		]
+	},								
+	"holy_aura":{
+		"title":"Holy Aura",
+		"description":"",
+		"cosmeticPoints":125,
+		"categories":["heavy_armor_chest","leather_armor_chest","light_armor_chest"],
+		"effects":[
+			{
+				"type":"BodyAura",
+				"vfx":"HolyAura",
+				"density":1.0,
+				"scale":0.75
+			}
+		]
+	},
+	"storm_shroud":{
+		"title":"Storm Shroud",
+		"cosmeticPoints": 250,
+		"description":"",
+		"categories":["heavy_armor_chest","leather_armor_chest","light_armor_chest"],
+		"effects":[
+			{
+				"type":"BodyAura",
+				"vfx":"StormAura",
+				"density":1.0,
+				"scale":1.0
+			}
+		]
+	},
+	"corruption_aura":{
+		"title":"Corruption Aura",
+		"sourceId": "events",
+		"description":"",
+		"categories":["heavy_armor_chest","leather_armor_chest","light_armor_chest"],
+		"effects":[
+			{
+				"type":"BodyAura",
+				"vfx":"CorruptionAura",
+				"density":1.0,
+				"scale":1.0
+			}
+		]
+	},	
+
+	"green_weapon_glow":{
+		"title":"Green Weapon Glow",
+		"cosmeticPoints": 250,
+		"description":"Your weapon glows green",
+		"categories":["sword", "axe", "mace", "staff", "shield", "pistol"],
+		"effects":[
+			{
+				"type":"VFXLine",
+				"tag":"handle",
+				"vfx":"GreenLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXLine",
+				"tag":"blade",
+				"vfx":"GreenLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXPoint",
+				"tag":"head",
+				"vfx":"GreenPointGlow",
+				"density":1.0,
+				"scale":3.0
+			}
+		]
+	},
+
+	"red_weapon_glow":{
+		"title":"Red Weapon Glow",
+		"cosmeticPoints": 250,
+		"description":"Your weapon glows red",
+		"categories":["sword", "axe", "mace", "staff", "shield", "pistol"],
+		"effects":[
+			{
+				"type":"VFXLine",
+				"tag":"handle",
+				"vfx":"RedLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXLine",
+				"tag":"blade",
+				"vfx":"RedLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXPoint",
+				"tag":"head",
+				"vfx":"RedPointGlow",
+				"density":1.0,
+				"scale":3.0
+			}
+		]
+	},
+	"blue_weapon_glow":{
+		"title":"Blue Weapon Glow",
+		"cosmeticPoints": 250,
+		"description":"Your weapon glows red",
+		"categories":["sword", "axe", "mace", "staff", "shield", "pistol"],
+		"effects":[
+			{
+				"type":"VFXLine",
+				"tag":"handle",
+				"vfx":"BlueLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXLine",
+				"tag":"blade",
+				"vfx":"BlueLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXPoint",
+				"tag":"head",
+				"vfx":"BluePointGlow",
+				"density":1.0,
+				"scale":3.0
+			}
+		]
+	},
+	"frozen_weapon":{
+		"title":"Frozen Weapon",
+		"sourceId": "",
+		"cosmeticPoints": 300,
+		"description":"Your weapon is frozen",
+		"categories":["sword", "axe", "mace", "staff", "shield", "pistol"],
+		"effects":[
+			{
+				"type":"VFXLine",
+				"tag":"handle",
+				"vfx":"FrozenLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXLine",
+				"tag":"blade",
+				"vfx":"FrozenLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXPoint",
+				"tag":"head",
+				"vfx":"FrozenPointGlow",
+				"density":1.0,
+				"scale":3.0
+			}
+		]
+	},	
+	"lightning":{
+		"title":"Lightning Weapon",
+		"cosmeticPoints": 300,
+		"description":"Your weapon glows red",
+		"categories":["sword", "axe", "mace", "staff", "shield", "pistol"],
+		"effects":[
+			{
+				"type":"VFXLine",
+				"tag":"handle",
+				"vfx":"LightningLine",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXLine",
+				"tag":"blade",
+				"vfx":"LightningLine",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXPoint",
+				"tag":"head",
+				"vfx":"LightningPoint",
+				"density":1.0,
+				"scale":3.0
+			}			
+		]
+	},		
+	"fiery_weapon":{
+		"title":"Fiery Weapon",
+		"cosmeticPoints": 300,
+		"description":"Fiery Weapon",
+		"categories":["sword", "axe", "mace", "staff", "shield", "pistol"],
+		"effects":[
+			{
+				"type":"VFXLine",
+				"tag":"handle",
+				"vfx":"RedLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXLine",
+				"tag":"blade",
+				"vfx":"FireLine",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXPoint",
+				"tag":"head",
+				"vfx":"FirePoint",
+				"density":5.0,
+				"scale":2.0
+			}
+		]
+	},
+	"bloody_weapon":{
+		"title":"Bloody Weapon",
+		"cosmeticPoints": 375,
+		"description":"Your weapon hungers for blood",
+		"categories":["sword", "axe", "mace", "staff", "shield", "pistol"],
+		"effects":[
+			{
+				"type":"VFXLine",
+				"tag":"handle",
+				"vfx":"RedLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXLine",
+				"tag":"blade",
+				"vfx":"BloodyWeapon",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXPoint",
+				"tag":"head",
+				"vfx":"BloodPoint",
+				"density":3.0,
+				"scale":3.0
+			}
+		]
+	},	
+	"poisoned_weapons":{
+		"title":"Poison Coat",
+		"cosmeticPoints": 350,
+		"description":"Your weapon hungers for blood",
+		"categories":["sword", "axe", "mace", "staff", "shield", "pistol"],
+		"effects":[
+			{
+				"type":"VFXLine",
+				"tag":"handle",
+				"vfx":"GreenLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXLine",
+				"tag":"blade",
+				"vfx":"PoisonedWeapon",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXPoint",
+				"tag":"head",
+				"vfx":"PoisonedPoint",
+				"density":3.0,
+				"scale":3.0
+			}
+		]
+	},	
+	"treasure_hunter":{
+		"title":"Treasure Hunter",
+		"cosmeticPoints": 500,		
+		"description":"Your weapon hungers for treasure",
+		"categories":["sword", "axe", "mace", "staff", "shield", "pistol"],
+		"effects":[
+			{
+				"type":"VFXLine",
+				"tag":"handle",
+				"vfx":"treasure_hunter",
+				"density":10.0,
+				"scale":1.0
+			},			
+			{
+				"type":"VFXLine",
+				"tag":"blade",
+				"vfx":"treasure_hunter",
+				"density":10.0,
+				"scale":1.0
+			},			
+			{
+				"type":"VFXPoint",
+				"tag":"head",
+				"vfx":"treasure_hunter_point",
+				"density":1.0,
+				"scale":1.0
+			}			
+		]
+	},
+	"corrupted_weapons":{
+		"title":"Corruption",
+		"sourceId": "events",
+		"description":"Corruption empowers your weapons",
+		"categories":["sword", "axe", "mace", "staff", "shield", "pistol"],
+		"effects":[
+			{
+				"type":"VFXLine",
+				"tag":"handle",
+				"vfx":"DarkLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXLine",
+				"tag":"blade",
+				"vfx":"DarkLineGlow",
+				"density":10.0,
+				"scale":1.0
+			},
+			{
+				"type":"VFXPoint",
+				"tag":"head",
+				"vfx":"DarkPointGlow",
+				"density":1.0,
+				"scale":1.0
+			}
+		]
+	}		
+}

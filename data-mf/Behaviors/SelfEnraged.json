@@ -1,0 +1,9 @@
+{
+	"id":"Enraged",
+	"type":"HasEffect",
+	"creature":"hero",
+	"remainingTime":2.0,
+	"effects":[
+		"timewarp_eff", "power_infusion_proc", "ShieldBlock", "BattleRage"
+	]
+}

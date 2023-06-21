@@ -1,0 +1,17 @@
+{
+	"actualBudget" : 1.0,
+	"color" : 2141891242,
+	"decalColor" : 2141891242,
+	"colorTexture" : "white",
+	"glowColor" : 2141891242,
+	"itemClass" : "Staff",
+	"itemLevel" : 1,
+	"name" : "Willow Branch",
+	"quality" : 0,
+	"slotI" : 0,
+	"slotJ" : 0,
+	"textureVariation" : "staff_icon_07",
+	"modelVariation" : 6,
+	"upgrades" : [ "minDamage", 8, "maxDamage", 12 ],
+	"maxFusionLevels" : 0
+}

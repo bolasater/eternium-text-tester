@@ -1,0 +1,767 @@
+{
+	"name" : "Act I",
+	"req" : {},
+	"category" : "main",
+	
+	"quests" : [
+		{
+			"id" : "welcome_to_eternium",
+			"name" : "Welcome to Eternium",
+			"story" : "Welcome to Eternium, {HEROCLASS}. You have landed on the Shores of Hope, and you have to reach your home town.",
+			"req" : { "max_level" : 1, "location" : "The Shores of Hope" },
+			"tutorialSkipLevel" : 3,
+			"autostart" : true,
+			"autoaccept" : true,
+			"autocomplete" : true,
+			"silent" : true,
+			"common" : { "location" : "The Shores of Hope" },
+			"obj" : [
+				{
+					"obj_id":"kill_some_enemies",
+					"type" : "kill",
+					"creature" : {"faction":"enemy"},
+					"optional" : true,
+					"total" : 4,
+					"desc" : "Defeat {N} enemies"
+				},
+				{
+					"obj_id":"follow_the_road",
+					"type" : "go_event",
+					"event" : "EquipUtility",
+					"own_event" : false,
+					"optional" : true,
+					"desc" : "Follow the road"
+				},
+				{
+					"obj_id":"goto_fire",
+					"type" : "go_event",
+					"event" : "ReachCampfire",
+					"own_event" : false,
+					"optional" : true,
+					"desc" : "Reach the campfire"
+				},
+				{
+					"obj_id" : "kill_the_zombies",
+					"type" : "kill",
+					"fire_go_event":"kill_campfire_zombies",
+					"creature" : ["Rampaging Zombie"],
+					"total" : 5,
+					"optional" : true,
+					"desc" : "Defeat the zombies"
+				},
+				{
+					"obj_id":"follow_road_2",
+					"type" : "go_event",
+					"event" : "ReachRoadBend",
+					"own_event" : false,
+					"optional" : true,
+					"desc" : "Follow the road"
+				},
+				{
+					"obj_id":"goto_gate",
+					"type" : "go_event",
+					"event" : "ReachGate",
+					"own_event" : false,
+					"optional" : true,
+					"desc" : "Enter the gate"
+				},
+				{
+					"obj_id":"find_mortanimus",
+					"type" : "find",
+					"optional" : true,
+					"creature" : "Mortanimus Thadden", 	
+					"desc" : "Find Mortanimus Thadden"
+				},
+				{
+					"obj_id":"kill_mortanimus",
+					"type" : "kill",
+					"creature" : "Mortanimus Thadden",
+					"desc" : "Defeat Mortanimus Thadden"
+				}
+			]
+		},	
+
+		{
+			"id" : "welcome_home",
+			"name" : "Welcome Home",
+			"src" : "Alarion",
+			"story" : "Welcome home, {HERO}! I am Alarion and I have been tasked by Master Xagan to guide you through your journey.||||Take this weapon and wield it! You will need it soon.",
+			"req" : { "location" : "hometown" },
+			"autostart" : true,
+			"autoaccept" : true,
+			"autocomplete" : false,
+			"obj" : [
+				{
+					"obj_id" : "talk",
+					"type" : "talk_to",
+					"npc" : "Alarion",
+					"dialog" : {
+						"dialog" : ["Good to see you, {HERO}.", {"hero":"How do you know me?"}, "I have something for you...", {"narrator":"There seems to be a smile under his beard."}],
+						"continue_to" : "quest"
+					},
+					"desc": "Meet Alarion"
+				}
+			],
+			"lockGateWhileAvailable" : true,
+			"lockGateWhileInProgress" : true,
+			"rewards": {
+				"target_quest_id":"wield_your_weapon",
+				"gear" : {
+					"itemClass": ["Staff", "Sword", "Pistol"],
+					"name": ["Alarion's Staff", "Alarion's Sword", "Alarion's Pistol"],
+					"levelOffset":1,
+					"variation":3,
+					"quality":"green",
+					"stats":"experience",
+					"upgrade" : false
+				}
+			}		
+		},	
+
+		{
+			"id" : "wield_your_weapon",
+			"name" : "Wield Your Weapon",
+			"scope" : "hero",
+			"story" : "Wield the weapon you just received from Alarion.",
+			"req" : { "quest" : "welcome_home", "item" : "Alarion's *" },
+			"autostart" : true,
+			"autoaccept": true,
+			"autocomplete" : true,
+			"silent" : true,
+			"lockGateWhileAvailable" : true,
+			"lockGateWhileInProgress" : true,
+			"common" : { "location" : "hometown" },
+			"sequenced" : true,
+			"hide_spoilers" : false,
+			"obj" : [
+				{
+					"obj_id" : "open_inv",
+					"type" : "in_page",
+					"page" : "inventory",
+					"desc" : "Open the Inventory to find your new weapon",
+					"icon" : "hero_icon",
+					"point_to" : "GearButton",
+					"say" : [ "Open the inventory", "Your new weapon is here" ],
+					"optional" : true
+				},
+				{
+					"obj_id" : "equip_weapon",
+					"type" : "equip",
+					"item" : "Alarion's *",
+					"desc" : "Equip your new weapon",
+					"show_in" : "inventory",
+					"point_to" : "QuestItem",
+					"say" : [ "Equip the weapon you got from Alarion" ],
+					"milestone" : true
+				},
+				{
+					"obj_id" : "close_inv",
+					"type" : "in_page",
+					"page" : "game",
+					"desc" : "Close the Inventory window",
+					"icon" : "x",
+					"point_to" : "MetaGameCloseBtn",
+					"say" : ["Close this window", "Close Inventory to finish your task"]
+				}
+			],
+			"rewards" : { "xp" : 100 } 
+		},
+
+		{
+			"id" : "the_ruins_of_the_dead",
+			"name" : "Brave the Ruins",
+			"story" : {
+				"intro" : "{HERO}, I have a mission for you:||||Go through the town gate to the Ruins of the Dead and destroy the monster Iskarion Skybreaker and his minions.",
+				"prog" : "{HERO}, have you found Iskarion?",
+				"done" : "You have exceeded my expectations. You defeated Iskarion the Skybreaker and returned to me unscathed. Have this piece of armor and my gratitude."
+			},
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : true,
+			"req" : { "quest" : ["welcome_home","wield_your_weapon"] },
+			"common" : { "location" : "Ruins of the Dead" },
+			"hide_spoilers" : false,
+			"obj" : [
+				{
+					"obj_id":"tap_town_gate",
+					"type" : "go_event",
+					"event" : "TownGateTap",
+					"own_event" : false,
+					"desc" : "Open the town gate",
+					"icon" : "gate"
+				},
+				{
+					"obj_id":"start_level",
+					"type" : "start_level",
+					"level" : "Ruins of the Dead",
+					"desc" : "Go to the {LEVEL}"
+				},
+				{
+					"obj_id":"kill_skeletons",
+					"type" : "kill",
+					"creature" : ["Skeleton Soldier", "Skeleton Grunt", "Skeleton Warrior", "Skeleton Knight", "Skeleton Archer", "Skeleton Ranger", "Skeleton Hunter"],
+					"total" : 10,
+					"desc" : "Destroy {N} skeletons in the {LOCATION}"
+				},
+				{
+					"obj_id":"find_iskarion",
+					"type" : "find",
+					"creature" : "Iskarion Skybreaker",
+					"desc" : "Find {CREATURE}"
+				},
+				{
+					"obj_id":"kill_iskarion",
+					"type" : "kill",
+					"creature" : "Iskarion Skybreaker",
+					"desc" : "Defeat {CREATURE}"
+				}
+			],
+			"rewards": {
+				"gold" : 100,
+				"gems" : 3,
+				"xp" : 200,
+				"gear" : {
+					"slot" : "armor",
+					"variation" : 1,
+					"socket" : 0,
+					"name" : "Defender of Ruins",
+					"quality" : "green",
+					"stats": ["power","vitality"],
+					"upgrade" : false,
+					"levelOffset" : 3
+				}
+			}
+		},
+
+		{
+			"id" : "upgrade_ability",
+			"name" : "Upgrade Your Abilities",
+			"story" : "You can improve the power of your abilities by upgrading them.||||Start an upgrade for one of your abilities.",
+			"req" : { "quest" : "the_ruins_of_the_dead" },
+			"src" : "Alarion",
+			"autoaccept" : false,
+			"autocomplete" : true,
+			"lockGateWhileAvailable" : false,
+			"lockGateWhileInProgress" : true,
+			"hide_spoilers" : false,
+			
+			"common" : { "location" : "hometown" },
+			
+			"obj" : [
+				{
+					"obj_id" : "open_inv",
+					"type" : "in_page",
+					"page" : ["inventory", "abilities"],
+					"desc" : "Open the Inventory",
+					"optional" : true,
+					"icon" : "hero_icon",
+					"point_to" : "GearButton",
+					"say" : ["Open the Inventory", "Your Abilities are here"]
+				},
+				{
+					"obj_id" : "open_abilities",
+					"type" : "in_page",
+					"page" : "abilities",
+					"desc" : "Access your Abilities",
+					"optional" : true,
+					"icon" : "abilities_icon",
+					"point_to" : "HeroTab",
+					"show_in" : "inventory",
+					"say" : ["Open the Abilities page", "Your Abilities are here"]
+				},			
+				{
+					"obj_id" : "upgrade_ability",
+					"type" : "use_ability_upgrade",
+					"desc" : "Start upgrading any ability",
+
+					"icon" : "AbilityUpgradeSlot",
+
+					"show_in" : "abilities",
+					"point_to" : "AbilityAndUpgradeSlot",
+					"say" : ["Drag ability to upgrade it", "Drag an ability to the Upgrade Slot"]
+				}
+			]
+			
+		},
+
+		{
+			"id" : "rescue_marcus",
+			"name" : "Find Marcus",
+			"story" : {
+				"intro" : "Your old friend Marcus would be a great companion in your coming challenges. Go to his village and find him!",
+				"prog" : "Any sign of Marcus, hero?",
+				"done" : "You are stronger with Marcus at your side, {HERO}."
+			},
+
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"req" : { "quest" : "upgrade_ability" },
+			"common" : { "location" : "Marcus' Village" },
+			"hide_spoilers" : false,
+			"obj" : [
+				{
+					"obj_id":"start_level",
+					"type" : "start_level",
+					"level" : "Marcus' Village",
+					"desc" : "Go to {LEVEL}",
+					"optional": true
+				},
+				
+				{
+					"obj_id":"find_marcus",
+					"type" : "find",
+					"creature" : "Marcus",
+					"desc" : "Find Marcus",
+					"optional": true
+				},
+
+				{
+					"obj_id":"recruit_marcus",
+					"type" : "recruit",
+					"companion" : "Marcus",
+					"desc" : "Recruit Marcus as your companion"
+				}
+			],
+			"rewards": {
+				"gems" : 10,
+				"gold" : 500,
+				"xp" : 1000
+			}			
+
+		},
+
+		{
+			"id" : "onwards_to_anderra",
+			"name" : "Onwards to Anderra",
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"req" : { "quest" : "rescue_marcus" },
+			"common" : { "location" : "Road to Anderra" },
+			"hide_spoilers" : false,
+
+			"story" : {
+				"intro" : "Well done rescuing Marcus, {HERO}! But he isn't your only friend that requires aid. I am told Eileen, another one of your childhood friends, has also been captured. She is being held in Anderra. You should take Marcus and rescue her!",
+				"prog" : "Journey on the road to Anderra.",
+				"done" : "With every day, Anderra is closer."
+			},
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_road_anderra",
+					"type" : "start_level",
+					"level" : "Road to Anderra",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level_road_anderra",
+					"type" : "finish_level",
+					"level" : "Road to Anderra",
+					"desc" : "Travel on the Road to Anderra"
+				}
+			],
+			"rewards": {
+				"gems" : 1,
+				"gold" : 500,
+				"xp" : 1250
+			}
+ 		},
+
+		{
+			"id" : "vinedale_arena",
+			"name": "The Abandoned Farm",
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"req" : { "story_level" : "@Out of Nowhere" , "quest" : "onwards_to_anderra" },
+			"story" : { 
+				"intro": "To reach Anderra, you'll have to cross Vinedale and its graveyard. My advice is to spend the night in the abandoned farm at the edge of Vinedale, as the journey through the graveyard will be long and perilous.",
+				"prog" : "Did you get some rest in the abandoned farm?",
+				"done" : "Good, you made it out of there alive. I had Ingrid craft this for you while you were gone."
+			},
+
+			"obj" : [
+				{
+					"obj_id" : "start_arena",
+					"type" : "start_level",
+					"level" : "Out of Nowhere",
+					"desc" : "Go to the abandoned farm in Vinedale"
+				},
+				{
+					"obj_id" : "survive_arena",
+					"type" : "finish_level",
+					"level" : "Out of Nowhere",
+					"location" : "Out of Nowhere",
+					"desc" : "Survive the night in the Vinedale abandoned farm"
+				}
+			],
+			"rewards": {
+				"xp" : 1500,
+				"gear" : {
+					"slot" : "armor",
+					"variation" : 7,
+					"socket" : 1,
+					"name" : "Socketed Vinedale Defender",
+					"quality" : "green",
+					"stats": ["armor","vitality"],
+					"upgrade" : false
+				}
+			}
+		}
+		,
+		{
+			"id" : "vinedale_graveyard",
+			"name": "The Defiler",
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"req" : { "story_level" : "@The Defiler", "quest" : "vinedale_arena" },
+			"hide_spoilers" : false,
+
+			"story" : { 
+				"intro": "Two centuries ago, Argoth the Lifecrafter of the Anderra Academy turned to Necromancy. His name is Urgoth the Defiler now, and he serves the Demon Magroth, raising dead in the Vinedale graveyard.||||You must defeat Ugroth to reach Anderra, and... I need as many skulls of his minions as you can carry.",
+				"done" : "Good work, {HEROCLASS}. The world is better off without Urgoth, and these skulls will look great with candles on them."
+			},
+
+			"common" : {"location":"The Defiler"},
+
+			"obj" : [
+				{
+					"obj_id":"cross_village",
+					"type":"go_event",
+					"event":"ExitVillage",
+					"desc" : "Cross the Vinedale village"
+				},
+				{
+					"obj_id":"find_graveyard",
+					"type":"go_event",
+					"event":"EnterGraveyard",
+					"desc" : "Enter the Vinedale graveyard"
+				},
+				{
+					"obj_id" : "kill_undead",
+					"type" : "loot",
+					"creature" : {"flavor":"undead"},
+					"item" : { "name" : "Skull of Urgoth's Minion", "icon" : "skull2" },
+					"drop_rate" : 1,
+					"total": 66,
+					"desc" : "Gather {N} skulls from Urgoth's undead minions"
+				},
+				{
+					"obj_id" : "kill_boss",
+					"type" : "kill",
+					"creature" : "Urgoth the Defiler",
+					"desc" : "Defeat Urgoth the Defiler"
+				}
+			],
+
+			"rewards": {
+				"xp" : 1000,
+				"gold" : 500,
+				"gear" : {
+					"slot" : "armor",
+					"variation" : 7,
+					"socket" : 0,
+					"name" : "Urgoth's Downfall",
+					"quality" : "blue",
+					"levelOffset" : 2,
+					"upgrade" : false
+				}
+			}			
+		},
+
+		{
+			"id" : "recruit_eileen",
+			"name": "Rescue Eileen",
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"req" : { "story_level" : "@Anderra", "quest":"vinedale_graveyard" },
+			"hide_spoilers" : false,
+
+			"story" : { 
+				"intro": "Finally, you made it to Anderra! This is where Eileen the Healer is held captive.||||You, Marcus, and Eileen made a good team back at the Academy. If you rescue her, she may well want to join you.",
+				"prog" : "Have you found Eileen in Anderra?",
+				"done" : "It's good to see Eileen again. Is she coming with you or did you leave her to rest in the inn?"
+			},
+
+			"common" : {"location":"Anderra"},
+
+			"obj" : [
+				{
+					"obj_id":"find_eileen",
+					"type" : "find",
+					"creature" : "Eileen",
+					"desc" : "Find Eileen in Anderra",
+					"optional" : true
+				},
+
+				{
+					"obj_id":"recruit_eileen",
+					"type" : "recruit",
+					"companion" : "Eileen",
+					"desc" : "Rescue Eileen from her captors"
+				}
+			],
+
+			"rewards": {
+				"gold" : 1000,
+				"xp" : 2000
+			}
+		},
+		{
+			"id" : "ancient_evil",
+			"name" : "An Ancient Evil",
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"hide_spoilers" : false,
+			"req" : { "quest" : "recruit_eileen" },
+			"hide_spoilers" : false,
+
+			"story" : {
+				"intro" : "Eileen brought terrible news, {HERO}. An ancient evil that I thought to be dormant, Magroth the World Daemon, is the one behind these events. He is the one that leads the undead legions, and he is the one directly responsible for Eileen's abduction.||||Like all daemons, Magroth likes fire. You will find him on the volcano called The Severed Mountain.||||Magroth must be defeated, champion! It is a heavy burden, but the fate of Anderra and all of Elderath rests on your shoulders now, {HERO}!",
+				"prog" : "Have you found Magroth at the Severed Mountain?",
+				"done" : "It seems our enemy has a plan, {HERO}."
+			},
+
+			"common" : { "location" : "The Severed Mountain" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_mountain",
+					"type" : "start_level",
+					"level" : "The Severed Mountain",
+					"desc" : "Travel to {LEVEL}"
+				},
+				{
+					"obj_id" : "kill_lavadons",
+					"type" : "kill",
+					"creature" : "Lavadon",
+					"total" : 4,
+					"desc" : "Slay Magroth's Lavadon guards"
+				},
+				{
+					"obj_id" : "confort_magroth",
+					"type" : "finish_level",
+					"level" : "The Severed Mountain",
+					"desc" : "Confront Magroth at the top of The Severed Mountain"
+				}
+			],
+			"rewards": {
+				"gold" : 1000,
+				"xp" : 2250
+			}
+		},
+		{
+			"id" : "dark_dominion",
+			"name" : "Dark Dominion",
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"hide_spoilers" : false,
+			"req" : { "quest" : "ancient_evil" },
+			"hide_spoilers" : false,
+
+			"story" : {
+				"intro" : "How could I have been so blind, {HERO}? This outbreak of undead minions rampaging... it couldn't have been happenstance.",
+				"prog" : "Magroth must be banished before we can further investigate, {HERO}.",
+				"done" : "So the deed is done. Well done, {HERO}."
+			},
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_alarion_anderhelm",
+					"type" : "talk_to",
+					"npc" : "Alarion",
+					"location" : "hometown",
+					"dialog" : {
+						"dialog" : [{"hero":"Don't beat youself up, Alarion. Everyone was in the dark about this."}, "Thank you, champion. But I should have known better than everyone. I am a seer, after all.", {"narrator":"Alarion sighs deeply."}, "Please help me fix this, {HERO}.", "Magroth fled from the Severed Mountain, but he told you he is waiting at Anderhelm. Surely, this must be a trap. Fortunately, we have scouts of our own.", {"hero":"What have they found, Alarion?"}, "Magroth has posted the Sisters of Ragadam at the northwestern tower, and the liches at the northeastern one. They will keep sending reinforcements until they are dealt with.", "Magroth waits at the northern side of the town, in the Keep courtyard. Deal with Magroth and his minions, champion, and Elderath will be indebted to you!"],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Alarion"
+				},
+				{
+					"obj_id" : "start_level_anderhelm",
+					"type" : "start_level",
+					"level" : "The Siege of Anderhelm",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "reach_courtyard",
+					"type" : "go_event",
+					"event" : "courtyard",
+					"location" : "The Siege of Anderhelm",
+					"desc" : "Fight your way to the main courtyard"
+				},
+				{
+					"obj_id" : "kill_magroth",
+					"type" : "kill",
+					"creature" : "Magroth",
+					"location" : "The Siege of Anderhelm",
+					"desc" : "Slay Magroth"
+				}
+			],
+			"rewards": {
+				"gold" : 1500,
+				"xp" : 2500
+			}
+		},
+		{
+			"id" : "search_for_robin",
+			"name" : "Robin and the Dragon",
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"hide_spoilers" : false,
+			"req" : { "quest" : "dark_dominion" },
+			"common" : { "location" : "The Wailing Peaks" },
+
+			"story" : {
+				"intro" : "Once you banished Magroth and liberated Anderhelm, we were able to scour the towers and figure out a clue or two, champion.||||It seems that Ragadam sent a Dragon to Elderath. The dragon was kept in terror by Ragadam to do his bidding. Once the dragon arrived on Elderath, most susceptible to evil were taken over. These were the undead and the daemons.||||Just as Magroth ordered his undead minions to capture Eileen, the dragon has managed to defeat and capture Robin, the Archer. Go on the road towards the Wailing Peaks to Robin's house and look for clues as to where the dragon could have taken her.",
+				"prog" : "Have you found any clues yet, hero?",
+				"done" : "Let me see that note you found in Robin's house, {HERO}." 
+			},
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_wailing",
+					"type" : "start_level",
+					"level" : "The Wailing Peaks",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "robins_house",
+					"type" : "go_event",
+					"event" : "robins_house",
+					"item" : {"name":"Note from Robin", "desc":"Robin left you a note before leaving", "icon":"calendar"},
+					"total" : 1,
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"desc" : "See if you can find any clue in Robin's cabin"
+				},
+				{
+					"obj_id" : "finish_level_wailing",
+					"type" : "finish_level",
+					"level" : "The Wailing Peaks",
+					"desc" : "Proceed down the road to the end of {LEVEL}"
+				}
+			],
+			"rewards": {
+				"gold" : 1700,
+				"xp" : 3000,
+				"gear" : {
+					"slot" : "cape",
+					"variation" : 7,
+					"socket" : 0,
+					"name" : "Winter Drape",
+					"quality" : "green",
+					"levelOffset" : 2,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "the_descent",
+			"name" : "The Descent",
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"hide_spoilers" : false,
+			"req" : { "quest" : "search_for_robin" },
+			"common" : { "location" : "The Descent" },
+
+			"story" : {
+				"intro" : "The note Robin left to you... she went down through The Descent. She says the dragon's lair is beneath the mountain! You must follow on Robin's footsteps and rescue her, {HERO}.",
+				"prog" : "Have you crossed the Descent, champion?",
+				"done" : "The Fiery Pits lie ahead, {HERO}."
+			},
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_descent",
+					"type" : "start_level",
+					"level" : "The Descent",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level_descent",
+					"type" : "finish_level",
+					"level" : "The Descent",
+					"desc" : "Cross {LEVEL}"
+				}
+			],
+			"rewards": {
+				"gold" : 1800,
+				"xp" : 3500
+			}
+		},
+		{
+			"id" : "fiery_pits",
+			"name" : "The Fiery Pits",
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"hide_spoilers" : false,
+			"req" : { "quest" : "the_descent" },
+			"common" : { "location" : "The Fiery Pits" },
+
+			"story" : {
+				"intro" : "Before you can enter the dragon's lair, you must go through The Fiery Pits. It is a place where lava floats almost on the surface. You are sure to be attacked from all directions. Fight off the enemy until reinforcements stop coming.",
+				"prog" : "Fight off enemy waves at The Fiery Pits.",
+				"done" : "Now you are ready to enter the dragon's lair, {HERO}."
+			},
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_fiery_pits",
+					"type" : "start_level",
+					"level" : "The Fiery Pits",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level",
+					"type" : "finish_level",
+					"level" : "The Fiery Pits",
+					"desc" : "Fight off all enemy waves"
+				}
+			],
+			"rewards": {
+				"gold" : 1800,
+				"xp" : 4000
+			}
+		},
+		{
+			"id" : "the_broken_dragon",
+			"name" : "The Broken Dragon",
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"hide_spoilers" : false,
+			"req" : { "quest" : "fiery_pits" },
+			"common" : { "location" : "The Broken Dragon" },
+
+			"story" : {
+				"intro" : "This is it, champion. Ragadam's hold on Elderath rests upon the Broken Dragon.||||A century ago, it is said that Ragadam found a dragon egg on Levania, the moon in our night's sky. He allowed the dragon to be born, but then enslaved her. He set his claw in the dragon's mind, filling her with terror and breaking her spirit. The dragon is the conduit through which Ragadam channels his power on our world.||||You must slay the undead minions defending the lair and defeat the dragon, {HERO}. If at all possible, try to free her mind of Ragadam's corruption. No being deserves the fate he gave her.",
+				"prog" : "Enter the dragon's lair and defeat the Broken Dragon.",
+				"done" : "Elderath is saved, thanks to you, {HERO}. You became the hero Professor Xagan and I were hoping you would be."
+			},
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_broken_dragon",
+					"type" : "start_level",
+					"level" : "The Broken Dragon",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "kill_minions",
+					"type" : "kill",
+					"creature" : { "faction" : "enemy" },
+					"total" : 50,
+					"desc" : "Slay {N} enemy forces in the dragon's lair"
+				},
+				{
+					"obj_id" : "kill_dragon",
+					"type" : "kill",
+					"creature" : "The Broken Dragon",
+					"desc" : "Slay The Broken Dragon"
+				}
+			],
+			"rewards": {
+				"gold" : 2000,
+				"xp" : 10000,
+				"gems" : 10
+			}
+		}
+	]
+}

@@ -1,0 +1,119 @@
+{
+	"1":{
+		"text"  : "Trials of Valor are challenging adventures that take you to the uncharted reaches of the Eternium universe."		
+	},
+	"2":{
+		"img"	: "act1_bkg_small"
+	},
+	"4":{
+		"text"  : "In the Trials of Valor, you must defeat your enemies and their boss quickly to gain greater rewards and unlock your next challenge."		
+	},
+	"5":{
+		"img"	: "magroth"
+	},
+	"7":{
+		"text"  : "Each time you venture into a Trial, you will find yourself in a different landscape."
+	},
+	"8":{
+		"img"	: "resurrect"
+	},
+	"11":{
+		"text"  : "The Trials and the Story are the two faces of Eternium."
+	},
+	"12":{
+		"img"  : "store_icon"
+	},
+	"13":{
+		"img"  : "dice",
+		"size" : 0.5
+	},
+	"15":{
+		"text"  : "Trials become harder as you advance, and their rewards become greater."		
+	},
+	"16":{
+		"img"  : "stash_icon",
+		"size" : 1.5
+	},
+	
+	"18":{
+		"text"  : "Eternium is the name given by the philosophers of Elderath to the vast expanse of space and time beyond their sky."		
+	},
+	"19":{
+		"img"  : "vortex",
+		"size" : 2
+	},
+
+	"23":{
+		"text"  : "Great glory awaits the seasoned adventurer. Your deeds will turn to legend, for all other heroes to see."		
+	},
+	"24":{
+		"img"  : "clipboard"
+	},
+	
+
+	"27":{
+		"img"  : "act2_bkg_small",
+		"size" : 1.5
+	},
+
+	"31":{
+		"img"  : "lightning",
+		"size" : 1
+	},
+
+
+	"36":{
+		"img"  : "runic_circle",
+		"size" : 2
+	},
+
+	"40":{
+		"img"  : "hero_icon",
+		"size" : 1
+	},
+	"44":{
+		"img"  : "abilities_icon",
+		"size" : 1
+	},
+
+	"47":{
+		"img"  : "gemstone5",
+		"size" : 1
+	},
+
+	"51":{
+		"img"  : "act3_bkg_small",
+		"size" : 1.5
+	},
+
+	"53":{
+		"img"  : "arcane_flare",
+		"size" : 1.5
+	},
+
+	"57":{
+		"img"  : "black_hole",
+		"size" : 1.5
+	},
+
+
+	"60":{
+		"text"  : "Eternium has no end..."		
+	},
+	"61":{
+		"img"  : "vortex",
+		"size" : 2.5
+	},
+	
+	"64":{
+		"text"  : "...yet strive further is what heroes do."		
+	},
+	"65":{
+		"img"  : "rise",
+		"size" : 1.2
+	},
+
+	"99":{
+		"text"  : "Every end is a beginning, where your trials start anew."		
+	}
+}

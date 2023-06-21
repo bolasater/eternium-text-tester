@@ -1,0 +1,6975 @@
+{
+   "ambient" : [ 0, 32, 80 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Simulator1.5.45: 30B9EB2B-12A23289-A07631E0-9BC5D8D1",
+      "saveTime" : "1622384857201"
+   },
+   "enemyFlavors" : [
+      "undead",
+      "alien",
+      "sister_of_ragadam",
+      "skeleton",
+      "skeleton_archer",
+      "mechanical"
+   ],
+   "enemySetup" : [
+      {
+         "a" : 5.66390,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -6.88980,
+         "z" : 2.56990
+      },
+      {
+         "a" : 5.66390,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -6.95070,
+         "z" : 2.32830
+      },
+      {
+         "a" : 5.48860,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -6.75740,
+         "z" : 2.81410
+      },
+      {
+         "a" : 5.73180,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -6.910,
+         "z" : 2.07950
+      },
+      {
+         "a" : 5.59040,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -7.02360,
+         "z" : 2.78050
+      },
+      {
+         "a" : 5.92410,
+         "creature" : "automaton_pyro",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -7.13980,
+         "z" : 2.31050
+      },
+      {
+         "a" : 4.3010,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "monster_charge",
+         "eliteAbility1" : "rapidfire",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 6.56490,
+         "z" : -0.10360
+      },
+      {
+         "a" : 4.88350,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "rapidfire",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 6.36050,
+         "z" : -0.0960
+      },
+      {
+         "a" : 4.3010,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "monster_charge",
+         "eliteAbility1" : "rapidfire",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 6.73170,
+         "z" : -0.20010
+      },
+      {
+         "a" : 5.57340,
+         "creature" : "leviathan",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 5.13560,
+         "z" : 0.08630
+      },
+      {
+         "a" : 5.57340,
+         "creature" : "leviathan",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 5.10340,
+         "z" : -0.10960
+      },
+      {
+         "a" : 5.82790,
+         "creature" : "leviathan",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.97130,
+         "z" : 0.15740
+      },
+      {
+         "a" : 5.82790,
+         "creature" : "leviathan",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.98840,
+         "z" : -0.01050
+      },
+      {
+         "a" : 0.52880,
+         "creature" : "automaton_cleaver",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.97610,
+         "z" : -0.23760
+      },
+      {
+         "a" : 0.03680,
+         "creature" : "automaton_cleaver",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.87260,
+         "z" : 0.09140
+      },
+      {
+         "a" : -0.55710,
+         "creature" : "automaton_pyro",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.74510,
+         "z" : 0.02130
+      },
+      {
+         "a" : -0.09329999999999999,
+         "creature" : "automaton_pyro",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.86930,
+         "z" : -0.33190
+      },
+      {
+         "a" : -0.17250,
+         "creature" : "automaton_pyro",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.71930,
+         "z" : -0.33190
+      },
+      {
+         "a" : -0.17250,
+         "creature" : "automaton_pyro",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.63290,
+         "z" : -0.00570
+      },
+      {
+         "a" : 0.07070,
+         "creature" : "automaton_pyro",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.71750,
+         "z" : -0.14390
+      },
+      {
+         "a" : 4.88350,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "monster_charge",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 2.28450,
+         "z" : 1.55640
+      },
+      {
+         "a" : 4.88350,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "rapidfire",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 1.94010,
+         "z" : 1.68410
+      },
+      {
+         "a" : 4.88350,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "rapidfire",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 2.16740,
+         "z" : 1.6870
+      },
+      {
+         "a" : 4.88350,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "rapidfire",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 2.06160,
+         "z" : 1.5630
+      },
+      {
+         "a" : 4.88350,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "rapidfire",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : -1.45390,
+         "z" : 2.44090
+      },
+      {
+         "a" : 5.83360,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "monster_charge",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : -1.5030,
+         "z" : 2.00420
+      },
+      {
+         "a" : 3.73540,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "monster_charge",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "name" : "Teddy",
+         "npc" : {
+            "icon" : "",
+            "role" : "",
+            "scaling" : 1.0,
+            "title" : "NPC"
+         },
+         "x" : -3.61860,
+         "z" : 2.71160
+      },
+      {
+         "a" : 4.88350,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "rapidfire",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "name" : "Marty",
+         "npc" : {
+            "icon" : "",
+            "role" : "",
+            "scaling" : 1.0,
+            "title" : "NPC"
+         },
+         "x" : 6.87370,
+         "z" : 0.0640
+      }
+   ],
+   "fog" : [ 0, 16, 32 ],
+   "heroOmni" : {
+      "blue" : 0.31370,
+      "green" : 0.66670,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 1.0
+   },
+   "lightCol" : [ 112, 48, 0 ],
+   "lightDir" : [ 0.65560, -0.37460, -0.65560 ],
+   "props" : [
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 4.04430,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -7.30380,
+         "y" : -0.0,
+         "z" : 2.99440
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 3.33530,
+         "height" : 0.00020,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -6.98810,
+         "y" : 0.00280,
+         "z" : 3.25630
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 4.60460,
+         "height" : 0.00020,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -7.45660,
+         "y" : -0.00010,
+         "z" : 2.52590
+      },
+      {
+         "gameObject" : "LockedChest",
+         "gameObjectParams" : null,
+         "heading" : -3.09920,
+         "name" : "Chest 04",
+         "scaling" : 1.0,
+         "x" : -6.73050,
+         "y" : -0.0,
+         "z" : 3.10870
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : 7.45090,
+         "y" : 0.00020,
+         "z" : -2.83920
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : 7.10930,
+         "y" : 0.0,
+         "z" : -2.61620
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.00070,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 7.08480,
+         "y" : -0.00070,
+         "z" : -1.85330
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : 6.13410,
+         "y" : -0.0,
+         "z" : -1.26040
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : 6.41360,
+         "y" : -0.0,
+         "z" : -1.53570
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 6.10150,
+         "y" : -0.0,
+         "z" : -0.75510
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 4.24260,
+         "y" : -0.0,
+         "z" : -0.10820
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : 3.59730,
+         "y" : -0.0,
+         "z" : 0.07610
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : 3.08650,
+         "y" : -0.0,
+         "z" : 0.15940
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : 2.59780,
+         "y" : -0.0,
+         "z" : 0.11860
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.25090,
+         "y" : -0.0,
+         "z" : 0.73160
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 2.44310,
+         "height" : -0.00260,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : 2.02760,
+         "y" : -0.00270,
+         "z" : 2.22450
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.0005999999999999999,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.7390,
+         "y" : -0.00120,
+         "z" : 2.24450
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : 0.7675999999999999,
+         "y" : -0.0,
+         "z" : 2.72020
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : 0.49170,
+         "y" : -0.0,
+         "z" : 2.96340
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : 0.19710,
+         "y" : -0.0,
+         "z" : 2.65490
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.27550,
+         "y" : -0.0,
+         "z" : 2.37440
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : -1.28170,
+         "y" : -0.0,
+         "z" : 2.40480
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : -1.57820,
+         "y" : -0.0,
+         "z" : 2.16690
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.34420,
+         "y" : -0.0,
+         "z" : 2.51770
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "height" : -0.00010,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : -2.690,
+         "y" : -0.00010,
+         "z" : 1.75850
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.89710,
+         "x" : -2.54990,
+         "y" : -0.0,
+         "z" : 1.50910
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : -2.37240,
+         "y" : -0.0,
+         "z" : 1.27980
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.00020,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.82850,
+         "y" : -0.00020,
+         "z" : 0.71190
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : -3.77010,
+         "y" : -0.0,
+         "z" : 1.34080
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : -3.88970,
+         "y" : -0.0,
+         "z" : 1.610
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : -3.90790,
+         "y" : -0.0,
+         "z" : 1.91190
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : -3.97450,
+         "y" : 0.00030,
+         "z" : 2.24050
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.00020,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -4.340,
+         "y" : -0.00020,
+         "z" : 2.8480
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : -4.99670,
+         "y" : -0.0,
+         "z" : 2.44360
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.08480,
+         "name" : "Dummy",
+         "scaling" : 1.92090,
+         "x" : -5.11290,
+         "y" : 0.00010,
+         "z" : 2.32680
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -5.61250,
+         "y" : -0.0,
+         "z" : 2.19720
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.64250,
+         "x" : 9.12730,
+         "y" : -0.40,
+         "z" : -3.8340
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Measure 1x",
+         "scaling" : 1.0,
+         "x" : 9.43290,
+         "y" : -0.40,
+         "z" : -3.64190
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.64250,
+         "x" : 8.921900000000001,
+         "y" : -0.40,
+         "z" : -3.14910
+      },
+      {
+         "heading" : 4.88690,
+         "height" : -0.10220,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.37610,
+         "x" : 8.45730,
+         "y" : -0.40,
+         "z" : -2.91240
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.7810,
+         "x" : 8.23790,
+         "y" : -0.40,
+         "z" : -1.73420
+      },
+      {
+         "heading" : 2.63850,
+         "height" : -0.1270,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.7810,
+         "x" : 7.97870,
+         "y" : -0.40010,
+         "z" : -2.23010
+      },
+      {
+         "heading" : 5.6420,
+         "height" : -0.19910,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.57020,
+         "x" : 8.56340,
+         "y" : -0.40,
+         "z" : -2.39850
+      },
+      {
+         "heading" : 3.64720,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.57020,
+         "x" : 6.86420,
+         "y" : -0.40,
+         "z" : -3.36380
+      },
+      {
+         "heading" : 3.64720,
+         "height" : 0.0,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.57020,
+         "x" : 7.13710,
+         "y" : -0.40,
+         "z" : -4.22090
+      },
+      {
+         "heading" : 3.64720,
+         "height" : -0.0120,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.57020,
+         "x" : 7.75420,
+         "y" : -0.40,
+         "z" : -4.6540
+      },
+      {
+         "heading" : 3.64720,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.57020,
+         "x" : 8.836399999999999,
+         "y" : -0.40,
+         "z" : -4.72090
+      },
+      {
+         "heading" : 1.91160,
+         "height" : -0.15810,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.57020,
+         "x" : 8.06480,
+         "y" : -0.39990,
+         "z" : -4.7580
+      },
+      {
+         "heading" : -1.14830,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.57020,
+         "x" : 8.547599999999999,
+         "y" : -0.40,
+         "z" : -4.83110
+      },
+      {
+         "heading" : -0.40450,
+         "height" : -0.17130,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.57020,
+         "x" : 9.2940,
+         "y" : -0.40,
+         "z" : -4.28150
+      },
+      {
+         "heading" : -0.40450,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.57020,
+         "x" : 8.83010,
+         "y" : -0.40,
+         "z" : -5.06280
+      },
+      {
+         "heading" : -0.40450,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.57020,
+         "x" : 7.82910,
+         "y" : -0.40,
+         "z" : -4.98960
+      },
+      {
+         "heading" : -2.26410,
+         "height" : -0.12880,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.57020,
+         "x" : 7.34880,
+         "y" : -0.40,
+         "z" : -4.71010
+      },
+      {
+         "heading" : -2.26410,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.19390,
+         "x" : 7.53330,
+         "y" : -0.40,
+         "z" : -4.9320
+      },
+      {
+         "heading" : -3.42490,
+         "height" : -0.17650,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.19390,
+         "x" : 8.119300000000001,
+         "y" : -0.40,
+         "z" : -5.20050
+      },
+      {
+         "heading" : -4.11240,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.19390,
+         "x" : 8.498799999999999,
+         "y" : -0.40,
+         "z" : -5.24830
+      },
+      {
+         "heading" : -6.85110,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.19390,
+         "x" : 9.12360,
+         "y" : -0.40,
+         "z" : -4.79830
+      },
+      {
+         "heading" : -6.85110,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.19390,
+         "x" : 9.390000000000001,
+         "y" : -0.40,
+         "z" : -4.52250
+      },
+      {
+         "heading" : -8.840299999999999,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.19390,
+         "x" : 9.255000000000001,
+         "y" : -0.40,
+         "z" : -5.05130
+      },
+      {
+         "heading" : -8.840299999999999,
+         "height" : -0.0,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.19390,
+         "x" : 9.47470,
+         "y" : -0.40,
+         "z" : -3.92820
+      },
+      {
+         "heading" : -7.7640,
+         "height" : -0.17460,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.19390,
+         "x" : 9.28890,
+         "y" : -0.40,
+         "z" : -3.18390
+      },
+      {
+         "heading" : -8.524699999999999,
+         "height" : -0.07270,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50540,
+         "x" : 8.987299999999999,
+         "y" : -0.39990,
+         "z" : -2.3820
+      },
+      {
+         "heading" : -9.21790,
+         "height" : -0.40,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.50540,
+         "x" : 8.699299999999999,
+         "y" : -0.40,
+         "z" : -1.92220
+      },
+      {
+         "heading" : -9.21790,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.50540,
+         "x" : 6.67680,
+         "y" : -0.40,
+         "z" : -4.11120
+      },
+      {
+         "heading" : -9.21790,
+         "height" : -0.0030,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.50540,
+         "x" : 6.6280,
+         "y" : -0.40,
+         "z" : -2.49990
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.09970,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50540,
+         "x" : 6.55310,
+         "y" : -0.40010,
+         "z" : -3.17710
+      },
+      {
+         "heading" : -9.99550,
+         "height" : 0.0,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.81380,
+         "x" : 6.32410,
+         "y" : -0.40,
+         "z" : -2.45590
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.19320,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.81380,
+         "x" : 6.03510,
+         "y" : -0.40,
+         "z" : -2.56530
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.09550,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 6.10580,
+         "y" : -0.40,
+         "z" : -3.17140
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.01480,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 7.69270,
+         "y" : -0.40,
+         "z" : -1.41360
+      },
+      {
+         "heading" : -9.99550,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 6.73310,
+         "y" : -0.40,
+         "z" : -1.09630
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.10830,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.6080,
+         "x" : 7.15560,
+         "y" : -0.40010,
+         "z" : -1.07180
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.06460,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 7.39980,
+         "y" : -0.39990,
+         "z" : -0.85210
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.7810,
+         "x" : 8.271599999999999,
+         "y" : -0.40,
+         "z" : -2.42540
+      },
+      {
+         "heading" : 4.88690,
+         "height" : -0.09990,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 1.37610,
+         "x" : 8.823700000000001,
+         "y" : -0.40010,
+         "z" : -3.68950
+      },
+      {
+         "heading" : -0.40450,
+         "height" : -0.06110,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 1.57020,
+         "x" : 8.98180,
+         "y" : -0.40,
+         "z" : -4.10980
+      },
+      {
+         "heading" : 3.64720,
+         "height" : -0.01550,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 1.57020,
+         "x" : 6.87590,
+         "y" : -0.40,
+         "z" : -3.62550
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.12370,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.6980,
+         "x" : 6.34170,
+         "y" : -0.40,
+         "z" : -2.85020
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.00040,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.6980,
+         "x" : 5.89290,
+         "y" : -0.40,
+         "z" : -2.32350
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.08570,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.6980,
+         "x" : 8.09010,
+         "y" : -0.40,
+         "z" : -1.12720
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.26950,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.6980,
+         "x" : 7.82160,
+         "y" : -0.40010,
+         "z" : -1.81080
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.6980,
+         "x" : 7.06470,
+         "y" : -0.40,
+         "z" : -0.88310
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.26080,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.6980,
+         "x" : 7.23560,
+         "y" : -0.40,
+         "z" : 0.26440
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.34580,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.6980,
+         "x" : 6.50320,
+         "y" : -0.39990,
+         "z" : 0.55730
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 1.31440,
+         "x" : 7.50420,
+         "y" : -0.40,
+         "z" : -0.17510
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 1.31440,
+         "x" : 5.45340,
+         "y" : -0.40,
+         "z" : 0.70380
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.00490,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.31440,
+         "x" : 4.98950,
+         "y" : -0.40,
+         "z" : 0.63060
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.00190,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.74530,
+         "x" : 4.62330,
+         "y" : -0.40,
+         "z" : 0.72820
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.74530,
+         "x" : 5.94170,
+         "y" : -0.40,
+         "z" : 1.11890
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.11420,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 6.22790,
+         "y" : -0.40010,
+         "z" : 0.75920
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.0940,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 7.02610,
+         "y" : -0.40030,
+         "z" : 0.6860000000000001
+      },
+      {
+         "heading" : -9.99550,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.6080,
+         "x" : 6.75970,
+         "y" : -0.40,
+         "z" : 0.91210
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.20450,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.6080,
+         "x" : 7.46780,
+         "y" : -0.40,
+         "z" : 0.05760
+      },
+      {
+         "heading" : -12.7060,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.6080,
+         "x" : 7.68310,
+         "y" : -0.40,
+         "z" : -0.46420
+      },
+      {
+         "heading" : -12.7060,
+         "height" : -0.13190,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 7.79810,
+         "y" : -0.39990,
+         "z" : -0.04420
+      },
+      {
+         "heading" : -10.41820,
+         "height" : -0.008200000000000001,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 7.52950,
+         "y" : -0.40010,
+         "z" : 0.63940
+      },
+      {
+         "heading" : -9.555999999999999,
+         "height" : -0.17440,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 6.35590,
+         "y" : -0.40,
+         "z" : 1.25670
+      },
+      {
+         "heading" : -9.555999999999999,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 6.93640,
+         "y" : -0.40,
+         "z" : 1.30810
+      },
+      {
+         "heading" : -9.555999999999999,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 8.20590,
+         "y" : -0.40,
+         "z" : -0.42530
+      },
+      {
+         "heading" : -9.555999999999999,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 8.01060,
+         "y" : -0.40,
+         "z" : 0.60010
+      },
+      {
+         "heading" : -9.555999999999999,
+         "height" : -0.19090,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 7.57110,
+         "y" : -0.40,
+         "z" : 1.43010
+      },
+      {
+         "heading" : -9.555999999999999,
+         "height" : -0.16950,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 5.12970,
+         "y" : -0.40,
+         "z" : 1.13720
+      },
+      {
+         "heading" : -9.555999999999999,
+         "height" : -0.29840,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.6080,
+         "x" : 5.72530,
+         "y" : -0.39990,
+         "z" : 0.90210
+      },
+      {
+         "heading" : -9.555999999999999,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.6080,
+         "x" : 4.83510,
+         "y" : -0.40,
+         "z" : 1.16440
+      },
+      {
+         "heading" : -9.555999999999999,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 5.64790,
+         "y" : -0.40,
+         "z" : 1.52530
+      },
+      {
+         "heading" : -9.555999999999999,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 3.95780,
+         "y" : -0.40,
+         "z" : 1.52780
+      },
+      {
+         "heading" : -9.555999999999999,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 4.50040,
+         "y" : -0.40,
+         "z" : 1.50080
+      },
+      {
+         "heading" : -9.555999999999999,
+         "height" : -0.08740000000000001,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.6080,
+         "x" : 3.28390,
+         "y" : -0.40,
+         "z" : 1.17070
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.19170,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.74530,
+         "x" : 3.74440,
+         "y" : -0.40,
+         "z" : 1.16770
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.52850,
+         "x" : 3.20730,
+         "y" : -0.40,
+         "z" : 0.75270
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.08510,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.23790,
+         "x" : 3.0120,
+         "y" : -0.40010,
+         "z" : 0.58180
+      },
+      {
+         "heading" : -10.33930,
+         "height" : -0.28550,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 3.49940,
+         "y" : -0.40,
+         "z" : 0.89050
+      },
+      {
+         "heading" : -10.33930,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 2.92490,
+         "y" : -0.40,
+         "z" : 0.90080
+      },
+      {
+         "heading" : -11.30850,
+         "height" : -0.00810,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 3.29110,
+         "y" : -0.40,
+         "z" : 1.87740
+      },
+      {
+         "heading" : -11.30850,
+         "height" : -0.30090,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 2.75780,
+         "y" : -0.40,
+         "z" : 2.58260
+      },
+      {
+         "heading" : -11.30850,
+         "height" : -0.03730,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.6080,
+         "x" : 3.10720,
+         "y" : -0.40,
+         "z" : 2.33170
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.40760,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.43790,
+         "x" : 4.11060,
+         "y" : -0.40,
+         "z" : 1.11890
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.22560,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.45610,
+         "x" : 3.0120,
+         "y" : -0.40,
+         "z" : 1.50950
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.41750,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.45610,
+         "x" : 2.88990,
+         "y" : -0.40,
+         "z" : 2.24190
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.13310,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.45610,
+         "x" : 2.10870,
+         "y" : -0.39990,
+         "z" : 2.63250
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.12520,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.45610,
+         "x" : 1.35180,
+         "y" : -0.40,
+         "z" : 3.02320
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.10,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.45610,
+         "x" : 1.69360,
+         "y" : -0.40020,
+         "z" : 2.82790
+      },
+      {
+         "heading" : 4.12050,
+         "height" : -0.10180,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.29890,
+         "x" : 8.407500000000001,
+         "y" : -0.40,
+         "z" : -4.69170
+      },
+      {
+         "heading" : 4.12050,
+         "height" : -0.17010,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.29890,
+         "x" : 8.309900000000001,
+         "y" : -0.40,
+         "z" : -4.96020
+      },
+      {
+         "heading" : 3.64720,
+         "height" : -0.02260,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.32570,
+         "x" : 7.45540,
+         "y" : -0.40,
+         "z" : -4.37430
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.11630,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.6980,
+         "x" : 4.69660,
+         "y" : -0.40,
+         "z" : -1.00520
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.6980,
+         "x" : 5.55110,
+         "y" : -0.40,
+         "z" : -0.68780
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.6980,
+         "x" : 5.11160,
+         "y" : -0.40,
+         "z" : -1.49340
+      },
+      {
+         "heading" : -9.99550,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.81380,
+         "x" : 5.29880,
+         "y" : -0.40,
+         "z" : -0.79570
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.15150,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : 5.46990,
+         "y" : -0.40030,
+         "z" : -1.07070
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.00260,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.50790,
+         "x" : 5.55910,
+         "y" : -0.40,
+         "z" : -1.92830
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.13110,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.50790,
+         "x" : 5.43910,
+         "y" : -0.40,
+         "z" : -1.60330
+      },
+      {
+         "heading" : -9.99550,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.50790,
+         "x" : 5.58560,
+         "y" : -0.40,
+         "z" : -2.26250
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.17420,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : 5.68970,
+         "y" : -0.40,
+         "z" : -2.70650
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.6980,
+         "x" : 6.430,
+         "y" : -0.40,
+         "z" : -3.81280
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.6980,
+         "x" : 5.79520,
+         "y" : -0.40,
+         "z" : -3.27570
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.16390,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 7.03350,
+         "y" : -0.40,
+         "z" : -4.68510
+      },
+      {
+         "heading" : -9.99550,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : 4.98170,
+         "y" : -0.40,
+         "z" : -0.8510
+      },
+      {
+         "heading" : -9.99550,
+         "height" : -0.20560,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.50790,
+         "x" : 5.36590,
+         "y" : -0.40,
+         "z" : -0.33380
+      },
+      {
+         "heading" : -11.50580,
+         "height" : -0.00590,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.50790,
+         "x" : 5.78790,
+         "y" : -0.40,
+         "z" : -0.49270
+      },
+      {
+         "heading" : -11.50580,
+         "height" : -0.20220,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.50790,
+         "x" : 4.6710,
+         "y" : -0.40010,
+         "z" : 0.42840
+      },
+      {
+         "heading" : -11.50580,
+         "height" : -0.20010,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.50790,
+         "x" : 4.2560,
+         "y" : -0.40,
+         "z" : -1.10970
+      },
+      {
+         "heading" : -11.50580,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : 3.53340,
+         "y" : -0.40,
+         "z" : -0.55880
+      },
+      {
+         "heading" : -12.23270,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.50790,
+         "x" : 3.94630,
+         "y" : -0.40,
+         "z" : -1.06020
+      },
+      {
+         "heading" : -12.23270,
+         "height" : -0.05410,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : 3.03750,
+         "y" : -0.39990,
+         "z" : -0.6415999999999999
+      },
+      {
+         "heading" : -12.23270,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : 1.98760,
+         "y" : -0.40,
+         "z" : -0.5439000000000001
+      },
+      {
+         "heading" : -12.23270,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.50790,
+         "x" : 3.46410,
+         "y" : -0.40,
+         "z" : -1.03980
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.12330,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.39560,
+         "x" : 3.84210,
+         "y" : -0.39990,
+         "z" : -0.63890
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.39560,
+         "x" : 2.62140,
+         "y" : -0.40,
+         "z" : -0.56570
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.39560,
+         "x" : 2.29540,
+         "y" : -0.40,
+         "z" : -0.83430
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.14160,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.39560,
+         "x" : 2.82360,
+         "y" : -0.39990,
+         "z" : -0.89610
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.1970,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.39560,
+         "x" : 1.82260,
+         "y" : -0.40,
+         "z" : 0.2270
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.18910,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.39560,
+         "x" : 1.69360,
+         "y" : -0.40,
+         "z" : -0.07740
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.00010,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.39560,
+         "x" : 1.36460,
+         "y" : -0.40,
+         "z" : 1.47610
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.00340,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.39560,
+         "x" : 1.70050,
+         "y" : -0.40,
+         "z" : 0.98380
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.16880,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.39560,
+         "x" : 1.35290,
+         "y" : -0.39990,
+         "z" : 0.8530
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.00330,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.39560,
+         "x" : 1.46540,
+         "y" : -0.40,
+         "z" : 0.21550
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.39560,
+         "x" : 1.5960,
+         "y" : -0.40,
+         "z" : 0.58180
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.39560,
+         "x" : 0.9612000000000001,
+         "y" : -0.40,
+         "z" : 1.6560
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.39560,
+         "x" : 1.8040,
+         "y" : -0.40,
+         "z" : -0.55030
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.39560,
+         "x" : 2.46320,
+         "y" : -0.40,
+         "z" : 3.01410
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.39560,
+         "x" : 1.53550,
+         "y" : -0.40,
+         "z" : 2.89210
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.10020,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.39560,
+         "x" : 0.94960,
+         "y" : -0.40010,
+         "z" : 3.72220
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.05930,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.39560,
+         "x" : 1.23670,
+         "y" : -0.39990,
+         "z" : 3.62050
+      },
+      {
+         "heading" : -10.72810,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.39560,
+         "x" : 1.64580,
+         "y" : -0.40,
+         "z" : 3.34320
+      },
+      {
+         "heading" : -10.72810,
+         "height" : -0.00570,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.39560,
+         "x" : 2.32940,
+         "y" : -0.39990,
+         "z" : 3.3920
+      },
+      {
+         "heading" : -9.572900000000001,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.39560,
+         "x" : 2.66610,
+         "y" : -0.40,
+         "z" : 3.13740
+      },
+      {
+         "heading" : -9.572900000000001,
+         "height" : -0.03890,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.39560,
+         "x" : 1.91350,
+         "y" : -0.39990,
+         "z" : 3.4860
+      },
+      {
+         "heading" : -9.572900000000001,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.39560,
+         "x" : 1.62050,
+         "y" : -0.40,
+         "z" : 3.85220
+      },
+      {
+         "heading" : -7.17230,
+         "height" : -0.10230,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.39560,
+         "x" : 0.44860,
+         "y" : -0.40010,
+         "z" : 3.85220
+      },
+      {
+         "heading" : -8.496600000000001,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.39560,
+         "x" : 0.2140,
+         "y" : -0.40,
+         "z" : 3.67460
+      },
+      {
+         "heading" : -8.496600000000001,
+         "height" : -0.04980,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 1.39560,
+         "x" : 0.98560,
+         "y" : -0.39990,
+         "z" : 3.99970
+      },
+      {
+         "heading" : -8.496600000000001,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 1.39560,
+         "x" : -0.23510,
+         "y" : -0.40,
+         "z" : 4.09740
+      },
+      {
+         "heading" : -8.496600000000001,
+         "height" : 0.0,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.39560,
+         "x" : -0.16180,
+         "y" : -0.40,
+         "z" : 3.60910
+      },
+      {
+         "heading" : -8.496600000000001,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.39560,
+         "x" : 1.35180,
+         "y" : -0.40,
+         "z" : 3.99970
+      },
+      {
+         "heading" : -8.496600000000001,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.39560,
+         "x" : 0.05790,
+         "y" : -0.40,
+         "z" : 3.80440
+      },
+      {
+         "heading" : -8.496600000000001,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.39560,
+         "x" : 0.59480,
+         "y" : -0.40,
+         "z" : 4.37340
+      },
+      {
+         "heading" : -9.52220,
+         "height" : -0.0150,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.05890,
+         "x" : 0.33740,
+         "y" : -0.39990,
+         "z" : 3.90620
+      },
+      {
+         "heading" : -9.52220,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.41580,
+         "x" : -0.5390,
+         "y" : -0.40,
+         "z" : 3.13140
+      },
+      {
+         "heading" : -9.87720,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.41580,
+         "x" : -0.48860,
+         "y" : -0.40,
+         "z" : 3.61730
+      },
+      {
+         "heading" : -12.23270,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.50790,
+         "x" : 3.66240,
+         "y" : -0.40,
+         "z" : -1.26370
+      },
+      {
+         "heading" : -12.23270,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.50790,
+         "x" : 2.61260,
+         "y" : -0.40,
+         "z" : -1.01950
+      },
+      {
+         "heading" : -12.23270,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.50790,
+         "x" : 1.53830,
+         "y" : -0.40,
+         "z" : -0.36040
+      },
+      {
+         "heading" : -12.23270,
+         "height" : -0.02150,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.50790,
+         "x" : 0.65940,
+         "y" : -0.40,
+         "z" : 1.29980
+      },
+      {
+         "heading" : -12.23270,
+         "height" : -0.0,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : 1.01110,
+         "y" : -0.40,
+         "z" : 1.09180
+      },
+      {
+         "heading" : -13.17380,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.50790,
+         "x" : 0.6104000000000001,
+         "y" : -0.40,
+         "z" : 1.79910
+      },
+      {
+         "heading" : -12.32850,
+         "height" : -0.10,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : 0.28610,
+         "y" : -0.40,
+         "z" : 1.52680
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.50790,
+         "x" : -0.36650,
+         "y" : -0.40,
+         "z" : 1.68560
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 1.1920,
+         "x" : -0.08860,
+         "y" : -0.40,
+         "z" : 1.92450
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.6660,
+         "x" : 0.22880,
+         "y" : -0.40,
+         "z" : 1.90010
+      },
+      {
+         "heading" : -12.32850,
+         "height" : -0.02310,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.6660,
+         "x" : 1.1810,
+         "y" : -0.40,
+         "z" : 0.50850
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.6660,
+         "x" : 0.79030,
+         "y" : -0.40,
+         "z" : 1.04560
+      },
+      {
+         "heading" : -12.32850,
+         "height" : -0.09959999999999999,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.24770,
+         "x" : 0.00910,
+         "y" : -0.40010,
+         "z" : 1.43630
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.24770,
+         "x" : -0.91870,
+         "y" : -0.40,
+         "z" : 3.02320
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 0.9127999999999999,
+         "x" : -1.18720,
+         "y" : -0.40,
+         "z" : 2.94990
+      },
+      {
+         "heading" : -9.52220,
+         "height" : 0.0,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.41580,
+         "x" : -1.16360,
+         "y" : -0.40,
+         "z" : 3.14580
+      },
+      {
+         "heading" : -9.86590,
+         "height" : -0.10190,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.4610,
+         "x" : -1.55990,
+         "y" : -0.39990,
+         "z" : 3.27770
+      },
+      {
+         "heading" : -9.86590,
+         "height" : -0.16020,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.4610,
+         "x" : -1.01320,
+         "y" : -0.40,
+         "z" : 3.61660
+      },
+      {
+         "heading" : -8.4910,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.4610,
+         "x" : -1.40390,
+         "y" : -0.40,
+         "z" : 3.71430
+      },
+      {
+         "heading" : -8.4910,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.4610,
+         "x" : -2.23860,
+         "y" : -0.40,
+         "z" : 3.4470
+      },
+      {
+         "heading" : -12.32850,
+         "height" : -0.01250,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : -0.74690,
+         "y" : -0.40010,
+         "z" : 1.31380
+      },
+      {
+         "heading" : -12.32850,
+         "height" : -0.00160,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : -1.9920,
+         "y" : -0.40,
+         "z" : 1.65560
+      },
+      {
+         "heading" : -14.96570,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.51330,
+         "x" : -1.60360,
+         "y" : -0.40,
+         "z" : 1.31950
+      },
+      {
+         "heading" : -14.96570,
+         "height" : -0.05460,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.51330,
+         "x" : -1.14140,
+         "y" : -0.39990,
+         "z" : 1.08220
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.24770,
+         "x" : -0.91870,
+         "y" : -0.40,
+         "z" : 1.19210
+      },
+      {
+         "heading" : -12.32850,
+         "height" : -0.14280,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.24770,
+         "x" : -1.94410,
+         "y" : -0.40,
+         "z" : 1.31420
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.48250,
+         "x" : -1.18720,
+         "y" : -0.40,
+         "z" : 1.41180
+      },
+      {
+         "heading" : -12.32850,
+         "height" : -0.38060,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.48250,
+         "x" : -1.91960,
+         "y" : -0.40,
+         "z" : 3.21850
+      },
+      {
+         "heading" : -12.32850,
+         "height" : -0.10620,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.48250,
+         "x" : -2.72530,
+         "y" : -0.40,
+         "z" : 3.24290
+      },
+      {
+         "heading" : -9.86590,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.4610,
+         "x" : -3.00030,
+         "y" : -0.40,
+         "z" : 1.08040
+      },
+      {
+         "heading" : -9.86590,
+         "height" : -0.00010,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.52040,
+         "x" : -3.43020,
+         "y" : -0.40,
+         "z" : 1.810
+      },
+      {
+         "heading" : -9.86590,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.52040,
+         "x" : -3.03850,
+         "y" : -0.40,
+         "z" : 2.78790
+      },
+      {
+         "heading" : -9.86590,
+         "height" : -0.05510,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.52040,
+         "x" : -3.22950,
+         "y" : -0.40,
+         "z" : 2.38070
+      },
+      {
+         "heading" : -12.17630,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.52040,
+         "x" : -3.09150,
+         "y" : -0.40,
+         "z" : 1.41180
+      },
+      {
+         "heading" : -12.17630,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.52040,
+         "x" : -3.57980,
+         "y" : -0.40,
+         "z" : 2.24190
+      },
+      {
+         "heading" : -12.17630,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.52040,
+         "x" : -3.72630,
+         "y" : -0.40,
+         "z" : 3.24290
+      },
+      {
+         "heading" : -9.4940,
+         "height" : 0.0,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.4610,
+         "x" : -3.33720,
+         "y" : -0.40,
+         "z" : 3.20280
+      },
+      {
+         "heading" : -9.4940,
+         "height" : -0.0260,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.4610,
+         "x" : -3.97120,
+         "y" : -0.40,
+         "z" : 3.26930
+      },
+      {
+         "heading" : -9.4940,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.4610,
+         "x" : -3.56580,
+         "y" : -0.40,
+         "z" : 3.81980
+      },
+      {
+         "heading" : -8.541700000000001,
+         "height" : -0.10180,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.1050,
+         "x" : -3.46850,
+         "y" : -0.40010,
+         "z" : 3.20470
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50790,
+         "x" : -1.65020,
+         "y" : -0.40,
+         "z" : 0.55690
+      },
+      {
+         "heading" : -12.32850,
+         "height" : -0.05160,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.50790,
+         "x" : -1.94540,
+         "y" : -0.40010,
+         "z" : 0.19650
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.50790,
+         "x" : -2.5450,
+         "y" : -0.40,
+         "z" : -0.13520
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.50790,
+         "x" : -3.49720,
+         "y" : -0.40,
+         "z" : -0.0620
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.50790,
+         "x" : -3.2230,
+         "y" : -0.40,
+         "z" : -0.09660000000000001
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.50790,
+         "x" : -2.13940,
+         "y" : -0.40,
+         "z" : -0.17510
+      },
+      {
+         "heading" : -12.32850,
+         "height" : -0.17630,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.50790,
+         "x" : -2.72530,
+         "y" : -0.40,
+         "z" : -0.29710
+      },
+      {
+         "heading" : -12.32850,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.16760,
+         "x" : -2.9450,
+         "y" : -0.40,
+         "z" : -0.0530
+      },
+      {
+         "heading" : -12.32850,
+         "height" : 0.0,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.16760,
+         "x" : -3.38450,
+         "y" : -0.40,
+         "z" : -0.19950
+      },
+      {
+         "heading" : -13.54570,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.50390,
+         "x" : -3.77620,
+         "y" : -0.40,
+         "z" : 0.23070
+      },
+      {
+         "heading" : -13.54570,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.50390,
+         "x" : -4.40220,
+         "y" : -0.40,
+         "z" : 0.8610
+      },
+      {
+         "heading" : -13.54570,
+         "height" : -0.007900000000000001,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.50390,
+         "x" : -4.61370,
+         "y" : -0.40,
+         "z" : 1.84880
+      },
+      {
+         "heading" : -13.54570,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.50390,
+         "x" : -4.32420,
+         "y" : -0.40,
+         "z" : 0.31570
+      },
+      {
+         "heading" : -13.54570,
+         "height" : -0.00160,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.50390,
+         "x" : -4.06810,
+         "y" : -0.40,
+         "z" : 0.14230
+      },
+      {
+         "heading" : -13.54570,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.50390,
+         "x" : -4.6540,
+         "y" : -0.40,
+         "z" : 1.28980
+      },
+      {
+         "heading" : -13.54570,
+         "height" : 0.0,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.50390,
+         "x" : -4.97140,
+         "y" : -0.40,
+         "z" : 1.60720
+      },
+      {
+         "heading" : -9.4940,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.4610,
+         "x" : -4.75420,
+         "y" : -0.40,
+         "z" : 3.30960
+      },
+      {
+         "heading" : -13.54570,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.50390,
+         "x" : -4.25570,
+         "y" : -0.40,
+         "z" : 3.5710
+      },
+      {
+         "heading" : -12.17630,
+         "height" : -0.18230,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.52040,
+         "x" : -4.43430,
+         "y" : -0.40010,
+         "z" : 3.3650
+      },
+      {
+         "heading" : -12.17630,
+         "height" : -0.08710,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.52040,
+         "x" : -5.38640,
+         "y" : -0.40,
+         "z" : 2.51050
+      },
+      {
+         "heading" : -12.17630,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.52040,
+         "x" : -5.23990,
+         "y" : -0.40,
+         "z" : 3.19410
+      },
+      {
+         "heading" : -9.4940,
+         "height" : -0.27060,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.4610,
+         "x" : -5.0210,
+         "y" : -0.40,
+         "z" : 2.95190
+      },
+      {
+         "heading" : -9.4940,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.4610,
+         "x" : -5.88860,
+         "y" : -0.40,
+         "z" : 3.07270
+      },
+      {
+         "heading" : -7.21740,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.4610,
+         "x" : -5.71840,
+         "y" : -0.40,
+         "z" : 2.87260
+      },
+      {
+         "heading" : -5.39730,
+         "height" : -0.0,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.4610,
+         "x" : -5.73760,
+         "y" : -0.40,
+         "z" : 3.24280
+      },
+      {
+         "heading" : -5.39730,
+         "height" : -0.17560,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.4610,
+         "x" : -5.5020,
+         "y" : -0.40,
+         "z" : 3.69270
+      },
+      {
+         "heading" : -5.39730,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.4610,
+         "x" : -4.99590,
+         "y" : -0.40,
+         "z" : 3.770
+      },
+      {
+         "heading" : -10.40690,
+         "height" : -0.12410,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : 3.75610,
+         "y" : -0.39990,
+         "z" : 2.09820
+      },
+      {
+         "heading" : -12.60460,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 3.46180,
+         "y" : -0.40,
+         "z" : 2.51510
+      },
+      {
+         "heading" : -11.8270,
+         "height" : -0.1790,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 3.17950,
+         "y" : -0.40,
+         "z" : 2.98180
+      },
+      {
+         "heading" : -11.8270,
+         "height" : -0.12080,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 2.05640,
+         "y" : -0.39990,
+         "z" : 3.07950
+      },
+      {
+         "heading" : -10.06310,
+         "height" : -0.02560,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 2.10530,
+         "y" : -0.39990,
+         "z" : 3.88510
+      },
+      {
+         "heading" : -10.06310,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 1.14430,
+         "y" : -0.40,
+         "z" : 4.49210
+      },
+      {
+         "heading" : -8.84590,
+         "height" : -0.17730,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : 0.11890,
+         "y" : -0.40,
+         "z" : 4.44330
+      },
+      {
+         "heading" : -8.84590,
+         "height" : -0.06960,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : -1.90930,
+         "y" : -0.39990,
+         "z" : 3.97070
+      },
+      {
+         "heading" : -8.31620,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : -2.66620,
+         "y" : -0.40,
+         "z" : 3.72650
+      },
+      {
+         "heading" : -8.31620,
+         "height" : -0.05780,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : -3.05130,
+         "y" : -0.40010,
+         "z" : 3.72620
+      },
+      {
+         "heading" : -8.31620,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : -4.51610,
+         "y" : -0.40,
+         "z" : 4.01920
+      },
+      {
+         "heading" : -8.31620,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : -6.3960,
+         "y" : -0.40,
+         "z" : 4.09240
+      },
+      {
+         "heading" : -8.31620,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : -6.17630,
+         "y" : -0.40,
+         "z" : 3.26240
+      },
+      {
+         "heading" : -9.78140,
+         "height" : -0.05020,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : -6.97670,
+         "y" : -0.40020,
+         "z" : 3.52220
+      },
+      {
+         "heading" : -9.78140,
+         "height" : -0.00320,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : -7.67860,
+         "y" : -0.40,
+         "z" : 3.1340
+      },
+      {
+         "heading" : -9.78140,
+         "height" : -0.01470,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : -7.84950,
+         "y" : -0.40,
+         "z" : 2.0110
+      },
+      {
+         "heading" : -9.78140,
+         "height" : -0.00720,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : -8.19740,
+         "y" : -0.40010,
+         "z" : 2.66770
+      },
+      {
+         "heading" : -9.78140,
+         "height" : -0.23370,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.6080,
+         "x" : -7.74050,
+         "y" : -0.39990,
+         "z" : 2.71240
+      },
+      {
+         "heading" : -9.78140,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.6080,
+         "x" : -6.15360,
+         "y" : -0.40,
+         "z" : 1.71140
+      },
+      {
+         "heading" : -12.17630,
+         "height" : -0.04740,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.52040,
+         "x" : -6.53390,
+         "y" : -0.40,
+         "z" : 3.41380
+      },
+      {
+         "heading" : -12.17630,
+         "height" : -0.20460,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.52040,
+         "x" : -7.41280,
+         "y" : -0.40,
+         "z" : 3.4870
+      },
+      {
+         "heading" : -5.39730,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.4610,
+         "x" : -6.7630,
+         "y" : -0.40,
+         "z" : 3.73110
+      },
+      {
+         "heading" : -5.39730,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.4610,
+         "x" : -6.33070,
+         "y" : -0.40,
+         "z" : 3.69660
+      },
+      {
+         "heading" : -5.39730,
+         "height" : -0.35930,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.4610,
+         "x" : -7.28280,
+         "y" : -0.40,
+         "z" : 3.81870
+      },
+      {
+         "heading" : -5.39730,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.4610,
+         "x" : -7.08750,
+         "y" : -0.40,
+         "z" : 1.25520
+      },
+      {
+         "heading" : -5.39730,
+         "height" : -0.02810,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.4610,
+         "x" : -5.67150,
+         "y" : -0.40,
+         "z" : 1.37730
+      },
+      {
+         "heading" : -5.39730,
+         "height" : -0.17210,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.4610,
+         "x" : -5.25790,
+         "y" : -0.40,
+         "z" : 1.15360
+      },
+      {
+         "heading" : -5.39730,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.4610,
+         "x" : -6.11890,
+         "y" : -0.40,
+         "z" : 1.13330
+      },
+      {
+         "heading" : -4.17440,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.4610,
+         "x" : -6.6560,
+         "y" : -0.40,
+         "z" : 1.15770
+      },
+      {
+         "heading" : -4.17440,
+         "height" : -0.02750,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.4610,
+         "x" : -7.45450,
+         "y" : -0.40,
+         "z" : 1.24370
+      },
+      {
+         "heading" : -13.54570,
+         "height" : -0.008399999999999999,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.21250,
+         "x" : -5.50850,
+         "y" : -0.40,
+         "z" : 1.02120
+      },
+      {
+         "heading" : -13.54570,
+         "height" : -0.19940,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.21250,
+         "x" : -5.9480,
+         "y" : -0.40,
+         "z" : 1.55830
+      },
+      {
+         "heading" : -13.54570,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.21250,
+         "x" : -6.87570,
+         "y" : -0.40,
+         "z" : 1.28980
+      },
+      {
+         "heading" : -13.54570,
+         "name" : "Alien Tree 02 04",
+         "scaling" : 1.49070,
+         "x" : -7.58370,
+         "y" : -0.40,
+         "z" : 1.63160
+      },
+      {
+         "heading" : -13.54570,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.49070,
+         "x" : -8.047599999999999,
+         "y" : -0.40,
+         "z" : 3.12080
+      },
+      {
+         "heading" : -9.02060,
+         "height" : -0.00110,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : -7.70920,
+         "y" : -0.40,
+         "z" : 3.81510
+      },
+      {
+         "heading" : -8.18660,
+         "height" : -0.18010,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : -8.23230,
+         "y" : -0.40,
+         "z" : 3.58660
+      },
+      {
+         "heading" : -7.4090,
+         "height" : -0.10050,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : -8.53270,
+         "y" : -0.40,
+         "z" : 3.03950
+      },
+      {
+         "heading" : -8.609299999999999,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : -8.410600000000001,
+         "y" : -0.40,
+         "z" : 2.06290
+      },
+      {
+         "heading" : -9.640499999999999,
+         "height" : -0.19170,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.6080,
+         "x" : -7.92910,
+         "y" : -0.40,
+         "z" : 1.30380
+      },
+      {
+         "heading" : -9.296799999999999,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : -8.392099999999999,
+         "y" : -0.40,
+         "z" : 1.62380
+      },
+      {
+         "heading" : -9.296799999999999,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : -7.16210,
+         "y" : -0.40,
+         "z" : 0.62770
+      },
+      {
+         "heading" : -10.07440,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.6080,
+         "x" : -6.52730,
+         "y" : -0.40,
+         "z" : 0.57890
+      },
+      {
+         "heading" : -10.77880,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.87020,
+         "x" : -5.7720,
+         "y" : -0.40,
+         "z" : 0.6032999999999999
+      },
+      {
+         "heading" : -10.53650,
+         "height" : -0.05080,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.87020,
+         "x" : -4.96630,
+         "y" : -0.40010,
+         "z" : 0.72540
+      },
+      {
+         "heading" : -9.71940,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.87020,
+         "x" : -4.6530,
+         "y" : -0.40,
+         "z" : 0.12790
+      },
+      {
+         "heading" : -9.71940,
+         "height" : -0.180,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.87020,
+         "x" : -4.04270,
+         "y" : -0.40,
+         "z" : -0.38480
+      },
+      {
+         "heading" : -9.71940,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.87020,
+         "x" : -2.99290,
+         "y" : -0.40,
+         "z" : -0.7510
+      },
+      {
+         "heading" : -9.71940,
+         "height" : -0.15610,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.87020,
+         "x" : -1.67450,
+         "y" : -0.40,
+         "z" : -0.38480
+      },
+      {
+         "heading" : -9.71940,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.87020,
+         "x" : -0.96650,
+         "y" : -0.40,
+         "z" : 0.56740
+      },
+      {
+         "heading" : -11.48320,
+         "height" : -0.05430,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.87020,
+         "x" : -0.36390,
+         "y" : -0.39990,
+         "z" : 1.04170
+      },
+      {
+         "heading" : -11.48320,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.87020,
+         "x" : 0.38070,
+         "y" : -0.40,
+         "z" : 0.90140
+      },
+      {
+         "heading" : -10.37310,
+         "height" : -0.08180,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.87020,
+         "x" : 0.96660,
+         "y" : -0.40,
+         "z" : 0.1690
+      },
+      {
+         "heading" : -9.87720,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.87020,
+         "x" : 1.31440,
+         "y" : -0.40,
+         "z" : -0.47050
+      },
+      {
+         "heading" : -9.87720,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.87020,
+         "x" : 1.77810,
+         "y" : -0.40,
+         "z" : -1.20880
+      },
+      {
+         "heading" : -9.87720,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.87020,
+         "x" : 3.14530,
+         "y" : -0.40,
+         "z" : -1.5750
+      },
+      {
+         "heading" : -9.87720,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.87020,
+         "x" : 4.53690,
+         "y" : -0.40,
+         "z" : -1.59940
+      },
+      {
+         "heading" : 2.63850,
+         "height" : -0.01220,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.37740,
+         "x" : 8.520899999999999,
+         "y" : 0.0,
+         "z" : -3.66270
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Measure 1x",
+         "scaling" : 1.0,
+         "x" : 7.85550,
+         "y" : 0.0,
+         "z" : -3.52950
+      },
+      {
+         "heading" : 4.36850,
+         "height" : -0.03450,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.37740,
+         "x" : 7.78870,
+         "y" : 0.0,
+         "z" : -4.33130
+      },
+      {
+         "heading" : 3.58520,
+         "height" : 0.01060,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.37740,
+         "x" : 8.07490,
+         "y" : 0.0,
+         "z" : -3.01320
+      },
+      {
+         "heading" : 3.58520,
+         "height" : -0.01120,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.37740,
+         "x" : 7.58350,
+         "y" : 0.0,
+         "z" : -1.86460
+      },
+      {
+         "heading" : 3.58520,
+         "height" : -0.00640,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.37740,
+         "x" : 6.70460,
+         "y" : -0.0,
+         "z" : -2.91440
+      },
+      {
+         "heading" : 3.58520,
+         "height" : -0.01420,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.37740,
+         "x" : 5.70360,
+         "y" : -0.0,
+         "z" : -1.57160
+      },
+      {
+         "heading" : 3.58520,
+         "height" : -0.01420,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.37740,
+         "x" : 7.07080,
+         "y" : -0.0,
+         "z" : -0.05790
+      },
+      {
+         "heading" : 3.58520,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.37740,
+         "x" : 6.73960,
+         "y" : -0.0,
+         "z" : 0.18970
+      },
+      {
+         "heading" : 5.26450,
+         "height" : -0.0110,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.37740,
+         "x" : 5.94250,
+         "y" : -0.0,
+         "z" : 0.51960
+      },
+      {
+         "heading" : 5.26450,
+         "height" : -0.008500000000000001,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.37740,
+         "x" : 4.380,
+         "y" : 0.0,
+         "z" : 0.81260
+      },
+      {
+         "heading" : 5.26450,
+         "height" : -0.01120,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.37740,
+         "x" : 3.76380,
+         "y" : -0.0,
+         "z" : 0.79680
+      },
+      {
+         "heading" : 5.26450,
+         "height" : -0.010,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.37740,
+         "x" : 4.43750,
+         "y" : 0.0,
+         "z" : 0.47440
+      },
+      {
+         "heading" : 5.26450,
+         "height" : -0.0110,
+         "name" : "Alien Tree 02 02",
+         "scaling" : 1.37740,
+         "x" : 7.0010,
+         "y" : 0.0,
+         "z" : -1.28340
+      },
+      {
+         "heading" : 5.26450,
+         "height" : -0.0030,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.37740,
+         "x" : 7.2940,
+         "y" : -0.0,
+         "z" : -1.42990
+      },
+      {
+         "heading" : 5.26450,
+         "height" : 0.30160,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.37740,
+         "x" : 7.0010,
+         "y" : 0.00010,
+         "z" : -3.33420
+      },
+      {
+         "heading" : 5.26450,
+         "height" : -0.01040,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.37740,
+         "x" : 8.710000000000001,
+         "y" : 0.0,
+         "z" : -3.99330
+      },
+      {
+         "heading" : 5.26450,
+         "height" : -0.01690,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.37740,
+         "x" : 2.97270,
+         "y" : 0.0,
+         "z" : 0.35240
+      },
+      {
+         "heading" : 6.30140,
+         "height" : 0.01210,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.37740,
+         "x" : 1.79210,
+         "y" : 0.0,
+         "z" : 0.5440
+      },
+      {
+         "heading" : 6.30140,
+         "height" : -0.00110,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.37740,
+         "x" : 2.90380,
+         "y" : 0.0,
+         "z" : 1.66840
+      },
+      {
+         "heading" : 6.30140,
+         "height" : -0.00460,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.37740,
+         "x" : 1.80410,
+         "y" : 0.0,
+         "z" : 2.48070
+      },
+      {
+         "heading" : 3.60210,
+         "height" : -0.0005999999999999999,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.37740,
+         "x" : 2.43470,
+         "y" : 0.0,
+         "z" : 2.4320
+      },
+      {
+         "heading" : 3.60210,
+         "height" : -0.00130,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.37740,
+         "x" : 2.75930,
+         "y" : 0.0,
+         "z" : 1.51390
+      },
+      {
+         "heading" : 6.30140,
+         "height" : 0.03170,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 0.99670,
+         "x" : 1.92290,
+         "y" : 0.00010,
+         "z" : -0.13590
+      },
+      {
+         "heading" : 6.30140,
+         "height" : -0.00450,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 0.99670,
+         "x" : 1.09280,
+         "y" : -0.0,
+         "z" : 3.160
+      },
+      {
+         "heading" : 3.60210,
+         "height" : -0.008999999999999999,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.37740,
+         "x" : 0.80610,
+         "y" : -0.0,
+         "z" : 3.24730
+      },
+      {
+         "heading" : 3.60210,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.37740,
+         "x" : -0.17010,
+         "y" : 0.0,
+         "z" : 3.11950
+      },
+      {
+         "heading" : 3.60210,
+         "height" : -0.00030,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.37740,
+         "x" : -0.71740,
+         "y" : 0.0,
+         "z" : 2.65240
+      },
+      {
+         "heading" : 4.01910,
+         "height" : -0.01420,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.37740,
+         "x" : -0.95020,
+         "y" : -0.0,
+         "z" : 2.54660
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.00210,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.37740,
+         "x" : -1.54640,
+         "y" : 0.0,
+         "z" : 2.79190
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.00310,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.37740,
+         "x" : -1.75440,
+         "y" : 0.0,
+         "z" : 2.88850
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.01120,
+         "name" : "Alien Tree 02 01",
+         "scaling" : 1.37740,
+         "x" : -2.39840,
+         "y" : -0.0,
+         "z" : 3.03790
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.00690,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.37740,
+         "x" : -2.74640,
+         "y" : 0.0,
+         "z" : 2.78030
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.00290,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.37740,
+         "x" : -2.0140,
+         "y" : -0.0,
+         "z" : 0.94920
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.01030,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.37740,
+         "x" : -2.07180,
+         "y" : -0.0,
+         "z" : 0.71560
+      },
+      {
+         "heading" : 5.78860,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.37740,
+         "x" : -3.10640,
+         "y" : -0.0,
+         "z" : 0.7430
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.01450,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.37740,
+         "x" : -3.44820,
+         "y" : -0.0,
+         "z" : 1.35330
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.00070,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 1.37740,
+         "x" : -4.40040,
+         "y" : 0.0,
+         "z" : 3.06230
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.00320,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.37740,
+         "x" : -4.1470,
+         "y" : 0.0,
+         "z" : 3.0350
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.01320,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.37740,
+         "x" : -5.1390,
+         "y" : -0.0,
+         "z" : 2.5850
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.00290,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.37740,
+         "x" : -5.67610,
+         "y" : 0.0,
+         "z" : 2.46290
+      },
+      {
+         "heading" : 5.78860,
+         "height" : -0.01890,
+         "name" : "Alien Tree 01 05",
+         "scaling" : 1.37740,
+         "x" : -5.92920,
+         "y" : 0.0,
+         "z" : 2.64430
+      },
+      {
+         "heading" : -7.21740,
+         "height" : -0.00540,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.4610,
+         "x" : -6.4170,
+         "y" : -0.0,
+         "z" : 2.91180
+      },
+      {
+         "heading" : -7.21740,
+         "height" : -0.00020,
+         "name" : "Alien Tree 01 03",
+         "scaling" : 1.4610,
+         "x" : -7.14580,
+         "y" : -0.0,
+         "z" : 3.13640
+      },
+      {
+         "heading" : -7.21740,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.11740,
+         "x" : -6.77560,
+         "y" : -0.0,
+         "z" : 3.02940
+      },
+      {
+         "heading" : -7.21740,
+         "height" : -0.00750,
+         "name" : "Alien Tree 01 02",
+         "scaling" : 1.11740,
+         "x" : -7.58130,
+         "y" : 0.0,
+         "z" : 2.73650
+      },
+      {
+         "heading" : -7.21740,
+         "height" : -0.02120,
+         "name" : "Alien Tree 01 01",
+         "scaling" : 1.11740,
+         "x" : -7.62870,
+         "y" : -0.0,
+         "z" : 2.09860
+      },
+      {
+         "heading" : -8.355700000000001,
+         "height" : -0.0005999999999999999,
+         "name" : "Alien Tree 01 04",
+         "scaling" : 1.11740,
+         "x" : -7.38160,
+         "y" : -0.0,
+         "z" : 1.86670
+      },
+      {
+         "heading" : -8.355700000000001,
+         "height" : -0.00540,
+         "name" : "Alien Tree 02 03",
+         "scaling" : 0.91260,
+         "x" : -7.25680,
+         "y" : -0.0,
+         "z" : 1.71960
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.0,
+         "x" : 8.46580,
+         "y" : 0.0,
+         "z" : -3.89570
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00130,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 8.36820,
+         "y" : -0.0,
+         "z" : -3.60270
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00730,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 8.148400000000001,
+         "y" : -0.0,
+         "z" : -3.13880
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00220,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 8.002000000000001,
+         "y" : 0.0,
+         "z" : -3.11440
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00260,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 8.685600000000001,
+         "y" : 0.00010,
+         "z" : -4.0910
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00490,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.0,
+         "x" : 8.636699999999999,
+         "y" : -0.0,
+         "z" : -3.96890
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09859999999999999,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.0,
+         "x" : 7.87990,
+         "y" : 0.0,
+         "z" : -4.43280
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00150,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 7.83110,
+         "y" : -0.0,
+         "z" : -4.21310
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.03550,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 7.78220,
+         "y" : 0.0,
+         "z" : -4.31070
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00010,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 7.85550,
+         "y" : -0.0,
+         "z" : -4.04220
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0010,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 8.389799999999999,
+         "y" : 0.0210,
+         "z" : -3.7130
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 8.356299999999999,
+         "y" : 0.01360,
+         "z" : -4.44810
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.0,
+         "x" : 8.28120,
+         "y" : 0.00050,
+         "z" : -3.39620
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.0,
+         "x" : 7.98220,
+         "y" : 0.00740,
+         "z" : -2.8420
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Alien Grass 01 05",
+         "scaling" : 1.0,
+         "x" : 8.00310,
+         "y" : -0.00570,
+         "z" : -2.95950
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 05",
+         "scaling" : 1.0,
+         "x" : 7.70540,
+         "y" : 0.02460,
+         "z" : -4.19410
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 05",
+         "scaling" : 1.0,
+         "x" : 7.05890,
+         "y" : -0.03330,
+         "z" : -3.30350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 7.04020,
+         "y" : 0.01570,
+         "z" : -3.17580
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 6.92720,
+         "y" : -0.0005999999999999999,
+         "z" : -3.16730
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 7.82250,
+         "y" : 0.01270,
+         "z" : -2.55260
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.0,
+         "x" : 7.7460,
+         "y" : 0.00180,
+         "z" : -2.44160
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00010,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 7.8730,
+         "y" : 0.0310,
+         "z" : -2.68170
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.82320,
+         "x" : 7.73040,
+         "y" : 0.02150,
+         "z" : -2.60460
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.82320,
+         "x" : 7.63490,
+         "y" : 0.02690,
+         "z" : -1.96640
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.9177999999999999,
+         "x" : 7.49230,
+         "y" : 0.0,
+         "z" : -1.81140
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.9177999999999999,
+         "x" : 7.5720,
+         "y" : 0.0150,
+         "z" : -1.95640
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.9177999999999999,
+         "x" : 7.61080,
+         "y" : 0.00190,
+         "z" : -1.76960
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.9177999999999999,
+         "x" : 7.29150,
+         "y" : 0.00220,
+         "z" : -1.43820
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00150,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.9177999999999999,
+         "x" : 7.36230,
+         "y" : 0.00030,
+         "z" : -1.52270
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.9177999999999999,
+         "x" : 7.29390,
+         "y" : 0.0,
+         "z" : -1.55660
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.9177999999999999,
+         "x" : 6.99670,
+         "y" : 0.01190,
+         "z" : -1.30290
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00170,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.78130,
+         "x" : 7.09760,
+         "y" : 0.01160,
+         "z" : -1.30080
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.78130,
+         "x" : 7.21240,
+         "y" : 0.00280,
+         "z" : -1.3330
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.26120,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 8.2590,
+         "y" : 0.26110,
+         "z" : -3.54730
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00150,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : 8.282500000000001,
+         "y" : -0.00150,
+         "z" : -3.5060
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00340,
+         "name" : "Alien Glowbulb Full 03",
+         "scaling" : 1.0,
+         "x" : 8.180199999999999,
+         "y" : 0.00050,
+         "z" : -3.32010
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 04",
+         "scaling" : 1.0,
+         "x" : 7.16330,
+         "y" : 0.00440,
+         "z" : -3.09670
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00150,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : 7.20570,
+         "y" : 0.01250,
+         "z" : -3.18350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.0,
+         "x" : 7.25510,
+         "y" : 0.00040,
+         "z" : -3.01780
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.26090,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 7.14330,
+         "y" : 0.2610,
+         "z" : -3.02520
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.23010,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 7.1490,
+         "y" : 0.23010,
+         "z" : -1.50860
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.28420,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 5.78790,
+         "y" : 0.29620,
+         "z" : -1.29310
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.27370,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 6.73980,
+         "y" : 0.27370,
+         "z" : -0.03220
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.27480,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 4.14490,
+         "y" : 0.28050,
+         "z" : -0.52890
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.29320,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 4.06350,
+         "y" : 0.29380,
+         "z" : 0.62730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.27690,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 2.25520,
+         "y" : 0.27740,
+         "z" : -0.15160
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.29460,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 2.52130,
+         "y" : 0.29460,
+         "z" : 2.07370
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.270,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 1.12220,
+         "y" : 0.27270,
+         "z" : 2.02550
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.38580,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : -0.03220,
+         "y" : 0.38580,
+         "z" : 2.91320
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.30840,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : -2.48390,
+         "y" : 0.30840,
+         "z" : 2.73860
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.38590,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : -2.28440,
+         "y" : 0.38590,
+         "z" : 0.75060
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.37240,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : -3.9370,
+         "y" : 0.37890,
+         "z" : 0.84050
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.38450,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : -3.79780,
+         "y" : 0.38450,
+         "z" : 2.66780
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.38450,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : -4.7350,
+         "y" : 0.38450,
+         "z" : 2.69290
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.37340,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 1.60
+         },
+         "scaling" : 1.0,
+         "x" : -7.31850,
+         "y" : 0.37340,
+         "z" : 2.42170
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 04",
+         "scaling" : 1.0,
+         "x" : 7.13770,
+         "y" : 0.0,
+         "z" : -1.47230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 03",
+         "scaling" : 1.0,
+         "x" : 7.00910,
+         "y" : 0.00010,
+         "z" : -1.44730
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.0,
+         "x" : 7.43190,
+         "y" : 0.00010,
+         "z" : -1.63470
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 0.9177999999999999,
+         "x" : 7.49840,
+         "y" : 0.00070,
+         "z" : -1.67750
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 0.9177999999999999,
+         "x" : 6.88860,
+         "y" : 0.01130,
+         "z" : -1.38570
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 7.30640,
+         "y" : 0.00050,
+         "z" : -3.11560
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 5.82430,
+         "y" : 0.00170,
+         "z" : -1.64550
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.0,
+         "x" : 5.7690,
+         "y" : 0.008500000000000001,
+         "z" : -1.20720
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 5.81560,
+         "y" : 0.00970,
+         "z" : -1.25760
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : 5.79990,
+         "y" : 0.0,
+         "z" : -1.49040
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0030,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.0,
+         "x" : 5.85180,
+         "y" : -0.00310,
+         "z" : -1.38390
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Empty 04",
+         "scaling" : 1.0,
+         "x" : 5.97720,
+         "y" : 0.00560,
+         "z" : -1.75110
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Empty 04",
+         "scaling" : 1.0,
+         "x" : 6.43050,
+         "y" : 0.0070,
+         "z" : -2.04450
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Empty 04",
+         "scaling" : 1.0,
+         "x" : 7.67340,
+         "y" : 0.00150,
+         "z" : -2.12450
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Empty 04",
+         "scaling" : 1.0,
+         "x" : 8.54590,
+         "y" : 0.0,
+         "z" : -3.98280
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Empty 03",
+         "scaling" : 1.0,
+         "x" : 7.97660,
+         "y" : 0.01610,
+         "z" : -4.28810
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Alien Glowbulb Empty 03",
+         "scaling" : 1.0,
+         "x" : 7.12730,
+         "y" : 0.00670,
+         "z" : -3.38630
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Empty 03",
+         "scaling" : 1.0,
+         "x" : 6.6090,
+         "y" : 0.00040,
+         "z" : 0.23830
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.0,
+         "x" : 6.94280,
+         "y" : 0.00260,
+         "z" : -0.11150
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : 6.68130,
+         "y" : 0.0,
+         "z" : 0.0890
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 6.99370,
+         "y" : 0.00140,
+         "z" : 0.03960
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 6.48170,
+         "y" : 0.00510,
+         "z" : 0.26970
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 6.88960,
+         "y" : 0.00110,
+         "z" : -0.16470
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 6.81880,
+         "y" : 0.0,
+         "z" : 0.23250
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.0,
+         "x" : 6.77660,
+         "y" : 0.0,
+         "z" : 0.08590
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 6.87450,
+         "y" : 0.00010,
+         "z" : -0.40990
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.0,
+         "x" : 6.93450,
+         "y" : 0.01820,
+         "z" : -0.29170
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.0,
+         "x" : 6.37690,
+         "y" : 0.020,
+         "z" : 0.31730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 03",
+         "scaling" : 1.0,
+         "x" : 6.72390,
+         "y" : 0.00020,
+         "z" : 0.340
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 6.01140,
+         "y" : 0.01080,
+         "z" : 0.49240
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 5.8390,
+         "y" : 0.00690,
+         "z" : 0.57160
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.83740,
+         "x" : 5.75280,
+         "y" : 0.00730,
+         "z" : 0.47570
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.0,
+         "x" : 6.14470,
+         "y" : 0.02620,
+         "z" : 0.45110
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.0,
+         "x" : 5.8880,
+         "y" : 0.0,
+         "z" : 0.42620
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.0,
+         "x" : 6.29190,
+         "y" : 0.01190,
+         "z" : 0.27670
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.0,
+         "x" : 5.88630,
+         "y" : 0.00120,
+         "z" : -0.73370
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.0,
+         "x" : 7.33980,
+         "y" : 0.0,
+         "z" : -1.69340
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.0,
+         "x" : 6.09080,
+         "y" : 0.00510,
+         "z" : -1.82090
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.0,
+         "x" : 6.25820,
+         "y" : 0.00370,
+         "z" : -1.97070
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.0,
+         "x" : 7.6410,
+         "y" : -0.00010,
+         "z" : -2.48940
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.0,
+         "x" : 7.85940,
+         "y" : -0.00010,
+         "z" : -3.02050
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.0,
+         "x" : 8.355399999999999,
+         "y" : 0.00110,
+         "z" : -3.82040
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.0,
+         "x" : 8.50630,
+         "y" : 0.00140,
+         "z" : -4.40080
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0005999999999999999,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.0,
+         "x" : 8.60060,
+         "y" : -0.0,
+         "z" : -4.18350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.0,
+         "x" : 8.063000000000001,
+         "y" : 0.0370,
+         "z" : -4.46430
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.0,
+         "x" : 7.29830,
+         "y" : 0.01220,
+         "z" : -3.53820
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.0,
+         "x" : 5.16910,
+         "y" : 0.00120,
+         "z" : 0.47910
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.0,
+         "x" : 5.42680,
+         "y" : 0.0,
+         "z" : 0.32640
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 5.31280,
+         "y" : 0.0,
+         "z" : 0.36890
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 4.95010,
+         "y" : 0.0,
+         "z" : 0.23180
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 4.3650,
+         "y" : -0.00040,
+         "z" : -0.71210
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : 3.95320,
+         "y" : 0.00940,
+         "z" : -0.5010
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 4.12810,
+         "y" : 0.02230,
+         "z" : -0.64540
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.05270,
+         "x" : 4.50750,
+         "y" : -0.00090,
+         "z" : -0.70350
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.05270,
+         "x" : 4.05670,
+         "y" : 0.0,
+         "z" : -0.48360
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.05270,
+         "x" : 3.78350,
+         "y" : 0.00150,
+         "z" : -0.20450
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 04",
+         "scaling" : 1.05270,
+         "x" : 4.32190,
+         "y" : 0.00680,
+         "z" : 0.6395999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 04",
+         "scaling" : 1.05270,
+         "x" : 3.83380,
+         "y" : 0.01190,
+         "z" : -0.38540
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 03",
+         "scaling" : 1.0,
+         "x" : 4.24540,
+         "y" : 0.01550,
+         "z" : -0.61380
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : 4.41620,
+         "y" : 0.00130,
+         "z" : -0.56520
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.0,
+         "x" : 4.01480,
+         "y" : 0.0,
+         "z" : -0.36360
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 04",
+         "scaling" : 1.0,
+         "x" : 4.19630,
+         "y" : 0.0,
+         "z" : 0.69270
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : 3.89680,
+         "y" : 0.00070,
+         "z" : 0.82770
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 05",
+         "scaling" : 1.05270,
+         "x" : 4.44890,
+         "y" : 0.00560,
+         "z" : 0.33670
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 4.09930,
+         "y" : 0.0,
+         "z" : 0.86790
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 4.28070,
+         "y" : 0.0,
+         "z" : 0.87890
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : 3.95270,
+         "y" : 0.00310,
+         "z" : 0.89120
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 3.8080,
+         "y" : 0.01850,
+         "z" : 0.7151999999999999
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : 4.19240,
+         "y" : 0.0,
+         "z" : 0.62690
+      },
+      {
+         "heading" : 1.3090,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : 2.34780,
+         "y" : 0.00230,
+         "z" : -0.21430
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.0,
+         "x" : 2.45840,
+         "y" : 0.008500000000000001,
+         "z" : -0.23080
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 03",
+         "scaling" : 1.0,
+         "x" : 2.00580,
+         "y" : 0.00520,
+         "z" : -0.02080
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 2.57370,
+         "y" : 0.01020,
+         "z" : -0.20270
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 2.03840,
+         "y" : 0.0,
+         "z" : 0.12810
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 2.44060,
+         "y" : 0.01330,
+         "z" : -0.3120
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 1.92150,
+         "y" : 0.00470,
+         "z" : -0.06820
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 2.08210,
+         "y" : 0.01560,
+         "z" : -0.17050
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : 2.3890,
+         "y" : 0.00140,
+         "z" : -0.15560
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02710,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : 2.29260,
+         "y" : -0.02510,
+         "z" : -0.24380
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.05270,
+         "x" : 2.20720,
+         "y" : 0.00590,
+         "z" : -0.16290
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.38760,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.90,
+            "col_green" : 1.20,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : -1.29440,
+         "y" : 0.38690,
+         "z" : 1.74910
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 2.51680,
+         "y" : 0.0,
+         "z" : 2.36480
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.05270,
+         "x" : 2.33980,
+         "y" : 0.00390,
+         "z" : 2.38870
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.05270,
+         "x" : 2.74940,
+         "y" : 0.0,
+         "z" : 2.00840
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 2.71670,
+         "y" : 0.00860,
+         "z" : 2.20790
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 2.720,
+         "y" : 0.00330,
+         "z" : 1.63840
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 2.70530,
+         "y" : 0.00110,
+         "z" : 1.36110
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 2.41270,
+         "y" : 0.0,
+         "z" : 2.27520
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 1.90610,
+         "y" : -0.00040,
+         "z" : 2.38690
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 2.13690,
+         "y" : 0.00030,
+         "z" : 2.29330
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 2.62740,
+         "y" : 0.0005999999999999999,
+         "z" : 1.7850
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.05270,
+         "x" : 4.34490,
+         "y" : 0.00140,
+         "z" : 0.46850
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.05270,
+         "x" : 3.63840,
+         "y" : 0.00260,
+         "z" : 0.6516999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.05270,
+         "x" : 2.72480,
+         "y" : 0.0030,
+         "z" : -0.18750
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.05270,
+         "x" : 1.91330,
+         "y" : 0.008999999999999999,
+         "z" : 0.47130
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.05270,
+         "x" : 1.85990,
+         "y" : -0.01670,
+         "z" : 0.66520
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.05270,
+         "x" : 2.61350,
+         "y" : -0.00260,
+         "z" : 0.85510
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.270,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.05270,
+         "x" : 2.86350,
+         "y" : -0.00250,
+         "z" : 0.85510
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.05270,
+         "x" : 2.74590,
+         "y" : 0.00130,
+         "z" : 0.42040
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.05270,
+         "x" : 2.01710,
+         "y" : -0.00010,
+         "z" : 2.18860
+      },
+      {
+         "heading" : 1.3090,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.0,
+         "x" : 2.57260,
+         "y" : 0.008500000000000001,
+         "z" : 2.2320
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : 2.61630,
+         "y" : 0.0,
+         "z" : 2.09250
+      },
+      {
+         "heading" : 1.3090,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 04",
+         "scaling" : 1.0,
+         "x" : 2.27480,
+         "y" : 0.0,
+         "z" : 2.21160
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.06220,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : 8.289999999999999,
+         "y" : 0.06230,
+         "z" : -3.4230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.07829999999999999,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : 7.14640,
+         "y" : 0.08560,
+         "z" : -3.11160
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09250,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : 7.16840,
+         "y" : 0.09250,
+         "z" : -1.5490
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09240,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : 5.86220,
+         "y" : 0.09240,
+         "z" : -1.43520
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12540,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : 6.62160,
+         "y" : 0.12540,
+         "z" : 0.06690
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.1110,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : 4.29530,
+         "y" : 0.12540,
+         "z" : -0.5328000000000001
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12560,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : 4.02210,
+         "y" : 0.12560,
+         "z" : 0.77620
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.11610,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : 2.27280,
+         "y" : 0.11610,
+         "z" : -0.0580
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.11530,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : 2.45930,
+         "y" : 0.11530,
+         "z" : 2.18510
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : 1.20520,
+         "y" : -0.00030,
+         "z" : 1.86650
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 03",
+         "scaling" : 1.0,
+         "x" : 1.09380,
+         "y" : 0.007900000000000001,
+         "z" : 2.00130
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 1.3310,
+         "y" : 0.00620,
+         "z" : 1.82470
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 1.10540,
+         "y" : 0.00160,
+         "z" : 1.85240
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : 1.20960,
+         "y" : 0.00020,
+         "z" : 1.96860
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : 1.00320,
+         "y" : 0.0060,
+         "z" : 1.99480
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 0.7939000000000001,
+         "x" : 1.44890,
+         "y" : 0.00150,
+         "z" : 1.86650
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 0.7939000000000001,
+         "x" : 1.27360,
+         "y" : 0.0,
+         "z" : 1.95250
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 0.7939000000000001,
+         "x" : 0.8720,
+         "y" : 0.01380,
+         "z" : 2.1450
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.11510,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : 1.16520,
+         "y" : 0.11740,
+         "z" : 1.9680
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 0.00330,
+         "y" : 0.0,
+         "z" : 3.1650
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -0.10010,
+         "y" : 0.00120,
+         "z" : 3.24110
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : -0.19950,
+         "y" : 0.01060,
+         "z" : 3.02010
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.05270,
+         "x" : 0.26950,
+         "y" : 0.00490,
+         "z" : 3.15080
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.05270,
+         "x" : 1.09720,
+         "y" : 0.00590,
+         "z" : 3.07150
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00250,
+         "name" : "Alien Grass 01 05",
+         "scaling" : 1.05270,
+         "x" : 0.71590,
+         "y" : 0.00420,
+         "z" : 3.22550
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 0.85870,
+         "y" : 0.00150,
+         "z" : 3.19670
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 1.11920,
+         "y" : 0.00350,
+         "z" : 2.95910
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 0.99760,
+         "y" : 0.01090,
+         "z" : 3.2030
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 0.1270,
+         "y" : 0.00090,
+         "z" : 3.11710
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -0.14750,
+         "y" : 0.00020,
+         "z" : 3.09290
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : -0.07820000000000001,
+         "y" : 0.00010,
+         "z" : 3.05440
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.0,
+         "x" : 0.03490,
+         "y" : 0.0,
+         "z" : 3.05450
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.11590,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -0.00270,
+         "y" : 0.11590,
+         "z" : 3.04110
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : -1.31840,
+         "y" : -0.00020,
+         "z" : 1.75770
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 04",
+         "scaling" : 1.0,
+         "x" : -1.19340,
+         "y" : -0.0030,
+         "z" : 1.67760
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 0.70540,
+         "x" : -1.05390,
+         "y" : 0.01350,
+         "z" : 1.74290
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : -1.13010,
+         "y" : 0.00170,
+         "z" : 1.80990
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -1.40730,
+         "y" : 0.00720,
+         "z" : 1.77090
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -1.28010,
+         "y" : 0.00010,
+         "z" : 1.82350
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 0.70150,
+         "x" : -0.96910,
+         "y" : 0.00760,
+         "z" : 1.79580
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 0.70150,
+         "x" : -1.52980,
+         "y" : -0.00020,
+         "z" : 1.84580
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 0.70150,
+         "x" : -1.37310,
+         "y" : 0.01230,
+         "z" : 1.91930
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.11590,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -1.1590,
+         "y" : 0.11590,
+         "z" : 1.8760
+      },
+      {
+         "heading" : 1.3090,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 03",
+         "scaling" : 1.0,
+         "x" : -2.56130,
+         "y" : 0.00490,
+         "z" : 2.92590
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : -2.43140,
+         "y" : 0.00120,
+         "z" : 2.94730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -2.33150,
+         "y" : 0.0040,
+         "z" : 2.98760
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -2.68830,
+         "y" : 0.00920,
+         "z" : 2.89280
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -2.64360,
+         "y" : 0.00090,
+         "z" : 2.81090
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : -2.26150,
+         "y" : 0.0060,
+         "z" : 2.95310
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.05270,
+         "x" : -2.15540,
+         "y" : 0.01850,
+         "z" : 2.99840
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.05270,
+         "x" : -2.7290,
+         "y" : 0.00690,
+         "z" : 2.7550
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.05270,
+         "x" : -2.50980,
+         "y" : 0.0,
+         "z" : 2.80350
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01850,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.05270,
+         "x" : -2.4980,
+         "y" : -0.00330,
+         "z" : 3.04940
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.11590,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -2.37690,
+         "y" : 0.11590,
+         "z" : 2.83580
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : -0.59840,
+         "y" : 0.0,
+         "z" : 2.68480
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.05270,
+         "x" : -0.8380,
+         "y" : 0.01040,
+         "z" : 2.59940
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -0.64230,
+         "y" : 0.00210,
+         "z" : 2.76340
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -1.00840,
+         "y" : 0.00340,
+         "z" : 2.48960
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -0.89030,
+         "y" : 0.009299999999999999,
+         "z" : 2.50510
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : -0.7645999999999999,
+         "y" : 0.01670,
+         "z" : 2.55060
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -0.63750,
+         "y" : 0.0080,
+         "z" : 2.55750
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 1.72310,
+         "y" : 0.02320,
+         "z" : 2.520
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : 1.78250,
+         "y" : 0.00070,
+         "z" : 2.40080
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : 2.97440,
+         "y" : 0.01350,
+         "z" : 0.33990
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.0,
+         "x" : 5.69550,
+         "y" : 0.00980,
+         "z" : -1.40060
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.0,
+         "x" : 5.63520,
+         "y" : 0.04890,
+         "z" : -1.56520
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.0,
+         "x" : 5.72480,
+         "y" : 0.02590,
+         "z" : -1.69370
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.0,
+         "x" : 6.77740,
+         "y" : 0.01070,
+         "z" : -3.00240
+      },
+      {
+         "heading" : 1.3090,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 03",
+         "scaling" : 1.0,
+         "x" : -2.20240,
+         "y" : 0.009900000000000001,
+         "z" : 0.63530
+      },
+      {
+         "heading" : 1.3090,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : -2.1350,
+         "y" : 0.00020,
+         "z" : 0.82250
+      },
+      {
+         "heading" : 1.3090,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.0,
+         "x" : -2.28130,
+         "y" : 0.01280,
+         "z" : 0.52120
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.05270,
+         "x" : -2.10160,
+         "y" : 0.0,
+         "z" : 0.8710
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 1.05270,
+         "x" : -2.3890,
+         "y" : 0.009900000000000001,
+         "z" : 0.4640
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.05270,
+         "x" : -2.04050,
+         "y" : 0.00490,
+         "z" : 0.64170
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -2.12250,
+         "y" : 0.0,
+         "z" : 0.99080
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -2.30880,
+         "y" : 0.00070,
+         "z" : 0.6326000000000001
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : -2.25440,
+         "y" : 0.0,
+         "z" : 0.82770
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -2.54960,
+         "y" : -0.01450,
+         "z" : 0.26210
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -3.03230,
+         "y" : 0.00450,
+         "z" : 0.75210
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 1.05270,
+         "x" : -3.16840,
+         "y" : 0.00070,
+         "z" : 0.79210
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.05270,
+         "x" : -3.1360,
+         "y" : -0.0,
+         "z" : 0.68170
+      },
+      {
+         "heading" : 1.3090,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.0,
+         "x" : -3.98590,
+         "y" : 0.01080,
+         "z" : 0.75540
+      },
+      {
+         "heading" : 1.3090,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.0,
+         "x" : -4.06260,
+         "y" : 0.01170,
+         "z" : 0.83980
+      },
+      {
+         "heading" : 2.79250,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 0.95220,
+         "x" : -4.06890,
+         "y" : 0.0040,
+         "z" : 0.76490
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.05270,
+         "x" : -3.87180,
+         "y" : 0.00380,
+         "z" : 0.67730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.05270,
+         "x" : -3.95430,
+         "y" : 0.00370,
+         "z" : 0.87440
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -4.03820,
+         "y" : -0.01440,
+         "z" : 0.69960
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -4.10530,
+         "y" : 0.00140,
+         "z" : 0.98490
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.11090,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -2.31530,
+         "y" : 0.11110,
+         "z" : 0.69340
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.10650,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -3.95290,
+         "y" : 0.11480,
+         "z" : 0.8430
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 01",
+         "scaling" : 1.05270,
+         "x" : -3.77230,
+         "y" : 0.00140,
+         "z" : 2.87140
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 1.05270,
+         "x" : -4.02580,
+         "y" : 0.01240,
+         "z" : 2.98850
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 04",
+         "scaling" : 1.05270,
+         "x" : -4.49150,
+         "y" : 0.0,
+         "z" : 2.98450
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.05270,
+         "x" : -4.27280,
+         "y" : 0.0,
+         "z" : 3.04970
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -4.20,
+         "y" : 0.0,
+         "z" : 2.97440
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -3.51550,
+         "y" : 0.01460,
+         "z" : 2.69710
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -3.59130,
+         "y" : 0.00630,
+         "z" : 2.81660
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -3.85540,
+         "y" : 0.01250,
+         "z" : 2.95020
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00010,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -4.60730,
+         "y" : 0.00760,
+         "z" : 2.99690
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -3.84570,
+         "y" : 0.01170,
+         "z" : 2.34360
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.05270,
+         "x" : -3.68360,
+         "y" : 0.0,
+         "z" : 2.79710
+      },
+      {
+         "heading" : 1.48350,
+         "height" : -0.00310,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.05270,
+         "x" : -3.7620,
+         "y" : 0.02060,
+         "z" : 2.4520
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.11480,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -3.82560,
+         "y" : 0.11480,
+         "z" : 2.73720
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.11480,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -4.3460,
+         "y" : 0.11480,
+         "z" : 3.00040
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01190,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.05270,
+         "x" : -4.7150,
+         "y" : 0.0,
+         "z" : 2.93660
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 03",
+         "scaling" : 0.8840,
+         "x" : -4.80360,
+         "y" : 0.01130,
+         "z" : 2.83720
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.05270,
+         "x" : -4.89430,
+         "y" : 0.00130,
+         "z" : 2.73490
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -4.78210,
+         "y" : 0.009299999999999999,
+         "z" : 2.98910
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -4.99580,
+         "y" : 0.009299999999999999,
+         "z" : 2.70580
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -5.07510,
+         "y" : 0.01040,
+         "z" : 2.68060
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.76740,
+         "x" : -4.71060,
+         "y" : 0.00270,
+         "z" : 2.80230
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.76740,
+         "x" : -4.60850,
+         "y" : 0.0,
+         "z" : 2.92080
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.1140,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -4.76820,
+         "y" : 0.11670,
+         "z" : 2.78170
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.76740,
+         "x" : -4.39730,
+         "y" : 0.00350,
+         "z" : 2.17160
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00010,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.76740,
+         "x" : -4.32020,
+         "y" : -0.00640,
+         "z" : 2.12610
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.76740,
+         "x" : -4.5090,
+         "y" : 0.00760,
+         "z" : 2.21940
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.76740,
+         "x" : -4.46340,
+         "y" : 0.00020,
+         "z" : 2.28770
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 0.71740,
+         "x" : -4.2550,
+         "y" : 0.00030,
+         "z" : 2.02820
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 0.71740,
+         "x" : -4.60720,
+         "y" : 0.00210,
+         "z" : 2.3010
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01520,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 1.05270,
+         "x" : -3.44670,
+         "y" : -0.00310,
+         "z" : 1.32430
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.82160,
+         "x" : -3.50510,
+         "y" : 0.02260,
+         "z" : 1.46840
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00150,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.82160,
+         "x" : -3.50580,
+         "y" : 0.0130,
+         "z" : 1.22670
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.76740,
+         "x" : -5.08490,
+         "y" : 0.00160,
+         "z" : 2.50630
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.76740,
+         "x" : -5.18380,
+         "y" : 0.00550,
+         "z" : 2.49860
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 04",
+         "scaling" : 1.05270,
+         "x" : -5.76970,
+         "y" : 0.00210,
+         "z" : 2.50720
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -5.59910,
+         "y" : 0.00340,
+         "z" : 2.44320
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 1.05270,
+         "x" : -6.00550,
+         "y" : 0.02020,
+         "z" : 2.65720
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.78830,
+         "x" : -5.90170,
+         "y" : 0.00730,
+         "z" : 2.51740
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.78830,
+         "x" : -6.34890,
+         "y" : 0.00770,
+         "z" : 2.82460
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.91830,
+         "x" : -6.45290,
+         "y" : 0.00080,
+         "z" : 2.8460
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.91830,
+         "x" : -6.50370,
+         "y" : 0.00590,
+         "z" : 2.99270
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.91830,
+         "x" : -7.20040,
+         "y" : 0.0,
+         "z" : 3.04790
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.91830,
+         "x" : -7.06090,
+         "y" : 0.0,
+         "z" : 3.14740
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.91830,
+         "x" : -7.23160,
+         "y" : 0.00090,
+         "z" : 3.12150
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.91830,
+         "x" : -6.87570,
+         "y" : 0.0,
+         "z" : 3.09230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.91830,
+         "x" : -7.53140,
+         "y" : 0.00070,
+         "z" : 2.8090
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.91830,
+         "x" : -7.48690,
+         "y" : -0.00010,
+         "z" : 2.70690
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.91830,
+         "x" : -7.57350,
+         "y" : 0.00170,
+         "z" : 2.67240
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02060,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.78830,
+         "x" : -7.24960,
+         "y" : -0.01540,
+         "z" : 1.70430
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0040,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.78830,
+         "x" : -7.3810,
+         "y" : 0.00530,
+         "z" : 1.86090
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09940,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -6.4890,
+         "y" : 0.09940,
+         "z" : 2.85560
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09940,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -6.91830,
+         "y" : 0.09940,
+         "z" : 3.08920
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09830,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -7.25630,
+         "y" : 0.09830,
+         "z" : 3.05820
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09810000000000001,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -7.51130,
+         "y" : 0.09820,
+         "z" : 2.69920
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09140,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -7.29380,
+         "y" : 0.09830,
+         "z" : 1.82830
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.10180,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "vfxParams" : {
+            "vfx" : "blueflies"
+         },
+         "x" : -7.5820,
+         "y" : 0.09540,
+         "z" : 2.31860
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.05270,
+         "x" : -7.41610,
+         "y" : 0.00430,
+         "z" : 2.88950
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 03",
+         "scaling" : 1.05270,
+         "x" : -7.54550,
+         "y" : -0.00270,
+         "z" : 2.38820
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.05270,
+         "x" : -6.55760,
+         "y" : -0.0,
+         "z" : 2.88870
+      },
+      {
+         "heading" : 1.74530,
+         "height" : 0.00690,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.05270,
+         "x" : -7.35550,
+         "y" : 0.0070,
+         "z" : 3.07090
+      },
+      {
+         "heading" : 1.74530,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.05270,
+         "x" : -7.5310,
+         "y" : -0.00070,
+         "z" : 2.60
+      },
+      {
+         "heading" : 1.74530,
+         "height" : -0.0,
+         "name" : "Alien Glowbulb Full 02",
+         "scaling" : 1.05270,
+         "x" : -7.01530,
+         "y" : -0.0070,
+         "z" : 1.75240
+      },
+      {
+         "heading" : 1.74530,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 04",
+         "scaling" : 1.05270,
+         "x" : -6.82270,
+         "y" : -0.01140,
+         "z" : 1.6330
+      },
+      {
+         "heading" : 0.26180,
+         "height" : 0.0,
+         "name" : "Alien Glowbulb Full 01",
+         "scaling" : 1.05270,
+         "x" : -6.56050,
+         "y" : 0.00640,
+         "z" : 1.79060
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 02",
+         "scaling" : 0.91830,
+         "x" : -6.64220,
+         "y" : 0.008699999999999999,
+         "z" : 1.74020
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.91830,
+         "x" : -6.50170,
+         "y" : 0.01230,
+         "z" : 1.83820
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 01",
+         "scaling" : 0.91830,
+         "x" : -6.91880,
+         "y" : 0.00380,
+         "z" : 1.73750
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.91830,
+         "x" : -6.80610,
+         "y" : 0.00010,
+         "z" : 1.79220
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.91830,
+         "x" : -7.09490,
+         "y" : 0.00670,
+         "z" : 1.75490
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.008200000000000001,
+         "name" : "Alien Grass 01 03",
+         "scaling" : 0.91830,
+         "x" : -7.02060,
+         "y" : 0.00780,
+         "z" : 1.8380
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00190,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 0.7250,
+         "x" : -7.27780,
+         "y" : 0.00310,
+         "z" : 1.85690
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 02",
+         "scaling" : 0.7250,
+         "x" : -6.42580,
+         "y" : 0.00660,
+         "z" : 1.96950
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00210,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 0.7250,
+         "x" : -6.73690,
+         "y" : -0.00210,
+         "z" : 1.860
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 0.7250,
+         "x" : -7.41490,
+         "y" : 0.0,
+         "z" : 2.68740
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 0.7250,
+         "x" : -6.26080,
+         "y" : 0.0110,
+         "z" : 2.81130
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 0.7250,
+         "x" : -6.5830,
+         "y" : 0.00390,
+         "z" : 3.1020
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Alien Grass 02 03",
+         "scaling" : 0.7250,
+         "x" : -7.41880,
+         "y" : 0.008699999999999999,
+         "z" : 3.00550
+      },
+      {
+         "heading" : -0.9580,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : -2.45780,
+         "y" : -0.0,
+         "z" : 0.7544999999999999
+      },
+      {
+         "heading" : -2.23150,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : -2.69560,
+         "y" : 0.00520,
+         "z" : 1.01220
+      },
+      {
+         "heading" : -1.21160,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : -2.23960,
+         "y" : 0.00510,
+         "z" : 2.90050
+      },
+      {
+         "heading" : -1.21160,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : -2.49820,
+         "y" : -0.0,
+         "z" : 2.81940
+      },
+      {
+         "heading" : -1.21160,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : -0.01770,
+         "y" : -0.0,
+         "z" : 3.08530
+      },
+      {
+         "heading" : -1.21160,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 0.18580,
+         "y" : -0.0,
+         "z" : 2.96160
+      },
+      {
+         "heading" : -2.11880,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 0.42870,
+         "y" : -0.0,
+         "z" : 2.65360
+      },
+      {
+         "heading" : -1.15520,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 0.71560,
+         "y" : -0.0,
+         "z" : 2.36680
+      },
+      {
+         "heading" : -1.15520,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 0.9860,
+         "y" : 0.00270,
+         "z" : 2.15850
+      },
+      {
+         "heading" : -1.15520,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 1.19740,
+         "y" : 0.0,
+         "z" : 2.02170
+      },
+      {
+         "heading" : -1.15520,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 2.27320,
+         "y" : 0.00030,
+         "z" : 2.26920
+      },
+      {
+         "heading" : -1.15520,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 2.61950,
+         "y" : 0.00070,
+         "z" : 2.14110
+      },
+      {
+         "heading" : -1.15520,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 2.33040,
+         "y" : 0.0,
+         "z" : 2.09470
+      },
+      {
+         "heading" : -2.35550,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 2.52860,
+         "y" : 0.00030,
+         "z" : 1.80450
+      },
+      {
+         "heading" : -2.35550,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 3.83660,
+         "y" : 0.01690,
+         "z" : 0.67770
+      },
+      {
+         "heading" : -2.35550,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 4.1760,
+         "y" : -0.0,
+         "z" : 0.70450
+      },
+      {
+         "heading" : -3.5670,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 4.04360,
+         "y" : -0.0,
+         "z" : 0.5180
+      },
+      {
+         "heading" : -2.85140,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 3.76960,
+         "y" : -0.0,
+         "z" : 0.27020
+      },
+      {
+         "heading" : -2.17520,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 4.01160,
+         "y" : -0.0,
+         "z" : -0.13880
+      },
+      {
+         "heading" : -2.17520,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 4.37330,
+         "y" : 0.00480,
+         "z" : -0.56790
+      },
+      {
+         "heading" : -2.17520,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 4.14570,
+         "y" : -0.0,
+         "z" : -0.39370
+      },
+      {
+         "heading" : -2.17520,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 6.69040,
+         "y" : -0.0,
+         "z" : 0.03980
+      },
+      {
+         "heading" : -2.17520,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 6.89080,
+         "y" : 0.0,
+         "z" : -0.0940
+      },
+      {
+         "heading" : -2.17520,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 6.62840,
+         "y" : -0.0,
+         "z" : -0.24770
+      },
+      {
+         "heading" : -3.19510,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 6.94420,
+         "y" : -0.00010,
+         "z" : -1.55510
+      },
+      {
+         "heading" : -4.16440,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 6.58040,
+         "y" : -0.0,
+         "z" : -1.62630
+      },
+      {
+         "heading" : -4.72230,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 6.22120,
+         "y" : -0.0,
+         "z" : -1.41510
+      },
+      {
+         "heading" : -4.72230,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 5.93950,
+         "y" : -0.0,
+         "z" : -1.24010
+      },
+      {
+         "heading" : -4.72230,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 5.79880,
+         "y" : -0.0,
+         "z" : -1.41380
+      },
+      {
+         "heading" : -4.72230,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 7.20950,
+         "y" : -0.0,
+         "z" : -1.50370
+      },
+      {
+         "heading" : -4.72230,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 7.20760,
+         "y" : 0.00710,
+         "z" : -3.14140
+      },
+      {
+         "heading" : -4.72230,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 7.3970,
+         "y" : 0.00530,
+         "z" : -3.33330
+      },
+      {
+         "heading" : -3.91080,
+         "height" : 0.010,
+         "name" : "Creep Decal 02",
+         "scaling" : 0.82650,
+         "x" : 7.78530,
+         "y" : -0.0,
+         "z" : -3.50470
+      },
+      {
+         "heading" : -3.91080,
+         "height" : 0.010,
+         "name" : "Creep Decal 01",
+         "scaling" : 0.82650,
+         "x" : 8.15150,
+         "y" : -0.0,
+         "z" : -3.46990
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : null,
+   "startPosition" : [ 8.44510, -4.2060 ],
+   "tint" : [ 128, 128, 128, 0 ],
+   "title" : "",
+   "weather" : null
+}

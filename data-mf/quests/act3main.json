@@ -1,0 +1,703 @@
+{
+	"name" : "Act III",
+	"req" : {"qline" : ["act2main"]},
+	"category" : "main",
+
+	"quests" : [
+		{
+			"id" : "intro_to_nirgal",
+			"name" : "Into the Endless Void",
+			"autocomplete": true,
+			"story" : {
+				"intro" : "{HERO}, am I glad you are here! After you took the temple, an Anderra Academy team of scientists went there to look for clues on Ragadam's wherebouts, and we made the most astonishing discovery! You have to hear about it in detail.",
+				"prog" : "Speak to Alarion to hear what he discovered."
+			},
+			"src" : "Alarion",
+			"obj" : [
+				{
+					"obj_id" : "nirgal_intro",
+					"type" : "talk_to",
+					"npc" : "Alarion",
+					"milestone" : true,
+					"dialog": {
+						"dialog" : ["I don't even know how to ease you into this, {HERO}. The temple... it's a 'void craft'. That means a flying contraption capable of hurdling passengers over huge distances in space!", {"hero":"Is such a thing even possible? A ship that sails the currents of the ether, like a dragon?"}, " Indeed, like a giant dragon, carrying other beings inside it. I couldn’t believe it myself.", "We desciphered the ship's name and where it came from... It used to be called 'Hope's End', and it came from Nirgal, the rusty planet in our night sky. We renamed it to 'ESS Defiant', to honor the Elderanian resistence.", "The New Anderran Academy, which offered me a role as Professor Emeritus after our success on Levania, has tasked you to take the Defiant to Nirgal to the point of origin, to track Ragadam and his lackey Elban there, and destroy them."],
+						"continue_to" : "quest"
+					},
+					"desc": "Discuss your next steps with Alarion"
+				}
+			],
+			"rewards": {
+				"xp" : 4000,
+				"gold" : 3000
+			}
+		},
+		{
+			"id" : "the_rusty_planet",
+			"name" : "The Rusty Planet",
+			"req" : { "quest" : ["intro_to_nirgal"] },
+			"autoaccept" : false,
+			"sequenced" : false,
+			"common" : { "location" : "The Rusty Planet" },
+			"story" : {
+				"intro" : "Reach and explore Nirgal",
+				"prog" : "Reach and explore Nirgal",
+				"done" : "Nobody ever knew about these monuments, {HERO}. This is both a great day for all Elderanians, but also a time of great urgency. We have to make sense of Ragadam's plan here, on Nirgal."
+			},
+			"src" : "Alarion",
+			"obj" : [
+				{
+					"obj_id" : "travel_to_nirgal",
+					"type" : "start_level",
+					"level" : "The Rusty Planet",
+					"desc" : "Travel to Nirgal"
+				},
+				{
+					"obj_id" : "inspect_pyramid_1",
+					"type" : "go_event",
+					"event" : "pyramid_1",
+					"walk_to" : "pyramid_1",
+					"own_event" : true,
+					"milestone" : true,
+					"desc" : "Inspect the lower pyramid"
+				},
+				{
+					"obj_id" : "inspect_pyramid_2",
+					"type" : "go_event",
+					"event" : "pyramid_2",
+					"walk_to" : "pyramid_2",
+					"own_event" : true,
+					"milestone" : true,
+					"desc" : "Inspect the upper pyramid"
+				},
+				{
+					"obj_id" : "proceed_forth",
+					"type" : "go_event",
+					"event" : "road_blocked",
+					"own_event" : true,
+					"milestone" : true,
+					"desc" : "Find a way to cross the ruins"
+				},
+				{
+					"obj_id" : "higher_ground",
+					"type" : "go_event",
+					"event" : "higher_ground", 
+					"own_event" : true,
+					"milestone" : true,
+					"desc" : "Reach higher ground to see if you can find another way"
+				},
+				{
+					"obj_id" : "finish_level_nirgal_1",
+					"type" : "finish_level",
+					"level" : "The Rusty Planet",
+					"desc" : "Reach the entrance to the gardens"
+				}
+			],
+			"rewards": {
+				"xp" : 15000,
+				"gold" : 10000,
+				"gear" : {
+					"slot": "boots",
+					"name": "Void Explorer's Footwear",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":2,
+					"stats":["vitality", "movementSpeed"],
+					"statBonus": 0.75,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "first_contact",
+			"name" : "First Contact",
+			"sequenced" : false,
+			"story" : {
+				"intro" : "These gardens you found... they cannot possibly be constructed by Ragadam's host of mindless undead. There must be some intelligent species on Nirgal. Try to make first contact with them, or at least find out what happened.",
+				"prog" : "Proceed into the gardens and try to find out if there are other creatures on Nirgal than Ragadam's undead minions.",
+				"done" : "This symbiotic relationship between the reptilians you saw in the gardens and the undead is worrying, {HERO}."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "the_rusty_planet" },
+			"common" : { "location" : "Twilight Garden" },
+			"obj" : [
+				{
+					"obj_id" : "enter_gardens",
+					"type" : "start_level",
+					"level" : "Twilight Garden",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "intelligent_species",
+					"type" : "go_event",
+					"optional" : true,
+					"own_event" : true,
+					"event" : "intelligent_species",
+					"desc" : "Try to find out anything about the garden creators"
+				},
+				{
+					"obj_id" : "pillars_of_nirgal_1",
+					"type" : "go_event",
+					"event" : "pillars_of_nirgal_1",
+					"own_event" : true,
+					"desc" : "Recover the inscription from the first pillar"
+				},
+				{
+					"obj_id" : "pillars_of_nirgal_2",
+					"type" : "go_event",
+					"event" : "pillars_of_nirgal_2",
+					"own_event" : true,
+					"desc" : "Recover the inscription from the second pillar"
+				},
+				{
+					"obj_id" : "pillars_of_nirgal_3",
+					"type" : "go_event",
+					"event" : "pillars_of_nirgal_3",
+					"own_event" : true,
+					"desc" : "Recover the inscription from the third pillar"
+				},
+				{
+					"obj_id" : "pillars_of_nirgal_4",
+					"type" : "go_event",
+					"event" : "pillars_of_nirgal_4",
+					"own_event" : true,
+					"desc" : "Recover the inscription from the fourth pillar"
+				},
+				{
+					"obj_id" : "hunter_killers",
+					"type" : "kill",
+					"creature" : "Hunter Killer",
+					"total" : 3,
+					"desc" : "Eliminate the Hunter Killers"
+				},
+				{
+					"obj_id" : "finish_gardens",
+					"type" : "finish_level",
+					"level" : "Twilight Garden",
+					"desc" : "Complete {LEVEL}"
+				}
+			],
+			"rewards": {
+				"xp" : 15000,
+				"gold" : 10000,
+				"gear" : {
+					"slot": "pants",
+					"name": "Void Explorer's Trousers",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":2,
+					"stats":["haste", "movementSpeed"],
+					"statBonus": 0.75,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "ancient_knowledge",
+			"name" : "Ancient Knowledge",
+			"sequenced" : false,
+			"story" : {
+				"intro" : "The inscriptions you recovered from the pillars detail a string of victories by the garden creators, the 'Empire of Three Canyons'. They tell of strange, reptilian invaders that suddently showed at their borders, with fire and steel.||||However, these are nothing but proclamations to the world that the Empire has managed to face these reptilians where their neighbours had fallen.||||One inscription, written by Nekhebet, the Emperor of Minaris, claims that 'those that assembled at our boundaries - their hearts and their souls are finished for ever. As for those that came before them, a wall of metal and flame met them upon their entry to my country. They were slain and their corpses were cast upon the sand.'||||But given what we see now, the reptilians mastering the splendid gardens, this was probably nothing more than recruitment propaganda.||||You must venture deeper into the pyramids and find out what happened to this ancient civilization or the purpose of these monumental pyramids.",
+				"prog" : "Venture inside the pyramid and recover any records you can find about the fate of the Empire of Three Canyons.",
+				"done" : "Well done, {HERO}."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : ["first_contact"] },
+			"common" : { "location" : "Beneath the Pyramids" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_pyramids",
+					"type" : "start_level",
+					"level" : "Beneath the Pyramids",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "recover_pyramid_tome_1",
+					"type" : "go_event",
+					"event" : "pyramid_book_1",
+					"desc" : "Recover the book 'Histories of the Empire of Minaris'",
+					"total" : 1,
+					"drop_rate" : 1,
+					"item" : {"name":"Histories of the Empire of Minaris", "desc":"A complete history of Minaris, by High Priest Amentep.", "icon" : "book1"},
+					"own_event" : true,
+					"autoloot" : true
+				},
+				{
+					"obj_id" : "recover_pyramid_tome_2",
+					"type" : "go_event",
+					"event" : "pyramid_book_2",
+					"desc" : "Recover the book 'Conduits of Fire'",
+					"total" : 1,
+					"drop_rate" : 1,
+					"item" : {"name":"Conduits of Fire", "desc":"A treatise on the purpose of the pyramids, by Grand Scribe Shepsesneb.", "icon" : "book2"},
+					"own_event" : true,
+					"autoloot" : true
+				}
+			],
+			"rewards": {
+				"xp" : 17000,
+				"gold" : 10000,
+				"gear" : {
+					"slot": "gloves",
+					"name": "Void Explorer's Handwraps",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":2,
+					"stats":["power", "lifeOnHit"],
+					"statBonus": 0.75,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "sand_ghosts",
+			"name" : "Ghosts in the Sand",
+			"sequenced" : false,
+			"story" : {
+				"intro" : "I barely started reading these books you recovered, {HERO}, but it seems the fate of the Empire was a tragical one.||||After it was finally overran, the inhabitants were put through fire and steel, and hunted across the dunes of the desert until nobody was left. A gruesome reminder of what happens to the worlds and civilizations that fall to Ragadam or his commanders. Their ghosts still skim across the desert, unable to completely leave this world.||||The desert is the way to Minaris anyway, so we can help them and see to our objective at the same time.||||Bring their souls to me, so they can be released into the eternal afterlife.",
+				"prog" : "Bring me the souls of the ghosts of the desert hero, so I may lay them to rest.",
+				"done" : "This was an act of mercy, champion."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : ["ancient_knowledge"] },
+			"common" : { "location" : "Path of Sand" },
+			"hide_spoilers" : false,
+			
+			"obj" : [
+				{
+					"obj_id" : "start_path_of_sand",
+					"type" : "start_level",
+					"level" : "Path of Sand",
+					"desc" : "Travel on the Path of Sand"
+				},
+				{
+					"obj_id" : "desert_ghosts",
+					"type" : "loot",
+					"creature" : "Desert Ghost",
+					"total" : 20,
+					"drop_rate" : 1,
+					"item" : { "name" : "Lost Soul", "icon" : "arcane_flare" },
+					"desc" : "Gather {N} Lost Souls from the Desert Ghosts"
+				},
+				{
+					"obj_id" : "desert_elites",
+					"type" : "kill",
+					"creature" : "Desert Apparition",
+					"total" : 5,
+					"desc" : "Kill the Desert Apparitions"
+				}
+			],
+			"rewards": {
+				"xp" : 20000,
+				"gold" : 10000,
+				"gear" : {
+					"slot": "chest",
+					"name": "Void Explorer's Vestments",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":2,
+					"stats":["criticalRating", "abilityRating"],
+					"statBonus": 0.75,
+					"socket":1,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "water",
+			"name" : "Water is Life",
+			"sequenced" : false,
+			"story" : {
+				"intro" : "The extent of the Empire was greater than we thought, {HERO}. If we are to send troops to secure these areas you recover from Ragadam, they will never make it through the desert.||||They would need to use some place as a resupply station. Some place with water, which is so scarce here. The only such place between the pyramid and Minaris is the Desert Oasis.||||Claim it for us. Decimate Ragadam's forces there, so we can secure it.",
+				"prog" : "Slay Ragadam's forces and secure the Oasis.",
+				"done" : "The Oasis is ours, {HERO}. This is such a relief. I was afraid our campaign was getting stalled in the sand."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : ["sand_ghosts"] },
+			"hide_spoilers" : false,
+			"common" : { "location" : "Oasis" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_oasis",
+					"type" : "start_level",
+					"level" : "Oasis",
+					"desc" : "Go to the Oasis"
+				},
+				{
+					"obj_id" : "kill_enemies",
+					"type" : "kill",
+					"creature" : {"flavor":["undead", "reptilian"]},
+					"total" : 150,
+					"desc" : "Kill {N} enemy combatants at the Oasis"
+				},
+				{
+					"obj_id" : "kill_elite_enemies",
+					"type" : "kill",
+					"creature" : "*Elite*",
+					"total" : 7,
+					"desc" : "Kill the elite contingent at the Oasis"
+				}
+			],
+			"rewards": {
+				"xp" : 24000,
+				"gold" : 11000,
+				"gear" : {
+					"slot": "shoulders",
+					"name": "Void Explorer's Spaulders",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":2,
+					"stats":["haste", "criticalRating"],
+					"statBonus": 0.75,					
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "the_deceiver",
+			"name" : "The Deceiver",
+			"sequenced" : false,
+			"story" : {
+				"intro" : "Minaris, the mighty capital of the Empire... now it is nothing more than crumbling walls, eroded by the desert winds.||||The books you brought tell about this civilization, one that has lasted for thousands of years. They built great great pyramids and palaces, only to have been reduced to rubble in less than the span of a single lifetime. Their God Emperor dynasty vanished, their trades and crafts gone, their cities left to decay... it's hard to comprehend, {HERO}.||||If there is any place we could find more clues, Minaris, their once splendid capital, is it.",
+				"prog" : "Venture into Minaris and recover any knowledge you can find, champion.",
+				"done" : "These fragments need to be studied, {HERO}. We will not allow the memory of the Minarians be lost."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : ["water"] },
+			"common" : { "location" : "Ruins of Minaris" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_minaris",
+					"type" : "start_level",
+					"level" : "Ruins of Minaris",
+					"desc" : "Go to the {LEVEL}"
+				},
+				{
+					"obj_id" : "minaris_lore_1",
+					"type" : "go_event",
+					"event" : "minaris_lore_1",
+					"own_event" : true,
+					"desc" : "Read the first Pillar of Lore"
+				},
+				{
+					"obj_id" : "minaris_lore_2",
+					"type" : "go_event",
+					"event" : "minaris_lore_2",
+					"own_event" : true,
+					"desc" : "Read the second Pillar of Lore"
+				},
+				{
+					"obj_id" : "minaris_lore_3",
+					"type" : "go_event",
+					"event" : "minaris_lore_3",
+					"own_event" : true,
+					"desc" : "Read the third Pillar of Lore"
+				},
+				{
+					"obj_id" : "minaris_lore_4",
+					"type" : "go_event",
+					"event" : "minaris_lore_4",
+					"own_event" : true,
+					"desc" : "Read the fourth Pillar of Lore"
+				},
+				{
+					"obj_id" : "secure_minaris",
+					"type" : "kill",
+					"creature" : "Elite Guard",
+					"total" : 7,
+					"desc" : "Kill the Elite Guard"
+				}
+			],
+			"rewards": {
+				"xp" : 24000,
+				"gold" : 11000,
+				"gear" : {
+					"slot": "head",
+					"name": "Void Explorer's Headpiece",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":2,
+					"stats":["haste", "abilityRating"],
+					"statBonus": 0.75,					
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "alarion_nirgal_talk",
+			"name" : "The Fall of Minaris",
+			"story" : {
+				"intro" : "The archaeologists at the Anderra Academy studied the inscriptions of Minaris, {HERO}. This is what we found."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "the_deceiver" },
+			"autocomplete" : true,
+
+			"obj" : [
+				{
+					"obj_id" : "listen_to_alarion_minaris",
+					"type" : "talk_to",
+					"npc" : "Alarion",
+					"location" : "hometown",
+					"dialog" : {
+						"dialog" : ["It appears as though Elban originally presented himself to the Minarians as a seeker of knowledge, a scholar. He helped them study old texts, improve designs, engineer monuments.", "But he was after one thing and once thing only: the fires beneath the great pyramid.", {"hero":"Yes, and then he backstabbed them."}, "Indeed he did. He needed the fires to burn at a certain heat. That's how he forged the Aztrak warriors, and in the end, the Aztrak destroyed Minaris.",{"hero":"These beasts are not even born, they are... crafted."}, "Engineered.", {"narrator": "Alarion sighs."}, {"hero":"So what do we do now, Alarion?"}, "We go forth. The Minari texts mention their greatest opponents, the Mirefolk, and their great city of stone, Malador.", "That is where we must go, {HERO}."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Alarion"
+				}
+			],
+			"rewards": {
+				"xp" : 2500,
+				"gold" : 1000
+			}
+		},
+		{
+			"id" : "onwards_to_malador",
+			"name" : "The Wall",
+			"sequenced" : false,
+			"story" : {
+				"intro" : "The Minarians built a great wall at their northern border, that was used as impregnable fortification in times of war and safe trade route in times of peace.||||Follow the Wall, {HERO}, it is the way to Malador.",
+				"prog" : "Follow the path on the Wall.",
+				"done" : "You reached the Mire, champion. That's the first step on your journey to Malador."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "alarion_nirgal_talk" },
+			"hide_spoilers" : false,
+			"common" : { "location" : "The Wall" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_wall",
+					"type" : "start_level",
+					"level" : "The Wall",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level_wall",
+					"type" : "finish_level",
+					"level" : "The Wall",
+					"desc" : "Follow the road on {LEVEL}"
+				}
+			],
+			"rewards": {
+				"xp" : 24000,
+				"gold" : 11000,
+				"gear" : {
+					"itemClass": ["encrypted_shield", "necronomicon", "hailstorm"],
+					"name": ["Void Shield", "Tome of the Void", "Voidstorm Repeater"],
+					
+					"levelOffset":3,
+					"variation":-1,
+					"quality":2,
+					"stats":["haste", "power"],
+					"statBonus": 0.75,					
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "into_the_fray",
+			"name" : "Into the Fray",
+			"story" : {
+				"intro" : "It seems you reached a ring of trials. The moss covered pillars in the middle of the ring seem to have inscriptions on them. Find out what you can about the Mirefolk. Oh and {HERO}, don't let those reptilians put you down. Slay them all.",
+				"prog" : "Inspect the 5 moss covered pillars at the center of the Trial of the Mire and defeat the ambush.",
+				"done" : "Well done, {HERO}. Onwards to Malador!"
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "onwards_to_malador" },
+			"hide_spoilers" : false,
+			"common" : { "location" : "Trial of the Mire" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_trial_of_the_mire",
+					"type" : "start_level",
+					"level" : "Trial of the Mire",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "inspect_mossy_pillars",
+					"type" : "go_event",
+					"event" : "mirefolk",
+					"total" : 5,
+					"desc" : "Inspect the moss covered pillars"
+				},
+				{
+					"obj_id" : "survive_the_trial",
+					"type" : "finish_level",
+					"level" : "Trial of the Mire",
+					"desc" : "Survive the trial"
+				}
+			],
+			"rewards": {
+				"xp" : 24000,
+				"gold" : 11000,
+				"gear" : {
+					"itemClass": ["deidres_resolve", "hailstorm"],
+					"name": ["Void Blade", "Voidstorm Repeater"],
+					
+					"levelOffset":3,
+					"variation":-1,
+					"quality":4,
+					"stats":["haste", "power", "abilityRating"],
+					"statBonus": 0.4,					
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "road_to_malador",
+			"name" : "The Road to Malador",
+			"story" : {
+				"intro" : "{HERO}, this is astonishing! The Mirefolk were the very same creatures we know as the Merlok on Elderath. This means that life on Elderath and Nirgal is similar.||||Malador now lies within our grasp, and everything we know suggests Elban the Demiurge is there. There is only a village, formerly of the Mirefolk, that is now taken over by the Aztrak, that lies between us and Malador.||||Kill the Aztrak in the village before you storm Malador.",
+				"prog" : "Kill the Aztrak in Murkvale.",
+				"done" : "It is time to plan our assault on Elban's fortress, {HERO}"
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : ["into_the_fray"] },
+			"sequenced" : false,
+			"hide_spoilers" : false,
+			"common" : { "location" : "Murkvale" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_murkvale",
+					"type" : "start_level",
+					"level" : "Murkvale",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "storm_murkvale",
+					"type" : "kill",
+					"creature" : {"flavor" : ["reptilian"]},
+					"total" : 50,
+					"desc" : "Destroy the Aztrak forces in the village"
+				},
+				{
+					"obj_id" : "finish_level_murkvale",
+					"type" : "finish_level",
+					"level" : "Murkvale",
+					"desc" : "Reach the gates of Malador"
+				}
+			],
+			"rewards": {
+				"xp" : 25000,
+				"gold" : 11000,
+				"gear" : {
+					"itemClass": ["Necklace"],
+					"name": ["Adorned Aztrak Necklace"],
+					
+					"levelOffset":3,
+					"variation":-1,
+					"quality":3,
+					"stats":["haste", "criticalRating", "criticalDamage"],
+					"statBonus": 0.75,					
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "malador",
+			"name" : "Malador, Fortress of the Mire",
+			"sequenced" : false,
+			"story" : {
+				"intro" : "Malador, the fortress of our enemy... Elban's greatest creation, the Aztrak champion Gorlak Wallshatter is holding the city. He and his forces must be destroyed before we can confront Elban, {HERO}.",
+				"prog" : "Defeat Gorlak Wallshatter and the army defending Malador.",
+				"done" : "Gorlak lies dead at your feet, and the Crucible of Mawrth lies beneath Malador. There is no way out for the Demiurge now."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : ["road_to_malador"] },
+			"sequenced" : true,
+			"common" : { "location" : "The City of Malador" },
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_malador",
+					"type" : "start_level",
+					"level" : "The City of Malador",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "kill_enemies",
+					"type" : "kill",
+					"creature" : {"flavor":["undead", "reptilian", "sister_of_ragadam", "humanoid"]},
+					"total" : 250,
+					"desc" : "Kill {N} enemy combatants in Malador"
+				},
+				{
+					"obj_id" : "kill_gorlak",
+					"type" : "kill",
+					"creature" : "Gorlak Wallshatter",
+					"desc" : "Kill Gorlak Wallshatter"
+				}
+			],
+			"rewards": {
+				"xp" : 27000,
+				"gold" : 11500,
+				"gems" : 20
+			}
+		},
+		{
+			"id" : "into_the_crucible",
+			"name" : "Into the Crucible",
+			"sequenced" : false,
+			"story" : {
+				"intro" : "The Demiurge has nowhere to run now, {HERO}. Descend into the Crucible of Mawrth, destroy his remaining forces, and finish him once and for all!",
+				"prog" : "Destroy Elban and his last forces in the Crucible of Mawrth.",
+				"done" : "Whatever remains of Nirgal is saved. One of Ragadam's fiercest commanders is dead. The time for sorrow is over, now is the time for Nirgal's reconstruction."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : ["malador"] },
+			"sequenced" : true,
+			"common" : { "location" : "The Crucible of Mawrth" },
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_crucible",
+					"type" : "start_level",
+					"level" : "The Crucible of Mawrth",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "kill_enemies",
+					"type" : "kill",
+					"creature" : {"flavor":["undead", "reptilian", "sister_of_ragadam", "humanoid"]},
+					"total" : 250,
+					"desc" : "Slay {N} enemy combatants in the Crucible"
+				},
+				{
+					"obj_id" : "kill_gorlak",
+					"type" : "kill",
+					"creature" : "Elban",
+					"desc" : "Slay Elban"
+				}
+			],
+			"rewards": {
+				"xp" : 35000,
+				"gold" : 15000,
+				"gear" : {
+					"itemClass": ["carnaval_cape"],
+					"name": ["Cloak of the Liberator"],
+					
+					"levelOffset":3,
+					"variation":-1,
+					"quality":2,
+					"stats":["criticalDamage", "vitality"],
+					"statBonus": 0.75,					
+					"upgrade" : false
+				}
+			}
+		}
+	]
+}
+

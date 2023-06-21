@@ -1,0 +1,30 @@
+{
+   "page" : {
+      "listy" : true,
+      "type" : [
+         "abilities",
+         "campaign_map",
+         "craft_inventory",
+         "crafting",
+         "friends",
+         "game",
+         "gold_exchange",
+         "inventory",
+         "jewelcrafting",
+         "mailbox",
+         "main_menu",
+         "quest",
+         "rm_store",
+         "salvage",
+         "stash",
+         "store",
+         "team",
+         "vault"
+      ]
+   },
+   "subpage" : {
+      "listy" : true,
+      "mandatory" : false,
+      "type" : "string"
+   }
+}

@@ -1,0 +1,84 @@
+{
+	"baseTerrain" : "Rocky Ground 02",
+	"height" : -0.15,
+	"soundEnv" : "cave",
+	
+	"portal" : {
+		"width" : 1,
+		"slope" : 0.1,
+		"curvature" : 0,
+		"chamfer" : 0.25
+	},
+	
+	"tools" : [
+		{
+			"tool" : "split",
+			"method" : "antcave",
+			"outside" : "CaveWall"
+		},
+		{
+			"tool" : "randombrush",
+			"brush" : {
+				"height" : 0.0,
+				"width" : 0.3,
+				"hardness" : 0.8,
+				"opacity" : 0.8,
+				"strength" : 0
+			},
+			"avoidBuilt" : true,
+			"density" : 400,
+			"terrains" : ["Rocky Ground 02a", "Rock 04", "Rock 04a", "Rock 04b"],
+			"randSize" : 0.2,
+			"avoidBuilt": 1
+		},
+/*
+		{
+			"tool" : "crossroads",
+			"terrain" : "Rocky Ground 01",
+			"opacity" : 0.25,
+			"width" : 0.35,
+			"height" : -0.0025,
+			"curliness" : 0.2
+		},
+		*/
+		{
+			"tool":"wall",
+			"wallProp" : [
+				"Torch 03"				
+			],
+			"offset" : 0.025,
+			"propScaling" : 1.0,
+			"randomRotation" : false,
+			"rotOffset" : 180,
+			"overlap" : -3,
+			"skip" : 40,
+			"height" : -0.05
+		}
+		
+		,
+		{
+			"tool" : "crest",
+			"slope" : -0.2,
+			"max_height" : 0.1,
+			"curve_gamma" : 1
+		}
+		
+		
+
+/*		
+		,
+		{
+			"tool":"ring",
+			"terrain" : "Light Blue 01",
+			"offset" : 0.0,
+			"height" : 0.2,
+			"width" : 0.33,
+			"hardness" : 0,
+			"opacity" : 1,
+			"strength" : 1,
+			"extendColor" : 0.1
+		}
+*/	
+		
+	]
+}

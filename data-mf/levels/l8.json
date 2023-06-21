@@ -1,0 +1,6307 @@
+{
+   "ambient" : [ 17, 22, 34 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Simulator1.5.7: My Computer",
+      "saveTime" : "1596012237799"
+   },
+   "enemyFlavors" : null,
+   "enemySetup" : [
+      {
+         "a" : 3.16330,
+         "creature" : "brimstone",
+         "x" : 5.19410,
+         "z" : -3.80130
+      },
+      {
+         "a" : 4.25590,
+         "creature" : "darkling_sapper",
+         "x" : 2.97170,
+         "z" : -3.96390
+      },
+      {
+         "a" : -1.87330,
+         "creature" : "darkling_sapper",
+         "x" : 3.1190,
+         "z" : -4.26160
+      },
+      {
+         "a" : -1.12280,
+         "creature" : "darkling_sapper",
+         "x" : 2.94420,
+         "z" : -4.22560
+      },
+      {
+         "a" : 4.25590,
+         "creature" : "darkling_sapper",
+         "x" : 2.57020,
+         "z" : -3.95260
+      },
+      {
+         "a" : 5.57070,
+         "creature" : "darkling_sapper",
+         "x" : 2.65650,
+         "z" : -4.32780
+      },
+      {
+         "a" : 5.86160,
+         "creature" : "darkling_sapper",
+         "x" : 2.52690,
+         "z" : -4.10760
+      },
+      {
+         "a" : 5.69690,
+         "creature" : "darkling_grunt",
+         "x" : 2.39290,
+         "z" : -4.010
+      },
+      {
+         "a" : 5.69690,
+         "creature" : "darkling_grunt",
+         "x" : 2.37960,
+         "z" : -4.22280
+      },
+      {
+         "a" : 5.69690,
+         "creature" : "darkling_grunt",
+         "x" : 2.75770,
+         "z" : -4.14440
+      },
+      {
+         "a" : 5.60870,
+         "creature" : "brimstone",
+         "x" : 2.27980,
+         "z" : -2.98430
+      },
+      {
+         "a" : 4.50290,
+         "creature" : "ritual_healer",
+         "eliteAbility0" : "darkheal",
+         "eliteAbility1" : "darkheal",
+         "isElite" : true,
+         "x" : 0.62060,
+         "z" : -1.81030
+      },
+      {
+         "a" : 4.41920,
+         "creature" : "lich",
+         "eliteAbility0" : "summon_skeleton",
+         "eliteAbility1" : "summon_skeleton",
+         "isElite" : true,
+         "x" : 0.62520,
+         "z" : -2.05070
+      },
+      {
+         "a" : 2.75760,
+         "creature" : "brimstone",
+         "x" : 2.95010,
+         "z" : -1.99380
+      },
+      {
+         "a" : -5.5780,
+         "creature" : "brimstone",
+         "x" : 2.62750,
+         "z" : -2.26780
+      },
+      {
+         "a" : -3.61710,
+         "creature" : "brimstone",
+         "x" : 2.95830,
+         "z" : -2.25150
+      },
+      {
+         "a" : -2.56560,
+         "creature" : "black_reaper",
+         "x" : 5.37520,
+         "z" : -1.56130
+      },
+      {
+         "a" : -1.74630,
+         "creature" : "black_reaper",
+         "x" : 5.03120,
+         "z" : -1.74140
+      },
+      {
+         "a" : -1.36080,
+         "creature" : "black_reaper",
+         "x" : 5.02930,
+         "z" : -1.53570
+      },
+      {
+         "a" : -1.46030,
+         "creature" : "pitos",
+         "x" : 4.52240,
+         "z" : -2.2090
+      },
+      {
+         "a" : -2.59030,
+         "creature" : "pitos",
+         "x" : 4.57560,
+         "z" : -2.5180
+      },
+      {
+         "a" : 0.0,
+         "creature" : "darkling_sapper",
+         "x" : 4.70270,
+         "z" : -2.16710
+      },
+      {
+         "a" : -1.7560,
+         "creature" : "darkling_sapper",
+         "x" : 4.74230,
+         "z" : -2.41140
+      },
+      {
+         "a" : -2.86810,
+         "creature" : "darkling_grunt",
+         "x" : 4.3770,
+         "z" : -2.14330
+      },
+      {
+         "a" : -2.86810,
+         "creature" : "darkling_grunt",
+         "x" : 4.32640,
+         "z" : -2.31560
+      },
+      {
+         "a" : -0.91340,
+         "creature" : "darkling_sapper",
+         "x" : 3.90310,
+         "z" : 1.63180
+      },
+      {
+         "a" : -0.97740,
+         "creature" : "darkling_sapper",
+         "x" : 4.38010,
+         "z" : 1.24330
+      },
+      {
+         "a" : -1.20430,
+         "creature" : "darkling_sapper",
+         "x" : 3.93020,
+         "z" : 1.05320
+      },
+      {
+         "a" : -1.93730,
+         "creature" : "darkling_sapper",
+         "x" : 3.84840,
+         "z" : 1.38220
+      },
+      {
+         "a" : 5.58020,
+         "creature" : "lich",
+         "eliteAbility0" : "fireball",
+         "eliteAbility1" : "fireball",
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -3.76420,
+         "z" : 4.03590
+      },
+      {
+         "a" : 5.86020,
+         "creature" : "skeleton_heavy_ranger",
+         "eliteAbility0" : "multishot",
+         "eliteAbility1" : "multishot",
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -3.61870,
+         "z" : 3.73720
+      },
+      {
+         "a" : 5.86020,
+         "creature" : "skeleton_heavy_ranger",
+         "eliteAbility0" : "multishot",
+         "eliteAbility1" : "multishot",
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -3.82920,
+         "z" : 3.5790
+      },
+      {
+         "a" : 4.45480,
+         "creature" : "brimstone",
+         "x" : 4.70950,
+         "z" : -3.65350
+      },
+      {
+         "a" : 3.64320,
+         "creature" : "darkling_grunt",
+         "x" : 5.07380,
+         "z" : -3.61570
+      },
+      {
+         "a" : 6.37760,
+         "creature" : "darkling_grunt",
+         "x" : 3.66890,
+         "z" : -4.9790
+      },
+      {
+         "a" : 7.10480,
+         "creature" : "darkling_grunt",
+         "x" : 3.7150,
+         "z" : -5.30090
+      },
+      {
+         "a" : 6.99430,
+         "creature" : "darkling_grunt",
+         "x" : 3.57050,
+         "z" : -5.25470
+      },
+      {
+         "a" : 6.02760,
+         "creature" : "brimstone",
+         "x" : 2.00680,
+         "z" : -2.88320
+      },
+      {
+         "a" : 3.43290,
+         "creature" : "brimstone",
+         "x" : 1.92770,
+         "z" : -2.57970
+      },
+      {
+         "a" : 6.36010,
+         "creature" : "darkling_grunt",
+         "x" : -0.35810,
+         "z" : -4.08970
+      },
+      {
+         "a" : 5.99940,
+         "creature" : "darkling_grunt",
+         "x" : -0.7980,
+         "z" : -4.30130
+      },
+      {
+         "a" : 6.28450,
+         "creature" : "darkling_grunt",
+         "x" : -1.28020,
+         "z" : -4.4190
+      },
+      {
+         "a" : 4.3110,
+         "creature" : "darkling_sapper",
+         "x" : 0.57920,
+         "z" : -2.86120
+      },
+      {
+         "a" : 4.3110,
+         "creature" : "darkling_sapper",
+         "x" : 0.84080,
+         "z" : -2.93450
+      },
+      {
+         "a" : 5.11380,
+         "creature" : "darkling_sapper",
+         "x" : 0.64050,
+         "z" : -2.9410
+      },
+      {
+         "a" : 5.11380,
+         "creature" : "darkling_sapper",
+         "x" : 0.92160,
+         "z" : -2.67610
+      },
+      {
+         "a" : 4.12480,
+         "creature" : "darkling_sapper",
+         "x" : 0.62240,
+         "z" : -2.66620
+      },
+      {
+         "a" : 5.50940,
+         "creature" : "darkling_sapper",
+         "x" : 1.02420,
+         "z" : -2.72120
+      },
+      {
+         "a" : 2.94380,
+         "creature" : "darkling_sapper",
+         "x" : 1.17670,
+         "z" : -2.88140
+      },
+      {
+         "a" : 5.50940,
+         "creature" : "darkling_grunt",
+         "x" : 1.80040,
+         "z" : -2.60150
+      },
+      {
+         "a" : 5.50940,
+         "creature" : "darkling_grunt",
+         "x" : 2.12450,
+         "z" : -2.95790
+      },
+      {
+         "a" : 3.51390,
+         "creature" : "darkling_grunt",
+         "x" : 2.00840,
+         "z" : -2.72170
+      },
+      {
+         "a" : 6.65680,
+         "creature" : "darkling_grunt",
+         "x" : -0.82680,
+         "z" : -4.85380
+      },
+      {
+         "a" : 4.26440,
+         "creature" : "ghost01",
+         "eliteAbility0" : "",
+         "eliteAbility1" : "",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 0.77130,
+         "z" : -2.10080
+      },
+      {
+         "a" : 4.57860,
+         "creature" : "ghost01",
+         "eliteAbility0" : "",
+         "eliteAbility1" : "",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 0.48730,
+         "z" : -2.07240
+      },
+      {
+         "a" : 4.61930,
+         "creature" : "ghost03",
+         "eliteAbility0" : "",
+         "eliteAbility1" : "",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 0.7320,
+         "z" : -1.95850
+      },
+      {
+         "a" : 4.86950,
+         "creature" : "ghost03",
+         "eliteAbility0" : "",
+         "eliteAbility1" : "",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "x" : 0.52820,
+         "z" : -1.93340
+      },
+      {
+         "a" : -2.86810,
+         "creature" : "darkling_grunt",
+         "x" : 4.45940,
+         "z" : -2.47320
+      },
+      {
+         "a" : -2.25240,
+         "creature" : "black_reaper",
+         "x" : 5.34680,
+         "z" : -1.72430
+      },
+      {
+         "a" : 5.11380,
+         "creature" : "darkling_sapper",
+         "x" : -1.58290,
+         "z" : -1.83810
+      },
+      {
+         "a" : 5.11380,
+         "creature" : "darkling_sapper",
+         "x" : -1.5740,
+         "z" : -1.61530
+      },
+      {
+         "a" : 5.63160,
+         "creature" : "darkling_sapper",
+         "x" : -1.7730,
+         "z" : -1.88870
+      },
+      {
+         "a" : 5.11380,
+         "creature" : "darkling_sapper",
+         "x" : -1.87190,
+         "z" : -1.71580
+      },
+      {
+         "a" : 5.50940,
+         "creature" : "darkling_grunt",
+         "x" : -2.10790,
+         "z" : -1.61630
+      },
+      {
+         "a" : 5.50940,
+         "creature" : "darkling_grunt",
+         "x" : -2.25320,
+         "z" : -1.79270
+      },
+      {
+         "a" : 6.38790,
+         "creature" : "darkling_grunt",
+         "x" : -2.27510,
+         "z" : -1.96020
+      },
+      {
+         "a" : 5.50940,
+         "creature" : "darkling_grunt",
+         "x" : -2.65030,
+         "z" : -1.50980
+      },
+      {
+         "a" : 5.50940,
+         "creature" : "darkling_grunt",
+         "x" : -2.68320,
+         "z" : -1.68190
+      },
+      {
+         "a" : 5.50940,
+         "creature" : "darkling_grunt",
+         "x" : -2.6240,
+         "z" : -2.11970
+      },
+      {
+         "a" : 5.50940,
+         "creature" : "darkling_grunt",
+         "x" : -2.52130,
+         "z" : -2.09920
+      },
+      {
+         "a" : 3.9270,
+         "creature" : "darkling_grunt",
+         "x" : -0.38320,
+         "z" : -1.08050
+      },
+      {
+         "a" : 3.9270,
+         "creature" : "darkling_grunt",
+         "x" : -0.55460,
+         "z" : -0.90380
+      },
+      {
+         "a" : 4.21790,
+         "creature" : "pitos",
+         "x" : -0.41550,
+         "z" : -0.87510
+      },
+      {
+         "a" : 3.9270,
+         "creature" : "darkling_sapper",
+         "x" : -0.32090,
+         "z" : -0.97210
+      },
+      {
+         "a" : 4.93340,
+         "creature" : "darkling_sapper",
+         "x" : -0.45080,
+         "z" : -0.74380
+      },
+      {
+         "a" : 3.9270,
+         "creature" : "darkling_sapper",
+         "x" : 1.83990,
+         "z" : -0.73470
+      },
+      {
+         "a" : 3.9270,
+         "creature" : "darkling_sapper",
+         "x" : 1.78820,
+         "z" : -0.61150
+      },
+      {
+         "a" : 3.9270,
+         "creature" : "darkling_sapper",
+         "x" : 1.76540,
+         "z" : -0.79440
+      },
+      {
+         "a" : 3.51970,
+         "creature" : "darkling_grunt",
+         "x" : 1.70710,
+         "z" : -0.55690
+      },
+      {
+         "a" : 2.56560,
+         "creature" : "darkling_grunt",
+         "x" : 1.41510,
+         "z" : -0.97090
+      },
+      {
+         "a" : 3.27540,
+         "creature" : "pitos",
+         "x" : 1.43920,
+         "z" : -1.11060
+      },
+      {
+         "a" : 3.12410,
+         "creature" : "pitos",
+         "x" : 1.54090,
+         "z" : -1.05830
+      },
+      {
+         "a" : 3.51970,
+         "creature" : "darkling_grunt",
+         "x" : 2.80120,
+         "z" : -1.93960
+      },
+      {
+         "a" : 2.50160,
+         "creature" : "darkling_grunt",
+         "x" : 2.80610,
+         "z" : -2.15390
+      },
+      {
+         "a" : 3.91530,
+         "creature" : "ghost01",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 3.92080,
+         "z" : -1.77830
+      },
+      {
+         "a" : 4.58440,
+         "creature" : "ghost03",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 3.82060,
+         "z" : -1.69430
+      },
+      {
+         "a" : -0.97740,
+         "creature" : "darkling_sapper",
+         "x" : 3.86490,
+         "z" : 1.18780
+      },
+      {
+         "a" : -0.97740,
+         "creature" : "darkling_sapper",
+         "x" : 4.10580,
+         "z" : 0.99670
+      },
+      {
+         "a" : -1.39630,
+         "creature" : "darkling_sapper",
+         "x" : 4.15930,
+         "z" : 1.5020
+      },
+      {
+         "a" : 5.83520,
+         "creature" : "darkling_grunt",
+         "x" : 4.78640,
+         "z" : 0.7979000000000001
+      },
+      {
+         "a" : 5.83520,
+         "creature" : "darkling_grunt",
+         "x" : 4.6070,
+         "z" : 0.59880
+      },
+      {
+         "a" : 5.83520,
+         "creature" : "darkling_grunt",
+         "x" : 4.77270,
+         "z" : 0.88940
+      },
+      {
+         "a" : 4.15970,
+         "creature" : "ghost01",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 5.11340,
+         "z" : 2.71020
+      },
+      {
+         "a" : 4.15970,
+         "creature" : "ghost01",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 5.11160,
+         "z" : 2.42030
+      },
+      {
+         "a" : 4.15970,
+         "creature" : "ghost01",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.85940,
+         "z" : 2.6870
+      },
+      {
+         "a" : 3.64190,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.88660,
+         "z" : 1.98620
+      },
+      {
+         "a" : 4.45640,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.68190,
+         "z" : 2.3710
+      },
+      {
+         "a" : 4.04330,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.75530,
+         "z" : 2.10370
+      },
+      {
+         "a" : 4.04330,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : 4.60390,
+         "z" : 2.07270
+      },
+      {
+         "a" : -6.06640,
+         "creature" : "brimstone",
+         "x" : 2.8860,
+         "z" : 0.47170
+      },
+      {
+         "a" : -5.74060,
+         "creature" : "brimstone",
+         "x" : 3.10540,
+         "z" : 0.64490
+      },
+      {
+         "a" : -5.74060,
+         "creature" : "brimstone",
+         "x" : 2.87380,
+         "z" : 0.29970
+      },
+      {
+         "a" : 5.86020,
+         "creature" : "skeleton_heavy_ranger",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "multishot",
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -4.05890,
+         "z" : 3.51890
+      },
+      {
+         "a" : 5.58020,
+         "creature" : "lich",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "meteorshower",
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -4.09870,
+         "z" : 4.06340
+      },
+      {
+         "a" : 0.0,
+         "creature" : "zombie_1",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -0.35220,
+         "z" : 4.74260
+      },
+      {
+         "a" : 0.0,
+         "creature" : "zombie_1",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -0.45220,
+         "z" : 4.56940
+      },
+      {
+         "a" : 0.0,
+         "creature" : "zombie_1",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -0.35220,
+         "z" : 4.39620
+      },
+      {
+         "a" : 0.0,
+         "creature" : "zombie_1",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -0.69590,
+         "z" : 5.07840
+      },
+      {
+         "a" : -1.02970,
+         "creature" : "zombie_1",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -0.80660,
+         "z" : 4.85950
+      },
+      {
+         "a" : -1.02970,
+         "creature" : "zombie_2",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -0.48080,
+         "z" : 4.82630
+      },
+      {
+         "a" : -1.02970,
+         "creature" : "zombie_2",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -0.78690,
+         "z" : 4.57190
+      },
+      {
+         "a" : -1.02970,
+         "creature" : "zombie_2",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -1.02970,
+         "z" : 3.62350
+      },
+      {
+         "a" : -3.08920,
+         "creature" : "zombie_2",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -0.56710,
+         "z" : 3.49540
+      },
+      {
+         "a" : -3.08920,
+         "creature" : "zombie_2",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -1.00840,
+         "z" : 3.21330
+      },
+      {
+         "a" : -1.45440,
+         "creature" : "zombie_2",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -1.28470,
+         "z" : 3.40960
+      },
+      {
+         "a" : 0.55270,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -2.98390,
+         "z" : 0.79210
+      },
+      {
+         "a" : -0.70980,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -3.180,
+         "z" : 0.90050
+      },
+      {
+         "a" : 0.51780,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -3.03110,
+         "z" : 1.57290
+      },
+      {
+         "a" : 1.05880,
+         "creature" : "ghost04",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -2.95960,
+         "z" : 1.14130
+      },
+      {
+         "a" : 2.33870,
+         "creature" : "ghost03",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -3.12430,
+         "z" : 0.7080
+      },
+      {
+         "a" : 0.5701000000000001,
+         "creature" : "ghost03",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -3.38150,
+         "z" : 0.99390
+      },
+      {
+         "a" : 1.02970,
+         "creature" : "ghost03",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "x" : -3.2990,
+         "z" : 0.8431999999999999
+      }
+   ],
+   "fog" : [ 17, 22, 22 ],
+   "heroOmni" : {
+      "blue" : 0.13330,
+      "green" : 0.32550,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 0.34120
+   },
+   "lightCol" : [ 0, 0, 0 ],
+   "lightDir" : [ -0.62470, -0.46850, 0.62470 ],
+   "props" : [
+      {
+         "heading" : 0.0,
+         "height" : 0.00670,
+         "name" : "blocker",
+         "scaling" : 1.50530,
+         "x" : 5.78080,
+         "y" : 0.00670,
+         "z" : -5.8040
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00910,
+         "name" : "blocker",
+         "scaling" : 1.50530,
+         "x" : 5.63010,
+         "y" : 0.00910,
+         "z" : -5.95240
+      },
+      {
+         "gameObject" : "CommonChest",
+         "gameObjectParams" : null,
+         "heading" : 2.35620,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : 1.920,
+         "y" : 0.0,
+         "z" : -2.33470
+      },
+      {
+         "gameObject" : "CommonChest",
+         "gameObjectParams" : null,
+         "heading" : 3.57790,
+         "height" : -0.00020,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : 3.20820,
+         "y" : -0.00020,
+         "z" : -3.33480
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.54190,
+         "x" : 3.45980,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.00050,
+         "name" : "Dummy",
+         "scaling" : 1.69050,
+         "x" : 5.20670,
+         "y" : 0.00050,
+         "z" : -1.67760
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.5440,
+         "x" : 2.9430,
+         "y" : 0.0,
+         "z" : -4.72750
+      },
+      {
+         "gameObject" : "AreaTrigger",
+         "gameObjectParams" : {
+            "enterEvent" : "enterBridge1",
+            "leaveEvent" : "leaveBridge1",
+            "triggerOnce" : true,
+            "triggerRadius" : 0.150
+         },
+         "heading" : 0.0,
+         "height" : 0.30040,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 5.20670,
+         "y" : 0.0005999999999999999,
+         "z" : -0.74990
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "enterBridge1",
+            "creature" : "skeleton_warrior",
+            "deactivatedBy" : "",
+            "duration" : 3,
+            "spawnCooldown" : 1
+         },
+         "heading" : 0.0,
+         "height" : 0.14510,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 5.4020,
+         "y" : 0.00050,
+         "z" : -1.09170
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "enterBridge1",
+            "creature" : "skeleton_warrior",
+            "deactivatedBy" : "",
+            "duration" : 3,
+            "spawnCooldown" : 1
+         },
+         "heading" : 0.0,
+         "height" : 0.08590,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 5.01140,
+         "y" : 0.0005999999999999999,
+         "z" : -1.09170
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "enterBridge1",
+            "creature" : "skeleton_ranger",
+            "deactivatedBy" : "",
+            "duration" : 3,
+            "spawnCooldown" : 1
+         },
+         "heading" : 0.0,
+         "height" : 0.18380,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 5.4020,
+         "y" : 0.0005999999999999999,
+         "z" : -0.35930
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "enterBridge1",
+            "creature" : "skeleton_ranger",
+            "deactivatedBy" : "",
+            "duration" : 3,
+            "spawnCooldown" : 1
+         },
+         "heading" : 0.0,
+         "height" : 0.14380,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 5.01140,
+         "y" : 0.0005999999999999999,
+         "z" : -0.35930
+      },
+      {
+         "gameObject" : "AreaTrigger",
+         "gameObjectParams" : {
+            "enterEvent" : "EnterAmbush1",
+            "leaveEvent" : "LeaveAmbush1",
+            "triggerOnce" : true,
+            "triggerRadius" : 0.150
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.7020,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "EnterAmbush1",
+            "creature" : "skeleton_grunt",
+            "deactivatedBy" : "",
+            "duration" : 6,
+            "spawnCooldown" : 1
+         },
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.9950,
+         "y" : -0.02170,
+         "z" : 1.57420
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "EnterAmbush1",
+            "creature" : "skeleton_grunt",
+            "deactivatedBy" : "",
+            "duration" : 6,
+            "spawnCooldown" : 1
+         },
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.9950,
+         "y" : -0.00020,
+         "z" : 1.96490
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "EnterAmbush1",
+            "creature" : "skeleton_grunt",
+            "deactivatedBy" : "",
+            "duration" : 6,
+            "spawnCooldown" : 1
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.43340,
+         "y" : 0.0,
+         "z" : 1.57420
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "EnterAmbush1",
+            "creature" : "skeleton_grunt",
+            "deactivatedBy" : "",
+            "duration" : 12,
+            "spawnCooldown" : 3
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.4090,
+         "y" : 0.0,
+         "z" : 1.96490
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "EnterAmbush1",
+            "creature" : "black_reaper",
+            "deactivatedBy" : "",
+            "duration" : 6,
+            "spawnCooldown" : 2
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.58090,
+         "y" : 0.0,
+         "z" : 1.59860
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "EnterAmbush1",
+            "creature" : "red_reaper",
+            "deactivatedBy" : "",
+            "duration" : 6,
+            "spawnCooldown" : 2
+         },
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.58090,
+         "y" : -0.00030,
+         "z" : 1.96490
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "EnterAmbush1",
+            "creature" : "skeleton_heavy_ranger",
+            "deactivatedBy" : "",
+            "duration" : 6,
+            "spawnCooldown" : 2
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.8231000000000001,
+         "y" : 0.0,
+         "z" : 1.59860
+      },
+      {
+         "gameObject" : "SpawnPoint",
+         "gameObjectParams" : {
+            "activatedBy" : "EnterAmbush1",
+            "creature" : "skeleton_heavy_ranger",
+            "deactivatedBy" : "",
+            "duration" : 6,
+            "spawnCooldown" : 2
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.8231000000000001,
+         "y" : 0.0,
+         "z" : 1.94040
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : -3.12520,
+         "name" : "Chest 03",
+         "scaling" : 1.0,
+         "x" : 0.6316000000000001,
+         "y" : 0.0,
+         "z" : -1.89150
+      },
+      {
+         "gameObject" : "LockedChest",
+         "gameObjectParams" : null,
+         "heading" : 2.70530,
+         "name" : "Chest 04",
+         "scaling" : 1.28880,
+         "x" : 3.93380,
+         "y" : 0.0,
+         "z" : -1.54130
+      },
+      {
+         "gameObject" : "EpicChest",
+         "gameObjectParams" : null,
+         "heading" : 3.9270,
+         "name" : "Chest 03",
+         "scaling" : 1.05850,
+         "x" : -4.34280,
+         "y" : 0.0,
+         "z" : 4.41880
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Measure 16x",
+         "scaling" : 1.0,
+         "x" : 6.07720,
+         "y" : 0.0,
+         "z" : -4.47260
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Measure 4x",
+         "scaling" : 1.0,
+         "x" : 6.35340,
+         "y" : 0.0,
+         "z" : -4.74880
+      },
+      {
+         "heading" : 0.78540,
+         "height" : -0.00350,
+         "name" : "Mine Arch 01",
+         "scaling" : 1.0,
+         "x" : 5.31760,
+         "y" : -0.0,
+         "z" : -4.81790
+      },
+      {
+         "heading" : 3.9270,
+         "height" : -0.1950,
+         "name" : "Mine Arch 01",
+         "scaling" : 1.0,
+         "x" : 4.93780,
+         "y" : -0.0,
+         "z" : -5.19770
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Beam 01",
+         "scaling" : 1.0,
+         "x" : 5.19680,
+         "y" : 0.0,
+         "z" : -4.93870
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Measure 2x",
+         "scaling" : 1.0,
+         "x" : 6.42250,
+         "y" : 0.0,
+         "z" : -4.81790
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Measure 1x",
+         "scaling" : 1.0,
+         "x" : 6.4570,
+         "y" : 0.0,
+         "z" : -4.85240
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Beam 01",
+         "scaling" : 1.0,
+         "x" : 5.05870,
+         "y" : 0.0,
+         "z" : -5.07680
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.17550,
+         "name" : "Mine Lamp 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 5.12850,
+         "y" : 0.17550,
+         "z" : -5.01030
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 4.41990,
+         "y" : 0.0,
+         "z" : -4.33450
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 4.48890,
+         "y" : 0.0,
+         "z" : -4.19640
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 4.48890,
+         "y" : 0.0,
+         "z" : -4.54170
+      },
+      {
+         "heading" : 7.06860,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 4.48890,
+         "y" : 0.0,
+         "z" : -4.47260
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 4.86870,
+         "y" : 0.0,
+         "z" : -3.81660
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.25640,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.70,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 5.10020,
+         "y" : 0.25640,
+         "z" : -3.68910
+      },
+      {
+         "heading" : 2.44350,
+         "height" : 0.04790,
+         "name" : "Blue Mine Crystal 04",
+         "scaling" : 0.90620,
+         "x" : 4.84690,
+         "y" : 0.04790,
+         "z" : -3.8330
+      },
+      {
+         "heading" : 2.53070,
+         "height" : 0.04790,
+         "name" : "Blue Mine Crystal 02",
+         "scaling" : 0.72350,
+         "x" : 4.88850,
+         "y" : 0.04790,
+         "z" : -3.79280
+      },
+      {
+         "heading" : 6.80680,
+         "name" : "Mine Rail Plank 01",
+         "scaling" : 1.0,
+         "x" : 4.47160,
+         "y" : 0.0,
+         "z" : -4.45540
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Plank 01",
+         "scaling" : 1.0,
+         "x" : 4.48890,
+         "y" : 0.0,
+         "z" : -4.19640
+      },
+      {
+         "heading" : 6.02140,
+         "name" : "Mine Rail Plank 02",
+         "scaling" : 1.0,
+         "x" : 4.41980,
+         "y" : 0.0,
+         "z" : -4.30
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00890,
+         "name" : "blocker",
+         "scaling" : 1.50530,
+         "x" : 5.45020,
+         "y" : 0.00910,
+         "z" : -6.09250
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Arch 01",
+         "scaling" : 1.0,
+         "x" : 5.8010,
+         "y" : 0.0,
+         "z" : -5.81920
+      },
+      {
+         "heading" : 3.9270,
+         "height" : -0.04650,
+         "name" : "Mine Arch 01",
+         "scaling" : 1.0,
+         "x" : 5.42120,
+         "y" : 0.00210,
+         "z" : -6.1990
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Beam 01",
+         "scaling" : 1.0,
+         "x" : 5.54210,
+         "y" : 0.0,
+         "z" : -6.07810
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Beam 01",
+         "scaling" : 1.0,
+         "x" : 5.68020,
+         "y" : 0.0,
+         "z" : -5.940
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Pillar 01",
+         "scaling" : 1.0,
+         "x" : 5.52480,
+         "y" : 0.0,
+         "z" : -6.09540
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Pillar 01",
+         "scaling" : 1.0,
+         "x" : 5.71470,
+         "y" : 0.0,
+         "z" : -5.90550
+      },
+      {
+         "heading" : 3.9270,
+         "height" : -0.00010,
+         "name" : "Barrier 01",
+         "scaling" : 1.0,
+         "x" : 5.8010,
+         "y" : 0.0,
+         "z" : -5.78460
+      },
+      {
+         "heading" : 3.9270,
+         "height" : -0.01860,
+         "name" : "Barrier 01",
+         "scaling" : 1.0,
+         "x" : 5.43850,
+         "y" : 0.00120,
+         "z" : -6.18170
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Gate Doors 02",
+         "scaling" : 1.0,
+         "x" : 5.61110,
+         "y" : 0.0,
+         "z" : -6.00910
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "name" : "Crate 01",
+         "scaling" : 1.60860,
+         "x" : 5.93770,
+         "y" : 0.0,
+         "z" : -5.30880
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.14870,
+         "name" : "Crate 02",
+         "scaling" : 1.26180,
+         "x" : 5.92580,
+         "y" : 0.0,
+         "z" : -5.42190
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.84690,
+         "name" : "Crate 01",
+         "scaling" : 1.26180,
+         "x" : 5.8430,
+         "y" : 0.0,
+         "z" : -5.29620
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.84690,
+         "name" : "Crate 01",
+         "scaling" : 1.26180,
+         "x" : 4.97730,
+         "y" : 0.0,
+         "z" : -5.65470
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 6.80680,
+         "name" : "Crate 02",
+         "scaling" : 1.53170,
+         "x" : 4.99950,
+         "y" : 0.0,
+         "z" : -5.76190
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.75960,
+         "height" : -0.00020,
+         "name" : "Crate 01",
+         "scaling" : 1.26180,
+         "x" : 5.36850,
+         "y" : -0.0,
+         "z" : -3.70460
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.06150,
+         "name" : "Crate 01",
+         "scaling" : 1.54440,
+         "x" : 5.30940,
+         "y" : 0.0,
+         "z" : -3.64020
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : 4.73070,
+         "y" : 0.0,
+         "z" : -4.71430
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : 4.97230,
+         "y" : 0.0,
+         "z" : -3.7130
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 3.85020,
+         "y" : 0.0,
+         "z" : -5.18050
+      },
+      {
+         "heading" : 7.06860,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 3.6430,
+         "y" : 0.0,
+         "z" : -5.11140
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 3.43580,
+         "y" : 0.0,
+         "z" : -5.18050
+      },
+      {
+         "heading" : 4.79970,
+         "name" : "Mine Rail Plank 02",
+         "scaling" : 1.0,
+         "x" : 3.88470,
+         "y" : 0.0,
+         "z" : -5.18050
+      },
+      {
+         "heading" : 7.50490,
+         "name" : "Mine Rail Plank 02",
+         "scaling" : 1.0,
+         "x" : 3.72930,
+         "y" : 0.0,
+         "z" : -5.12870
+      },
+      {
+         "heading" : 8.028499999999999,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : 3.5930,
+         "y" : 0.0,
+         "z" : -5.11220
+      },
+      {
+         "heading" : 7.67940,
+         "name" : "Mine Rail Plank 01",
+         "scaling" : 1.0,
+         "x" : 3.43580,
+         "y" : 0.0,
+         "z" : -5.18050
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 2.77980,
+         "y" : 0.0,
+         "z" : -4.52450
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 2.71080,
+         "y" : 0.0,
+         "z" : -4.59350
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : 2.29650,
+         "y" : 0.0,
+         "z" : -4.93880
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 2.38280,
+         "y" : 0.0,
+         "z" : -4.85250
+      },
+      {
+         "heading" : 4.62510,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : 2.6590,
+         "y" : 0.0,
+         "z" : -4.20990
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 2.52540,
+         "y" : 0.0,
+         "z" : -4.30490
+      },
+      {
+         "heading" : 1.65810,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : 2.84440,
+         "y" : 0.0,
+         "z" : -4.03060
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 2.62450,
+         "y" : 0.0,
+         "z" : -4.40360
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.07880,
+         "name" : "Mine Lamp 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 4.24160,
+         "y" : 0.08169999999999999,
+         "z" : -4.35780
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "height" : 0.00310,
+         "name" : "Barrel 01",
+         "scaling" : 1.0,
+         "x" : 4.24270,
+         "y" : 0.00560,
+         "z" : -4.35490
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.17450,
+         "height" : 0.00430,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : 4.30190,
+         "y" : 0.00430,
+         "z" : -4.32670
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 6.10870,
+         "height" : 0.00310,
+         "name" : "Crate 01",
+         "scaling" : 1.0,
+         "x" : 4.21780,
+         "y" : 0.00380,
+         "z" : -4.40960
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.58510,
+         "name" : "Crate 01",
+         "scaling" : 1.2970,
+         "x" : 4.24570,
+         "y" : 0.0,
+         "z" : -4.24350
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 4.97420,
+         "height" : 0.0050,
+         "name" : "Crate 02",
+         "scaling" : 1.12140,
+         "x" : 4.27490,
+         "y" : 0.0050,
+         "z" : -4.41060
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 3.21140,
+         "y" : 0.0,
+         "z" : -3.95480
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.00780,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 2.41730,
+         "y" : 0.0,
+         "z" : -3.09160
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.3450,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 2.48640,
+         "y" : -0.00020,
+         "z" : -3.16070
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.01410,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 2.7280,
+         "y" : 0.0,
+         "z" : -3.40230
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Mine Rail Plank 02",
+         "scaling" : 1.0,
+         "x" : 3.21140,
+         "y" : 0.0,
+         "z" : -3.92020
+      },
+      {
+         "heading" : 4.36330,
+         "height" : 0.01410,
+         "name" : "Mine Rail Plank 04",
+         "scaling" : 1.0,
+         "x" : 2.7280,
+         "y" : 0.0,
+         "z" : -3.40230
+      },
+      {
+         "heading" : 4.01430,
+         "height" : 0.00780,
+         "name" : "Mine Rail Plank 01",
+         "scaling" : 1.0,
+         "x" : 2.41730,
+         "y" : 0.0,
+         "z" : -3.09160
+      },
+      {
+         "heading" : 0.87270,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 2.96970,
+         "y" : 0.0,
+         "z" : -3.43690
+      },
+      {
+         "heading" : 3.22890,
+         "height" : -0.00380,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : 3.08140,
+         "y" : -0.00380,
+         "z" : -3.44420
+      },
+      {
+         "heading" : 8.202999999999999,
+         "name" : "Blue Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : 3.09760,
+         "y" : 0.0,
+         "z" : -3.55640
+      },
+      {
+         "heading" : 6.71950,
+         "name" : "Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 2.99780,
+         "y" : 0.0,
+         "z" : -3.48730
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.01320,
+         "name" : "rope Bridge Segment 01",
+         "scaling" : 0.74730,
+         "x" : 1.38880,
+         "y" : 0.01320,
+         "z" : -4.69140
+      },
+      {
+         "heading" : 0.78540,
+         "height" : 0.40630,
+         "name" : "rope Bridge Segment 01",
+         "scaling" : 0.74730,
+         "x" : 1.18240,
+         "y" : 0.01320,
+         "z" : -4.4850
+      },
+      {
+         "heading" : 0.78540,
+         "height" : 0.41320,
+         "name" : "rope Bridge Segment 04",
+         "scaling" : 0.74730,
+         "x" : 0.9760,
+         "y" : 0.01320,
+         "z" : -4.27860
+      },
+      {
+         "heading" : 0.78540,
+         "height" : 0.01320,
+         "name" : "rope Bridge Segment 03",
+         "scaling" : 0.74730,
+         "x" : 0.76960,
+         "y" : 0.01320,
+         "z" : -4.07220
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.01320,
+         "name" : "Rope Bridge Pillar Short 01",
+         "scaling" : 0.74730,
+         "x" : 1.38880,
+         "y" : 0.01320,
+         "z" : -4.69140
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.40630,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 1.18240,
+         "y" : 0.01320,
+         "z" : -4.4850
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.41320,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 0.9760,
+         "y" : 0.01320,
+         "z" : -4.27860
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.01320,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 0.76960,
+         "y" : 0.01320,
+         "z" : -4.07220
+      },
+      {
+         "heading" : 2.35620,
+         "height" : 0.01320,
+         "name" : "Rope Bridge Pillar Short 01",
+         "scaling" : 0.74730,
+         "x" : 0.76960,
+         "y" : 0.01320,
+         "z" : -4.07220
+      },
+      {
+         "heading" : 0.78540,
+         "height" : 0.01320,
+         "name" : "Rope Bridge Pillar Short 01",
+         "scaling" : 0.74730,
+         "x" : 0.76960,
+         "y" : 0.01320,
+         "z" : -4.07220
+      },
+      {
+         "heading" : 0.78540,
+         "height" : 0.41320,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 0.9760,
+         "y" : 0.01320,
+         "z" : -4.27860
+      },
+      {
+         "heading" : 0.78540,
+         "height" : 0.40630,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 1.18240,
+         "y" : 0.01320,
+         "z" : -4.4850
+      },
+      {
+         "heading" : 0.78540,
+         "height" : 0.01320,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 1.38880,
+         "y" : 0.01320,
+         "z" : -4.69140
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.01320,
+         "name" : "Rope Bridge Pillar Short 01",
+         "scaling" : 0.74730,
+         "x" : 1.38880,
+         "y" : 0.01320,
+         "z" : -4.69140
+      },
+      {
+         "heading" : 7.06860,
+         "height" : 0.01320,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 1.38880,
+         "y" : 0.01320,
+         "z" : -4.69140
+      },
+      {
+         "heading" : 7.06860,
+         "height" : 0.40630,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 1.18240,
+         "y" : 0.01320,
+         "z" : -4.4850
+      },
+      {
+         "heading" : 7.06860,
+         "height" : 0.41320,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 0.9760,
+         "y" : 0.01320,
+         "z" : -4.27860
+      },
+      {
+         "heading" : 7.06860,
+         "height" : 0.01320,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 0.76960,
+         "y" : 0.01320,
+         "z" : -4.07220
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.01320,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 0.76960,
+         "y" : 0.01320,
+         "z" : -4.07220
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.41320,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 0.9760,
+         "y" : 0.01320,
+         "z" : -4.27860
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.40630,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 1.18240,
+         "y" : 0.01320,
+         "z" : -4.4850
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.01320,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 1.38880,
+         "y" : 0.01320,
+         "z" : -4.69140
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00110,
+         "name" : "Dark Brick Wall Pillar 01",
+         "scaling" : 0.98380,
+         "x" : 0.97390,
+         "y" : -0.39880,
+         "z" : -4.48510
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00110,
+         "name" : "Dark Brick Wall Pillar 01",
+         "scaling" : 0.98380,
+         "x" : 1.18730,
+         "y" : -0.39890,
+         "z" : -4.26980
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 0.85620,
+         "y" : 0.0,
+         "z" : -3.87930
+      },
+      {
+         "heading" : 1.74530,
+         "name" : "Blue Mine Crystal 04",
+         "scaling" : 0.7675999999999999,
+         "x" : 3.11780,
+         "y" : 0.0,
+         "z" : -3.36550
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 4.67880,
+         "y" : 0.0,
+         "z" : -4.00650
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X1 01",
+         "scaling" : 1.0,
+         "x" : 4.86870,
+         "y" : 0.0,
+         "z" : -3.81660
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 4.2990,
+         "y" : 0.0,
+         "z" : -4.80070
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X1 01",
+         "scaling" : 1.0,
+         "x" : 4.09180,
+         "y" : 0.0,
+         "z" : -5.00780
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X1 01",
+         "scaling" : 1.0,
+         "x" : 4.00550,
+         "y" : 0.0,
+         "z" : -5.09410
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 3.17690,
+         "y" : 0.0,
+         "z" : -4.99060
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X2 01",
+         "scaling" : 1.0,
+         "x" : 2.91790,
+         "y" : 0.0,
+         "z" : -4.73160
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : 2.45180,
+         "y" : 0.0,
+         "z" : -4.78340
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Rail Combo X2 01",
+         "scaling" : 1.0,
+         "x" : 2.91790,
+         "y" : 0.0,
+         "z" : -4.31730
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X2 01",
+         "scaling" : 1.0,
+         "x" : 2.86610,
+         "y" : 0.0,
+         "z" : -3.54040
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Rail Combo X1 01",
+         "scaling" : 1.0,
+         "x" : 3.07330,
+         "y" : 0.0,
+         "z" : -4.16190
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X1 02",
+         "scaling" : 1.0,
+         "x" : 3.12510,
+         "y" : 0.0,
+         "z" : -3.79940
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X1 02",
+         "scaling" : 1.0,
+         "x" : 3.02150,
+         "y" : 0.0,
+         "z" : -3.69580
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 3.14240,
+         "y" : 0.0,
+         "z" : -4.09290
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Plank 02",
+         "scaling" : 1.0,
+         "x" : 3.17690,
+         "y" : 0.0,
+         "z" : -4.05830
+      },
+      {
+         "heading" : 5.93410,
+         "name" : "Mine Rail Plank 01",
+         "scaling" : 1.0,
+         "x" : 2.77980,
+         "y" : 0.0,
+         "z" : -4.48990
+      },
+      {
+         "heading" : 4.97420,
+         "name" : "Mine Rail Plank 06",
+         "scaling" : 1.0,
+         "x" : 2.67620,
+         "y" : 0.0,
+         "z" : -4.59350
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 4.9550,
+         "y" : 0.0,
+         "z" : -3.73030
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 4.5580,
+         "y" : 0.0,
+         "z" : -4.54170
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 4.6270,
+         "y" : 0.0,
+         "z" : -4.61080
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 4.69610,
+         "y" : 0.0,
+         "z" : -4.67980
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Plank 05",
+         "scaling" : 1.0,
+         "x" : 4.6270,
+         "y" : 0.0,
+         "z" : -4.61080
+      },
+      {
+         "heading" : 2.96710,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : 4.48890,
+         "y" : 0.0,
+         "z" : -4.57620
+      },
+      {
+         "heading" : 3.66520,
+         "height" : -0.00170,
+         "name" : "Mine Rail Plank 05",
+         "scaling" : 1.0,
+         "x" : 2.56070,
+         "y" : -0.40030,
+         "z" : -3.18950
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 2.22740,
+         "y" : 0.0,
+         "z" : -2.90170
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 1.65770,
+         "y" : 0.0,
+         "z" : -2.40110
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 1.39880,
+         "y" : 0.0,
+         "z" : -2.5910
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 1.0880,
+         "y" : 0.0,
+         "z" : -2.90170
+      },
+      {
+         "heading" : 1.48350,
+         "name" : "Mine Rail Plank 04",
+         "scaling" : 1.0,
+         "x" : 1.65770,
+         "y" : 0.0,
+         "z" : -2.40110
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 0.46650,
+         "y" : 0.0,
+         "z" : -3.52320
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 0.15580,
+         "y" : 0.0,
+         "z" : -3.83390
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -0.15490,
+         "y" : 0.0,
+         "z" : -4.14470
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : 1.91670,
+         "y" : 0.0,
+         "z" : -2.5910
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 0.72550,
+         "y" : 0.0,
+         "z" : -3.19520
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X1 01",
+         "scaling" : 1.0,
+         "x" : 0.88090,
+         "y" : 0.0,
+         "z" : -3.10890
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 0.65640,
+         "y" : 0.0,
+         "z" : -3.26420
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 0.46650,
+         "y" : 0.0,
+         "z" : -3.00530
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 0.15580,
+         "y" : 0.0,
+         "z" : -2.69460
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -0.15490,
+         "y" : 0.0,
+         "z" : -2.38380
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -0.46570,
+         "y" : 0.0,
+         "z" : -2.07310
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -0.46570,
+         "y" : 0.0,
+         "z" : -4.45540
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : -0.72460,
+         "y" : 0.0,
+         "z" : -4.64530
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -0.98360,
+         "y" : 0.0,
+         "z" : -4.45540
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Mine Rail Plank 04",
+         "scaling" : 1.0,
+         "x" : -0.72460,
+         "y" : 0.0,
+         "z" : -4.64530
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : -1.13890,
+         "y" : 0.0,
+         "z" : -4.30010
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -1.05260,
+         "y" : 0.0,
+         "z" : -4.38640
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -0.2240,
+         "y" : 0.0,
+         "z" : -4.21370
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -0.34480,
+         "y" : 0.0,
+         "z" : -4.33460
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 0.05220,
+         "y" : 0.0,
+         "z" : -3.93750
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.25690,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.70,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.750
+         },
+         "scaling" : 1.0,
+         "x" : -1.23260,
+         "y" : 0.25690,
+         "z" : -4.20430
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.25540,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.70,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.750
+         },
+         "scaling" : 1.0,
+         "x" : -1.40740,
+         "y" : 0.25540,
+         "z" : -4.77010
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.04910,
+         "name" : "Blue Mine Crystal 04",
+         "scaling" : 0.68870,
+         "x" : 0.06180,
+         "y" : 0.04910,
+         "z" : -3.9280
+      },
+      {
+         "heading" : 5.14870,
+         "height" : 0.04910,
+         "name" : "Blue Mine Crystal 04",
+         "scaling" : 0.68870,
+         "x" : -0.33440,
+         "y" : 0.04910,
+         "z" : -4.33490
+      },
+      {
+         "heading" : 4.36330,
+         "height" : 0.04910,
+         "name" : "Blue Mine Crystal 02",
+         "scaling" : 0.68870,
+         "x" : -0.21370,
+         "y" : 0.04910,
+         "z" : -4.21350
+      },
+      {
+         "heading" : 1.22170,
+         "height" : 0.04910,
+         "name" : "Blue Mine Crystal 02",
+         "scaling" : 0.68870,
+         "x" : -0.2340,
+         "y" : 0.04910,
+         "z" : -4.23940
+      },
+      {
+         "heading" : 4.88690,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : -0.50130,
+         "y" : 0.0,
+         "z" : -4.66230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.25540,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.70,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.70
+         },
+         "scaling" : 1.0,
+         "x" : -0.09450,
+         "y" : 0.25540,
+         "z" : -4.15730
+      },
+      {
+         "heading" : 0.95990,
+         "name" : "Blue Mine Crystal 03",
+         "scaling" : 0.89520,
+         "x" : -0.480,
+         "y" : 0.0,
+         "z" : -4.73040
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 5.67230,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.2420,
+         "y" : 0.0,
+         "z" : -4.62930
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 5.67230,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.1170,
+         "y" : 0.0,
+         "z" : -4.84580
+      },
+      {
+         "heading" : 4.36330,
+         "name" : "Blue Mine Crystal 01",
+         "scaling" : 0.63480,
+         "x" : -0.51950,
+         "y" : 0.0,
+         "z" : -4.79850
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "height" : -0.00020,
+         "name" : "Crate 01",
+         "scaling" : 1.67710,
+         "x" : -1.17490,
+         "y" : -0.00020,
+         "z" : -4.26860
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "height" : -0.00450,
+         "name" : "Crate 01",
+         "scaling" : 1.67710,
+         "x" : -1.26780,
+         "y" : 0.00040,
+         "z" : -4.99390
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.93410,
+         "height" : -0.00330,
+         "name" : "Crate 02",
+         "scaling" : 1.67710,
+         "x" : -1.34780,
+         "y" : 0.00040,
+         "z" : -4.91690
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 6.45770,
+         "name" : "Crate 02",
+         "scaling" : 1.67710,
+         "x" : -1.59150,
+         "y" : 0.0,
+         "z" : -4.60830
+      },
+      {
+         "heading" : 4.62510,
+         "height" : 0.03870,
+         "name" : "Blue Mine Crystal 01",
+         "scaling" : 0.63480,
+         "x" : -1.59250,
+         "y" : 0.03870,
+         "z" : -4.59470
+      },
+      {
+         "heading" : 4.97420,
+         "height" : -0.0,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 0.97670,
+         "x" : 5.42030,
+         "y" : 0.0,
+         "z" : -3.95690
+      },
+      {
+         "heading" : 4.97420,
+         "height" : -0.0,
+         "name" : " Glowing Blue Mine Crystal 03",
+         "scaling" : 0.97670,
+         "x" : 5.44570,
+         "y" : 0.0,
+         "z" : -3.84760
+      },
+      {
+         "heading" : 1.22170,
+         "height" : -0.01870,
+         "name" : " Glowing Blue Mine Crystal 04",
+         "scaling" : 1.25030,
+         "x" : 5.2670,
+         "y" : -0.01870,
+         "z" : -3.54760
+      },
+      {
+         "heading" : 4.62510,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 0.9419999999999999,
+         "x" : 5.18880,
+         "y" : 0.0,
+         "z" : -3.48390
+      },
+      {
+         "heading" : 5.58510,
+         "height" : -0.00090,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.32120,
+         "x" : 5.20890,
+         "y" : 0.0,
+         "z" : -3.35660
+      },
+      {
+         "heading" : 1.22170,
+         "height" : 0.00020,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.25030,
+         "x" : 5.05570,
+         "y" : 0.00020,
+         "z" : -3.43060
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02020,
+         "name" : " Glowing Blue Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : 0.05860,
+         "y" : -0.0,
+         "z" : -4.3820
+      },
+      {
+         "heading" : 1.22170,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -1.06990,
+         "y" : 0.0,
+         "z" : -4.02380
+      },
+      {
+         "heading" : 0.0,
+         "name" : " Glowing Blue Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : -1.29430,
+         "y" : 0.0,
+         "z" : -3.9030
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00150,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -1.38060,
+         "y" : 0.0,
+         "z" : -3.98930
+      },
+      {
+         "heading" : 0.0,
+         "name" : " Glowing Blue Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : -1.62230,
+         "y" : 0.0,
+         "z" : -4.50720
+      },
+      {
+         "heading" : 1.22170,
+         "height" : -0.00450,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -1.58780,
+         "y" : -0.0,
+         "z" : -4.74890
+      },
+      {
+         "heading" : 3.66520,
+         "height" : 0.04910,
+         "name" : "Blue Mine Crystal 01",
+         "scaling" : 0.68870,
+         "x" : 0.03910,
+         "y" : 0.04910,
+         "z" : -3.95020
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "height" : 0.00650,
+         "name" : "Crate 01",
+         "scaling" : 1.38440,
+         "x" : 3.12240,
+         "y" : 0.00650,
+         "z" : -3.65220
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 0.75060,
+         "y" : 0.0,
+         "z" : -2.73350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18240,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.70,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.850
+         },
+         "scaling" : 1.0,
+         "x" : 1.82230,
+         "y" : 0.18240,
+         "z" : -2.57570
+      },
+      {
+         "heading" : 5.93410,
+         "height" : 0.0020,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 1.99180,
+         "y" : 0.0020,
+         "z" : -2.41450
+      },
+      {
+         "heading" : 7.24310,
+         "height" : 0.00430,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 0.77390,
+         "x" : 1.83660,
+         "y" : 0.00430,
+         "z" : -2.27660
+      },
+      {
+         "heading" : 7.59220,
+         "height" : -0.00440,
+         "name" : " Glowing Blue Mine Crystal 03",
+         "scaling" : 0.77390,
+         "x" : 2.05050,
+         "y" : -0.00440,
+         "z" : -2.46860
+      },
+      {
+         "heading" : 7.8540,
+         "name" : " Glowing Blue Mine Crystal 03",
+         "scaling" : 0.6710,
+         "x" : 1.8030,
+         "y" : 0.00090,
+         "z" : -2.86690
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.0010,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : 2.28620,
+         "y" : -0.0010,
+         "z" : -2.77930
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "name" : "Crate 01",
+         "scaling" : 1.38440,
+         "x" : 2.09020,
+         "y" : 0.0,
+         "z" : -3.21790
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 4.45060,
+         "name" : "Crate 02",
+         "scaling" : 1.38440,
+         "x" : 2.18940,
+         "y" : 0.0,
+         "z" : -3.15930
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.41050,
+         "name" : "Crate 01",
+         "scaling" : 1.59530,
+         "x" : 0.7910,
+         "y" : 0.0,
+         "z" : -2.82020
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 6.37050,
+         "name" : "Crate 01",
+         "scaling" : 1.39610,
+         "x" : 0.6830000000000001,
+         "y" : 0.0,
+         "z" : -2.80190
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "name" : "Barrel 01",
+         "scaling" : 1.0,
+         "x" : 0.73330,
+         "y" : 0.0,
+         "z" : -2.89830
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "name" : "Barrel 01",
+         "scaling" : 1.0,
+         "x" : 0.8342000000000001,
+         "y" : 0.0,
+         "z" : -2.71570
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 4.88690,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : 0.66070,
+         "y" : 0.0,
+         "z" : -2.72770
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : 0.88970,
+         "y" : 0.0,
+         "z" : -2.7860
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X2 01",
+         "scaling" : 1.0,
+         "x" : 0.72550,
+         "y" : 0.0,
+         "z" : -3.26420
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -0.77640,
+         "y" : 0.0,
+         "z" : -1.76240
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : -0.96630,
+         "y" : 0.0,
+         "z" : -1.50340
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : -1.1390,
+         "y" : 0.0,
+         "z" : -1.46890
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X1 02",
+         "scaling" : 1.0,
+         "x" : -0.98360,
+         "y" : 0.0,
+         "z" : -1.55520
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -1.39790,
+         "y" : 0.0,
+         "z" : -1.65880
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : -1.65690,
+         "y" : 0.0,
+         "z" : -1.84870
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -1.91580,
+         "y" : 0.0,
+         "z" : -1.65880
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : -2.17480,
+         "y" : 0.0,
+         "z" : -1.46890
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -2.43370,
+         "y" : 0.0,
+         "z" : -1.65880
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -2.74450,
+         "y" : 0.0,
+         "z" : -1.96950
+      },
+      {
+         "gameObject" : "CommonChest",
+         "gameObjectParams" : null,
+         "heading" : 5.49780,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : -2.89980,
+         "y" : 0.0,
+         "z" : -2.12490
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -0.77640,
+         "y" : 0.0,
+         "z" : -1.24450
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -0.46570,
+         "y" : 0.0,
+         "z" : -0.93370
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 0.15580,
+         "y" : 0.0,
+         "z" : -0.31220
+      },
+      {
+         "heading" : 0.78540,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 0.62190,
+         "y" : 0.0,
+         "z" : 0.08480
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Mine Rail Plank 05",
+         "scaling" : 1.0,
+         "x" : -1.1390,
+         "y" : 0.0,
+         "z" : -1.46890
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : -1.65690,
+         "y" : 0.0,
+         "z" : -1.84870
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Mine Rail Plank 01",
+         "scaling" : 1.0,
+         "x" : -2.17480,
+         "y" : 0.0,
+         "z" : -1.46890
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Mine Rail Plank 04",
+         "scaling" : 1.0,
+         "x" : 0.62190,
+         "y" : 0.0,
+         "z" : 0.08480
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 0.88080,
+         "y" : 0.0,
+         "z" : -0.10510
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X2 03",
+         "scaling" : 1.0,
+         "x" : 0.41470,
+         "y" : 0.0,
+         "z" : -0.05330
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : 1.19160,
+         "y" : 0.0,
+         "z" : -0.41580
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 1.50230,
+         "y" : 0.0,
+         "z" : -0.72650
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 1.81310,
+         "y" : 0.0,
+         "z" : -1.03730
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : 2.12380,
+         "y" : 0.0,
+         "z" : -1.3480
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 2.43450,
+         "y" : 0.0,
+         "z" : -1.65880
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -2.520,
+         "y" : 0.0,
+         "z" : -1.74510
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -2.81350,
+         "y" : 0.0,
+         "z" : -2.03860
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -1.41520,
+         "y" : 0.0,
+         "z" : -1.67610
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 0.44920,
+         "y" : 0.0,
+         "z" : -0.01880
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 0.79450,
+         "y" : 0.0,
+         "z" : -0.01870
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 0.62190,
+         "y" : 0.0,
+         "z" : 0.08480
+      },
+      {
+         "heading" : 4.36330,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : -1.88130,
+         "y" : 0.0,
+         "z" : -2.34930
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 1.13980,
+         "y" : 0.0,
+         "z" : -0.3640
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 2.69350,
+         "y" : 0.0,
+         "z" : -1.84870
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Mine Rail Plank 02",
+         "scaling" : 1.0,
+         "x" : 2.69350,
+         "y" : 0.0,
+         "z" : -1.84870
+      },
+      {
+         "heading" : 2.35620,
+         "height" : 0.00050,
+         "name" : "Mine Rail Combo X1 01",
+         "scaling" : 1.0,
+         "x" : 2.84880,
+         "y" : 0.0,
+         "z" : -1.76240
+      },
+      {
+         "heading" : 2.35620,
+         "height" : 0.11160,
+         "name" : "Mine Rail 01",
+         "scaling" : 1.0,
+         "x" : 2.93510,
+         "y" : 0.00010,
+         "z" : -1.67610
+      },
+      {
+         "heading" : 5.06150,
+         "height" : 0.11160,
+         "name" : "Mine Rail Plank 02",
+         "scaling" : 1.0,
+         "x" : 2.93510,
+         "y" : 0.00010,
+         "z" : -1.67610
+      },
+      {
+         "heading" : 4.97420,
+         "height" : -0.00830,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : 3.07120,
+         "y" : -0.19690,
+         "z" : -1.53180
+      },
+      {
+         "heading" : 0.0,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -2.84640,
+         "y" : 0.0,
+         "z" : -1.36220
+      },
+      {
+         "heading" : 1.48350,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -2.90930,
+         "y" : 0.0,
+         "z" : -1.43670
+      },
+      {
+         "heading" : 0.52360,
+         "height" : -0.00050,
+         "name" : " Glowing Green Mine Crystal 04",
+         "scaling" : 1.21730,
+         "x" : -3.1320,
+         "y" : 0.0,
+         "z" : -1.67220
+      },
+      {
+         "heading" : 1.91990,
+         "height" : -0.00210,
+         "name" : " Glowing Green Mine Crystal 03",
+         "scaling" : 0.9360000000000001,
+         "x" : -3.16130,
+         "y" : -0.0,
+         "z" : -1.7720
+      },
+      {
+         "heading" : 1.91990,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 0.9360000000000001,
+         "x" : -3.060,
+         "y" : 0.0,
+         "z" : -1.750
+      },
+      {
+         "heading" : 1.13450,
+         "name" : " Glowing Green Mine Crystal 02",
+         "scaling" : 0.8720,
+         "x" : -2.80990,
+         "y" : 0.0,
+         "z" : -1.44530
+      },
+      {
+         "heading" : 1.13450,
+         "height" : -0.01320,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 0.8720,
+         "x" : -3.09130,
+         "y" : -0.0,
+         "z" : -2.13470
+      },
+      {
+         "heading" : 1.13450,
+         "height" : 0.05420,
+         "name" : "Green Mine Crystal 01",
+         "scaling" : 0.8720,
+         "x" : -2.53560,
+         "y" : 0.05420,
+         "z" : -1.75240
+      },
+      {
+         "heading" : 5.84690,
+         "height" : 0.05420,
+         "name" : "Green Mine Crystal 01",
+         "scaling" : 0.8720,
+         "x" : -2.50740,
+         "y" : 0.05420,
+         "z" : -1.71220
+      },
+      {
+         "heading" : 5.84690,
+         "height" : 0.05420,
+         "name" : "Green Mine Crystal 02",
+         "scaling" : 0.8720,
+         "x" : -2.79810,
+         "y" : 0.05420,
+         "z" : -2.02750
+      },
+      {
+         "heading" : 8.901199999999999,
+         "height" : 0.05420,
+         "name" : "Green Mine Crystal 02",
+         "scaling" : 0.8720,
+         "x" : -2.83380,
+         "y" : 0.05420,
+         "z" : -2.04230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.24350,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.10,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 1.10
+         },
+         "scaling" : 1.0,
+         "x" : -2.99610,
+         "y" : 0.24350,
+         "z" : -1.78630
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : -1.65680,
+         "y" : 0.0,
+         "z" : -1.6760
+      },
+      {
+         "heading" : 2.35620,
+         "height" : -0.02330,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : -0.65560,
+         "y" : -0.00010,
+         "z" : -0.84740
+      },
+      {
+         "heading" : 4.36330,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : 1.0390,
+         "y" : 0.0,
+         "z" : 0.23180
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 2.69350,
+         "y" : 0.0,
+         "z" : -1.6760
+      },
+      {
+         "heading" : 0.78540,
+         "height" : -0.01510,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 1.93390,
+         "y" : -0.00010,
+         "z" : -0.50210
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 2.43460,
+         "y" : 0.0,
+         "z" : -1.65870
+      },
+      {
+         "heading" : 4.53790,
+         "name" : "Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 0.91690,
+         "y" : 0.0,
+         "z" : 0.2590
+      },
+      {
+         "heading" : 6.19590,
+         "height" : -0.00050,
+         "name" : "Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 1.27790,
+         "y" : 0.0,
+         "z" : 0.15390
+      },
+      {
+         "heading" : 3.66520,
+         "height" : 0.04580,
+         "name" : "Green Mine Crystal 04",
+         "scaling" : 0.80130,
+         "x" : 1.12640,
+         "y" : 0.04580,
+         "z" : -0.35960
+      },
+      {
+         "heading" : 3.66520,
+         "height" : 0.04580,
+         "name" : "Green Mine Crystal 03",
+         "scaling" : 0.80130,
+         "x" : 0.80310,
+         "y" : 0.04580,
+         "z" : -0.03390
+      },
+      {
+         "heading" : 4.01430,
+         "height" : 0.04580,
+         "name" : "Green Mine Crystal 01",
+         "scaling" : 0.80130,
+         "x" : 0.77140,
+         "y" : 0.04580,
+         "z" : 0.00330
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.58510,
+         "height" : -0.00110,
+         "name" : "Crate 01",
+         "scaling" : 1.80240,
+         "x" : 0.76640,
+         "y" : -0.0,
+         "z" : -0.75040
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.32330,
+         "height" : -0.00010,
+         "name" : "Crate 02",
+         "scaling" : 1.80240,
+         "x" : 0.6588000000000001,
+         "y" : 0.0,
+         "z" : -0.7140
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "name" : "Crate 01",
+         "scaling" : 1.0,
+         "x" : 0.7413999999999999,
+         "y" : 0.0,
+         "z" : -0.63610
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.41050,
+         "name" : "Crate 01",
+         "scaling" : 1.0,
+         "x" : 0.58670,
+         "y" : 0.0,
+         "z" : -0.6588000000000001
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 4.71240,
+         "height" : -0.00740,
+         "name" : "Crate 01",
+         "scaling" : 1.25150,
+         "x" : 0.86390,
+         "y" : -0.00220,
+         "z" : -0.74510
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.58510,
+         "height" : -0.00290,
+         "name" : "Crate 01",
+         "scaling" : 1.25150,
+         "x" : 0.79760,
+         "y" : -0.00290,
+         "z" : -0.67640
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.06150,
+         "name" : "Crate 01",
+         "scaling" : 1.25150,
+         "x" : 1.32130,
+         "y" : 0.0,
+         "z" : 0.06510000000000001
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.58510,
+         "name" : "Crate 02",
+         "scaling" : 1.25150,
+         "x" : 1.1620,
+         "y" : 0.0,
+         "z" : 0.14160
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "name" : "Crate 02",
+         "scaling" : 1.25150,
+         "x" : 0.7082000000000001,
+         "y" : 0.0,
+         "z" : -0.10510
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "name" : "Crate 01",
+         "scaling" : 1.25150,
+         "x" : 0.5701000000000001,
+         "y" : 0.0,
+         "z" : -0.0360
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.06150,
+         "name" : "Crate 01",
+         "scaling" : 1.56330,
+         "x" : 0.5701000000000001,
+         "y" : 0.0,
+         "z" : -0.13960
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "height" : -0.00070,
+         "name" : "Crate 01",
+         "scaling" : 1.0,
+         "x" : -0.51750,
+         "y" : -0.0,
+         "z" : -0.77830
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "name" : "Crate 01",
+         "scaling" : 1.0,
+         "x" : -0.27580,
+         "y" : 0.0,
+         "z" : -1.22720
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "name" : "Crate 02",
+         "scaling" : 1.0,
+         "x" : -0.18950,
+         "y" : 0.0,
+         "z" : -1.10630
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "name" : "Crate 02",
+         "scaling" : 1.53640,
+         "x" : -0.25850,
+         "y" : 0.0,
+         "z" : -1.14090
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "height" : -0.00150,
+         "name" : "Crate 01",
+         "scaling" : 1.53640,
+         "x" : -0.69010,
+         "y" : -0.0,
+         "z" : -0.91640
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.84690,
+         "name" : "Crate 02",
+         "scaling" : 1.0,
+         "x" : -0.74190,
+         "y" : 0.0,
+         "z" : -0.9681999999999999
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X2 01",
+         "scaling" : 1.0,
+         "x" : -0.10320,
+         "y" : 0.0,
+         "z" : -0.57120
+      },
+      {
+         "heading" : 5.06150,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : -0.29310,
+         "y" : 0.0,
+         "z" : -0.76110
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "height" : -0.00120,
+         "name" : "Crate 02",
+         "scaling" : 1.53640,
+         "x" : -0.51750,
+         "y" : 0.0,
+         "z" : -0.67480
+      },
+      {
+         "heading" : 1.13450,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 3.81810,
+         "y" : 0.0,
+         "z" : -1.53690
+      },
+      {
+         "heading" : 4.53790,
+         "height" : -0.00010,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 4.01310,
+         "y" : 0.0,
+         "z" : -1.62370
+      },
+      {
+         "heading" : 6.19590,
+         "height" : -0.00510,
+         "name" : " Glowing Green Mine Crystal 02",
+         "scaling" : 0.78690,
+         "x" : 3.99350,
+         "y" : -0.00360,
+         "z" : -1.70870
+      },
+      {
+         "heading" : 6.19590,
+         "height" : -0.00070,
+         "name" : " Glowing Green Mine Crystal 04",
+         "scaling" : 0.6520,
+         "x" : 3.77410,
+         "y" : -0.0,
+         "z" : -1.59690
+      },
+      {
+         "heading" : 4.53790,
+         "height" : -0.02090,
+         "name" : " Glowing Green Mine Crystal 02",
+         "scaling" : 0.78690,
+         "x" : 3.9780,
+         "y" : -0.02090,
+         "z" : -1.87160
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.1580,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.10,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.40
+         },
+         "scaling" : 1.0,
+         "x" : 3.89550,
+         "y" : 0.1580,
+         "z" : -1.65040
+      },
+      {
+         "heading" : 1.13450,
+         "height" : -0.0240,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 5.29730,
+         "y" : -0.0240,
+         "z" : -2.49730
+      },
+      {
+         "heading" : 3.75250,
+         "height" : -0.00010,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 5.28440,
+         "y" : 0.00010,
+         "z" : -2.25440
+      },
+      {
+         "heading" : 3.22890,
+         "height" : -0.02490,
+         "name" : " Glowing Green Mine Crystal 02",
+         "scaling" : 1.28970,
+         "x" : 5.28480,
+         "y" : -0.0240,
+         "z" : -2.38970
+      },
+      {
+         "heading" : 3.22890,
+         "height" : -0.0240,
+         "name" : " Glowing Green Mine Crystal 04",
+         "scaling" : 1.03050,
+         "x" : 4.96910,
+         "y" : -0.0240,
+         "z" : -2.72480
+      },
+      {
+         "heading" : 3.66520,
+         "height" : -0.02510,
+         "name" : " Glowing Green Mine Crystal 03",
+         "scaling" : 1.02340,
+         "x" : 4.88970,
+         "y" : -0.02390,
+         "z" : -2.66760
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.22890,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.10,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.70
+         },
+         "scaling" : 1.0,
+         "x" : 5.11380,
+         "y" : 0.22910,
+         "z" : -2.62020
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00340,
+         "name" : "blocker",
+         "scaling" : 1.54810,
+         "x" : 5.160,
+         "y" : 0.00340,
+         "z" : -2.62920
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.01350,
+         "name" : "rope Bridge Segment 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.31120
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.20960,
+         "name" : "rope Bridge Segment 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.01930
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.31280,
+         "name" : "rope Bridge Segment 04",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.72740
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.21190,
+         "name" : "rope Bridge Segment 03",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.43540
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.01480,
+         "name" : "rope Bridge Segment 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.14350
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.01350,
+         "name" : "Rope Bridge Pillar Short 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.31120
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.01350,
+         "name" : "Rope Bridge Pillar Short 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.31120
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.01350,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.31120
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.20960,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.01930
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.31280,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.72740
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.21190,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.43540
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.01480,
+         "name" : "Rope Bridge Pillar Short 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.14350
+      },
+      {
+         "heading" : 7.8540,
+         "height" : 0.01350,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.31120
+      },
+      {
+         "heading" : 7.8540,
+         "height" : 0.20960,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.01930
+      },
+      {
+         "heading" : 7.8540,
+         "height" : 0.31280,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.72740
+      },
+      {
+         "heading" : 7.8540,
+         "height" : 0.21190,
+         "name" : "Rope Bridge Pillar Long 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.43540
+      },
+      {
+         "heading" : 7.8540,
+         "height" : 0.01480,
+         "name" : "Rope Bridge Pillar Short 01",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.14350
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.01350,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.31120
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.20960,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.01930
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.31280,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.72740
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.21190,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.43540
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.01480,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.14350
+      },
+      {
+         "heading" : 9.424799999999999,
+         "height" : 0.01480,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.14350
+      },
+      {
+         "heading" : 9.424799999999999,
+         "height" : 0.21190,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.43540
+      },
+      {
+         "heading" : 9.424799999999999,
+         "height" : 0.31280,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -0.72740
+      },
+      {
+         "heading" : 9.424799999999999,
+         "height" : 0.20960,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.01930
+      },
+      {
+         "heading" : 9.424799999999999,
+         "height" : 0.01350,
+         "name" : "Rope Bridge Rope",
+         "scaling" : 0.74730,
+         "x" : 5.20730,
+         "y" : 0.01320,
+         "z" : -1.31120
+      },
+      {
+         "heading" : 2.35620,
+         "height" : 0.09510,
+         "name" : "Mine Lamp 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 0.63950,
+         "y" : 0.09510,
+         "z" : -0.07350
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 5.49780,
+         "name" : "Barrel 01",
+         "scaling" : 1.25150,
+         "x" : 0.63910,
+         "y" : 0.0,
+         "z" : -0.07060
+      },
+      {
+         "heading" : 5.84690,
+         "height" : 0.07550,
+         "name" : "Mine Lamp 03 Unlit",
+         "scaling" : 1.0,
+         "x" : 0.56470,
+         "y" : 0.07550,
+         "z" : -0.14410
+      },
+      {
+         "heading" : 2.35620,
+         "height" : 0.08649999999999999,
+         "name" : "Mine Lamp 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 0.76630,
+         "y" : 0.08770,
+         "z" : -0.75330
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 3.9270,
+         "name" : "Crate 01",
+         "scaling" : 1.25150,
+         "x" : 1.86330,
+         "y" : 0.0,
+         "z" : -0.51650
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 4.45060,
+         "name" : "Crate 02",
+         "scaling" : 1.25150,
+         "x" : 1.78640,
+         "y" : 0.0,
+         "z" : -0.5066000000000001
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.00050,
+         "name" : "Dummy",
+         "scaling" : 1.69050,
+         "x" : 0.63710,
+         "y" : 0.00050,
+         "z" : -0.30190
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.78540,
+         "name" : "Dummy",
+         "scaling" : 1.69050,
+         "x" : -0.33670,
+         "y" : 0.0,
+         "z" : -2.46610
+      },
+      {
+         "heading" : 7.06860,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 4.49850,
+         "y" : 0.0,
+         "z" : 0.88910
+      },
+      {
+         "heading" : 7.06860,
+         "name" : "Mine Rail 04",
+         "scaling" : 1.0,
+         "x" : 3.60080,
+         "y" : 0.0,
+         "z" : 1.75230
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 3.24010,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : 2.80060,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : 1.48230,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "heading" : 8.202999999999999,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 1.06720,
+         "y" : 0.0,
+         "z" : 1.86720
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : 0.16390,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Mine Rail Plank 06",
+         "scaling" : 1.0,
+         "x" : 3.65510,
+         "y" : 0.0,
+         "z" : 1.72070
+      },
+      {
+         "heading" : 7.67940,
+         "name" : "Mine Rail Plank 05",
+         "scaling" : 1.0,
+         "x" : 3.5330,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "heading" : 7.06860,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 4.03240,
+         "y" : 0.0,
+         "z" : 1.28620
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 3.96340,
+         "y" : 0.0,
+         "z" : 1.35520
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 4.10150,
+         "y" : 0.0,
+         "z" : 1.35520
+      },
+      {
+         "heading" : 10.21020,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : 4.03240,
+         "y" : 0.0,
+         "z" : 1.42430
+      },
+      {
+         "heading" : 7.06860,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : 3.87710,
+         "y" : 0.0,
+         "z" : 1.51060
+      },
+      {
+         "heading" : 7.06860,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : 4.18780,
+         "y" : 0.0,
+         "z" : 1.19990
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : 4.03240,
+         "y" : 0.0,
+         "z" : 1.35520
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 4.34320,
+         "y" : 0.0,
+         "z" : 1.6660
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 3.72170,
+         "y" : 0.0,
+         "z" : 1.04450
+      },
+      {
+         "heading" : 8.63940,
+         "height" : -0.0,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 3.41090,
+         "y" : 0.0,
+         "z" : 0.73370
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : 4.65390,
+         "y" : 0.0,
+         "z" : 1.97670
+      },
+      {
+         "heading" : 11.7810,
+         "name" : "Mine Rail 04",
+         "scaling" : 1.0,
+         "x" : 4.89560,
+         "y" : 0.0,
+         "z" : 2.25290
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Rail 04",
+         "scaling" : 1.0,
+         "x" : 4.93010,
+         "y" : 0.0,
+         "z" : 2.52910
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : 5.01640,
+         "y" : 0.0,
+         "z" : 2.650
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Rail 03",
+         "scaling" : 1.0,
+         "x" : 3.13470,
+         "y" : 0.0,
+         "z" : 0.49210
+      },
+      {
+         "heading" : 10.99560,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : 2.97940,
+         "y" : 0.0,
+         "z" : 0.47480
+      },
+      {
+         "heading" : 8.81390,
+         "name" : "Mine Rail Plank 05",
+         "scaling" : 1.0,
+         "x" : 4.86110,
+         "y" : 0.0,
+         "z" : 2.18390
+      },
+      {
+         "heading" : 9.424799999999999,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : 4.91290,
+         "y" : 0.0,
+         "z" : 2.33920
+      },
+      {
+         "heading" : 8.98840,
+         "name" : "Mine Rail Plank 01",
+         "scaling" : 1.0,
+         "x" : 4.93010,
+         "y" : 0.0,
+         "z" : 2.52910
+      },
+      {
+         "heading" : 7.06860,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : 4.65390,
+         "y" : 0.0,
+         "z" : 0.73370
+      },
+      {
+         "heading" : 8.377599999999999,
+         "name" : "Mine Rail Plank 05",
+         "scaling" : 1.0,
+         "x" : 3.20380,
+         "y" : 0.0,
+         "z" : 0.52660
+      },
+      {
+         "heading" : 8.11580,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : 3.08290,
+         "y" : 0.0,
+         "z" : 0.47480
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Barrel 01",
+         "scaling" : 1.0,
+         "x" : -2.2690,
+         "y" : 0.0,
+         "z" : -2.68220
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "name" : "Barrel 02",
+         "scaling" : 1.0,
+         "x" : -2.34110,
+         "y" : 0.0,
+         "z" : -2.6720
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : -1.71620,
+         "y" : 0.0,
+         "z" : -1.63320
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.0,
+         "name" : "Barrel 01",
+         "scaling" : 1.0,
+         "x" : -1.66610,
+         "y" : 0.0,
+         "z" : -1.55730
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.6981000000000001,
+         "height" : -0.00140,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : -2.37930,
+         "y" : -0.0,
+         "z" : -2.73920
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.6981000000000001,
+         "height" : -0.00130,
+         "name" : "Crate 02",
+         "scaling" : 1.0,
+         "x" : -2.19980,
+         "y" : -0.00050,
+         "z" : -2.66140
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.6981000000000001,
+         "height" : -0.00050,
+         "name" : "Crate 01",
+         "scaling" : 1.0,
+         "x" : -2.41090,
+         "y" : -0.00050,
+         "z" : -2.64010
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "replace" : "[next]",
+            "touchActions" : "loot shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.6981000000000001,
+         "height" : -0.02330,
+         "name" : "Crate 01",
+         "scaling" : 1.69730,
+         "x" : -2.27660,
+         "y" : -0.0005999999999999999,
+         "z" : -2.7870
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "touchActions" : "shake",
+            "touchSound" : "thud1 attack1"
+         },
+         "heading" : 0.6981000000000001,
+         "name" : "Crate 02",
+         "scaling" : 1.69730,
+         "x" : -2.4740,
+         "y" : 0.0,
+         "z" : -2.68170
+      },
+      {
+         "heading" : 0.95990,
+         "height" : -0.00610,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : -2.60420,
+         "y" : -0.00570,
+         "z" : -2.53650
+      },
+      {
+         "heading" : 5.84690,
+         "name" : "Green Mine Crystal 01",
+         "scaling" : 0.8720,
+         "x" : -2.51330,
+         "y" : 0.0,
+         "z" : -2.49960
+      },
+      {
+         "heading" : 8.11580,
+         "name" : "Green Mine Crystal 01",
+         "scaling" : 0.8720,
+         "x" : -2.46930,
+         "y" : 0.0,
+         "z" : -2.57520
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Mine Arch 01",
+         "scaling" : 1.0,
+         "x" : 4.3010,
+         "y" : 0.0,
+         "z" : 1.35520
+      },
+      {
+         "heading" : 3.14160,
+         "name" : "Mine Arch 01",
+         "scaling" : 1.0,
+         "x" : 3.76390,
+         "y" : 0.0,
+         "z" : 1.35520
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Mine Beam 01",
+         "scaling" : 1.0,
+         "x" : 4.13010,
+         "y" : 0.0,
+         "z" : 1.35520
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Mine Beam 01",
+         "scaling" : 1.0,
+         "x" : 3.93480,
+         "y" : 0.0,
+         "z" : 1.35520
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Measure 1x",
+         "scaling" : 1.0,
+         "x" : 4.22770,
+         "y" : 0.0,
+         "z" : 1.33080
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Mine Arch 01",
+         "scaling" : 1.0,
+         "x" : 4.03240,
+         "y" : 0.0,
+         "z" : 1.62380
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Mine Arch 01",
+         "scaling" : 1.0,
+         "x" : 4.03240,
+         "y" : 0.0,
+         "z" : 1.08670
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Mine Beam 01",
+         "scaling" : 1.0,
+         "x" : 4.03240,
+         "y" : 0.0,
+         "z" : 1.45290
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Mine Beam 01",
+         "scaling" : 1.0,
+         "x" : 4.03240,
+         "y" : 0.0,
+         "z" : 1.25760
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.16570,
+         "name" : "Mine Lamp 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 4.03240,
+         "y" : 0.16570,
+         "z" : 1.35520
+      },
+      {
+         "heading" : 0.0,
+         "name" : " Glowing Green Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : 5.20630,
+         "y" : 0.0,
+         "z" : 2.9780
+      },
+      {
+         "heading" : 0.0,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 5.22360,
+         "y" : 0.0,
+         "z" : 2.82260
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0140,
+         "name" : " Glowing Green Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : 4.87830,
+         "y" : 0.00010,
+         "z" : 2.96070
+      },
+      {
+         "heading" : 4.36330,
+         "name" : " Glowing Green Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : 4.93010,
+         "y" : 0.0,
+         "z" : 2.87440
+      },
+      {
+         "heading" : 4.36330,
+         "height" : -0.0,
+         "name" : " Glowing Green Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : 5.32720,
+         "y" : 0.0,
+         "z" : 2.44280
+      },
+      {
+         "heading" : 3.66520,
+         "name" : " Glowing Green Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : 5.39620,
+         "y" : 0.0,
+         "z" : 2.40830
+      },
+      {
+         "heading" : 3.66520,
+         "height" : -0.00570,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 5.10280,
+         "y" : 0.0,
+         "z" : 2.21840
+      },
+      {
+         "heading" : 2.26890,
+         "height" : -0.01450,
+         "name" : " Glowing Green Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : 4.60210,
+         "y" : 0.00090,
+         "z" : 2.68450
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20560,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.10,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 1.10
+         },
+         "scaling" : 1.0,
+         "x" : 5.00760,
+         "y" : 0.20560,
+         "z" : 2.50980
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 5.41170,
+         "y" : 0.0,
+         "z" : 0.07930
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20590,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.70,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 1.10
+         },
+         "scaling" : 1.0,
+         "x" : 2.95040,
+         "y" : 0.20590,
+         "z" : 0.33170
+      },
+      {
+         "heading" : 3.66520,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 2.75490,
+         "y" : 0.0,
+         "z" : 0.63010
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00530,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 2.68580,
+         "y" : -0.0,
+         "z" : 0.56110
+      },
+      {
+         "heading" : 1.57080,
+         "name" : " Glowing Blue Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : 3.08290,
+         "y" : 0.0,
+         "z" : 0.19850
+      },
+      {
+         "heading" : 0.26180,
+         "name" : " Glowing Blue Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : 2.99660,
+         "y" : 0.0,
+         "z" : 0.21580
+      },
+      {
+         "heading" : 0.26180,
+         "height" : -0.01150,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : 2.75490,
+         "y" : 0.0,
+         "z" : 0.25030
+      },
+      {
+         "heading" : 4.97420,
+         "height" : -0.01320,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : 2.70310,
+         "y" : -0.0,
+         "z" : 0.37120
+      },
+      {
+         "heading" : 3.9270,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : 3.41090,
+         "y" : 0.0,
+         "z" : 0.28490
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01220,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 5.33670,
+         "y" : 0.0040,
+         "z" : 2.72110
+      },
+      {
+         "heading" : 7.67940,
+         "name" : "Mine Rail Combo X2 01",
+         "scaling" : 1.0,
+         "x" : 2.45880,
+         "y" : 0.0,
+         "z" : 1.79390
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Mine Rail Combo X2 01",
+         "scaling" : 1.0,
+         "x" : 1.84850,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Mine Rail Combo X2 01",
+         "scaling" : 1.0,
+         "x" : 0.53010,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : 2.19030,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Mine Rail Plank 01",
+         "scaling" : 1.0,
+         "x" : 2.04380,
+         "y" : 0.0,
+         "z" : 1.81830
+      },
+      {
+         "heading" : 6.98130,
+         "name" : "Mine Rail Plank 06",
+         "scaling" : 1.0,
+         "x" : 0.72550,
+         "y" : 0.0,
+         "z" : 1.81830
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 3.57790,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : 5.07320,
+         "y" : 0.0,
+         "z" : 2.9280
+      },
+      {
+         "heading" : 9.075699999999999,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 4.94740,
+         "y" : 0.0,
+         "z" : 2.54640
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : 3.44550,
+         "y" : 0.0,
+         "z" : 0.76820
+      },
+      {
+         "heading" : 8.377599999999999,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : 1.14050,
+         "y" : 0.0,
+         "z" : 2.06240
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -0.27560,
+         "y" : 0.0,
+         "z" : 1.76950
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Mine Rail 04",
+         "scaling" : 1.0,
+         "x" : -0.64180,
+         "y" : 0.0,
+         "z" : 1.74510
+      },
+      {
+         "heading" : 8.63940,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -0.91030,
+         "y" : 0.0,
+         "z" : 1.50090
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail 02",
+         "scaling" : 1.0,
+         "x" : -1.16930,
+         "y" : 0.0,
+         "z" : 1.31110
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -1.42820,
+         "y" : 0.0,
+         "z" : 1.5010
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -1.7390,
+         "y" : 0.0,
+         "z" : 1.81170
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -2.04970,
+         "y" : 0.0,
+         "z" : 2.12250
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -2.36040,
+         "y" : 0.0,
+         "z" : 2.43320
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -2.67120,
+         "y" : 0.0,
+         "z" : 2.7440
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -2.98190,
+         "y" : 0.0,
+         "z" : 3.05470
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Combo X2 01",
+         "scaling" : 1.0,
+         "x" : -3.24090,
+         "y" : 0.0,
+         "z" : 3.31360
+      },
+      {
+         "heading" : 3.9270,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : -3.34450,
+         "y" : 0.0,
+         "z" : 3.41720
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -2.15330,
+         "y" : 0.0,
+         "z" : 2.22610
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -1.84250,
+         "y" : 0.0,
+         "z" : 2.53680
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -2.4640,
+         "y" : 0.0,
+         "z" : 1.91530
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -2.77480,
+         "y" : 0.0,
+         "z" : 1.60460
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -1.53180,
+         "y" : 0.0,
+         "z" : 2.84750
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -1.22110,
+         "y" : 0.0,
+         "z" : 3.15830
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -0.91030,
+         "y" : 0.0,
+         "z" : 3.4690
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Combo X3 01",
+         "scaling" : 1.0,
+         "x" : -3.08550,
+         "y" : 0.0,
+         "z" : 1.29390
+      },
+      {
+         "heading" : 8.028499999999999,
+         "name" : "Mine Rail Plank 05",
+         "scaling" : 1.0,
+         "x" : -0.58230,
+         "y" : 0.0,
+         "z" : 1.75990
+      },
+      {
+         "heading" : 8.46480,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : -0.70320,
+         "y" : 0.0,
+         "z" : 1.70820
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : -1.16930,
+         "y" : 0.0,
+         "z" : 1.31110
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail 04",
+         "scaling" : 1.0,
+         "x" : -0.66870,
+         "y" : 0.0,
+         "z" : 3.74530
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -0.65140,
+         "y" : 0.0,
+         "z" : 4.10780
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Mine Rail Combo X3 02",
+         "scaling" : 1.0,
+         "x" : -0.65140,
+         "y" : 0.0,
+         "z" : 4.52210
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Mine Rail 04",
+         "scaling" : 1.0,
+         "x" : -0.63410,
+         "y" : 0.0,
+         "z" : 4.88470
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail 03",
+         "scaling" : 1.0,
+         "x" : -0.4270,
+         "y" : 0.0,
+         "z" : 5.09180
+      },
+      {
+         "heading" : 7.8540,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : -0.27160,
+         "y" : 0.0,
+         "z" : 5.10910
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Rail Stop 01",
+         "scaling" : 1.0,
+         "x" : -3.24090,
+         "y" : 0.0,
+         "z" : 1.13850
+      },
+      {
+         "heading" : 0.0,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -0.08169999999999999,
+         "y" : 0.0,
+         "z" : 5.2990
+      },
+      {
+         "heading" : 1.83260,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -0.1680,
+         "y" : 0.0,
+         "z" : 5.35080
+      },
+      {
+         "heading" : 1.83260,
+         "name" : " Glowing Blue Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : -0.4270,
+         "y" : 0.0,
+         "z" : 5.43710
+      },
+      {
+         "heading" : 1.83260,
+         "name" : " Glowing Blue Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : -0.51330,
+         "y" : 0.0,
+         "z" : 5.38530
+      },
+      {
+         "heading" : 1.83260,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -0.01270,
+         "y" : 0.0,
+         "z" : 4.78110
+      },
+      {
+         "heading" : 3.66520,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -0.02990,
+         "y" : 0.0,
+         "z" : 4.90190
+      },
+      {
+         "heading" : 3.66520,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -0.87580,
+         "y" : 0.0,
+         "z" : 5.16090
+      },
+      {
+         "heading" : 3.66520,
+         "height" : -0.01410,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -0.94490,
+         "y" : 0.0,
+         "z" : 5.09180
+      },
+      {
+         "heading" : 6.28320,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -0.92760,
+         "y" : 0.0,
+         "z" : 4.9710
+      },
+      {
+         "heading" : 6.28320,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -1.13480,
+         "y" : 0.0,
+         "z" : 3.65890
+      },
+      {
+         "heading" : 6.28320,
+         "height" : -0.008999999999999999,
+         "name" : " Glowing Blue Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : -1.51450,
+         "y" : 0.0,
+         "z" : 2.58860
+      },
+      {
+         "heading" : 4.53790,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -1.20380,
+         "y" : 0.0,
+         "z" : 3.58990
+      },
+      {
+         "heading" : 4.53790,
+         "height" : -0.02570,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -0.20250,
+         "y" : -0.0,
+         "z" : 3.6590
+      },
+      {
+         "heading" : 2.79250,
+         "height" : -0.00040,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -0.37520,
+         "y" : 0.0,
+         "z" : 3.58990
+      },
+      {
+         "heading" : 6.02140,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : -0.65140,
+         "y" : 0.0,
+         "z" : 3.79710
+      },
+      {
+         "heading" : 5.67230,
+         "name" : "Mine Rail Plank 05",
+         "scaling" : 1.0,
+         "x" : -0.70320,
+         "y" : 0.0,
+         "z" : 3.67620
+      },
+      {
+         "heading" : 6.19590,
+         "name" : "Mine Rail Plank 03",
+         "scaling" : 1.0,
+         "x" : -0.63410,
+         "y" : 0.0,
+         "z" : 4.85010
+      },
+      {
+         "heading" : 5.58510,
+         "name" : "Mine Rail Plank 01",
+         "scaling" : 1.0,
+         "x" : -0.54780,
+         "y" : 0.0,
+         "z" : 5.00550
+      },
+      {
+         "heading" : 4.97420,
+         "name" : "Mine Rail Plank 06",
+         "scaling" : 1.0,
+         "x" : -0.39250,
+         "y" : 0.0,
+         "z" : 5.09180
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.30640,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.70,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 0.850
+         },
+         "scaling" : 1.0,
+         "x" : -0.43440,
+         "y" : 0.30640,
+         "z" : 5.17740
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09970,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.70,
+            "col_red" : 0.20,
+            "radius0" : 0.0,
+            "radius1" : 0.220
+         },
+         "scaling" : 1.0,
+         "x" : -0.30520,
+         "y" : 0.11090,
+         "z" : 3.61960
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.08870,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.70,
+            "col_red" : 0.20,
+            "radius0" : 0.0,
+            "radius1" : 0.220
+         },
+         "scaling" : 1.0,
+         "x" : -1.17820,
+         "y" : 0.08980,
+         "z" : 3.65280
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.06859999999999999,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.70,
+            "col_red" : 0.20,
+            "radius0" : 0.0,
+            "radius1" : 0.260
+         },
+         "scaling" : 1.0,
+         "x" : -1.51460,
+         "y" : 0.07760,
+         "z" : 2.58860
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.09370000000000001,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.10,
+            "col_red" : 0.20,
+            "radius0" : 0.0,
+            "radius1" : 0.220
+         },
+         "scaling" : 1.0,
+         "x" : -2.91930,
+         "y" : 0.09390,
+         "z" : 1.90180
+      },
+      {
+         "heading" : 6.28320,
+         "height" : -0.0,
+         "name" : " Glowing Green Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : -2.93020,
+         "y" : 0.0,
+         "z" : 1.89810
+      },
+      {
+         "heading" : 6.28320,
+         "name" : " Glowing Green Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : -3.62070,
+         "y" : 0.0,
+         "z" : 1.24210
+      },
+      {
+         "heading" : 6.28320,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -3.53440,
+         "y" : 0.0,
+         "z" : 1.25930
+      },
+      {
+         "heading" : 5.41050,
+         "height" : -0.00050,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -2.79210,
+         "y" : -0.0,
+         "z" : 0.72420
+      },
+      {
+         "heading" : 7.8540,
+         "name" : " Glowing Green Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -2.84380,
+         "y" : 0.0,
+         "z" : 0.63790
+      },
+      {
+         "heading" : 7.8540,
+         "height" : -0.00230,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -2.79210,
+         "y" : -0.0,
+         "z" : 0.89680
+      },
+      {
+         "heading" : 7.8540,
+         "height" : -0.00010,
+         "name" : " Glowing Green Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : -3.310,
+         "y" : -0.0,
+         "z" : 0.65510
+      },
+      {
+         "heading" : 7.8540,
+         "name" : " Glowing Green Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : -3.41350,
+         "y" : 0.0,
+         "z" : 0.68960
+      },
+      {
+         "heading" : 8.202999999999999,
+         "height" : -0.00590,
+         "name" : " Glowing Green Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -3.58620,
+         "y" : 0.00010,
+         "z" : 0.82770
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.22960,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.10,
+            "col_red" : 0.20,
+            "radius0" : 0.10,
+            "radius1" : 1.10
+         },
+         "scaling" : 1.0,
+         "x" : -3.29560,
+         "y" : 0.22960,
+         "z" : 0.83760
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18540,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.40,
+            "col_red" : 1.10,
+            "radius0" : 0.10,
+            "radius1" : 1.60
+         },
+         "scaling" : 1.0,
+         "x" : -3.84710,
+         "y" : 0.18540,
+         "z" : 3.82470
+      },
+      {
+         "heading" : 4.79970,
+         "name" : "Red Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -3.7070,
+         "y" : 0.0,
+         "z" : 4.60830
+      },
+      {
+         "heading" : 5.58510,
+         "name" : "Red Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -4.19040,
+         "y" : 0.0,
+         "z" : 4.60830
+      },
+      {
+         "heading" : 7.24310,
+         "name" : "Red Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : -4.27670,
+         "y" : 0.0,
+         "z" : 4.55660
+      },
+      {
+         "heading" : 7.24310,
+         "height" : -0.00050,
+         "name" : "Red Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : -4.3630,
+         "y" : 0.0,
+         "z" : 4.26310
+      },
+      {
+         "heading" : 7.24310,
+         "name" : "Red Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -4.60470,
+         "y" : 0.0,
+         "z" : 3.88330
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.00080,
+         "name" : "Red Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -4.67380,
+         "y" : 0.0,
+         "z" : 3.81420
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.00070,
+         "name" : "Red Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : -4.57020,
+         "y" : 0.0,
+         "z" : 3.43440
+      },
+      {
+         "heading" : 2.35620,
+         "height" : -0.00210,
+         "name" : "Red Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -4.50110,
+         "y" : -0.0,
+         "z" : 3.39990
+      },
+      {
+         "heading" : 2.35620,
+         "height" : -0.01560,
+         "name" : "Red Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -4.24220,
+         "y" : 0.00010,
+         "z" : 3.31360
+      },
+      {
+         "heading" : 2.35620,
+         "height" : -0.00010,
+         "name" : "Red Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -4.19040,
+         "y" : 0.0,
+         "z" : 3.19270
+      },
+      {
+         "heading" : 6.10870,
+         "height" : -0.00020,
+         "name" : "Red Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -3.98320,
+         "y" : 0.0,
+         "z" : 3.08920
+      },
+      {
+         "heading" : 6.10870,
+         "name" : "Red Mine Crystal 04",
+         "scaling" : 1.0,
+         "x" : -3.20640,
+         "y" : 0.0,
+         "z" : 3.93510
+      },
+      {
+         "heading" : 8.98840,
+         "name" : "Red Mine Crystal 03",
+         "scaling" : 1.0,
+         "x" : -3.24090,
+         "y" : 0.0,
+         "z" : 4.07320
+      },
+      {
+         "heading" : 8.98840,
+         "name" : "Red Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -3.18910,
+         "y" : 0.0,
+         "z" : 4.47020
+      },
+      {
+         "heading" : 7.67940,
+         "name" : "Red Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -3.20640,
+         "y" : 0.0,
+         "z" : 4.38390
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Red Mine Crystal 01",
+         "scaling" : 1.0,
+         "x" : -3.60340,
+         "y" : 0.0,
+         "z" : 4.60830
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -3.13730,
+         "y" : 0.0,
+         "z" : 1.24210
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -3.01650,
+         "y" : 0.0,
+         "z" : 1.36290
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -2.77480,
+         "y" : 0.0,
+         "z" : 1.60460
+      },
+      {
+         "heading" : 4.97420,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -0.39250,
+         "y" : 0.0,
+         "z" : 5.09180
+      },
+      {
+         "heading" : 3.66520,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : -0.030,
+         "y" : 0.0,
+         "z" : 5.17810
+      },
+      {
+         "heading" : 3.14160,
+         "height" : -0.0005999999999999999,
+         "name" : "Mine Cart 02",
+         "scaling" : 1.0,
+         "x" : -1.0140,
+         "y" : -0.0,
+         "z" : 4.78110
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -1.7390,
+         "y" : 0.0,
+         "z" : 2.64040
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Mine Cart 01",
+         "scaling" : 1.0,
+         "x" : -1.61820,
+         "y" : 0.0,
+         "z" : 2.76130
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.35530,
+         "y" : 0.0,
+         "z" : 1.15020
+      },
+      {
+         "heading" : 0.0,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 2.40250,
+         "y" : 0.0,
+         "z" : -2.78440
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00140,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 4.07680,
+         "y" : 0.01360,
+         "z" : -1.51240
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00860,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 3.93540,
+         "y" : 0.00450,
+         "z" : -1.42730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00970,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 5.64970,
+         "y" : 0.009299999999999999,
+         "z" : -0.08019999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00230,
+         "name" : "blocker",
+         "scaling" : 1.11590,
+         "x" : 5.27190,
+         "y" : 0.00230,
+         "z" : 2.29570
+      },
+      {
+         "heading" : 0.0,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : -0.06130,
+         "y" : 0.0,
+         "z" : 4.72750
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01410,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 0.01450,
+         "y" : 0.01450,
+         "z" : 4.99090
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.009599999999999999,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : -0.26710,
+         "y" : 0.01450,
+         "z" : 5.45110
+      },
+      {
+         "heading" : 0.0,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : -0.99090,
+         "y" : 0.0,
+         "z" : 4.9130
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00420,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : -0.99940,
+         "y" : 0.0,
+         "z" : 4.67050
+      },
+      {
+         "heading" : 2.35620,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : -2.91340,
+         "y" : 0.0,
+         "z" : -2.13930
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 01",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 2.81580,
+         "height" : -0.03880,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : 3.54660,
+         "y" : -0.01460,
+         "z" : -4.73960
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 01",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 2.82360,
+         "height" : -0.0470,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : 0.03630,
+         "y" : -0.01860,
+         "z" : -1.96010
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 01",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 2.73830,
+         "height" : -0.05510,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : 5.080,
+         "y" : -0.02430,
+         "z" : 1.15910
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 01",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 3.10290,
+         "height" : -0.05620,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -0.40560,
+         "y" : -0.03760,
+         "z" : 2.05970
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 01",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 4.51460,
+         "height" : -0.13970,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -1.67460,
+         "y" : -0.01590,
+         "z" : 1.13160
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 01",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 3.55280,
+         "height" : -0.06980,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -1.78420,
+         "y" : -0.02160,
+         "z" : 3.23010
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 03",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 4.0880,
+         "height" : -0.00330,
+         "name" : "Torch 03 Unlit",
+         "scaling" : 1.0,
+         "x" : 5.05230,
+         "y" : -0.00330,
+         "z" : -5.53110
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 03",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 5.10730,
+         "height" : -0.03980,
+         "name" : "Torch 03 Unlit",
+         "scaling" : 1.0,
+         "x" : 1.9660,
+         "y" : -0.03650,
+         "z" : -5.17460
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 03",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 8.34660,
+         "name" : "Torch 03 Unlit",
+         "scaling" : 1.0,
+         "x" : 1.08180,
+         "y" : 0.0,
+         "z" : -1.94950
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 02",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 11.04140,
+         "height" : 0.0005999999999999999,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 4.94970,
+         "y" : 0.0005999999999999999,
+         "z" : -1.58570
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 02",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 11.04140,
+         "height" : -0.02170,
+         "name" : "Torch 02 Unlit",
+         "scaling" : 1.0,
+         "x" : 1.30210,
+         "y" : -0.02170,
+         "z" : 2.04580
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "light_torch",
+            "onlyOnce" : true,
+            "replace" : "Torch 03",
+            "text" : "",
+            "touchSound" : "throw"
+         },
+         "heading" : 2.39390,
+         "height" : -0.02330,
+         "name" : "Torch 03 Unlit",
+         "scaling" : 1.0,
+         "x" : -2.4860,
+         "y" : -0.02330,
+         "z" : 2.93120
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : [
+      {
+         "name" : "Spawn Point 1",
+         "x" : 3.21970,
+         "y" : -0.20,
+         "z" : -5.08450
+      },
+      {
+         "name" : "Spawn Point 3",
+         "x" : 3.87690,
+         "y" : -0.20,
+         "z" : -3.97740
+      },
+      {
+         "name" : "Spawn Point 5",
+         "x" : 1.30130,
+         "y" : -0.20,
+         "z" : -2.63390
+      },
+      {
+         "name" : "Spawn Point 7",
+         "x" : 0.76510,
+         "y" : -0.20,
+         "z" : -3.83050
+      },
+      {
+         "name" : "Spawn Point 21",
+         "x" : 2.19650,
+         "y" : -0.20,
+         "z" : -5.06590
+      }
+   ],
+   "startPosition" : [ 5.39810, -5.53160 ],
+   "tint" : [ 128, 128, 128, 0 ],
+   "title" : "",
+   "weather" : null
+}

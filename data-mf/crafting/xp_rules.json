@@ -1,0 +1,10 @@
+[	
+	{
+		"rule":"item",
+		"itemFilter" : {			
+			"requireTypes":["weapon","light_armor","cape","shield","orb","heavy_armor","leather_armor","light_bracer","medium_bracer","heavy_bracer","light_belt","medium_belt","leather_belt","heavy_belt","Trinket"]
+		},
+		"itemLevelCurve":[[1,5],[70,80]],
+		"qualityMultiplier":[0, 1, 1.5, 4, 15]
+	}		
+]

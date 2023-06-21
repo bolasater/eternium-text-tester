@@ -1,0 +1,9 @@
+{
+	"blendZone" : true,
+	"tools" : [
+		{
+			"tool" : "blend",
+			"method" : "inv_linear"
+		}
+	]
+}

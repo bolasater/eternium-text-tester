@@ -1,0 +1,26 @@
+[
+    {
+        "id": "fullBody", 
+        "title": "Full Body"
+    },
+    {
+        "id": "feet", 
+        "title": "Feet"
+    },
+    {
+        "id": "main_weapon", 
+        "title": "Main Weapon"
+    },
+    {
+        "id": "secondary_weapon", 
+        "title": "Secondary Weapon"
+    },
+    {
+        "id": "shield", 
+        "title": "Shield"
+    },
+    {
+        "id": "tome", 
+        "title": "Tome"
+    }
+]

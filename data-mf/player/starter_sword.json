@@ -1,0 +1,17 @@
+{
+	"actualBudget" : 1.0,
+	"color" : -10061158,
+	"decalColor" : -9729115,
+	"colorTexture" : "white",
+	"glowColor" : -8355712,
+	"itemClass" : "Sword",
+	"itemLevel" : 1,
+	"name" : "Rusty Sword",
+	"quality" : 0,
+	"slotI" : 0,
+	"slotJ" : 0,
+	"textureVariation" : "sword_icon_07",
+	"modelVariation" : 6,
+	"upgrades" : [ "minDamage", 8, "maxDamage", 12 ],
+	"maxFusionLevels" : 0
+}

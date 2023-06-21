@@ -1,0 +1,63 @@
+// This file contains JSON post-process rules for props.json which are processed by calling JsonApplyPostProcessRules
+// It adds loot'n'shake behaviors to barrels and crates
+[
+	{
+		"match" : {
+			"name" : [ "Barrel 01", "Barrel 03", "Barrel 05", "Barrel 07", "Barrel 09", "Snowy Barrel 01", "Snowy Barrel 03", "Snowy Barrel 05", "Snowy Barrel 07", "Snowy Barrel 09", "Crate 01", "Snowy Crate 01" ]
+		},
+		
+		"add" : {
+			"gameObject" : "Touchable",
+			"gameObjectParams" : {
+				"replace" : "[next]",
+				"touchActions" : "loot shake",
+				"touchSound" : "thud1 attack1"
+			}
+		}
+	},
+
+	{
+		"match" : {
+			"tab" : "crates"
+		},
+		
+		"add" : {
+			"gameObject" : "Touchable",
+			"gameObjectParams" : {
+				"touchActions" : "shake",
+				"touchSound" : "thud1 attack1"
+			}
+		}
+	},
+	
+	{
+		"match" : {
+			"name" : [ "Haystack", "Signpost Home 01", "Signpost Home 02", "Signpost Home 03", "Signpost 01" ]
+		},
+		
+		"add" : {
+			"gameObject" : "Touchable",
+			"gameObjectParams" : {
+				"touchActions" : "shake",
+				"touchSound" : "thud1 attack1",
+				"disableInPlayableArea" : true
+			}
+		}
+	},
+	
+	{
+		"match" : {
+			"group" : "bushes"
+		},
+		
+		"add" : {
+			"gameObject" : "Touchable",
+			"gameObjectParams" : {
+				"touchActions" : "shake",
+				"touchSound" : "attack1 heavygrass1",
+				"disableInPlayableArea" : true
+			}
+		}
+	}
+
+]

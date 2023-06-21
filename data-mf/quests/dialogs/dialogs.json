@@ -1,0 +1,200 @@
+{
+	"Alarion" : {
+		"req" : { "location" : "hometown" },
+		"dialog" : {"narrator" : "Alarion looks at you expectantly."},
+		"tree" : [	
+			{
+				"id" : "intro",
+				"option" : "Who are you?",
+				"dialog" : "Greetings, {HERO}. I am Alarion, Professor of Natural Philosophy at the Anderra Academy. I have been tasked by Master Xagan to guide you through your journey.",
+				
+				"tree" : [
+					{ "goto" : ".xagan" }
+				]
+			},
+			
+			{
+				"id" : "xagan",
+				"option" : "Who is Master Xagan?",
+				"req" : { "dlg" : "alarion.intro" },
+				"dialog" : ["Professor Alexander Xagan is my mentor, and the founder of the Lighthouse Laboratory.", "The Blue Wizard, they call him. He's apt at controlling lightning... and to some extent, time.", "He's the one who arranged for you to get here.", "Since this undead infestation began, he also found his way here.", {"hero":"He's here? Where?"}, "He lives in the Inn now. He's short on coin, so he resorts to selling his services, like other travellers who live there now.", "You'll have to talk to Alice, the Innkeeper, to get to him."]
+			},
+			
+			{
+				"id" : "hometown",
+				"option" : "What is this place?",
+				"dialog" : ["This town is called Oldinn. It's a safe place with good people... for the most part.", "Since the Academy has been sacked by Alistair Thadden, this has been my home town, and now it is yours too.", "We have merchants and smiths here, and of course, the old Inn."],
+				
+				"tree" : [
+					{
+						"id" : "vendors",
+						"option" : "Merchants?",
+						"dialog" : ["Ha! Have you ever seen an inn without a few merchants?", {"narrator":"He chuckles."}, "There are merchants selling weapons, potions, gemstones, crafting recipes...", "...and Alice, our Innkeeper, makes an honest profit by selling the services of her patrons who have more skill than coin. You can talk to her to hire adventurers as your companions."]
+					},
+					{
+						"id" : "crafting",
+						"option" : "Smiths?",
+						"dialog" : ["Yes, there is a blacksmith and a jewelcrafter.", "In time, you will learn how to craft weapons, armor and jewelry using their tools."]
+					},
+					{
+						"id" : "alistair",
+						"option" : "Alistair Thadden?",
+						"dialog" : ["Yes, Alistair Thadden was Headmaster of the Academy, and an old friend of Master Xagan. But, oh, vanity has its price...", {"narrator":"He sighs."}, "He turned to necromancy, and his sanity failed him in the end."],
+						"tree" : [
+							{ "goto" : ".xagan" }
+						]
+					}
+				]
+				
+			},
+			
+			{
+				"id": "weapon",
+				"req" : { "item" : "Alarion's *" },
+				"option" : "Thanks for the weapon.",
+				"dialog" : ["I see you still have it. It will serve you well... for a while.", "As you make your way through the world, you will want to change it for something more... effective."]
+			}
+		]
+	},
+
+	"Alice" : {
+		"req" : { "location" : "hometown" },
+		"dialog" : "Hello, {HEROCLASS}! Looking for some fellow adventurers to aid you in battle?",
+		"tree" : [
+			{
+				"id" : "hire_companions",
+				"option" : "Yes, please!",
+				"dialog" : ["Well then, you came to the right place!"],
+				"continue_to" : "role"
+			},
+			{
+				"id" : "intro",
+				"option" : "Who are you?",
+				"dialog" : ["I'm Alice Coldwell, the innkeeper here at Oldinn.", "And you are...?", {"hero":"{HERO}, ma'am. I'm the {HEROCLASS} here at Oldinn."}]
+			}
+		]
+	},
+
+	"Ingrid" : {
+		"req" : { "location" : "hometown", "quest":"craft_gear" },
+		"dialog" : "G'day, {HEROCLASS}. Want to forge a sword or do some tailoring?",
+		"tree" : [
+			{
+				"id" : "crafting",
+				"option" : "Yes, tell me about crafting",
+				"dialog" : ["It's a noble thing, crafting. Even Master Alarion says so. A kind of magic, he says.", "You find some iron, or leather, you make yourself a sword or an armor.", "Add some essence of earth, and the armor will heal you as you wear it.", "The more you craft, the better it gets.", "You should try it."]
+			},
+			{
+				"id" : "salvaging",
+				"option" : "What about salvaging?",
+				"dialog" : ["Take those weapons and armors you don't need to the salvage table over there, next to you.", "Salvage them. You'll recover materials and essences that will come in really handy when you want to craft something new."]
+			}
+		]
+
+	},
+
+
+	"Walt" : {
+		"req" : { "location" : "Road to Anderra" },
+		"dialog" : {"narrator":"Walt looks preocupied."},
+		"tree" : [
+			{
+				"id" : "mushrooms",
+				"option" : "Are there any mushrooms around here?",
+				"dialog" : [{"narrator":"He looks startled."}, "Sorry, wha?", "Oh, mushrooms! Yes.", "Not here on the farm, I gathered them all. But all the way along the road to Anderra, there should be plenty.", {"narrator":"He grins."}, "Skeletons don't eat them."]
+			},
+			{
+				"id" : "anderra",
+				"option" : "Which way to Anderra?",
+				"dialog" : "Err... oh, yeah. Anderra is the other way, across the bridge."
+			},
+			{
+				"id" : "intro",
+				"option" : "Who are you?",
+				"dialog" : 
+				[
+					"I'm Walt Lefthand. I'm a farmer, but I like to fiddle with machinery.",
+					{"hero":"I'm {HERO}, nice to..."},
+					"I did some apprenticeship at the Academy, and picked up some pregramming...", 
+					"They gave me these automatons when I left. Been tinkering with their pregrams ever since, trying to get them to work the farm by themselves.",
+					{"narrator":"Walt's face lights up."}, 
+					"Then, there will be enough food for everyone. I think."
+				]
+			}
+		]
+	},
+
+	"Gornathan" : {
+		"req" : { "location" : "hometown" },
+		"dialog" : "Humph... Hello, {HEROCLASS}. Do you want to trade? My store trades quality equipment for gold or gems.",
+		"tree" : [
+			{
+				"id" : "intro",
+				"option" : "Who are you?",
+				"dialog" : ["Who am I? I am an honest merchant trying to make a living.", "I don't have some of those fancy things you find on big bad monsters, but my equipment is sturdy and fairly priced."]
+			}
+		]
+
+	},
+
+	"The Broken Dragon" : {
+		"req" : { "location" : "Currents of the Ether" },
+		"dialog" : "{HERO}, I didn't get to properly thank you for saving me from Ragadam's terror. I have taken you as far as I could. I must soon depart to mend my wounds, but you can count on me to be there when Ragadam's demise is at hand."
+	},
+
+	"Maggie" : {
+		"req" : { "location" : "Currents of the Ether" },
+		"dialog" : "I am no fool, {HEROCLASS}. I will not be the one standing in your way."
+	},
+
+	"Nogrim" : {
+		"req" : { "location" : "Stairway to Levania" },
+		"dialog" : "Name's Nogrim. Here on mission. Keep it down, place is crawling with enemies."
+	},
+
+	"Liana" : {
+		"req" : { "location" : "hometown" , "quest" : "apple" },
+		"dialog" : "Well, so now you know my little secret. You are smart enough to understand we are all on the same side, but some things are better kept away from the public at large.",
+		"tree" : [
+			{
+				"id" : "intro",
+				"option" : "Tell me about yourself, Liana.",
+				"dialog" : ["All you need to know about me is that I have been an agent of the Anderran Secret Service for 12 years. My code name is Liana.", "I have been assigned to this place because Service analysts designated you as an individual of special interest, capable to aid us to win the conflict against Ragadam."]
+			},
+			{
+				"id" : "the_service",
+				"option" : "Tell me about the Anderran Secret Service.",
+				"dialog" : ["I cannot go into details, {HEROCLASS}. What I can tell you is that we are the good guys.", "When the threat of war is upon our civilization, we call the army. When there are problems we don't understand, we ask people like Alarion.", "The service isn't very different. We also protect Anderra, but we don't do it sword in hand nor by studying the old texts. We do it from the shadows, gathering information and disarming threats before they become too big of a problem."]
+			},
+			{
+				"id" : "information",
+				"option" : "What do we really know about Ragadam's plan?",
+				"dialog" : ["For now, you know as much as we know. But when we have new actionable intel, be sure I will turn to you.", "Every task that I ask you to complete is for the greater good, be reasurred of that champion."]
+			}
+		]
+	},
+
+	"Mitzu" : {
+		"req" : { "location" : "hometown" },
+		"dialog" : "H-h-hi there! I'm M-m-mitzu. I l-like st.. st.. stuff. Gather all stuff. Shiny or no shiny. I p-pay good g-g-gold for it!",
+		"tree" : [
+			{
+				"id" : "intro",
+				"option" : "Tell me about yourself, Mitzu.",
+				"dialog" : ["I-i-i lived in b-big house, in A-a-anderra! Big house of m-my a... aunt, Jo-jo-jocasta! Aunt Jocasta w-was v-v-very good to Mitzu."]
+			},
+			{
+				"id" : "rich_mitzu",
+				"option" : "How do you afford to buy all these things?",
+				"dialog" : ["Aunt Jocasta l-left M-m-mitzu lots of m-m-money.", "Wh-when th-th-the dead c-c-came, I le-left... ran. Here, to O-o-oldinn!", "I li-like stuff, don't n-need m-m-money."]
+			}
+		]
+	},
+
+	"Quack" : {
+		"req" : {"quest":"quacks_errand"},
+		"dialog" : "Thank you for helping me unshackle the minds of my brethren, hero."
+	}
+}
+
+

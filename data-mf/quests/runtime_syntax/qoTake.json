@@ -1,0 +1,10 @@
+{
+   "dialog" : {
+      "mandatory" : true,
+      "type" : "object"
+   },
+   "item" : {
+      "mandatory" : true,
+      "type" : "object"
+   }
+}

@@ -1,0 +1,245 @@
+[
+{
+		"id":"heavy_armor",
+		"category":"heavy_armor",		
+		"name":"Heavy Armor",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["heavy_armor"],
+				"excludeTags":["set"]
+			}
+			,
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"gear_essence_cheap",
+				"qualityMultiplier":"essence_default"
+			}			
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"gear_gold_cost",
+				"qualityMultiplier":"gold_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "iron_bar",
+				"amountPerItemLevel":0.5,
+				"qualityMultiplier":"materials_default"
+			}
+		]
+
+			
+	},
+	{
+		"id":"set_heavy_armor",
+		"category":"set_heavy_armor",
+
+		"output":{
+			"type":"gear",
+			"selection":["set"],
+			"itemFilter" : {
+				"minQuality":2,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["heavy_armor"],
+				"requireTags":["set"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":1,
+				"qualityMultiplier":"essence_set"
+			}			
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"gear_gold_cost",
+				"qualityMultiplier":"gold_expensive"
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"amountPerItemLevel":0.00855,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "mithril",
+				"amountPerItemLevel":0.0285,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+
+	},
+	{
+		"id":"heavy_bracer",
+		"category":"heavy_bracer",		
+		"name":"Bracers",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["heavy_bracer"],
+				"excludeTags":["set", "unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"gear_essence_cheap",
+				"qualityMultiplier":"essence_default"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"gear_gold_cost",
+				"qualityMultiplier":"gold_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "iron_bar",
+				"amountPerItemLevel":0.5,
+				"qualityMultiplier":"materials_default"
+			}
+		]			
+	},
+	{
+		"id":"unique_heavy_bracer",
+		"category":"unique_heavy_bracer",		
+		"name":"Bracers",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["heavy_bracer"],
+				"requireTags":["unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"gear_essence_cheap",
+				"qualityMultiplier":"essence_default"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"gear_gold_cost",
+				"qualityMultiplier":"gold_expensive"
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"amountPerItemLevel":0.00855,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "mithril",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	},	
+	{
+		"id":"unique_heavy_belt",
+		"category":"unique_heavy_belt",		
+		"name":"Unique Heavy Belts",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":2,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["heavy_belt"],
+				"requireTags":["unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":1,
+				"qualityMultiplier":"essence_set"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"gear_gold_cost",
+				"qualityMultiplier":"gold_expensive"
+			},
+			{
+				"type" : "material",
+				"subType" : "mark_of_the_titans",
+				"amountPerItemLevel":0.00855,
+				"qualityMultiplier":"essence_set"
+			},
+			{
+				"type" : "material",
+				"subType" : "mithril",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	},
+	{
+		"id":"heavy_belt",
+		"category":"heavy_belt",		
+		"name":"Belts",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["heavy_belt"],
+				"excludeTags":["set", "unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"gear_essence_cheap",
+				"qualityMultiplier":"essence_default"
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"gear_gold_cost",
+				"qualityMultiplier":"gold_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "iron_bar",
+				"amountPerItemLevel":0.5,
+				"qualityMultiplier":"materials_default"
+			}
+		]			
+	}
+]

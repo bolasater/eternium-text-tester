@@ -1,0 +1,76 @@
+[
+	{
+		"id":"normal_trinkets",
+		"category":"normal_trinkets",		
+		"name":"Trinkets",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["Trinket"],
+				"excludeTags":["set", "unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"weapon_essence_cheap",
+				"qualityMultiplier":"essence_default"	
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"weapon_gold_cost",
+				"qualityMultiplier":"gold_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "mithril",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	},
+	{
+		"id":"unique_trinkets",
+		"category":"unique_trinkets",		
+		"name":"Unique Trinkets",
+
+		"output":{
+			"type":"gear",
+			"itemFilter" : {
+				"minQuality":1,
+				"maxQuality":4,
+				"minLevel":1,
+				"maxLevel":70,
+				"requireTypes":["Trinket"],
+				"requireTags":["unique"]
+			},
+			"essences_per_stat":{
+				"amountPerItemLevel":0,
+				"itemLevelCurve":"weapon_essence_cheap",
+				"qualityMultiplier":"essence_default"	
+			}
+		},
+
+		"ingredients":[
+			{
+				"type" : "currency",
+				"subType" : "gold",
+				"itemLevelCurve":"weapon_gold_cost",
+				"qualityMultiplier":"gold_default"
+			},
+			{
+				"type" : "material",
+				"subType" : "mithril",
+				"amountPerItemLevel":0.057,
+				"qualityMultiplier":"essence_set"
+			}
+		]			
+	}	
+]

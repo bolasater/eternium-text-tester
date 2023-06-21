@@ -1,0 +1,101 @@
+{
+	"baseTerrain" : "Ground 01",
+	"height" : 0.03,
+	"soundEnv" : "plain",
+	"portal" : {
+		"width" : 1,
+		"slope" : 0.15,
+		"curvature" : 1,
+		"chamfer" : 0
+	},
+
+	"tools" : [
+		{
+			"tool":"wall",
+			"wallProp" : "#props/SummerTrees",
+			"offset" : -0.05,
+			"propScaling" : 0.9,
+			"randomRotation" : true,
+			"randomScaling" : 0.25,
+			"overlap" : 0.2,
+			"randomPos" : 0.8,
+			"skipBottom" : true			
+		},
+		
+		{
+			"tool":"ring",
+			"terrain" : "Rock 06",
+			"offset" : 0,
+			"height" : 0.05,
+			"width" : 0.3,
+			"hardness" : 0.3,
+			"opacity" : 1.0,
+			"strength" : 0.5,
+			"extendColor" : 0.15
+		},
+		
+		{ "import" : "structures/Farm" },
+
+		{
+			"tool" : "enclave",
+			"maxNum" : 1,
+			"spacing" : 0.5,
+
+			"shape" : {
+				"size" : [0.33,0.66],
+				"verts" : [5,12],
+				"jumble" : 0.25
+			},
+
+			"style" : "SmallMountain"
+		},
+
+		{
+			"tool" : "crossroads",
+			"terrain" : "Dry Ground 03",
+			"width" : 0.4,
+			"height" : -0.0025,
+			"curliness" : 0.33
+		},
+		
+		{
+			"import" : "layers/SummerGround"
+		},
+		
+		{
+			"tool" : "randomprop",
+			"props" : "#props/SummerTrees",
+			"propScaling" : 0.7,
+			"randomScaling" : 0.2,
+			"minDist" : 0.3,
+			"maxDist" : 100,
+			"avoidBuilt" : 1,
+			"markBuilt" : 1,
+			"density" : 0.2
+		},
+		
+		{
+			"tool" : "randomprop",
+			"props" : ["Bush 01"],
+			"propScaling" : 0.7,
+			"randomScaling" : 0.5,
+			"minDist" : 0.1,
+			"maxDist" : 25,
+			"avoidBuilt" : 1,
+			"markBuilt" : 0,
+			"density" : 2
+		},
+		
+		{
+			"tool" : "randomprop",
+			"props" : ["Crop Bush 01"],
+			"propScaling" : 0.7,
+			"randomScaling" : 0.5,
+			"minDist" : 0.1,
+			"maxDist" : 40,
+			"avoidBuilt" : 1,
+			"markBuilt" : 0,
+			"density" : 0.4
+		}
+	]
+}

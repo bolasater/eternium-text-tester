@@ -1,0 +1,772 @@
+[
+	{
+		"id":"santas_costume",
+		"duration":10080,
+		"condition":{
+			"type":"and",
+			"conditions":[
+				{"type":"hero_level", "minLevel":10, "maxLevel":70, "accountWide":true},
+				{"type":"date_range", "startDate":1640002275000, "endDate":1642248000000}
+			]
+		},
+		"value_pack":{
+			"title":"Ho! Ho! Ho!",
+			"description":"A complete Santa costume",
+			"limit":1,
+			"content":[
+				{
+					"skins" : ["mage_santa_coat", "mage_santa_pants", "mage_santa_helm", "mage_santa_pauldron", "mage_santa_armguard", "mage_santa_legging"]
+				}
+				,
+				{
+					"skins" : ["bounty_santa_coat", "bounty_santa_pants", "bounty_santa_helm", "bounty_santa_pauldron", "bounty_santa_armguard", "bounty_santa_legging"]
+				}
+				,
+				{
+					"skins" : ["war_santa_coat", "war_santa_pants", "war_santa_helm", "war_santa_pauldron", "war_santa_armguard", "war_santa_legging"]
+				}
+				,
+				{
+					"skins" : ["santa_cape"]
+				}
+			]			
+		}		
+	},	
+	{
+		"id":"HeroProgress5",
+		"condition":{
+			"type":"hero_level", "minLevel":5, "maxLevel":8
+		},
+		"perHero":true,
+		"duration":120,
+		"value_pack":{
+			"title":"Mastercrafted Weapon",
+			"goldPrice":2500,
+			"description":"Use this weapon to help you in your journey",
+			"limit":1,
+			"content":[
+			]
+		},		
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"Sword", "stats":["haste", "power"], "quality":"rare", "itemLevel":6, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"Staff", "stats":["haste", "power"], "quality":"rare", "itemLevel":6, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"Pistol", "stats":["haste", "power"], "quality":"rare", "itemLevel":6, "improvedRoll":0.8}}
+		]
+	},
+
+	{
+		"id":"HeroProgress10_1",
+		"condition":{
+			"type":"hero_level", "minLevel":10, "maxLevel":13
+		},
+		"perHero":true,
+		"duration":120,
+		"value_pack":{
+			"title":"Precious Jewelry",
+			"goldPrice":10000,
+			"description":"",
+			"limit":1,
+			"content":[
+			]
+		},		
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"itemClass":"Ring", "stats":["vitality", "power"], "quality":"rare", "itemLevel":10, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"itemClass":"Ring", "stats":["haste", "criticalRating"], "quality":"rare", "itemLevel":10, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"itemClass":"Necklace", "stats":["haste", "power"], "quality":"rare", "itemLevel":10, "improvedRoll":0.8}}
+		]
+	},
+
+	{
+		"id":"HeroProgress10_2",
+		"condition":{
+			"type":"hero_level", "minLevel":10, "maxLevel":13
+		},
+		"perHero":true,
+		"duration":120,
+		"value_pack":{
+			"title":"Epic Trinket",
+			"gemsPrice":100,
+			"description":"",
+			"limit":1,
+			"content":[
+			]
+		},		
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"itemClass":"trinket", "stats":["criticalRating", "haste", "power"], "quality":"epic", "itemLevel":10, "improvedRoll":0.8}}
+		]
+	},
+
+	{
+		"id":"HeroProgress15_1",
+		"condition":{
+			"type":"hero_level", "minLevel":15, "maxLevel":17
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Rare Equipment Upgrades",
+			"goldPrice":25000,
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"xp_booster_50",
+					"quantity":1
+				}				
+			]
+		},		
+		"generators":[
+				{"type":"gear_upgrades", "params": {"quality":"rare", "count":2}}
+		]
+	},
+
+	{
+		"id":"HeroProgress15_2",
+		"condition":{
+			"type":"hero_level", "minLevel":15, "maxLevel":17
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Epic Equipment Upgrades",
+			"gemsPrice":250,
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"xp_booster_100",
+					"quantity":1
+				}				
+			]
+		},		
+		"generators":[
+				{"type":"gear_upgrades", "params": {"quality":"epic", "count":2}}
+		]
+	},
+
+	{
+		"id":"HeroProgress20_1",
+		"condition":{
+			"type":"hero_level", "minLevel":20, "maxLevel":23
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Crafting Materials",
+			"goldPrice":35000,
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				},
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				},
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				}								
+			]
+		}
+	},
+	{
+		"id":"HeroProgress20_2",
+		"condition":{
+			"type":"hero_level", "minLevel":20, "maxLevel":23
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Epic Experience Set",
+			"iap":"event_pack_10",
+			"description":"",
+			"limit":1,
+			"content":[
+			]
+		},
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"warrior_adventurer_cap", "stats":["experience", "haste", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"mage_adventurer_hood", "stats":["experience", "haste", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"ranger_adventurer_hood", "stats":["experience", "haste", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"warrior_adventurer_pads", "stats":["experience", "haste", "vitality"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"mage_adventurer_pads", "stats":["experience", "haste", "vitality"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"ranger_adventurer_shoulders", "stats":["experience", "haste", "vitality"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"warrior_adventurer_tunic", "stats":["experience", "vitality", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"mage_adventurer_robe", "stats":["experience", "vitality", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"ranger_adventurer_tunic", "stats":["experience", "vitality", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"warrior_adventurer_gauntlets", "stats":["experience", "haste", "lifeOnHit"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"mage_adventurer_armguards", "stats":["experience", "haste", "lifeOnHit"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"ranger_adventurer_gloves", "stats":["experience", "haste", "lifeOnHit"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"warrior_adventurer_pants", "stats":["experience", "movementSpeed", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"mage_adventurer_pants", "stats":["experience", "haste", "movementSpeed"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"ranger_adventurer_pants", "stats":["experience", "movementSpeed", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"warrior_adventurer_sabatons", "stats":["experience", "movementSpeed", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"mage_adventurer_boots", "stats":["experience", "movementSpeed", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"ranger_adventurer_boots", "stats":["experience", "movementSpeed", "power"], "quality":"epic", "itemLevel":20, "improvedRoll":0.8}}
+		]
+	},
+
+	{
+		"id":"HeroProgress25_1",
+		"condition":{
+			"type":"hero_level", "minLevel":25, "maxLevel":28
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Rare quipment Upgrades",
+			"goldPrice":35000,
+			"description":"Equip yourself to overcome tougher challenges.",
+			"limit":1,
+			"content":[						
+			]
+		},		
+		"generators":[
+				{"type":"gear_upgrades", "params": {"quality":"rare", "count":2}}
+		]
+	},	
+
+	{
+		"id":"HeroProgress25_2",
+		"condition":{
+			"type":"hero_level", "minLevel":25, "maxLevel":28
+		},
+		"perHero":true,
+		"duration":120,
+		"value_pack":{
+			"title":"Epic Belt and Bracer",
+			"gemsPrice":100,
+			"description":"",
+			"limit":1,
+			"content":[
+			]
+		},		
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"heavy_bracer", "stats":["vitality", "haste", "power"], "quality":"epic", "itemLevel":25, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"light_bracer", "stats":["vitality", "haste", "power"], "quality":"epic", "itemLevel":25, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"medium_bracer", "stats":["vitality", "haste", "power"], "quality":"epic", "itemLevel":25, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"heavy_belt", "stats":["vitality", "criticalRating", "lifeOnHit"], "quality":"epic", "itemLevel":25, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"light_belt", "stats":["vitality", "criticalRating", "lifeOnHit"], "quality":"epic", "itemLevel":25, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"medium_belt", "stats":["vitality", "criticalRating", "lifeOnHit"], "quality":"epic", "itemLevel":25, "improvedRoll":0.8}}
+		]
+	},
+
+	{
+		"id":"HeroProgress25_3",
+		"condition":{
+			"type":"hero_level", "minLevel":25, "maxLevel":35
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Gemstones",
+			"gemsPrice":125,
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"gemstone_selection",
+					"quantity":1
+				},
+				{
+					"meta_item":"gemstone_selection",
+					"quantity":1
+				},
+				{
+					"meta_item":"gemstone_selection",
+					"quantity":1
+				}								
+			]
+		}
+	},
+
+	{
+		"id":"HeroProgress30_1",
+		"condition":{
+			"type":"hero_level", "minLevel":30, "maxLevel":33
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Rare quipment Upgrades",
+			"goldPrice":45000,
+			"description":"Equip yourself to overcome tougher challenges.",
+			"limit":1,
+			"content":[						
+			]
+		},		
+		"generators":[
+				{"type":"gear_upgrades", "params": {"quality":"rare", "count":2}}
+		]
+	},
+
+	{
+		"id":"HeroProgress30_2",
+		"condition":{
+			"type":"hero_level", "minLevel":30, "maxLevel":33
+		},
+		"perHero":true,
+		"duration":120,
+		"value_pack":{
+			"title":"Precious Epic Jewelry",
+			"gemsPrice":150,
+			"description":"",
+			"limit":1,
+			"content":[
+			]
+		},		
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"itemClass":"Ring", "stats":["vitality", "power", "haste"], "quality":"epic", "itemLevel":30, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"itemClass":"Ring", "stats":["haste", "criticalRating", "haste"], "quality":"epic", "itemLevel":30, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"itemClass":"Necklace", "stats":["haste", "power", "haste"], "quality":"epic", "itemLevel":30, "improvedRoll":0.8}}
+		]
+	},
+
+	{
+		"id":"HeroProgress35_1",
+		"condition":{
+			"type":"hero_level", "minLevel":35, "maxLevel":38
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Crafting Materials",
+			"goldPrice":35000,
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				},
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				},
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				}								
+			]
+		}
+	},
+
+	{
+		"id":"HeroProgress35_2",
+		"condition":{
+			"type":"hero_level", "minLevel":35, "maxLevel":38
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Epic Experience Set",
+			"iap":"event_pack_10",
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"xp_booster_200",
+					"quantity":1
+				}							
+			]
+		},
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"defender_cap", "stats":["experience", "haste", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"apprentice_helm", "stats":["experience", "haste", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"havoc_hood", "stats":["experience", "haste", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"defender_pads", "stats":["experience", "haste", "vitality"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"apprentice_pads", "stats":["experience", "haste", "vitality"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"havoc_shoulders", "stats":["experience", "haste", "vitality"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"defender_tunic", "stats":["experience", "vitality", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"apprentice_robe", "stats":["experience", "vitality", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"havoc_tunic", "stats":["experience", "vitality", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"defender_gauntlets", "stats":["experience", "haste", "lifeOnHit"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"apprentice_armguards", "stats":["experience", "haste", "lifeOnHit"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"havoc_gloves", "stats":["experience", "haste", "lifeOnHit"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"defender_pants", "stats":["experience", "movementSpeed", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"apprentice_pants", "stats":["experience", "haste", "movementSpeed"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"havoc_pants", "stats":["experience", "movementSpeed", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"defender_sabatons", "stats":["experience", "movementSpeed", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"apprentice_boots", "stats":["experience", "movementSpeed", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"havoc_boots", "stats":["experience", "movementSpeed", "power"], "quality":"epic", "itemLevel":35, "improvedRoll":0.8}}
+		]
+	},
+
+	{
+		"id":"HeroProgress40_1",
+		"condition":{
+			"type":"hero_level", "minLevel":40, "maxLevel":43
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Rare quipment Upgrades",
+			"goldPrice":75000,
+			"description":"",
+			"limit":1,
+			"content":[				
+			]
+		},		
+		"generators":[
+				{"type":"gear_upgrades", "params": {"quality":"rare", "count":2}}
+		]
+	},
+
+	{
+		"id":"HeroProgress40_2",
+		"condition":{
+			"type":"hero_level", "minLevel":40, "maxLevel":43
+		},
+		"perHero":true,
+		"duration":120,
+		"value_pack":{
+			"title":"Legendary Weapons Set",
+			"iap":"event_pack_10",
+			"description":"Legendary weapons from the forges of Nirgal.",
+			"limit":1,
+			"content":[
+			]
+		},		
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"blackguard_assault", "stats":["haste", "power", "lifeOnHit", "vitality"], "quality":"legendary", "itemLevel":40, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"blackguard_resolve", "stats":["haste", "power", "lifeOnHit", "vitality"], "quality":"legendary", "itemLevel":40, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"eridanus", "stats":["haste", "power", "lifeOnHit", "vitality"], "quality":"legendary", "itemLevel":40, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"acamar", "stats":["haste", "power", "lifeOnHit", "vitality"], "quality":"legendary", "itemLevel":40, "improvedRoll":0.8}},
+
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"torch", "stats":["haste", "power", "lifeOnHit", "vitality"], "quality":"legendary", "itemLevel":40, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"firebug", "stats":["haste", "power", "lifeOnHit", "vitality"], "quality":"legendary", "itemLevel":40, "improvedRoll":0.8}}
+		]
+	},
+
+	{
+		"id":"HeroProgress45_1",
+		"condition":{
+			"type":"hero_level", "minLevel":45, "maxLevel":49
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Crafting Materials",
+			"goldPrice":35000,
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				},
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				},
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				}								
+			]
+		}
+	},
+
+	{
+		"id":"HeroProgress45_2",
+		"condition":{
+			"type":"hero_level", "minLevel":45, "maxLevel":49
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Advanced Crafting Materials",
+			"gemsPrice":300,
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"mat_crate_master",
+					"quantity":1
+				},
+				{
+					"meta_item":"mat_crate_master",
+					"quantity":1
+				},
+				{
+					"meta_item":"mat_crate_master",
+					"quantity":1
+				}								
+			]
+		}
+	},
+
+	{
+		"id":"HeroProgress50_1",
+		"condition":{
+			"type":"hero_level", "minLevel":50, "maxLevel":53
+		},
+		"perHero":true,
+		"duration":120,
+		"value_pack":{
+			"title":"Epic Trinket",
+			"goldPrice":100000,
+			"description":"",
+			"limit":1,
+			"content":[
+			]
+		},		
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"itemClass":"trinket", "stats":["experience", "vitality", "power"], "quality":"epic", "itemLevel":50, "improvedRoll":0.8}}
+		]
+	},
+
+	{
+		"id":"HeroProgress50_2",
+		"condition":{
+			"type":"hero_level", "minLevel":50, "maxLevel":54
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"A selection of boosters",
+			"gemsPrice":400,
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"currency_booster_200",
+					"quantity":2
+				},
+				{
+					"meta_item":"xp_booster_200",
+					"quantity":2
+				}								
+			]
+		}
+	},
+
+	{
+		"id":"HeroProgress55_1",
+		"condition":{
+			"type":"hero_level", "minLevel":55, "maxLevel":58
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Rare quipment Upgrades",
+			"goldPrice":75000,
+			"description":"",
+			"limit":1,
+			"content":[				
+			]
+		},		
+		"generators":[
+				{"type":"gear_upgrades", "params": {"quality":"rare", "count":2}}
+		]
+	},
+
+	{
+		"id":"HeroProgress55_2",
+		"condition":{
+			"type":"hero_level", "minLevel":55, "maxLevel":58
+		},
+		"perHero":true,
+		"duration":120,
+		"value_pack":{
+			"title":"Special Legendary Bracers",
+			"gemsPrice":200,
+			"description":"",
+			"limit":1,
+			"content":[
+			]
+		},		
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"hero_classes":["warrior"], "itemClass":"warrior_mastery_bracer", "stats":["vitality", "haste", "power", "experience"], "quality":"legendary", "itemLevel":55, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["mage"], "itemClass":"mage_mastery_bracer", "stats":["vitality", "haste", "power", "experience"], "quality":"legendary", "itemLevel":55, "improvedRoll":0.8}},
+				{	"type":"gear_item_generator", "params": {"hero_classes":["bounty_hunter"], "itemClass":"bounty_hunter_mastery_bracer", "stats":["vitality", "haste", "power", "experience"], "quality":"legendary", "itemLevel":55, "improvedRoll":0.8}}		
+		]
+	},
+
+	{
+		"id":"HeroProgress60_1",
+		"condition":{
+			"type":"hero_level", "minLevel":60, "maxLevel":63
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Rare quipment Upgrades",
+			"goldPrice":75000,
+			"description":"",
+			"limit":1,
+			"content":[				
+			]
+		},		
+		"generators":[
+				{"type":"gear_upgrades", "params": {"quality":"rare", "count":2}}
+		]
+	},
+
+	{
+		"id":"HeroProgress60_2",
+		"condition":{
+			"type":"hero_level", "minLevel":60, "maxLevel":63
+		},
+		"perHero":true,
+		"duration":120,
+		"value_pack":{
+			"title":"Talisman of Power",
+			"gemsPrice":150,
+			"description":"",
+			"limit":1,
+			"content":[
+			]
+		},		
+		"generators":[
+				{	"type":"gear_item_generator", "params": {"itemClass":"talisman_of_power", "stats":["criticalRating", "haste", "power"], "quality":"epic", "itemLevel":60, "improvedRoll":0.8}}
+		]
+	},
+
+	{
+		"id":"HeroProgress65_1",
+		"condition":{
+			"type":"hero_level", "minLevel":65, "maxLevel":68
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Rare quipment Upgrades",
+			"goldPrice":75000,
+			"description":"",
+			"limit":1,
+			"content":[				
+			]
+		},		
+		"generators":[
+				{"type":"gear_upgrades", "params": {"quality":"rare", "count":2}}
+		]
+	},
+
+	{
+		"id":"HeroProgress65_2",
+		"condition":{
+			"type":"hero_level", "minLevel":65, "maxLevel":69
+		},
+		"perHero":true,
+		"duration":180,
+		"value_pack":{
+			"title":"Gemstones",
+			"gemsPrice":125,
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"gemstone_selection",
+					"quantity":1
+				},
+				{
+					"meta_item":"gemstone_selection",
+					"quantity":1
+				},
+				{
+					"meta_item":"gemstone_selection",
+					"quantity":1
+				}								
+			]
+		}
+	},
+
+	{
+		"id":"HeroProgress70_1",
+		"condition":{
+			"type":"hero_level", "minLevel":70, "maxLevel":70
+		},
+		"perHero":true,
+		"duration":2880,
+		"value_pack":{
+			"title":"Crafting Materials",
+			"goldPrice":35000,
+			"description":"",
+			"limit":1,
+			"content":[
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				},
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				},
+				{
+					"meta_item":"basic_resource_crate",
+					"quantity":1
+				}								
+			]
+		}
+	},
+
+	{
+		"id":"HeroProgress70_2",
+		"condition":{
+			"type":"hero_level", "minLevel":70, "maxLevel":70
+		},
+		"perHero":true,
+		"duration":2880,
+		"value_pack":{
+			"title":"Legendary Equipment",
+			"iap":"event_pack_10",
+			"description":"",
+			"limit":3,
+			"content":[
+				{
+					"meta_item":"custom_legendary",
+					"quantity":1
+				},
+				{
+					"meta_item":"custom_legendary",
+					"quantity":1
+				}							
+			]
+		}
+	},
+
+	{
+		"id":"HeroProgress70_3",
+		"condition":{
+			"type":"hero_level", "minLevel":70, "maxLevel":70
+		},
+		"perHero":true,
+		"duration":2880,
+		"value_pack":{
+			"title":"Perfect Rare Jewlery",
+			"iap":"event_pack_10",
+			"description":"",
+			"limit":3,
+			"content":[
+				{
+					"meta_item":"custom_jewelry",
+					"quantity":1
+				},
+				{
+					"meta_item":"custom_jewelry",
+					"quantity":1
+				},
+				{
+					"meta_item":"custom_jewelry",
+					"quantity":1
+				}						
+			]
+		}
+	}
+]

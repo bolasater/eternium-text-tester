@@ -1,0 +1,1322 @@
+[
+    {
+        "budgetCost": 1, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 0
+        }, 
+        "color": "832509", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "minDamage", 
+        "isPercentual": false, 
+        "maxValue": 120, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Minimum Damage", 
+        "offBudget": true, 
+        "oldBudgetCost": 1, 
+        "prefixes": [
+            "Sharp", 
+            "Polished"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Gore", 
+            "Cruelty"
+        ]
+    }, 
+    {
+        "budgetCost": 1, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 0
+        }, 
+        "color": "832509", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "maxDamage", 
+        "isPercentual": false, 
+        "maxValue": 120, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Maximum Damage", 
+        "offBudget": true, 
+        "oldBudgetCost": 1, 
+        "prefixes": [
+            "Sharp", 
+            "Polished"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Gore", 
+            "Cruelty"
+        ]
+    }, 
+    {
+        "budgetCost": 2, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "5a0000", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "power", 
+        "isPercentual": false, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Power", 
+        "offBudget": false, 
+        "oldBudgetCost": 1, 
+        "prefixes": [
+            "Brutal", 
+            "Ferocious"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Gore", 
+            "Cruelty", 
+            "Wrath"
+        ]
+    }, 
+    {
+        "budgetCost": 2, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 0
+        }, 
+        "color": "1a5e40", 
+        "decalColor": "808080", 
+        "fallbackStat": "vitality", 
+        "id": "baseVitality", 
+        "isPercentual": false, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Vitality", 
+        "offBudget": true, 
+        "oldBudgetCost": 0.1, 
+        "prefixes": [
+            "Healthy", 
+            "Resilient"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Vitality"
+        ]
+    }, 
+    {
+        "budgetCost": 2, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "0b6946", 
+        "decalColor": "808080", 
+        "fallbackStat": "vitality", 
+        "id": "vitality", 
+        "isPercentual": false, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Vitality", 
+        "offBudget": false, 
+        "oldBudgetCost": 0.1, 
+        "prefixes": [
+            "Healthy", 
+            "Resilient"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Vitality"
+        ]
+    }, 
+    {
+        "budgetCost": 2, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 0
+        }, 
+        "color": "306c74", 
+        "decalColor": "808080", 
+        "fallbackStat": "vitality", 
+        "id": "lifePercent", 
+        "isPercentual": true, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Life", 
+        "offBudget": false, 
+        "oldBudgetCost": 0.1, 
+        "prefixes": [
+            "Healthy", 
+            "Resilient"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Vitality"
+        ]
+    }, 
+    {
+        "budgetCost": 0.83, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "168291", 
+        "decalColor": "808080", 
+        "fallbackStat": "life", 
+        "id": "lifeRegen", 
+        "isPercentual": false, 
+        "maxValue": 144.5783133, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Life Regeneration", 
+        "offBudget": false, 
+        "oldBudgetCost": 1, 
+        "prefixes": [
+            "Regenerating", 
+            "Blossoming"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Regeneration", 
+            "Sustenance", 
+            "Regrowth"
+        ]
+    }, 
+    {
+        "budgetCost": 2, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "a84f23", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "criticalRating", 
+        "isPercentual": false, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Critical Rating", 
+        "offBudget": false, 
+        "oldBudgetCost": 8.33, 
+        "prefixes": [
+            "Precise"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Malice"
+        ]
+    }, 
+    {
+        "budgetCost": 3, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "b6420a", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "criticalDamage", 
+        "isPercentual": true, 
+        "maxValue": 40, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Critical Damage", 
+        "offBudget": false, 
+        "oldBudgetCost": 0.83, 
+        "prefixes": [
+            "Gruesome", 
+            "Fatal"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Destruction"
+        ]
+    }, 
+    {
+        "budgetCost": 2, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "684a13", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "haste", 
+        "isPercentual": false, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Haste", 
+        "offBudget": false, 
+        "oldBudgetCost": 12.5, 
+        "prefixes": [
+            "Quick"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Alacrity", 
+            "Readiness", 
+            "Swiftness"
+        ]
+    }, 
+    {
+        "budgetCost": 1, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 0
+        }, 
+        "color": "293a4d", 
+        "decalColor": "808080", 
+        "fallbackStat": "armor", 
+        "id": "baseArmor", 
+        "isPercentual": false, 
+        "maxValue": 120, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Armor", 
+        "offBudget": true, 
+        "oldBudgetCost": 1, 
+        "prefixes": [
+            "Stout", 
+            "Strong"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Sturdiness", 
+            "Protection"
+        ]
+    }, 
+    {
+        "budgetCost": 1, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "133f6f", 
+        "decalColor": "808080", 
+        "fallbackStat": "life", 
+        "id": "armor", 
+        "isPercentual": false, 
+        "maxValue": 120, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Armor", 
+        "offBudget": false, 
+        "oldBudgetCost": 0.25, 
+        "prefixes": [
+            "Stout", 
+            "Strong"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Sturdiness", 
+            "Protection"
+        ]
+    }, 
+    {
+        "budgetCost": 1, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 0
+        }, 
+        "color": "245992", 
+        "decalColor": "808080", 
+        "fallbackStat": "life", 
+        "id": "armorPercent", 
+        "isPercentual": true, 
+        "maxValue": 120, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Armor", 
+        "offBudget": false, 
+        "oldBudgetCost": 0.25, 
+        "prefixes": [
+            "Stout", 
+            "Strong"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Sturdiness", 
+            "Protection"
+        ]
+    }, 
+    {
+        "budgetCost": 3.33, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "386653", 
+        "decalColor": "808080", 
+        "fallbackStat": "haste", 
+        "id": "movementSpeed", 
+        "isPercentual": false, 
+        "maxValue": 36.03603604, 
+        "minLevel": 0, 
+        "minValue": 5, 
+        "name": "Movement Speed", 
+        "offBudget": false, 
+        "oldBudgetCost": 3.33, 
+        "prefixes": [
+            "Fast"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 1, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Speed", 
+            "Haste"
+        ]
+    }, 
+    {
+        "budgetCost": 4, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "a0884d", 
+        "decalColor": "808080", 
+        "fallbackStat": "extraGold", 
+        "id": "extraGold", 
+        "isPercentual": true, 
+        "maxValue": 30, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Extra Gold", 
+        "offBudget": false, 
+        "oldBudgetCost": 1.67, 
+        "prefixes": [
+            "Lucky"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Greed", 
+            "Fortune", 
+            "Luck"
+        ]
+    }, 
+    {
+        "budgetCost": 0.5, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "380700", 
+        "decalColor": "808080", 
+        "fallbackStat": "lifeRegen", 
+        "id": "lifeOnHit", 
+        "isPercentual": false, 
+        "maxValue": 240, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Life On Hit", 
+        "offBudget": false, 
+        "oldBudgetCost": 16.67, 
+        "prefixes": [
+            "Vampiric"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Vampirism"
+        ]
+    }, 
+    {
+        "budgetCost": 2, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "4e1b75", 
+        "decalColor": "808080", 
+        "fallbackStat": "haste", 
+        "id": "abilityRating", 
+        "isPercentual": false, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Ability Rate", 
+        "offBudget": false, 
+        "oldBudgetCost": 7.14, 
+        "prefixes": [
+            "Timebending"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Celerity"
+        ]
+    }, 
+    {
+        "budgetCost": 4, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "7a9964", 
+        "decalColor": "808080", 
+        "fallbackStat": "experience", 
+        "id": "experience", 
+        "isPercentual": true, 
+        "maxValue": 30, 
+        "minLevel": 0, 
+        "minValue": 5, 
+        "name": "Experience", 
+        "offBudget": false, 
+        "oldBudgetCost": 3.33, 
+        "prefixes": [
+            "Fine"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Learning"
+        ]
+    }, 
+    {
+        "budgetCost": 0.5, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "582d00", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "deflectRating", 
+        "isPercentual": false, 
+        "maxValue": 240, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Deflect Rating", 
+        "offBudget": false, 
+        "oldBudgetCost": 0.67, 
+        "prefixes": [
+            "Spiked"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Thorns", 
+            "Spikes"
+        ]
+    }, 
+    {
+        "budgetCost": 1.5, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 1
+        }, 
+        "color": "305a70", 
+        "decalColor": "808080", 
+        "fallbackStat": "armor", 
+        "id": "blockRating", 
+        "isPercentual": false, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Block Rating", 
+        "offBudget": false, 
+        "oldBudgetCost": 10, 
+        "prefixes": [
+            "Deflecting"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 1, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 1, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Deflection"
+        ]
+    }, 
+    {
+        "budgetCost": 2, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 0
+        }, 
+        "color": "3b5868", 
+        "decalColor": "808080", 
+        "fallbackStat": "blockRating", 
+        "id": "baseBlockRating", 
+        "isPercentual": false, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Block Rating", 
+        "offBudget": true, 
+        "oldBudgetCost": 5, 
+        "prefixes": [
+            "Deflecting"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Deflection"
+        ]
+    }, 
+    {
+        "budgetCost": 0.5, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 0
+        }, 
+        "color": "3c435a", 
+        "decalColor": "808080", 
+        "fallbackStat": "blockAmount", 
+        "id": "minBlockAmount", 
+        "isPercentual": false, 
+        "maxValue": 240, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Block Amount", 
+        "offBudget": true, 
+        "oldBudgetCost": 0.5, 
+        "prefixes": [
+            "Defender"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Defense"
+        ]
+    }, 
+    {
+        "budgetCost": 0.5, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 0
+        }, 
+        "color": "374579", 
+        "decalColor": "808080", 
+        "fallbackStat": "blockAmount", 
+        "id": "maxBlockAmount", 
+        "isPercentual": false, 
+        "maxValue": 240, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Block Amount", 
+        "offBudget": true, 
+        "oldBudgetCost": 0.5, 
+        "prefixes": [
+            "Defender"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Defense"
+        ]
+    }, 
+    {
+        "budgetCost": 0.5, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 0
+        }, 
+        "color": "465179", 
+        "decalColor": "808080", 
+        "fallbackStat": "armor", 
+        "id": "blockAmount", 
+        "isPercentual": false, 
+        "maxValue": 240, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Block Amount", 
+        "offBudget": false, 
+        "oldBudgetCost": 0.25, 
+        "prefixes": [
+            "Defender"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+			"trinket" : 0,
+			"belt" : 0,
+			"bracer" : 0
+        }, 
+        "suffixes": [
+            "Defense"
+        ]
+    }, 
+    {
+        "budgetCost": 2, 
+        "classDistribution": {
+            "bounty_hunter": 0, 
+            "mage": 0, 
+            "spirit_walker": 0, 
+            "warrior": 1
+        }, 
+        "color": "195a6b", 
+        "decalColor": "808080", 
+        "fallbackStat": "armor", 
+        "id": "parryRating", 
+        "isPercentual": false, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Parry Rating", 
+        "offBudget": false, 
+        "oldBudgetCost": 10, 
+        "prefixes": [
+            "Deflecting"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 0, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 0, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Deflection"
+        ]
+    }, 
+    {
+        "budgetCost": 2, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "mage": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "11521f", 
+        "decalColor": "808080", 
+        "fallbackStat": "armor", 
+        "id": "dodgeRating", 
+        "isPercentual": false, 
+        "maxValue": 60, 
+        "minLevel": 0, 
+        "minValue": 1, 
+        "name": "Dodge Rating", 
+        "offBudget": false, 
+        "oldBudgetCost": 10, 
+        "prefixes": [
+            "Flexible", 
+            "Supple"
+        ], 
+        "slotDistribution": {
+            "boots": 1, 
+            "cape": 1, 
+            "chest": 1, 
+            "gloves": 1, 
+            "head": 1, 
+            "main_hand": 1, 
+            "necklace": 0, 
+            "off_hand": 1, 
+            "pants": 1, 
+            "ring": 0, 
+            "shoulders": 1,
+			"trinket" : 1,
+			"belt" : 1,
+			"bracer" : 1
+        }, 
+        "suffixes": [
+            "Agility"
+        ]
+    }, 
+    {
+        "budgetCost": 12, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1
+        }, 
+        "color": "8d3b29", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "physicalDamage", 
+        "isPercentual": true, 
+        "maxValue": 15, 
+        "minLevel": 20, 
+        "minValue": 1, 
+        "name": "Physical Damage", 
+        "offBudget": false, 
+        "prefixes": [
+            "Merciless"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+            "trinket" : 1,
+            "belt" : 1,
+            "bracer" : 1
+        }, 
+        "suffixes": [
+            "Strength"
+        ]
+    }, 
+    {
+        "budgetCost": 12, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "spirit_walker": 1, 
+            "mage": 1,
+            "warrior": 1
+        }, 
+        "color": "d6692a", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "fireDamage", 
+        "isPercentual": true, 
+        "maxValue": 15, 
+        "minLevel": 20, 
+        "minValue": 1, 
+        "name": "Fire Damage", 
+        "offBudget": false, 
+        "prefixes": [
+            "Fiery"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+            "trinket" : 1,
+            "belt" : 1,
+            "bracer" : 1
+        }, 
+        "suffixes": [
+            "Fire"
+        ]
+    }, 
+    {
+        "budgetCost": 12, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "spirit_walker": 1, 
+            "mage": 1
+        }, 
+        "color": "588b96", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "frostDamage", 
+        "isPercentual": true, 
+        "maxValue": 15, 
+        "minLevel": 20, 
+        "minValue": 1, 
+        "name": "Frost Damage", 
+        "offBudget": false, 
+        "prefixes": [
+            "Freezing"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+            "trinket" : 1,
+            "belt" : 1,
+            "bracer" : 1
+        }, 
+        "suffixes": [
+            "Frost"
+        ]
+    }, 
+    {
+        "budgetCost": 12, 
+        "classDistribution": {
+            "bounty_hunter": 1, 
+            "spirit_walker": 1, 
+            "warrior": 1, 
+            "mage": 1
+        }, 
+        "color": "72b33e", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "natureDamage", 
+        "isPercentual": true, 
+        "maxValue": 15, 
+        "minLevel": 20, 
+        "minValue": 1, 
+        "name": "Nature Damage", 
+        "offBudget": false, 
+        "prefixes": [
+            "Harmonious"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+            "trinket" : 1,
+            "belt" : 1,
+            "bracer" : 1
+        }, 
+        "suffixes": [
+            "Harmony"
+        ]
+    }, 
+    {
+        "budgetCost": 12, 
+        "classDistribution": {
+            "spirit_walker": 1, 
+            "mage": 1
+        }, 
+        "color": "8474b8", 
+        "decalColor": "808080", 
+        "fallbackStat": "power", 
+        "id": "arcaneDamage", 
+        "isPercentual": true, 
+        "maxValue": 15, 
+        "minLevel": 20, 
+        "minValue": 1, 
+        "name": "Arcane Damage", 
+        "offBudget": false, 
+        "prefixes": [
+            "Arcane"
+        ], 
+        "slotDistribution": {
+            "boots": 0, 
+            "cape": 0, 
+            "chest": 0, 
+            "gloves": 0, 
+            "head": 0, 
+            "main_hand": 0, 
+            "necklace": 0, 
+            "off_hand": 0, 
+            "pants": 0, 
+            "ring": 0, 
+            "shoulders": 0,
+            "trinket" : 1,
+            "belt" : 1,
+            "bracer" : 1
+        }, 
+        "suffixes": [
+            "Knowledge"
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+{
+   "companion" : {
+      "mandatory" : true,
+      "type" : "string"
+   }
+}

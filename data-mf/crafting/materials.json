@@ -1,0 +1,209 @@
+[
+	{
+		"id":"iron_bar",
+		"name":"Iron Bar",
+		"desc":"Iron bar is a crafting material used to create weapons and armor.",
+		"sound":"shield_hit",
+		"icon":"iron_bar",
+		"color":"FF4b4626",
+		"buy_price":"3000 gold",
+		"sell_price":"200 gold",
+		"loot_table":"uncommon",
+		"gemsCost":2
+	}
+	,
+	{
+		"id":"silver_ore",
+		"name":"Silver Ore",
+		"desc":"Silver ore can be smelt to create Silver Ornaments, or grinded into fine silver dust used in Enchanting.",
+		"sound":"shield_hit",
+		"icon":"silver_ore",
+		"color":"FF4b4626",
+		"buy_price":"5000 gold",
+		"sell_price":"350 gold",
+		"loot_table":"average",
+		"gemsCost":2		
+	}
+	,
+	{
+		"id":"leather",
+		"name":"Cured Leather",
+		"desc":"Cured leather is a crafting material used to create weapons and armor.",
+		"sound":"cloth",
+		"icon":"leather_piece",
+		"color":"FF4b4626",
+		"buy_price":"3000 gold",
+		"sell_price":"200 gold",
+		"loot_table":"uncommon",
+		"gemsCost":2
+	}
+	,
+	{
+		"id":"bolt_of_cloth",
+		"name":"Bolt of Silk Cloth",
+		"desc":"Bolt of Silk Cloth is a crafting material used to create weapons and armor.",
+		"sound":"cloth",
+		"icon":"bolt_of_silk",
+		"color":"FF4b4626",
+		"buy_price":"3000 gold",
+		"sell_price":"200 gold",
+		"loot_table":"uncommon",
+		"gemsCost":2
+	}
+	,
+	{
+		"id":"mark_of_the_titans",
+		"name" : "Mark of Titans",
+		"desc":"The Mark of Titans is a rare reagent used in crafting to create Set and Unique armor and weapons.",
+		"sound":"crystal_clink",
+		"icon":"mark_of_titans",
+		"color":"FF4b4626",
+		"buy_price":"15 gems",
+		"sell_price":"2500 gold",
+		"loot_table":"superrare",
+		"gemsCost":40
+	}
+	,
+	{
+		"id":"enchanted_leather",
+		"name" : "Enchanted Leather",
+		"desc":"Enchanted leather is an exotic crafting material used to create Set and Unique armor and weapons.",
+		"sound":"cloth",
+		"icon":"enchanted_leather",
+		"color":"FF4b4626",
+		"loot_table":"rare",
+		"buy_price":"5 gems",
+		"sell_price":"1000 gold",
+		"gemsCost":10
+	}
+	,
+	{
+		"id":"silver_ingot",
+		"name" : "Silver Ornament",
+		"desc":"Silver Ornament is a crafting material used to create weapons and armor.",
+		"sound":"shield_hit",
+		"icon":"silver_ornament",
+		"color":"FF4b4626",
+		"loot_table":"rare",
+		"buy_price":"10000 gold",
+		"sell_price":"450 gold",
+		"gemsCost":15
+	}
+	,
+	{
+		"id":"mithril",
+		"name" : "Mithril",
+		"desc":"Mithril is an exotic crafting material used to create Set and Unique armor and weapons.",
+		"sound":"shield_hit",
+		"icon":"silver_ingot",
+		"color":"FF4b4626",
+		"loot_table":"rare",
+		"buy_price":"5 gems",
+		"sell_price":"1000 gold",
+		"gemsCost":10
+	}
+	,
+	{
+		"id":"nightcloth",
+		"name" : "Nightcloth",
+		"desc":"Nightcloth is an exotic crafting material used to create Set and Unique armor.",
+		"sound":"shield_hit",
+		"icon":"nightcloth",
+		"color":"FF4b4626",
+		"loot_table":"rare",
+		"buy_price":"5 gems",
+		"sell_price":"1000 gold",
+		"gemsCost":10
+	}
+	,
+	{
+		"id":"silver_dust",
+		"name" : "Silver Dust",
+		"desc":"Silver Dust is a crafting material used to create enchantments.",
+		"sound":"shield_hit",
+		"icon":"silver_dust",
+		"color":"FF4b4626",
+		"loot_table":"special",
+		"buy_price":"1000 gold",
+		"sell_price":"50 gold",
+		"gemsCost":1
+	}
+	,
+	{
+		"id":"haunting_spirit",
+		"name" : "Haunting Spirit",
+		"desc":"Haunting Spirit is a crafting material used to create enchantments.",
+		"sound":"shield_hit",
+		"icon":"haunting_spirit",
+		"color":"FF4b4626",
+		"loot_table":"special",
+		"buy_price":"100000 gold",
+		"sell_price":"5000 gold",
+		"gemsCost":100
+	}
+	,
+	{
+		"id":"spirit_of_war",
+		"name" : "Spirit of War",
+		"desc":"Spirit of War is a crafting material used to create enchantments.",
+		"sound":"shield_hit",
+		"icon":"spirit_of_war",
+		"color":"FF4b4626",
+		"loot_table":"special",
+		"buy_price":"100000 gold",
+		"sell_price":"5000 gold",
+		"gemsCost":100
+	}
+	,
+	{
+		"id":"primal_spirit",
+		"name" : "Primal Spirit",
+		"desc":"Primal Spirit is a crafting material used to create enchantments.",
+		"sound":"shield_hit",
+		"icon":"primal_spirit",
+		"color":"FF4b4626",
+		"loot_table":"special",
+		"buy_price":"100000 gold",
+		"sell_price":"5000 gold",
+		"gemsCost":100
+	}
+	,
+	{
+		"id":"living_spirit",
+		"name" : "Living Spirit",
+		"desc":"Living Spirit is a crafting material used to create enchantments.",
+		"sound":"shield_hit",
+		"icon":"living_spirit",
+		"color":"FF4b4626",
+		"loot_table":"special",
+		"buy_price":"100000 gold",
+		"sell_price":"5000 gold",
+		"gemsCost":100
+	}
+	,
+	{
+		"id":"spirit_of_harmony",
+		"name" : "Spirit of Harmony",
+		"desc":"Spirit of Harmony is a crafting material used to create enchantments.",
+		"sound":"shield_hit",
+		"icon":"spirit_of_harmony",
+		"color":"FF4b4626",
+		"loot_table":"special",
+		"buy_price":"100000 gold",
+		"sell_price":"5000 gold",
+		"gemsCost":100
+	}
+	,
+	{
+		"id":"celestial_essence",
+		"name":"Celestial Essence",
+		"desc":"Celestial essence can be used for enchants that will allow you to make an item celestial.",
+		"sound":"shield_hit",
+		"icon":"celestial_essence",
+		"color":"FF4b4626",
+		"loot_table":"",
+		"buy_price":"100000 gold",
+		"sell_price":"5000 gold",
+		"gemsCost":100	
+	}
+]

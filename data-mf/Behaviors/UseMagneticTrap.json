@@ -1,0 +1,31 @@
+{
+	"id":"UseMagneticTrap",
+	"type":"Sequence",
+	"children":[
+		{
+			"type":"AbilityReady",
+			"ability":"magnetic_trap"
+		},
+		{
+			"type":"Negate",
+			"node":{
+				"type":"HasEffect",
+				"creature":"hero",
+				"effect":"MagneticTrap"
+			}
+		},
+		{
+			"type":"Negate",
+			"node":{
+				"type":"AOEExists",
+				"effectID":"MagneticTrap",
+				"friendly":true,
+				"enemy":false
+			}
+		},
+		{
+			"type":"CastAbility",
+			"ability":"magnetic_trap"
+		}
+	]
+}

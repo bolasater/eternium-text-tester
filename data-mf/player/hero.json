@@ -1,0 +1,38 @@
+{
+   "handle" : "MageFemale",
+   "level" : 1,
+   "name" : "Hero",
+   "quickbar" : [
+      {
+         "ability" : "firebolt",
+         "locked" : 0,
+         "type" : "attack"
+      },
+      {
+         "ability" : "",
+         "locked" : 1,
+         "type" : "attack"
+      },
+      {
+         "ability" : "",
+         "locked" : 0,
+         "type" : "utility"
+      },
+      {
+         "ability" : "",
+         "locked" : 1,
+         "type" : "utility"
+      },
+      {
+         "ability" : "",
+         "locked" : 0,
+         "type" : "passive"
+      },
+      {
+         "ability" : "",
+         "locked" : 1,
+         "type" : "passive"
+      }
+   ],
+   "xp" : 0
+}

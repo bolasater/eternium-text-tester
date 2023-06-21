@@ -1,0 +1,722 @@
+{
+   "ambient" : [ 0, 16, 32 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Simulator1.4.40: My Computer",
+      "saveTime" : "1580393459449"
+   },
+   "enemyFlavors" : [
+      "skeleton",
+      "skeleton_archer",
+      "beast",
+      "sister_of_ragadam",
+      "undead",
+      "dragon"
+   ],
+   "enemySetup" : null,
+   "fog" : [ 16, 48, 64 ],
+   "heroOmni" : {
+      "blue" : 0.40,
+      "green" : 0.80,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 1.0
+   },
+   "lightCol" : [ 0, 0, 0 ],
+   "lightDir" : [ -0.62470, -0.46850, 0.62470 ],
+   "props" : [
+      {
+         "heading" : 2.49530,
+         "height" : -0.00910,
+         "name" : "Column 04B",
+         "scaling" : 1.3680,
+         "x" : 1.26590,
+         "y" : -0.00910,
+         "z" : -1.28410
+      },
+      {
+         "heading" : 1.28450,
+         "height" : -0.00030,
+         "name" : "Column 04A",
+         "scaling" : 1.3680,
+         "x" : 0.7160,
+         "y" : -0.00030,
+         "z" : -1.52040
+      },
+      {
+         "heading" : 3.32160,
+         "height" : 0.00150,
+         "name" : "Column 04E",
+         "scaling" : 1.3680,
+         "x" : 1.6990,
+         "y" : 0.0030,
+         "z" : 0.43970
+      },
+      {
+         "heading" : -0.24540,
+         "height" : -0.03210,
+         "name" : "Column 04C",
+         "scaling" : 1.3680,
+         "x" : 1.65080,
+         "y" : -0.03120,
+         "z" : 0.55940
+      },
+      {
+         "heading" : 2.04530,
+         "height" : 0.00370,
+         "name" : "Column 04A",
+         "scaling" : 1.3680,
+         "x" : 1.4960,
+         "y" : 0.00370,
+         "z" : 0.85150
+      },
+      {
+         "heading" : -0.49910,
+         "height" : 0.00520,
+         "name" : "Column 04B",
+         "scaling" : 1.3680,
+         "x" : 0.29450,
+         "y" : 0.00520,
+         "z" : 1.53080
+      },
+      {
+         "heading" : -1.1290,
+         "height" : 0.00650,
+         "name" : "Column 04E",
+         "scaling" : 1.3680,
+         "x" : -0.14410,
+         "y" : 0.00650,
+         "z" : 1.53520
+      },
+      {
+         "heading" : 0.7690,
+         "height" : 0.00010,
+         "name" : "Column 04D",
+         "scaling" : 1.3680,
+         "x" : -1.28610,
+         "y" : 0.00010,
+         "z" : -1.08560
+      },
+      {
+         "heading" : 2.51160,
+         "height" : 0.00090,
+         "name" : "Column 04E",
+         "scaling" : 1.3680,
+         "x" : -0.81560,
+         "y" : 0.00090,
+         "z" : -1.44650
+      },
+      {
+         "heading" : 2.0780,
+         "height" : 0.00130,
+         "name" : "Column 04E",
+         "scaling" : 1.3680,
+         "x" : -1.36540,
+         "y" : 0.00130,
+         "z" : 0.90320
+      },
+      {
+         "heading" : 1.8980,
+         "name" : "Column 04B",
+         "scaling" : 1.3680,
+         "x" : -1.60120,
+         "y" : 0.0,
+         "z" : 0.47010
+      },
+      {
+         "heading" : -2.93710,
+         "height" : -0.16640,
+         "name" : "Rock04",
+         "scaling" : 2.0130,
+         "x" : 1.54570,
+         "y" : -0.16640,
+         "z" : -0.83470
+      },
+      {
+         "heading" : 4.57330,
+         "height" : -0.18210,
+         "name" : "Rock01",
+         "scaling" : 1.12350,
+         "x" : 1.26780,
+         "y" : -0.18880,
+         "z" : -1.4530
+      },
+      {
+         "heading" : 1.28450,
+         "height" : -0.13110,
+         "name" : "Rock03",
+         "scaling" : 1.0,
+         "x" : 1.63590,
+         "y" : -0.18780,
+         "z" : -0.84580
+      },
+      {
+         "heading" : -1.57080,
+         "height" : -0.14450,
+         "name" : "Rock02",
+         "scaling" : 1.79720,
+         "x" : 1.77130,
+         "y" : -0.16340,
+         "z" : 0.29050
+      },
+      {
+         "heading" : 0.61360,
+         "height" : -0.19590,
+         "name" : "Rock01",
+         "scaling" : 1.24810,
+         "x" : 1.76730,
+         "y" : -0.19780,
+         "z" : 0.21220
+      },
+      {
+         "heading" : 0.93270,
+         "height" : -0.19410,
+         "name" : "Rock03",
+         "scaling" : 1.71350,
+         "x" : 0.27910,
+         "y" : -0.19410,
+         "z" : 0.76890
+      },
+      {
+         "heading" : 0.45810,
+         "height" : -0.19930,
+         "name" : "Rock03",
+         "scaling" : 1.04860,
+         "x" : 0.29790,
+         "y" : -0.19930,
+         "z" : 0.84450
+      },
+      {
+         "heading" : -1.17810,
+         "height" : -0.00920,
+         "name" : "Rock02",
+         "scaling" : 2.05370,
+         "x" : 0.76540,
+         "y" : -0.19240,
+         "z" : -0.25990
+      },
+      {
+         "heading" : 1.71810,
+         "height" : -0.00310,
+         "name" : "Rock04",
+         "scaling" : 1.18250,
+         "x" : 0.83450,
+         "y" : -0.19620,
+         "z" : -0.18050
+      },
+      {
+         "heading" : 2.46260,
+         "height" : 0.0010,
+         "name" : "Rock01",
+         "scaling" : 1.23440,
+         "x" : 0.7818000000000001,
+         "y" : -0.18620,
+         "z" : -0.37160
+      },
+      {
+         "heading" : 1.77530,
+         "height" : -0.19050,
+         "name" : "Rock04",
+         "scaling" : 1.94130,
+         "x" : 1.8060,
+         "y" : -0.19180,
+         "z" : 0.41860
+      },
+      {
+         "heading" : 0.13910,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : -0.14680,
+         "y" : 0.0,
+         "z" : 1.15950
+      },
+      {
+         "heading" : 2.56890,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : 0.31470,
+         "y" : 0.0,
+         "z" : 1.15480
+      },
+      {
+         "heading" : 1.81620,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : 1.28610,
+         "y" : 0.0,
+         "z" : 0.26920
+      },
+      {
+         "heading" : -0.9490,
+         "height" : 0.0,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : 1.13290,
+         "y" : 0.0,
+         "z" : 0.680
+      },
+      {
+         "heading" : 3.63250,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : 1.01130,
+         "y" : 0.0,
+         "z" : -0.88320
+      },
+      {
+         "heading" : 0.72810,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : 0.55210,
+         "y" : 0.0,
+         "z" : -1.1230
+      },
+      {
+         "heading" : 2.59350,
+         "height" : -0.0,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : -0.6254999999999999,
+         "y" : 0.0,
+         "z" : -1.12930
+      },
+      {
+         "heading" : -0.43360,
+         "height" : 0.0,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : -0.99050,
+         "y" : 0.0,
+         "z" : -0.86860
+      },
+      {
+         "heading" : -2.41350,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : -1.04810,
+         "y" : 0.0,
+         "z" : 0.67930
+      },
+      {
+         "heading" : 0.360,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : -1.27270,
+         "y" : 0.0,
+         "z" : 0.34620
+      },
+      {
+         "heading" : 0.87540,
+         "height" : -0.009599999999999999,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : -0.77020,
+         "y" : -0.010,
+         "z" : 0.08560
+      },
+      {
+         "heading" : -2.23350,
+         "height" : -0.00020,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : -0.50830,
+         "y" : 0.00290,
+         "z" : 0.42820
+      },
+      {
+         "heading" : -0.13090,
+         "height" : 0.01720,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : -0.60630,
+         "y" : 0.00050,
+         "z" : -0.44640
+      },
+      {
+         "heading" : 2.46260,
+         "height" : -0.00010,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : -0.24120,
+         "y" : -0.00010,
+         "z" : -0.68920
+      },
+      {
+         "heading" : 3.2480,
+         "height" : 0.00010,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : 0.53030,
+         "y" : 0.0080,
+         "z" : -0.47440
+      },
+      {
+         "heading" : 0.90810,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : 0.18840,
+         "y" : 0.0,
+         "z" : -0.68030
+      },
+      {
+         "heading" : -1.34170,
+         "height" : 0.00150,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : 0.5930,
+         "y" : 0.01270,
+         "z" : 0.4120
+      },
+      {
+         "heading" : 1.88170,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : 0.82090,
+         "y" : 0.0,
+         "z" : 0.0640
+      },
+      {
+         "heading" : -3.37070,
+         "height" : 0.0,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : 0.26680,
+         "y" : 0.0,
+         "z" : 0.6506999999999999
+      },
+      {
+         "heading" : -5.44050,
+         "height" : 0.00080,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.74170,
+         "x" : -0.14140,
+         "y" : 0.00180,
+         "z" : 0.62340
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.25810,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 2.04890,
+         "y" : 0.05810,
+         "z" : 0.17690
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.17250,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 1.04770,
+         "y" : -0.02750,
+         "z" : -0.21270
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.21240,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -0.03670,
+         "y" : 0.01240,
+         "z" : -1.0790
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.10140,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -1.09290,
+         "y" : -0.09859999999999999,
+         "z" : -0.15330
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.2510,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.02620,
+         "x" : -0.51450,
+         "y" : 0.0510,
+         "z" : 0.77460
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.16190,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.02620,
+         "x" : 0.63520,
+         "y" : -0.03810,
+         "z" : 0.81520
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.25610,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 1.95480,
+         "y" : 0.05610,
+         "z" : -0.68080
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.2120,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 1.68050,
+         "y" : 0.0120,
+         "z" : 1.09670
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.15050,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 0.92610,
+         "y" : -0.04950,
+         "z" : 1.69240
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.13250,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -0.48150,
+         "y" : -0.06740,
+         "z" : 1.74970
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12040,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -1.25590,
+         "y" : -0.07960,
+         "z" : 1.42930
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12040,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -1.92780,
+         "y" : -0.07960,
+         "z" : 0.44180
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12040,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -2.01250,
+         "y" : -0.07960,
+         "z" : -0.52250
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12040,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -1.65040,
+         "y" : -0.07960,
+         "z" : -1.55680
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12040,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -1.18630,
+         "y" : -0.07960,
+         "z" : -2.09920
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12040,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 0.10220,
+         "y" : -0.07960,
+         "z" : -2.2970
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12040,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 1.10770,
+         "y" : -0.07960,
+         "z" : -2.05810
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12040,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 1.75460,
+         "y" : -0.07960,
+         "z" : -1.39630
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : [
+      {
+         "name" : "Spawn Point 0",
+         "x" : 0.06850000000000001,
+         "y" : -0.00120,
+         "z" : 1.35350
+      },
+      {
+         "name" : "Spawn Point 1",
+         "x" : -1.34580,
+         "y" : -0.0005999999999999999,
+         "z" : 0.5780
+      },
+      {
+         "name" : "Spawn Point 2",
+         "x" : -1.00590,
+         "y" : -0.00260,
+         "z" : -1.20510
+      },
+      {
+         "name" : "Spawn Point 3",
+         "x" : 0.90810,
+         "y" : -0.00120,
+         "z" : -1.27480
+      },
+      {
+         "name" : "Spawn Point 4",
+         "x" : 1.49030,
+         "y" : -0.0005999999999999999,
+         "z" : 0.58610
+      }
+   ],
+   "startPosition" : [ 0.0, 0.0 ],
+   "tint" : [ 128, 128, 128, 0 ],
+   "title" : "",
+   "weather" : null
+}

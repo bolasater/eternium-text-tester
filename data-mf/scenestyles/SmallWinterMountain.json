@@ -1,0 +1,35 @@
+{
+	"baseTerrain" : "Ice Blocks 02",
+	"height" : 0.1,
+	"playable" : false,
+	
+	"tools" : [
+		
+		{
+			"tool":"ring",
+			"terrain" : "Ice Blocks 02",
+			"offset" : 0,
+			"height" : -0.05,
+			"width" : 0.3,
+			"hardness" : 0.3,
+			"opacity" : 1.0,
+			"strength" : 0.25,
+			"extendColor" : 0.15
+		},
+
+		{
+			"tool" : "randombrush",
+			"brush" : {
+				"height" : 0.25,
+				"width" : 0.3,
+				"hardness" : 0.7,
+				"opacity" : 0.8,
+				"strength" : 0.25
+			},
+			"density" : 40,
+			"terrains" : ["Ice Blocks 02"],
+			"randomScaling" : 0.5,
+			"extendColor" : 0.15
+		}			
+	]
+}

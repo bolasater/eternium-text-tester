@@ -1,0 +1,471 @@
+{
+	"soundtrack" : "TheHerosPurpose",
+
+	"images" : [
+		{ "id" : "sword_bg", "file" : "slaythousands_bg.jpg", "parent":"cam" },
+		{ "id" : "sword_hero", "file" : "slaythousands_fg2.png" },
+		{ "id" : "sword_fg", "file" : "slaythousands_fg1.png" },
+
+		{ "id" : "plans_bg", "file" : "marcus_pointing_bg.jpg", "parent":"cam" },
+		{ "id" : "plans_fg", "file" : "marcus_pointing_fg.png" },
+
+		{ "id" : "dragon_bg", "file" : "tamedragon_bg.jpg", "parent":"cam" },
+		{ "id" : "dragon_hero", "file" : "tamedragon_fg1.png" },
+		{ "id" : "dragon_fg", "file" : "tamedragon_fg2.png" },
+	
+		{ "id" : "bkg", "file" : "sunrise_sky.jpg", "a":0, "y":-1, "parent":"cam"},
+		{ "id" : "bgFlare", "file" : "godrays.jpg", "blend":"add", "parent":"bkg", "s" : 1.5, "y":-1.25 },
+
+		{ "id" : "s1c", "file" : "sunrise1_fg3.png", "parent":"cam" },
+		{ "id" : "s2c", "file" : "sunrise2_fg3.png", "parent":"cam" },
+		{ "id" : "s3c", "file" : "sunrise3_fg3.png", "parent":"cam" },
+
+		{ "id" : "s1g", "file" : "sunrise1_fg2.png" },
+		{ "id" : "s2g", "file" : "sunrise2_fg2.png" },
+		{ "id" : "s3g", "file" : "sunrise3_fg2.png" },
+
+		{ "id" : "s1",  "file" : "sunrise1_fg1.png" },
+		{ "id" : "s2", "file" : "sunrise2_fg1.png" },
+		{ "id" : "s3", "file" : "sunrise3_fg1.png" },
+
+	
+		{ "id" : "fgFlare", "file" : "godrays.jpg", "blend":"add", "parent":"bkg", "s" : 1.0, "y":-1.25 },
+		{ "id" : "goldFlash", "file" : "godrays.jpg", "blend":"add", "parent":"s3", "s" : 0.5, "x":-0.05, "y":-0.33 },
+		
+		{ "id" : "logo", "file" : "main_logo.png", "s":0.25 },
+		
+		{ "id" : "black", "file" : "black.jpg", "parent":"cam" },
+		
+		{"id" : "vignette", "file" : "vignette.jpg", "a":1, "parent":"cam", "blend":"sub"}
+	],
+	
+	"const" : {
+		"sunrise_time" : 20
+	},
+	
+	"keys" : [
+		{
+			"time" : 0,
+			"black.a" : 1
+		},		
+		
+		{
+			"name" : "Morning Sky Glimpse",
+			"timebase" : 1.5,
+			"bkg.a" : 0,
+			"bkg.y" : 1,
+			"s3.a" : 0,
+			"bgFlare.a" : 0,
+			"fgFlare.a" : 0,
+			"bgFlare.r" : 45,
+			"fgFlare.r" : 77
+		},
+		
+		{
+			"time": 0,
+			"black.a" : 1,
+			"bkg.a" : 1,
+			"s3.a" : 1,
+			"bgFlare.a" : 0.1,
+			"fgFlare.a" : 0,
+			"cam.x" : -0.25,
+			"cam.y" : 0.25,
+			"cam.s" : 0.5
+		},
+
+		{
+			"time": 1.5,
+			"black.a" : 0
+		},
+
+		{
+			"time": 5,
+			"black.a" : 0
+		},
+		
+		{
+			"time": 5.5,
+			"black.a" : 1,
+			"bkg.a" : 1,
+			"bkg.y" : 1,
+			"s3.a" : 1,
+			"bgFlare.a" : 0.1,
+			"fgFlare.a" : 0,
+			"cam.x" : -0.3,
+			"cam.y" : 0.1,
+			"cam.s" : 0.7
+		},
+		
+		{
+			"time": 5.5,
+			"cam.x" : 0,
+			"cam.y" : 0,
+			"bkg.a" : 0,
+			"bkg.y" : -0.7,
+			"s3.a" : 0,
+			"bgFlare.a" : 0,
+			"fgFlare.a" : 0,
+			"bgFlare.r" : 80,
+			"fgFlare.r" : 140
+		},	
+		
+		
+		
+		
+		{
+			"name" : "Green Skeleton Mayhem",
+			"timebase" : 7,
+			"sword_bg.a" : 0,
+			"sword_bg.s" : 1.4,
+			"sword_fg.a" : 0,
+			"sword_hero.a" : 0,
+			"sword_hero.y" : -0.1,
+			"sword_hero.s" : 0.8
+		},
+		
+		{
+			"time": 0,
+			"black.a" : 1,
+			"sword_bg.a" : 1,
+			"sword_fg.a" : 1,
+			"sword_hero.a" : 1,
+			"cam.s" : 0.7,
+			"cam.x" : -0.05,
+			"cam.y" : 0
+			
+		},
+
+		{
+			"time": 0.5,
+			"black.a" : 0
+		},
+
+		{
+			"time": 2.5,
+			"black.a" : 0
+		},
+		
+		{
+			"time": 3,
+			"black.a" : 1,
+			"sword_bg.a" : 1,
+			"sword_fg.a" : 1,
+			"sword_hero.a" : 1,
+			"sword_hero.s" : 1.25,
+			"sword_hero.y" : -0.1,
+			"cam.s" : 1,
+			"cam.x" : 0,
+			"cam.y" : 0
+		},
+		
+		{
+			"time": 3,
+			"sword_bg.a" : 0,
+			"sword_bg.s" : 1.0,
+			"sword_fg.a" : 0,
+			"sword_hero.a" : 0
+		},
+		
+		
+	
+
+
+
+		{
+			"name" : "Marcus Pointing",
+			"timebase" : 10,
+			"plans_bg.a" : 0,
+			"plans_bg.s" : 1.25,
+			"plans_fg.a" : 0,
+			"cam.x" : 0,
+			"cam.y" : 0,
+			"cam.s" : 1
+		},
+
+		{
+			"time": 0,
+			"black.a" : 1,
+			"plans_bg.a" : 1,
+			"plans_fg.a" : 1,
+			"cam.x" : 0.3,
+			"cam.y" : 0.15,
+			"cam.s" : 0.7
+		},
+
+		{
+			"time": 0.5,
+			"black.a" : 0
+		},
+
+		{
+			"time": 3.5,
+			"black.a" : 0
+		},
+		
+		{
+			"time": 4,
+			"black.a" : 1,
+			"plans_bg.a" : 1,
+			"plans_fg.a" : 1,
+			"cam.x" : 0,
+			"cam.y" : 0,
+			"cam.s" : 1
+		},
+		
+		{
+			"time": 4,
+			"plans_bg.a" : 0,
+			"plans_bg.s" : 1.0,
+			"plans_fg.a" : 0
+		},
+		
+		
+
+
+
+
+		{
+			"name" : "Tame Dragon",
+			"timebase" : 14,
+			"cam.x" : 0,
+			"cam.y" : 0,
+			"cam.s" : 1,
+			"dragon_bg.a" : 0,
+			"dragon_bg.s" : 1.25,
+			"dragon_fg.a" : 0,
+			"dragon_fg.s" : 1.15,
+			"dragon_hero.a" : 0
+		},
+
+		{
+			"time": 0,
+			"black.a" : 1,
+			"dragon_bg.a" : 1,
+			"dragon_fg.a" : 1,
+			"dragon_hero.a" : 1,
+			"cam.x" : 0.25,
+			"cam.y" : -0.2,
+			"cam.s" : 0.6
+		},
+
+		{
+			"time": 0.5,
+			"black.a" : 0
+		},
+
+		{
+			"time": 5.5,
+			"black.a" : 0
+		},
+		
+		{
+			"time": 6,
+			"black.a" : 1,
+			"dragon_bg.a" : 1,
+			"dragon_fg.a" : 1,
+			"dragon_hero.a" : 1,
+			"cam.x" : 0,
+			"cam.y" : 0,
+			"cam.s" : 1
+		},
+		
+		{
+			"time": 6,
+			"dragon_bg.a" : 0,
+			"dragon_bg.s" : 1.0,
+			"dragon_fg.s" : 1.0,
+			"dragon_hero.a" : 0,
+			"dragon_fg.a" : 0
+		},		
+		
+		{
+			"name" : "Sunrise of Blood and Gold",
+			"timebase" : 20,
+			"time" : 0,
+			"black.a" : 1,
+
+			"bkg.a": 0,
+			"s1.a" : 0,
+			"s1c.a" : 0,
+			"s1g.a" : 0,
+			"s1g.a" : 0,
+			"s2.a" : 0,
+			"s2c.a" : 0,
+			"s2g.a" : 0,
+			"s3.a" : 0,
+			"s3c.a" : 0,
+			"s3g.a" : 0,
+			"s1g.s" : 1.33,
+			"s2g.s" : 1.33,
+			"s3g.s" : 1.33,
+			"s1c.s" : 1.25,
+			"s2c.s" : 1.25,
+			"s3c.s" : 1.25,
+			"bgFlare.a" : 0,
+			"fgFlare.a" : 0,
+			
+			"cam.x" : 0,
+			"cam.y" : 0,
+			"cam.s" : 1
+		},
+		
+		{
+			"time" : 0,
+			"s1.a" : 1,
+			"s1c.a" : 1,
+			"s1g.a" : 1,
+			"bgFlare.a" : 0.05,
+			"bkg.a": 1,
+			"bgFlare.r" : 0,
+			"fgFlare.r" : 45,
+			
+			"cam.x" : -0.2,
+			"cam.y" : 0.2,
+			"cam.s" : 0.7
+		},
+		
+		{
+			"time": 0,
+			"black.a" : 1,
+			"bkg.y" : -1.5
+		},
+
+		{
+			"time": 2,
+			"black.a" : 0
+		},
+		
+		{
+			"time" : 6,
+			"s2.a" : 0,		
+			"s2c.a" : 0,			
+			"s2g.a" : 0		
+		},
+		
+		{
+			"name" : "End of cross fade to dawn foreground",
+			"time" : 9,
+			"s2.a" : 1,
+			"s2c.a" : 1,
+			"s2g.a" : 1,
+			"s1.a" : 1,
+			"s1g.a" : 1,
+			"s1c.a" : 1,
+			
+			"bgFlare.a" : 0.15
+		},
+		
+		{
+			"time" : 10,
+			"s1g.a" : 0,
+			"s1c.a" : 0,
+			"s1.a" : 0
+		},
+
+		{
+			"time" : "sunrise_time-0.5",
+			"s3.a" : 0,
+			"s3c.a" : 0,
+			"s3g.a" : 0,
+			"fgFlare.a" : 0
+		},
+		
+		{
+			"name" : "Sun rises",
+			"time" : "sunrise_time",
+			"fgFlare.a" : 0.25,
+			"s3.a" : 1,
+			"s3c.a" : 1,
+			"s3g.a" : 1,
+			"s2.a" : 1,
+			"s2c.a" : 1,
+			"s2g.a" : 1
+		},
+		
+		{
+			"time" : "sunrise_time+1",
+			"fgFlare.a" : 0,
+			"s2.a" : 0,
+			"s2c.a" : 0,
+			"s2g.a" : 0
+		},
+		
+		{
+			"time" : 21,
+			"logo.a" : 0,
+			"logo.s" : 1
+		},
+
+		{
+			"time" : 23,
+			"logo.a" : 1,
+			"logo.s" : 0.25
+		},
+
+		{
+			"time" : 23,
+			"goldFlash.a" : 0,
+			"goldFlash.r" : 0
+		},
+
+		{
+			"time" : 23.5,
+			"goldFlash.a" : 0.25
+		},
+		
+		{
+			"time" : 27,
+			"goldFlash.a" : 0,
+			"goldFlash.r" : 45
+		},
+		
+		{
+			"time" : 28,
+			"black.a" : 0
+		},
+
+		{
+			"time": 29,
+			"bkg.y" : 1.6,
+			"black.a" : 1,
+			"bgFlare.r" : 90,
+			"fgFlare.r" : 200,
+			"cam.x" : 0,
+			"cam.y" : 0,
+			"cam.s" : 1,
+			"s1g.s" : 1,
+			"s2g.s" : 1,
+			"s3g.s" : 1,
+			"s1c.s" : 1,
+			"s2c.s" : 1,
+			"s3c.s" : 1
+		},
+		
+		{
+			"time": 30,
+			"black.a" : 1
+		}
+		
+	],
+	
+	"subs" : [
+		[ 1.6, 5.0,   "I know you will do it, my friend." ],
+		[ 6.7, 9.7,   "Your sword will slay thousands," ],
+		[ 10.1, 13.1,   "your plans will end demons," ],
+		[ 13.5, 18, "and your words will tame dragons." ],
+
+		[ 19.6, 23.8, "I know this because you have chosen to do it" ],
+		[ 24.4, 27.7, "and the future has already bent to your will." ],
+
+		[ 31.5, 34.9, "I know you will do it, but I wonder still:" ],
+
+		[ 35.2, 37.0, "To what end?" ],
+
+		[ 37.2, 39.2, "To set free the living," ],
+
+		[ 39.5, 43.0, "or to plunder the gold of the dead?" ]
+		
+	]
+}
+
+

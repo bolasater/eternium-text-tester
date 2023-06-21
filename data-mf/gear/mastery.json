@@ -1,0 +1,37 @@
+{
+	"warrior":{
+		"Rending Slash":1,
+		"Frenzy":1,
+		"Cleave":2,
+		"Charge":5,
+		"Leap":10,
+		"Deadly Throw":1,
+		"Whirlwind":1,
+		"Shockwave":1,
+		"Devastate":0.7,
+		"Shield Slam":1
+	},
+	"mage":{
+		"Fireball":2,
+		"Frostbolt":0.7,
+		"Arc Lightning":1,
+		"Arcane Bolts":0.7,
+		"Immolate":5,
+		"Frost Nova":10,
+		"Blizzard":1,
+		"Frost Beam":5,
+		"Death from Above":2,
+		"Singularity":1
+	},
+	"bounty_hunter":{
+		"Lethal Shot":1,
+		"Scatter Shot":2,
+		"Explosive Shot":1,
+		"Rapid Fire":0.7,
+		"Heatseekers":1,
+		"Frozen Trap":5,
+		"Magnetic Trap":5,
+		"Snipe":0.7,
+		"Multishot":2
+	}
+}

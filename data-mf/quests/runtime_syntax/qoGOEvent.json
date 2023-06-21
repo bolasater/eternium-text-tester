@@ -1,0 +1,23 @@
+{
+   "autoloot" : {
+      "mandatory" : false,
+      "type" : "flag"
+   },
+   "drop_rate" : {
+      "mandatory" : false,
+      "type" : [
+         [ 0, 1 ]
+      ]
+   },
+   "event" : {
+      "mandatory" : true,
+      "type" : "string"
+   },
+   "item" : {
+      "mandatory" : false,
+      "type" : "object"
+   },
+   "own_event" : {
+      "type" : "flag"
+   }
+}

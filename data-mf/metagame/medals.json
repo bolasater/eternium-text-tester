@@ -1,0 +1,54 @@
+[
+	{
+		"id":"greater_glory",
+		"title":"Glory",
+		"icon":"medal_glory",
+		"bonuses":[
+			{"stat":"power", "value":[[1,20], [2,30], [10, 70], [50,150], [100,200]]}			
+		]
+	},
+	{
+		"id":"tenacity",
+		"title":"Tenacity",
+		"icon":"medal_tenacity",
+		"bonuses":[
+			{"stat":"vitality", "value":[[1,20], [2,30], [10, 70], [50,150], [100,200]]}
+		]
+	},
+	{
+		"id":"knowledge",
+		"title":"Knowledge",
+		"icon":"medal_knowledge",
+		"bonuses":[
+			{"stat":"experience", "value":[[1, 5], [2, 8], [10, 24], [50, 64], [100, 99]]},
+			{"stat":"extraGold", "value":[[1, 5], [2, 8], [10, 24], [50, 64], [100, 99]]}
+		]
+	},
+	{
+		"id":"vigor",
+		"title":"Vigor",
+		"icon":"medal_vigor",
+		"bonuses":[
+			{"stat":"haste", "value":[[1, 10], [2, 15], [10, 35], [50, 75], [100, 100]]},
+			{"stat":"lifeOnHit", "value":[[1, 40], [2, 60], [10, 140], [50, 300], [100, 400]]}
+		]
+	},
+	{
+		"id":"heroism",
+		"title":"Heroism",
+		"icon":"medal_heroism",
+		"bonuses":[
+			{"stat":"criticalRating", "value":[[1, 10], [2, 15], [10, 35], [50, 75], [100, 100]]},
+			{"stat":"criticalDamage", "value":[[1, 8], [2, 12], [10, 30], [50, 60], [100, 80]]}
+		]
+	},
+	{
+		"id":"fortitude",
+		"title":"Fortitude",
+		"icon":"medal_fortitude",
+		"bonuses":[
+			{"stat":"armor", "value":[[1, 50], [2, 75], [10, 235], [50, 650], [100, 1000]]}			
+		]
+	}
+]
+

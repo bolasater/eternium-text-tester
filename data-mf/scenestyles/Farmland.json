@@ -1,0 +1,171 @@
+{
+	"baseTerrain" : "Ground 01",
+	"height" : 0.03,
+	"soundEnv" : "plain",
+	"portal" : {
+		"width" : 1,
+		"slope" : 0.15,
+		"curvature" : 1,
+		"chamfer" : 0
+	},
+
+	"tools" : [
+		
+		{
+			"tool" : "randombrush",
+			"brush" : {
+				"height" : 0.0,
+				"width" : 0.3,
+				"hardness" : 0.7,
+				"opacity" : 0.85,
+				"strength" : 0
+			},
+			"minDist" : 0.025,
+			"density" : 120,
+			"terrains" : ["Grass 01", "Grass 01a", "Grass 01b", "Grass 02", "Grass 02a", "Grass 02b"], //, "Leafy Ground 01","Leafy Ground 02","Leafy Ground 01a","Leafy Ground 02a"
+			"randomScaling" : 0.75
+		},
+		
+		{
+			"tool":"wall",
+			"wallProp" : [
+				"Tree 01", "Tree 02", "Tree 03", "Tree 04"
+				
+			],
+			"offset" : -0.15,
+			"propScaling" : 1,
+			"randomRotation" : true,
+			"randomScaling" : 0.25,
+			"overlap" : 0.2,
+			"randomPos" : 0.8,
+			"skipBottom" : true			
+		},
+		
+		{
+			"tool":"ring",
+			"terrain" : "Rock 06",
+			"offset" : 0,
+			"height" : 0.05,
+			"width" : 0.3,
+			"hardness" : 0.3,
+			"opacity" : 1.0,
+			"strength" : 0.5,
+			"extendColor" : 0.15
+		},
+		
+		{
+			"tool" : "enclave",
+			"maxNum" : 7,
+			"spacing" : 0.3,
+
+			"shape" : {
+				"size" : [2.5,3.5],
+				"verts" : 4,
+				"jumble" : 0,
+				"smooth" : 0,
+				"rot" : 0,
+				//"portals" : []
+				"portals" : [[-45,45]]
+			},
+
+			"style" : "Farm"
+		},
+
+		{
+			"tool" : "enclave",
+			"maxNum" : 1,
+			"spacing" : 0.5,
+
+			"shape" : {
+				"size" : [0.33,0.66],
+				"verts" : [5,12],
+				"jumble" : 0.25
+			},
+
+			"style" : "SmallMountain"
+		},
+
+		{
+			"tool" : "crossroads",
+			"terrain" : "Dry Ground 03",
+			"width" : 0.4,
+			"height" : -0.0025,
+			"curliness" : 0.33
+		},
+		
+		{
+			"tool" : "randomprop",
+			"props" : ["Grass Decal 01","Grass Decal 02","Grass Decal 03","Grass Decal 04","Grass Decal 05","Grass Decal 06","Grass Decal 07","Grass Decal 08","Grass Decal 09","Grass Decal 10"],
+			"propScaling" : 0.25,
+			"randomScaling" : 0.2,
+			"minDist" : 0.025,
+			"maxDist" : 0.075,
+			"avoidBuilt" : 1,
+			"markBuilt" : 0,
+			"density" : 400
+		},
+
+		{
+			"tool" : "randomprop",
+			"props" : [	"Grass Decal 01","Grass Decal 02","Grass Decal 03","Grass Decal 04","Grass Decal 05","Grass Decal 06","Grass Decal 07","Grass Decal 08","Grass Decal 09","Grass Decal 10"],
+			"propScaling" : 0.25,
+			"randomScaling" : 0.2,
+			"minDist" : 0.1,
+			"maxDist" : 100,
+			"avoidBuilt" : 1,
+			"markBuilt" : 0,
+			"density" : 20
+		},
+		
+		{
+			"tool" : "randomprop",
+			"props" : ["Grass Shrub 01","Grass Shrub 02","Grass Shrub 03","Grass Shrub 04", "Fern 01", "Fern 02", "Fern 03"],
+			"propScaling" : 0.75,
+			"randomScaling" : 0.25,
+			"minDist" : 0.01,
+			"maxDist" : 0.1,
+			"avoidBuilt" : 1,
+			"markBuilt" : 0,
+			"density" : 40
+		},
+		
+		{
+			"tool" : "randomprop",
+			"props" : ["Crop Bush 01", "Bush 01"],
+			"propScaling" : 1,
+			"randomScaling" : 0.5,
+			"minDist" : 0.1,
+			"maxDist" : 20,
+			"avoidBuilt" : 1,
+			"markBuilt" : 0,
+			"density" : 2
+		},
+		
+		{
+			"tool" : "randomprop",
+			"props" : [
+				"Grass Shrub 01","Grass Shrub 02","Grass Shrub 03","Grass Shrub 04",
+				"Fern 01", "Fern 02", "Fern 03"
+			],
+			"propScaling" : 1.5,
+			"randomScaling" : 0.25,
+			"minDist" : 0.01,
+			"maxDist" : 100,
+			"avoidBuilt" : 1,
+			"markBuilt" : 0,
+			"density" : 1
+		},		
+		
+		{
+			"tool" : "randomprop",
+			"props" : ["Tree 01", "Tree 02", "Tree 03", "Tree 04"],
+			"propScaling" : 0.7,
+			"randomScaling" : 0.2,
+			"minDist" : 0.3,
+			"maxDist" : 100,
+			"avoidBuilt" : 1,
+			"markBuilt" : 1,
+			"density" : 0.2
+		}
+	]
+}

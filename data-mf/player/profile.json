@@ -1,0 +1,20 @@
+{
+   "alias" : "",
+   "controlsSelected" : false,
+   "currentGOLD" : 0,
+   "currentLevel" : 1,
+   "currentXP" : 0,
+   "deviceID" : "",
+   "gameCenterPlayerID" : "N/A",
+   "healerReceived" : false,
+   "heroSlotsLocked" : 3,
+   "loginMethod" : "",
+   "maxLevel" : 1,
+   "music" : true,
+   "passwordSHA1" : "",
+   "rangerReceived" : false,
+   "sound" : true,
+   "tankReceived" : false,
+   "username" : "",
+   "version" : 3
+}

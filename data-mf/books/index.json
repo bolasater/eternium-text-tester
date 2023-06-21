@@ -1,0 +1,52 @@
+[
+	{
+		"id" : "XagansLetter",
+		"title" : "Letter to Alistair Thadden",
+		"type" : "Letter",
+		"auth" : "Professor Xagan",
+		"desc" : "Professor Xagan writes to his colleague, Alistair Thadden, about the concerning events in Elderath.",
+		"levels" : ["marcus_training"],
+		"dropRate" : 0.05,
+		"glow" : "8866AABB"
+	},
+	{
+		"id" : "GorgonasOrigin",
+		"title" : "Gorgona's Origin",
+		"type" : "Chronicle",
+		"auth" : "Koshchei the Sage",
+		"desc" : "A tale of Gorgona, the mad witch of the Misty Island, and her torturer, Elban the Demiurge.",
+		"levels" : ["misty_island"],
+		"dropRate" : 0.05,
+		"glow" : "88AAAA00"
+	},
+	{
+		"id" : "ProjectDespariaLog",
+		"title" : "Project Desparia",
+		"type" : "Journal",
+		"auth" : "Elban the Demiurge",
+		"desc" : "Elban's notes about his project to turn Levania, Elderath's Moon, into Desparia, Ragadam's Domain.",
+		"levels" : ["s2"],
+		"dropRate" : 0.1,
+		"glow" : "88FF4400"
+	},
+	{
+		"id" : "LogBeneathThePyramid",
+		"title" : "Pyramids of the Gods",
+		"type" : "Journal",
+		"auth" : "High Disciple Elban",
+		"desc" : "A journal entry by Elban about the Pyramids of Nirgal.",
+		"levels" : ["a3l3"],
+		"dropRate" : 0.1,
+		"glow" : "884466FF"
+	},
+	{
+		"id" : "GorlaksBoast",
+		"title" : "GORLAK WINS!",
+		"type" : "Scribbling",
+		"auth" : "Gorlak the First Aztrak",
+		"desc" : "A boastful note by Gorlak the First Aztrak about the fall of Minaris.",
+		"levels" : ["a3l6"],
+		"dropRate" : 0.02,
+		"glow" : "88000088"
+	}	
+]

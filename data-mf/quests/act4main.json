@@ -1,0 +1,873 @@
+{
+	"name" : "Act IV",
+	"req" : {"qline" : ["act3main"]},
+	"category" : "main",
+
+	"quests" : [
+		{
+			"id" : "demeter_shattered_world",
+			"name" : "Demeter, the Shattered World",
+			"autocomplete" : true,
+			"story" : {
+				"intro" : "{HERO}, I studied the documents you recovered from the Crucible, and I have more questions than answers.",
+				"prog" : "Talk to Alarion about the new threat he mentioned."
+			},
+			"src" : "Alarion",
+
+			"obj" : [
+				{
+					"obj_id" : "alarion_talk_demeter",
+					"type" : "talk_to",
+					"npc" : "Alarion",
+					"location" : "hometown",
+					"dialog" : {
+						"dialog" : ["Elban was anything but mad, that much I can tell you. His documents mention Demeter, a place that cannot be seen from Elderath or Nirgal. It is the remains of a shattered world in the great dark beyond, with people the likes of which we never imagined existed, and with a great portal that can open between worlds and cross vast spaces.", {"hero":"How is that possible, Alarion? How could we have not known it was there? A world is a big place, shattered or not..."}, "It seems the Eternium extends far beyond what we once thought the limits were.", "If we are to find our way to Ragadam’s lair, you must make sense of this. Take the 'Defiant' and find these shattered remains. Elderath’s fate rests upon your shoulders now!"],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Alarion about his discovery"
+				}
+			],
+			"rewards": {
+				"xp" : 10000,
+				"gold" : 3000
+			}
+		},
+		{
+			"id" : "signs_of_life",
+			"name" : "Signs of Life",
+			"story" : {
+				"intro" : "Land on Demeter, find out if the shattered remains are inhabited, and try to talk to someone.",
+				"done" : "I see you were quick to make friends. Grizzwald has been telling me about this world and the plight of his people. If we can free them from Ragadam’s control, perhaps they will aid us in the fight ahead."
+			},
+			"common" : { "location" : "Demeter, the Shattered World" },
+			"src" : "Alarion",
+			"req" : { "quest" : ["demeter_shattered_world"] },
+			"sequenced" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_demeter",
+					"type" : "start_level",
+					"level" : "Demeter, the Shattered World",
+					"desc" : "Travel to {LEVEL}"
+				},
+				{
+					"obj_id" : "find_grizzwald",
+					"type" : "go_event",
+					"event" : "grizzwald_place",
+					"desc" : "Find out if there are friendly inhabitants"
+				},
+				{
+					"obj_id" : "kill_grizzwald_guards",
+					"type" : "kill",
+					"creature" : "Ursoc Executioner",
+					"total" : 3,
+					"desc" : "Kill the Ursoc Executioner squad"
+				},
+				{
+					"obj_id" : "talkto_grizzwald",
+					"type" : "talk_to",
+					"npc" : "Grizzwald",
+					"dialog" : {
+						"dialog" : ["Hold your weapons, Outlander. I surrender!", {"hero":"You are the first of your kind that did not attack us..."}, "My people have been betrayed, whipped into a frenzy. This is not who we really are.", {"hero":"We have encountered enthralled creatures before in our journey, but we also encountered deceit. But perhaps it would be wise to hear you out..."}, "I am not trying to deceive you. I will try to redeem my people, and perhaps I will find redemption as well. I will aid you to the best of my ability.", {"hero":"If that is the truth, you have nothing to fear."}],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Grizzwald"
+				}
+			],
+			"rewards": {
+				"xp" : 30000,
+				"gold" : 10000,
+				"gear" : {
+					"slot": "boots",
+					"name": "Boots of the Fallen King",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":3,
+					"stats":["vitality", "haste", "movementSpeed"],
+					"statBonus": 0.6,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "wings_of_aether",
+			"name" : "On Wings of Aether",
+			"story" : {
+				"intro" : "Grizzwald promised to teach you how the Ursoc champions travel between the shattered, floating islands of Demeter. Meet up with him, champion.",
+				"prog" : "Follow Grizzwald's instructions to learn how to travel on Wings of Aether.",
+				"done" : "This is a strange world, {HERO}. We must adapt to it."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : ["signs_of_life"] },
+			"sequenced" : true,
+			"common" : { "location" : "On Wings of Aether" },
+
+			"obj" : [
+				{
+					"obj_id" : "meet_grizzwald",
+					"type" : "talk_to",
+					"npc" : "Grizzwald",
+					"dialog" : {
+						"dialog" : ["Legends say that Demeter was once a world just like the distant worlds that you call Elderath and Nirgal, but a cosmic cataclysm made it into these shattered isles that we call home.", "Trails of Aether remained, and connect the islands if one knows how to navigate them. But to do that, you will need to attune to the syndarian crystals.", "My people call those who travel like you “Seekers”, and treat them with great deference." ,{"hero":"Where can I find these Syndarian Crystals? How can I become a Seeker?"}, "Ah... this brings us to why we are here. On this island, there is a mine that contains them. If you bring five crystals, I can teach you. Be weary Outlander, the mines are perilous!"],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Grizzwald"
+				},
+				{
+					"obj_id" : "reach_the_syndarian_mine",
+					"type" : "go_event",
+					"event" : "syndarian_mine",
+					"desc" : "Find the Syndarian Mine"
+				},
+				{
+					"obj_id" : "collect_syndarian_crystals",
+					"type" : "go_event",
+					"event" : "syndarian_crystals",
+					"total" : 5,
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"item" : {"name" : "Syndarian Crystal" , "desc" : "The Syndarian Crystals have the power to attune special individuals with the Aether" , "icon" : "gemstone3" },
+					"desc" : "Collect {N} Syndarian Crystals"
+				}
+			],
+			"rewards": {
+				"xp" : 40000,
+				"gold" : 15000,
+				"gear" : {
+					"slot": "pants",
+					"name": "Leggings of the Fallen King",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":3,
+					"stats":["power", "haste", "movementSpeed"],
+					"statBonus": 0.6,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "forbidden_knowledge",
+			"name" : "Forbidden Knowledge",
+			"story" : {
+				"intro" : "Now that you can travel freely on Demeter, we can return to your hunt for Ragadam.||||His emissaries used the disabled portal to travel with his orders, but once Rak’shul the Usurper replaced Grizzwald on the Ursoc throne, the portal’s energies dimmed and it was no longer used.||||We should search the library at Darkhold Citadel for clues. Be warned! Darkhold Citadel once used to be a bulwark against the Minotaur tribes named Whitemoon Keep. The Minotaurs are the other inhabitants of Demeter. After the craze took hold of Grizzwald's people it has become a place of great horrors, and it is filled with Rak’shul’s armies.||||You will have to carve a path to the library to gain access to whatever is hidden in there.",
+				"prog" : "Carve a path through the defenders of Darkhold Citadel and search the library.",
+				"done" : "You found these scrolls in the library? And you say the undead servants of Ragadam were guarding them?||||Interesting... Yes... yes... the scrolls speak of a keystone that powered the Portal. The keystone has been shattered in two fragments. One of the fragment keepers is Rak’shul himself.||||The other is named Sivari, but I do not know that name. Rak’shul must be defeated if you are to gain his fragment, and Grizzwald's people will be freed from Ragadam’s tyranny!"
+			},
+			"src" : "Alarion",
+			"sequenced" : false,
+			"common" : { "location" : "Darkhold Citadel" },
+			"req" : { "quest" : "wings_of_aether" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_darkhold",
+					"type" : "start_level",
+					"level" : "Darkhold Citadel",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "proceed_through_darkhold",
+					"type" : "go_event",
+					"event" : "find_library",
+					"desc" : "Make your way to the library"
+				},
+				{
+					"obj_id" : "forbidden_knowledge",
+					"type" : "go_event",
+					"event" : "forbidden_knowledge",
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"item" : { "name" : "How to Inflict a Mass Plague, for Dummies" , "desc" : "A book detailing how to spread a corrupting plague through a population, written by Alchemist Corruptor Amathul" , "icon" : "book3" },
+					"desc" : "Find any relevant materials on the plague"
+				}
+			],
+			"rewards": {
+				"xp" : 50000,
+				"gold" : 15000,
+				"gear" : {
+					"slot": "gloves",
+					"name": "Gloves of the Fallen King",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":3,
+					"stats":["power", "vitality", "lifeOnHit"],
+					"statBonus": 0.6,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "source_of_corruption",
+			"name" : "The Source of the Corruption",
+			"sequenced" : false,
+			"story" : {
+				"intro" : "{HERO}, if we are to dispose of Rak’shul, we must find what is causing the blood craze that engulfs the Ursoc peoples minds. Our scouts tell me of its growing strength in the town of Blenheim to the north-east.||||It would be wise to investigate, perhaps an answer will present itself there.",
+				"prog" : "Go to Blenheim and find the source of the corruption",
+				"done" : "They were performing blood and shadow magic there! That brew you destroyed is what causes the blood craze. I do not believe that was all of it, and I do not believe the Alchemist Corruptor was the source of the corruption. He was but a minion, but at least now we can study the brew and thus find its creator."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "forbidden_knowledge" },
+			"common" : { "location" : "Blenheim" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_blenheim",
+					"type" : "start_level",
+					"level" : "Blenheim",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "blenheim_center",
+					"type" : "go_event",
+					"event" : "blenheim_center",
+					"desc" : "Go to the center of Blenheim to investigate"
+				},
+				{
+					"obj_id" : "kill_fallen_champion",
+					"type" : "kill",
+					"creature" : "Fallen Champion",
+					"desc" : "Defeat the Fallen Champion"
+				},
+				{
+					"obj_id" : "search_keep",
+					"type" : "go_event",
+					"event" : "blenheim_keep",
+					"desc" : "Search the Blenheim Keep"
+				},
+				{
+					"obj_id" : "mine_road",
+					"type" : "go_event",
+					"event" : "mine_road",
+					"desc" : "Follow the road to the mine"
+				},
+				{
+					"obj_id" : "kill_alchemist",
+					"type" : "kill",
+					"creature" : "Alchemist Corruptor",
+					"desc" : "Kill the Alchemist Corruptor"
+				}
+			],
+			"rewards": {
+				"xp" : 60000,
+				"gold" : 15000,
+				"gear" : {
+					"slot": "chest",
+					"name": "Vestments of the Fallen King",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":3,
+					"stats":["haste", "criticalRating", "abilityRating"],
+					"statBonus": 0.6,
+					"socket":1,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "highroad",
+			"name" : "The Highroad",
+			"story" : {
+				"intro" : "I have dire news, {HERO}. The brew we recovered from the Alchemist Corruptor’s lab is made of corrupted dragonblood. The alchemists are using the dark blood of the Dragonspawn in Dragon’s Crag to enthrall the Ursoc and whip them into this killing frenzy.||||If we cannot stop their rituals, all will be lost. Garm, the Keeper of the Dragonspawn was supposed to stand guard at the Dragon’s Crag, but I fear he too has fallen under the sway of Ragadam’s dark corruption.||||We must make haste to Dragon's Crag at once. The fastest way is on the Highroad on the mountain side.",
+				"prog" : "Cross the Highroad to reach Dragon's Crag.",
+				"done" : "Perhaps it is not too late to stop the rituals. Dragon’s Crag is within reach!"
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "source_of_corruption" },
+			"hide_spoilers" : false,
+			"common" : { "location" : "The Highroad" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_highroad",
+					"type" : "start_level",
+					"level" : "The Highroad",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level_highroad",
+					"type" : "finish_level",
+					"level" : "The Highroad",
+					"desc" : "Cross {LEVEL}"
+				}
+			],
+			"rewards": {
+				"xp" : 85000,
+				"gold" : 15000
+			}
+		},
+		{
+			"id" : "dragonspawn",
+			"name" : "Dragonspawn",
+			"story" : {
+				"intro" : "The Dragon's Crag... it is said that the pit at Dragonspawn is endless, and that it is used as the egg chamber of the dragons. It is a sacred place to the Ursoc people, and now it is defiled. These filth have brought despair to Demeter. They ruined the proud Ursoc civilization and forced them to do their dark bidding.||||Reach Dragonspawn, defeat any trespassers, free Garm from the madness, and Rak’shul will then stand alone!",
+				"prog" : "Destroy the source of the Blood Craze, defeat Garm and liberate the Dragonspawn.",
+				"done" : "You have liberated Dragonspawn and destroyed the source of the blood craze, {HERO}. Your name will be sung throughout the ages for these heroic deeds."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "highroad" },
+			"common" : { "location" : "Dragon's Crag" },
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_dragons_crag",
+					"type" : "start_level",
+					"level" : "Dragon's Crag",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "reach_dragonspawn",
+					"type" : "go_event",
+					"event" : "dragonspawn",
+					"desc" : "Find the Dragonspawn"
+				},
+				{
+					"obj_id" : "kill_darkmistresses",
+					"type" : "kill",
+					"creature" : "*Dark Mistress*",
+					"total" : 5,
+					"desc" : "Kill the Dark Mistresses performing the ritual"
+				},
+				{
+					"obj_id" : "reach_lair",
+					"type" : "go_event",
+					"event" : "lair",
+					"desc" : "Find Garm's Lair"
+				},
+				{
+					"obj_id" : "garm",
+					"type" : "kill",
+					"creature" : "Garm, the Keeper",
+					"desc" : "Defeat Garm, the Keeper"
+				}
+			],
+			"rewards": {
+				"xp" : 100000,
+				"gold" : 15000,
+				"gear" : {
+					"itemClass": ["deidres_resolve", "hailstorm"],
+					"name": ["Dragonfang Blade", "Dragonfire Repeater"],
+					
+					"levelOffset":3,
+					"variation":-1,
+					"quality":4,
+					"stats":["haste", "power", "abilityRating"],
+					"statBonus": 0.4,					
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "kingmaker",
+			"name" : "Kingmaker",
+			"story" : {
+				"intro" : "The final battle for the Ursoc lands stands before you, {HERO}. Grizzwald awaits at Morgenheim, the seat of Ursoc power.",
+				"prog" : "Help Grizzwald to defeat Rak'shul and reclaim his rightful place as King of the Ursoc."
+			},
+			"src" : "Alarion",
+			"autocomplete" : true,
+			"req" : { "quest" : "dragonspawn" },
+			"common" : { "location" : "Morgenheim" },
+			"hide_spoilers" : false,
+			"silent_complete" : true,
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_morgenheim",
+					"type" : "start_level",
+					"level" : "Morgenheim",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "talk_to_grizzwald_morgenheim",
+					"type" : "talk_to",
+					"npc" : "Grizzwald",
+					"dialog" : {
+						"dialog" : ["One battle remains, Outlander, before you can claim the keystone fragment and the loyalty of the Ursoc.", "Rak’shul and his Corrupted Guard are all that is standing in your way. They have retreated at Morgenheim Castle, where they intend to make their final stand against us.", {"hero":"Stay put, Grizzwald, and this will all be done soon."}, "Oh, no Outlander. That is no behavior for a King. No way I am sitting this one out. I'm right behind you. Let's not keep Rak'shul waiting, shall we?"],
+						"continue_to" : "quest"
+					},
+					"desc" : "Speak to Grizzwald"
+				}
+			]
+		},
+		{
+			"id" : "kingmaker_conclusion",
+			"name" : "Kingmaker",
+			"story" : {
+				"intro" : "Help Grizzwald to defeat Rak'shul and reclaim his rightful place as King of the Ursoc."
+			},
+			"autoaccept" : true,
+			"autocomplete" : true,
+			"req" : { "quest" : "kingmaker" },
+			"npc_follow" : true,
+			"src" : "Grizzwald",
+			"sequenced" : true,
+			"hide_spoilers" : true,
+			"silent_accept" : true,
+
+			"obj" : [
+				{
+					"obj_id" : "kill_rakshul",
+					"type" : "loot",
+					"creature" : "Rak'shul, the Usurper",
+					"location" : "Morgenheim",
+					"drop_rate" : 1,
+					"item" : { "name" : "Portal Key Fragment" , "icon" : "key" , "desc" : "The keystone fragment that Rak'shul possessed" },
+					"desc" : "Kill Rak'shul, the Usurper, and recover his key fragment"
+				},
+				{
+					"obj_id" : "talk_to_grizzwald_king",
+					"type" : "talk_to",
+					"npc" : "Grizzwald",
+					"location" : "Morgenheim",
+					"dialog" : {
+						"dialog" : ["Once more, you are victorious. I owe you everything, Outlander... and an Ursoc always pays his debts, especially an Ursoc king. The Ursoc loyalists will fight alongside the Elderanian armies against Ragadam’s minions. Consider us honorbound to your cause, and consider me proud to number myself among your friends."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Grizzwald"
+				},
+				{
+					"obj_id" : "talk_to_alarion_ursoc_victory",
+					"type" : "talk_to",
+					"npc" : "Alarion",
+					"location" : "hometown",
+					"dialog" : {
+						"dialog" : ["With Grizzwald restored to the throne of the Ursoc, we gained a valuable ally in our fight against Ragadam, and we gained the first fragment of the keystone that could power the portal that leads us to our destiny."]
+					},
+					"desc" : "Alarion should hear about our victory"
+				}
+			],
+			"rewards": {
+				"xp" : 150000,
+				"gold" : 15000,
+				"gear" : {
+					"itemClass": ["encrypted_shield", "necronomicon", "hailstorm"],
+					"name": ["Void Shield", "Tome of the Void", "Voidstorm Repeater"],
+					
+					"levelOffset":3,
+					"variation":-1,
+					"quality":3,
+					"stats":["haste", "power", "abilityRating"],
+					"statBonus": 0.75,					
+					"upgrade" : false
+				}
+			}
+		},
+
+		{
+			"id" : "savage_warriors",
+			"name" : "The Savage Warriors",
+			"story" : {
+				"intro" : "I studied the scrolls you brought from the library in Darkhold Citadel, and I might have a clue on Sivari, the second keystone keeper.||||Across the Aether chasm, there are other shattered isles, inhabited by a tribal people, the Minotaurs. Little is known of the Minotaurs, except that they and the Ursoc have been fighting border skirmishes for generations. Darkhold Citadel, once known as Whitemoon Keep, was originally constructed by the Ursoc to fend off their attacks. Since the blood craze took hold of the Ursoc warriors, however, the minotaurs attacks have stopped.||||There must be a connection, {HERO}! Ragadam tries to subdue all life on the worlds he uses in his schemes. I believe that you will learn more of this Sivari if you cross the Aether chasm and seek the minotaurs there.",
+				"prog" : "Find out what you can about the Minotaur tribes in the Desolation Desert.",
+				"done" : "Another day, another crisis. These Minotaurs are savage people, {HERO}, but they seem to have some sort of code of honor. Perhaps they can be reasoned with in the end."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "kingmaker_conclusion" },
+			"sequenced" : true,
+			"common" : { "location" : "Desolation Desert" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_desolation_desert",
+					"type" : "start_level",
+					"level" : "Desolation Desert",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "find_minotaur_leader",
+					"type" : "go_event",
+					"event" : "kanthara",
+					"desc" : "Find the leader of the Minotaurs"
+				},
+				{
+					"obj_id" : "talk_to_kanthara",
+					"type" : "talk_to",
+					"npc" : "Kanthara",
+					"dialog" : {
+						"dialog" : ["Hah! You are a strange creature, pink skin. You defeated many good warriors to get here! You show some skill, I’ll give you that.",{"hero":"They attacked us. We did not come looking for trouble. We only want to talk."},"Nobody comes here from the craven Ursoc to just… talk!", "Prove your worth, defeat my Honor Guard in honorable combat, and I will grant you an audience!"],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Kanthara in the Desolation Desert"
+				},
+				{
+					"obj_id" : "defeat_honor_guard",
+					"type" : "kill",
+					"creature" : "Bloodstone Honor Guard",
+					"total" : 5,
+					"desc" : "Kill the Bloodstone Honor Guard"
+				},
+				{
+					"obj_id" : "talk_to_kanthara_2",
+					"type" : "talk_to",
+					"npc" : "Kanthara",
+					"dialog" : {
+						"dialog" : ["Very good, little pinkskin! Your strength is impressive! I will go to your camp and answer your people's questions.",{"hero":"Thank you, I suppose..."},"No need to thank me. We respect strength, and you earned my favor.","Oh, and dispose of the Scartree Overseers if you want my help."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Kanthara"
+				},
+				{
+					"obj_id" : "kill_scartree_overseers",
+					"type" : "kill",
+					"creature" : "Scartree Overseer",
+					"total" : 5,
+					"desc" : "Kill the Scartree Overseers"
+				}
+			],
+			"rewards": {
+				"xp" : 180000,
+				"gold" : 15000,
+				"gear" : {
+					"slot": "shoulders",
+					"name": "Tribal Shoulderguards",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":3,
+					"stats":["haste", "vitality", "abilityRating"],
+					"statBonus": 0.6,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "politics_of_blood",
+			"name" : "The Politics of Blood",
+			"story" : {
+				"intro" : "{HERO}, Kanthara agreed to meet you in the place called Scartree Forest. She claims it is the native land of Sivari. Make haste to meet her.",
+				"prog" : "Listen to Kanthara's story and follow her instructions.",
+				"done" : "So their secret is inside Scartree Keep... We will have to assault it, {HERO}. Think you are up to the task?"
+			},
+			"req" : { "quest" : "savage_warriors" },
+			"common" : { "location" : "Scartree Forest" },
+			"sequenced" : true,
+			"src" : "Alarion",
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_kanthara_scartree_forest",
+					"type" : "talk_to",
+					"npc" : "Kanthara",
+					"dialog" : {
+						"dialog" : ["So, you want Sivari’s little secret...", "It seems that you and I do have something in common, pinkskin.", "Sivari was a Minotaur warchief, and only recently became Overlord of most Minotaurs. Or, I should say, of all Minotaurs except my followers. I will tell you her story.","A few solar cycles back, the Scartree tribe were all but outcasts, a tribe of fools that no Minotaur treated with respect. They were weak, they lost every Kan’ja hunt they participated in. Nobody respected them.", "That is until they emerged with a new leader that could harness powers no Minotaur before her ever could. That leader was Sivari.", "Sivari challenged every tribal leader to combat, and defeated them all. The Bloodstone were led by a woman named Inari, and Sivari chose to make an example of her.", "Sivari ripped Inari’s heart out of her chest in front of us, her tribesfolk. For this, we went into exile and I swore vengeance on Sivari. One day I will have it.",{"hero":"I am sorry for your loss, Kanthara."},{"narrator":"Kanthara looks at you with fire in her eyes."},"I did not ask for your pity, pinkskin. Do not anger me. You should know one thing; Inari was... special to me. I shall not rest until Sivari lies dead at my feet.", "Long have I suspected that Sivari’s strength was unnatural, but I did not know what you know of this being, Ragadam. If he possesses the power you speak of and if Sivari does carry this “keystone” of his, he must be the secret source of her power. When Sivari arrived from her tribe’s grounds, she already had uncanny might. The secret must be there, hidden somewhere in Scartree territory. We must know!","You must travel to the Scartree Keep, pinkskin, and establish one of your portals there. Only then shall we be able to spy on them and expose their secret."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Listen to Kanthara's story in the Scartree Forest"
+				},
+				{
+					"obj_id" : "portal_place",
+					"type" : "go_event",
+					"event" : "town_portal_spawn",
+					"desc" : "Find a suitable place for a town portal"
+				},
+				{
+					"obj_id" : "chief_of_the_watch",
+					"type" : "kill",
+					"creature" : "Chief of the Watch",
+					"desc" : "Kill the Chief of the Watch"
+				}
+			],
+			"rewards": {
+				"xp" : 180000,
+				"gold" : 15000,
+				"gear" : {
+					"slot": "head",
+					"name": "Tribal Headpiece",
+					"set" : ["adventurer_mage","adventurer_ranger","adventurer_warrior"],
+					"levelOffset":3,
+					"variation":-1,
+					"quality":3,
+					"stats":["power", "vitality", "lifeOnHit"],
+					"statBonus": 0.6,
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "secret_scartree_hold",
+			"name" : "The Secret of Scartree Hold",
+			"story" : {
+				"intro" : "Kanthara discovered the entrance to Scartree Hold. She is waiting for you inside.",
+				"done" : "So Sivari really is just a pawn of this Ragadam. He is the one responsible for Inari’s death and all of Kanthara's woes."
+			},
+			"src" : "Alarion",
+			"common" : { "location" : "Scartree Hold" }, 
+			"req" : { "quest" : "politics_of_blood" },
+			"sequenced" : true,
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_kanthara_hold",
+					"type" : "talk_to",
+					"npc" : "Kanthara",
+					"dialog" : {
+						"dialog" : ["The Scartree are accustomed to hide underground, like the rats they are. This is the place where Sivari gained her power. Enter the dungeons, quietly if you must, loudly if you can, find out their secret and destroy it. Oh, and kill their Bloodpriest as well.", {"narrator":"Kanthara grins savagely."}],
+						"continue_to" : "quest"
+					},
+					"desc" : "Speak to Kanthara at Scartree Hold"
+				},
+				{
+					"obj_id" : "find_void_ritual",
+					"type" : "go_event",
+					"event" : "find_void_ritual",
+					"desc" : "Find the Source of Sivari's power"
+				},
+				{
+					"obj_id" : "kill_infusers",
+					"type" : "kill",
+					"creature" : "Void Infuser",
+					"total" : 4,
+					"desc" : "Slay the Void Infusers"
+				},
+				{
+					"obj_id" : "void_crystal",
+					"type" : "go_event",
+					"event" : "void_crystal",
+					"desc" : "Destroy the Void Crystal"
+				},
+				{
+					"obj_id" : "kill_bloodpriest",
+					"type" : "kill",
+					"creature" : "Scartree Bloodpriest",
+					"desc" : "Slay the Scartree Bloodpriest"
+				}
+			],
+			"rewards": {
+				"xp" : 200000,
+				"gold" : 15000
+			}
+		},
+		{
+			"id" : "purging_the_void",
+			"name" : "Purging the Void",
+			"story" : {
+				"intro" : "Now we understand the Scartree power. Those Void Infusers are corrupting Aether crystals to harness the void.||||Kanthara claims the void crystals can only be found at the Crystal Mountain. She is waiting for you there.",
+				"done" : "Minotaur society is one that respects strength. When the tribes will see the Scartree as weak as they used to be, they will disavow them."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "secret_scartree_hold" },
+			"common" : { "location" : "Crystal Mountain" },
+			"sequenced" : true,
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_kanthara_mountain",
+					"type" : "talk_to",
+					"npc" : "Kanthara",
+					"dialog" : {
+						"dialog" : ["We must weaken our enemy by cutting their crystal supply. When the other tribes will see their weakness, they will rally to our banners. Only the strong deserve to rule, this is the Minotaur way."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Kanthara at the Crystal Mountain"
+				},
+				{
+					"obj_id" : "climb",
+					"type" : "go_event",
+					"event" : "climb",
+					"desc" : "Reach the summit of Crystal Mountain"
+				},
+				{
+					"obj_id" : "kill_void_harvester",
+					"type" : "kill",
+					"creature" : "Void Harvester",
+					"desc" : "Slay the Void Harvester"
+				}
+			],
+			"rewards": {
+				"xp" : 200000,
+				"gold" : 15000
+			}
+		},
+		{
+			"id" : "element_of_surprise",
+			"name" : "The Element of Surprise",
+			"story" : {
+				"intro" : "Sivari is holed up inside Drakenmoor Citadel, the seat of power of the acting Minotaur Overlord. I do have faith in your prowess as a warrior, you more than proved it, but if we charge in blind Sivari might escape.||||We must capture the signal tower in Drakenmoor Forest, that holds watch over the approach to the Citadel before we mount an assault. We will attack from the forest at night, using the cover of darkness. A Houndmaster is guarding the tower against intruders, but I doubt he will be ready for you. ||||Slay the Houndmaster, capture the tower, and Sivari will not be able to escape!",
+				"prog" : "Slay the Houndmaster and capture the Watchtower in Drakenmoor Forest.",
+				"done" : "Only the assault on Drakenmoor Citadel now stands between us and the second key fragment, {HERO}."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "purging_the_void" },
+			"common" : { "location" : "Drakenmoor Forest" },
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_forest",
+					"type" : "start_level",
+					"level" : "Drakenmoor Forest",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "kill_houndmaster",
+					"type" : "kill",
+					"creature" : "Houndmaster",
+					"desc" : "Slay the Houndmaster"
+				},
+				{
+					"obj_id" : "finish_level_forest",
+					"type" : "finish_level",
+					"level" : "Drakenmoor Forest",
+					"desc" : "Capture the Watchtower"
+				}
+			],
+			"rewards": {
+				"xp" : 200000,
+				"gold" : 15000
+			}
+		},
+		{
+			"id" : "minotaur_coup",
+			"name" : "Minotaur Coup d'État",
+			"story" : {
+				"intro" : "The time for the final assault on Sivari has come, {HERO}. Kanthara is awaiting for you at the Drakenmoor Citadel.",
+				"prog" : "Assault the Drakenmoor Citadel.",
+				"done" : "Fighting still rages throughout the Minotaur realm, but it looks like a victory. Now, all that remains is to cut the head of the Scartree hydra."
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "element_of_surprise" },
+			"sequenced" : false,
+			"common" : { "location" : "Drakenmoor Citadel" },
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_kanthara_drakenmoor_citadel",
+					"type" : "talk_to",
+					"npc" : "Kanthara",
+					"dialog" : {
+						"dialog" : ["Our enemy is weakened. Their lines are crumbling before our warriors. Their support is dwindling. Sivari holds on to power by a thread. The time has come to sever that thread.", "Assault Drakenmoor and take the inner courtyard, and Sivari’s demise will be complete."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Talk to Kanthara at the Drakenmoor Citadel"
+				},
+				{
+					"obj_id" : "reach_courtyard",
+					"type" : "go_event",
+					"event" : "courtyard",
+					"desc" : "Fight your way to the inner courtyard"
+				},
+				{
+					"obj_id" : "kill_elite_guard",
+					"type" : "kill",
+					"creature" : "Scartree Elite Guard",
+					"total" : 7,
+					"desc" : "Kill the Scartree Elite Guard"
+				}
+			],
+			"rewards": {
+				"xp" : 200000,
+				"gold" : 15000
+			}
+		},
+		{
+			"id" : "lex_talionis",
+			"name" : "Lex Talionis",
+			"story" : {
+				"intro" : "Sivari is holed up down in the Drakenmoor Catacombs. Kanthara is awaiting for you at the entrance.",
+				"prog" : "Talk to Sivari in the Drakenmoor Catacombs"
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "minotaur_coup" },
+			"sequenced" : true,
+			"autocomplete" : true,
+			"common" : { "location" : "Drakenmoor Catacombs" },
+			"silent_complete" : true,
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_kanthara_catacombs",
+					"type" : "talk_to",
+					"npc" : "Kanthara",
+					"dialog" : {
+						"dialog" : ["Our conquest of Drakenmoor is almost complete. The tribes have rallied behind the Bloodstone banner. Sivari has retreated in the catacombs below the Citadel. I am not strong enough to face her myself, not while she is empowered by Ragadam’s dark magic, but you are.", {"narrator":"Kanthara puts both hands on your shoulders."}, "I hereby anoint you Warbringer of the Bloodstone tribe. No outsider has even been a Warbringer of any Minotaur tribe, but you have earned this honor.", "I must ask of you to carry out my vengeance. Sivari ripped out Inari’s heart to cement her rule by fear. The Minotaur law is simple: an eye for an eye. Help me slay Sivari and rip out her heart!"],
+					"continue_to" : "quest"
+					},
+					"desc" : "Talk to Kanthara in the Drakenmoor Catacombs"
+				}
+			]
+		},
+		{
+			"id" : "lex_talionis_conclusion",
+			"name" : "Lex Talionis",
+			"story" : {
+				"intro" : "Help Kanthara exact vengeance on Sivari, and reclaim the second key fragment."
+			},
+			"autoaccept" : true,
+			"autocomplete" : true,
+			"req" : { "quest" : "lex_talionis" },
+			"npc_follow" : true,
+			"src" : "Kanthara",
+			"sequenced" : true,
+			"silent_accept" : true,
+			
+			"obj" : [
+				{
+					"obj_id" : "kill_sivari",
+					"type" : "loot",
+					"creature" : "Overlord Sivari",
+					"drop_rate" : 1,
+					"item" : { "name" : "Portal Key Fragment" , "icon" : "key" , "desc" : "The keystone fragment that Rak'shul possessed" },
+					"desc" : "Kill Sivari and recover the Portal Keystone Fragment" 
+				},
+				{
+					"obj_id" : "talk_to_kanthara_sivari_dead",
+					"type" : "talk_to",
+					"npc" : "Kanthara",
+					"location" : "Drakenmoor Catacombs",
+					"dialog" : {
+						"dialog" : [{"narrator":"Kanthara leaps over Sivari's corpse and rips out the heart, then holds it like a trophy."}, "Inari's death is finally avenged, Outlander. The Minotaur tribes are forever in your debt. We stand behind you in your fight against Ragadam."]
+					},
+					"desc" : "Talk to Kanthara"
+				},
+				{
+					"obj_id" : "talk_to_alarion_minotaur_victory",
+					"type" : "talk_to",
+					"npc" : "Alarion",
+					"dialog" : {
+						"dialog" : [{"hero":"Sivari is dead and I have the key. The Minotaurs have sworn allegiance to me and have pledged to aid our struggle against Ragadam."}, "This affair was too bloody, but at least it is over now. It is time to figure out how the Keystone Fragments work now."]
+					},
+					"desc" : "Inform Alarion of what has transpired in the Catacombs"
+				}
+			],
+			"rewards": {
+				"xp" : 200000,
+				"gold" : 15000
+			}			
+		},
+
+		{
+			"id" : "kara",
+			"name" : "Kara, the Tempest Queen",
+			"story" : {
+				"intro" : "Our Ursoc and Minotaur allies are engaging the forces of Ragadam all over Demeter. We are slowly extracting this world from Ragadam’s grip. The research department at the New University of Anderra examined all the evidence we recovered so far from Demeter. Our conclusion is that Ragadam's agent on this world, the one ultimately responsible for all the trouble that brewed here, is one 'Kara, the Tempest Queen'.||||The Tempest Queen is commanding her forces from a vast Necropolis complex. Our forces cannot assault it directly. Once more, we need you to infiltrate the Necropolis and deliver victory to us.",
+				"prog" : "Kill Kara, the Tempest Queen",
+				"done" : "Kara is defeated, and Demeter is free. We have so much to thank you for, Champion of Elderath! I will contact you when our Magi manage to unlock the portal to Ragadam, and the fight to end all fights will draw near.||||Until then, be the champion you were meant to be. Fight Ragadam's evil throughout the Eternium, and I promise the day of reckoning will come!"
+			},
+			"src" : "Alarion",
+			"req" : { "quest" : "lex_talionis_conclusion" },
+			"common" : { "location" : "The Underworld" },
+
+			"obj" : [
+				{
+					"obj_id" : "kill_kara",
+					"type" : "kill",
+					"creature" : "Kara",
+					"desc" : "Slay Kara"
+				}
+			],
+			"rewards": {
+				"xp" : 300000,
+				"gold" : 15000
+			}
+		}		
+	]
+}

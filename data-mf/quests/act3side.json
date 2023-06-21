@@ -1,0 +1,403 @@
+{
+	"name" : "Act III",
+	"req" : {},
+	"category" : "side",
+
+	"quests" : [
+		{
+			"id" : "destroy_cauldron",
+			"name" : "Stop the Ritual",
+			"autocomplete": true,
+			"story" : {
+				"intro" : "{HERO}, Endar the expert tracker spotted a group of undead performing some kind of ritual on one of the pyramid structures. Something tells me it's evil and it should be stopped...",
+				"prog" : "Stop the ritual."
+			},
+			"src" : "Liana",
+			"req" : { "quest" : "void_temple" , "story_level" : "@The Rusty Planet" },
+			"common" : { "location" : "The Rusty Planet" },
+
+			"obj" : [
+				{
+					"obj_id" : "destroy_cauldron",
+					"type" : "go_event",
+					"event" : "destroy_cauldron",
+					"desc" : "Find the ritual and disrupt it"
+				}
+			],
+			"rewards" : { 
+				"xp" : 10000,
+				"gold" : 5000, 
+				"gems" : 3
+			} 
+		},
+		{
+			"id" : "jungle_flowers",
+			"name" : "Flora of Nirgal",
+			"story" : {
+				"intro" : "The Twilight Garden is a treasure trove, {HERO}. Many species of plants grow there. If we are to understand this world, we might as well start by understanding the plants.||||One plant in particular drew my eye: it seems to have powerful medicinal properties.||||Bring me 4 samples of Desert Blossom, champion.",
+				"prog" : "Bring 4 Desert Blossoms from the Twilight Garden to Alice.",
+				"done" : "Well done, {HERO}. I can study these plants and make medicine to aid our soldiers."
+			},
+			"src" : "Alice",
+			"req" : { "quest" : "the_rusty_planet" , "story_level" : "@Twilight Garden" },
+			
+			"obj" : [
+				{
+					"obj_id" : "jungle_flowers",
+					"type" : "go_event",
+					"event" : "pick_flowers",
+					"total" : 4,
+					"drop_rate" : 1,
+					"item" : {"name":"Desert Blossom", "desc":"Medicinal flower, native to Nirgal.", "icon" : "flower7"},
+					"autoloot" : true,
+					"location" : "Twilight Garden",
+					"desc" : "Pick up 4 Desert Blossoms"
+				}
+			],
+			"rewards" : { 
+				"xp" : 10000,
+				"gold" : 5000, 
+				"gems" : 3
+			} 
+		},
+		{
+			"id" : "dont_push_the_button",
+			"name" : "Don't Push the Red Button...",
+			"story" : {
+				"intro" : "{HERO}, I'm so glad you came over!||||These pyramids, they have some kind of automated system inside. All it knows is 'don't do this', 'don't do that'. I say that's no fun!||||If you are going to venture beneath the pyramid, see what the system tells you not to do, and do exactly that. Let's have some fun!",
+				"prog" : "Find out what Monitoring System PC01-SM advises you not to do and do it anyway.",
+				"done" : "Tee hee! Fun detected - fun restored, {HERO}. Oh... don't tell Alarion please, he would be fuming if he knew what we did."
+			},
+			"src" : "Ruby",
+			"req" : { "quest" : "first_contact" , "story_level" : "@Beneath the Pyramids" },
+			"common" : { "location" : "Beneath the Pyramids" },
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_bot_pyramid",
+					"type" : "talk_to",
+					"npc" : "Monitoring System PC01-SM",
+					"dialog" : {
+						"dialog" : [{"narrator":"The machine hums and a mechanical voice transmits instructions periodically."},"This is an automated safety protocol.", "Do not tamper with the pressure valves.", "beep... beep...", "Do not modify the temperature from the temperature control pipe.", "Do not touch the red power crystal.", {"narrator":"You grin."}, {"hero":"So: tamper with the valves, modify the temperature, touch the red crystal. Good checklist, bot."}],
+						"continue_to" : "quest"
+					},
+					"desc" : "Find out what the Monitoring System doesn't want you to do"
+				},
+				{
+					"obj_id" : "tamper_with_valves",
+					"type" : "go_event",
+					"event" : "open_valves",
+					"total" : 4,
+					"desc" : "Tamper with the pressure valves"
+				},
+				{
+					"obj_id" : "temperature_haywire",
+					"type" : "go_event",
+					"event" : "modify_temp",
+					"desc" : "Modify the temperature from the control pipe"
+				},
+				{
+					"obj_id" : "touch_the_crystal",
+					"type" : "go_event",
+					"event" : "touch_crystal",
+					"desc" : "Touch the crystal"
+				}
+			],
+			"rewards" : { 
+				"xp" : 12000,
+				"gold" : 6000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "blessings_of_spirits",
+			"name" : "Blessing of the Desert",
+			"story" : {
+				"intro" : "{HERO}, stay a moment, I wish to talk to you.||||Around the Oasis, there are powerful spirits of the desert. Alarion says I am simply being superstitious, but I believe your journey will be crowned with success if you obtain their approval.||||Seek the desert spirits, {HERO}, and have your journey blessed by them!",
+				"prog" : "Seek out the Desert Spirits and obtain their blessing.",
+				"done" : "It never hurts to appease the local spirits, champion."
+			},
+			"src" : "Ingrid",
+			"req" : { "quest" : "ancient_knowledge" , "story_level" : "@Oasis" },
+			"common" :{ "location" : "Oasis" },
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "talk_to_spirit_1",
+					"type" : "talk_to",
+					"npc" : "Spirit of the Oasis",
+					"dialog" : {
+						"dialog": [{"hero":"Bless my journey, Spirit of the Oasis!"}, "The waters in the sand welcome you. Be blessed, traveler."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Seek the blessing of the Spirit of the Oasis"
+				},
+				{
+					"obj_id" : "talk_to_spirit_2",
+					"type" : "talk_to",
+					"npc" : "Spirit of the Dunes",
+					"dialog" : {
+						"dialog": [{"hero":"Great Spirit of the Dunes, bless my journey!"}, "The sand dunes welcome you, traveler between worlds! Be blessed."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Seek the blessing of the Spirit of the Dunes"
+				},
+				{
+					"obj_id" : "talk_to_spirit_3",
+					"type" : "talk_to",
+					"npc" : "Spirit of the Pyramids",
+					"dialog" : {
+						"dialog" : [{"hero":"Spirit of the Pyramids, I seek your blessing."}, "The stone tombs welcome you. Walk the sands with my blessing, champion."],
+						"continue_to" : "quest"
+					},
+					"desc" : "Seek the blessing of the Spirit of the Pyramids"
+				}
+			],
+			"rewards" : { 
+				"xp" : 13000,
+				"gold" : 6000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "jewel_of_minaris",
+			"name" : "The Light of Minaris",
+			"story" : {
+				"intro" : "Legends speak of a mythical gemstone, the Light of Minaris. Bring it to me, {HERO}, and I will forge you a most astounding ring."
+			},
+			"src" : "Morgan",
+			"req" : { "quest" : "water" , "story_level" : "@Ruins of Minaris" },
+
+			"obj" : [
+				{
+					"obj_id" : "light_of_minaris",
+					"type" : "go_event",
+					"event" : "light_of_minaris",
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"location" : "Ruins of Minaris",
+					"item" : {"name":"Light of Minaris", "desc":"The mythical gemstone of Minaris shines brightly.", "icon" : "gemstone4"},
+					"desc" : "Find and recover the Light of Minaris"
+				}
+			],
+			"rewards": {
+				"xp" : 15000,
+				"gold" : 6000,
+				"gear" : {
+					"itemClass": ["Ring"],
+					"name": ["Light of Minaris"],
+					
+					"levelOffset":3,
+					"variation":-1,
+					"quality":4,
+					"stats":["haste", "criticalRating", "criticalDamage", "power"],
+					"statBonus": 1,					
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "repair_wall",
+			"name" : "Repair the Wall",
+			"story" : {
+				"intro" : "The Wall used to be a mighty deterrent against marauding raiders, {HERO}. Unfortunately, it is now in a state of disrepair.||||Help the effort to restore it, so we can turn it into a bastion against the Undead and the Aztrak."
+			},
+			"src" : "Liana",
+			"req" : { "quest" : "alarion_nirgal_talk" , "story_level" : "@The Wall"},
+
+			"obj" : [
+				{
+					"obj_id" : "repair_wall",
+					"type" : "go_event",
+					"event" : "repair_the_wall",
+					"location" : "The Wall",
+					"own_event" : true,
+					"total" : 5,
+					"desc" : "Repair 5 wall sections"
+				}
+			],
+			"rewards" : { 
+				"xp" : 15000,
+				"gold" : 6500, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "burn_the_gates",
+			"name" : "Smoking them out",
+			"story" : {
+				"intro" : "{HERO}, I might have a way for you to reduce the number of reptilians going to The Mire. We will burn their entrances into the ring. Those that are already close will attack you, but no reinforcements will be able to join in the fray.||||Set fire to the three western, northern and eastern entrances, and slay the reptilians that attack you."
+			},
+			"src" : "Ingrid",
+			"req" : { "quest" : "onwards_to_malador" , "story_level" : "@Trial of the Mire" },
+			"common" : { "location" : "Trial of the Mire" },
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "set_fire_west",
+					"type" : "go_event",
+					"event" : "set_fire_west",
+					"desc" : "Set fire at the western entrance"
+				},
+				{
+					"obj_id" : "set_fire_north",
+					"type" : "go_event",
+					"event" : "set_fire_north",
+					"desc" : "Set fire at the northern entrance"
+				},
+				{
+					"obj_id" : "set_fire_east",
+					"type" : "go_event",
+					"event" : "set_fire_east",
+					"desc" : "Set fire at the eastern entrance"
+				},
+				{
+					"obj_id" : "finish_level_trial_of_the_mire",
+					"type" : "finish_level",
+					"level" : "Trial of the Mire",
+					"desc" : "Slay all the attackers"
+				}
+			],
+			"rewards" : { 
+				"xp" : 17000,
+				"gold" : 6500, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "decapitation_strike",
+			"name" : "Decapitation Strike",
+			"story" : {
+				"intro" : "Some of the Aztrak field commanders are gathered in the Murkvale village, just outside of Malador. I propose we mount a preemptive strike, {HERO}.||||Kill their leaders and recover the intel from their dwellings.",
+				"prog" : "Slay the Aztrak Chieftain, the Aztrak Quartermaster and the Aztrak Drill Sergeant in Murkvale, and recover valuable intel from their dwellings.",
+				"done" : "Well done, champion. Their command and control structure is in tatters, and the intel you recovered will help us plan accordingly."
+			},
+			"src" : "Liana",
+			"req" : { "quest" : "into_the_fray", "story_level" : "@Murkvale" },
+			"common" : { "location" : "Murkvale" },
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "kill_chieftain",
+					"type" : "kill",
+					"creature" : "Aztrak Chieftain",
+					"desc" : "Slay the Aztrak Chieftain"
+				},
+				{
+					"obj_id" : "search_hut_1",
+					"type" : "go_event",
+					"event" : "hut_1",
+					"own_event" : true,
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"item" : {"name":"Valuable intel: Army Marching Orders", "desc":"A document detailing the numbers and troop movements of the Aztrak army.", "icon" : "calendar"},
+					"desc" : "Search the chieftain's hut for valuable intel"
+				},
+				{
+					"obj_id" : "kill_quartermaster",
+					"type" : "kill",
+					"creature" : "Aztrak Quartermaster",
+					"desc" : "Slay the Aztrak Quartermaster"
+				},
+				{
+					"obj_id" : "search_hut_2",
+					"type" : "go_event",
+					"event" : "hut_2",
+					"own_event" : true,
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"item" : {"name":"Valuable intel: Supply and Waystations", "desc":"A document detailing the Aztrak army logistical organization.", "icon" : "calendar"},
+					"desc" : "Search the quartermaster's hut for valuable intel"
+				},
+				{
+					"obj_id" : "kill_sergeant",
+					"type" : "kill",
+					"creature" : "Aztrak Drill Sergeant",
+					"desc" : "Slay the Aztrak Drill Sergeant"
+				},
+				{
+					"obj_id" : "search_hut_3",
+					"type" : "go_event",
+					"event" : "hut_3",
+					"own_event" : true,
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"item" : {"name":"Valuable intel: Recruitment and Drill", "desc":"A document detailing the state of readiness of various Aztrak companies.", "icon" : "calendar"},
+					"desc" : "Search the drill sergeant's hut for valuable intel"
+				}
+			],
+			"rewards" : { 
+				"xp" : 18000,
+				"gold" : 7000, 
+				"gems" : 3
+			}
+		},
+		{
+			"id" : "jewel_of_malador",
+			"name" : "The Flame of Malador",
+			"story" : {
+				"intro" : "It turns out the fortitied city of Malador also has a jewel, {HERO}. It is called the Dark Flame of Malador. Bring it to me, {HERO}, and I will forge you another ring, just as the one from Minaris."
+			},
+			"src" : "Morgan",
+			"req" : { "quest": "road_to_malador" ,"story_level" : "@The City of Malador" },
+
+			"obj" : [
+				{
+					"obj_id" : "flame_of_malador",
+					"type" : "go_event",
+					"event" : "flame_of_malador",
+					"location" : "The City of Malador",
+					"drop_rate" : 1,
+					"autoloot" : true,
+					"item" : {"name":"Dark Flame of Malador", "desc":"The gemstone of Malador humms with dark energy.", "icon" : "gemstone5"},
+					"desc" : "Find and recover the Flame of Malador"
+				}
+			],
+			"rewards": {
+				"xp" : 19000,
+				"gold" : 7000,
+				"gear" : {
+					"itemClass": ["Ring"],
+					"name": ["Flame of Malador"],
+					
+					"levelOffset":1,
+					"variation":-1,
+					"quality":4,
+					"stats":["haste", "criticalRating", "criticalDamage", "power"],
+					"statBonus": 1,					
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "ritual_residue",
+			"name" : "Ritual Residue",
+			"story" : {
+				"intro" : "Elban's servants are performing some kind of ritual, twisting the plants of Nirgal inside the Crucible of Mawrth.||||Destroy the residual product of their ritual. Burn it if you have to.",
+				"prog" : "Burn 4 ritual residue spots.",
+				"done" : "Well done, champion. That place is evil. It had to be cleansed."
+			},
+			"src" : "Ingrid",
+			"req" : { "quest" : "malador" , "story_level" : "@The Crucible of Mawrth" },
+
+			"obj" : [
+				{
+					"obj_id" : "burn_creep",
+					"type" : "go_event",
+					"event" : "pile_1",
+					"location" : "The Crucible of Mawrth",
+					"total" : 4,
+					"desc" : "Burn 4 ritual residue spots"
+				}
+			],
+			"rewards": {
+				"xp" : 20000,
+				"gold" : 7000,
+				"gems" : 3
+ 			}
+		}
+	]
+}

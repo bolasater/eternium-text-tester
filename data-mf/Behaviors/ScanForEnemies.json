@@ -1,0 +1,17 @@
+{
+	"type":"Sequence",
+	"id":"ScanForEnemies",
+	"children":[
+		{
+			"type":"PickClosestEnemy",
+			"range":5.0,
+			"consider_los":false,
+			"view_angle":360
+		},
+		{
+			"type":"AddAggro",
+			"target":"closest_enemy",
+			"amount":10
+		}
+	]
+}

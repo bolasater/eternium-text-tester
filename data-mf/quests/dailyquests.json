@@ -1,0 +1,103 @@
+{"name" : "Daily Quests",
+	"req" : {},
+	"category" : "side",
+
+	"quests" : [
+		{
+			"id" : "mitzus_daily_quest",
+			"scope" : "profile",
+			"req" : { 
+				"hero_level" : 30, 
+				"repeat" : "daily",
+				"quest" : ["the_broken_dragon", "demonic_advisors", "torches_of_descent", "ethereal_ice_tea", "apple", "mushshroom_stew", "automaton_malfunction"] 
+			},
+			"src" : "Morgan",
+			"use" : ["elite_pruning","lost_souls","break_their_bows","merlok_cleansing","keep_them_at_bay","extreme_prejudice", "apple_daily", "mushshroom_stew", "automaton_malfunction", "demonic_advisors"],
+			"rewards":{
+				"xp" : 200000,
+				"xp_scale" : true,
+				"gold_scale" : true,
+				"gems" : 20,
+				"gold" : 10000
+			}
+		},
+		{
+			"id" : "rubys_daily_quest",
+			"scope" : "profile",
+			"req" : 
+				{ 	
+					"story_level" : "The Temple", 
+					"qline" : ["act2main", "act2side"],
+					"repeat" : "daily" 
+				},
+			"src" : "Ruby",
+			"use" : ["moon_landing", "fiery_remnants_daily", "dels_tears_daily", "short_dwarven_warrior", "teddy_and_marty", "maddening_light", "logistics_quartermaster", "elban_lieutenants_daily"],
+			"rewards":{
+				"xp" : 200000,
+				"xp_scale" : true,
+				"gold_scale" : true,
+				"gems" : 20,
+				"gold" : 10000				
+			}
+		},
+		{
+			"id" : "lianas_daily_quest",
+			"scope" : "profile",
+			"req" : 
+				{ 	
+					"story_level" : "The Crucible of Mawrth", 
+					"qline" : ["act3main", "act3side"],
+					"repeat" : "daily",
+					"hero_level" : 30 
+				},
+			"src" : "Liana",
+			"use" : ["destroy_cauldron","jungle_flowers","dont_push_the_button","blessings_of_spirits","jewel_of_minaris_daily","repair_wall","burn_the_gates","decapitation_strike","jewel_of_malador_daily","ritual_residue"],
+			"rewards":{
+				"xp" : 200000,
+				"xp_scale" : true,
+				"gold_scale" : true,
+				"gems" : 20,
+				"gold" : 10000
+			}
+		},
+		{
+			"id" : "ingrid_daily_quest",
+			"scope" : "profile",
+			"req" : 
+				{ 	
+					"story_level" : "Morgenheim", 
+					"quest" : "kingmaker_conclusion",
+					"repeat" : "daily",
+					"hero_level" : 30 
+				},
+			"src" : "Ingrid",
+			"use" : ["reclaim_wealth","legacy_of_the_dragons","flames_of_rebellion","ursoc_vandals","lost_literature","the_void_corrupts"],
+			"rewards":{
+				"xp" : 200000,
+				"xp_scale" : true,
+				"gold_scale" : true,
+				"gems" : 20,
+				"gold" : 10000
+			}
+		},
+		{
+			"id" : "alarions_daily_quest",
+			"scope" : "profile",
+			"req" : 
+				{ 	
+					"qline" : ["act4main", "act4side"],
+					"repeat" : "daily",
+					"hero_level" : 30 
+				},
+			"src" : "Alarion",
+			"use" : ["proving_grounds","fire_and_steel","chemical_warfare","power_of_the_enemy","cover_of_darkness","break_resistence","clear_catacombs"],
+			"rewards":{
+				"xp" : 200000,
+				"xp_scale" : true,
+				"gold_scale" : true,
+				"gems" : 20,
+				"gold" : 10000
+			}
+		}		
+	]
+}

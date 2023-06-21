@@ -1,0 +1,9 @@
+{
+	"id":"SelfEnraged",
+	"type":"HasEffect",
+	"creature":"self",
+	"remainingTime":2.0,
+	"effects":[
+		"timewarp_eff", "power_infusion_proc", "ShieldBlock", "BattleRage"
+	]
+}

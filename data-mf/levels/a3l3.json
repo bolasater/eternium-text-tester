@@ -1,0 +1,3592 @@
+{
+   "ambient" : [ 16, 21, 32 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Eternium Level Designer",
+      "saveTime" : "1565002384884"
+   },
+   "enemyFlavors" : [ "reptilian" ],
+   "enemySetup" : [
+      {
+         "a" : 4.61920,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "monster_charge",
+         "eliteAbility1" : "monster_charge",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : 0.33720,
+         "z" : 2.93260
+      },
+      {
+         "a" : 4.61920,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "monster_charge",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : 0.26570,
+         "z" : 3.20880
+      },
+      {
+         "a" : 4.61920,
+         "creature" : "boris_kong",
+         "eliteAbility0" : "speed_aura",
+         "eliteAbility1" : "monster_charge",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : 0.6042999999999999,
+         "z" : 2.90840
+      },
+      {
+         "a" : 0.0,
+         "creature" : "elemental_iron_1",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "name" : "Monitoring System PC01-SM",
+         "npc" : {
+            "icon" : "",
+            "role" : "",
+            "scaling" : 1.50,
+            "title" : "NPC"
+         },
+         "x" : 0.26970,
+         "z" : -4.13320
+      }
+   ],
+   "fog" : [ 16, 32, 21 ],
+   "heroOmni" : {
+      "blue" : 0.12550,
+      "green" : 0.43920,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 0.73330
+   },
+   "lightCol" : [ 112, 64, 16 ],
+   "lightDir" : [ -0.62470, -0.46850, 0.62470 ],
+   "props" : [
+      {
+         "heading" : -0.79540,
+         "height" : -0.0,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.26890,
+         "y" : -0.50,
+         "z" : -0.50420
+      },
+      {
+         "heading" : -0.79540,
+         "height" : -0.00020,
+         "name" : "Pipe 01",
+         "scaling" : 1.13580,
+         "x" : -1.34570,
+         "y" : -0.50,
+         "z" : -0.42670
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.19150,
+         "y" : -0.50,
+         "z" : -0.58330
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.11430,
+         "y" : -0.50,
+         "z" : -0.6620
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.03770,
+         "y" : -0.50,
+         "z" : -0.74030
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.9610,
+         "y" : -0.50,
+         "z" : -0.81860
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.88350,
+         "y" : -0.50,
+         "z" : -0.89690
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.80790,
+         "y" : -0.50,
+         "z" : -0.97590
+      },
+      {
+         "heading" : -0.79540,
+         "height" : -0.0,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.7320,
+         "y" : -0.50,
+         "z" : -1.05430
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.65460,
+         "y" : -0.50,
+         "z" : -1.13260
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : -0.57790,
+         "y" : -0.50,
+         "z" : -1.21050
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.6950,
+         "y" : -0.50,
+         "z" : -1.17170
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.77230,
+         "y" : -0.50,
+         "z" : -1.24870
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.85110,
+         "y" : -0.50,
+         "z" : -1.32680
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.92820,
+         "y" : -0.50,
+         "z" : -1.40390
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.0050,
+         "y" : -0.50,
+         "z" : -1.47980
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.08310,
+         "y" : -0.50,
+         "z" : -1.55780
+      },
+      {
+         "heading" : -2.35950,
+         "height" : -0.2610,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.16070,
+         "y" : -0.50040,
+         "z" : -1.63520
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.00190,
+         "y" : -0.50,
+         "z" : -0.8560
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.3890,
+         "y" : -0.50,
+         "z" : -0.61850
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.3140,
+         "y" : -0.50,
+         "z" : -1.16710
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.39190,
+         "y" : -0.50,
+         "z" : -1.24450
+      },
+      {
+         "heading" : -2.35950,
+         "height" : -0.22240,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.470,
+         "y" : -0.50160,
+         "z" : -1.32190
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.46650,
+         "y" : -0.50,
+         "z" : -0.69580
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.84870,
+         "y" : -0.50,
+         "z" : -1.32810
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.07820,
+         "y" : -0.50,
+         "z" : -1.56040
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : -0.77450,
+         "y" : -0.50,
+         "z" : -1.40480
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : -1.00530,
+         "y" : -0.49950,
+         "z" : -1.63330
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 01",
+         "scaling" : 1.13580,
+         "x" : -0.92520,
+         "y" : -0.50,
+         "z" : -1.250
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.15570,
+         "y" : -0.50,
+         "z" : -1.01710
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : -1.07830,
+         "y" : -0.50,
+         "z" : -1.09590
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 01",
+         "scaling" : 1.13580,
+         "x" : -1.23210,
+         "y" : -0.50,
+         "z" : -0.93910
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.91980,
+         "y" : -0.50,
+         "z" : -2.59620
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.78440,
+         "y" : -0.50,
+         "z" : -2.46270
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.64920,
+         "y" : -0.50,
+         "z" : -2.32840
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.51480,
+         "y" : -0.50,
+         "z" : -2.19350
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.37990,
+         "y" : -0.50,
+         "z" : -2.06010
+      },
+      {
+         "heading" : -2.35950,
+         "height" : 0.0,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.64850,
+         "y" : -0.50,
+         "z" : -1.80430
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.08350,
+         "y" : -0.50,
+         "z" : -2.3390
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.220,
+         "y" : -0.50,
+         "z" : -2.47420
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.35380,
+         "y" : -0.50,
+         "z" : -2.60560
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.78620,
+         "y" : -0.50,
+         "z" : -1.94030
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.91950,
+         "y" : -0.50,
+         "z" : -2.07540
+      },
+      {
+         "heading" : -2.35950,
+         "height" : -0.50,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -2.0520,
+         "y" : -0.50,
+         "z" : -2.20820
+      },
+      {
+         "heading" : -2.39960,
+         "name" : "Pipe 02",
+         "scaling" : 2.89180,
+         "x" : 1.77130,
+         "y" : -1.0,
+         "z" : -0.97640
+      },
+      {
+         "heading" : -2.39960,
+         "name" : "Pipe 02",
+         "scaling" : 2.89180,
+         "x" : 1.56440,
+         "y" : -1.0,
+         "z" : -1.16510
+      },
+      {
+         "heading" : -3.93030,
+         "name" : "Pipe 02",
+         "scaling" : 2.89180,
+         "x" : 1.5760,
+         "y" : -1.0,
+         "z" : -1.67090
+      },
+      {
+         "heading" : -3.93030,
+         "name" : "Pipe 02",
+         "scaling" : 2.89180,
+         "x" : 1.77330,
+         "y" : -1.0,
+         "z" : -1.87020
+      },
+      {
+         "heading" : -3.14160,
+         "height" : -0.50,
+         "name" : "Pipe 02",
+         "scaling" : 2.89180,
+         "x" : 1.53020,
+         "y" : -1.0,
+         "z" : -1.39890
+      },
+      {
+         "heading" : -3.14160,
+         "name" : "Pipe 02",
+         "scaling" : 2.89180,
+         "x" : 1.8130,
+         "y" : -1.0,
+         "z" : -1.39990
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.31130,
+         "y" : -0.50,
+         "z" : -0.5407999999999999
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.15870,
+         "y" : -0.50,
+         "z" : -1.01210
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.23670,
+         "y" : -0.50,
+         "z" : -1.090
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.54360,
+         "y" : -0.50,
+         "z" : -0.77360
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.62180,
+         "y" : -0.50,
+         "z" : -0.85110
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.70,
+         "y" : -0.50,
+         "z" : -0.9290
+      },
+      {
+         "heading" : -2.35950,
+         "height" : -0.16020,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.77820,
+         "y" : -0.50290,
+         "z" : -1.00650
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 01",
+         "scaling" : 1.13580,
+         "x" : -1.15510,
+         "y" : -0.50,
+         "z" : -1.48290
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.38870,
+         "y" : -0.50,
+         "z" : -1.24580
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.46750,
+         "y" : -0.50,
+         "z" : -0.6960
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -1.6950,
+         "y" : -0.50,
+         "z" : -0.92820
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 01",
+         "scaling" : 1.13580,
+         "x" : -1.77070,
+         "y" : -0.50,
+         "z" : -0.85080
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 01",
+         "scaling" : 1.13580,
+         "x" : -1.54320,
+         "y" : -0.50,
+         "z" : -0.61990
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 01",
+         "scaling" : 1.13580,
+         "x" : -1.46630,
+         "y" : -0.50,
+         "z" : -1.16740
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : -1.31230,
+         "y" : -0.50,
+         "z" : -1.32370
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : -1.39120,
+         "y" : -0.50,
+         "z" : -0.77330
+      },
+      {
+         "heading" : -0.79540,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : -1.61960,
+         "y" : -0.50,
+         "z" : -1.00650
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.50,
+         "name" : "Medium Metal Bridge",
+         "scaling" : 1.68340,
+         "x" : 0.06130,
+         "y" : -0.50,
+         "z" : -1.05660
+      },
+      {
+         "heading" : -1.57080,
+         "height" : 0.50,
+         "name" : "Medium Metal Bridge",
+         "scaling" : 1.68340,
+         "x" : 0.68650,
+         "y" : -0.50,
+         "z" : -0.55890
+      },
+      {
+         "heading" : -3.14830,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : 0.14870,
+         "y" : -0.50,
+         "z" : 0.81510
+      },
+      {
+         "heading" : -3.14830,
+         "height" : 0.0,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -0.04330,
+         "y" : -0.50,
+         "z" : 0.81690
+      },
+      {
+         "heading" : -3.14830,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -0.23330,
+         "y" : -0.50,
+         "z" : 0.81790
+      },
+      {
+         "heading" : -3.14830,
+         "height" : 0.10,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -0.42440,
+         "y" : -0.50,
+         "z" : 0.81890
+      },
+      {
+         "heading" : -3.14830,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -0.61560,
+         "y" : -0.50,
+         "z" : 0.82060
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.56770,
+         "y" : -0.50,
+         "z" : 0.8191000000000001
+      },
+      {
+         "heading" : -3.14830,
+         "height" : 0.10,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -0.8070000000000001,
+         "y" : -0.50,
+         "z" : 0.82170
+      },
+      {
+         "heading" : -3.14830,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -0.9985000000000001,
+         "y" : -0.50,
+         "z" : 0.82280
+      },
+      {
+         "heading" : -3.14830,
+         "height" : 0.10,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.1910,
+         "y" : -0.50,
+         "z" : 0.82460
+      },
+      {
+         "heading" : -3.14830,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.38170,
+         "y" : -0.50,
+         "z" : 0.82570
+      },
+      {
+         "heading" : -3.14830,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.57270,
+         "y" : -0.50,
+         "z" : 0.82690
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.56720,
+         "y" : -0.50,
+         "z" : 0.62480
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.56830,
+         "y" : -0.50,
+         "z" : 0.43490
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Pipe 01",
+         "scaling" : 1.97530,
+         "x" : -1.56620,
+         "y" : -0.50,
+         "z" : 0.24650
+      },
+      {
+         "heading" : -3.14830,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.76270,
+         "y" : -0.50,
+         "z" : 0.82890
+      },
+      {
+         "heading" : -3.14830,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.9540,
+         "y" : -0.50,
+         "z" : 0.82990
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.77580,
+         "y" : -0.50,
+         "z" : 0.8191000000000001
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.77580,
+         "y" : -0.50,
+         "z" : 0.6254999999999999
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : -1.77560,
+         "y" : -0.50,
+         "z" : 0.43330
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Pipe 01",
+         "scaling" : 1.97530,
+         "x" : -1.77660,
+         "y" : -0.50,
+         "z" : 0.23990
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 03",
+         "scaling" : 1.97530,
+         "x" : -1.63680,
+         "y" : -0.50,
+         "z" : -1.990
+      },
+      {
+         "heading" : -2.35950,
+         "name" : "Pipe 03",
+         "scaling" : 1.97530,
+         "x" : -1.35510,
+         "y" : -0.50,
+         "z" : -2.27460
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Pipe 03",
+         "scaling" : 1.97530,
+         "x" : -1.56890,
+         "y" : -0.50,
+         "z" : 1.0080
+      },
+      {
+         "heading" : -4.71240,
+         "name" : "Pipe 03",
+         "scaling" : 1.97530,
+         "x" : -1.77670,
+         "y" : -0.50,
+         "z" : 1.00750
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.40,
+         "name" : "Long Metal Bridge",
+         "scaling" : 1.68340,
+         "x" : 0.86360,
+         "y" : -0.20,
+         "z" : 1.04560
+      },
+      {
+         "heading" : -3.14830,
+         "height" : -0.23630,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : 0.38750,
+         "y" : -0.50,
+         "z" : 0.81290
+      },
+      {
+         "heading" : -3.14830,
+         "height" : -0.23170,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : 0.57670,
+         "y" : -0.49990,
+         "z" : 0.81240
+      },
+      {
+         "heading" : -3.14150,
+         "height" : 0.10,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : 0.76690,
+         "y" : -0.50,
+         "z" : 0.81170
+      },
+      {
+         "heading" : -3.14830,
+         "height" : 0.10,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : 0.9590,
+         "y" : -0.50,
+         "z" : 0.81120
+      },
+      {
+         "heading" : -3.14830,
+         "height" : -0.30,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : 1.15180,
+         "y" : -0.50,
+         "z" : 0.80960
+      },
+      {
+         "heading" : -3.14830,
+         "height" : -0.10,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : 1.33460,
+         "y" : -0.50,
+         "z" : 0.80740
+      },
+      {
+         "heading" : -3.14830,
+         "height" : -0.10,
+         "name" : "Pipe 02",
+         "scaling" : 1.97530,
+         "x" : 1.52510,
+         "y" : -0.50,
+         "z" : 0.8060
+      },
+      {
+         "heading" : -4.68530,
+         "height" : -0.10,
+         "name" : "Pipe 01",
+         "scaling" : 1.97530,
+         "x" : 1.4320,
+         "y" : -0.50,
+         "z" : 0.7120
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.5140,
+         "y" : -0.210,
+         "z" : -2.55850
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.29010,
+         "y" : -0.210,
+         "z" : -1.80460
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.41910,
+         "y" : -0.210,
+         "z" : -1.66640
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00330,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -3.66410,
+         "y" : 0.00330,
+         "z" : -0.54360
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.00350,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.24410,
+         "y" : -0.49840,
+         "z" : -0.23070
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.34220,
+         "y" : -0.50,
+         "z" : -1.02860
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.39540,
+         "y" : -0.50,
+         "z" : -1.04330
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.8040,
+         "y" : -0.50,
+         "z" : -0.09610
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.95160,
+         "y" : -0.20,
+         "z" : 1.01330
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.08570,
+         "y" : -0.20,
+         "z" : 0.99370
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.35530,
+         "y" : -0.20,
+         "z" : 1.13140
+      },
+      {
+         "gameObject" : "SuperiorChest",
+         "gameObjectParams" : null,
+         "heading" : 1.5860,
+         "height" : 0.0030,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : 1.34730,
+         "y" : -0.4970,
+         "z" : -1.41780
+      },
+      {
+         "gameObject" : "EpicChest",
+         "gameObjectParams" : null,
+         "heading" : 2.44010,
+         "name" : "Chest 03",
+         "scaling" : 1.0,
+         "x" : 0.55410,
+         "y" : 0.0,
+         "z" : 3.17990
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.25020,
+         "y" : -0.010,
+         "z" : 2.58180
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.00740,
+         "y" : -0.010,
+         "z" : 2.40340
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.63040,
+         "x" : -1.9050,
+         "y" : -0.20930,
+         "z" : -1.18350
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.63040,
+         "x" : -0.89680,
+         "y" : -0.50,
+         "z" : -0.58540
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.63040,
+         "x" : 1.16880,
+         "y" : -0.50,
+         "z" : -0.10480
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.63040,
+         "x" : 1.41210,
+         "y" : -0.20,
+         "z" : 1.07550
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.07420,
+         "name" : "Metal Square Vent 02",
+         "scaling" : 2.56920,
+         "x" : -0.34380,
+         "y" : -0.21240,
+         "z" : -2.41140
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.08550000000000001,
+         "name" : "Metal Square Vent 02",
+         "scaling" : 2.56920,
+         "x" : -0.7818000000000001,
+         "y" : -0.21220,
+         "z" : -1.96630
+      },
+      {
+         "heading" : 5.49780,
+         "height" : -0.12520,
+         "name" : "Metal Border 01",
+         "scaling" : 1.87430,
+         "x" : -1.03210,
+         "y" : -0.33570,
+         "z" : -1.77890
+      },
+      {
+         "heading" : 5.49780,
+         "height" : -0.00570,
+         "name" : "Metal Square Vent 02",
+         "scaling" : 2.56920,
+         "x" : -1.24030,
+         "y" : -0.14330,
+         "z" : -2.21450
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.02360,
+         "name" : "Metal Square Vent 02",
+         "scaling" : 2.56920,
+         "x" : -1.50650,
+         "y" : -0.1430,
+         "z" : -1.93550
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "open_valves",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 4.01430,
+         "height" : -0.0010,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : -1.47820,
+         "y" : -0.2110,
+         "z" : -1.41370
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.18550,
+         "name" : "Metal Border 01",
+         "scaling" : 1.87430,
+         "x" : -0.93030,
+         "y" : -0.21370,
+         "z" : -2.38790
+      },
+      {
+         "heading" : 5.49780,
+         "height" : -0.08050,
+         "name" : "Metal Border 01",
+         "scaling" : 1.87430,
+         "x" : -1.18920,
+         "y" : -0.2140,
+         "z" : -2.1290
+      },
+      {
+         "heading" : 5.49780,
+         "height" : -0.07080,
+         "name" : "Metal Border 01",
+         "scaling" : 1.87430,
+         "x" : -1.44810,
+         "y" : -0.21380,
+         "z" : -1.87020
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.150,
+         "name" : "Metal Border 01",
+         "scaling" : 1.87430,
+         "x" : -1.70690,
+         "y" : -0.21370,
+         "z" : -1.61130
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.18550,
+         "name" : "Metal Border 01",
+         "scaling" : 1.87430,
+         "x" : -1.85970,
+         "y" : -0.21510,
+         "z" : -1.45820
+      },
+      {
+         "heading" : 4.01430,
+         "height" : -0.01440,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : -1.98760,
+         "y" : -0.20720,
+         "z" : -0.91150
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "open_valves",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 4.01430,
+         "height" : -0.0010,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : -0.96920,
+         "y" : -0.2110,
+         "z" : -1.93320
+      },
+      {
+         "heading" : 4.01430,
+         "height" : -0.01740,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : -0.22660,
+         "y" : -0.20120,
+         "z" : -2.67660
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18430,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.50,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -1.76530,
+         "y" : -0.31570,
+         "z" : -2.18030
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18430,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.50,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -1.07040,
+         "y" : -0.31570,
+         "z" : -0.9068000000000001
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Pipe 03",
+         "scaling" : 1.0,
+         "x" : -2.29350,
+         "y" : 0.150,
+         "z" : -1.64480
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Pipe 02 No Collision",
+         "scaling" : 1.0,
+         "x" : -2.39120,
+         "y" : 0.150,
+         "z" : -1.64480
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Pipe 02 No Collision",
+         "scaling" : 1.0,
+         "x" : -2.48890,
+         "y" : 0.150,
+         "z" : -1.64480
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Pipe 02 No Collision",
+         "scaling" : 1.0,
+         "x" : -2.58650,
+         "y" : 0.150,
+         "z" : -1.64480
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Pipe 02 No Collision",
+         "scaling" : 1.0,
+         "x" : -2.68420,
+         "y" : 0.150,
+         "z" : -1.64480
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Pipe 01",
+         "scaling" : 1.0,
+         "x" : -2.78180,
+         "y" : 0.150,
+         "z" : -1.64480
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.30790,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.70,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -2.8870,
+         "y" : 0.30790,
+         "z" : -1.07040
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00020,
+         "name" : "Pipe 06",
+         "scaling" : 1.0,
+         "x" : -2.86980,
+         "y" : -0.00020,
+         "z" : -0.94550
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.13220,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -2.86860,
+         "y" : 0.13220,
+         "z" : -0.9450
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 1.0,
+         "x" : -2.86470,
+         "y" : 0.0,
+         "z" : -0.95420
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12080,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -1.11470,
+         "y" : -0.37920,
+         "z" : -0.9661999999999999
+      },
+      {
+         "heading" : -1.62070,
+         "name" : "Pipe 04",
+         "scaling" : 1.13580,
+         "x" : -1.03250,
+         "y" : -0.50,
+         "z" : -0.92660
+      },
+      {
+         "heading" : 0.66320,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 04",
+         "scaling" : 1.0,
+         "x" : -1.2880,
+         "y" : -0.50,
+         "z" : -1.12470
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 1.0,
+         "x" : -0.69260,
+         "y" : -0.50,
+         "z" : -1.11870
+      },
+      {
+         "heading" : 5.58510,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 1.0,
+         "x" : -0.85390,
+         "y" : -0.50,
+         "z" : -0.9500999999999999
+      },
+      {
+         "heading" : 5.67230,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 1.0,
+         "x" : -1.17510,
+         "y" : -0.50,
+         "z" : -0.58770
+      },
+      {
+         "heading" : 6.89410,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 1.0,
+         "x" : -1.60460,
+         "y" : -0.50,
+         "z" : -0.80690
+      },
+      {
+         "heading" : 6.89410,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 1.0,
+         "x" : -1.36920,
+         "y" : -0.50,
+         "z" : -0.61730
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 1.0,
+         "x" : -1.01530,
+         "y" : -0.50,
+         "z" : -0.79220
+      },
+      {
+         "heading" : 5.58510,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 1.0,
+         "x" : -1.14930,
+         "y" : -0.50,
+         "z" : -1.03130
+      },
+      {
+         "heading" : 5.58510,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 1.0,
+         "x" : -0.84140,
+         "y" : -0.50,
+         "z" : -1.35520
+      },
+      {
+         "heading" : 5.58510,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 1.0,
+         "x" : -1.44720,
+         "y" : -0.50,
+         "z" : -0.74080
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00350,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.87430,
+         "x" : -1.5930,
+         "y" : -0.20590,
+         "z" : -1.25410
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00390,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.87430,
+         "x" : -1.85180,
+         "y" : -0.20580,
+         "z" : -0.99530
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00410,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.87430,
+         "x" : -1.33410,
+         "y" : -0.20590,
+         "z" : -1.5130
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00410,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.87430,
+         "x" : -1.07530,
+         "y" : -0.20590,
+         "z" : -1.77190
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00390,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.87430,
+         "x" : -0.81640,
+         "y" : -0.20590,
+         "z" : -2.03070
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00320,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.87430,
+         "x" : -0.55750,
+         "y" : -0.20590,
+         "z" : -2.28960
+      },
+      {
+         "heading" : 5.49780,
+         "height" : -0.00040,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.87430,
+         "x" : -0.29870,
+         "y" : -0.20580,
+         "z" : -2.54840
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Pipe 01",
+         "scaling" : 1.0,
+         "x" : -3.01020,
+         "y" : 0.150,
+         "z" : -1.54090
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Pipe 02",
+         "scaling" : 1.0,
+         "x" : -3.01020,
+         "y" : 0.150,
+         "z" : -1.44320
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.150,
+         "name" : "Pipe 08",
+         "scaling" : 1.0,
+         "x" : -3.01020,
+         "y" : 0.150,
+         "z" : -1.34560
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.01920,
+         "name" : "Pipe 07",
+         "scaling" : 1.0,
+         "x" : -3.01020,
+         "y" : 0.01920,
+         "z" : -1.34560
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.72440,
+         "x" : -2.29810,
+         "y" : 0.150,
+         "z" : -1.65440
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.72440,
+         "x" : -2.77720,
+         "y" : 0.150,
+         "z" : -1.65560
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 0.72440,
+         "x" : -3.00670,
+         "y" : 0.150,
+         "z" : -1.54690
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 0.72440,
+         "x" : -2.37280,
+         "y" : 0.150,
+         "z" : -1.64520
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 0.72440,
+         "x" : -2.53090,
+         "y" : 0.150,
+         "z" : -1.64680
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Long Rectangle 03",
+         "scaling" : 0.72440,
+         "x" : -2.69550,
+         "y" : 0.150,
+         "z" : -1.64580
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.01020,
+         "name" : "Pipe 01",
+         "scaling" : 1.0,
+         "x" : -3.94890,
+         "y" : -0.01020,
+         "z" : -0.1270
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.01020,
+         "name" : "Pipe 02",
+         "scaling" : 1.0,
+         "x" : -3.94890,
+         "y" : -0.01020,
+         "z" : -0.02930
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.01020,
+         "name" : "Pipe 02",
+         "scaling" : 1.0,
+         "x" : -3.94890,
+         "y" : -0.01020,
+         "z" : 0.06830
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Metal Pillar Small 01",
+         "scaling" : 1.58220,
+         "x" : -3.73120,
+         "y" : 0.0,
+         "z" : 0.06780
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Metal Pillar Small 01",
+         "scaling" : 1.58220,
+         "x" : -3.44150,
+         "y" : 0.0,
+         "z" : 0.06780
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Metal Pillar Small 01",
+         "scaling" : 1.58220,
+         "x" : -3.15180,
+         "y" : 0.0,
+         "z" : 0.06780
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.40,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -3.58750,
+         "y" : 0.0,
+         "z" : 0.02440
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.008999999999999999,
+         "name" : "Metal Light Pillar 01 Unlit",
+         "scaling" : 1.0,
+         "x" : -3.30320,
+         "y" : 0.008999999999999999,
+         "z" : 0.02770
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.13080,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.250,
+            "radius0" : 0.10,
+            "radius1" : 0.70
+         },
+         "scaling" : 1.0,
+         "x" : -1.66640,
+         "y" : -0.36920,
+         "z" : 0.75390
+      },
+      {
+         "heading" : 3.9270,
+         "height" : -0.0,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : -0.79620,
+         "y" : -0.50,
+         "z" : -0.42330
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.38650,
+         "name" : "Pipe 02",
+         "scaling" : 1.13580,
+         "x" : -0.71780,
+         "y" : -0.50080,
+         "z" : -0.34490
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.50,
+         "name" : "Pipe 08",
+         "scaling" : 1.13580,
+         "x" : -0.63940,
+         "y" : -0.50,
+         "z" : -0.26640
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.35070,
+         "name" : "Pipe 07",
+         "scaling" : 1.13580,
+         "x" : -0.63940,
+         "y" : -0.64930,
+         "z" : -0.26640
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.20070,
+         "name" : "Pipe 07",
+         "scaling" : 1.13580,
+         "x" : -0.63940,
+         "y" : -0.79930,
+         "z" : -0.26640
+      },
+      {
+         "heading" : 3.9270,
+         "height" : 0.05190,
+         "name" : "Pipe 07",
+         "scaling" : 1.13580,
+         "x" : -0.63940,
+         "y" : -0.9481000000000001,
+         "z" : -0.26640
+      },
+      {
+         "heading" : 5.49780,
+         "height" : -0.03430,
+         "name" : "Metal Square Vent 01",
+         "scaling" : 1.78280,
+         "x" : -0.7949000000000001,
+         "y" : -0.53430,
+         "z" : -0.42530
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.40,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -3.99150,
+         "y" : 0.0,
+         "z" : -1.33920
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00110,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : -1.27010,
+         "y" : -0.49240,
+         "z" : -0.01470
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00760,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : -0.44150,
+         "y" : -0.49240,
+         "z" : -0.84330
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00760,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : -0.57960,
+         "y" : -0.49240,
+         "z" : -0.70520
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00760,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : -0.71770,
+         "y" : -0.49240,
+         "z" : -0.56710
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00760,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : -1.1320,
+         "y" : -0.49240,
+         "z" : -0.15280
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00760,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : -0.99390,
+         "y" : -0.49240,
+         "z" : -0.29090
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.00760,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : -0.85580,
+         "y" : -0.49240,
+         "z" : -0.4290
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "open_valves",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 4.01430,
+         "height" : -0.0010,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : -0.92030,
+         "y" : -0.5010,
+         "z" : -0.35990
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "open_valves",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 4.01430,
+         "height" : -0.0010,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : -0.3570,
+         "y" : -0.5010,
+         "z" : -0.91880
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.00760,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : -0.24050,
+         "y" : -0.49240,
+         "z" : -0.92450
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.00760,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : -0.2380,
+         "y" : -0.49240,
+         "z" : -1.21710
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.00760,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : -0.43340,
+         "y" : -0.49240,
+         "z" : -1.21710
+      },
+      {
+         "heading" : 4.01430,
+         "height" : 0.00390,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : 0.49710,
+         "y" : -0.49610,
+         "z" : -0.90490
+      },
+      {
+         "heading" : 4.01430,
+         "height" : -0.00230,
+         "name" : "Metal Light Pillar 01 Unlit",
+         "scaling" : 1.25150,
+         "x" : 0.50390,
+         "y" : -0.50230,
+         "z" : -1.20250
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.00760,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : 0.37610,
+         "y" : -0.49240,
+         "z" : -0.91170
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.00760,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : 0.38530,
+         "y" : -0.49240,
+         "z" : -1.20510
+      },
+      {
+         "heading" : 7.8540,
+         "height" : 0.39480,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : 0.5070,
+         "y" : -0.49260,
+         "z" : -0.8280999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.43830,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 1.08920,
+         "y" : -0.48310,
+         "z" : -1.6540
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.81980,
+         "y" : -0.50,
+         "z" : -0.78330
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.81980,
+         "y" : -0.50,
+         "z" : -0.97860
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.81980,
+         "y" : -0.50,
+         "z" : -1.17390
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.00460,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.89390,
+         "y" : -0.49540,
+         "z" : -1.26330
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.00320,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 1.08920,
+         "y" : -0.49680,
+         "z" : -1.26330
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.11750,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.89390,
+         "y" : -0.48250,
+         "z" : -1.6540
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.16710,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.69860,
+         "y" : -0.48180,
+         "z" : -1.6540
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04010,
+         "name" : "Metal Square Vent 02",
+         "scaling" : 2.72820,
+         "x" : 0.75310,
+         "y" : -0.60790,
+         "z" : -1.69960
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0590,
+         "name" : "Metal Square Vent 01",
+         "scaling" : 2.72820,
+         "x" : 0.42950,
+         "y" : -0.58590,
+         "z" : -1.39420
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.20930,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.650
+         },
+         "scaling" : 1.0,
+         "x" : 1.35780,
+         "y" : -0.29070,
+         "z" : -1.38890
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.00730,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.53120,
+         "y" : -0.49990,
+         "z" : -1.2920
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.01780,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.53120,
+         "y" : -0.49980,
+         "z" : -1.48740
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.43380,
+         "name" : "Metal Square Vent 01",
+         "scaling" : 1.5720,
+         "x" : 0.55920,
+         "y" : -0.51510,
+         "z" : -1.62830
+      },
+      {
+         "heading" : 3.14160,
+         "height" : 0.48480,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : 0.55970,
+         "y" : -0.51520,
+         "z" : -1.6340
+      },
+      {
+         "heading" : 6.89410,
+         "height" : 0.00240,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : 1.44280,
+         "y" : -0.49760,
+         "z" : -1.29690
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "modify_temp",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 5.41050,
+         "height" : 0.00750,
+         "name" : "Pipe 03",
+         "scaling" : 1.13580,
+         "x" : 1.4570,
+         "y" : -0.49390,
+         "z" : -1.59610
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00120,
+         "name" : "Metal Bridge Junction 2",
+         "scaling" : 6.2720,
+         "x" : 1.3020,
+         "y" : -0.50120,
+         "z" : -1.45050
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12340,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 1.39090,
+         "y" : -0.37660,
+         "z" : -1.33550
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.12730,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 1.41120,
+         "y" : -0.37270,
+         "z" : -1.55280
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.05350,
+         "name" : "Metal Square Vent 02",
+         "scaling" : 3.26480,
+         "x" : 1.0230,
+         "y" : -0.58570,
+         "z" : -0.47340
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00540,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : 1.29270,
+         "y" : -0.50540,
+         "z" : 0.09930
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00050,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : 1.20980,
+         "y" : -0.5004999999999999,
+         "z" : 0.10150
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00050,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : 1.01450,
+         "y" : -0.5004999999999999,
+         "z" : 0.10150
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00070,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : 0.81920,
+         "y" : -0.50070,
+         "z" : 0.10150
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00020,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : 0.62390,
+         "y" : -0.50020,
+         "z" : 0.10150
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00050,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : 0.5420,
+         "y" : -0.5004999999999999,
+         "z" : 0.01720
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00020,
+         "name" : "Metal Railing 01",
+         "scaling" : 1.0,
+         "x" : 0.5420,
+         "y" : -0.50020,
+         "z" : -0.17810
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00540,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : 0.55630,
+         "y" : -0.50540,
+         "z" : -0.32450
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03080,
+         "name" : "blocker",
+         "scaling" : 1.56640,
+         "x" : -0.68540,
+         "y" : 0.38620,
+         "z" : -3.93030
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Metal Pillar Small 01",
+         "scaling" : 1.0,
+         "x" : 2.81630,
+         "y" : 0.0,
+         "z" : 0.10090
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Metal Pillar Small 01",
+         "scaling" : 1.0,
+         "x" : 2.51110,
+         "y" : 0.0,
+         "z" : 0.10090
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.40,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 2.660,
+         "y" : 0.0,
+         "z" : 0.06859999999999999
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00090,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.40,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 3.78070,
+         "y" : -0.00090,
+         "z" : -1.25360
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00090,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.40,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 2.52450,
+         "y" : -0.00090,
+         "z" : -1.25230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.33240,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.50,
+            "col_red" : 1.250,
+            "radius0" : 0.10,
+            "radius1" : 0.750
+         },
+         "scaling" : 1.0,
+         "x" : 3.24930,
+         "y" : 0.13240,
+         "z" : 1.01510
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03580,
+         "name" : "blocker",
+         "scaling" : 2.29930,
+         "x" : -0.63440,
+         "y" : 0.13420,
+         "z" : 2.64380
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.0005999999999999999,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.40,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 3.84180,
+         "y" : -0.0005999999999999999,
+         "z" : -0.30580
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0005999999999999999,
+         "name" : "Metal Pillar Small 01",
+         "scaling" : 1.0,
+         "x" : 3.84180,
+         "y" : -0.0005999999999999999,
+         "z" : -0.6110
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0005999999999999999,
+         "name" : "Metal Pillar Small 01",
+         "scaling" : 1.0,
+         "x" : 3.84180,
+         "y" : -0.0005999999999999999,
+         "z" : -0.0005999999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0005999999999999999,
+         "name" : "Metal Pillar Small 01",
+         "scaling" : 1.0,
+         "x" : 3.41450,
+         "y" : -0.0005999999999999999,
+         "z" : -0.6110
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0005999999999999999,
+         "name" : "Metal Pillar Small 01",
+         "scaling" : 1.0,
+         "x" : 3.41450,
+         "y" : -0.0005999999999999999,
+         "z" : -0.0005999999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0005999999999999999,
+         "name" : "Metal Pillar Big 01",
+         "scaling" : 1.0,
+         "x" : 3.41410,
+         "y" : -0.0005999999999999999,
+         "z" : -0.87140
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0005999999999999999,
+         "name" : "Metal Pillar Big 01",
+         "scaling" : 1.0,
+         "x" : 2.81750,
+         "y" : -0.0005999999999999999,
+         "z" : -0.8705000000000001
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00080,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : 1.16270,
+         "y" : -0.20080,
+         "z" : 1.23030
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Metal Pillar Big 01",
+         "scaling" : 1.25150,
+         "x" : 1.18590,
+         "y" : -0.20,
+         "z" : 0.73910
+      },
+      {
+         "heading" : 5.49780,
+         "height" : -0.00390,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.33530,
+         "y" : -0.20390,
+         "z" : 0.73470
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.01810,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.19710,
+         "y" : -0.20110,
+         "z" : 0.87280
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.04470,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.0590,
+         "y" : -0.19930,
+         "z" : 1.01090
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.05460,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : -0.07910,
+         "y" : -0.20120,
+         "z" : 1.1490
+      },
+      {
+         "heading" : 5.49780,
+         "height" : 0.04520,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : -0.21720,
+         "y" : -0.20090,
+         "z" : 1.28710
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.49290,
+         "y" : -0.20,
+         "z" : 0.67110
+      },
+      {
+         "heading" : 7.8540,
+         "height" : 0.00010,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.5993000000000001,
+         "y" : -0.20,
+         "z" : 0.7420
+      },
+      {
+         "heading" : 7.8540,
+         "height" : -0.0,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : 0.5993000000000001,
+         "y" : -0.20,
+         "z" : 1.32790
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00030,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.10,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.25150,
+         "x" : 0.43560,
+         "y" : -0.20030,
+         "z" : 1.27540
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Torch Unlit 01",
+         "scaling" : 1.53020,
+         "x" : -0.43690,
+         "y" : 0.0,
+         "z" : 3.07340
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Desert Torch Unlit 01",
+         "scaling" : 1.53020,
+         "x" : 0.45410,
+         "y" : 0.00010,
+         "z" : 2.17320
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0030,
+         "name" : "Desert Torch Unlit 01",
+         "scaling" : 1.53020,
+         "x" : -0.43850,
+         "y" : -0.0030,
+         "z" : 2.16260
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00070,
+         "name" : "Desert Torch Unlit 01",
+         "scaling" : 1.53020,
+         "x" : 0.46430,
+         "y" : 0.00070,
+         "z" : 3.08490
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.4190,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.50,
+            "radius1" : 1.40
+         },
+         "scaling" : 1.0,
+         "x" : 0.02480,
+         "y" : 0.4090,
+         "z" : 2.69860
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.21370,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.46750,
+         "y" : 0.21370,
+         "z" : 3.08230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.21130,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -0.4370,
+         "y" : 0.21130,
+         "z" : 3.06620
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.21260,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.4550,
+         "y" : 0.21260,
+         "z" : 2.16910
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.21990,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -0.43730,
+         "y" : 0.21990,
+         "z" : 2.15470
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00050,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 2.88870,
+         "y" : -0.19950,
+         "z" : 1.30590
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00050,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 2.49810,
+         "y" : -0.19950,
+         "z" : 1.30590
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00120,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 2.10750,
+         "y" : -0.20120,
+         "z" : 1.30590
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00070,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 1.71690,
+         "y" : -0.20070,
+         "z" : 1.30590
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00070,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 1.32620,
+         "y" : -0.20070,
+         "z" : 1.30590
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 3.27940,
+         "y" : -0.20,
+         "z" : 1.30590
+      },
+      {
+         "heading" : 5.49780,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 3.42630,
+         "y" : -0.20,
+         "z" : 1.15770
+      },
+      {
+         "heading" : 5.49780,
+         "height" : -0.00050,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 3.70260,
+         "y" : -0.20050,
+         "z" : 0.88140
+      },
+      {
+         "heading" : 5.49780,
+         "height" : -0.22040,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 3.97880,
+         "y" : -0.20180,
+         "z" : 0.60520
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.0,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 1.62690,
+         "x" : 3.32310,
+         "y" : -0.20,
+         "z" : 1.28220
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00090,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.5970,
+         "y" : -0.00090,
+         "z" : 3.34810
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00090,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.20640,
+         "y" : -0.00090,
+         "z" : 3.34810
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00090,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : -0.18420,
+         "y" : -0.00090,
+         "z" : 3.34810
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00090,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : -0.57490,
+         "y" : -0.00090,
+         "z" : 3.34810
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00190,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.74670,
+         "y" : -0.00190,
+         "z" : 3.16730
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00260,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.74670,
+         "y" : -0.00260,
+         "z" : 2.77660
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00030,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.74670,
+         "y" : -0.00030,
+         "z" : 2.3860
+      },
+      {
+         "heading" : 4.71240,
+         "height" : 0.00110,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.74670,
+         "y" : 0.00110,
+         "z" : 1.99540
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.17960,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : -0.71430,
+         "y" : 0.00460,
+         "z" : 3.1020
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.0050,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 1.0,
+         "x" : -0.69680,
+         "y" : -0.0050,
+         "z" : 2.90130
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00980,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : -0.69680,
+         "y" : -0.00980,
+         "z" : 2.2010
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.06590,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 1.0,
+         "x" : -0.70460,
+         "y" : -0.00080,
+         "z" : 2.43620
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00090,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 3.09830,
+         "y" : -0.00090,
+         "z" : -0.05380
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 3.11830,
+         "y" : 0.0,
+         "z" : -0.76090
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00090,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 1.0,
+         "x" : 2.86150,
+         "y" : -0.00090,
+         "z" : -0.06460
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00020,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 1.0,
+         "x" : 3.33470,
+         "y" : -0.00020,
+         "z" : -0.06930
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00070,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 1.0,
+         "x" : 2.88310,
+         "y" : -0.00070,
+         "z" : -0.77830
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00090,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 1.0,
+         "x" : 3.35350,
+         "y" : -0.00090,
+         "z" : -0.78010
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.04750,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 3.11030,
+         "y" : -0.04750,
+         "z" : -0.22410
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Shadow Round 01",
+         "scaling" : 1.0,
+         "x" : -3.94510,
+         "y" : 0.0,
+         "z" : -0.13620
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.01060,
+         "name" : "Metal Light Pillar 01 Unlit",
+         "scaling" : 1.25150,
+         "x" : -2.41330,
+         "y" : -0.01060,
+         "z" : -0.94290
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00250,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : -2.53230,
+         "y" : -0.00250,
+         "z" : -0.93440
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00170,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : -2.72520,
+         "y" : -0.00170,
+         "z" : -0.93490
+      },
+      {
+         "heading" : 3.14160,
+         "height" : -0.00210,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : -2.63070,
+         "y" : -0.00210,
+         "z" : -1.00850
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00140,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : -3.00310,
+         "y" : -0.00140,
+         "z" : -0.92710
+      },
+      {
+         "heading" : 4.71240,
+         "height" : -0.00180,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : -3.20210,
+         "y" : -0.00180,
+         "z" : -0.92710
+      },
+      {
+         "heading" : 6.28320,
+         "height" : -0.00160,
+         "name" : "Metal Border 01",
+         "scaling" : 1.0,
+         "x" : -3.10360,
+         "y" : -0.00160,
+         "z" : -1.00210
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02260,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -2.50750,
+         "y" : 0.00020,
+         "z" : -0.8620
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02260,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -2.83570,
+         "y" : 0.00020,
+         "z" : -0.8620
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02260,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -3.16380,
+         "y" : 0.00020,
+         "z" : -0.8620
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02620,
+         "name" : "Metal Bridge Junction 2",
+         "scaling" : 3.43450,
+         "x" : -2.52210,
+         "y" : 0.22620,
+         "z" : -0.64590
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02620,
+         "name" : "Metal Bridge Junction 2",
+         "scaling" : 3.43450,
+         "x" : -3.05780,
+         "y" : 0.22620,
+         "z" : -0.65710
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.03730,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -3.32380,
+         "y" : -0.00010,
+         "z" : -0.6385999999999999
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00550,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 0.84010,
+         "x" : -3.32420,
+         "y" : 0.0,
+         "z" : -0.86050
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.03240,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 0.84010,
+         "x" : -3.32460,
+         "y" : 0.0,
+         "z" : -0.43120
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01280,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -4.00810,
+         "y" : -0.00080,
+         "z" : 0.10190
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01240,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -3.67990,
+         "y" : -0.00040,
+         "z" : 0.10190
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01210,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -3.35180,
+         "y" : -0.00010,
+         "z" : 0.10190
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00980,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -3.02360,
+         "y" : 0.00220,
+         "z" : 0.10190
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01210,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -2.69540,
+         "y" : -0.00010,
+         "z" : 0.10190
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.20,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -4.06320,
+         "y" : 0.0,
+         "z" : -0.08950
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.20,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -4.06320,
+         "y" : 0.0,
+         "z" : -0.41770
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.20,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -4.06320,
+         "y" : 0.0,
+         "z" : -0.74590
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.20,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -4.06320,
+         "y" : -0.0,
+         "z" : -1.0740
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.20,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -4.06320,
+         "y" : 0.0,
+         "z" : -1.40220
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.14140,
+         "name" : "Wall 03 1",
+         "scaling" : 0.84010,
+         "x" : -4.06320,
+         "y" : 0.0,
+         "z" : -1.73040
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.20,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 1.19570,
+         "x" : -4.06770,
+         "y" : 0.0,
+         "z" : 0.0960
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.40,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -2.61260,
+         "y" : 0.0,
+         "z" : 0.03770
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.02040,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 0.84010,
+         "x" : -2.550,
+         "y" : 0.0,
+         "z" : 0.10330
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00470,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : -0.01040,
+         "y" : 0.00010,
+         "z" : -3.22930
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00470,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.38020,
+         "y" : 0.00010,
+         "z" : -3.22930
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.04530,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.40390,
+         "y" : 0.0005999999999999999,
+         "z" : -3.45110
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.04530,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.40390,
+         "y" : 0.0005999999999999999,
+         "z" : -3.84170
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.04530,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.40390,
+         "y" : 0.0005999999999999999,
+         "z" : -4.23230
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.04530,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : 0.40390,
+         "y" : 0.0005999999999999999,
+         "z" : -4.6230
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00020,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 1.0,
+         "x" : -0.18390,
+         "y" : -0.00020,
+         "z" : -3.290
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.24190,
+         "name" : "Wall Pillar 03 1",
+         "scaling" : 1.0,
+         "x" : -0.68860,
+         "y" : -0.00070,
+         "z" : -3.30180
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.48850,
+         "name" : "Wall 03 1",
+         "scaling" : 1.0,
+         "x" : -0.69310,
+         "y" : -0.00020,
+         "z" : -3.50970
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00040,
+         "name" : "Metal Light Pillar 01",
+         "omniParams" : {
+            "col_blue" : 1.10,
+            "col_green" : 0.40,
+            "col_red" : 0.150,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -0.05790,
+         "y" : -0.00040,
+         "z" : -3.33130
+      },
+      {
+         "heading" : 1.57080,
+         "height" : -0.00020,
+         "name" : "Metal Pillar Small 01",
+         "scaling" : 1.48730,
+         "x" : 0.30960,
+         "y" : 0.0,
+         "z" : -3.34970
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Metal Pillar Big 01",
+         "scaling" : 1.0,
+         "x" : 1.18110,
+         "y" : -0.50,
+         "z" : -1.26750
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02260,
+         "name" : "Metal Pillar Big 01",
+         "scaling" : 1.0,
+         "x" : 1.1840,
+         "y" : -0.50,
+         "z" : -1.65420
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.32020,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 0.62420,
+         "y" : -0.38190,
+         "z" : -1.65190
+      },
+      {
+         "heading" : -0.28510,
+         "height" : 0.010,
+         "name" : "Planks Decal 04",
+         "scaling" : 0.51410,
+         "x" : -0.6971000000000001,
+         "y" : -0.490,
+         "z" : -0.72980
+      },
+      {
+         "color" : "ff0a1889",
+         "heading" : 0.65160,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "scaling" : 1.69630,
+         "x" : 0.20940,
+         "y" : -0.010,
+         "z" : 2.77110
+      },
+      {
+         "color" : "ff09167a",
+         "heading" : 0.65160,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "scaling" : 1.69630,
+         "x" : -0.10290,
+         "y" : -0.010,
+         "z" : 3.01060
+      },
+      {
+         "color" : "ff0a1b9c",
+         "heading" : -0.98320,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "scaling" : 1.69630,
+         "x" : 0.1610,
+         "y" : -0.010,
+         "z" : 2.68010
+      },
+      {
+         "color" : "ff0a1ca7",
+         "heading" : -0.41310,
+         "height" : 0.010,
+         "name" : "Blood Splatter 3",
+         "scaling" : 1.69630,
+         "x" : -0.15360,
+         "y" : -0.010,
+         "z" : 2.49810
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Desert Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.82260,
+         "y" : -0.50,
+         "z" : -1.25180
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pyramid_book_2",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 3.16490,
+         "height" : -0.00120,
+         "name" : "Bookcase 03",
+         "scaling" : 1.0,
+         "x" : -0.31710,
+         "y" : -0.00120,
+         "z" : 3.25120
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "pyramid_book_1",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : -6.24320,
+         "height" : -0.0210,
+         "name" : "Bookcase 03",
+         "scaling" : 1.0,
+         "x" : 0.9140,
+         "y" : -0.5210,
+         "z" : -1.57520
+      },
+      {
+         "gameObject" : "Touchable",
+         "gameObjectParams" : {
+            "event" : "touch_crystal",
+            "onlyOnce" : true,
+            "proxyAnim" : "",
+            "proxyParam" : 0,
+            "replace" : "",
+            "sndApproach" : "",
+            "sndLeave" : "",
+            "sndMidAnim" : "",
+            "text" : "",
+            "touchActions" : "",
+            "touchSound" : ""
+         },
+         "heading" : 0.0,
+         "height" : -0.02660,
+         "name" : " Glowing Red Mine Crystal 01",
+         "scaling" : 1.0,
+         "trigger" : "crystal",
+         "x" : 3.13480,
+         "y" : -0.02660,
+         "z" : -0.83020
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : [
+      {
+         "name" : "Spawn Point 0",
+         "x" : -2.62220,
+         "y" : -0.00250,
+         "z" : -0.90950
+      },
+      {
+         "name" : "Spawn Point 1",
+         "x" : -3.13360,
+         "y" : -0.00250,
+         "z" : -0.90840
+      },
+      {
+         "name" : "Spawn Point 2",
+         "x" : -3.13650,
+         "y" : 0.010,
+         "z" : -0.38510
+      },
+      {
+         "name" : "Spawn Point 3",
+         "x" : -2.61330,
+         "y" : 0.010,
+         "z" : -0.38070
+      },
+      {
+         "name" : "Spawn Point 4",
+         "x" : 2.89990,
+         "y" : -0.010,
+         "z" : -0.160
+      },
+      {
+         "name" : "Spawn Point 5",
+         "x" : 3.380,
+         "y" : -0.010,
+         "z" : -0.16970
+      },
+      {
+         "name" : "Spawn Point 6",
+         "x" : 3.10060,
+         "y" : -0.010,
+         "z" : -0.87970
+      }
+   ],
+   "startPosition" : [ 0.06110, -3.8030 ],
+   "tint" : [ 128, 64, 16, 112 ],
+   "title" : "",
+   "weather" : null
+}

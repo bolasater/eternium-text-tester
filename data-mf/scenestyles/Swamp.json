@@ -1,0 +1,120 @@
+{
+	"baseTerrain" : "Jungle Ground 01",
+	"height" : 0.04,
+	"soundEnv" : "plain",
+	"tools" : [
+		{
+			"tool" : "randombrush",
+			"brush" : {
+				"height" : 0.0,
+				"width" : 0.4,
+				"hardness" : 1,
+				"opacity" : 0.2,
+				"strength" : 0
+			},
+			"density" : 0,
+			"terrains" : ["Autumn Grass 01a"],
+			"randSize" : 0.4
+		},
+
+		{
+			"tool":"wall",
+			"wallProp" : [
+				"Jungle Fallen Branch 01", "Jungle Fallen Branch 02", "Jungle Fallen Branch 03", "Jungle Fallen Branch 04",
+				"Jungle Tree 01", "Jungle Tree 02", "Jungle Tree 03", "Jungle Tree 04", "Jungle Tree 05", "Jungle Tree 06", "Jungle Tree 07", "Jungle Tree 08", "Jungle Tree 09"
+			],
+			"offset" : -0.015,
+			"height" : -0.05,
+			"propScaling" : 0.65,
+			"randomRotation" : true,
+			"randomScaling" : 0.1,
+			"overlap" : 0,
+			"skipBottom" : true
+		},
+		
+		{
+			"tool" : "enclave",
+			"maxNum" : 5,
+			"shape" : {
+				"size" : [0.6,0.8],
+				"verts" : 20,
+				"jumble" : 0.6
+			},
+			"spacing" : 0.5,
+			"style" : "Lake"
+		},
+
+		{
+			"tool":"ring",
+			"terrain" : "Jungle Rock 01",
+			"offset" : 0,
+			"height" : 0.05,
+			"width" : 0.3,
+			"hardness" : 0.3,
+			"opacity" : 1.0,
+			"strength" : 0.5,
+			"extendColor" : 0.15
+		},
+		
+		{
+			"tool" : "crossroads",
+			"terrain" : "Jungle Cobblestone 01",
+			"width" : 0.5,
+			"height" : 0.003,
+			"opacity" : 0.33,
+			"curliness" : 0.4
+		},
+		{
+			"tool" : "randombrush",
+			"brush" : {
+				"height" : 0.0,
+				"width" : 0.3,
+				"hardness" : 1,
+				"opacity" : 0.85,
+				"strength" : 0
+			},
+			"avoidBuilt" : true,
+			"density" : 120,
+			"terrains" : ["Jungle Grass 01","Jungle Grass 02","Grass 03b"],
+			"randSize" : 0.5
+		},
+		{
+			"tool" : "randomprop",
+			"props" : ["Jungle Grass Decal 01","Jungle Grass Decal 02","Jungle Grass Decal 03","Jungle Grass Decal 04","Jungle Grass Decal 05","Jungle Grass Decal 06","Jungle Grass Decal 07"],
+			"propScaling" : 0.45,
+			"randomScaling" : 0.15,
+			"minDist" : 0,
+			"maxDist" : 0.1,
+			"avoidBuilt" : 1,
+			"markBuilt" : 0,
+			"density" : 150
+		},
+
+		{
+		"tool" : "randomprop",
+			"props" : ["Jungle Plant 1 1","Jungle Plant 1 2","Jungle Plant 1 3","Jungle Plant 1 4", "Jungle Plant 2 1","Jungle Plant 2 2", "Jungle Plant 2 3", "Jungle Tall Grass 01", "Jungle Tall Grass 02", "Jungle Tall Grass 03", "Jungle Tall Grass 04"],
+			"propScaling" : 1.1,
+			"randomScaling" : 0.3,
+			"minDist" : 0.01,
+			"maxDist" : 0.3,
+			"avoidBuilt" : 1,
+			"markBuilt" : 0,
+			"density" : 10
+		}
+		/*
+		,
+		{
+			"tool":"ring",
+			"terrain" : "Water 2",
+			"offset" : 0.3,
+			"height" : 0,
+			"width" : 0.5,
+			"hardness" : 0,
+			"strength" : 0,
+			"opacity" : 0.3,
+			"separation" : 0.1
+		}
+		*/		
+		
+	]
+}

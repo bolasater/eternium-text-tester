@@ -1,0 +1,31 @@
+{
+	"id":"UseFrostTrap",
+	"type":"Sequence",
+	"children":[
+		{
+			"type":"AbilityReady",
+			"ability":"frozen_trap"
+		},
+		{
+			"type":"Negate",
+			"node":{
+				"type":"HasEffect",
+				"creature":"hero",
+				"effect":"FrostTrap"
+			}
+		},
+		{
+			"type":"Negate",
+			"node":{
+				"type":"AOEExists",
+				"effectID":"FrostTrap",
+				"friendly":true,
+				"enemy":false
+			}
+		},
+		{
+			"type":"CastAbility",
+			"ability":"frozen_trap"
+		}
+	]
+}

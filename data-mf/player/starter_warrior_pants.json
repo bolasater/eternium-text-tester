@@ -1,0 +1,26 @@
+{
+ "actualBudget" : 1,
+ "color" : 2141891242,
+ "colorTexture" : "armor_pants_icon_07_channels",
+ "crtFusionLevels" : 0,
+ "decalColor" : 2141891242,
+ "equippedSlot" : "pants",
+ "glowColor" : 2141891242,
+ "glowTexture" : "",
+ "itemClass" : "Heavy Pants",
+ "itemLevel" : 1,
+ "levelRequirement" : 0,
+ "materialVariations" : [ 6 ],
+ "maxFusionLevels" : 0,
+ "modelVariation" : 0,
+ "name" : "Flimsy Mail Shorts",
+ "quality" : 0,
+ "quantity" : 1,
+ "slotI" : 3,
+ "slotJ" : 0,
+ "textureVariation" : "armor_pants_icon_07",
+ "upgrades" : [
+	"baseArmor",
+	1
+ ]
+}

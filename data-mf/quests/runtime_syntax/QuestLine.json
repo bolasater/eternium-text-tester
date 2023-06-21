@@ -1,0 +1,16 @@
+{
+   "category" : {
+      "mandatory" : true,
+      "type" : [ "main", "side", "tutorial" ]
+   },
+   "name" : {
+      "mandatory" : true,
+      "type" : "string"
+   },
+   "quests" : {
+      "type" : "list"
+   },
+   "req" : {
+      "type" : "object"
+   }
+}

@@ -1,0 +1,66 @@
+{
+	"common" : {
+		"normal_monster":[[1, 0],[70, 0]],
+		"elite_monster":[[1, 0], [70, 0]],
+		"boss":[[1, 0], [70, 0]],
+		"SuperiorChest":0,
+		"MagicChest":0,
+		"RareChest":0,
+		"EpicChest":0,
+		"LockedChest":0
+	},
+
+	"average" : {
+		"normal_monster":[[1, 0.01],[70, 0.08]],
+		"elite_monster":[[1, 0.015], [70, 0.12]],
+		"boss":[[1, 0.015], [70, 0.12]],
+		"SuperiorChest":0.5,
+		"MagicChest":0.55,
+		"RareChest":0.65,
+		"EpicChest":0.75,
+		"LockedChest":0
+	},
+
+	"uncommon" : {
+		"normal_monster":[[1, 0.0035], [70, 0.0045]],
+		"elite_monster":[[1, 0.02], [70, 0.03]],
+		"boss":[[1, 0.02], [70, 0.03]],
+		"SuperiorChest":0.1,
+		"MagicChest":0.1,
+		"RareChest":0.2,
+		"EpicChest":0.3,
+		"LockedChest":0
+	},
+
+	"rare" : {
+		"normal_monster":[[1, 0.0001],[70, 0.0002]],
+		"elite_monster":[[1, 0.001], [70, 0.002]],
+		"boss":[[1, 0.05], [70, 0.1]],
+		"SuperiorChest":0.003,
+		"MagicChest":0.003,
+		"RareChest":0.04,
+		"EpicChest":0.1,
+		"LockedChest":0.5
+	},
+
+	"superrare" : {
+		"normal_monster":[[1, 0.0000],[70, 0.0000]],
+		"elite_monster":[[1, 0.0001], [70, 0.0002]],
+		"boss":[[1, 0.025], [70, 0.05]],
+		"SuperiorChest":0.001, 
+		"RareChest":0.005,
+		"EpicChest":0.025,
+		"LockedChest":0.5
+	},
+
+	"special" : {
+		"normal_monster":[[1, 0],[70, 0]],
+		"elite_monster":[[1, 0], [29, 0], [70, 0.00005]],
+		"boss":[[1, 0], [29, 0], [70, 0.001]],
+		"SuperiorChest":0,
+		"MagicChest":0,
+		"RareChest":0.01,
+		"EpicChest":0.01,
+		"LockedChest":0.1
+	}
+}

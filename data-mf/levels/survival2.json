@@ -1,0 +1,2124 @@
+{
+   "ambient" : [ 16, 48, 80 ],
+   "enemySetup" : null,
+   "fog" : [ 80, 48, 16 ],
+   "heroOmni" : {
+      "blue" : 0.31370,
+      "green" : 0.73330,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 1.0
+   },
+   "lightCol" : [ 0, 0, 0 ],
+   "lightDir" : [ -0.62470, -0.46850, 0.62470 ],
+   "props" : [
+      {
+         "heading" : 1.04720,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.36070,
+         "y" : 0.0,
+         "z" : -1.81430
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -1.78780,
+         "y" : 0.0,
+         "z" : -1.81430
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.32290,
+         "y" : 0.0,
+         "z" : -1.98340
+      },
+      {
+         "heading" : 1.04720,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.5560,
+         "y" : 0.0,
+         "z" : -1.4760
+      },
+      {
+         "heading" : 1.04720,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 1.08960,
+         "y" : 0.0,
+         "z" : -1.3330
+      },
+      {
+         "heading" : 5.75960,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 1.01810,
+         "y" : 0.0,
+         "z" : -1.06620
+      },
+      {
+         "heading" : 5.75960,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.82280,
+         "y" : 0.0,
+         "z" : -1.40450
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.51670,
+         "y" : 0.0,
+         "z" : -1.3330
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.5690,
+         "y" : 0.0,
+         "z" : -0.46110
+      },
+      {
+         "heading" : 3.66520,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.24990,
+         "y" : 0.0,
+         "z" : -1.40450
+      },
+      {
+         "heading" : 3.66520,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.44520,
+         "y" : 0.0,
+         "z" : -1.06620
+      },
+      {
+         "heading" : 1.04720,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.5690,
+         "y" : 0.0,
+         "z" : -0.12280
+      },
+      {
+         "heading" : 1.04720,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -1.78780,
+         "y" : 0.0,
+         "z" : 1.23030
+      },
+      {
+         "heading" : 2.6180,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.44520,
+         "y" : 0.0,
+         "z" : 0.48230
+      },
+      {
+         "heading" : 2.6180,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.24990,
+         "y" : 0.0,
+         "z" : 0.82060
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -1.49480,
+         "y" : 0.0,
+         "z" : 1.39950
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.71350,
+         "y" : 0.0,
+         "z" : 1.79010
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.32290,
+         "y" : 0.0,
+         "z" : 1.39950
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.51820,
+         "y" : 0.0,
+         "z" : 1.59480
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.90890,
+         "y" : 0.0,
+         "z" : 2.6620
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.90890,
+         "y" : 0.0,
+         "z" : 1.59480
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 1.14190,
+         "y" : 0.0,
+         "z" : -0.12280
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 1.08960,
+         "y" : 0.0,
+         "z" : 0.74910
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.36070,
+         "y" : 0.0,
+         "z" : 1.23030
+      },
+      {
+         "heading" : 3.66520,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.82280,
+         "y" : 0.0,
+         "z" : 0.82060
+      },
+      {
+         "heading" : 3.66520,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 1.01810,
+         "y" : 0.0,
+         "z" : 0.48230
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : 0.06770,
+         "y" : 0.0,
+         "z" : -1.98340
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : -1.10420,
+         "y" : 0.0,
+         "z" : -1.98340
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : -1.98310,
+         "y" : 0.0,
+         "z" : -1.4760
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : -2.37370,
+         "y" : 0.0,
+         "z" : -0.79940
+      },
+      {
+         "heading" : 1.04720,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : -1.98310,
+         "y" : 0.0,
+         "z" : 0.8920
+      },
+      {
+         "heading" : 1.04720,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : -2.51670,
+         "y" : 0.0,
+         "z" : 0.74910
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : -1.10420,
+         "y" : 0.0,
+         "z" : 1.39950
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : 0.5560,
+         "y" : 0.0,
+         "z" : 0.8920
+      },
+      {
+         "heading" : 2.09440,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : 0.94660,
+         "y" : 0.0,
+         "z" : 0.21550
+      },
+      {
+         "heading" : 1.04720,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : 0.94660,
+         "y" : 0.0,
+         "z" : -0.79940
+      },
+      {
+         "heading" : 1.04720,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : 1.14190,
+         "y" : 0.0,
+         "z" : -0.46110
+      },
+      {
+         "heading" : 0.52360,
+         "height" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.2630,
+         "y" : 0.0010,
+         "z" : -1.98340
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.51820,
+         "y" : 0.0,
+         "z" : -1.98340
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.51820,
+         "y" : 0.0,
+         "z" : -2.37410
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.90890,
+         "y" : 0.0,
+         "z" : -2.37410
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.90890,
+         "y" : 0.0,
+         "z" : -1.98340
+      },
+      {
+         "heading" : 5.75960,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -1.69010,
+         "y" : 0.0,
+         "z" : -1.98340
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.2760,
+         "y" : 0.0,
+         "z" : -0.96860
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.08070,
+         "y" : 0.0,
+         "z" : -1.30690
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.65360,
+         "y" : 0.0,
+         "z" : -1.30690
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.8490,
+         "y" : 0.0,
+         "z" : -0.96860
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 1.18730,
+         "y" : 0.0,
+         "z" : -1.16390
+      },
+      {
+         "heading" : 5.75960,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.2630,
+         "y" : 0.0,
+         "z" : 1.39950
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -1.69010,
+         "y" : 0.0,
+         "z" : 1.39950
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 1.23960,
+         "y" : 0.0,
+         "z" : -0.2920
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.66670,
+         "y" : 0.0,
+         "z" : -0.2920
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.99190,
+         "y" : 0.0,
+         "z" : 0.91820
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.65360,
+         "y" : 0.0,
+         "z" : 0.72290
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 1.18730,
+         "y" : 0.0,
+         "z" : 0.57990
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.8490,
+         "y" : 0.0,
+         "z" : 0.38460
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.61430,
+         "y" : 0.0,
+         "z" : 0.57990
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.4190,
+         "y" : 0.0,
+         "z" : 0.91820
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.2760,
+         "y" : 0.0,
+         "z" : 0.38460
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.08070,
+         "y" : 0.0,
+         "z" : 0.72290
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.51820,
+         "y" : 0.0,
+         "z" : 1.39950
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.90890,
+         "y" : 0.0,
+         "z" : 1.39950
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.90890,
+         "y" : 0.0,
+         "z" : 2.85730
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.51820,
+         "y" : 0.0,
+         "z" : 1.79010
+      },
+      {
+         "gameObject" : "ArenaChest",
+         "gameObjectParams" : null,
+         "heading" : -3.14730,
+         "name" : "Chest 03",
+         "scaling" : 1.12690,
+         "x" : -0.70980,
+         "y" : 0.0050,
+         "z" : 0.1030
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : -1.49480,
+         "y" : 0.0,
+         "z" : -1.98340
+      },
+      {
+         "heading" : 1.04720,
+         "name" : "Wall 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.37370,
+         "y" : 0.0,
+         "z" : 0.21550
+      },
+      {
+         "heading" : 7.33040,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : 0.99190,
+         "y" : 0.0,
+         "z" : -1.50220
+      },
+      {
+         "color" : "ff0a198f",
+         "heading" : 0.43980,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : 0.97190,
+         "y" : 0.0,
+         "z" : 0.74060
+      },
+      {
+         "color" : "ff0a1888",
+         "heading" : -0.52550,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "scaling" : 1.0,
+         "x" : 0.7675999999999999,
+         "y" : 0.0,
+         "z" : 0.5499000000000001
+      },
+      {
+         "color" : "ff091676",
+         "heading" : -1.46230,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : 0.88670,
+         "y" : 0.0,
+         "z" : 0.64230
+      },
+      {
+         "color" : "ff09177d",
+         "heading" : -1.46230,
+         "height" : 0.010,
+         "name" : "Blood Splatter 3",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : 0.86670,
+         "y" : 0.0,
+         "z" : 0.71990
+      },
+      {
+         "color" : "ff091469",
+         "heading" : -1.46230,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : 1.00980,
+         "y" : 0.0,
+         "z" : 0.6183999999999999
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Wall 01 2",
+         "scaling" : 1.0,
+         "x" : -0.51820,
+         "y" : 0.0,
+         "z" : -2.17870
+      },
+      {
+         "heading" : 4.71240,
+         "name" : "Wall 01 2",
+         "scaling" : 1.0,
+         "x" : -0.90890,
+         "y" : 0.0,
+         "z" : -2.17870
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 01 1",
+         "scaling" : 1.0,
+         "x" : -0.71350,
+         "y" : 0.0,
+         "z" : -2.37410
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Hell Cauldron 01",
+         "scaling" : 1.0,
+         "x" : 0.17230,
+         "y" : 0.0,
+         "z" : -1.79610
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.15110,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.1250,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.90
+         },
+         "scaling" : 1.0,
+         "x" : 0.1660,
+         "y" : 0.15110,
+         "z" : 1.21430
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Hell Cauldron 01",
+         "scaling" : 1.0,
+         "x" : 1.04640,
+         "y" : 0.0,
+         "z" : -0.29180
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Hell Cauldron 01",
+         "scaling" : 1.0,
+         "x" : -2.49120,
+         "y" : 0.0,
+         "z" : -0.29340
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Hell Cauldron 01",
+         "scaling" : 1.0,
+         "x" : -1.58670,
+         "y" : 0.0,
+         "z" : 1.21840
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Hell Cauldron 01",
+         "scaling" : 1.0,
+         "x" : 0.17060,
+         "y" : 0.0,
+         "z" : 1.21370
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Graveyard Fence",
+         "scaling" : 1.0,
+         "x" : -0.69230,
+         "y" : 0.0,
+         "z" : 1.41540
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Graveyard Fence",
+         "scaling" : 1.0,
+         "x" : -0.69330,
+         "y" : 0.0,
+         "z" : -1.9720
+      },
+      {
+         "heading" : 5.2360,
+         "name" : "Graveyard Fence",
+         "scaling" : 1.0,
+         "x" : -2.14440,
+         "y" : 0.0,
+         "z" : -1.18020
+      },
+      {
+         "heading" : 5.2360,
+         "name" : "Graveyard Fence",
+         "scaling" : 1.0,
+         "x" : 0.76590,
+         "y" : 0.0,
+         "z" : 0.54680
+      },
+      {
+         "heading" : 4.18880,
+         "name" : "Graveyard Fence",
+         "scaling" : 1.0,
+         "x" : -2.18270,
+         "y" : 0.0,
+         "z" : 0.56940
+      },
+      {
+         "heading" : 4.18880,
+         "name" : "Graveyard Fence",
+         "scaling" : 1.0,
+         "x" : 0.73040,
+         "y" : 0.0,
+         "z" : -1.18080
+      },
+      {
+         "color" : "ff09167b",
+         "heading" : 0.25130,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -0.60060,
+         "y" : 0.0,
+         "z" : 1.69850
+      },
+      {
+         "color" : "ff0a1b9b",
+         "heading" : 0.25130,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -0.62790,
+         "y" : 0.0,
+         "z" : 1.58980
+      },
+      {
+         "color" : "ff09167b",
+         "heading" : -1.01670,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "scaling" : 1.0,
+         "x" : -0.74780,
+         "y" : 0.0,
+         "z" : 1.52010
+      },
+      {
+         "color" : "ff09156e",
+         "heading" : -2.73030,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -0.6909999999999999,
+         "y" : 0.0,
+         "z" : 1.37650
+      },
+      {
+         "color" : "ff0a1ca8",
+         "heading" : -1.91350,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -0.76390,
+         "y" : 0.0,
+         "z" : 1.66760
+      },
+      {
+         "color" : "ff0a198b",
+         "heading" : -3.50140,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.70,
+         "scaling" : 1.0,
+         "x" : -0.74370,
+         "y" : 0.0,
+         "z" : 1.36590
+      },
+      {
+         "color" : "ff0a1ca7",
+         "heading" : 0.25130,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -0.6657999999999999,
+         "y" : 0.0,
+         "z" : 1.4920
+      },
+      {
+         "color" : "ff09167a",
+         "heading" : -0.39410,
+         "height" : 0.010,
+         "name" : "Blood Splatter 3",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -0.78410,
+         "y" : 0.0,
+         "z" : 1.5750
+      },
+      {
+         "color" : "ff0a1ca2",
+         "heading" : 1.51940,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -0.70060,
+         "y" : 0.0,
+         "z" : 1.5930
+      },
+      {
+         "color" : "ff091780",
+         "heading" : 0.07430,
+         "height" : 0.010,
+         "name" : "Blood Splatter 3",
+         "opacity" : 0.70,
+         "scaling" : 1.0,
+         "x" : -0.84310,
+         "y" : 0.0,
+         "z" : 1.60390
+      },
+      {
+         "color" : "ff0a1b9f",
+         "heading" : 1.35950,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "scaling" : 1.0,
+         "x" : -0.81590,
+         "y" : 0.0,
+         "z" : 1.72220
+      },
+      {
+         "color" : "ff091887",
+         "heading" : -3.07880,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -0.54960,
+         "y" : 0.0,
+         "z" : 1.23460
+      },
+      {
+         "color" : "ff09146d",
+         "heading" : -2.1820,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "opacity" : 0.70,
+         "scaling" : 1.0,
+         "x" : -0.80810,
+         "y" : 0.0,
+         "z" : 1.24410
+      },
+      {
+         "color" : "ff09167c",
+         "heading" : -0.39410,
+         "height" : 0.010,
+         "name" : "Blood Splatter 3",
+         "opacity" : 0.70,
+         "scaling" : 1.0,
+         "x" : -0.68020,
+         "y" : 0.0,
+         "z" : 1.22720
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 1.0,
+         "x" : 0.06770,
+         "y" : 0.0,
+         "z" : 1.39950
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.15110,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.1250,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.90
+         },
+         "scaling" : 1.0,
+         "x" : -1.58750,
+         "y" : 0.15110,
+         "z" : 1.21950
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.15110,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.1250,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.90
+         },
+         "scaling" : 1.0,
+         "x" : -1.61520,
+         "y" : 0.15110,
+         "z" : -1.83070
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.15110,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.1250,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.90
+         },
+         "scaling" : 1.0,
+         "x" : -2.49040,
+         "y" : 0.15110,
+         "z" : -0.29130
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Hell Cauldron 01",
+         "scaling" : 1.0,
+         "x" : -1.60960,
+         "y" : 0.0,
+         "z" : -1.83630
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.15110,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.1250,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.90
+         },
+         "scaling" : 1.0,
+         "x" : 0.16890,
+         "y" : 0.15110,
+         "z" : -1.7910
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.15110,
+         "name" : "Fire",
+         "omniParams" : {
+            "col_blue" : 0.1250,
+            "col_green" : 0.750,
+            "col_red" : 1.50,
+            "radius0" : 0.20,
+            "radius1" : 0.80
+         },
+         "scaling" : 1.0,
+         "x" : 1.04430,
+         "y" : 0.15110,
+         "z" : -0.2870
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Crate 02",
+         "scaling" : 1.0,
+         "x" : -0.24790,
+         "y" : 0.0,
+         "z" : 1.29670
+      },
+      {
+         "heading" : -1.58220,
+         "name" : "Crate 01",
+         "scaling" : 1.0,
+         "x" : -0.1050,
+         "y" : 0.0,
+         "z" : 1.29450
+      },
+      {
+         "heading" : -3.10730,
+         "name" : "Crate 01",
+         "scaling" : 1.28850,
+         "x" : -0.17880,
+         "y" : 0.0,
+         "z" : 1.28210
+      },
+      {
+         "heading" : -1.53080,
+         "height" : 0.06930,
+         "name" : "Crate 02",
+         "scaling" : 1.0,
+         "x" : -0.18180,
+         "y" : 0.06930,
+         "z" : 1.29030
+      },
+      {
+         "heading" : -1.58220,
+         "name" : "Barrel 01",
+         "scaling" : 1.0,
+         "x" : -0.31790,
+         "y" : 0.0,
+         "z" : 1.2930
+      },
+      {
+         "heading" : -1.58220,
+         "name" : "Barrel 01",
+         "scaling" : 1.0,
+         "x" : 0.35620,
+         "y" : 0.0,
+         "z" : 1.05640
+      },
+      {
+         "heading" : -2.5190,
+         "name" : "Crate 01",
+         "scaling" : 1.28850,
+         "x" : 0.39430,
+         "y" : 0.0,
+         "z" : 0.96920
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Hell Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : -1.29420,
+         "y" : 0.0,
+         "z" : 1.31970
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Hell Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : -2.40490,
+         "y" : 0.0,
+         "z" : -0.00770
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Hell Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : 0.34670,
+         "y" : 0.0,
+         "z" : -1.6630
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Hell Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : 0.97110,
+         "y" : 0.0,
+         "z" : -0.58990
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -0.90890,
+         "y" : 0.0,
+         "z" : 1.79010
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.61430,
+         "y" : 0.0,
+         "z" : -1.16390
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 1.0,
+         "x" : -2.4190,
+         "y" : 0.0,
+         "z" : -1.50220
+      },
+      {
+         "color" : "ff0a1ba0",
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -1.97080,
+         "y" : 0.0,
+         "z" : 0.6060
+      },
+      {
+         "color" : "ff091885",
+         "heading" : 0.95960,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.44590,
+         "y" : 0.0,
+         "z" : 0.66690
+      },
+      {
+         "color" : "ff091675",
+         "heading" : 0.25130,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.33310,
+         "y" : 0.0,
+         "z" : 0.76140
+      },
+      {
+         "color" : "ff09177c",
+         "heading" : 2.84460,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.35220,
+         "y" : 0.0,
+         "z" : 0.56350
+      },
+      {
+         "color" : "ff0a1ca2",
+         "heading" : 2.84460,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.34260,
+         "y" : 0.0,
+         "z" : 0.64650
+      },
+      {
+         "color" : "ff0a1b9c",
+         "heading" : 3.43860,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.23920,
+         "y" : 0.0,
+         "z" : 0.67330
+      },
+      {
+         "color" : "ff09156d",
+         "heading" : 3.43860,
+         "height" : 0.010,
+         "name" : "Blood Splatter 3",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.23230,
+         "y" : 0.0,
+         "z" : 0.5770
+      },
+      {
+         "color" : "ff0a1ca7",
+         "heading" : 3.64430,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "scaling" : 1.0,
+         "x" : -2.16140,
+         "y" : 0.0,
+         "z" : 0.47770
+      },
+      {
+         "color" : "ff0a1ca1",
+         "heading" : 4.35830,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -2.11670,
+         "y" : 0.0,
+         "z" : 0.56810
+      },
+      {
+         "color" : "ff091467",
+         "heading" : 4.10690,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.17870,
+         "y" : 0.0,
+         "z" : 0.61020
+      },
+      {
+         "color" : "ff09167b",
+         "heading" : 3.41580,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -2.11030,
+         "y" : 0.0,
+         "z" : 0.3850
+      },
+      {
+         "color" : "ff091887",
+         "heading" : 3.63850,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.04830,
+         "y" : 0.0,
+         "z" : 0.47830
+      },
+      {
+         "color" : "ff091884",
+         "heading" : 5.08370,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -2.12670,
+         "y" : 0.0,
+         "z" : -1.12120
+      },
+      {
+         "color" : "ff09177e",
+         "heading" : 4.50110,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -2.00430,
+         "y" : 0.0,
+         "z" : -1.17590
+      },
+      {
+         "color" : "ff091467",
+         "heading" : 3.9470,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.70,
+         "scaling" : 1.0,
+         "x" : -1.93960,
+         "y" : 0.0,
+         "z" : -1.230
+      },
+      {
+         "color" : "ff0a1b9f",
+         "heading" : 3.82130,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.50,
+         "scaling" : 1.0,
+         "x" : -1.88170,
+         "y" : 0.0,
+         "z" : -1.2760
+      },
+      {
+         "color" : "ff091467",
+         "heading" : 3.82130,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.05740,
+         "y" : 0.0,
+         "z" : -1.15460
+      },
+      {
+         "color" : "ff0a1ca5",
+         "heading" : 5.10080,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.2060,
+         "y" : 0.0,
+         "z" : -1.17740
+      },
+      {
+         "color" : "ff09146d",
+         "heading" : 5.28930,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.12640,
+         "y" : 0.0,
+         "z" : -0.98360
+      },
+      {
+         "color" : "ff0a1b9d",
+         "heading" : 5.82050,
+         "height" : 0.010,
+         "name" : "Blood Splatter 3",
+         "opacity" : 0.40,
+         "scaling" : 1.0,
+         "x" : -1.89960,
+         "y" : 0.0,
+         "z" : -1.39390
+      },
+      {
+         "color" : "ff091676",
+         "heading" : 5.82050,
+         "height" : 0.010,
+         "name" : "Blood Splatter 3",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.27320,
+         "y" : 0.0,
+         "z" : -1.13920
+      },
+      {
+         "color" : "ff0a198b",
+         "heading" : 6.5060,
+         "height" : 0.010,
+         "name" : "Blood Splatter 3",
+         "scaling" : 1.0,
+         "x" : -2.26260,
+         "y" : 0.0,
+         "z" : -1.24760
+      },
+      {
+         "color" : "ff0a1a93",
+         "heading" : 6.74590,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : -2.36420,
+         "y" : 0.0,
+         "z" : -1.14370
+      },
+      {
+         "color" : "ff0a1ca4",
+         "heading" : 6.74590,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.36710,
+         "y" : 0.0,
+         "z" : -1.24840
+      },
+      {
+         "color" : "ff091675",
+         "heading" : 9.39620,
+         "height" : 0.010,
+         "name" : "Blood Splatter 1",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : -2.35050,
+         "y" : 0.0,
+         "z" : -1.33910
+      },
+      {
+         "color" : "ff091677",
+         "heading" : 3.15870,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.60,
+         "scaling" : 1.0,
+         "x" : -2.06630,
+         "y" : 0.0,
+         "z" : 0.28950
+      },
+      {
+         "color" : "ff0a1a93",
+         "heading" : 6.25460,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.60,
+         "scaling" : 1.0,
+         "x" : -2.05640,
+         "y" : 0.0,
+         "z" : 0.17520
+      },
+      {
+         "color" : "ff0a1991",
+         "heading" : 2.51330,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.50,
+         "scaling" : 0.69060,
+         "x" : -2.09330,
+         "y" : 0.0,
+         "z" : 0.08230
+      },
+      {
+         "color" : "ff091469",
+         "heading" : 2.20480,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.60,
+         "scaling" : 0.5620000000000001,
+         "x" : -2.13040,
+         "y" : 0.0,
+         "z" : 0.01830
+      },
+      {
+         "color" : "ff0a1a92",
+         "heading" : 3.96980,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "opacity" : 0.80,
+         "scaling" : 0.37410,
+         "x" : -2.01640,
+         "y" : 0.0,
+         "z" : 0.09490
+      },
+      {
+         "color" : "ff0a188a",
+         "heading" : 4.45540,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "opacity" : 0.80,
+         "scaling" : 0.31880,
+         "x" : -1.98830,
+         "y" : 0.0,
+         "z" : 0.23760
+      },
+      {
+         "color" : "ff0a1a96",
+         "heading" : 2.23910,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "opacity" : 0.80,
+         "scaling" : 0.30160,
+         "x" : -2.11310,
+         "y" : 0.0,
+         "z" : 0.23750
+      },
+      {
+         "color" : "ff091780",
+         "heading" : 1.79360,
+         "height" : 0.010,
+         "name" : "Blood Splatter 2",
+         "opacity" : 0.50,
+         "scaling" : 0.35310,
+         "x" : -2.21780,
+         "y" : 0.0,
+         "z" : -0.01770
+      },
+      {
+         "color" : "ff0a1ca5",
+         "heading" : 1.79360,
+         "height" : 0.010,
+         "name" : "Blood Splatter 3",
+         "opacity" : 0.40,
+         "scaling" : 0.35310,
+         "x" : -2.17010,
+         "y" : 0.0,
+         "z" : -0.04620
+      },
+      {
+         "color" : "ff0a1b9f",
+         "heading" : -4.35250,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : 0.72670,
+         "y" : 0.0,
+         "z" : 0.60490
+      },
+      {
+         "color" : "ff091467",
+         "heading" : -4.91230,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.80,
+         "scaling" : 1.0,
+         "x" : 0.90430,
+         "y" : 0.0,
+         "z" : 0.55020
+      },
+      {
+         "color" : "ff091675",
+         "heading" : -4.43250,
+         "height" : 0.010,
+         "name" : "Blood Splatter 4",
+         "opacity" : 0.90,
+         "scaling" : 1.0,
+         "x" : 0.93010,
+         "y" : 0.0,
+         "z" : 0.65020
+      },
+      {
+         "heading" : 0.74830,
+         "name" : "Autumn Tree 01",
+         "scaling" : 1.13880,
+         "x" : -0.2740,
+         "y" : 0.0,
+         "z" : -2.32410
+      },
+      {
+         "heading" : 0.74830,
+         "name" : "Autumn Tree 01",
+         "scaling" : 1.13880,
+         "x" : -1.14130,
+         "y" : 0.0,
+         "z" : -2.24480
+      },
+      {
+         "heading" : 2.95310,
+         "name" : "Tree 02",
+         "scaling" : 1.13880,
+         "x" : 0.13190,
+         "y" : 0.0,
+         "z" : -2.26010
+      },
+      {
+         "heading" : 2.95310,
+         "name" : "Tree 02",
+         "scaling" : 1.13880,
+         "x" : 0.55570,
+         "y" : 0.0,
+         "z" : -2.09980
+      },
+      {
+         "heading" : 2.95310,
+         "name" : "Tree 02",
+         "scaling" : 1.13880,
+         "x" : 0.46910,
+         "y" : 0.0,
+         "z" : -2.54070
+      },
+      {
+         "heading" : 2.44470,
+         "name" : "Tree 03",
+         "scaling" : 1.32890,
+         "x" : 0.04120,
+         "y" : 0.0,
+         "z" : -2.64050
+      },
+      {
+         "heading" : 2.44470,
+         "name" : "Tree 03",
+         "scaling" : 1.32890,
+         "x" : 1.02520,
+         "y" : 0.0,
+         "z" : -2.04390
+      },
+      {
+         "heading" : 2.0620,
+         "name" : "Tree 04",
+         "scaling" : 1.13880,
+         "x" : -0.72670,
+         "y" : 0.0,
+         "z" : -2.65860
+      },
+      {
+         "heading" : 0.62260,
+         "name" : "Tree 03",
+         "scaling" : 1.22070,
+         "x" : -0.40410,
+         "y" : 0.0,
+         "z" : -2.71550
+      },
+      {
+         "heading" : 1.3880,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -1.06520,
+         "y" : 0.0,
+         "z" : -2.80280
+      },
+      {
+         "heading" : 0.74830,
+         "name" : "Autumn Tree 01",
+         "scaling" : 1.13880,
+         "x" : -1.54160,
+         "y" : 0.0,
+         "z" : -2.28140
+      },
+      {
+         "heading" : 2.14770,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -1.33320,
+         "y" : 0.0,
+         "z" : -2.6470
+      },
+      {
+         "heading" : 0.74830,
+         "name" : "Autumn Tree 01",
+         "scaling" : 1.13880,
+         "x" : -2.04360,
+         "y" : 0.0,
+         "z" : -2.01610
+      },
+      {
+         "heading" : 0.74830,
+         "name" : "Autumn Tree 01",
+         "scaling" : 1.13880,
+         "x" : -2.63460,
+         "y" : 0.0,
+         "z" : -1.74830
+      },
+      {
+         "heading" : 0.74830,
+         "name" : "Autumn Tree 01",
+         "scaling" : 1.13880,
+         "x" : -2.93310,
+         "y" : 0.0,
+         "z" : -1.23670
+      },
+      {
+         "heading" : 0.74830,
+         "name" : "Autumn Tree 01",
+         "scaling" : 1.13880,
+         "x" : -2.82410,
+         "y" : 0.0,
+         "z" : -0.65920
+      },
+      {
+         "heading" : 0.47410,
+         "name" : "Tree 04",
+         "scaling" : 1.13880,
+         "x" : -2.98820,
+         "y" : 0.0,
+         "z" : -1.01320
+      },
+      {
+         "heading" : 1.49650,
+         "name" : "Tree 03",
+         "scaling" : 1.21910,
+         "x" : -3.02160,
+         "y" : 0.0,
+         "z" : -0.28310
+      },
+      {
+         "heading" : 1.49650,
+         "name" : "Tree 03",
+         "scaling" : 1.21910,
+         "x" : -2.7230,
+         "y" : 0.0,
+         "z" : 0.12950
+      },
+      {
+         "heading" : 2.95310,
+         "name" : "Tree 02",
+         "scaling" : 1.13880,
+         "x" : 0.74760,
+         "y" : 0.0,
+         "z" : -1.72290
+      },
+      {
+         "heading" : 2.44470,
+         "name" : "Tree 03",
+         "scaling" : 1.32890,
+         "x" : 1.41630,
+         "y" : 0.0,
+         "z" : -1.59160
+      },
+      {
+         "heading" : 2.44470,
+         "name" : "Tree 03",
+         "scaling" : 1.32890,
+         "x" : 1.51210,
+         "y" : 0.0,
+         "z" : -1.2140
+      },
+      {
+         "heading" : 2.44470,
+         "name" : "Tree 03",
+         "scaling" : 1.32890,
+         "x" : 1.28860,
+         "y" : 0.0,
+         "z" : -0.82450
+      },
+      {
+         "heading" : 0.39410,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -1.92120,
+         "y" : 0.0,
+         "z" : -2.4230
+      },
+      {
+         "heading" : 0.39410,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -2.48870,
+         "y" : 0.0,
+         "z" : -2.10480
+      },
+      {
+         "heading" : 0.39410,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -2.93250,
+         "y" : 0.0,
+         "z" : -1.66630
+      },
+      {
+         "heading" : 0.39410,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -3.19150,
+         "y" : 0.0,
+         "z" : -0.78460
+      },
+      {
+         "heading" : -0.94820,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -3.13950,
+         "y" : 0.0,
+         "z" : 0.05710
+      },
+      {
+         "heading" : -0.19990,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -3.00180,
+         "y" : 0.0,
+         "z" : 0.55370
+      },
+      {
+         "heading" : 0.39410,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -2.3070,
+         "y" : 0.0,
+         "z" : -2.37290
+      },
+      {
+         "heading" : -0.35990,
+         "name" : "Autumn Tree 01",
+         "scaling" : 1.13880,
+         "x" : -2.41460,
+         "y" : 0.0,
+         "z" : -1.69670
+      },
+      {
+         "heading" : -0.19990,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -2.17560,
+         "y" : 0.0,
+         "z" : 1.21960
+      },
+      {
+         "heading" : 0.55410,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : -1.25110,
+         "y" : 0.0,
+         "z" : 1.70450
+      },
+      {
+         "heading" : -0.26280,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : 0.06650,
+         "y" : 0.0,
+         "z" : 1.74640
+      },
+      {
+         "heading" : -0.26280,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : 0.80280,
+         "y" : 0.0,
+         "z" : 1.17850
+      },
+      {
+         "heading" : -0.26280,
+         "name" : "Tree 03",
+         "scaling" : 1.33870,
+         "x" : 0.59290,
+         "y" : 0.0,
+         "z" : 1.55090
+      },
+      {
+         "heading" : 2.44470,
+         "name" : "Tree 03",
+         "scaling" : 1.32890,
+         "x" : 1.61070,
+         "y" : 0.0,
+         "z" : -0.32030
+      },
+      {
+         "heading" : 2.44470,
+         "name" : "Tree 03",
+         "scaling" : 1.32890,
+         "x" : 1.26630,
+         "y" : 0.0,
+         "z" : 0.27770
+      },
+      {
+         "heading" : -2.15340,
+         "name" : "Crate 01",
+         "scaling" : 1.28850,
+         "x" : -1.92390,
+         "y" : 0.0,
+         "z" : 0.80020
+      },
+      {
+         "heading" : -2.0220,
+         "name" : "Crate 01",
+         "scaling" : 1.28850,
+         "x" : -1.88670,
+         "y" : 0.0,
+         "z" : 0.870
+      },
+      {
+         "heading" : -2.09630,
+         "height" : 0.06930,
+         "name" : "Crate 02",
+         "scaling" : 1.0,
+         "x" : -1.92340,
+         "y" : 0.06930,
+         "z" : 0.80110
+      },
+      {
+         "heading" : -1.58220,
+         "height" : 0.07110,
+         "name" : "Barrel 01",
+         "scaling" : 0.8220,
+         "x" : -1.88190,
+         "y" : 0.07110,
+         "z" : 0.86710
+      },
+      {
+         "heading" : -1.64510,
+         "name" : "Crate 01",
+         "scaling" : 1.28850,
+         "x" : -1.23160,
+         "y" : 0.0,
+         "z" : 1.3070
+      },
+      {
+         "heading" : -1.58220,
+         "height" : 0.00020,
+         "name" : "Barrel 01",
+         "scaling" : 0.8220,
+         "x" : -1.04760,
+         "y" : 0.00020,
+         "z" : 1.30950
+      },
+      {
+         "heading" : -1.57650,
+         "name" : "Bec Mic",
+         "omniParams" : {
+            "col_blue" : 0.750,
+            "col_green" : 0.20,
+            "col_red" : 0.10,
+            "radius0" : 0.10,
+            "radius1" : 0.350
+         },
+         "scaling" : 1.0,
+         "x" : -0.70870,
+         "y" : 0.0,
+         "z" : 1.86910
+      },
+      {
+         "heading" : -0.57120,
+         "name" : "Bec Mic",
+         "omniParams" : {
+            "col_blue" : 0.750,
+            "col_green" : 0.20,
+            "col_red" : 0.10,
+            "radius0" : 0.10,
+            "radius1" : 0.350
+         },
+         "scaling" : 1.0,
+         "x" : -2.58610,
+         "y" : 0.0,
+         "z" : 0.7780
+      },
+      {
+         "heading" : -2.62750,
+         "name" : "Bec Mic",
+         "omniParams" : {
+            "col_blue" : 0.750,
+            "col_green" : 0.20,
+            "col_red" : 0.10,
+            "radius0" : 0.10,
+            "radius1" : 0.250
+         },
+         "scaling" : 1.0,
+         "x" : 1.15880,
+         "y" : 0.0,
+         "z" : 0.79430
+      },
+      {
+         "heading" : -2.14770,
+         "name" : "Bec Mic",
+         "omniParams" : {
+            "col_blue" : 0.750,
+            "col_green" : 0.20,
+            "col_red" : 0.10,
+            "radius0" : 0.10,
+            "radius1" : 0.350
+         },
+         "scaling" : 1.0,
+         "x" : 1.12130,
+         "y" : 0.0,
+         "z" : -1.05130
+      },
+      {
+         "heading" : -4.71810,
+         "name" : "Bec Mic",
+         "omniParams" : {
+            "col_blue" : 0.750,
+            "col_green" : 0.20,
+            "col_red" : 0.10,
+            "radius0" : 0.10,
+            "radius1" : 0.350
+         },
+         "scaling" : 1.0,
+         "x" : -0.69240,
+         "y" : 0.0,
+         "z" : -2.51020
+      },
+      {
+         "heading" : -5.77480,
+         "name" : "Bec Mic",
+         "omniParams" : {
+            "col_blue" : 0.750,
+            "col_green" : 0.20,
+            "col_red" : 0.10,
+            "radius0" : 0.10,
+            "radius1" : 0.350
+         },
+         "scaling" : 1.0,
+         "x" : -2.59290,
+         "y" : 0.0,
+         "z" : -1.35750
+      },
+      {
+         "heading" : 1.04720,
+         "name" : "Wall Pillar 01 1",
+         "scaling" : 0.91060,
+         "x" : 2.23260,
+         "y" : 0.0,
+         "z" : -1.43920
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.010,
+         "name" : "Short Stone Bridge",
+         "scaling" : 1.55250,
+         "x" : -0.70660,
+         "y" : 0.0050,
+         "z" : 0.3840
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.010,
+         "name" : "Short Stone Bridge",
+         "scaling" : 1.55250,
+         "x" : -0.70120,
+         "y" : 0.0050,
+         "z" : -0.9631999999999999
+      },
+      {
+         "heading" : 0.52360,
+         "height" : 0.010,
+         "name" : "Short Stone Bridge",
+         "scaling" : 1.55250,
+         "x" : -1.30680,
+         "y" : 0.0050,
+         "z" : -0.59180
+      },
+      {
+         "heading" : 0.52360,
+         "height" : 0.010,
+         "name" : "Short Stone Bridge",
+         "scaling" : 1.55250,
+         "x" : -0.1580,
+         "y" : 0.0050,
+         "z" : 0.05860
+      },
+      {
+         "heading" : 5.75960,
+         "height" : 0.010,
+         "name" : "Short Stone Bridge",
+         "scaling" : 1.55250,
+         "x" : -0.14780,
+         "y" : 0.0050,
+         "z" : -0.61330
+      },
+      {
+         "heading" : 5.75960,
+         "height" : 0.010,
+         "name" : "Short Stone Bridge",
+         "scaling" : 1.55250,
+         "x" : -1.31340,
+         "y" : 0.0050,
+         "z" : 0.05530
+      },
+      {
+         "heading" : -2.20480,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.42370,
+         "y" : 0.0050,
+         "z" : 0.24730
+      },
+      {
+         "heading" : -0.95960,
+         "height" : 0.0030,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.00480,
+         "y" : 0.00680,
+         "z" : 0.25570
+      },
+      {
+         "heading" : 6.28320,
+         "height" : 0.01220,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.31760,
+         "y" : 0.01150,
+         "z" : -0.27650
+      },
+      {
+         "heading" : 2.96710,
+         "height" : 0.01230,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.12490,
+         "y" : 0.01730,
+         "z" : -0.27640
+      },
+      {
+         "heading" : 2.26890,
+         "height" : 0.01170,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.41680,
+         "y" : 0.01020,
+         "z" : -0.82090
+      },
+      {
+         "heading" : 0.87270,
+         "height" : 0.01120,
+         "name" : "Hell Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.02020,
+         "y" : 0.00620,
+         "z" : -0.83340
+      }
+   ],
+   "spawnPoints" : [
+      {
+         "name" : "Spawn Point 0",
+         "x" : 0.5750999999999999,
+         "y" : 0.0,
+         "z" : -1.04730
+      },
+      {
+         "name" : "Spawn Point 1",
+         "x" : 0.5639999999999999,
+         "y" : 0.0,
+         "z" : 0.46920
+      },
+      {
+         "name" : "Spawn Point 2",
+         "x" : -0.70830,
+         "y" : 0.0,
+         "z" : 1.14930
+      },
+      {
+         "name" : "Spawn Point 3",
+         "x" : -1.99490,
+         "y" : 0.0,
+         "z" : 0.45280
+      },
+      {
+         "name" : "Spawn Point 4",
+         "x" : -1.99140,
+         "y" : 0.0,
+         "z" : -1.02850
+      },
+      {
+         "name" : "Spawn Point 5",
+         "x" : -0.70890,
+         "y" : 0.0,
+         "z" : -1.76880
+      }
+   ],
+   "startPosition" : [ -0.71480, -0.30270 ],
+   "tint" : [ 64, 48, 32, 32 ],
+   "title" : ""
+}

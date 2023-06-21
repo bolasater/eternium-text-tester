@@ -1,0 +1,101 @@
+{
+	"baseTerrain" : "Snow 04",
+	"height" : 0.05,
+	"soundEnv" : "iceplain",
+
+	"tools" : [
+		{
+			"tool":"wall",
+			"wallProp" : 
+			[
+				"Dead Tree 01", "Dead Tree 02", "Dead Tree 03", "Dead Tree 04",
+				"Short Snowy Pine Tree 01", "Short Snowy Pine Tree 02", "Short Snowy Pine Tree 03", "Short Snowy Pine Tree 04",
+				"Tall Snowy Pine Tree 01", "Tall Snowy Pine Tree 02", "Tall Snowy Pine Tree 03", "Tall Snowy Pine Tree 04"
+			],
+			"offset" : -0.15,
+			"propScaling" : 0.75,
+			"randomRotation" : true,
+			"randomScaling" : 0.2,
+			"overlap" : 0,
+			"skipBottom" : true
+		},
+		
+		{
+			"tool" : "enclave",
+			"maxNum" : 2,
+			"shape" : {
+				"size" : [0.6,0.8],
+				"verts" : 20,
+				"jumble" : 0.6
+			},
+			"spacing" : 0.5,
+			"style" : "SmallWinterMountain"
+		},
+
+		{
+			"tool" : "enclave",
+			"maxNum" : 6,
+			"shape" : {
+				"size" : [0.6,0.8],
+				"verts" : 20,
+				"jumble" : 0.6
+			},
+			"spacing" : 0.5,
+			"style" : "FrozenLake"
+		},
+		{
+			"tool" : "crossroads",
+			"terrain" : "Snowy Rock 01",
+			"width" : 0.3,
+			"opacity" : 0.1,
+			"height" : -0.002,
+			"curliness" : 0.4,
+			"hardness" : 0.8
+		},
+		{
+			"tool" : "randombrush",
+			"brush" : {
+				"height" : 0.0,
+				"width" : 0.5,
+				"hardness" : 0.75,
+				"opacity" : 0.5,
+				"strength" : 0
+			},
+			"avoidBuilt" : true,
+			"density" : 150,
+			"terrains" : ["Snow 06", "Snow 01", "Snow 05"],
+			"randSize" : 0.5
+		},		
+
+		{
+			"tool":"ring",
+			"terrain" : "Ice Blocks 02",
+			"offset" : 0,
+			"height" : 0.05,
+			"width" : 0.3,
+			"hardness" : 0.3,
+			"opacity" : 1.0,
+			"strength" : 0.5,
+			"extendColor" : 0.15
+		}		
+		/*
+		{	
+			"tool" : "dune",
+			"terrain" : "Snow 06"
+		}
+		,
+		{
+			"tool":"ring",
+			"terrain" : "Water 2",
+			"offset" : 0.3,
+			"height" : 0,
+			"width" : 0.5,
+			"hardness" : 0,
+			"strength" : 0,
+			"opacity" : 0.3,
+			"separation" : 0.1
+		}
+		*/		
+		
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"goldenKeyEnabled":true,
+	"activeSlotUnlockCost":50,
+	"utilitySlotUnlockCost":150,
+	"passiveSlotUnlockCost":500,
+	"minionSlotUnlockCost1":150,
+	"minionSlotUnlockCost2":500,
+	"speedupCostTable":[
+		{ "timeMin":0, "cost":0 },
+		{ "timeMin":5, "cost":2 },
+		{ "timeMin":10, "cost":3 },
+		{ "timeMin":20, "cost":7 },
+		{ "timeMin":30, "cost":10 },
+		{ "timeMin":60, "cost":20 },
+		{ "timeMin":1440, "cost":240 },
+		{ "timeMin":2880, "cost":380 },
+		{ "timeMin":5760, "cost":610 },
+		{ "timeMin":7200, "cost":730 }
+	]
+}

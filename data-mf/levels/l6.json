@@ -1,0 +1,1882 @@
+{
+   "ambient" : [ 32, 48, 96 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Simulator1.5.7: My Computer",
+      "saveTime" : "1596011915389"
+   },
+   "enemyFlavors" : null,
+   "enemySetup" : [
+      {
+         "a" : 6.15230,
+         "creature" : "lich",
+         "eliteAbility0" : "summon_skeleton",
+         "eliteAbility1" : "summon_skeleton",
+         "isElite" : true,
+         "x" : -1.58560,
+         "z" : -0.17720
+      },
+      {
+         "a" : 6.68410,
+         "creature" : "brimstone",
+         "hpx" : 3.0,
+         "x" : -1.4560,
+         "z" : -0.05490
+      },
+      {
+         "a" : 0.0,
+         "creature" : "brimstone",
+         "hpx" : 3.0,
+         "x" : -1.36440,
+         "z" : -0.19410
+      },
+      {
+         "a" : 6.02960,
+         "creature" : "brimstone",
+         "hpx" : 3.0,
+         "x" : -1.46950,
+         "z" : 1.42270
+      },
+      {
+         "a" : 0.0,
+         "creature" : "brimstone",
+         "hpx" : 3.0,
+         "x" : -1.4510,
+         "z" : 1.60610
+      },
+      {
+         "a" : 5.30140,
+         "creature" : "lich",
+         "eliteAbility0" : "meteorshower",
+         "eliteAbility1" : "meteorshower",
+         "isElite" : true,
+         "x" : -1.63280,
+         "z" : 1.57850
+      },
+      {
+         "a" : 6.33620,
+         "creature" : "fleeing_magroth",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isGoal" : true,
+         "x" : -2.48130,
+         "z" : 0.82860
+      }
+   ],
+   "fog" : [ 32, 48, 96 ],
+   "heroOmni" : {
+      "blue" : 0.0,
+      "green" : 0.06270000000000001,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 0.12550
+   },
+   "lightCol" : [ 170, 204, 255 ],
+   "lightDir" : [ -0.66450, -0.3420, -0.66450 ],
+   "props" : [
+      {
+         "heading" : 2.08620,
+         "height" : 0.00080,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.3130,
+         "x" : 2.5030,
+         "y" : 0.11840,
+         "z" : -0.56380
+      },
+      {
+         "heading" : -10.22660,
+         "height" : -0.0010,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.04560,
+         "x" : 2.56180,
+         "y" : 0.3030,
+         "z" : -1.48490
+      },
+      {
+         "heading" : -0.49090,
+         "height" : -0.00510,
+         "name" : "Tall Pine Tree 02",
+         "scaling" : 1.07190,
+         "x" : 1.63270,
+         "y" : 0.52040,
+         "z" : 0.08760
+      },
+      {
+         "heading" : -0.49090,
+         "height" : -0.00430,
+         "name" : "Short Snowy Pine Tree 02",
+         "scaling" : 1.07190,
+         "x" : 1.19410,
+         "y" : 0.61770,
+         "z" : 0.64780
+      },
+      {
+         "heading" : -0.49090,
+         "height" : -0.00310,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 1.07190,
+         "x" : 1.44230,
+         "y" : 0.50460,
+         "z" : 0.52230
+      },
+      {
+         "heading" : -0.07360,
+         "height" : 0.04030,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 0.85710,
+         "x" : 0.27870,
+         "y" : 0.79170,
+         "z" : -0.17610
+      },
+      {
+         "heading" : -0.07360,
+         "height" : -0.00230,
+         "name" : "Short Snowy Pine Tree 02",
+         "scaling" : 0.72770,
+         "x" : 0.08520,
+         "y" : 0.790,
+         "z" : 0.23070
+      },
+      {
+         "heading" : -0.77720,
+         "height" : -0.00570,
+         "name" : "Short Pine Tree 02",
+         "scaling" : 1.76960,
+         "x" : 3.17490,
+         "y" : 0.0020,
+         "z" : -0.02830
+      },
+      {
+         "heading" : -1.50530,
+         "height" : 0.03050,
+         "name" : "Short Pine Tree 03",
+         "scaling" : 1.33920,
+         "x" : 2.79680,
+         "y" : 0.02240,
+         "z" : -0.00080
+      },
+      {
+         "heading" : 3.49070,
+         "height" : -0.08920,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.14880,
+         "x" : -0.75810,
+         "y" : 0.71810,
+         "z" : -0.35010
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.06020,
+         "name" : "Wooden Pillar 03",
+         "scaling" : 1.0,
+         "x" : 2.44260,
+         "y" : 0.31230,
+         "z" : -0.08069999999999999
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.00160,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.17710,
+         "y" : 0.67830,
+         "z" : 0.88330
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00050,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.96260,
+         "y" : 0.50090,
+         "z" : -0.20070
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.09410,
+         "y" : 0.50,
+         "z" : -0.10890
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.01520,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.62630,
+         "y" : 0.50040,
+         "z" : 0.62290
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.8680,
+         "y" : 0.750,
+         "z" : 0.86610
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.86580,
+         "y" : 0.750,
+         "z" : 0.64740
+      },
+      {
+         "gameObject" : "EpicChest",
+         "gameObjectParams" : null,
+         "heading" : 4.53790,
+         "height" : -0.00380,
+         "name" : "Chest 03",
+         "scaling" : 1.34450,
+         "x" : -2.60510,
+         "y" : 0.75440,
+         "z" : 0.8431999999999999
+      },
+      {
+         "heading" : 0.32620,
+         "height" : -0.01190,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 0.85710,
+         "x" : 0.51620,
+         "y" : 0.75110,
+         "z" : 1.29060
+      },
+      {
+         "heading" : 0.5490,
+         "height" : -0.00660,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 0.95280,
+         "x" : 0.30290,
+         "y" : 0.770,
+         "z" : 1.37720
+      },
+      {
+         "heading" : 0.4290,
+         "height" : -0.00950,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 0.81190,
+         "x" : -0.03520,
+         "y" : 0.79430,
+         "z" : 1.51940
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04730,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.39730,
+         "y" : 0.81690,
+         "z" : -0.31080
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04050,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.07150,
+         "y" : 0.79510,
+         "z" : -0.51010
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00480,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.23830,
+         "y" : 0.7750,
+         "z" : -0.40110
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02350,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.6320,
+         "y" : 0.7360,
+         "z" : 0.03350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02020,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.80890,
+         "y" : 0.78470,
+         "z" : 0.63170
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01570,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.77560,
+         "y" : 0.78630,
+         "z" : 0.86660
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00450,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.73270,
+         "y" : 0.77430,
+         "z" : 1.15260
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0130,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.620,
+         "y" : 0.7620,
+         "z" : 1.35730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01070,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.47170,
+         "y" : 0.78140,
+         "z" : 1.53090
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.03550,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.35530,
+         "y" : 0.8060,
+         "z" : 1.66480
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00410,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -2.06840,
+         "y" : 0.80040,
+         "z" : 1.88620
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01120,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -0.83030,
+         "y" : 0.77240,
+         "z" : 1.64320
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01520,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -1.02220,
+         "y" : 0.77590,
+         "z" : 1.76630
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00950,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -1.21880,
+         "y" : 0.77620,
+         "z" : 1.84610
+      },
+      {
+         "heading" : 0.0,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -1.42520,
+         "y" : 0.77290,
+         "z" : 1.92850
+      },
+      {
+         "heading" : 0.0,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -1.65590,
+         "y" : 0.78810,
+         "z" : 1.93320
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04070,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -1.84920,
+         "y" : 0.7877999999999999,
+         "z" : 1.92820
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00550,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -0.87810,
+         "y" : 0.77850,
+         "z" : -0.30250
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00240,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -1.08570,
+         "y" : 0.7990,
+         "z" : -0.46180
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00310,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -1.26490,
+         "y" : 0.79070,
+         "z" : -0.51650
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.05130,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -1.49260,
+         "y" : 0.80930,
+         "z" : -0.56960
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.04680,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -1.72030,
+         "y" : 0.81170,
+         "z" : -0.59440
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0680,
+         "name" : "blocker",
+         "scaling" : 1.40880,
+         "x" : -1.91120,
+         "y" : 0.8179999999999999,
+         "z" : -0.57520
+      },
+      {
+         "heading" : 5.41050,
+         "name" : "Red Brick Tower Base 02",
+         "scaling" : 0.79640,
+         "x" : 1.70040,
+         "y" : 0.380,
+         "z" : -0.41140
+      },
+      {
+         "heading" : 6.89410,
+         "name" : "Red Brick Tower Window 01",
+         "scaling" : 0.79640,
+         "x" : 1.70040,
+         "y" : 0.380,
+         "z" : -0.41140
+      },
+      {
+         "heading" : 5.41050,
+         "height" : 0.25120,
+         "name" : "Red Brick Tower Window 01",
+         "scaling" : 0.79640,
+         "x" : 1.70040,
+         "y" : 0.63120,
+         "z" : -0.41140
+      },
+      {
+         "heading" : 6.28320,
+         "height" : -0.01030,
+         "name" : "Fence 07",
+         "scaling" : 1.0,
+         "x" : 2.02310,
+         "y" : 0.30,
+         "z" : -0.07510
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Fence 05",
+         "scaling" : 1.0,
+         "x" : 2.31610,
+         "y" : 0.30,
+         "z" : -0.07510
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.54260,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.220,
+            "col_green" : 0.750,
+            "col_red" : 1.60,
+            "radius0" : 1.10,
+            "radius1" : 1.60
+         },
+         "scaling" : 1.0,
+         "x" : -1.62940,
+         "y" : 1.01260,
+         "z" : 0.67270
+      },
+      {
+         "heading" : -0.07360,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 0.85710,
+         "x" : 0.59390,
+         "y" : 0.65720,
+         "z" : -0.82820
+      },
+      {
+         "heading" : -0.07360,
+         "height" : -0.03470,
+         "name" : "Short Snowy Pine Tree 02",
+         "scaling" : 0.85710,
+         "x" : 0.92040,
+         "y" : 0.5460,
+         "z" : -1.01490
+      },
+      {
+         "heading" : -0.07360,
+         "height" : -0.04120,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 0.68330,
+         "x" : 0.7838000000000001,
+         "y" : 0.61850,
+         "z" : -0.9180
+      },
+      {
+         "heading" : -1.50530,
+         "height" : -0.12270,
+         "name" : "Short Snowy Pine Tree 03",
+         "scaling" : 1.33920,
+         "x" : 2.83010,
+         "y" : -0.12250,
+         "z" : -0.2240
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.06480,
+         "name" : "Snowy Rock Small 01",
+         "scaling" : 1.0,
+         "x" : 2.32460,
+         "y" : 0.31480,
+         "z" : -0.91570
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.03250,
+         "name" : "Snowy Rock Small 02",
+         "scaling" : 1.0,
+         "x" : 2.35690,
+         "y" : 0.29490,
+         "z" : -0.57550
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.0,
+         "x" : 2.28880,
+         "y" : 0.41840,
+         "z" : -1.23680
+      },
+      {
+         "heading" : -0.45810,
+         "height" : 0.00270,
+         "name" : "Short Snowy Pine Tree 02",
+         "scaling" : 1.0,
+         "x" : 1.64540,
+         "y" : 0.43630,
+         "z" : -1.5730
+      },
+      {
+         "heading" : -0.05730,
+         "height" : 0.00190,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 0.92250,
+         "x" : 1.40670,
+         "y" : 0.5240,
+         "z" : -1.72590
+      },
+      {
+         "heading" : -0.45810,
+         "height" : 0.00510,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 1.1440,
+         "x" : 2.02210,
+         "y" : 0.39910,
+         "z" : -1.79590
+      },
+      {
+         "heading" : 2.70530,
+         "height" : -0.10530,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.0,
+         "x" : 1.94490,
+         "y" : 0.24260,
+         "z" : -0.66010
+      },
+      {
+         "heading" : 2.70530,
+         "height" : -0.0760,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : 2.41550,
+         "y" : 0.2560,
+         "z" : -0.16530
+      },
+      {
+         "heading" : 2.70530,
+         "height" : -0.12060,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : 1.29330,
+         "y" : 0.35610,
+         "z" : -0.31320
+      },
+      {
+         "heading" : 2.70530,
+         "height" : -0.09039999999999999,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.0,
+         "x" : 1.32660,
+         "y" : 0.41710,
+         "z" : -0.17340
+      },
+      {
+         "heading" : 0.87270,
+         "height" : -0.05130,
+         "name" : "Snowy Rock Small 02",
+         "scaling" : 1.0,
+         "x" : 1.33510,
+         "y" : 0.5106000000000001,
+         "z" : -0.00380
+      },
+      {
+         "heading" : 5.67230,
+         "height" : -0.07610,
+         "name" : "Snowy Rock Small 04",
+         "scaling" : 0.6960,
+         "x" : 1.23570,
+         "y" : 0.42050,
+         "z" : -0.2680
+      },
+      {
+         "heading" : 1.13450,
+         "height" : -0.06920,
+         "name" : "Snowy Rock Small 03",
+         "scaling" : 0.6960,
+         "x" : 1.20490,
+         "y" : 0.43080,
+         "z" : 0.07990
+      },
+      {
+         "heading" : 3.9270,
+         "height" : -0.03390,
+         "name" : "Snowy Rock Small 01",
+         "scaling" : 0.6960,
+         "x" : 1.36440,
+         "y" : 0.37250,
+         "z" : -0.43940
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.07760,
+         "name" : "Snowy Rock Small 03",
+         "scaling" : 0.73210,
+         "x" : 1.70460,
+         "y" : 0.30580,
+         "z" : -0.75940
+      },
+      {
+         "heading" : 5.67230,
+         "height" : -0.07870000000000001,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : 1.81320,
+         "y" : 0.3010,
+         "z" : -0.71790
+      },
+      {
+         "heading" : 0.87270,
+         "height" : -0.01650,
+         "name" : "Snowy Rock Small 02",
+         "scaling" : 1.0,
+         "x" : 0.5230,
+         "y" : 0.64760,
+         "z" : -0.3510
+      },
+      {
+         "heading" : 3.9270,
+         "height" : -0.09370000000000001,
+         "name" : "Snowy Rock Small 02",
+         "scaling" : 1.0,
+         "x" : 0.48760,
+         "y" : 0.62290,
+         "z" : -0.16420
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.1080,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.0,
+         "x" : 0.35410,
+         "y" : 0.68660,
+         "z" : 0.19120
+      },
+      {
+         "heading" : 5.93410,
+         "height" : -0.1210,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : 0.41410,
+         "y" : 0.6660,
+         "z" : 0.04480
+      },
+      {
+         "heading" : 1.13450,
+         "height" : -0.04920,
+         "name" : "Snowy Rock Small 03",
+         "scaling" : 0.6960,
+         "x" : 0.71240,
+         "y" : 0.62380,
+         "z" : -0.57860
+      },
+      {
+         "heading" : 5.67230,
+         "height" : -0.12570,
+         "name" : "Snowy Rock Small 04",
+         "scaling" : 0.6960,
+         "x" : 0.84510,
+         "y" : 0.55360,
+         "z" : -0.7697000000000001
+      },
+      {
+         "heading" : 3.9270,
+         "height" : -0.04490,
+         "name" : "Snowy Rock Small 01",
+         "scaling" : 0.6960,
+         "x" : 1.2140,
+         "y" : 0.50480,
+         "z" : -1.30350
+      },
+      {
+         "heading" : 5.41050,
+         "height" : -0.03120,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 0.6960,
+         "x" : 1.11860,
+         "y" : 0.5649999999999999,
+         "z" : -1.24140
+      },
+      {
+         "heading" : 2.35620,
+         "height" : -0.11450,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 0.78340,
+         "x" : 1.00480,
+         "y" : 0.61320,
+         "z" : -1.31860
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.08640,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.0,
+         "x" : 0.9006999999999999,
+         "y" : 0.60620,
+         "z" : 1.02210
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.05940,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : 0.7310,
+         "y" : 0.59180,
+         "z" : 1.07450
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.07450,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : 1.16280,
+         "y" : 0.55220,
+         "z" : 0.47140
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.05160,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : -0.19320,
+         "y" : 0.74820,
+         "z" : 1.41990
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.04140,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.0,
+         "x" : 0.09950000000000001,
+         "y" : 0.73420,
+         "z" : 1.4320
+      },
+      {
+         "heading" : 2.70530,
+         "height" : -0.12380,
+         "name" : "Snowy Rock Med 02",
+         "scaling" : 1.0,
+         "x" : 1.01990,
+         "y" : 0.48120,
+         "z" : 0.79260
+      },
+      {
+         "heading" : 5.58510,
+         "height" : -0.08710,
+         "name" : "Snowy Rock Med 06",
+         "scaling" : 1.0,
+         "x" : -0.40130,
+         "y" : 0.69930,
+         "z" : 1.45510
+      },
+      {
+         "heading" : 2.6180,
+         "height" : -0.01450,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.28180,
+         "x" : -0.5881999999999999,
+         "y" : 0.74920,
+         "z" : 1.55930
+      },
+      {
+         "heading" : 3.31610,
+         "height" : -0.0,
+         "name" : "Snowy Rock Flat 02",
+         "scaling" : 1.0,
+         "x" : -0.23610,
+         "y" : 0.7707000000000001,
+         "z" : 0.19820
+      },
+      {
+         "heading" : 3.75250,
+         "height" : -0.009599999999999999,
+         "name" : "Snowy Rock Flat 06",
+         "scaling" : 1.0,
+         "x" : -0.42410,
+         "y" : 0.75720,
+         "z" : 0.01250
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.030,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : -0.01310,
+         "y" : 0.73280,
+         "z" : 0.09650
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.13780,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : -0.70790,
+         "y" : 0.67320,
+         "z" : -0.17190
+      },
+      {
+         "heading" : 5.58510,
+         "height" : -0.11980,
+         "name" : "Snowy Rock Med 05",
+         "scaling" : 1.0,
+         "x" : 0.57320,
+         "y" : 0.61290,
+         "z" : 1.2450
+      },
+      {
+         "heading" : 5.58510,
+         "height" : -0.16820,
+         "name" : "Snowy Rock Med 05",
+         "scaling" : 1.0,
+         "x" : 1.32680,
+         "y" : 0.43560,
+         "z" : 0.24510
+      },
+      {
+         "heading" : 5.58510,
+         "height" : -0.23820,
+         "name" : "Snowy Rock Med 05",
+         "scaling" : 1.0,
+         "x" : 0.61120,
+         "y" : 0.47260,
+         "z" : -0.44440
+      },
+      {
+         "heading" : 5.58510,
+         "height" : -0.17160,
+         "name" : "Snowy Rock Med 05",
+         "scaling" : 1.0,
+         "x" : 1.88470,
+         "y" : 0.22720,
+         "z" : 0.16220
+      },
+      {
+         "heading" : 5.49780,
+         "height" : -0.09840,
+         "name" : "Snowy Rock Med 03",
+         "scaling" : 1.0,
+         "x" : 2.49240,
+         "y" : 0.22650,
+         "z" : 0.05930
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.10480,
+         "name" : "Snowy Rock Small 03",
+         "scaling" : 0.73210,
+         "x" : 1.83970,
+         "y" : 0.34850,
+         "z" : -1.54040
+      },
+      {
+         "heading" : 5.67230,
+         "height" : -0.00020,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -0.7040999999999999,
+         "y" : 0.750,
+         "z" : 1.35730
+      },
+      {
+         "heading" : 5.93410,
+         "height" : -0.00630,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -1.06540,
+         "y" : 0.750,
+         "z" : 1.65070
+      },
+      {
+         "heading" : 5.58510,
+         "height" : -0.060,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -0.88030,
+         "y" : 0.69010,
+         "z" : 1.51090
+      },
+      {
+         "heading" : 5.93410,
+         "height" : -0.06950000000000001,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -1.25550,
+         "y" : 0.69010,
+         "z" : 1.72810
+      },
+      {
+         "heading" : 6.28320,
+         "height" : -0.07040,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -1.68330,
+         "y" : 0.69010,
+         "z" : 1.80480
+      },
+      {
+         "heading" : 6.71950,
+         "height" : -0.0660,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -2.10110,
+         "y" : 0.69830,
+         "z" : 1.7090
+      },
+      {
+         "heading" : 7.15580,
+         "height" : -0.07779999999999999,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -2.43520,
+         "y" : 0.6860000000000001,
+         "z" : 1.45390
+      },
+      {
+         "heading" : 7.59220,
+         "height" : -0.08220,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -2.63230,
+         "y" : 0.6909999999999999,
+         "z" : 1.07880
+      },
+      {
+         "heading" : 7.94120,
+         "height" : -0.09250,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -2.66950,
+         "y" : 0.67330,
+         "z" : 0.65430
+      },
+      {
+         "heading" : 8.202999999999999,
+         "height" : -0.09640,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -2.57750,
+         "y" : 0.68160,
+         "z" : 0.23660
+      },
+      {
+         "heading" : 10.38470,
+         "height" : -0.07450,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -0.78060,
+         "y" : 0.67550,
+         "z" : 0.0330
+      },
+      {
+         "heading" : 6.19590,
+         "height" : -0.00340,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -1.46860,
+         "y" : 0.75330,
+         "z" : 1.81170
+      },
+      {
+         "heading" : 6.5450,
+         "height" : -0.00940,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -1.90030,
+         "y" : 0.7606000000000001,
+         "z" : 1.80280
+      },
+      {
+         "heading" : 6.98130,
+         "height" : -0.0110,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -2.28130,
+         "y" : 0.76270,
+         "z" : 1.62320
+      },
+      {
+         "heading" : 7.33040,
+         "height" : -0.01050,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -2.56560,
+         "y" : 0.7630,
+         "z" : 1.28820
+      },
+      {
+         "heading" : 7.67940,
+         "height" : -0.00570,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -2.68160,
+         "y" : 0.76840,
+         "z" : 0.85990
+      },
+      {
+         "heading" : 8.11580,
+         "height" : 0.0020,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -2.64540,
+         "y" : 0.77510,
+         "z" : 0.43370
+      },
+      {
+         "heading" : 8.46480,
+         "height" : -0.00460,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -2.48460,
+         "y" : 0.7750,
+         "z" : 0.02420
+      },
+      {
+         "heading" : 10.21020,
+         "height" : 0.01480,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -0.91870,
+         "y" : 0.77220,
+         "z" : -0.15910
+      },
+      {
+         "heading" : 10.55920,
+         "height" : 0.02220,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 1.0,
+         "x" : -0.65740,
+         "y" : 0.77220,
+         "z" : 0.21270
+      },
+      {
+         "heading" : 5.58510,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -0.88030,
+         "y" : 0.75010,
+         "z" : 1.51090
+      },
+      {
+         "heading" : 5.93410,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -1.25550,
+         "y" : 0.7596000000000001,
+         "z" : 1.72810
+      },
+      {
+         "heading" : 6.28320,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -1.68330,
+         "y" : 0.76050,
+         "z" : 1.80480
+      },
+      {
+         "heading" : 6.71950,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -2.10110,
+         "y" : 0.76430,
+         "z" : 1.7090
+      },
+      {
+         "heading" : 7.15580,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -2.43520,
+         "y" : 0.76380,
+         "z" : 1.45390
+      },
+      {
+         "heading" : 7.59220,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -2.63230,
+         "y" : 0.77320,
+         "z" : 1.07880
+      },
+      {
+         "heading" : 7.94120,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -2.66950,
+         "y" : 0.76580,
+         "z" : 0.65430
+      },
+      {
+         "heading" : 8.202999999999999,
+         "height" : -0.00480,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -2.57040,
+         "y" : 0.77110,
+         "z" : 0.2350
+      },
+      {
+         "heading" : 10.38470,
+         "height" : 0.0,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 2.22280,
+         "x" : -0.78060,
+         "y" : 0.750,
+         "z" : 0.0330
+      },
+      {
+         "heading" : 2.44350,
+         "height" : -0.00010,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -0.71690,
+         "y" : 0.74990,
+         "z" : 1.34330
+      },
+      {
+         "heading" : 2.79250,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -1.07510,
+         "y" : 0.7514999999999999,
+         "z" : 1.62980
+      },
+      {
+         "heading" : 3.05430,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -1.47060,
+         "y" : 0.75440,
+         "z" : 1.79050
+      },
+      {
+         "heading" : 3.40340,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -1.8940,
+         "y" : 0.76590,
+         "z" : 1.78160
+      },
+      {
+         "heading" : 3.75250,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -2.26880,
+         "y" : 0.7690,
+         "z" : 1.60790
+      },
+      {
+         "heading" : 4.18880,
+         "height" : -0.01680,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -2.54810,
+         "y" : 0.75090,
+         "z" : 1.28030
+      },
+      {
+         "heading" : 4.53790,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -2.66180,
+         "y" : 0.77050,
+         "z" : 0.85990
+      },
+      {
+         "heading" : 4.97420,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -2.62780,
+         "y" : 0.76450,
+         "z" : 0.43520
+      },
+      {
+         "heading" : 5.32330,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -2.46730,
+         "y" : 0.77330,
+         "z" : 0.03870
+      },
+      {
+         "heading" : 7.06860,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -0.9340000000000001,
+         "y" : 0.7520,
+         "z" : -0.14320
+      },
+      {
+         "heading" : 7.41760,
+         "name" : "Torch Unlit 01",
+         "scaling" : 1.0,
+         "x" : -0.67350,
+         "y" : 0.750,
+         "z" : 0.21930
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.17990,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -0.75170,
+         "y" : 0.9298999999999999,
+         "z" : 1.30
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18120,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -1.09320,
+         "y" : 0.93120,
+         "z" : 1.57730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18420,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -1.47480,
+         "y" : 0.93420,
+         "z" : 1.73160
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.19090,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -1.880,
+         "y" : 0.9450,
+         "z" : 1.73020
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.1920,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -2.23730,
+         "y" : 0.94730,
+         "z" : 1.56240
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.1760,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -2.50170,
+         "y" : 0.93290,
+         "z" : 1.25440
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18460,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -2.60790,
+         "y" : 0.94440,
+         "z" : 0.8522999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18440,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -2.57690,
+         "y" : 0.94030,
+         "z" : 0.44840
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.18990,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -2.42370,
+         "y" : 0.9500999999999999,
+         "z" : 0.06859999999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.17610,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -0.97180,
+         "y" : 0.92610,
+         "z" : -0.10620
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.17340,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : -0.72070,
+         "y" : 0.92340,
+         "z" : 0.24280
+      },
+      {
+         "heading" : 2.26890,
+         "height" : -0.00050,
+         "name" : "Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.10,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 1.42370,
+         "y" : 0.38810,
+         "z" : -0.54310
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.15470,
+         "name" : "Small Fire",
+         "scaling" : 1.0,
+         "x" : 1.38180,
+         "y" : 0.55910,
+         "z" : -0.57260
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.0780,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : -1.27990,
+         "y" : 0.67310,
+         "z" : -0.590
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.04280,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.0,
+         "x" : -1.45890,
+         "y" : 0.70810,
+         "z" : -0.61560
+      },
+      {
+         "heading" : 5.06150,
+         "height" : -0.03930,
+         "name" : "Snowy Rock Small 02",
+         "scaling" : 1.0,
+         "x" : -1.8220,
+         "y" : 0.71580,
+         "z" : -0.590
+      },
+      {
+         "heading" : 4.01430,
+         "height" : -0.04360,
+         "name" : "Snowy Rock Small 02",
+         "scaling" : 1.0,
+         "x" : -2.35060,
+         "y" : 0.71480,
+         "z" : -0.37720
+      },
+      {
+         "heading" : 4.01430,
+         "height" : -0.03330,
+         "name" : "Snowy Rock Small 01",
+         "scaling" : 1.0,
+         "x" : -2.50090,
+         "y" : 0.71250,
+         "z" : -0.19250
+      },
+      {
+         "heading" : 4.36330,
+         "height" : -0.01240,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.0,
+         "x" : -2.6920,
+         "y" : 0.70190,
+         "z" : 0.02230
+      },
+      {
+         "heading" : 6.5450,
+         "height" : -0.0380,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.0,
+         "x" : -2.69060,
+         "y" : 0.72920,
+         "z" : 0.19560
+      },
+      {
+         "heading" : 6.02140,
+         "height" : -0.06569999999999999,
+         "name" : "Snowy Rock Small 03",
+         "scaling" : 1.0,
+         "x" : -2.77030,
+         "y" : 0.70890,
+         "z" : 0.65450
+      },
+      {
+         "heading" : 6.10870,
+         "height" : -0.01350,
+         "name" : "Dead Tree 01",
+         "scaling" : 0.8790,
+         "x" : -1.69340,
+         "y" : 0.73670,
+         "z" : -0.67710
+      },
+      {
+         "heading" : 1.74530,
+         "height" : -0.00940,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.28180,
+         "x" : -2.61790,
+         "y" : 0.72940,
+         "z" : -0.11840
+      },
+      {
+         "heading" : 3.49070,
+         "height" : -0.00560,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.04420,
+         "x" : -0.2430,
+         "y" : 0.74490,
+         "z" : -0.00710
+      },
+      {
+         "heading" : 3.49070,
+         "height" : -0.04450,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.240,
+         "x" : -0.5050,
+         "y" : 0.75620,
+         "z" : 1.33110
+      },
+      {
+         "heading" : 6.10870,
+         "height" : -0.07149999999999999,
+         "name" : "Snowy Rock Small 03",
+         "scaling" : 1.0,
+         "x" : -0.55960,
+         "y" : 0.6990,
+         "z" : 1.29140
+      },
+      {
+         "heading" : 3.49070,
+         "height" : -0.00280,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.240,
+         "x" : -1.67210,
+         "y" : 0.7776999999999999,
+         "z" : 1.91660
+      },
+      {
+         "heading" : 6.10870,
+         "height" : -0.07320,
+         "name" : "Snowy Rock Small 01",
+         "scaling" : 1.0,
+         "x" : -1.60170,
+         "y" : 0.72140,
+         "z" : 1.95880
+      },
+      {
+         "heading" : 3.75250,
+         "height" : -0.01350,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.28180,
+         "x" : -2.42160,
+         "y" : 0.76150,
+         "z" : 1.54460
+      },
+      {
+         "heading" : 8.726599999999999,
+         "height" : -0.13050,
+         "name" : "Snowy Rock Small 02",
+         "scaling" : 1.0,
+         "x" : -2.35470,
+         "y" : 0.64720,
+         "z" : 1.69360
+      },
+      {
+         "heading" : 5.41050,
+         "height" : 0.31040,
+         "name" : "Red Brick Tower Top C 02",
+         "scaling" : 0.79640,
+         "x" : 1.70040,
+         "y" : 0.69040,
+         "z" : -0.41140
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01410,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.62830,
+         "y" : 0.71110,
+         "z" : 1.0860
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01590,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.840,
+         "y" : 0.71380,
+         "z" : 1.02940
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02250,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.97530,
+         "y" : 0.70960,
+         "z" : 0.8967000000000001
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02430,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -2.04460,
+         "y" : 0.71280,
+         "z" : 0.7160
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.03730,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -2.00510,
+         "y" : 0.69930,
+         "z" : 0.5116000000000001
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.03590,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.87460,
+         "y" : 0.69530,
+         "z" : 0.37760
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02810,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.68310,
+         "y" : 0.68570,
+         "z" : 0.33060
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02530,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.48240,
+         "y" : 0.6850000000000001,
+         "z" : 0.36170
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.04370,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.30990,
+         "y" : 0.68020,
+         "z" : 0.48390
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02720,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.23850,
+         "y" : 0.70140,
+         "z" : 0.67750
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.01740,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.29260,
+         "y" : 0.70630,
+         "z" : 0.88790
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.02150,
+         "name" : "Hell Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -1.42430,
+         "y" : 0.7092000000000001,
+         "z" : 1.03730
+      },
+      {
+         "heading" : 0.26180,
+         "height" : 0.02740,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -1.73530,
+         "y" : 0.74560,
+         "z" : 1.0610
+      },
+      {
+         "heading" : 0.78540,
+         "height" : 0.02940,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -1.90760,
+         "y" : 0.75230,
+         "z" : 0.96130
+      },
+      {
+         "heading" : 1.22170,
+         "height" : 0.02170,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -2.00750,
+         "y" : 0.75120,
+         "z" : 0.81310
+      },
+      {
+         "heading" : 1.74530,
+         "height" : 0.02240,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -2.02540,
+         "y" : 0.75540,
+         "z" : 0.6140
+      },
+      {
+         "heading" : 2.35620,
+         "height" : 0.008999999999999999,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -1.93740,
+         "y" : 0.73860,
+         "z" : 0.44420
+      },
+      {
+         "heading" : 2.87980,
+         "height" : 0.01670,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -1.78050,
+         "y" : 0.73120,
+         "z" : 0.35590
+      },
+      {
+         "heading" : 3.31610,
+         "height" : 0.02640,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -1.57870,
+         "y" : 0.7260,
+         "z" : 0.34490
+      },
+      {
+         "heading" : 3.75250,
+         "height" : 0.01630,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -1.39550,
+         "y" : 0.72110,
+         "z" : 0.4220
+      },
+      {
+         "heading" : 4.36330,
+         "height" : 0.02280,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -1.27210,
+         "y" : 0.74030,
+         "z" : 0.57860
+      },
+      {
+         "heading" : 4.97420,
+         "height" : 0.03570,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -1.26560,
+         "y" : 0.74870,
+         "z" : 0.77940
+      },
+      {
+         "heading" : 5.41050,
+         "height" : 0.03660,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -1.35910,
+         "y" : 0.75190,
+         "z" : 0.96060
+      },
+      {
+         "heading" : 6.02140,
+         "height" : 0.02680,
+         "name" : "Graveyard Chain 01",
+         "scaling" : 1.12220,
+         "x" : -1.52320,
+         "y" : 0.74740,
+         "z" : 1.06440
+      },
+      {
+         "heading" : 9.1630,
+         "height" : -0.04130,
+         "name" : "Square Brick Column 02",
+         "scaling" : 1.20450,
+         "x" : -2.16910,
+         "y" : 0.76380,
+         "z" : -0.29460
+      },
+      {
+         "heading" : 9.424799999999999,
+         "height" : -0.01110,
+         "name" : "Square Brick Column 03",
+         "scaling" : 1.20450,
+         "x" : -1.72210,
+         "y" : 0.77020,
+         "z" : -0.45290
+      },
+      {
+         "heading" : 8.29030,
+         "height" : 0.00480,
+         "name" : "Square Brick Column 03",
+         "scaling" : 1.20450,
+         "x" : -1.30430,
+         "y" : 0.78250,
+         "z" : -0.42330
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00220,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -1.65820,
+         "y" : 0.46790,
+         "z" : 0.6960
+      },
+      {
+         "heading" : 6.37050,
+         "height" : -0.07779999999999999,
+         "name" : "Snowy Rock Small 03",
+         "scaling" : 1.0,
+         "x" : -0.24420,
+         "y" : 0.66880,
+         "z" : -0.08459999999999999
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : [
+      {
+         "name" : "Spawn Point 10",
+         "x" : 3.10150,
+         "y" : 0.22760,
+         "z" : 1.79290
+      }
+   ],
+   "startPosition" : [ 1.88660, -1.0190 ],
+   "tint" : [ 128, 144, 255, 64 ],
+   "title" : "",
+   "weather" : null
+}

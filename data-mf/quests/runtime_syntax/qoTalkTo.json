@@ -1,0 +1,6 @@
+{
+   "dialog" : {
+      "mandatory" : false,
+      "type" : "object"
+   }
+}

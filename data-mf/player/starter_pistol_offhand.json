@@ -1,0 +1,18 @@
+{
+	"actualBudget" : 1.0,
+	"equippedSlot" : "off_hand",
+	"color" : -10061158,
+	"decalColor" : -9729115,
+	"colorTexture" : "white",
+	"glowColor" : -8355712,
+	"itemClass" : "Pistol",
+	"itemLevel" : 1,
+	"name" : "Rusty Pistol",
+	"quality" : 0,
+	"slotI" : 0,
+	"slotJ" : 0,
+	"textureVariation" : "pistol_icon_01",
+	"modelVariation" : 0,
+	"upgrades" : [ "minDamage", 8, "maxDamage", 12 ],
+	"maxFusionLevels" : 0
+}

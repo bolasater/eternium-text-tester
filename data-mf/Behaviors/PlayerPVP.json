@@ -1,0 +1,117 @@
+{
+	"type":"Selector",
+	"id":"PlayerPVP",
+	"children":[
+		{
+			"type":"Sequence",
+			"children":[
+				{
+					"type":"Negate",
+					"node": {
+						"type":"IsAlive",
+						"creature":"hero"
+					}								
+				},
+				{
+					"type":"DoNothing"
+				}
+			]
+		},
+		{
+			"type":"Sequence",
+			"children":[
+				{
+					"type":"InCombat",
+					"creature":"self"
+				},				
+				{
+					"type":"Selector",
+					"children":[
+						{
+							"type":"Sequence",
+							"children":[
+								{
+									"type":"Negate",
+									"node": {
+										"type":"IsImmune",
+										"creature":"hero"
+									}								
+								},
+								{
+									"type":"Selector",
+									"children":[
+										"UseSpecialAbilities",
+										{
+											"type":"CastAbilities"
+										}
+									]
+								}
+							]
+
+						},						
+						{
+							"type":"Sequence",
+							"children":[
+								{
+									"type":"Selector",
+									"children":[
+										{
+											"type":"IsImmune",
+											"creature":"hero",
+											"remainingTime":2.0
+										},
+										{
+											"type":"Sequence",
+											"children":[
+												"Enraged",
+												{
+													"type":"Negate",
+													"node":"SelfEnraged"
+												},
+												{
+													"type":"Negate",
+													"node":{
+														"type":"LowHealth",
+														"creature":"hero"
+													}
+												},
+												{
+													"type":"LowHealth",
+													"creature":"self",
+													"healthPercent":0.15
+												},
+												{
+													"type":"Negate",
+													"node":{
+														"type":"IsImmune",
+														"creature":"self"
+													}
+												}
+											]
+										}
+									]
+								},
+								"RunInCover"
+							]
+						},
+
+						"SeekCover",
+						
+						"AvoidDamage",
+						
+						{
+							"type":"Kite"
+						},
+
+						{
+							"type":"AutoAttack"
+						}
+					]
+				}
+
+			]
+		},
+		"ScanForEnemies",
+		"WalkAround"
+	]
+}

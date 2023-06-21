@@ -1,0 +1,14 @@
+[
+{"type" : "equip"},
+{"type" : "find"},
+{"type" : "finish_level"},
+{"type" : "go_event"},
+{"type" : "in_page"},
+{"type" : "kill"},
+{"type" : "loot"},
+{"type" : "recruit"},
+{"type" : "start_level"},
+{"type" : "talk_to"},
+{"type" : "use_ability_upgrade"},
+{"type":"go_event"}
+]

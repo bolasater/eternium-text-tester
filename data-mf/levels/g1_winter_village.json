@@ -1,0 +1,7554 @@
+{
+   "ambient" : [ 85, 85, 85 ],
+   "bkg" : null,
+   "edit" : {
+      "designer" : "Eternium Level Designer",
+      "saveTime" : "1532598420449"
+   },
+   "enemyFlavors" : [ "ursoc", "savage beast" ],
+   "enemySetup" : [
+      {
+         "a" : 6.50660,
+         "creature" : "mugrunt_toady",
+         "eliteAbility0" : "enrage",
+         "eliteAbility1" : "chilling_aura",
+         "events" : {
+            "death" : "zzz",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -3.92940,
+         "z" : -0.69720
+      },
+      {
+         "a" : 4.99170,
+         "creature" : "bear_centurion",
+         "eliteAbility0" : "enrage",
+         "eliteAbility1" : "chilling_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : -6.80920,
+         "z" : 0.19280
+      },
+      {
+         "a" : 5.82240,
+         "creature" : "bear_centurion",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : 4.89770,
+         "z" : -1.58620
+      },
+      {
+         "a" : 4.16790,
+         "creature" : "bear_bearzerker",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : 6.26110,
+         "z" : 0.38960
+      },
+      {
+         "a" : 4.16790,
+         "creature" : "bear_bearzerker",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : 5.98960,
+         "z" : 0.77850
+      },
+      {
+         "a" : 4.16790,
+         "creature" : "bear_bearzerker",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : 4.8960,
+         "z" : 1.26530
+      },
+      {
+         "a" : 5.78750,
+         "creature" : "bear_centurion",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : 4.32970,
+         "z" : 0.61580
+      },
+      {
+         "a" : 5.78750,
+         "creature" : "bear_centurion",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : 0.99770,
+         "z" : -0.9570
+      },
+      {
+         "a" : 5.52920,
+         "creature" : "bear_oiler",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : 1.32020,
+         "z" : -0.64820
+      },
+      {
+         "a" : 5.52920,
+         "creature" : "bear_bearzerker",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : 3.29380,
+         "z" : 1.64210
+      },
+      {
+         "a" : 5.52920,
+         "creature" : "bear_oiler",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : 3.65770,
+         "z" : 1.60190
+      },
+      {
+         "a" : 4.1050,
+         "creature" : "bear_incinerator",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.15150,
+         "z" : 1.48730
+      },
+      {
+         "a" : 5.21510,
+         "creature" : "bear_bearzerker",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.30530,
+         "z" : 1.33080
+      },
+      {
+         "a" : 2.47140,
+         "creature" : "bear_centurion",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.08250,
+         "z" : 1.25790
+      },
+      {
+         "a" : 5.20810,
+         "creature" : "bear_incinerator",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -1.20090,
+         "z" : 0.70770
+      },
+      {
+         "a" : 7.19770,
+         "creature" : "bear_incinerator",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.99230,
+         "z" : 0.71250
+      },
+      {
+         "a" : 6.17150,
+         "creature" : "bear_incinerator",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -1.24750,
+         "z" : 0.5780
+      },
+      {
+         "a" : 4.16790,
+         "creature" : "bear_centurion",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.32280,
+         "z" : -0.3360
+      },
+      {
+         "a" : 1.78720,
+         "creature" : "bear_bearzerker",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.45920,
+         "z" : -0.28620
+      },
+      {
+         "a" : 6.28320,
+         "creature" : "bear_incinerator",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.90190,
+         "z" : -0.54730
+      },
+      {
+         "a" : 5.14520,
+         "creature" : "bear_oiler",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -1.07620,
+         "z" : -0.7433999999999999
+      },
+      {
+         "a" : 2.10840,
+         "creature" : "bear_incinerator",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.38110,
+         "z" : -0.8502999999999999
+      },
+      {
+         "a" : 2.10840,
+         "creature" : "bear_centurion",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.08640,
+         "z" : 0.55460
+      },
+      {
+         "a" : 4.42620,
+         "creature" : "bear_incinerator",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.77940,
+         "z" : 1.02740
+      },
+      {
+         "a" : 2.15020,
+         "creature" : "bear_bearzerker",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.5921999999999999,
+         "z" : -1.33680
+      },
+      {
+         "a" : 4.29350,
+         "creature" : "grufflesPack",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -2.69270,
+         "z" : 0.51110
+      }
+   ],
+   "fog" : [ 16, 32, 80 ],
+   "heroOmni" : {
+      "blue" : 0.32550,
+      "green" : 0.66670,
+      "r0" : 0.10,
+      "r1" : 0.50,
+      "red" : 0.86670
+   },
+   "lightCol" : [ 32, 48, 64 ],
+   "lightDir" : [ -0.12280, -0.98480, -0.12280 ],
+   "props" : [
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : -2.44340,
+         "y" : 0.78220,
+         "z" : -0.14290
+      },
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 1.0,
+         "x" : -3.68550,
+         "y" : 0.76820,
+         "z" : -0.09970
+      },
+      {
+         "heading" : 0.78190,
+         "height" : -0.01390,
+         "name" : "Green Wood House 02",
+         "scaling" : 1.0,
+         "x" : 4.5690,
+         "y" : 0.1310,
+         "z" : -1.34650
+      },
+      {
+         "heading" : 3.97240,
+         "height" : 0.11820,
+         "name" : "Green Wood House 02",
+         "scaling" : 1.0,
+         "x" : 4.08590,
+         "y" : 0.41240,
+         "z" : -1.04130
+      },
+      {
+         "heading" : 5.01260,
+         "height" : -0.02620,
+         "name" : "Green Wood House 02",
+         "scaling" : 1.0,
+         "x" : 6.69570,
+         "y" : 0.12780,
+         "z" : -0.96750
+      },
+      {
+         "heading" : 3.45570,
+         "height" : -0.0110,
+         "name" : "Green Wood House 01",
+         "scaling" : 1.0,
+         "x" : 6.68990,
+         "y" : 0.13390,
+         "z" : -1.62120
+      },
+      {
+         "heading" : 5.01260,
+         "height" : -0.02320,
+         "name" : "Green Wood House 02",
+         "scaling" : 1.0,
+         "x" : 6.65660,
+         "y" : 0.15550,
+         "z" : -0.08620
+      },
+      {
+         "heading" : 4.94270,
+         "height" : -0.25440,
+         "name" : "Green Wood House 03",
+         "scaling" : 1.0,
+         "x" : 6.63750,
+         "y" : 0.17510,
+         "z" : 0.40220
+      },
+      {
+         "heading" : 5.82240,
+         "height" : -0.02730,
+         "name" : "Green Wood House 04",
+         "scaling" : 1.0,
+         "x" : 6.30070,
+         "y" : 0.19350,
+         "z" : 1.150
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.28380,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 4.20610,
+         "y" : 0.42880,
+         "z" : -1.21330
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.25030,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 3.55630,
+         "y" : 0.44910,
+         "z" : -1.48010
+      },
+      {
+         "heading" : 0.76790,
+         "height" : -0.03560,
+         "name" : "Green Wood House 04",
+         "scaling" : 1.0,
+         "x" : 3.98520,
+         "y" : 0.10930,
+         "z" : -1.53910
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.0020,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 4.42280,
+         "y" : 0.54610,
+         "z" : 1.59860
+      },
+      {
+         "heading" : 3.85370,
+         "height" : -0.00120,
+         "name" : "Green Wood House 01",
+         "scaling" : 1.0,
+         "x" : 3.48740,
+         "y" : 0.14380,
+         "z" : -1.70920
+      },
+      {
+         "heading" : 6.17850,
+         "height" : -0.39010,
+         "name" : "Green Wood Attic 01",
+         "scaling" : 1.0,
+         "x" : 3.09150,
+         "y" : 0.10210,
+         "z" : -1.40310
+      },
+      {
+         "heading" : 0.0,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 3.75430,
+         "y" : 0.14490,
+         "z" : -1.71350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00270,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 3.46070,
+         "y" : 0.14560,
+         "z" : -2.03660
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00430,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 3.58840,
+         "y" : 0.14920,
+         "z" : -1.8810
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00170,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 3.74330,
+         "y" : 0.14660,
+         "z" : -1.73240
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00050,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 3.69070,
+         "y" : 0.14540,
+         "z" : -1.80160
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.05320,
+         "name" : "blocker",
+         "scaling" : 1.0,
+         "x" : 3.30790,
+         "y" : 0.11980,
+         "z" : -1.99690
+      },
+      {
+         "heading" : -0.06980,
+         "height" : 0.01340,
+         "name" : "blocker",
+         "scaling" : 2.31260,
+         "x" : 3.08240,
+         "y" : 0.50910,
+         "z" : -1.42760
+      },
+      {
+         "heading" : -0.06980,
+         "height" : 0.01170,
+         "name" : "blocker",
+         "scaling" : 3.24670,
+         "x" : 3.62760,
+         "y" : 0.45620,
+         "z" : -0.99880
+      },
+      {
+         "heading" : -0.06980,
+         "height" : 0.02090,
+         "name" : "blocker",
+         "scaling" : 4.18460,
+         "x" : 4.05120,
+         "y" : 0.43720,
+         "z" : -0.83350
+      },
+      {
+         "heading" : -0.06980,
+         "height" : 0.02810,
+         "name" : "blocker",
+         "scaling" : 3.24670,
+         "x" : 3.30660,
+         "y" : 0.4980,
+         "z" : -1.20740
+      },
+      {
+         "heading" : 13.31330,
+         "height" : -0.0040,
+         "name" : "Green Wood House 04",
+         "scaling" : 1.0,
+         "x" : 4.940,
+         "y" : 0.14090,
+         "z" : -0.89720
+      },
+      {
+         "heading" : -0.06980,
+         "height" : 0.23250,
+         "name" : "blocker",
+         "scaling" : 4.18460,
+         "x" : 4.80880,
+         "y" : 0.37740,
+         "z" : -0.62980
+      },
+      {
+         "heading" : -0.06980,
+         "height" : 0.26710,
+         "name" : "blocker",
+         "scaling" : 4.18460,
+         "x" : 4.44510,
+         "y" : 0.42650,
+         "z" : -0.75390
+      },
+      {
+         "heading" : 13.31330,
+         "height" : -0.00150,
+         "name" : "Green Wood House 04",
+         "scaling" : 1.0,
+         "x" : 5.3650,
+         "y" : 0.25450,
+         "z" : 1.9510
+      },
+      {
+         "heading" : 4.8380,
+         "height" : 0.00250,
+         "name" : "blocker",
+         "scaling" : 3.0390,
+         "x" : 5.96650,
+         "y" : 0.26090,
+         "z" : 1.57390
+      },
+      {
+         "heading" : 4.8380,
+         "height" : -0.06310,
+         "name" : "blocker",
+         "scaling" : 3.0390,
+         "x" : 6.89670,
+         "y" : 0.22780,
+         "z" : -0.55230
+      },
+      {
+         "heading" : 4.8380,
+         "height" : 0.01560,
+         "name" : "blocker",
+         "scaling" : 3.0390,
+         "x" : 5.41690,
+         "y" : 0.27430,
+         "z" : 1.76070
+      },
+      {
+         "heading" : 4.8380,
+         "height" : 0.13270,
+         "name" : "blocker",
+         "scaling" : 3.0390,
+         "x" : 5.05280,
+         "y" : 0.53350,
+         "z" : 2.10150
+      },
+      {
+         "heading" : 4.8380,
+         "height" : 0.02310,
+         "name" : "blocker",
+         "scaling" : 3.0390,
+         "x" : 6.64180,
+         "y" : 0.1820,
+         "z" : -0.7230
+      },
+      {
+         "heading" : 4.8380,
+         "height" : 0.01520,
+         "name" : "blocker",
+         "scaling" : 3.0390,
+         "x" : 6.63660,
+         "y" : 0.19010,
+         "z" : -0.32150
+      },
+      {
+         "heading" : 4.8380,
+         "height" : -0.1030,
+         "name" : "blocker",
+         "scaling" : 3.0390,
+         "x" : 6.60060,
+         "y" : 0.21950,
+         "z" : 0.23980
+      },
+      {
+         "heading" : 4.8380,
+         "height" : -0.00270,
+         "name" : "blocker",
+         "scaling" : 3.0390,
+         "x" : 6.36760,
+         "y" : 0.22540,
+         "z" : 0.83460
+      },
+      {
+         "heading" : 4.8380,
+         "height" : 0.01660,
+         "name" : "blocker",
+         "scaling" : 3.0390,
+         "x" : 6.12080,
+         "y" : 0.24150,
+         "z" : 1.0960
+      },
+      {
+         "heading" : 12.46860,
+         "height" : -0.05790,
+         "name" : "Green Wood House 04",
+         "scaling" : 1.0,
+         "x" : 5.00860,
+         "y" : 0.21840,
+         "z" : 1.7580
+      },
+      {
+         "heading" : 11.75650,
+         "name" : "Green Wood House 04",
+         "scaling" : 1.0,
+         "x" : 4.49860,
+         "y" : 0.54410,
+         "z" : 1.84210
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.00510,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 4.72460,
+         "y" : 0.54610,
+         "z" : 1.87740
+      },
+      {
+         "heading" : -3.46980,
+         "height" : -0.01370,
+         "name" : "Wooden Bridge Railing",
+         "scaling" : 0.95070,
+         "x" : 6.58940,
+         "y" : 0.1550,
+         "z" : -0.62140
+      },
+      {
+         "heading" : 6.98830,
+         "height" : -0.04740,
+         "name" : "Green Wood Tower 02",
+         "scaling" : 1.0,
+         "x" : 4.51630,
+         "y" : 0.28250,
+         "z" : 1.34150
+      },
+      {
+         "heading" : 6.98830,
+         "height" : -0.05670,
+         "name" : "Green Wood Tower 02",
+         "scaling" : 1.0,
+         "x" : 3.84450,
+         "y" : 0.32430,
+         "z" : 0.70240
+      },
+      {
+         "heading" : 6.33910,
+         "height" : -0.12220,
+         "name" : "Green Wood House 02",
+         "scaling" : 1.0,
+         "x" : 4.16020,
+         "y" : 0.30030,
+         "z" : 1.0580
+      },
+      {
+         "heading" : 18.6050,
+         "height" : -0.06180,
+         "name" : "Green Wood House 04",
+         "scaling" : 1.0,
+         "x" : 3.89230,
+         "y" : 0.52410,
+         "z" : 2.10960
+      },
+      {
+         "heading" : 19.14960,
+         "height" : -0.25120,
+         "name" : "Green Wood House 04",
+         "scaling" : 1.0,
+         "x" : 3.22310,
+         "y" : 0.53530,
+         "z" : 2.13810
+      },
+      {
+         "heading" : 19.07280,
+         "height" : -0.14150,
+         "name" : "Green Wood Attic 01",
+         "scaling" : 1.0,
+         "x" : 3.25680,
+         "y" : 0.54950,
+         "z" : 2.07050
+      },
+      {
+         "heading" : 21.62080,
+         "height" : -0.10480,
+         "name" : "Green Wood Tower 02",
+         "scaling" : 1.0,
+         "x" : 3.56410,
+         "y" : 0.68260,
+         "z" : 2.18810
+      },
+      {
+         "heading" : 20.69230,
+         "height" : -0.21140,
+         "name" : "Green Wood Tower 02",
+         "scaling" : 1.0,
+         "x" : 6.9970,
+         "y" : 0.17510,
+         "z" : 0.1430
+      },
+      {
+         "heading" : 23.86170,
+         "height" : -0.28330,
+         "name" : "Green Wood Tower 02",
+         "scaling" : 1.0,
+         "x" : 6.89340,
+         "y" : -0.09590,
+         "z" : -1.26080
+      },
+      {
+         "heading" : 0.72610,
+         "height" : -0.00430,
+         "name" : "Winter Fence 06",
+         "scaling" : 1.0,
+         "x" : 3.55540,
+         "y" : 0.5397999999999999,
+         "z" : 0.76550
+      },
+      {
+         "heading" : 1.02630,
+         "height" : -0.00430,
+         "name" : "Winter Fence 05",
+         "scaling" : 1.0,
+         "x" : 3.36250,
+         "y" : 0.5397999999999999,
+         "z" : 0.5348000000000001
+      },
+      {
+         "heading" : 1.16590,
+         "height" : -0.00320,
+         "name" : "Winter Fence 04",
+         "scaling" : 1.0,
+         "x" : 3.22930,
+         "y" : 0.54090,
+         "z" : 0.27020
+      },
+      {
+         "heading" : 0.9844000000000001,
+         "height" : -0.00380,
+         "name" : "Winter Fence 05",
+         "scaling" : 1.0,
+         "x" : 3.08920,
+         "y" : 0.54030,
+         "z" : 0.008399999999999999
+      },
+      {
+         "heading" : 0.65620,
+         "height" : -0.00380,
+         "name" : "Winter Fence 03",
+         "scaling" : 1.0,
+         "x" : 2.89230,
+         "y" : 0.54030,
+         "z" : -0.20240
+      },
+      {
+         "heading" : 0.5165999999999999,
+         "height" : -0.01130,
+         "name" : "Winter Fence 04",
+         "scaling" : 1.0,
+         "x" : 2.64660,
+         "y" : 0.5328000000000001,
+         "z" : -0.35540
+      },
+      {
+         "heading" : 3.68610,
+         "height" : -0.01530,
+         "name" : "Winter Fence 04",
+         "scaling" : 1.0,
+         "x" : 2.39680,
+         "y" : 0.52880,
+         "z" : -0.49780
+      },
+      {
+         "heading" : 3.68610,
+         "height" : -0.01550,
+         "name" : "Winter Fence 05",
+         "scaling" : 1.0,
+         "x" : 2.15160,
+         "y" : 0.52860,
+         "z" : -0.65260
+      },
+      {
+         "heading" : 3.68610,
+         "height" : -0.01510,
+         "name" : "Winter Fence 06",
+         "scaling" : 1.0,
+         "x" : 1.90180,
+         "y" : 0.52880,
+         "z" : -0.80220
+      },
+      {
+         "heading" : -0.83780,
+         "name" : "Well 01",
+         "scaling" : 1.28440,
+         "x" : 5.68840,
+         "y" : 0.16410,
+         "z" : -0.39050
+      },
+      {
+         "heading" : -0.06980,
+         "height" : -0.02260,
+         "name" : "blocker",
+         "scaling" : 2.50620,
+         "x" : 3.84220,
+         "y" : 0.37090,
+         "z" : 0.72380
+      },
+      {
+         "heading" : -0.06980,
+         "height" : -0.11110,
+         "name" : "blocker",
+         "scaling" : 4.18460,
+         "x" : 4.09160,
+         "y" : 0.35620,
+         "z" : 1.05220
+      },
+      {
+         "heading" : -0.06980,
+         "height" : -0.008399999999999999,
+         "name" : "blocker",
+         "scaling" : 2.50620,
+         "x" : 4.52740,
+         "y" : 0.31850,
+         "z" : 1.350
+      },
+      {
+         "heading" : -0.06980,
+         "height" : 0.00620,
+         "name" : "blocker",
+         "scaling" : 2.50620,
+         "x" : 5.06280,
+         "y" : 0.28790,
+         "z" : 1.51330
+      },
+      {
+         "heading" : -0.06980,
+         "height" : 0.00520,
+         "name" : "blocker",
+         "scaling" : 4.18460,
+         "x" : 4.37970,
+         "y" : 0.54930,
+         "z" : 1.79130
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.00120,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 6.58650,
+         "y" : 0.14320,
+         "z" : -1.95670
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -0.83780,
+         "height" : -0.00550,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 2.75520,
+         "y" : 0.51380,
+         "z" : -1.78110
+      },
+      {
+         "heading" : 3.82580,
+         "height" : -0.00120,
+         "name" : "Winter Fence 05",
+         "scaling" : 1.0,
+         "x" : 2.88480,
+         "y" : 0.51040,
+         "z" : -1.70670
+      },
+      {
+         "heading" : 3.65820,
+         "height" : 0.00050,
+         "name" : "Winter Fence 02",
+         "scaling" : 1.0,
+         "x" : 2.65240,
+         "y" : 0.5270,
+         "z" : -1.89230
+      },
+      {
+         "heading" : 6.44380,
+         "height" : 0.00380,
+         "name" : "Winter Fence 02",
+         "scaling" : 1.0,
+         "x" : 2.3770,
+         "y" : 0.53230,
+         "z" : -1.99790
+      },
+      {
+         "heading" : 9.44570,
+         "height" : -0.00070,
+         "name" : "Winter Fence 03",
+         "scaling" : 1.0,
+         "x" : 2.08370,
+         "y" : 0.54240,
+         "z" : -2.03670
+      },
+      {
+         "heading" : 9.15950,
+         "height" : -0.00090,
+         "name" : "Winter Fence 05",
+         "scaling" : 1.0,
+         "x" : 1.78980,
+         "y" : 0.54320,
+         "z" : -2.00760
+      },
+      {
+         "heading" : 11.07930,
+         "height" : 0.00280,
+         "name" : "Winter Fence 04",
+         "scaling" : 1.0,
+         "x" : 1.64790,
+         "y" : 0.54420,
+         "z" : -2.08830
+      },
+      {
+         "heading" : 9.64120,
+         "height" : 0.26390,
+         "name" : "Winter Fence 02",
+         "scaling" : 1.0,
+         "x" : 0.94030,
+         "y" : 0.54530,
+         "z" : -2.30910
+      },
+      {
+         "heading" : 9.54340,
+         "height" : 0.30150,
+         "name" : "Winter Fence 03",
+         "scaling" : 1.0,
+         "x" : 0.6608000000000001,
+         "y" : 0.54530,
+         "z" : -2.36380
+      },
+      {
+         "heading" : 12.67790,
+         "height" : 0.18870,
+         "name" : "Winter Fence 04",
+         "scaling" : 1.0,
+         "x" : 1.5130,
+         "y" : 0.54460,
+         "z" : -2.24610
+      },
+      {
+         "heading" : 19.87570,
+         "height" : -0.02040,
+         "name" : "Green Wood House 02",
+         "scaling" : 1.0,
+         "x" : 0.42160,
+         "y" : 0.52440,
+         "z" : -1.95390
+      },
+      {
+         "heading" : 22.93320,
+         "height" : -0.01320,
+         "name" : "Green Wood Tower 01",
+         "scaling" : 0.9820,
+         "x" : 1.08560,
+         "y" : 0.53090,
+         "z" : -0.50690
+      },
+      {
+         "heading" : 12.67790,
+         "height" : 0.2390,
+         "name" : "Winter Fence 04",
+         "scaling" : 1.0,
+         "x" : 1.23610,
+         "y" : 0.54540,
+         "z" : -2.26990
+      },
+      {
+         "heading" : -0.18850,
+         "name" : "blocker",
+         "scaling" : 1.47920,
+         "x" : 2.88180,
+         "y" : 0.51210,
+         "z" : -1.71930
+      },
+      {
+         "heading" : -0.18850,
+         "name" : "blocker",
+         "scaling" : 1.47920,
+         "x" : 2.71390,
+         "y" : 0.52330,
+         "z" : -1.8630
+      },
+      {
+         "heading" : -0.18850,
+         "name" : "blocker",
+         "scaling" : 1.47920,
+         "x" : 2.50420,
+         "y" : 0.52840,
+         "z" : -1.97820
+      },
+      {
+         "heading" : -0.18850,
+         "height" : 0.0005999999999999999,
+         "name" : "blocker",
+         "scaling" : 1.47920,
+         "x" : 2.27740,
+         "y" : 0.5318000000000001,
+         "z" : -2.02430
+      },
+      {
+         "heading" : -0.18850,
+         "height" : 0.00750,
+         "name" : "blocker",
+         "scaling" : 1.47920,
+         "x" : 2.06010,
+         "y" : 0.54880,
+         "z" : -2.06990
+      },
+      {
+         "heading" : -0.18850,
+         "height" : 0.0040,
+         "name" : "blocker",
+         "scaling" : 1.47920,
+         "x" : 1.80760,
+         "y" : 0.54780,
+         "z" : -2.04450
+      },
+      {
+         "heading" : -0.18850,
+         "height" : 0.01410,
+         "name" : "blocker",
+         "scaling" : 1.47920,
+         "x" : 1.69030,
+         "y" : 0.55640,
+         "z" : -2.09740
+      },
+      {
+         "heading" : -0.07679999999999999,
+         "height" : 0.00580,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.65030,
+         "y" : 0.5499000000000001,
+         "z" : -2.00570
+      },
+      {
+         "heading" : -0.05580,
+         "height" : 0.0080,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.39540,
+         "y" : 0.55210,
+         "z" : -2.01980
+      },
+      {
+         "heading" : -0.05580,
+         "height" : 0.01460,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.64350,
+         "y" : 0.55870,
+         "z" : -1.77410
+      },
+      {
+         "heading" : -0.05580,
+         "height" : 0.0110,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.41750,
+         "y" : 0.55880,
+         "z" : -1.75720
+      },
+      {
+         "heading" : 18.36080,
+         "height" : -0.03570,
+         "name" : "Green Wood Attic 01",
+         "scaling" : 1.0,
+         "x" : 0.36170,
+         "y" : 0.53990,
+         "z" : -1.90430
+      },
+      {
+         "heading" : 21.44640,
+         "height" : -0.03230,
+         "name" : "Green Wood House 03",
+         "scaling" : 1.0,
+         "x" : 0.47170,
+         "y" : 0.51180,
+         "z" : -1.330
+      },
+      {
+         "heading" : 19.7640,
+         "height" : -0.0140,
+         "name" : "Green Wood House 03",
+         "scaling" : 1.0,
+         "x" : 0.5470,
+         "y" : 0.53010,
+         "z" : -0.74980
+      },
+      {
+         "heading" : 18.24220,
+         "height" : 0.00010,
+         "name" : "Green Wood Attic 01",
+         "scaling" : 1.0,
+         "x" : 0.4850,
+         "y" : 0.54530,
+         "z" : -0.69880
+      },
+      {
+         "heading" : 23.02410,
+         "height" : 0.33790,
+         "name" : "Green Wood Tower 02",
+         "scaling" : 1.0,
+         "x" : 0.51210,
+         "y" : 0.8820,
+         "z" : -1.24010
+      },
+      {
+         "heading" : 21.39060,
+         "height" : -0.02160,
+         "name" : "Green Wood House 03",
+         "scaling" : 1.0,
+         "x" : 0.70180,
+         "y" : 0.52250,
+         "z" : -0.08270
+      },
+      {
+         "heading" : 0.45380,
+         "height" : -0.00360,
+         "name" : "Graveyard Crypt 01",
+         "scaling" : 1.0,
+         "x" : -1.28980,
+         "y" : 0.82980,
+         "z" : 0.97370
+      },
+      {
+         "heading" : -0.07679999999999999,
+         "height" : -0.01420,
+         "name" : "Graveyard Mausoleum 01",
+         "scaling" : 1.0,
+         "x" : -0.12140,
+         "y" : 0.82670,
+         "z" : 1.8370
+      },
+      {
+         "heading" : 2.35270,
+         "height" : -0.00830,
+         "name" : "Graveyard Sarcophagus 04",
+         "scaling" : 1.0,
+         "x" : -0.46130,
+         "y" : 0.8250999999999999,
+         "z" : 1.520
+      },
+      {
+         "heading" : 1.43120,
+         "height" : -0.00810,
+         "name" : "Graveyard Sarcophagus 03",
+         "scaling" : 1.0,
+         "x" : -0.68640,
+         "y" : 0.82530,
+         "z" : 1.3860
+      },
+      {
+         "heading" : 3.61630,
+         "height" : -0.00240,
+         "name" : "Graveyard Sarcophagus 02",
+         "scaling" : 1.0,
+         "x" : -1.44850,
+         "y" : 0.8410,
+         "z" : 0.84970
+      },
+      {
+         "heading" : 0.91460,
+         "height" : -0.02090,
+         "name" : "Graveyard Tombstone 05",
+         "scaling" : 1.0,
+         "x" : -0.60320,
+         "y" : 0.81240,
+         "z" : 1.05170
+      },
+      {
+         "heading" : 1.26360,
+         "height" : -0.01780,
+         "name" : "Graveyard Tombstone 04",
+         "scaling" : 1.0,
+         "x" : -1.49410,
+         "y" : 0.84110,
+         "z" : 0.56880
+      },
+      {
+         "heading" : -0.05580,
+         "height" : 0.01460,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.6850000000000001,
+         "y" : 0.55870,
+         "z" : -1.32260
+      },
+      {
+         "heading" : -0.05580,
+         "height" : 0.01460,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.62370,
+         "y" : 0.55870,
+         "z" : -1.55880
+      },
+      {
+         "heading" : -0.05580,
+         "height" : 0.01460,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.64190,
+         "y" : 0.55870,
+         "z" : -0.8735000000000001
+      },
+      {
+         "heading" : -0.05580,
+         "height" : 0.01460,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.78150,
+         "y" : 0.55870,
+         "z" : -0.69290
+      },
+      {
+         "heading" : -0.05580,
+         "height" : 0.01460,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.9570,
+         "y" : 0.55870,
+         "z" : -0.07650
+      },
+      {
+         "heading" : -0.05580,
+         "height" : 0.01460,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.70050,
+         "y" : 0.55870,
+         "z" : -0.41610
+      },
+      {
+         "heading" : -0.05580,
+         "height" : 0.01460,
+         "name" : "blocker",
+         "scaling" : 2.33580,
+         "x" : 0.65840,
+         "y" : 0.55870,
+         "z" : -0.99720
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 3.37890,
+         "height" : 0.18250,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 0.57420,
+         "y" : 0.55220,
+         "z" : -2.32390
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 1.89890,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 3.09450,
+         "y" : 0.5460,
+         "z" : 1.61820
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -1.61260,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 4.45860,
+         "y" : 0.37750,
+         "z" : -0.42840
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 2.36670,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 1.46640,
+         "y" : 0.54440,
+         "z" : 0.25820
+      },
+      {
+         "heading" : 2.9880,
+         "name" : "Mine Lamp 01 Unlit",
+         "scaling" : 1.0,
+         "x" : -1.59840,
+         "y" : 0.83330,
+         "z" : 0.2630
+      },
+      {
+         "heading" : 24.66470,
+         "height" : -0.0,
+         "name" : "Brick Fence 02",
+         "scaling" : 1.0,
+         "x" : 0.00250,
+         "y" : 0.83340,
+         "z" : 0.0240
+      },
+      {
+         "heading" : 19.16360,
+         "height" : -0.00020,
+         "name" : "Brick Fence 01",
+         "scaling" : 1.0,
+         "x" : -1.53440,
+         "y" : 0.83350,
+         "z" : -0.15610
+      },
+      {
+         "heading" : 19.16360,
+         "name" : "Brick Fence 03",
+         "scaling" : 1.0,
+         "x" : -1.34820,
+         "y" : 0.83330,
+         "z" : -0.09370000000000001
+      },
+      {
+         "heading" : 24.66470,
+         "height" : -0.0,
+         "name" : "Brick Fence 04",
+         "scaling" : 1.0,
+         "x" : -0.16990,
+         "y" : 0.83340,
+         "z" : 0.11190
+      },
+      {
+         "heading" : 25.03460,
+         "height" : -0.0,
+         "name" : "Brick Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : -0.23030,
+         "y" : 0.83340,
+         "z" : 0.11830
+      },
+      {
+         "heading" : 25.34180,
+         "height" : 0.00010,
+         "name" : "Brick Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : -1.25020,
+         "y" : 0.83340,
+         "z" : -0.07370
+      },
+      {
+         "heading" : 19.0310,
+         "height" : -0.0,
+         "name" : "Brick Fence 04",
+         "scaling" : 1.0,
+         "x" : -1.17840,
+         "y" : 0.83330,
+         "z" : -0.05380
+      },
+      {
+         "heading" : 19.0310,
+         "height" : -0.00010,
+         "name" : "Brick Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : -1.05210,
+         "y" : 0.8332000000000001,
+         "z" : -0.01640
+      },
+      {
+         "heading" : 25.12540,
+         "height" : 0.0,
+         "name" : "Brick Fence 02",
+         "scaling" : 1.0,
+         "x" : -0.35340,
+         "y" : 0.83340,
+         "z" : 0.12010
+      },
+      {
+         "heading" : 19.16360,
+         "height" : -0.008800000000000001,
+         "name" : "Brick Fence 01",
+         "scaling" : 1.0,
+         "x" : -0.93640,
+         "y" : 0.82450,
+         "z" : 0.01850
+      },
+      {
+         "heading" : 20.90890,
+         "height" : -0.00010,
+         "name" : "Brick Fence 01",
+         "scaling" : 1.0,
+         "x" : 0.36790,
+         "y" : 0.8332000000000001,
+         "z" : 0.63780
+      },
+      {
+         "heading" : 25.03460,
+         "name" : "Brick Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.42350,
+         "y" : 0.83340,
+         "z" : 0.51710
+      },
+      {
+         "heading" : 20.74830,
+         "height" : -0.00020,
+         "name" : "Brick Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.31340,
+         "y" : 0.83310,
+         "z" : 0.75680
+      },
+      {
+         "heading" : 20.74830,
+         "height" : -0.0,
+         "name" : "Brick Fence 03",
+         "scaling" : 1.0,
+         "x" : 0.28780,
+         "y" : 0.83330,
+         "z" : 0.89130
+      },
+      {
+         "heading" : 25.03460,
+         "height" : 0.00010,
+         "name" : "Brick Fence Pillar 01",
+         "scaling" : 1.0,
+         "x" : 0.08810,
+         "y" : 0.83350,
+         "z" : 1.67570
+      },
+      {
+         "heading" : 20.48310,
+         "name" : "Brick Fence 02",
+         "scaling" : 1.0,
+         "x" : 0.09619999999999999,
+         "y" : 0.83340,
+         "z" : 1.57190
+      },
+      {
+         "heading" : 20.55290,
+         "name" : "Brick Fence Pillar 02",
+         "scaling" : 1.0,
+         "x" : 0.09859999999999999,
+         "y" : 0.83340,
+         "z" : 1.41740
+      },
+      {
+         "heading" : 20.55290,
+         "height" : 0.0,
+         "name" : "Brick Fence 04",
+         "scaling" : 1.0,
+         "x" : 0.12860,
+         "y" : 0.83340,
+         "z" : 1.3130
+      },
+      {
+         "heading" : 3.68610,
+         "height" : -0.01250,
+         "name" : "Winter Fence 09",
+         "scaling" : 1.0,
+         "x" : 2.07050,
+         "y" : 0.6104000000000001,
+         "z" : 0.70890
+      },
+      {
+         "heading" : 3.13460,
+         "height" : -0.01290,
+         "name" : "Winter Fence 07",
+         "scaling" : 1.0,
+         "x" : 2.34020,
+         "y" : 0.5730,
+         "z" : 0.8450
+      },
+      {
+         "heading" : 3.68610,
+         "height" : -0.09350,
+         "name" : "Winter Fence 08",
+         "scaling" : 1.0,
+         "x" : 2.10020,
+         "y" : 0.52560,
+         "z" : 0.7520
+      },
+      {
+         "heading" : 3.21140,
+         "name" : "Well 01",
+         "scaling" : 1.0,
+         "x" : 2.83630,
+         "y" : 0.54410,
+         "z" : -0.00770
+      },
+      {
+         "heading" : 0.20940,
+         "name" : "Mine Ruins Gate 01",
+         "scaling" : 1.47590,
+         "x" : -0.6447000000000001,
+         "y" : 0.83330,
+         "z" : 0.08630
+      },
+      {
+         "heading" : 1.94080,
+         "height" : -0.00520,
+         "name" : "Mine Ruins Gate 01",
+         "scaling" : 1.47590,
+         "x" : 0.20690,
+         "y" : 0.82820,
+         "z" : 1.10830
+      },
+      {
+         "heading" : 0.20940,
+         "height" : -0.00660,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -0.32310,
+         "y" : 0.82570,
+         "z" : -1.87610
+      },
+      {
+         "heading" : -0.20250,
+         "height" : -0.01210,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -0.48120,
+         "y" : 0.82120,
+         "z" : -1.89340
+      },
+      {
+         "heading" : -0.44680,
+         "height" : -0.00740,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.7580,
+         "x" : -0.7860,
+         "y" : 0.8260,
+         "z" : -1.86450
+      },
+      {
+         "heading" : -0.03490,
+         "height" : -0.01250,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -0.64890,
+         "y" : 0.82090,
+         "z" : -1.88430
+      },
+      {
+         "heading" : -0.48870,
+         "height" : -0.00370,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -0.92110,
+         "y" : 0.82950,
+         "z" : -1.79960
+      },
+      {
+         "heading" : 0.25830,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 04",
+         "scaling" : 1.72530,
+         "x" : -3.50020,
+         "y" : 0.80320,
+         "z" : 0.79250
+      },
+      {
+         "heading" : 0.25830,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 02",
+         "scaling" : 1.91750,
+         "x" : -3.67170,
+         "y" : 0.78020,
+         "z" : 0.19950
+      },
+      {
+         "heading" : 1.96870,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 03",
+         "scaling" : 1.54380,
+         "x" : -2.68820,
+         "y" : 0.79820,
+         "z" : 0.40360
+      },
+      {
+         "heading" : 5.64090,
+         "height" : -0.00080,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.92510,
+         "x" : -0.13960,
+         "y" : 0.83260,
+         "z" : -1.95770
+      },
+      {
+         "heading" : -2.2410,
+         "height" : -0.00580,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.92510,
+         "x" : -1.50080,
+         "y" : 0.82860,
+         "z" : -0.25550
+      },
+      {
+         "heading" : 2.15030,
+         "height" : 0.010,
+         "name" : "Snow Decal 02",
+         "scaling" : 0.75610,
+         "x" : 5.56480,
+         "y" : 0.14490,
+         "z" : -0.95560
+      },
+      {
+         "heading" : 4.03520,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 0.75610,
+         "x" : 6.38560,
+         "y" : 0.15960,
+         "z" : -0.55420
+      },
+      {
+         "heading" : 8.112299999999999,
+         "height" : 0.010,
+         "name" : "Snow Decal 02",
+         "scaling" : 0.75610,
+         "x" : 5.76220,
+         "y" : 0.25120,
+         "z" : 1.28830
+      },
+      {
+         "heading" : 2.56910,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 0.75610,
+         "x" : 5.47080,
+         "y" : 0.14490,
+         "z" : -1.12250
+      },
+      {
+         "heading" : 3.32310,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 0.92280,
+         "x" : 6.29770,
+         "y" : 0.14440,
+         "z" : -1.44380
+      },
+      {
+         "heading" : 12.02180,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 0.71380,
+         "x" : 2.42490,
+         "y" : 0.52210,
+         "z" : -0.68330
+      },
+      {
+         "heading" : 8.83140,
+         "height" : 0.010,
+         "name" : "Snow Decal 02",
+         "scaling" : 0.71380,
+         "x" : 2.54980,
+         "y" : 0.54420,
+         "z" : 0.69750
+      },
+      {
+         "heading" : 15.2820,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 0.71380,
+         "x" : 1.41620,
+         "y" : 0.54410,
+         "z" : -0.8552999999999999
+      },
+      {
+         "heading" : 15.2820,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 0.71380,
+         "x" : 0.99130,
+         "y" : 0.54410,
+         "z" : -1.55960
+      },
+      {
+         "heading" : -5.47340,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.09850,
+         "x" : -2.71950,
+         "y" : 0.92710,
+         "z" : -1.42460
+      },
+      {
+         "heading" : 6.31810,
+         "height" : -0.01320,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.34650,
+         "x" : -2.6380,
+         "y" : 0.91910,
+         "z" : -1.63750
+      },
+      {
+         "heading" : 5.43840,
+         "height" : 0.00340,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.3060,
+         "x" : -1.53320,
+         "y" : 0.83670,
+         "z" : -1.69830
+      },
+      {
+         "heading" : 4.97770,
+         "height" : -0.0,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.32490,
+         "x" : -1.39070,
+         "y" : 0.83330,
+         "z" : -1.65730
+      },
+      {
+         "heading" : 2.53420,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.92510,
+         "x" : -1.63940,
+         "y" : 0.83330,
+         "z" : -0.35930
+      },
+      {
+         "heading" : 0.08380,
+         "height" : 0.0030,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.92510,
+         "x" : -1.91680,
+         "y" : 0.8290999999999999,
+         "z" : 0.05020
+      },
+      {
+         "heading" : 3.58140,
+         "height" : -0.02970,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.26040,
+         "x" : -2.8740,
+         "y" : 0.93560,
+         "z" : -1.61710
+      },
+      {
+         "heading" : -2.2410,
+         "height" : -0.01260,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.49480,
+         "x" : -0.03330,
+         "y" : 0.82080,
+         "z" : -1.16680
+      },
+      {
+         "heading" : -0.03490,
+         "height" : -0.01240,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -1.24640,
+         "y" : 0.82090,
+         "z" : -1.67430
+      },
+      {
+         "heading" : 0.27230,
+         "height" : -0.00550,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -1.7820,
+         "y" : 0.82760,
+         "z" : -1.78250
+      },
+      {
+         "heading" : -0.20250,
+         "height" : -0.00710,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -1.94350,
+         "y" : 0.82560,
+         "z" : -1.82070
+      },
+      {
+         "heading" : 0.23740,
+         "height" : -0.01060,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -2.11930,
+         "y" : 0.82070,
+         "z" : -1.86390
+      },
+      {
+         "heading" : -0.20250,
+         "height" : -0.00420,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -2.28420,
+         "y" : 0.82830,
+         "z" : -1.89260
+      },
+      {
+         "heading" : -0.20250,
+         "height" : -0.00410,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -1.62960,
+         "y" : 0.8290999999999999,
+         "z" : -1.74190
+      },
+      {
+         "heading" : -0.20250,
+         "height" : 0.02870,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -2.6140,
+         "y" : 0.86680,
+         "z" : -1.82430
+      },
+      {
+         "heading" : -0.29320,
+         "height" : -0.00540,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -2.44710,
+         "y" : 0.82820,
+         "z" : -1.86290
+      },
+      {
+         "heading" : -0.94950,
+         "height" : -0.03920,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -2.71040,
+         "y" : 0.88890,
+         "z" : -1.67040
+      },
+      {
+         "heading" : -0.20250,
+         "height" : -0.008500000000000001,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -2.81450,
+         "y" : 0.95230,
+         "z" : -1.54270
+      },
+      {
+         "heading" : -0.94950,
+         "height" : -0.00950,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -2.92320,
+         "y" : 0.96010,
+         "z" : -1.42350
+      },
+      {
+         "heading" : 0.90060,
+         "height" : -0.00110,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -3.65270,
+         "y" : 0.83340,
+         "z" : -1.57980
+      },
+      {
+         "heading" : -0.20250,
+         "height" : 0.01760,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -3.54770,
+         "y" : 0.86980,
+         "z" : -1.43480
+      },
+      {
+         "heading" : -0.20250,
+         "height" : -0.00010,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -3.75260,
+         "y" : 0.8332000000000001,
+         "z" : -1.7030
+      },
+      {
+         "heading" : -0.0070,
+         "height" : 0.00040,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -3.91010,
+         "y" : 0.83370,
+         "z" : -1.71250
+      },
+      {
+         "heading" : -0.20250,
+         "height" : -0.0,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -4.0780,
+         "y" : 0.83330,
+         "z" : -1.70620
+      },
+      {
+         "heading" : 7.19770,
+         "height" : -0.11640,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : 2.75390,
+         "y" : 0.68530,
+         "z" : 2.1240
+      },
+      {
+         "heading" : 4.8380,
+         "name" : "Short Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : 2.84890,
+         "y" : 0.59030,
+         "z" : 1.77090
+      },
+      {
+         "heading" : 6.03880,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : 2.54070,
+         "y" : 0.58480,
+         "z" : 1.74010
+      },
+      {
+         "heading" : 6.7020,
+         "height" : 0.00080,
+         "name" : "Short Snowy Pine Tree 03",
+         "scaling" : 1.49370,
+         "x" : 2.26090,
+         "y" : 0.6520,
+         "z" : 1.86040
+      },
+      {
+         "heading" : 9.01980,
+         "height" : -0.1680,
+         "name" : "Tall Snowy Pine Tree 03",
+         "scaling" : 1.80680,
+         "x" : 1.73110,
+         "y" : 0.68180,
+         "z" : 1.95690
+      },
+      {
+         "heading" : 6.7020,
+         "height" : -0.00020,
+         "name" : "Short Snowy Pine Tree 03",
+         "scaling" : 1.83670,
+         "x" : 1.98490,
+         "y" : 0.6346000000000001,
+         "z" : 1.64960
+      },
+      {
+         "heading" : 7.31640,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 1.5810,
+         "x" : 1.43550,
+         "y" : 0.72550,
+         "z" : 1.72250
+      },
+      {
+         "heading" : 6.7020,
+         "height" : -0.0470,
+         "name" : "Short Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : 1.70270,
+         "y" : 0.63320,
+         "z" : 1.72760
+      },
+      {
+         "heading" : 6.03880,
+         "name" : "Tall Snowy Pine Tree 03",
+         "scaling" : 1.5810,
+         "x" : 1.06150,
+         "y" : 0.83570,
+         "z" : 1.93730
+      },
+      {
+         "heading" : 7.37920,
+         "name" : "Short Snowy Pine Tree 02",
+         "scaling" : 1.5810,
+         "x" : 1.12360,
+         "y" : 0.75790,
+         "z" : 1.64440
+      },
+      {
+         "heading" : 7.32340,
+         "name" : "Short Snowy Pine Tree 02",
+         "scaling" : 1.5810,
+         "x" : 0.71730,
+         "y" : 0.82480,
+         "z" : 1.81860
+      },
+      {
+         "heading" : 7.32340,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : 0.8715000000000001,
+         "y" : 0.7887999999999999,
+         "z" : 1.61380
+      },
+      {
+         "heading" : 8.726599999999999,
+         "height" : 0.00660,
+         "name" : "Short Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : 0.49220,
+         "y" : 0.83680,
+         "z" : 1.68390
+      },
+      {
+         "heading" : 6.03880,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : 0.24290,
+         "y" : 0.83440,
+         "z" : 1.76840
+      },
+      {
+         "heading" : 4.8380,
+         "name" : "Short Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : -0.49340,
+         "y" : 0.84270,
+         "z" : 1.72690
+      },
+      {
+         "heading" : 6.03880,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.78940,
+         "x" : -0.67580,
+         "y" : 0.89440,
+         "z" : 1.86650
+      },
+      {
+         "heading" : 6.7020,
+         "height" : -0.00270,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : -0.76790,
+         "y" : 0.83990,
+         "z" : 1.55170
+      },
+      {
+         "heading" : 4.8380,
+         "name" : "Short Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : -1.46520,
+         "y" : 0.85610,
+         "z" : 1.23950
+      },
+      {
+         "heading" : 4.8380,
+         "height" : -0.03480,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : 5.99970,
+         "y" : 0.22020,
+         "z" : 1.37190
+      },
+      {
+         "heading" : 6.10860,
+         "height" : -0.01780,
+         "name" : "Tall Snowy Pine Tree 04",
+         "scaling" : 1.5810,
+         "x" : 5.95430,
+         "y" : 0.24470,
+         "z" : 1.67130
+      },
+      {
+         "heading" : 6.7090,
+         "height" : -0.13740,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : 6.29480,
+         "y" : 0.32670,
+         "z" : 1.74550
+      },
+      {
+         "heading" : 4.8380,
+         "height" : 0.06809999999999999,
+         "name" : "Tall Snowy Pine Tree 03",
+         "scaling" : 1.5810,
+         "x" : 6.71050,
+         "y" : 0.35310,
+         "z" : 0.62620
+      },
+      {
+         "heading" : 3.45570,
+         "height" : -0.04950,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : 6.90550,
+         "y" : 0.23750,
+         "z" : -0.48870
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 01",
+         "scaling" : 1.0,
+         "x" : 6.51460,
+         "y" : 0.14470,
+         "z" : -1.32060
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 6.54840,
+         "y" : 0.14490,
+         "z" : -1.74970
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Snowy Dry Weed 03",
+         "scaling" : 1.0,
+         "x" : 4.9030,
+         "y" : 0.14490,
+         "z" : -1.40780
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02780,
+         "name" : "Snowy Dry Weed 04",
+         "scaling" : 1.0,
+         "x" : 4.42360,
+         "y" : 0.17270,
+         "z" : -1.68250
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00010,
+         "name" : "Snowy Dry Weed 01",
+         "scaling" : 1.0,
+         "x" : 3.77940,
+         "y" : 0.14480,
+         "z" : -1.76730
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0280,
+         "name" : "Snowy Dry Weed 03",
+         "scaling" : 1.0,
+         "x" : 3.84190,
+         "y" : 0.17290,
+         "z" : -1.86040
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.02780,
+         "name" : "Snowy Dry Weed 04",
+         "scaling" : 1.0,
+         "x" : 3.93880,
+         "y" : 0.17270,
+         "z" : -1.91590
+      },
+      {
+         "heading" : -0.13260,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 0.79130,
+         "x" : 4.00910,
+         "y" : 0.14490,
+         "z" : -1.9530
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00010,
+         "name" : "Snowy Dry Weed 01",
+         "scaling" : 1.0,
+         "x" : 4.37920,
+         "y" : 0.14480,
+         "z" : -1.74810
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 04",
+         "scaling" : 1.0,
+         "x" : 6.59910,
+         "y" : 0.14480,
+         "z" : -1.89910
+      },
+      {
+         "heading" : -2.16420,
+         "height" : -0.21250,
+         "name" : "Grey Brick Tower Snowy Top B 01",
+         "scaling" : 0.56190,
+         "x" : -5.64190,
+         "y" : 0.79020,
+         "z" : 0.18430
+      },
+      {
+         "heading" : -2.51330,
+         "height" : -0.07210,
+         "name" : "Grey Brick Tower Snowy Top B 02",
+         "scaling" : 0.56190,
+         "x" : -6.13560,
+         "y" : 0.74990,
+         "z" : 0.77110
+      },
+      {
+         "heading" : -1.80120,
+         "height" : 0.19460,
+         "name" : "Grey Brick Tower Snowy Top B 03",
+         "scaling" : 0.56190,
+         "x" : -6.1360,
+         "y" : 1.01670,
+         "z" : 0.77160
+      },
+      {
+         "heading" : 1.78720,
+         "height" : -0.02690,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -5.81670,
+         "y" : 0.77510,
+         "z" : -0.01090
+      },
+      {
+         "heading" : 1.78720,
+         "height" : -0.02590,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -5.86810,
+         "y" : 0.7675999999999999,
+         "z" : 0.20330
+      },
+      {
+         "heading" : -2.16420,
+         "height" : 0.04020,
+         "name" : "Grey Brick Tower Snowy Top B 01",
+         "scaling" : 0.56190,
+         "x" : -5.64270,
+         "y" : 1.04160,
+         "z" : 0.17610
+      },
+      {
+         "heading" : 0.23730,
+         "height" : -0.00580,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -5.78470,
+         "y" : 0.8020,
+         "z" : -0.13320
+      },
+      {
+         "heading" : 3.58140,
+         "height" : -0.0390,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -5.90710,
+         "y" : 0.74260,
+         "z" : -0.18350
+      },
+      {
+         "heading" : 0.39090,
+         "height" : -0.00040,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -6.01740,
+         "y" : 0.77480,
+         "z" : -0.25540
+      },
+      {
+         "heading" : 5.15220,
+         "height" : -0.03810,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -5.96020,
+         "y" : 0.74460,
+         "z" : -0.35540
+      },
+      {
+         "heading" : 1.79410,
+         "height" : -0.05090,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -5.88890,
+         "y" : 0.74350,
+         "z" : -0.53790
+      },
+      {
+         "heading" : 0.57240,
+         "height" : -0.00550,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -5.85650,
+         "y" : 0.79570,
+         "z" : -0.64630
+      },
+      {
+         "heading" : -2.16420,
+         "height" : -0.04970,
+         "name" : "Grey Brick Tower Snowy Top B 01",
+         "scaling" : 0.56190,
+         "x" : -5.64420,
+         "y" : 0.77590,
+         "z" : -0.57640
+      },
+      {
+         "heading" : 4.44710,
+         "height" : -0.04910,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -5.40820,
+         "y" : 0.78420,
+         "z" : -0.53740
+      },
+      {
+         "heading" : 1.76620,
+         "height" : -0.00070,
+         "name" : "Mine Ruins Gate 01",
+         "scaling" : 1.40920,
+         "x" : -5.10510,
+         "y" : 0.82590,
+         "z" : -0.9080
+      },
+      {
+         "heading" : 1.76620,
+         "height" : -0.00080,
+         "name" : "Mine Ruins Gate 01",
+         "scaling" : 1.42960,
+         "x" : -4.33340,
+         "y" : 0.8320,
+         "z" : -0.77690
+      },
+      {
+         "heading" : -1.30550,
+         "height" : 0.23850,
+         "name" : "Grey Brick Tower Snowy Top B 02",
+         "scaling" : 0.56190,
+         "x" : -7.0280,
+         "y" : 1.07470,
+         "z" : 1.07110
+      },
+      {
+         "heading" : -2.16420,
+         "height" : -0.03540,
+         "name" : "Grey Brick Tower Snowy Top B 02",
+         "scaling" : 0.56190,
+         "x" : -7.01780,
+         "y" : 0.8050,
+         "z" : 1.08140
+      },
+      {
+         "heading" : -2.16420,
+         "height" : 0.50680,
+         "name" : "Grey Brick Tower Snowy Small 03",
+         "scaling" : 0.56190,
+         "x" : -7.02680,
+         "y" : 1.34270,
+         "z" : 1.06880
+      },
+      {
+         "heading" : -2.53430,
+         "height" : 0.46970,
+         "name" : "Grey Brick Tower Snowy Top A 02",
+         "scaling" : 0.56190,
+         "x" : -6.13880,
+         "y" : 1.29210,
+         "z" : 0.76130
+      },
+      {
+         "heading" : -3.12770,
+         "height" : 0.30010,
+         "name" : "Grey Brick Tower Snowy Top C 03",
+         "scaling" : 0.56190,
+         "x" : -5.640,
+         "y" : 1.30440,
+         "z" : 0.18220
+      },
+      {
+         "heading" : -2.96710,
+         "height" : 0.21480,
+         "name" : "Grey Brick Tower Snowy Top C 03",
+         "scaling" : 0.56190,
+         "x" : -5.64350,
+         "y" : 1.04050,
+         "z" : -0.57630
+      },
+      {
+         "heading" : 2.37360,
+         "height" : -0.07070,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -6.35750,
+         "y" : 0.96750,
+         "z" : 0.8450
+      },
+      {
+         "heading" : 2.9880,
+         "height" : -0.02070,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -6.7790,
+         "y" : 1.0040,
+         "z" : 1.04750
+      },
+      {
+         "heading" : 4.58670,
+         "height" : -0.01540,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -7.0620,
+         "y" : 0.81920,
+         "z" : 0.7848000000000001
+      },
+      {
+         "heading" : 0.06279999999999999,
+         "height" : -0.06870,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -7.22420,
+         "y" : 0.7848000000000001,
+         "z" : 0.3230
+      },
+      {
+         "heading" : 4.76130,
+         "height" : -0.06569999999999999,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -7.22150,
+         "y" : 0.81210,
+         "z" : 0.42230
+      },
+      {
+         "heading" : -2.16420,
+         "height" : -0.17460,
+         "name" : "Grey Brick Tower Snowy Top B 02",
+         "scaling" : 0.56190,
+         "x" : -7.4490,
+         "y" : 0.83390,
+         "z" : 0.26320
+      },
+      {
+         "heading" : -2.16420,
+         "height" : 0.09470000000000001,
+         "name" : "Grey Brick Tower Snowy Top B 03",
+         "scaling" : 0.56190,
+         "x" : -7.44390,
+         "y" : 1.09450,
+         "z" : 0.25540
+      },
+      {
+         "heading" : -2.91120,
+         "height" : 0.32350,
+         "name" : "Grey Brick Tower Snowy Top C 02",
+         "scaling" : 0.56190,
+         "x" : -7.45030,
+         "y" : 1.33590,
+         "z" : 0.26790
+      },
+      {
+         "heading" : -3.29520,
+         "name" : "Well 01",
+         "scaling" : 1.0,
+         "x" : -5.26070,
+         "y" : 0.82460,
+         "z" : -1.53740
+      },
+      {
+         "heading" : 1.02620,
+         "height" : -0.12040,
+         "name" : "White Wood Tower 02",
+         "scaling" : 1.0,
+         "x" : -7.20070,
+         "y" : 0.82480,
+         "z" : 0.63790
+      },
+      {
+         "heading" : -0.77490,
+         "height" : -0.0050,
+         "name" : "Stone Tower 01",
+         "scaling" : 1.0,
+         "x" : -5.91860,
+         "y" : 0.80160,
+         "z" : 0.49380
+      },
+      {
+         "heading" : 1.39630,
+         "height" : -0.13220,
+         "name" : "White Wood Tower 01",
+         "scaling" : 1.0,
+         "x" : -7.28870,
+         "y" : 0.82220,
+         "z" : -0.27390
+      },
+      {
+         "heading" : 4.76130,
+         "height" : -0.02420,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -7.19860,
+         "y" : 0.81110,
+         "z" : 0.15960
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 4.76130,
+         "height" : -0.03060,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -7.18580,
+         "y" : 0.80630,
+         "z" : -0.05660
+      },
+      {
+         "heading" : -0.55860,
+         "height" : -0.03950,
+         "name" : "Stone House 01",
+         "scaling" : 1.0,
+         "x" : -6.45320,
+         "y" : 1.07880,
+         "z" : 1.14670
+      },
+      {
+         "heading" : -2.05250,
+         "height" : -0.00980,
+         "name" : "Cart Wheel 02",
+         "scaling" : 1.0,
+         "x" : -6.16920,
+         "y" : 0.81450,
+         "z" : 0.50460
+      },
+      {
+         "heading" : -4.33540,
+         "height" : -0.01190,
+         "name" : "Cart 01",
+         "scaling" : 1.0,
+         "x" : -6.98880,
+         "y" : 0.8220,
+         "z" : -0.59160
+      },
+      {
+         "heading" : 5.02660,
+         "height" : -0.06480,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -7.1530,
+         "y" : 0.7887999999999999,
+         "z" : -0.53080
+      },
+      {
+         "heading" : 5.02660,
+         "height" : -0.14520,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -7.07950,
+         "y" : 0.84260,
+         "z" : -0.74660
+      },
+      {
+         "heading" : 5.38260,
+         "height" : -0.11420,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -6.98160,
+         "y" : 0.91220,
+         "z" : -0.92320
+      },
+      {
+         "heading" : 5.11040,
+         "height" : -0.09930,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -6.8560,
+         "y" : 0.8895999999999999,
+         "z" : -1.13750
+      },
+      {
+         "heading" : 5.02660,
+         "height" : -0.06960,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -7.12560,
+         "y" : 0.8670,
+         "z" : -0.64940
+      },
+      {
+         "heading" : 5.02660,
+         "height" : -0.10810,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -7.05030,
+         "y" : 0.92110,
+         "z" : -0.84350
+      },
+      {
+         "heading" : 5.02660,
+         "height" : -0.10190,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -6.90380,
+         "y" : 0.89480,
+         "z" : -1.02460
+      },
+      {
+         "heading" : 5.02660,
+         "height" : -0.08890000000000001,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -6.80980,
+         "y" : 0.86530,
+         "z" : -1.24370
+      },
+      {
+         "heading" : 5.11040,
+         "height" : -0.05960,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -6.75980,
+         "y" : 0.82530,
+         "z" : -1.37180
+      },
+      {
+         "heading" : 5.02660,
+         "height" : -0.05540,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -6.70860,
+         "y" : 0.79340,
+         "z" : -1.48940
+      },
+      {
+         "heading" : 5.03360,
+         "height" : -0.11360,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -6.6680,
+         "y" : 0.76050,
+         "z" : -1.60360
+      },
+      {
+         "heading" : -2.12930,
+         "height" : -0.07489999999999999,
+         "name" : "Grey Brick Tower Snowy Top C 03",
+         "scaling" : 0.56190,
+         "x" : -7.5890,
+         "y" : 1.32490,
+         "z" : -1.44090
+      },
+      {
+         "heading" : -3.06480,
+         "height" : -0.03620,
+         "name" : "Grey Brick Tower Snowy Top C 03",
+         "scaling" : 0.56190,
+         "x" : -7.73560,
+         "y" : 1.40020,
+         "z" : -0.5659999999999999
+      },
+      {
+         "heading" : -2.16420,
+         "height" : -0.21340,
+         "name" : "Grey Brick Tower Snowy Top B 02",
+         "scaling" : 0.56190,
+         "x" : -4.82130,
+         "y" : 0.5040,
+         "z" : 1.55410
+      },
+      {
+         "heading" : -2.16420,
+         "height" : 0.06550,
+         "name" : "Grey Brick Tower Snowy Top B 03",
+         "scaling" : 0.56190,
+         "x" : -4.8230,
+         "y" : 0.78060,
+         "z" : 1.55140
+      },
+      {
+         "heading" : -3.14160,
+         "height" : 0.33760,
+         "name" : "Grey Brick Tower Snowy Top C 02",
+         "scaling" : 0.56190,
+         "x" : -4.8250,
+         "y" : 1.0510,
+         "z" : 1.54910
+      },
+      {
+         "heading" : 1.62670,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : -5.01690,
+         "y" : 0.8159999999999999,
+         "z" : 1.16160
+      },
+      {
+         "heading" : -2.16420,
+         "height" : -0.03110,
+         "name" : "Grey Brick Tower Snowy Top B 02",
+         "scaling" : 0.56190,
+         "x" : -5.62260,
+         "y" : 1.10810,
+         "z" : 1.50540
+      },
+      {
+         "heading" : -3.21140,
+         "height" : 0.21410,
+         "name" : "Grey Brick Tower Snowy Top C 01",
+         "scaling" : 0.56190,
+         "x" : -5.61750,
+         "y" : 1.35250,
+         "z" : 1.5260
+      },
+      {
+         "heading" : 2.61810,
+         "height" : -0.0650,
+         "name" : "blocker",
+         "scaling" : 2.39130,
+         "x" : -6.70330,
+         "y" : 0.83570,
+         "z" : -1.61910
+      },
+      {
+         "heading" : 4.61470,
+         "height" : -0.15670,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -5.3140,
+         "y" : 0.80830,
+         "z" : 0.49150
+      },
+      {
+         "heading" : 4.39130,
+         "height" : -0.00240,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -5.26770,
+         "y" : 0.83710,
+         "z" : 0.63310
+      },
+      {
+         "heading" : 4.04920,
+         "height" : -0.01620,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -5.16610,
+         "y" : 0.8250,
+         "z" : 0.83290
+      },
+      {
+         "heading" : 4.53790,
+         "height" : -0.19420,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -5.08590,
+         "y" : 0.7950,
+         "z" : 1.01720
+      },
+      {
+         "heading" : 4.1120,
+         "height" : -0.00580,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -5.22680,
+         "y" : 0.82770,
+         "z" : 0.73910
+      },
+      {
+         "heading" : 4.39130,
+         "height" : -0.08050,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -5.10160,
+         "y" : 0.82790,
+         "z" : 0.92670
+      },
+      {
+         "heading" : 4.4750,
+         "height" : -0.1040,
+         "name" : "Wall Pillar 01 1 Big",
+         "scaling" : 0.56190,
+         "x" : -5.05140,
+         "y" : 0.83910,
+         "z" : 1.14330
+      },
+      {
+         "heading" : 4.44710,
+         "height" : -0.06670,
+         "name" : "Wall 01 2 Big",
+         "scaling" : 0.56190,
+         "x" : -5.01050,
+         "y" : 0.8380,
+         "z" : 1.27070
+      },
+      {
+         "heading" : 1.65450,
+         "height" : 0.63280,
+         "name" : "Snowy Wooden Bridge Segment",
+         "scaling" : 0.78560,
+         "x" : -4.64460,
+         "y" : 0.84390,
+         "z" : 0.81370
+      },
+      {
+         "heading" : 1.65450,
+         "height" : -0.00710,
+         "name" : "Snowy Wooden Bridge Segment",
+         "scaling" : 0.78560,
+         "x" : -5.25270,
+         "y" : 0.84720,
+         "z" : 0.7554999999999999
+      },
+      {
+         "heading" : 1.66150,
+         "height" : 0.58340,
+         "name" : "Snowy Rope Bridge Rope",
+         "scaling" : 0.73870,
+         "x" : -4.65880,
+         "y" : 0.85020,
+         "z" : 0.77190
+      },
+      {
+         "heading" : 1.65450,
+         "height" : 0.34270,
+         "name" : "Snowy Wooden Bridge Segment",
+         "scaling" : 0.78560,
+         "x" : -4.94970,
+         "y" : 0.84720,
+         "z" : 0.77740
+      },
+      {
+         "heading" : 1.65450,
+         "height" : 0.21660,
+         "name" : "Snowy Rope Bridge Rope",
+         "scaling" : 0.73870,
+         "x" : -4.95390,
+         "y" : 0.84990,
+         "z" : 0.7450
+      },
+      {
+         "heading" : 1.61260,
+         "height" : 0.80680,
+         "name" : "Snowy Rope Bridge Rope",
+         "scaling" : 0.82780,
+         "x" : -4.82330,
+         "y" : 0.83370,
+         "z" : 0.5266999999999999
+      },
+      {
+         "heading" : 1.65450,
+         "height" : 0.62890,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 0.73870,
+         "x" : -4.66160,
+         "y" : 0.87490,
+         "z" : 0.77050
+      },
+      {
+         "heading" : 1.65450,
+         "height" : 0.82370,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 0.73870,
+         "x" : -4.83920,
+         "y" : 0.83310,
+         "z" : 0.55320
+      },
+      {
+         "heading" : 1.58470,
+         "height" : 0.02040,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 0.70340,
+         "x" : -4.52810,
+         "y" : 0.85410,
+         "z" : 0.5580000000000001
+      },
+      {
+         "heading" : 1.65450,
+         "height" : -0.16560,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 0.73870,
+         "x" : -4.37870,
+         "y" : 0.8502999999999999,
+         "z" : 0.79730
+      },
+      {
+         "heading" : 1.65450,
+         "height" : 0.3670,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 0.73870,
+         "x" : -4.94060,
+         "y" : 0.87820,
+         "z" : 0.7460
+      },
+      {
+         "heading" : 1.74530,
+         "height" : 0.04390,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -4.91570,
+         "y" : 0.84840,
+         "z" : -0.87820
+      },
+      {
+         "heading" : 1.74530,
+         "height" : 0.8372000000000001,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -4.53110,
+         "y" : 0.84840,
+         "z" : -0.8100000000000001
+      },
+      {
+         "heading" : 1.74530,
+         "height" : 0.0310,
+         "name" : "Mine Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.9120,
+         "y" : 0.8470,
+         "z" : -0.90660
+      },
+      {
+         "heading" : 1.74530,
+         "height" : 0.84060,
+         "name" : "Mine Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.54150,
+         "y" : 0.8450,
+         "z" : -0.84050
+      },
+      {
+         "heading" : 1.74530,
+         "height" : 0.60540,
+         "name" : "Mine Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.83360,
+         "y" : 0.84410,
+         "z" : -1.2360
+      },
+      {
+         "heading" : 1.74530,
+         "height" : 0.83740,
+         "name" : "Mine Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.46560,
+         "y" : 0.84680,
+         "z" : -1.17270
+      },
+      {
+         "heading" : 0.21640,
+         "height" : -0.00440,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -5.12510,
+         "y" : 0.82760,
+         "z" : -1.80420
+      },
+      {
+         "heading" : -0.05590,
+         "height" : -0.00220,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -4.98240,
+         "y" : 0.83080,
+         "z" : -1.76020
+      },
+      {
+         "heading" : -0.05590,
+         "height" : -0.0160,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -5.29320,
+         "y" : 0.8129999999999999,
+         "z" : -1.81940
+      },
+      {
+         "heading" : 0.21640,
+         "height" : -0.00390,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -5.43640,
+         "y" : 0.82590,
+         "z" : -1.87020
+      },
+      {
+         "heading" : 0.16050,
+         "height" : -0.02490,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -5.59220,
+         "y" : 0.80480,
+         "z" : -1.89790
+      },
+      {
+         "heading" : 0.57240,
+         "height" : -0.02280,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -5.73120,
+         "y" : 0.80740,
+         "z" : -2.00160
+      },
+      {
+         "heading" : 0.16050,
+         "height" : -0.03150,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -5.86990,
+         "y" : 0.79940,
+         "z" : -2.07820
+      },
+      {
+         "heading" : 0.18850,
+         "height" : -0.01790,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -6.02570,
+         "y" : 0.81430,
+         "z" : -2.12740
+      },
+      {
+         "heading" : 0.16050,
+         "height" : -0.00670,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -6.18580,
+         "y" : 0.82640,
+         "z" : -2.15150
+      },
+      {
+         "heading" : -0.19550,
+         "height" : -0.01240,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -6.35520,
+         "y" : 0.82090,
+         "z" : -2.13940
+      },
+      {
+         "heading" : -0.23040,
+         "height" : -0.0170,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -6.52370,
+         "y" : 0.8159999999999999,
+         "z" : -2.09560
+      },
+      {
+         "heading" : -1.64060,
+         "height" : -0.00530,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -4.07130,
+         "y" : 0.8280,
+         "z" : -1.54250
+      },
+      {
+         "heading" : -0.20250,
+         "height" : 0.0,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -4.06120,
+         "y" : 0.82430,
+         "z" : -1.40730
+      },
+      {
+         "heading" : -1.16590,
+         "height" : -0.00270,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -4.11760,
+         "y" : 0.82680,
+         "z" : -1.25570
+      },
+      {
+         "heading" : -0.20250,
+         "height" : -0.00290,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -4.17690,
+         "y" : 0.8300999999999999,
+         "z" : -1.11150
+      },
+      {
+         "heading" : -0.41190,
+         "height" : -0.00830,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -4.3150,
+         "y" : 0.8250,
+         "z" : -1.0430
+      },
+      {
+         "heading" : 1.50790,
+         "height" : -0.00470,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -4.96220,
+         "y" : 0.82860,
+         "z" : -1.6350
+      },
+      {
+         "heading" : -0.05590,
+         "height" : -0.00590,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -4.94860,
+         "y" : 0.82730,
+         "z" : -1.46740
+      },
+      {
+         "heading" : 1.61270,
+         "height" : -0.01070,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -4.95530,
+         "y" : 0.8220,
+         "z" : -1.31280
+      },
+      {
+         "heading" : -0.05590,
+         "height" : -0.01990,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -4.96340,
+         "y" : 0.81260,
+         "z" : -1.12470
+      },
+      {
+         "heading" : -0.30720,
+         "height" : -0.00480,
+         "name" : "Mine Ruins Fence Pillar 01",
+         "scaling" : 1.77470,
+         "x" : -4.46160,
+         "y" : 0.82190,
+         "z" : -0.9710
+      },
+      {
+         "heading" : 0.12570,
+         "height" : -0.01230,
+         "name" : "Mine Ruins Gate 01",
+         "scaling" : 1.10020,
+         "x" : -4.44320,
+         "y" : 0.8210,
+         "z" : -0.26110
+      },
+      {
+         "heading" : 1.65450,
+         "height" : -0.01090,
+         "name" : "blocker",
+         "scaling" : 0.78560,
+         "x" : -5.14340,
+         "y" : 0.84410,
+         "z" : 0.8730
+      },
+      {
+         "heading" : 1.65450,
+         "height" : -0.0010,
+         "name" : "blocker",
+         "scaling" : 0.78560,
+         "x" : -5.20520,
+         "y" : 0.84670,
+         "z" : 0.8028999999999999
+      },
+      {
+         "heading" : 1.65450,
+         "height" : 0.01070,
+         "name" : "blocker",
+         "scaling" : 0.78560,
+         "x" : -5.26150,
+         "y" : 0.84490,
+         "z" : 0.7270
+      },
+      {
+         "heading" : 1.65450,
+         "height" : -0.0,
+         "name" : "blocker",
+         "scaling" : 0.78560,
+         "x" : -4.54540,
+         "y" : 0.83350,
+         "z" : 0.96130
+      },
+      {
+         "heading" : 0.46770,
+         "height" : 0.82690,
+         "name" : "Mine Bridge 01 Railing",
+         "scaling" : 1.0,
+         "x" : -4.67380,
+         "y" : 0.82990,
+         "z" : -0.52830
+      },
+      {
+         "heading" : 19.89660,
+         "height" : -0.03310,
+         "name" : "Snowy Rock Med 04",
+         "scaling" : 1.4840,
+         "x" : -2.29730,
+         "y" : 0.8705000000000001,
+         "z" : 0.94190
+      },
+      {
+         "heading" : 19.89660,
+         "height" : -0.0,
+         "name" : "Snowy Rock Med 01",
+         "scaling" : 1.4840,
+         "x" : -1.80230,
+         "y" : 0.83330,
+         "z" : 0.44390
+      },
+      {
+         "heading" : 19.89660,
+         "height" : -0.0,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.4840,
+         "x" : -1.76170,
+         "y" : 0.83330,
+         "z" : -0.14750
+      },
+      {
+         "heading" : 17.47420,
+         "height" : -0.00020,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.4840,
+         "x" : -1.61280,
+         "y" : 0.83310,
+         "z" : 0.78990
+      },
+      {
+         "heading" : 17.47420,
+         "height" : -0.0,
+         "name" : "Snowy Rock Flat 03",
+         "scaling" : 1.4840,
+         "x" : -1.08550,
+         "y" : 0.83670,
+         "z" : 1.37040
+      },
+      {
+         "heading" : 17.47420,
+         "height" : -0.0,
+         "name" : "Snowy Rock Flat 02",
+         "scaling" : 1.4840,
+         "x" : -1.17110,
+         "y" : 0.89220,
+         "z" : 1.68430
+      },
+      {
+         "heading" : 17.47420,
+         "height" : 0.0,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.4840,
+         "x" : -1.4280,
+         "y" : 0.86960,
+         "z" : 1.5230
+      },
+      {
+         "heading" : 21.45340,
+         "height" : -0.0,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.4840,
+         "x" : -0.0490,
+         "y" : 0.83340,
+         "z" : -1.80680
+      },
+      {
+         "heading" : -0.23030,
+         "height" : -0.00240,
+         "name" : "Mine Ruins Gate 01",
+         "scaling" : 1.10020,
+         "x" : -5.31750,
+         "y" : 0.82780,
+         "z" : -0.70840
+      },
+      {
+         "heading" : -0.22340,
+         "height" : 0.570,
+         "name" : "Chain 01",
+         "scaling" : 1.0420,
+         "x" : -4.83320,
+         "y" : 0.570,
+         "z" : -0.08880
+      },
+      {
+         "heading" : 0.20940,
+         "height" : 0.41590,
+         "name" : "Chain 01",
+         "scaling" : 1.14650,
+         "x" : -4.83350,
+         "y" : 0.41590,
+         "z" : -0.06560000000000001
+      },
+      {
+         "heading" : -0.10480,
+         "height" : 0.29430,
+         "name" : "Chain 01",
+         "scaling" : 1.29420,
+         "x" : -4.85760,
+         "y" : 0.31820,
+         "z" : 0.7870
+      },
+      {
+         "heading" : -0.69120,
+         "height" : 0.55690,
+         "name" : "Chain 01",
+         "scaling" : 0.95810,
+         "x" : -4.87670,
+         "y" : 0.55970,
+         "z" : 0.45670
+      },
+      {
+         "heading" : -0.33520,
+         "height" : 0.19990,
+         "name" : "Chain 01",
+         "scaling" : 1.29420,
+         "x" : -4.89350,
+         "y" : 0.3940,
+         "z" : 1.14750
+      },
+      {
+         "heading" : 18.9960,
+         "height" : -0.0,
+         "name" : "Snowy Rock Med 02",
+         "scaling" : 1.11930,
+         "x" : 0.86870,
+         "y" : 0.61120,
+         "z" : 0.38180
+      },
+      {
+         "heading" : 19.30310,
+         "height" : 0.0,
+         "name" : "Snowy Rock Flat 04",
+         "scaling" : 1.23880,
+         "x" : 0.62670,
+         "y" : 0.81630,
+         "z" : 0.46110
+      },
+      {
+         "heading" : 18.19320,
+         "height" : -0.0,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.11930,
+         "x" : 0.42190,
+         "y" : 0.83180,
+         "z" : 0.23820
+      },
+      {
+         "heading" : 18.20020,
+         "height" : -0.0,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.4840,
+         "x" : 0.16530,
+         "y" : 0.83340,
+         "z" : -0.11350
+      },
+      {
+         "heading" : 17.01340,
+         "height" : -0.0,
+         "name" : "Snowy Rock Flat 01",
+         "scaling" : 1.07980,
+         "x" : 0.22660,
+         "y" : 0.83340,
+         "z" : 0.1280
+      },
+      {
+         "heading" : 17.47420,
+         "height" : -0.0,
+         "name" : "Snowy Rock Small 06",
+         "scaling" : 1.4840,
+         "x" : 0.17430,
+         "y" : 0.83340,
+         "z" : -0.47350
+      },
+      {
+         "heading" : 18.19320,
+         "height" : -0.0,
+         "name" : "Snowy Rock Flat 02",
+         "scaling" : 1.11930,
+         "x" : 0.02670,
+         "y" : 0.83340,
+         "z" : -0.6235000000000001
+      },
+      {
+         "heading" : 20.34330,
+         "height" : -0.0,
+         "name" : "Snowy Rock Flat 04",
+         "scaling" : 1.11930,
+         "x" : 0.06770,
+         "y" : 0.83340,
+         "z" : -0.93160
+      },
+      {
+         "heading" : 17.47420,
+         "height" : -0.0,
+         "name" : "Snowy Rock Small 04",
+         "scaling" : 1.4840,
+         "x" : 0.11370,
+         "y" : 0.8240,
+         "z" : -1.26710
+      },
+      {
+         "heading" : 19.84080,
+         "height" : -0.0,
+         "name" : "Snowy Rock Small 05",
+         "scaling" : 1.4840,
+         "x" : 0.12390,
+         "y" : 0.83270,
+         "z" : -1.60990
+      },
+      {
+         "heading" : 1.70340,
+         "height" : 0.01120,
+         "name" : "Snowy Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 1.470,
+         "y" : 0.5518999999999999,
+         "z" : -2.08370
+      },
+      {
+         "heading" : 1.70340,
+         "height" : 0.02560,
+         "name" : "Snowy Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 1.08130,
+         "y" : 0.55440,
+         "z" : -2.13510
+      },
+      {
+         "heading" : 1.70340,
+         "height" : 0.0310,
+         "name" : "Snowy Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 0.69960,
+         "y" : 0.55610,
+         "z" : -2.20650
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.00310,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 1.0,
+         "x" : 1.34040,
+         "y" : 0.4250,
+         "z" : -2.21720
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.0,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 1.0,
+         "x" : 1.03280,
+         "y" : 0.41410,
+         "z" : -2.22660
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.0,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 1.0,
+         "x" : 0.7524999999999999,
+         "y" : 0.43080,
+         "z" : -2.25550
+      },
+      {
+         "heading" : -0.83780,
+         "height" : -0.04250,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 1.0,
+         "x" : 0.52060,
+         "y" : 0.41160,
+         "z" : -2.29140
+      },
+      {
+         "heading" : -0.83780,
+         "height" : -0.06080,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 1.0,
+         "x" : 0.28260,
+         "y" : 0.43060,
+         "z" : -2.32090
+      },
+      {
+         "heading" : -1.60570,
+         "height" : 0.12430,
+         "name" : "Snowy Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 5.97690,
+         "y" : 0.12440,
+         "z" : -2.16860
+      },
+      {
+         "heading" : -1.60570,
+         "height" : 0.12330,
+         "name" : "Snowy Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 5.5950,
+         "y" : 0.12440,
+         "z" : -2.1890
+      },
+      {
+         "heading" : -1.60570,
+         "height" : 0.12080,
+         "name" : "Snowy Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 5.20850,
+         "y" : 0.12440,
+         "z" : -2.18060
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.0080,
+         "name" : "Snowy Wooden Bridge Segment",
+         "scaling" : 1.0,
+         "x" : 3.60520,
+         "y" : 0.1480,
+         "z" : -2.13110
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.0,
+         "name" : "Snowy Wooden Bridge Railing",
+         "scaling" : 0.95070,
+         "x" : 3.61360,
+         "y" : 0.14450,
+         "z" : -2.09770
+      },
+      {
+         "heading" : -2.39460,
+         "height" : 0.0,
+         "name" : "Snowy Wooden Bridge Railing",
+         "scaling" : 1.0,
+         "x" : 3.58080,
+         "y" : 0.1440,
+         "z" : -2.10070
+      },
+      {
+         "heading" : -3.39290,
+         "height" : 0.00180,
+         "name" : "Cart 03",
+         "scaling" : 1.0,
+         "x" : -6.27780,
+         "y" : 0.83180,
+         "z" : -1.99150
+      },
+      {
+         "heading" : -0.32110,
+         "height" : -0.0050,
+         "name" : "Graveyard Crypt 01",
+         "scaling" : 0.99670,
+         "x" : -0.16790,
+         "y" : 0.82840,
+         "z" : -0.10210
+      },
+      {
+         "heading" : 0.55850,
+         "height" : -0.00890,
+         "name" : "Graveyard Mausoleum 01",
+         "scaling" : 1.0,
+         "x" : -1.15880,
+         "y" : 0.82440,
+         "z" : -0.33820
+      },
+      {
+         "heading" : -1.96870,
+         "height" : -0.01670,
+         "name" : "Graveyard Mausoleum 01",
+         "scaling" : 1.0,
+         "x" : -0.15770,
+         "y" : 0.81670,
+         "z" : -1.44850
+      },
+      {
+         "heading" : 2.85540,
+         "height" : -0.03870,
+         "name" : "Graveyard Crypt 01",
+         "scaling" : 0.99670,
+         "x" : -2.35890,
+         "y" : 0.83240,
+         "z" : -1.72280
+      },
+      {
+         "heading" : -0.32110,
+         "height" : -0.0,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 0.99670,
+         "x" : -0.44790,
+         "y" : 0.83340,
+         "z" : -1.55080
+      },
+      {
+         "heading" : -0.32110,
+         "height" : -0.0050,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 0.99670,
+         "x" : -0.17550,
+         "y" : 0.82840,
+         "z" : -0.79420
+      },
+      {
+         "heading" : -0.32110,
+         "height" : -0.0050,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 0.99670,
+         "x" : -1.08270,
+         "y" : 0.82830,
+         "z" : 1.00450
+      },
+      {
+         "heading" : -0.32110,
+         "height" : -0.00540,
+         "name" : "Graveyard Pillar 02",
+         "scaling" : 0.99670,
+         "x" : -0.52230,
+         "y" : 0.82790,
+         "z" : 1.33760
+      },
+      {
+         "heading" : -0.32110,
+         "height" : 0.00460,
+         "name" : "Graveyard Monument 01",
+         "scaling" : 0.99670,
+         "x" : -2.15530,
+         "y" : 0.8381999999999999,
+         "z" : -1.58230
+      },
+      {
+         "heading" : 19.89660,
+         "height" : -0.0,
+         "name" : "Snowy Rock Flat 02",
+         "scaling" : 1.4840,
+         "x" : -1.67650,
+         "y" : 0.83330,
+         "z" : 0.11660
+      },
+      {
+         "heading" : 3.61630,
+         "height" : 0.00410,
+         "name" : "Graveyard Sarcophagus 02",
+         "scaling" : 1.0,
+         "x" : -1.46730,
+         "y" : 0.83940,
+         "z" : -0.46140
+      },
+      {
+         "heading" : -0.370,
+         "height" : -0.0080,
+         "name" : "Graveyard Sarcophagus 03",
+         "scaling" : 1.0,
+         "x" : -0.35680,
+         "y" : 0.82540,
+         "z" : -0.04060
+      },
+      {
+         "heading" : 1.57780,
+         "height" : -0.00830,
+         "name" : "Graveyard Sarcophagus 04",
+         "scaling" : 1.0,
+         "x" : -0.24820,
+         "y" : 0.8250999999999999,
+         "z" : -1.00740
+      },
+      {
+         "heading" : -0.20250,
+         "height" : 0.0570,
+         "name" : "Chain 01",
+         "scaling" : 1.29420,
+         "x" : -4.65440,
+         "y" : 0.05730,
+         "z" : -0.71480
+      },
+      {
+         "heading" : 0.59340,
+         "height" : 0.28180,
+         "name" : "Chain 01",
+         "scaling" : 1.29420,
+         "x" : -4.72470,
+         "y" : 0.28180,
+         "z" : -0.58170
+      },
+      {
+         "heading" : 0.25830,
+         "height" : 0.39520,
+         "name" : "Chain 01",
+         "scaling" : 1.29420,
+         "x" : -4.63050,
+         "y" : 0.39530,
+         "z" : -0.86480
+      },
+      {
+         "heading" : 0.370,
+         "height" : 0.32810,
+         "name" : "Chain 01",
+         "scaling" : 1.37080,
+         "x" : -4.6180,
+         "y" : 0.32810,
+         "z" : -1.2280
+      },
+      {
+         "heading" : 0.370,
+         "height" : 0.33570,
+         "name" : "Chain 01",
+         "scaling" : 1.64190,
+         "x" : -4.49130,
+         "y" : 0.33570,
+         "z" : -1.49930
+      },
+      {
+         "heading" : 0.86560,
+         "height" : 0.49680,
+         "name" : "Chain 01",
+         "scaling" : 1.64190,
+         "x" : -4.61350,
+         "y" : 0.49680,
+         "z" : -1.31110
+      },
+      {
+         "heading" : 0.12560,
+         "height" : 0.42180,
+         "name" : "Chain 01",
+         "scaling" : 1.64190,
+         "x" : -4.54490,
+         "y" : 0.42180,
+         "z" : -1.8520
+      },
+      {
+         "heading" : -0.23740,
+         "height" : 0.45760,
+         "name" : "Chain 01",
+         "scaling" : 1.78150,
+         "x" : -4.58050,
+         "y" : 0.45770,
+         "z" : -1.63530
+      },
+      {
+         "heading" : 0.84460,
+         "height" : 0.6294999999999999,
+         "name" : "Chain 01",
+         "scaling" : 0.95810,
+         "x" : -4.8860,
+         "y" : 0.62960,
+         "z" : -0.06790
+      },
+      {
+         "gameObject" : "Door",
+         "gameObjectParams" : {
+            "closeEvent" : "",
+            "closed" : true,
+            "openEvent" : "zzz"
+         },
+         "heading" : -0.23030,
+         "name" : "Mine Ruins Door 01",
+         "scaling" : 1.10020,
+         "x" : -5.41360,
+         "y" : 0.83240,
+         "z" : -0.67640
+      },
+      {
+         "gameObject" : "Door",
+         "gameObjectParams" : {
+            "closeEvent" : "",
+            "closed" : true,
+            "openEvent" : "zzz"
+         },
+         "heading" : -0.23030,
+         "height" : 0.0140,
+         "name" : "Mine Ruins Door 01",
+         "scaling" : 1.10020,
+         "x" : -5.30130,
+         "y" : 0.84370,
+         "z" : -0.71630
+      },
+      {
+         "gameObject" : "Door",
+         "gameObjectParams" : {
+            "closeEvent" : "",
+            "closed" : true,
+            "openEvent" : "zzz"
+         },
+         "heading" : 0.12570,
+         "height" : 0.00460,
+         "name" : "Mine Ruins Door 01",
+         "scaling" : 1.10020,
+         "x" : -4.5520,
+         "y" : 0.83780,
+         "z" : -0.27650
+      },
+      {
+         "gameObject" : "Door",
+         "gameObjectParams" : {
+            "closeEvent" : "",
+            "closed" : true,
+            "openEvent" : "zzz"
+         },
+         "heading" : 0.12570,
+         "height" : 0.00080,
+         "name" : "Mine Ruins Door 01",
+         "scaling" : 1.10020,
+         "x" : -4.43050,
+         "y" : 0.8342000000000001,
+         "z" : -0.26570
+      },
+      {
+         "heading" : -0.98450,
+         "height" : 0.65030,
+         "name" : "Chain 01",
+         "scaling" : 0.95810,
+         "x" : -4.90190,
+         "y" : 0.65050,
+         "z" : 0.28350
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 6.3520,
+         "y" : 0.15260,
+         "z" : -0.86860
+      },
+      {
+         "heading" : 1.1030,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 6.37290,
+         "y" : 0.15740,
+         "z" : -0.65480
+      },
+      {
+         "heading" : 2.17820,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 6.34450,
+         "y" : 0.18840,
+         "z" : 0.21540
+      },
+      {
+         "heading" : 2.82740,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 6.30960,
+         "y" : 0.17360,
+         "z" : 0.04460
+      },
+      {
+         "heading" : 2.82740,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 6.31390,
+         "y" : 0.21970,
+         "z" : 0.42840
+      },
+      {
+         "heading" : 4.00730,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 6.26680,
+         "y" : 0.22110,
+         "z" : 0.64010
+      },
+      {
+         "heading" : 4.00730,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 5.8620,
+         "y" : 0.22550,
+         "z" : 0.89690
+      },
+      {
+         "heading" : 4.00730,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 5.76340,
+         "y" : 0.25530,
+         "z" : 1.57640
+      },
+      {
+         "heading" : 4.00730,
+         "height" : -0.01840,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 5.63110,
+         "y" : 0.2360,
+         "z" : 1.79240
+      },
+      {
+         "heading" : 4.00730,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 5.38710,
+         "y" : 0.27090,
+         "z" : 1.4180
+      },
+      {
+         "heading" : 4.00730,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 4.78410,
+         "y" : 0.29940,
+         "z" : 1.34240
+      },
+      {
+         "heading" : 4.00730,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 5.27860,
+         "y" : 0.27660,
+         "z" : 1.37020
+      },
+      {
+         "heading" : 4.00730,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 4.51390,
+         "y" : 0.32050,
+         "z" : 1.05770
+      },
+      {
+         "heading" : 4.94980,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 4.54630,
+         "y" : 0.32110,
+         "z" : 0.96660
+      },
+      {
+         "heading" : 4.94980,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 4.51310,
+         "y" : 0.32490,
+         "z" : 0.89180
+      },
+      {
+         "heading" : 4.94980,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 4.090,
+         "y" : 0.35570,
+         "z" : 0.64140
+      },
+      {
+         "heading" : 5.35470,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 3.79390,
+         "y" : 0.3740,
+         "z" : 0.51430
+      },
+      {
+         "heading" : 5.35470,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 6.46010,
+         "y" : 0.16290,
+         "z" : -0.39530
+      },
+      {
+         "heading" : 5.35470,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 6.55610,
+         "y" : 0.16390,
+         "z" : -0.55920
+      },
+      {
+         "heading" : 5.72470,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 3.73830,
+         "y" : 0.38120,
+         "z" : 0.42080
+      },
+      {
+         "heading" : 5.72470,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 3.47420,
+         "y" : 0.41780,
+         "z" : 0.02530
+      },
+      {
+         "heading" : 2.96710,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 3.4630,
+         "y" : 0.41940,
+         "z" : -0.0620
+      },
+      {
+         "heading" : 2.96710,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.94410,
+         "y" : 0.46420,
+         "z" : -0.55780
+      },
+      {
+         "heading" : 2.15730,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.78190,
+         "y" : 0.47470,
+         "z" : -0.6370
+      },
+      {
+         "heading" : 1.52890,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.67520,
+         "y" : 0.48420,
+         "z" : -0.68340
+      },
+      {
+         "heading" : 1.52890,
+         "height" : 0.00010,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.84640,
+         "y" : 0.49930,
+         "z" : -0.46490
+      },
+      {
+         "heading" : 1.52890,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 1.95010,
+         "y" : 0.53660,
+         "z" : -0.92260
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.00690,
+         "y" : 0.53350,
+         "z" : -0.99680
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.81180,
+         "y" : 0.51150,
+         "z" : -1.6370
+      },
+      {
+         "heading" : 1.57080,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.22580,
+         "y" : 0.53610,
+         "z" : -1.89830
+      },
+      {
+         "heading" : 0.05590,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.62550,
+         "y" : 0.52520,
+         "z" : -1.97790
+      },
+      {
+         "heading" : -1.26360,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 1.8840,
+         "y" : 0.54330,
+         "z" : -2.03940
+      },
+      {
+         "heading" : -1.26360,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 0.77530,
+         "y" : 0.54410,
+         "z" : -1.91660
+      },
+      {
+         "heading" : -1.98960,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 0.75180,
+         "y" : 0.54410,
+         "z" : -1.6380
+      },
+      {
+         "heading" : -3.23230,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 0.86490,
+         "y" : 0.54410,
+         "z" : -1.18470
+      },
+      {
+         "heading" : -3.23230,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 0.9298999999999999,
+         "y" : 0.54410,
+         "z" : -0.6598000000000001
+      },
+      {
+         "heading" : -5.09630,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 0.96560,
+         "y" : 0.54410,
+         "z" : -0.41030
+      },
+      {
+         "heading" : -4.57270,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 1.14860,
+         "y" : 0.54410,
+         "z" : -0.17080
+      },
+      {
+         "heading" : 0.72610,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 1.88860,
+         "y" : 0.54410,
+         "z" : -0.72970
+      },
+      {
+         "heading" : -2.590,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 1.98810,
+         "y" : 0.55420,
+         "z" : 0.43680
+      },
+      {
+         "heading" : -0.81680,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.13610,
+         "y" : 0.5449000000000001,
+         "z" : 0.50850
+      },
+      {
+         "heading" : 0.72610,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.26570,
+         "y" : 0.5450,
+         "z" : 0.63340
+      },
+      {
+         "heading" : -2.590,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.9860,
+         "y" : 0.54410,
+         "z" : 0.03380
+      },
+      {
+         "heading" : -0.69110,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.78130,
+         "y" : 0.54410,
+         "z" : -0.16490
+      },
+      {
+         "heading" : -2.2480,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 3.69280,
+         "y" : 0.54410,
+         "z" : 0.85210
+      },
+      {
+         "heading" : -2.2480,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 4.08440,
+         "y" : 0.54410,
+         "z" : 1.60670
+      },
+      {
+         "heading" : -3.70010,
+         "height" : 0.00010,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 3.61020,
+         "y" : 0.54510,
+         "z" : 1.72490
+      },
+      {
+         "heading" : -3.70010,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.95880,
+         "y" : 0.55070,
+         "z" : 1.61410
+      },
+      {
+         "heading" : -2.08740,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.33250,
+         "y" : 0.58830,
+         "z" : 1.59890
+      },
+      {
+         "heading" : -4.11890,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.80230,
+         "y" : 0.55970,
+         "z" : 1.61240
+      },
+      {
+         "heading" : -0.61430,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.59770,
+         "y" : 0.5710,
+         "z" : 1.61870
+      },
+      {
+         "heading" : -3.97930,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.14190,
+         "y" : 0.61360,
+         "z" : 1.51720
+      },
+      {
+         "heading" : -5.5920,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.20170,
+         "y" : 0.60560,
+         "z" : 1.46470
+      },
+      {
+         "heading" : -4.01420,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.68130,
+         "y" : 0.55990,
+         "z" : 1.53460
+      },
+      {
+         "heading" : -4.01420,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.82940,
+         "y" : 0.5528999999999999,
+         "z" : 1.54820
+      },
+      {
+         "heading" : -5.94110,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.42250,
+         "y" : 0.5770,
+         "z" : 1.58440
+      },
+      {
+         "heading" : -4.92180,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 1.92270,
+         "y" : 0.64290,
+         "z" : 0.650
+      },
+      {
+         "heading" : -4.92180,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 1.27460,
+         "y" : 0.72990,
+         "z" : 1.52810
+      },
+      {
+         "heading" : -4.02120,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 1.01090,
+         "y" : 0.54410,
+         "z" : -0.29590
+      },
+      {
+         "heading" : -5.37560,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 0.90240,
+         "y" : 0.54410,
+         "z" : -0.45390
+      },
+      {
+         "heading" : -5.37560,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 1.02810,
+         "y" : 0.54410,
+         "z" : -0.22540
+      },
+      {
+         "heading" : -5.37560,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 3.20550,
+         "y" : 0.54410,
+         "z" : 0.3750
+      },
+      {
+         "heading" : -3.21140,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.3730,
+         "y" : 0.54410,
+         "z" : -0.50080
+      },
+      {
+         "heading" : -1.31250,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 2.25370,
+         "y" : 0.54410,
+         "z" : -0.57380
+      },
+      {
+         "heading" : 0.57940,
+         "height" : -0.01210,
+         "name" : "Mine Ruins Gate 01",
+         "scaling" : 1.47590,
+         "x" : -2.32740,
+         "y" : 0.7959000000000001,
+         "z" : -0.65640
+      },
+      {
+         "heading" : 0.59340,
+         "height" : -0.0130,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -2.03860,
+         "y" : 0.80670,
+         "z" : -0.48810
+      },
+      {
+         "heading" : 0.59340,
+         "height" : -0.0190,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -1.80850,
+         "y" : 0.81390,
+         "z" : -0.3460
+      },
+      {
+         "heading" : 2.33870,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 02",
+         "scaling" : 1.9050,
+         "x" : -2.55180,
+         "y" : 0.78930,
+         "z" : -0.12640
+      },
+      {
+         "heading" : 0.25140,
+         "height" : -0.03450,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -2.63350,
+         "y" : 0.79640,
+         "z" : -0.79830
+      },
+      {
+         "heading" : 0.25140,
+         "height" : -0.11650,
+         "name" : "Mine Ruins Fence 01",
+         "scaling" : 1.47590,
+         "x" : -2.90490,
+         "y" : 0.8048999999999999,
+         "z" : -0.8725000000000001
+      },
+      {
+         "heading" : 19.89660,
+         "height" : -0.00560,
+         "name" : "Snowy Rock Large 01",
+         "scaling" : 1.4840,
+         "x" : -3.5340,
+         "y" : 0.83030,
+         "z" : 1.90770
+      },
+      {
+         "heading" : 7.32340,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : -2.93240,
+         "y" : 0.83450,
+         "z" : 1.34180
+      },
+      {
+         "heading" : 4.8380,
+         "name" : "Short Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : -3.13860,
+         "y" : 0.83630,
+         "z" : 1.43340
+      },
+      {
+         "heading" : 4.8380,
+         "height" : -0.00410,
+         "name" : "Short Snowy Pine Tree 02",
+         "scaling" : 1.5810,
+         "x" : -2.69620,
+         "y" : 0.83850,
+         "z" : 1.20670
+      },
+      {
+         "heading" : 7.32340,
+         "height" : -0.00010,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 1.5810,
+         "x" : -2.69080,
+         "y" : 1.0250,
+         "z" : 1.73450
+      },
+      {
+         "heading" : 7.32340,
+         "height" : -0.07290000000000001,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 1.5810,
+         "x" : -3.38070,
+         "y" : 0.76070,
+         "z" : 1.51060
+      },
+      {
+         "heading" : 7.32340,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 1.5810,
+         "x" : -2.17130,
+         "y" : 0.8350,
+         "z" : 0.57850
+      },
+      {
+         "heading" : 7.32340,
+         "name" : "Short Snowy Pine Tree 03",
+         "scaling" : 1.5810,
+         "x" : -3.96340,
+         "y" : 0.85540,
+         "z" : 1.21340
+      },
+      {
+         "heading" : 7.32340,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : -3.81350,
+         "y" : 0.85080,
+         "z" : 1.50240
+      },
+      {
+         "heading" : 7.32340,
+         "height" : 0.00010,
+         "name" : "Short Snowy Pine Tree 04",
+         "scaling" : 1.5810,
+         "x" : -4.1790,
+         "y" : 0.95960,
+         "z" : 0.49050
+      },
+      {
+         "heading" : 5.95510,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 1.5810,
+         "x" : -4.19410,
+         "y" : 1.02040,
+         "z" : 1.07640
+      },
+      {
+         "heading" : 3.42080,
+         "height" : -0.08220,
+         "name" : "Tall Snowy Pine Tree 02",
+         "scaling" : 1.5810,
+         "x" : -5.37060,
+         "y" : 1.06260,
+         "z" : 0.59640
+      },
+      {
+         "heading" : -5.2080,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 0.970,
+         "y" : 0.77050,
+         "z" : 1.46820
+      },
+      {
+         "heading" : -5.2080,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 1.15590,
+         "y" : 0.7455000000000001,
+         "z" : 1.42530
+      },
+      {
+         "heading" : -4.35630,
+         "height" : -0.00370,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -0.29120,
+         "y" : 0.82970,
+         "z" : 1.59220
+      },
+      {
+         "heading" : -2.70870,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -0.81660,
+         "y" : 0.83330,
+         "z" : 1.18080
+      },
+      {
+         "heading" : -0.65620,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -1.11630,
+         "y" : 0.83330,
+         "z" : 1.08070
+      },
+      {
+         "heading" : -0.7120,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -1.37120,
+         "y" : 0.83690,
+         "z" : 0.62020
+      },
+      {
+         "heading" : 0.28630,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -1.370,
+         "y" : 0.83330,
+         "z" : 0.03810
+      },
+      {
+         "heading" : -1.14490,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 0.09320000000000001,
+         "y" : 0.83340,
+         "z" : 0.22130
+      },
+      {
+         "heading" : -1.76620,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : 0.20830,
+         "y" : 0.83340,
+         "z" : 0.32230
+      },
+      {
+         "heading" : -1.79410,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -0.95940,
+         "y" : 0.83330,
+         "z" : -0.18270
+      },
+      {
+         "heading" : -2.30380,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -1.25580,
+         "y" : 0.83330,
+         "z" : -0.53840
+      },
+      {
+         "heading" : 3.60930,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 02",
+         "scaling" : 2.09370,
+         "x" : -2.71690,
+         "y" : 0.81180,
+         "z" : 0.63630
+      },
+      {
+         "heading" : 3.19040,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 03",
+         "scaling" : 1.88980,
+         "x" : -3.72720,
+         "y" : 0.82650,
+         "z" : 0.85540
+      },
+      {
+         "heading" : 4.37730,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 03",
+         "scaling" : 2.00170,
+         "x" : -3.57570,
+         "y" : 0.7770,
+         "z" : -0.01960
+      },
+      {
+         "heading" : 2.22010,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 04",
+         "scaling" : 1.78880,
+         "x" : -2.95210,
+         "y" : 0.80550,
+         "z" : 0.86390
+      },
+      {
+         "heading" : 6.59040,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 04",
+         "scaling" : 1.75780,
+         "x" : -3.53980,
+         "y" : 0.80840,
+         "z" : -0.38590
+      },
+      {
+         "heading" : 0.25830,
+         "height" : 0.010,
+         "name" : "Bone Pile Decal 02",
+         "scaling" : 3.08650,
+         "x" : -3.80040,
+         "y" : 0.83330,
+         "z" : -1.32710
+      },
+      {
+         "heading" : 22.00490,
+         "height" : -0.06150,
+         "name" : "Ice Block Flat 01",
+         "scaling" : 1.4840,
+         "x" : 3.2810,
+         "y" : -0.06150,
+         "z" : -2.67940
+      },
+      {
+         "heading" : 22.3330,
+         "height" : -0.06150,
+         "name" : "Ice Block Flat 02",
+         "scaling" : 1.17760,
+         "x" : 4.26480,
+         "y" : -0.06150,
+         "z" : -2.73360
+      },
+      {
+         "heading" : 22.3330,
+         "height" : -0.06150,
+         "name" : "Ice Block Flat 01",
+         "scaling" : 1.17760,
+         "x" : 5.40430,
+         "y" : -0.06150,
+         "z" : -2.8720
+      },
+      {
+         "heading" : 19.03090,
+         "height" : -0.06150,
+         "name" : "Ice Block Flat 03",
+         "scaling" : 1.01350,
+         "x" : 3.96680,
+         "y" : -0.06150,
+         "z" : -2.82110
+      },
+      {
+         "heading" : 20.85990,
+         "height" : -0.08440,
+         "name" : "Ice Block Flat 03",
+         "scaling" : 1.35110,
+         "x" : 6.38560,
+         "y" : -0.08440,
+         "z" : -2.4510
+      },
+      {
+         "heading" : 19.03090,
+         "height" : -0.06419999999999999,
+         "name" : "Ice Block Flat 03",
+         "scaling" : 1.01350,
+         "x" : 6.43590,
+         "y" : -0.06419999999999999,
+         "z" : -2.580
+      },
+      {
+         "heading" : -4.39120,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -0.22760,
+         "y" : 0.83340,
+         "z" : -0.51440
+      },
+      {
+         "heading" : -5.64090,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -0.24340,
+         "y" : 0.83340,
+         "z" : -0.65340
+      },
+      {
+         "heading" : -7.91680,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -0.420,
+         "y" : 0.83340,
+         "z" : -0.6326000000000001
+      },
+      {
+         "heading" : -9.745900000000001,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -0.41810,
+         "y" : 0.83340,
+         "z" : -1.33560
+      },
+      {
+         "heading" : -11.06530,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -0.32930,
+         "y" : 0.83340,
+         "z" : -1.16990
+      },
+      {
+         "heading" : -12.84550,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -0.33630,
+         "y" : 0.83340,
+         "z" : -1.67070
+      },
+      {
+         "heading" : -14.30460,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -1.61160,
+         "y" : 0.83380,
+         "z" : -0.48750
+      },
+      {
+         "heading" : -15.08650,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -1.91740,
+         "y" : 0.82960,
+         "z" : -0.51690
+      },
+      {
+         "heading" : -15.08650,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -2.60220,
+         "y" : 0.82860,
+         "z" : -0.94840
+      },
+      {
+         "heading" : -13.29230,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -1.74460,
+         "y" : 0.83210,
+         "z" : -1.56470
+      },
+      {
+         "heading" : -13.29230,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -1.51630,
+         "y" : 0.83330,
+         "z" : -1.59630
+      },
+      {
+         "heading" : -16.30120,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -1.56360,
+         "y" : 0.83170,
+         "z" : -1.5110
+      },
+      {
+         "heading" : -15.00970,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -2.49690,
+         "y" : 0.8270999999999999,
+         "z" : -0.8920
+      },
+      {
+         "heading" : -11.49810,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -2.57770,
+         "y" : 0.85680,
+         "z" : -1.2140
+      },
+      {
+         "heading" : -11.49810,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -1.97160,
+         "y" : 0.81620,
+         "z" : -0.06519999999999999
+      },
+      {
+         "heading" : -12.79660,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -2.05180,
+         "y" : 0.81330,
+         "z" : 0.19040
+      },
+      {
+         "heading" : -13.71110,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -2.04490,
+         "y" : 0.81040,
+         "z" : 0.08530
+      },
+      {
+         "heading" : -15.01660,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -2.65840,
+         "y" : 0.83120,
+         "z" : 0.93770
+      },
+      {
+         "heading" : -17.43910,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -2.39290,
+         "y" : 0.83460,
+         "z" : 0.61920
+      },
+      {
+         "heading" : -19.7010,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -2.49130,
+         "y" : 0.83430,
+         "z" : 0.68170
+      },
+      {
+         "heading" : -20.48990,
+         "height" : -0.02170,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.11310,
+         "y" : 0.80670,
+         "z" : 1.24890
+      },
+      {
+         "heading" : -19.3450,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.31090,
+         "y" : 0.82220,
+         "z" : 1.24310
+      },
+      {
+         "heading" : -18.6050,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.22760,
+         "y" : 0.81420,
+         "z" : 1.15470
+      },
+      {
+         "heading" : -18.6050,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.63060,
+         "y" : 0.8330,
+         "z" : 1.39340
+      },
+      {
+         "heading" : -18.6050,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.8990,
+         "y" : 0.84680,
+         "z" : 0.89420
+      },
+      {
+         "heading" : -16.32910,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.93280,
+         "y" : 0.86450,
+         "z" : 1.03970
+      },
+      {
+         "heading" : -18.55610,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.55790,
+         "y" : 0.82240,
+         "z" : -0.98370
+      },
+      {
+         "heading" : -18.71670,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.47820,
+         "y" : 0.8342000000000001,
+         "z" : -0.79940
+      },
+      {
+         "heading" : -21.80940,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.56030,
+         "y" : 0.81680,
+         "z" : -0.8840
+      },
+      {
+         "heading" : -23.31040,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.27090,
+         "y" : 0.83290,
+         "z" : 0.01440
+      },
+      {
+         "heading" : -25.80270,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.13280,
+         "y" : 0.85240,
+         "z" : -0.00650
+      },
+      {
+         "heading" : -25.75380,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.04610,
+         "y" : 0.9098000000000001,
+         "z" : -0.24250
+      },
+      {
+         "heading" : -25.80270,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.37270,
+         "y" : 0.84840,
+         "z" : -0.30980
+      },
+      {
+         "heading" : -25.80270,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.18990,
+         "y" : 0.9220,
+         "z" : -0.18380
+      },
+      {
+         "heading" : -32.7770,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -4.58820,
+         "y" : 0.83330,
+         "z" : 0.19740
+      },
+      {
+         "heading" : -28.2810,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -4.62590,
+         "y" : 0.83360,
+         "z" : 0.37820
+      },
+      {
+         "heading" : -31.91130,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -4.60430,
+         "y" : 0.83330,
+         "z" : 0.51650
+      },
+      {
+         "heading" : -16.32910,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -5.14630,
+         "y" : 0.83340,
+         "z" : 0.27760
+      },
+      {
+         "heading" : -14.30450,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -5.13390,
+         "y" : 0.83340,
+         "z" : 0.45340
+      },
+      {
+         "heading" : -14.30450,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -5.14310,
+         "y" : 0.83340,
+         "z" : 0.17790
+      },
+      {
+         "heading" : -15.22610,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -5.15990,
+         "y" : 0.83350,
+         "z" : -0.05880
+      },
+      {
+         "heading" : -16.32910,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -5.16130,
+         "y" : 0.83350,
+         "z" : -0.18910
+      },
+      {
+         "heading" : -15.22610,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -4.19110,
+         "y" : 0.83370,
+         "z" : -0.27980
+      },
+      {
+         "heading" : -13.86480,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -4.12430,
+         "y" : 0.8360,
+         "z" : -0.18870
+      },
+      {
+         "heading" : -15.58220,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -4.07990,
+         "y" : 0.8880,
+         "z" : 0.10530
+      },
+      {
+         "heading" : -17.1320,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -4.04940,
+         "y" : 0.87840,
+         "z" : 0.29780
+      },
+      {
+         "heading" : -17.8580,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -4.29340,
+         "y" : 1.00360,
+         "z" : 0.05640
+      },
+      {
+         "heading" : -18.08840,
+         "height" : 0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -4.29960,
+         "y" : 0.98890,
+         "z" : 0.31590
+      },
+      {
+         "heading" : -19.47770,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -4.19770,
+         "y" : 0.94560,
+         "z" : -0.04390
+      },
+      {
+         "heading" : -19.47770,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.96980,
+         "y" : 0.83330,
+         "z" : -1.55670
+      },
+      {
+         "heading" : -20.4830,
+         "height" : -0.0,
+         "name" : "Snowy Dry Weed 02",
+         "scaling" : 1.0,
+         "x" : -3.60180,
+         "y" : 0.83290,
+         "z" : -1.270
+      },
+      {
+         "heading" : -15.96610,
+         "height" : -0.05330,
+         "name" : "Signpost 02",
+         "scaling" : 1.0,
+         "x" : -5.59920,
+         "y" : 0.77360,
+         "z" : -0.81660
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Snowy Barrel 01",
+         "scaling" : 1.0,
+         "x" : -5.72440,
+         "y" : 0.81650,
+         "z" : -0.78710
+      },
+      {
+         "heading" : 5.48030,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 0.4620,
+         "x" : 5.34290,
+         "y" : 0.14480,
+         "z" : -1.38930
+      },
+      {
+         "heading" : 5.48030,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 0.55220,
+         "x" : 5.57280,
+         "y" : 0.14430,
+         "z" : -1.48770
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 2.28290,
+         "height" : 0.09180000000000001,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 3.40070,
+         "y" : 0.12970,
+         "z" : -2.10670
+      },
+      {
+         "heading" : 21.9630,
+         "height" : -0.01070,
+         "name" : "Ice Block Flat 01",
+         "scaling" : 1.4840,
+         "x" : -4.86040,
+         "y" : 0.10060,
+         "z" : 1.12410
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 1.42410,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 0.01410,
+         "y" : 0.83340,
+         "z" : 1.58820
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.370,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 0.14060,
+         "y" : 0.83340,
+         "z" : 0.32820
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 1.96870,
+         "height" : 0.00010,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : -1.76730,
+         "y" : 0.83340,
+         "z" : -0.4840
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 4.18180,
+         "height" : -0.00030,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : -0.91330,
+         "y" : 0.83310,
+         "z" : -1.75750
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 2.28290,
+         "height" : -0.0,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 5.00890,
+         "y" : 0.14490,
+         "z" : -1.40450
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 2.67380,
+         "height" : -0.00610,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : -1.4440,
+         "y" : 0.83970,
+         "z" : 0.66540
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 3.39290,
+         "height" : -0.0,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : -2.64330,
+         "y" : 0.92640,
+         "z" : -1.56140
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -15.96610,
+         "height" : 0.13620,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.80,
+            "col_green" : 0.50,
+            "col_red" : 0.50,
+            "radius0" : 0.010,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -4.04040,
+         "y" : 0.96060,
+         "z" : -0.17430
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -15.96610,
+         "height" : 0.07099999999999999,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.80,
+            "col_green" : 0.50,
+            "col_red" : 0.50,
+            "radius0" : 0.010,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -3.52390,
+         "y" : 0.89010,
+         "z" : 1.15950
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -15.96610,
+         "height" : 0.08540,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.80,
+            "col_green" : 0.50,
+            "col_red" : 0.50,
+            "radius0" : 0.0010,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -2.32360,
+         "y" : 0.89450,
+         "z" : 0.37890
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.28630,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 6.45810,
+         "y" : 0.16140,
+         "z" : -0.46720
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -3.98630,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : 3.69110,
+         "y" : 0.3860,
+         "z" : 0.3720
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 5.57810,
+         "name" : "Mine Lamp 01",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.750,
+            "col_red" : 1.40,
+            "radius0" : 0.10,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.0,
+         "x" : -0.13440,
+         "y" : 0.83340,
+         "z" : -1.11060
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 2.32470,
+         "height" : 0.08720,
+         "name" : "Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.0,
+            "col_green" : 0.70,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.40
+         },
+         "scaling" : 1.18630,
+         "x" : -5.79820,
+         "y" : 0.8960,
+         "z" : -0.72790
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 2.32470,
+         "height" : 0.0470,
+         "name" : "Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.0,
+            "col_green" : 0.70,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.18630,
+         "x" : -5.07880,
+         "y" : 0.8725000000000001,
+         "z" : -1.08190
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 5.11720,
+         "height" : -0.00480,
+         "name" : "Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.0,
+            "col_green" : 0.70,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.60
+         },
+         "scaling" : 1.18630,
+         "x" : -6.4410,
+         "y" : 0.82170,
+         "z" : -1.85220
+      },
+      {
+         "heading" : 4.47490,
+         "height" : -0.009299999999999999,
+         "name" : "Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.0,
+            "col_green" : 0.70,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.40
+         },
+         "scaling" : 1.18630,
+         "x" : -7.16320,
+         "y" : 0.82460,
+         "z" : -0.19950
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 2.43630,
+         "height" : 0.00540,
+         "name" : "Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.0,
+            "col_green" : 0.70,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.40
+         },
+         "scaling" : 1.18630,
+         "x" : -6.10920,
+         "y" : 0.81750,
+         "z" : 0.47360
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 3.37880,
+         "height" : 0.09260,
+         "name" : "Torch 01",
+         "omniParams" : {
+            "col_blue" : 0.0,
+            "col_green" : 0.70,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.30
+         },
+         "scaling" : 1.18630,
+         "x" : -6.97210,
+         "y" : 0.92630,
+         "z" : 0.86750
+      },
+      {
+         "heading" : -3.07180,
+         "height" : -0.05660,
+         "name" : "Grey Brick Tower Snowy Top C 01",
+         "scaling" : 0.56190,
+         "x" : -3.16450,
+         "y" : 1.01110,
+         "z" : -1.04780
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Snowy Crate 01",
+         "scaling" : 1.0,
+         "x" : -5.78130,
+         "y" : 0.80950,
+         "z" : -0.81150
+      },
+      {
+         "heading" : 3.60240,
+         "name" : "Cart 02",
+         "scaling" : 1.0,
+         "x" : 2.39490,
+         "y" : 0.50310,
+         "z" : -0.84810
+      },
+      {
+         "heading" : 5.34770,
+         "height" : -0.01860,
+         "name" : "Cart Wheel 02",
+         "scaling" : 1.0,
+         "x" : 3.13560,
+         "y" : 0.44210,
+         "z" : -0.35480
+      },
+      {
+         "heading" : 3.60240,
+         "height" : 0.0,
+         "name" : "Cart Harness 01",
+         "scaling" : 1.0,
+         "x" : 5.72640,
+         "y" : 0.25680,
+         "z" : 1.44830
+      },
+      {
+         "heading" : 5.34770,
+         "height" : 0.0,
+         "name" : "Snowy Barrel 10",
+         "scaling" : 1.0,
+         "x" : 3.85210,
+         "y" : 0.37540,
+         "z" : 0.41930
+      },
+      {
+         "heading" : 5.96910,
+         "height" : 0.01450,
+         "name" : "Snowy Barrel 09",
+         "scaling" : 1.0,
+         "x" : 4.43910,
+         "y" : 0.34560,
+         "z" : 0.8191000000000001
+      },
+      {
+         "heading" : 5.96910,
+         "height" : -0.0,
+         "name" : "Snowy Barrel 08",
+         "scaling" : 1.0,
+         "x" : 5.01270,
+         "y" : 0.28810,
+         "z" : 1.35410
+      },
+      {
+         "heading" : 5.96910,
+         "height" : -0.0,
+         "name" : "Snowy Barrel 07",
+         "scaling" : 1.0,
+         "x" : 6.270,
+         "y" : 0.22010,
+         "z" : 0.58490
+      },
+      {
+         "heading" : 5.96910,
+         "height" : -0.0,
+         "name" : "Snowy Barrel 06",
+         "scaling" : 1.0,
+         "x" : 6.3050,
+         "y" : 0.17050,
+         "z" : -0.04630
+      },
+      {
+         "heading" : 5.96910,
+         "height" : -0.0,
+         "name" : "Snowy Barrel 05",
+         "scaling" : 1.0,
+         "x" : 6.36440,
+         "y" : 0.15110,
+         "z" : -0.9320000000000001
+      },
+      {
+         "heading" : 5.96910,
+         "height" : -0.0,
+         "name" : "Snowy Barrel 04",
+         "scaling" : 1.0,
+         "x" : 6.46380,
+         "y" : 0.14470,
+         "z" : -1.56020
+      },
+      {
+         "heading" : 5.85040,
+         "height" : 0.11830,
+         "name" : "Snowy Barrel 04",
+         "scaling" : 1.18690,
+         "x" : 5.99360,
+         "y" : 0.11890,
+         "z" : -2.12130
+      },
+      {
+         "heading" : 5.96910,
+         "height" : 0.12130,
+         "name" : "Snowy Barrel 03",
+         "scaling" : 1.0,
+         "x" : 6.05710,
+         "y" : 0.12190,
+         "z" : -2.16010
+      },
+      {
+         "heading" : 5.96910,
+         "height" : 0.12240,
+         "name" : "Snowy Barrel 09",
+         "scaling" : 1.0,
+         "x" : 6.00620,
+         "y" : 0.12240,
+         "z" : -2.18910
+      },
+      {
+         "heading" : 4.97070,
+         "height" : 0.0,
+         "name" : "Snowy Barrel 10",
+         "scaling" : 1.0,
+         "x" : 6.44380,
+         "y" : 0.14570,
+         "z" : -1.21550
+      },
+      {
+         "heading" : 6.82080,
+         "height" : -0.0,
+         "name" : "Snowy Barrel 10",
+         "scaling" : 1.0,
+         "x" : 4.51580,
+         "y" : 0.14490,
+         "z" : -1.69150
+      },
+      {
+         "heading" : 6.82080,
+         "height" : -0.0,
+         "name" : "Snowy Barrel 07",
+         "scaling" : 1.0,
+         "x" : 3.76940,
+         "y" : 0.14490,
+         "z" : -1.73910
+      },
+      {
+         "heading" : 5.96910,
+         "height" : 0.11910,
+         "name" : "Snowy Barrel 03",
+         "scaling" : 1.0,
+         "x" : 5.21280,
+         "y" : 0.12140,
+         "z" : -2.19280
+      },
+      {
+         "heading" : 5.96910,
+         "height" : 0.11380,
+         "name" : "Snowy Barrel 05",
+         "scaling" : 1.0,
+         "x" : 5.27930,
+         "y" : 0.12210,
+         "z" : -2.14420
+      },
+      {
+         "heading" : 5.96910,
+         "height" : -0.01220,
+         "name" : "Snowy Barrel 04",
+         "scaling" : 1.0,
+         "x" : 4.50680,
+         "y" : 0.31440,
+         "z" : 0.83190
+      },
+      {
+         "heading" : 5.95510,
+         "height" : -0.02470,
+         "name" : "Snowy Barrel 10",
+         "scaling" : 1.0,
+         "x" : 2.7910,
+         "y" : 0.45040,
+         "z" : -0.68920
+      },
+      {
+         "heading" : 5.95510,
+         "height" : -0.0,
+         "name" : "Snowy Crate 01",
+         "scaling" : 1.0,
+         "x" : 2.88990,
+         "y" : 0.46850,
+         "z" : -0.62590
+      },
+      {
+         "heading" : 5.95510,
+         "height" : 0.0,
+         "name" : "Snowy Crate 01",
+         "scaling" : 1.0,
+         "x" : 3.78190,
+         "y" : 0.37890,
+         "z" : 0.42220
+      },
+      {
+         "heading" : 5.95510,
+         "height" : 0.0,
+         "name" : "Snowy Crate 01",
+         "scaling" : 1.0,
+         "x" : 4.60210,
+         "y" : 0.3190,
+         "z" : 0.90580
+      },
+      {
+         "heading" : 5.95510,
+         "height" : 0.0,
+         "name" : "Snowy Crate 02",
+         "scaling" : 1.0,
+         "x" : 5.11910,
+         "y" : 0.2840,
+         "z" : 1.32190
+      },
+      {
+         "heading" : 5.30580,
+         "height" : -0.0,
+         "name" : "Snowy Crate 03",
+         "scaling" : 1.0,
+         "x" : 5.05550,
+         "y" : 0.28690,
+         "z" : 1.30180
+      },
+      {
+         "heading" : 5.30580,
+         "height" : 0.0,
+         "name" : "Snowy Crate 03",
+         "scaling" : 1.0,
+         "x" : 6.20170,
+         "y" : 0.20940,
+         "z" : 0.63350
+      },
+      {
+         "heading" : 6.3460,
+         "height" : -0.0,
+         "name" : "Snowy Crate 02",
+         "scaling" : 1.0,
+         "x" : 6.21280,
+         "y" : 0.20550,
+         "z" : 0.56740
+      },
+      {
+         "heading" : 6.3460,
+         "height" : -0.0,
+         "name" : "Snowy Crate 02",
+         "scaling" : 1.24450,
+         "x" : 6.22630,
+         "y" : 0.17490,
+         "z" : 0.05980
+      },
+      {
+         "heading" : 6.84170,
+         "height" : -0.01410,
+         "name" : "Snowy Crate 03",
+         "scaling" : 1.24450,
+         "x" : 6.24610,
+         "y" : 0.16570,
+         "z" : 0.16890
+      },
+      {
+         "heading" : 6.3460,
+         "height" : 0.0,
+         "name" : "Snowy Crate 02",
+         "scaling" : 1.24450,
+         "x" : 5.08860,
+         "y" : 0.14490,
+         "z" : -1.35020
+      },
+      {
+         "heading" : 6.95340,
+         "height" : -0.0,
+         "name" : "Snowy Crate 03",
+         "scaling" : 1.24450,
+         "x" : 5.38250,
+         "y" : 0.14490,
+         "z" : -1.08940
+      },
+      {
+         "heading" : 6.95340,
+         "height" : 0.00010,
+         "name" : "Snowy Barrel 09",
+         "scaling" : 1.24450,
+         "x" : 5.41840,
+         "y" : 0.1450,
+         "z" : -0.98410
+      },
+      {
+         "heading" : 5.96910,
+         "height" : 0.12340,
+         "name" : "Snowy Crate 01",
+         "scaling" : 1.0,
+         "x" : 5.14010,
+         "y" : 0.12490,
+         "z" : -2.18790
+      },
+      {
+         "heading" : 5.96910,
+         "height" : 0.12180,
+         "name" : "Snowy Crate 01",
+         "scaling" : 1.0,
+         "x" : 5.94890,
+         "y" : 0.12190,
+         "z" : -2.16080
+      },
+      {
+         "heading" : -0.83780,
+         "height" : -0.03030,
+         "name" : "Snowy Rope Bridge Pillar Long 01",
+         "scaling" : 1.0,
+         "x" : 4.77650,
+         "y" : -0.01010,
+         "z" : -2.270
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.08359999999999999,
+         "name" : "Snowy Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 5.04110,
+         "y" : 0.08359999999999999,
+         "z" : -2.29490
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.06920,
+         "name" : "Snowy Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 5.30880,
+         "y" : 0.06920,
+         "z" : -2.28880
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.06750,
+         "name" : "Snowy Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 5.51110,
+         "y" : 0.06750,
+         "z" : -2.29360
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.06750,
+         "name" : "Snowy Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 5.7260,
+         "y" : 0.06750,
+         "z" : -2.23520
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.07080,
+         "name" : "Snowy Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 5.92780,
+         "y" : 0.07080,
+         "z" : -2.28010
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.09250,
+         "name" : "Snowy Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 3.3680,
+         "y" : 0.09250,
+         "z" : -2.33570
+      },
+      {
+         "heading" : -0.83780,
+         "height" : 0.08250,
+         "name" : "Snowy Wooden Bridge Pillar",
+         "scaling" : 1.0,
+         "x" : 3.18390,
+         "y" : 0.08540,
+         "z" : -2.11930
+      },
+      {
+         "heading" : -15.96610,
+         "height" : 0.02890,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.80,
+            "col_green" : 0.50,
+            "col_red" : 0.50,
+            "radius0" : 0.0010,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 6.23010,
+         "y" : 0.02890,
+         "z" : -2.79660
+      },
+      {
+         "heading" : -15.96610,
+         "height" : 0.05170,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.80,
+            "col_green" : 0.50,
+            "col_red" : 0.50,
+            "radius0" : 0.0010,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 4.1720,
+         "y" : 0.05170,
+         "z" : -2.85560
+      },
+      {
+         "heading" : -15.96610,
+         "height" : 0.02890,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.80,
+            "col_green" : 0.50,
+            "col_red" : 0.50,
+            "radius0" : 0.0010,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 5.23540,
+         "y" : 0.02890,
+         "z" : -2.96530
+      },
+      {
+         "heading" : -15.96610,
+         "height" : 0.11380,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.80,
+            "col_green" : 0.50,
+            "col_red" : 0.50,
+            "radius0" : 0.0010,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -4.55310,
+         "y" : 0.11380,
+         "z" : -1.91650
+      },
+      {
+         "heading" : -15.96610,
+         "height" : 0.13750,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.80,
+            "col_green" : 0.50,
+            "col_red" : 0.50,
+            "radius0" : 0.0010,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -4.73550,
+         "y" : 0.13860,
+         "z" : -0.81320
+      },
+      {
+         "heading" : -15.96610,
+         "height" : 0.13930,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.80,
+            "col_green" : 0.50,
+            "col_red" : 0.50,
+            "radius0" : 0.0010,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -4.87540,
+         "y" : 0.19870,
+         "z" : 0.77040
+      },
+      {
+         "heading" : 0.91460,
+         "height" : -0.02090,
+         "name" : "Graveyard Tombstone 04",
+         "scaling" : 1.0,
+         "x" : 0.02190,
+         "y" : 0.81250,
+         "z" : 0.42650
+      },
+      {
+         "heading" : 1.16590,
+         "height" : -0.01790,
+         "name" : "Graveyard Tombstone 03",
+         "scaling" : 1.0,
+         "x" : -1.40680,
+         "y" : 0.81950,
+         "z" : 0.31660
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Snowy Barrel 01",
+         "scaling" : 1.0,
+         "x" : -5.0590,
+         "y" : 0.82790,
+         "z" : -1.20650
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Snowy Barrel 02",
+         "scaling" : 1.0,
+         "x" : -5.13260,
+         "y" : 0.82150,
+         "z" : -1.18370
+      },
+      {
+         "heading" : 2.41550,
+         "height" : -0.00970,
+         "name" : "Snowy Barrel 09",
+         "scaling" : 1.0,
+         "x" : -5.03630,
+         "y" : 0.820,
+         "z" : -1.27130
+      },
+      {
+         "heading" : 2.6250,
+         "name" : "Snowy Crate 01",
+         "scaling" : 1.0,
+         "x" : -5.17740,
+         "y" : 0.82790,
+         "z" : -0.78430
+      },
+      {
+         "heading" : 2.6250,
+         "height" : -0.0,
+         "name" : "Snowy Crate 02",
+         "scaling" : 1.0,
+         "x" : -5.64960,
+         "y" : 0.82360,
+         "z" : -0.80070
+      },
+      {
+         "heading" : 5.95510,
+         "name" : "Snowy Barrel 10",
+         "scaling" : 1.0,
+         "x" : 0.98330,
+         "y" : 0.54410,
+         "z" : -0.5368000000000001
+      },
+      {
+         "heading" : 5.95510,
+         "name" : "Snowy Barrel 02",
+         "scaling" : 1.0,
+         "x" : 1.02250,
+         "y" : 0.54410,
+         "z" : -0.41770
+      },
+      {
+         "heading" : 5.95510,
+         "height" : -0.0,
+         "name" : "Snowy Barrel 01",
+         "scaling" : 1.0,
+         "x" : 1.23330,
+         "y" : 0.54410,
+         "z" : -0.03160
+      },
+      {
+         "heading" : 5.95510,
+         "name" : "Snowy Barrel 06",
+         "scaling" : 1.0,
+         "x" : 0.76380,
+         "y" : 0.54410,
+         "z" : -1.96750
+      },
+      {
+         "heading" : 7.37230,
+         "name" : "Snowy Barrel 09",
+         "scaling" : 1.0,
+         "x" : 0.80250,
+         "y" : 0.54410,
+         "z" : -1.76290
+      },
+      {
+         "heading" : -3.04380,
+         "height" : -0.02810,
+         "name" : "Grey Brick Tower Snowy Top C 02",
+         "scaling" : 0.56190,
+         "x" : -6.64560,
+         "y" : 0.81960,
+         "z" : -1.89180
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -15.96610,
+         "height" : 0.10360,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.80,
+            "col_green" : 0.50,
+            "col_red" : 0.50,
+            "radius0" : 0.0010,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 1.56940,
+         "y" : 0.79380,
+         "z" : 1.53830
+      },
+      {
+         "heading" : 5.95510,
+         "height" : 0.00070,
+         "name" : "Snowy Barrel 09",
+         "scaling" : 1.0,
+         "x" : 1.75320,
+         "y" : 0.54410,
+         "z" : -0.91930
+      },
+      {
+         "heading" : 5.95510,
+         "name" : "Snowy Barrel 09",
+         "scaling" : 1.0,
+         "x" : 3.50960,
+         "y" : 0.5460,
+         "z" : 1.7420
+      },
+      {
+         "heading" : 5.95510,
+         "name" : "Snowy Crate 01",
+         "scaling" : 1.0,
+         "x" : 3.1710,
+         "y" : 0.5460,
+         "z" : 1.65650
+      },
+      {
+         "heading" : 6.64630,
+         "name" : "Snowy Crate 02",
+         "scaling" : 1.0,
+         "x" : 3.03920,
+         "y" : 0.54660,
+         "z" : 1.57460
+      },
+      {
+         "heading" : 6.64630,
+         "name" : "Snowy Barrel 03",
+         "scaling" : 1.0,
+         "x" : 4.00650,
+         "y" : 0.54410,
+         "z" : 1.63140
+      },
+      {
+         "heading" : 6.95340,
+         "name" : "Sack Tied 04",
+         "scaling" : 1.24450,
+         "x" : 3.57360,
+         "y" : 0.39910,
+         "z" : 0.29820
+      },
+      {
+         "heading" : 3.33010,
+         "height" : 0.10580,
+         "name" : "Sack Tied 04",
+         "scaling" : 1.24450,
+         "x" : 5.19870,
+         "y" : 0.12010,
+         "z" : -2.13080
+      },
+      {
+         "heading" : 6.19940,
+         "height" : -0.01560,
+         "name" : "Winter Gate Doors 02",
+         "scaling" : 0.61460,
+         "x" : 5.33920,
+         "y" : 0.25820,
+         "z" : 1.37210
+      },
+      {
+         "heading" : 5.43840,
+         "height" : 0.04830,
+         "name" : "Winter Barrier 01",
+         "scaling" : 0.61460,
+         "x" : 5.76680,
+         "y" : 0.28310,
+         "z" : 0.9090
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.00040,
+         "name" : "Snowy Barrel 01",
+         "scaling" : 1.0,
+         "x" : -5.95370,
+         "y" : 0.78430,
+         "z" : 0.28270
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Snowy Crate 01",
+         "scaling" : 1.0,
+         "x" : -5.93860,
+         "y" : 0.78150,
+         "z" : 0.20950
+      },
+      {
+         "heading" : 2.6250,
+         "height" : -0.00520,
+         "name" : "Snowy Crate 02",
+         "scaling" : 1.0,
+         "x" : -6.00670,
+         "y" : 0.77310,
+         "z" : 0.22010
+      },
+      {
+         "heading" : 2.6250,
+         "height" : -0.00010,
+         "name" : "Snowy Crate 02",
+         "scaling" : 1.0,
+         "x" : -6.47060,
+         "y" : 1.09410,
+         "z" : 0.78750
+      },
+      {
+         "heading" : -0.6981000000000001,
+         "name" : "Snowy Barrel 10",
+         "scaling" : 1.0,
+         "x" : -6.41690,
+         "y" : 1.09460,
+         "z" : 0.75790
+      },
+      {
+         "heading" : 0.13960,
+         "name" : "Snowy Barrel 09",
+         "scaling" : 1.0,
+         "x" : -6.9620,
+         "y" : 0.8340,
+         "z" : 0.77330
+      },
+      {
+         "heading" : 6.89060,
+         "height" : 0.16820,
+         "name" : "Winter Barrier 01",
+         "scaling" : 0.61460,
+         "x" : 3.90920,
+         "y" : 0.53350,
+         "z" : 0.60190
+      },
+      {
+         "heading" : 6.73690,
+         "height" : 0.0950,
+         "name" : "Winter Barrier 01",
+         "scaling" : 0.61460,
+         "x" : 1.47450,
+         "y" : 0.63930,
+         "z" : 0.21980
+      },
+      {
+         "heading" : 6.08070,
+         "height" : 0.00670,
+         "name" : "Winter Barrier 01",
+         "scaling" : 0.61460,
+         "x" : -6.6710,
+         "y" : 0.82140,
+         "z" : -2.09260
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.01410,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 5.23680,
+         "y" : 0.29710,
+         "z" : 0.81550
+      },
+      {
+         "heading" : 0.06279999999999999,
+         "height" : -0.00010,
+         "name" : "Planks Decal 02",
+         "scaling" : 0.55950,
+         "x" : 5.23550,
+         "y" : 0.28320,
+         "z" : 0.80680
+      },
+      {
+         "heading" : -0.08380,
+         "height" : -0.0,
+         "name" : "blocker",
+         "scaling" : 1.66370,
+         "x" : 5.22720,
+         "y" : 0.28450,
+         "z" : 0.7810
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.53370,
+         "name" : "Burning Object",
+         "scaling" : 0.9723000000000001,
+         "x" : 1.0910,
+         "y" : 1.07780,
+         "z" : -0.54090
+      },
+      {
+         "heading" : -5.85730,
+         "height" : -0.01390,
+         "name" : "Mine Lamp 01 Unlit",
+         "scaling" : 1.0,
+         "x" : 5.78250,
+         "y" : 0.22050,
+         "z" : 0.95080
+      },
+      {
+         "heading" : -3.98630,
+         "name" : "Mine Lamp 01 Unlit",
+         "scaling" : 1.0,
+         "x" : 4.74760,
+         "y" : 0.3030,
+         "z" : 1.2710
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -0.08380,
+         "height" : 0.04890,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.50,
+            "col_red" : 1.0,
+            "radius0" : 0.50,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.66370,
+         "x" : 5.21820,
+         "y" : 0.33380,
+         "z" : 0.7880
+      },
+      {
+         "heading" : 6.95340,
+         "name" : "Sack Tied 04",
+         "scaling" : 1.24450,
+         "x" : -5.50630,
+         "y" : 0.8322000000000001,
+         "z" : -0.7675999999999999
+      },
+      {
+         "heading" : 4.36330,
+         "name" : "Sack Tied 03",
+         "scaling" : 1.24450,
+         "x" : -5.98530,
+         "y" : 0.78610,
+         "z" : -0.4530
+      },
+      {
+         "heading" : 4.96370,
+         "height" : -0.02810,
+         "name" : "Sack Tied 04",
+         "scaling" : 1.24450,
+         "x" : -6.32530,
+         "y" : 0.95780,
+         "z" : 0.61390
+      },
+      {
+         "heading" : 4.96370,
+         "name" : "Sack Tied 04",
+         "scaling" : 1.24450,
+         "x" : -7.19210,
+         "y" : 0.84290,
+         "z" : -0.26510
+      },
+      {
+         "heading" : 4.96370,
+         "height" : 0.05680,
+         "name" : "Sack Tied 05",
+         "scaling" : 1.24450,
+         "x" : -7.00850,
+         "y" : 0.89090,
+         "z" : -0.56020
+      },
+      {
+         "heading" : 0.90750,
+         "name" : "Ice Boulder 05",
+         "scaling" : 1.38030,
+         "x" : -4.62330,
+         "y" : 0.0,
+         "z" : -1.26310
+      },
+      {
+         "heading" : 2.49230,
+         "height" : -0.08430,
+         "name" : "Ice Boulder 06",
+         "scaling" : 1.38030,
+         "x" : -4.3440,
+         "y" : -0.08430,
+         "z" : -1.49640
+      },
+      {
+         "heading" : 4.1190,
+         "height" : -0.04830,
+         "name" : "Ice Boulder 05",
+         "scaling" : 1.38030,
+         "x" : -4.64860,
+         "y" : -0.04830,
+         "z" : -2.19660
+      },
+      {
+         "heading" : 4.1190,
+         "height" : -0.05880,
+         "name" : "Ice Boulder 05",
+         "scaling" : 0.98430,
+         "x" : -4.58840,
+         "y" : -0.05870,
+         "z" : -1.53710
+      },
+      {
+         "heading" : 5.29180,
+         "height" : -0.07810,
+         "name" : "Ice Boulder 07",
+         "scaling" : 1.38030,
+         "x" : -4.73310,
+         "y" : -0.07810,
+         "z" : -0.6163999999999999
+      },
+      {
+         "heading" : 0.90750,
+         "height" : -0.06140,
+         "name" : "Ice Boulder 05",
+         "scaling" : 1.08380,
+         "x" : -4.38760,
+         "y" : -0.06140,
+         "z" : -1.7450
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.55850,
+         "height" : 0.0,
+         "name" : "Measure 8x",
+         "scaling" : 1.0,
+         "x" : 3.79650,
+         "y" : 0.39840,
+         "z" : -0.11280
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.55850,
+         "height" : 0.01780,
+         "name" : "Measure 8x",
+         "scaling" : 1.0,
+         "x" : 0.99130,
+         "y" : 0.56050,
+         "z" : -2.10150
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.55850,
+         "name" : "Measure 8x",
+         "scaling" : 1.0,
+         "x" : 0.49570,
+         "y" : 0.82860,
+         "z" : 1.19140
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.55850,
+         "name" : "Measure 8x",
+         "scaling" : 1.0,
+         "x" : -1.85850,
+         "y" : 0.80550,
+         "z" : -1.18970
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.55850,
+         "height" : 0.0,
+         "name" : "Measure 8x",
+         "scaling" : 1.0,
+         "x" : -5.93720,
+         "y" : 0.82290,
+         "z" : -1.84210
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -0.08380,
+         "height" : 0.50940,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.0,
+            "col_green" : 0.60,
+            "col_red" : 1.0,
+            "radius0" : 0.0,
+            "radius1" : 0.90
+         },
+         "scaling" : 1.66370,
+         "x" : 1.15330,
+         "y" : 1.05350,
+         "z" : -0.66790
+      },
+      {
+         "heading" : 5.43150,
+         "name" : "Sack Tied 04",
+         "scaling" : 1.24450,
+         "x" : 5.5980,
+         "y" : 0.15820,
+         "z" : -0.4530
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00440,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 4.39270,
+         "y" : 0.14930,
+         "z" : -1.97470
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 4.8380,
+         "y" : 0.30610,
+         "z" : 0.79230
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00480,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.67370,
+         "y" : 0.5489000000000001,
+         "z" : -1.50450
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.01260,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.13750,
+         "y" : 0.53150,
+         "z" : -1.08210
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.55170,
+         "y" : 0.54410,
+         "z" : 1.35260
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.11520,
+         "y" : 0.61710,
+         "z" : 1.17340
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.9540,
+         "y" : 0.83330,
+         "z" : 0.40620
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.6170,
+         "y" : 0.83340,
+         "z" : -0.51730
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.8340,
+         "y" : 0.80320,
+         "z" : 0.36290
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.03170,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -3.540,
+         "y" : 0.83090,
+         "z" : 0.60810
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.01170,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -3.66880,
+         "y" : 0.79030,
+         "z" : 0.15480
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.7272999999999999,
+         "y" : 0.83340,
+         "z" : -1.12190
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.73880,
+         "y" : 0.54960,
+         "z" : 1.28240
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.6080,
+         "y" : 0.54410,
+         "z" : -0.52080
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.2250,
+         "y" : 0.53150,
+         "z" : -1.42510
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 5.60860,
+         "y" : 0.25070,
+         "z" : 0.57370
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00440,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 4.75270,
+         "y" : 0.14930,
+         "z" : -1.81690
+      },
+      {
+         "heading" : 3.38590,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.42260,
+         "x" : 1.62070,
+         "y" : 0.68330,
+         "z" : 1.51440
+      },
+      {
+         "heading" : 3.38590,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.42260,
+         "x" : 1.49110,
+         "y" : 0.70080,
+         "z" : 1.55010
+      },
+      {
+         "heading" : 3.39290,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.0,
+         "x" : -2.27630,
+         "y" : 0.80770,
+         "z" : 0.33860
+      },
+      {
+         "heading" : 3.38590,
+         "name" : " Glowing Blue Mine Crystal 04",
+         "scaling" : 1.42260,
+         "x" : -2.34250,
+         "y" : 0.81190,
+         "z" : 0.41030
+      },
+      {
+         "heading" : 3.38590,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.42260,
+         "x" : -3.47890,
+         "y" : 0.81530,
+         "z" : 1.14640
+      },
+      {
+         "heading" : 3.38590,
+         "name" : " Glowing Blue Mine Crystal 03",
+         "scaling" : 1.04360,
+         "x" : -3.57890,
+         "y" : 0.82480,
+         "z" : 1.21680
+      },
+      {
+         "heading" : 3.38590,
+         "name" : " Glowing Blue Mine Crystal 01",
+         "scaling" : 1.23140,
+         "x" : -4.0390,
+         "y" : 0.82360,
+         "z" : -0.20910
+      },
+      {
+         "heading" : 3.38590,
+         "name" : " Glowing Blue Mine Crystal 02",
+         "scaling" : 1.04360,
+         "x" : -3.97340,
+         "y" : 0.81380,
+         "z" : -0.05550
+      },
+      {
+         "heading" : 2.04550,
+         "name" : " Glowing Blue Mine Crystal 04",
+         "scaling" : 1.55740,
+         "x" : -4.07390,
+         "y" : 0.84550,
+         "z" : -0.09850
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 5.91410,
+         "y" : 0.18740,
+         "z" : 0.0480
+      },
+      {
+         "gameObject" : "CommonChest",
+         "gameObjectParams" : null,
+         "heading" : -0.84470,
+         "height" : 0.00620,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : 3.56040,
+         "y" : 0.14450,
+         "z" : -2.13760
+      },
+      {
+         "gameObject" : "CommonChest",
+         "gameObjectParams" : null,
+         "heading" : 9.01290,
+         "height" : -0.00040,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : 3.8430,
+         "y" : 0.54370,
+         "z" : 1.58170
+      },
+      {
+         "gameObject" : "CommonChest",
+         "gameObjectParams" : null,
+         "heading" : 8.48930,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : -0.09329999999999999,
+         "y" : 0.83340,
+         "z" : -0.36540
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -6.34720,
+         "y" : 0.82170,
+         "z" : -0.93570
+      },
+      {
+         "heading" : -3.53950,
+         "height" : -0.02010,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.31090,
+         "x" : -1.07770,
+         "y" : 0.81260,
+         "z" : -1.70090
+      },
+      {
+         "heading" : 3.41390,
+         "height" : 0.00010,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.5810,
+         "x" : -5.39750,
+         "y" : 0.8925999999999999,
+         "z" : -0.23050
+      },
+      {
+         "heading" : 3.41390,
+         "height" : -0.410,
+         "name" : "Tall Snowy Pine Tree 01",
+         "scaling" : 1.30280,
+         "x" : -5.40950,
+         "y" : 0.61850,
+         "z" : 0.27460
+      },
+      {
+         "heading" : -13.67620,
+         "name" : "Snowy Dry Weed 03",
+         "scaling" : 1.0,
+         "x" : -5.19050,
+         "y" : 0.83330,
+         "z" : -0.32940
+      },
+      {
+         "heading" : -12.78960,
+         "name" : "Snowy Dry Weed 03",
+         "scaling" : 1.0,
+         "x" : -5.21240,
+         "y" : 0.83340,
+         "z" : -0.43850
+      },
+      {
+         "gameObject" : "SuperiorChest",
+         "gameObjectParams" : null,
+         "heading" : 5.40360,
+         "height" : 0.06670,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : 0.67110,
+         "y" : 0.55680,
+         "z" : -2.2360
+      },
+      {
+         "gameObject" : "SuperiorChest",
+         "gameObjectParams" : null,
+         "heading" : 2.08740,
+         "height" : -0.00780,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : 5.69770,
+         "y" : 0.24640,
+         "z" : 1.27910
+      },
+      {
+         "gameObject" : "MagicChest",
+         "gameObjectParams" : null,
+         "heading" : 5.29880,
+         "height" : 0.00780,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -2.11250,
+         "y" : 0.84110,
+         "z" : -1.70930
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 2.6110,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -2.14250,
+         "y" : 0.81030,
+         "z" : 0.26980
+      },
+      {
+         "gameObject" : "MagicChest",
+         "gameObjectParams" : null,
+         "heading" : 0.30720,
+         "height" : 0.00120,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -3.75290,
+         "y" : 0.83450,
+         "z" : -1.41570
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : 2.6110,
+         "height" : 0.00860,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -4.55630,
+         "y" : 0.84210,
+         "z" : 0.86210
+      },
+      {
+         "gameObject" : "MagicChest",
+         "gameObjectParams" : null,
+         "heading" : 6.04590,
+         "height" : 0.0,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -6.01950,
+         "y" : 0.82480,
+         "z" : -1.98350
+      },
+      {
+         "gameObject" : "EpicChest",
+         "gameObjectParams" : null,
+         "heading" : 3.41390,
+         "name" : "Chest 03",
+         "scaling" : 1.0,
+         "x" : -6.91880,
+         "y" : 0.82590,
+         "z" : 0.53540
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -6.33380,
+         "y" : 0.79270,
+         "z" : -0.3860
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -6.69430,
+         "y" : 0.81960,
+         "z" : -0.4710
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -6.29890,
+         "y" : 0.8290999999999999,
+         "z" : 0.10320
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.39240,
+         "y" : 0.83330,
+         "z" : 0.66760
+      },
+      {
+         "heading" : 0.82380,
+         "height" : -0.010,
+         "name" : "Signpost 01",
+         "scaling" : 1.0,
+         "x" : 5.45120,
+         "y" : 0.13460,
+         "z" : -1.9860
+      },
+      {
+         "heading" : 0.82380,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 1.0,
+         "x" : 6.21730,
+         "y" : 0.14470,
+         "z" : -1.91210
+      },
+      {
+         "heading" : 2.76460,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 1.0,
+         "x" : 5.39530,
+         "y" : 0.14490,
+         "z" : -1.93710
+      },
+      {
+         "heading" : 2.76460,
+         "height" : 0.010,
+         "name" : "Snow Decal 02",
+         "scaling" : 1.0,
+         "x" : 4.58070,
+         "y" : 0.14490,
+         "z" : -1.99090
+      },
+      {
+         "heading" : 6.24130,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : 4.06290,
+         "y" : 0.14490,
+         "z" : -2.07520
+      },
+      {
+         "heading" : 6.24130,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : 5.97960,
+         "y" : 0.14450,
+         "z" : -1.32280
+      },
+      {
+         "heading" : 6.24130,
+         "height" : 0.010,
+         "name" : "Snow Decal 02",
+         "scaling" : 1.0,
+         "x" : 5.32470,
+         "y" : 0.24090,
+         "z" : 0.0060
+      },
+      {
+         "heading" : 6.24130,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 1.0,
+         "x" : 4.20270,
+         "y" : 0.35550,
+         "z" : 0.43090
+      },
+      {
+         "heading" : 6.24130,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 1.0,
+         "x" : 6.0750,
+         "y" : 0.19890,
+         "z" : 0.51180
+      },
+      {
+         "heading" : 6.24130,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : 5.74050,
+         "y" : 0.16110,
+         "z" : -0.42390
+      },
+      {
+         "heading" : 6.24130,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : 3.38870,
+         "y" : 0.43550,
+         "z" : -0.46890
+      },
+      {
+         "heading" : 6.24130,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : 2.29720,
+         "y" : 0.5280,
+         "z" : -1.4510
+      },
+      {
+         "heading" : 6.24130,
+         "height" : 0.010,
+         "name" : "Snow Decal 02",
+         "scaling" : 1.0,
+         "x" : 1.32090,
+         "y" : 0.54410,
+         "z" : -1.54830
+      },
+      {
+         "heading" : 6.24130,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : 2.37250,
+         "y" : 0.54410,
+         "z" : -0.08140
+      },
+      {
+         "heading" : 6.51360,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.18520,
+         "x" : 3.28780,
+         "y" : 0.54410,
+         "z" : 1.12420
+      },
+      {
+         "heading" : 9.334099999999999,
+         "height" : 0.010,
+         "name" : "Snow Decal 02",
+         "scaling" : 1.0,
+         "x" : 1.54650,
+         "y" : 0.69320,
+         "z" : 0.94940
+      },
+      {
+         "heading" : 9.334099999999999,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 1.0,
+         "x" : -0.33270,
+         "y" : 0.83340,
+         "z" : 0.9040
+      },
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 02",
+         "scaling" : 1.0,
+         "x" : -0.72990,
+         "y" : 0.83330,
+         "z" : -0.28820
+      },
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : -2.87140,
+         "y" : 0.80420,
+         "z" : 0.48460
+      },
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : -1.86450,
+         "y" : 0.80570,
+         "z" : -1.19530
+      },
+      {
+         "heading" : 5.41750,
+         "height" : -0.47570,
+         "name" : "Green Wood Attic 01",
+         "scaling" : 1.0,
+         "x" : 3.33250,
+         "y" : -0.33880,
+         "z" : -1.90940
+      },
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 02",
+         "scaling" : 1.0,
+         "x" : -3.99430,
+         "y" : 0.81630,
+         "z" : -0.55150
+      },
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 1.0,
+         "x" : -5.68920,
+         "y" : 0.79970,
+         "z" : -1.27890
+      },
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 02",
+         "scaling" : 1.0,
+         "x" : -6.37630,
+         "y" : 0.80140,
+         "z" : -0.15440
+      },
+      {
+         "heading" : 11.980,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.43370,
+         "x" : -6.72480,
+         "y" : 0.82080,
+         "z" : -0.44750
+      },
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : -6.30920,
+         "y" : 0.8220,
+         "z" : -1.3420
+      },
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : -3.66590,
+         "y" : 0.81430,
+         "z" : 0.71030
+      },
+      {
+         "heading" : 2.34570,
+         "height" : -0.01810,
+         "name" : "Green Wood House 02",
+         "scaling" : 1.0,
+         "x" : 3.54930,
+         "y" : 0.44260,
+         "z" : -1.28820
+      },
+      {
+         "heading" : 12.07770,
+         "height" : 0.010,
+         "name" : "Snow Decal 03",
+         "scaling" : 1.0,
+         "x" : -0.84160,
+         "y" : 0.83340,
+         "z" : -1.10180
+      },
+      {
+         "heading" : 9.334099999999999,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 1.0,
+         "x" : 0.67430,
+         "y" : 0.80980,
+         "z" : 0.93990
+      },
+      {
+         "heading" : 6.3740,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 1.11250,
+         "x" : 2.89070,
+         "y" : 0.54470,
+         "z" : 1.0430
+      },
+      {
+         "heading" : 9.334099999999999,
+         "height" : 0.010,
+         "name" : "Snow Decal 01",
+         "scaling" : 1.0,
+         "x" : 1.64990,
+         "y" : 0.54410,
+         "z" : -0.35430
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : 0.00440,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 5.15660,
+         "y" : 0.14930,
+         "z" : -1.590
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.00250,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -3.07420,
+         "y" : 0.79860,
+         "z" : 0.7520
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.19460,
+         "y" : 0.54410,
+         "z" : 0.97180
+      },
+      {
+         "heading" : 15.78470,
+         "height" : -0.01540,
+         "name" : "Snowy Rock Med 06",
+         "scaling" : 1.30140,
+         "x" : 1.12580,
+         "y" : 0.52880,
+         "z" : 0.23920
+      }
+   ],
+   "soundtrack" : null,
+   "spawnPoints" : null,
+   "startPosition" : [ 6.34650, -1.84010 ],
+   "tint" : [ 136, 128, 32, 68 ],
+   "title" : "",
+   "weather" : null
+}

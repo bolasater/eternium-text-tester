@@ -1,0 +1,536 @@
+{
+	"name" : "Act II",
+	"req" : {},
+	"category" : "main",
+	
+	"quests" : [
+		{	
+			"id" : "dark_side_of_levania",
+			"name" : "Dark Side of Levania",
+			"sequenced" : true,
+			"story" : {
+				"intro" : "{HERO}, things are more dire than I thought. The Broken Dragon has agreed to fly you to Levania, the moon on our night sky, where she last knows Ragadam was. ||||Go there and find out all you can about Ragadam and his minions.",
+				"prog" : "{HERO}, what have you found?",
+				"done" : "The Sister of Ragadam you brought with you is in the Inn, as promised. So far, she is holding her end of the bargain as well."
+			},
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"req" : { "quest" : ["the_broken_dragon"] },
+			"common" : { "location" : "Currents of the Ether" },
+			"obj" : [
+				{
+					"obj_id":"start_level_currents",
+					"type" : "start_level",
+					"level" : "Currents of the Ether",
+					"desc" : "Go to the {LEVEL}"
+				},
+				{
+					"obj_id" : "talk_to_bd",
+					"type" : "talk_to",
+					"npc" : "The Broken Dragon",
+					"dialog" : {
+						"dialog" : ["Here we are, {HERO}. This is where Ragadam has been. Slay Ragadam's minions until one will be willing to tell you where to find him. I must fly away towards the stars, to recover from this madness."],
+						"continue_to" : "quest"
+					},
+					"desc": "Talk to The Broken Dragon"
+				},
+				{
+					"obj_id":"find_maggie",
+					"type" : "find",
+					"creature" : "Maggie",
+					"desc" : "Find an enemy willing to talk"
+				},
+				{
+					"obj_id" : "talk",
+					"type" : "talk_to",
+					"npc" : "Maggie",
+					"dialog" : {
+						"dialog" : ["Hold on, invader! Let's just... put aside our weapons for a moment and reason.", {"hero":"Tell me how to find Ragadam and I swear I will let you live!"}, "Let me live?", {"narrator":"The Sister of Ragadam laughs nervously"}, "You may think you do, but you might as well sign my death warrant if you let me live here.", "No, champion, you will need to guarantee my safety if you want to know what I know. Take me to your leader... to whoever sent you here, arrage a place where I can stay in Oldinn, and I will speak. I might even fight for you... if the price is right. I am certainly not willing to die for Ragadam."],
+						"continue_to" : "quest"
+					},
+					"desc": "Talk to Maggie"
+				}			
+			],
+			"rewards": {
+				"xp" : 4000,
+				"gold" : 3000,
+				"gear" : {
+					"slot" : "head",
+					"variation" : 3,
+					"socket" : 0,
+					"name" : "Levanian Headpiece",
+					"quality" : "green",
+					"stats": ["power","haste"],
+					"upgrade" : false,
+					"levelOffset" : 0
+				}				
+			}
+		},
+		
+		{
+			"id" : "a_dangerous_journey",
+			"name" : "A Dangerous Journey",
+			"sequenced" : true,
+			"story" : {
+				"intro" : "Maggie told us what she knew about Levania, {HERO}, which wasn't as much as we were hoping, but it's a start. ||||She and her contingent of Sisters and Liches were sent ahead in a mission to turn the levanian natives into allies of Ragadam, and according to her, they succeeded. ||||She claims that they cannot be turned, but she also revealed the road you must take towards what she calls the Master's Lair. The road leads through the crater area known as the Rain of Fire, live through whatever they might throw at us, cross the Canyon of Whispers, and at the end we are supposed to find the mythical Levanian Gardens. ||||Whether this master is Ragadam or one of his trusted underlings is something we must find out. ||||Go, {HERO}, and end this threat!",
+				"prog" : "Have you found the gardens, {HERO}?",
+				"done" : "You found them, {HERO}! You found the entrance to the Levanian Gardens! It is time to plan our approach."
+			},
+			"src" : "Alarion",
+			"lockGateWhileAvailable" : false,
+			"hide_spoilers" : false,
+			"req" : {"quest" : ["dark_side_of_levania"]},
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_rain_of_fire",
+					"type" : "start_level",
+					"level" : "Rain of Fire",
+					"desc" : "Go to the {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level_rain_of_fire",
+					"type" : "finish_level",
+					"level" : "Rain of Fire",
+					"desc" : "Find a way through the Rain of Fire"
+				},
+				{
+					"obj_id" : "stones_and_bones_start",
+					"type" : "start_level",
+					"level" : "Stones and Bones",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "stones_and_bones_finish",
+					"type" : "finish_level",
+					"level" : "Stones and Bones",
+					"desc" : "Survive the ambush"
+				},
+				{
+					"obj_id" : "start_level_cow",
+					"type" : "start_level",
+					"level" : "Canyon of Whispers",
+					"desc" : "Go to the {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level_cow",
+					"type" : "finish_level",
+					"level" : "Canyon of Whispers",
+					"desc" : "Cross the Canyon of Whispers"
+				}
+			],
+			"rewards": {
+				"xp" : 7000,
+				"gold" : 5000,
+				"gear" : {
+					"slot" : "chest",
+					"variation" : 3,
+					"socket" : 0,
+					"name" : "Levanian Chestpiece",
+					"quality" : "green",
+					"stats": ["power","haste"],
+					"upgrade" : false,
+					"levelOffset" : 0
+				}				
+			}
+		},
+		{
+			"id" : "heaven_stair",
+			"name" : "Stairway to Heaven",
+			"sequenced" : true,
+			"src" : "Alarion",
+			"story" : {
+				"intro" : "You found the Stairway, {HEROCLASS}! That is great news indeed. Stay a moment with me, and I will share what I know about them.",
+				"prog" : "We must find the Master's Lair, {HERO}, and there could be clues in the Gardens. Did you find anything yet?",
+				"done" : "So it is true, champion! The Levanian Gardens... you found them. And the Levan citadel and library... are a crater now!? Such a shame... I must see the clues that you found, and figure out what Ragadam is doing on Levania."
+			},
+			"lockGateWhileAvailable" : false,
+			"req" : {"quest" : ["a_dangerous_journey"]},
+
+			"obj" : [
+				{
+					"obj_id" : "listen_to_alarion_lev_gardens",
+					"type" : "talk_to",
+					"npc" : "Alarion",
+					"location" : "hometown",
+					"dialog" : {
+						"dialog" : ["You must understand, {HEROCLASS}, that nobody came to Levania for many centuries. We don't even know for sure that anyone ever did, all we have are the stories in our oldest tomes.", {"narrator":"Alarion gathers his thoughts."}, "It is said the majority of Levania's surface is inhospitable, riddled with craters, deadly to most life. However, a mystical power is said to be protecting one certain place, where no meteor has ever fallen, where plants and lichens can grow freely, where the Sun's warmth is nurturing life, just as it does on Elderath.", "Even elderanian life can flourish there, in this one place. The Levans, the sentient inhabitants of our Moon, are said to have built great gardens in this place.", "The center of the Gardens is also said to have been the center of levan power and knowledge.", {"hero":"But the levans have always been hostile to me thus far..."}, "Yes... I fear that if Ragadam has been on Levania, much of the glory of their civilization is lost.", "You must make haste, {HERO}. Walk the Stairway to the Levanian Gardens, search the gardens and see if you can find the Master's Lair."], 
+						"continue_to" : "quest"
+					},
+				"desc" : "Listen to Alarion's story"
+				},
+				{
+					"obj_id" : "start_level_lev_stairway",
+					"type" : "start_level",
+					"level" : "Stairway to Levania",
+					"desc" : "Go to the {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level_lev_stairway",
+					"type" : "finish_level",
+					"level" : "Stairway to Levania",
+					"desc" : "Climb the Stairway to Levania"
+				},
+				{
+					"obj_id" : "start_level_lev_gardens",
+					"type" : "start_level",
+					"level" : "The Levanian Gardens",
+					"desc" : "Go to the the Levanian Gardens"
+				},
+				{
+					"obj_id" : "find_clues_lev_gardens",
+					"type" : "go_event",
+					"event" : "lev_clues",
+					"location" : "The Levanian Gardens",
+					"desc" : "Explore the Gardens for clues"
+				},
+				{
+					"obj_id" : "tanks",
+					"type" : "go_event",
+					"event" : "lev_gardens_tank",
+					"location" : "The Levanian Gardens",
+					"desc" : "Check out the strange tanks",
+					"total" : 3
+				},
+				{
+					"obj_id" : "finish_level_lev_gardens",
+					"type" : "finish_level",
+					"level" : "The Levanian Gardens",
+					"desc" : "Find the exit from the gardens"
+				}
+			],
+			"rewards": {
+				"xp" : 10000,
+				"gold" : 6000,
+				"gear" : {
+					"slot" : "gloves",
+					"variation" : 3,
+					"socket" : 0,
+					"name" : "Levanian Handwraps",
+					"quality" : "green",
+					"stats": ["lifeOnHit","haste"],
+					"upgrade" : false,
+					"levelOffset" : 0
+				}				
+			}
+		},
+		{
+			"id" : "jungle_path",
+			"name" : "Through the Jungle",
+			"sequenced" : true,
+			"src" : "Alarion",
+			"story" : {
+				"intro" : "The Gardens were a disappointment, {HERO}. But you must press forward if you are to find Ragadam. The only other exit leads through the Levanian Jungle. The legions of Ragadam know we are here by now, and the path is riddled with enemies, but you must press forward. Walk the path and find out where it leads.",
+				"prog" : "What did you find, {HERO}?",
+				"done" : "You braved the Jungle and survived the ambush, {HERO}! It is time to explore the structure you found."
+			},
+			"lockGateWhileAvailable" : false,
+			"req" : {"quest" : ["heaven_stair"]},
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_lev_jungle",
+					"type" : "start_level",
+					"level" : "The Levanian Jungle",
+					"desc" : "Go to the {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level_lev_jungle",
+					"type" : "finish_level",
+					"level" : "The Levanian Jungle",
+					"desc" : "Cross {LEVEL}"
+				},
+				{
+					"obj_id" : "start_level_scent_of_home",
+					"type" : "start_level",
+					"level" : "The Scent of Home",
+					"milestone" : true,
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level_scent_of_home",
+					"type" : "finish_level",
+					"level" : "The Scent of Home",
+					"desc" : "Survive the ambush"
+				}
+			],
+			"rewards": {
+				"xp" : 12000,
+				"gold" : 6500,
+				"gear" : {
+					"slot" : "shoulders",
+					"variation" : 3,
+					"socket" : 0,
+					"name" : "Levanian Shoulderpads",
+					"quality" : "green",
+					"stats": ["vitality","haste"],
+					"upgrade" : false,
+					"levelOffset" : 0
+				}
+			}
+		},
+		{
+			"id" : "blood_river",
+			"name" : "The River of Blood",
+			"sequenced" : true,
+			"src" : "Alarion",
+			"story" : {
+				"intro" : "I studied the log you found in the stone structure, {HERO}.||||It seems Elban the Demiurge is trying to lifecraft Levania into Desparia, a world of beings living in eternal terror of his name. Elban is a powerful minion of Ragadam, and what he is doing... it's sickening!||||And to make matters worse, we know what they are doing, but we still don't know how. I'm afraid you are the only one that has proven capable to untangle this mystery.||||Collect data logs from the mechanicals around the river, so I can reverse engineer them and understand their pregramming, and then find the source of the river. Then, perhaps we can stop the horror that has been unleashed on this world.",
+				"prog" : "Did you find enough data samples, {HERO}?",
+				"done" : "Well done, {HEROCLASS}! Rest and resupply, for we shall soon find out exactly how Elban the Demiurge is planning to lifecraft Levania, and more importantly how to stop it."
+			},
+			"lockGateWhileAvailable" : false,
+			"req" : {"quest" : ["jungle_path"]},
+			"common" : { "location" : "River of Blood" },
+			"hide_spoilers" : false,
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_river_of_blood",
+					"type" : "start_level",
+					"level" : "River of Blood",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "loot_data_logs",
+					"type" : "loot",
+					"creature" : "Terraforming Automaton",
+					"total" : 10,
+					"drop_rate" : 1,
+					"desc" : "Collect {N} Data Logs from the Terraforming Automatons",
+					"item" : { "name": "Data Log", "icon" : "calendar"}
+				},
+				{
+					"obj_id" : "finish_level_river_of_blood",
+					"type" : "finish_level",
+					"level" : "River of Blood",
+					"desc" : "Find the source of the {LEVEL}"
+				}
+			],
+			"rewards": {
+				"xp" : 6500,
+				"gold" : 3500,
+				"gear" : {
+					"slot" : "boots",
+					"variation" : 3,
+					"socket" : 0,
+					"name" : "Levanian Footwear",
+					"quality" : "green",
+					"stats": ["movementSpeed","vitality"],
+					"upgrade" : false,
+					"levelOffset" : 0
+				}
+			}
+		},
+		{
+			"id" : "dreamland",
+			"name" : "Dreams and Nightmares",
+			"sequenced" : false,
+			"src" : "Alarion",
+			"story" : {
+				"intro" : "We are almost at the source, {HERO}! While I study the pregramming of those Terraforming Automatons, you must see where the clean river leads to.",
+				"prog" : "{HERO}, I haven't decoded the pregramming yet. Follow the river to it's source.",
+				"done" : "I know what they are doing to the water, {HEROCLASS}! Stay a while, and I will tell you what I found."
+			},
+			"lockGateWhileAvailable" : false,
+			"req" : {"quest" : ["blood_river"]},
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_river_of_dreams",
+					"type" : "start_level",
+					"level" : "River of Dreams",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "goto_dreamland_1",
+					"type" : "go_event",
+					"event" : "dreamland_1",
+					"location" : "River of Dreams",
+					"own_event" : true,
+					"milestone" : true,
+					"desc" : "Follow the trail"
+				},
+				{
+					"obj_id" : "goto_dreamland_2",
+					"type" : "go_event",
+					"event" : "dreamland_2",
+					"location" : "River of Dreams",
+					"own_event" : true,
+					"milestone" : true,
+					"desc" : "Reach the river's left bank"
+				},
+				{
+					"obj_id" : "goto_dreamland_3",
+					"type" : "go_event",
+					"event" : "dreamland_3",
+					"location" : "River of Dreams",
+					"own_event" : true,
+					"milestone" : true,
+					"desc" : "Find the river dam"
+				},
+				{
+					"obj_id" : "finish_level_river_of_dreams",
+					"type" : "finish_level",
+					"level" : "River of Dreams",
+					"desc" : "Slay the enemies and quench your thirst"
+				},
+				{
+					"obj_id" : "start_level_going_with_the_flow",
+					"type" : "start_level",
+					"level" : "Going with the Flow",
+					"desc" : "Go to {LEVEL}"
+				},
+				{
+					"obj_id" : "mill_of_horrors_1",
+					"type" : "go_event",
+					"event" : "mill_of_horrors_1",
+					"location" : "Going with the Flow",
+					"own_event" : true,
+					"milestone" : true,
+					"desc" : "Investigate the specimen tanks in the water mill"
+				},
+				{
+					"obj_id" : "mill_of_horrors_2",
+					"type" : "go_event",
+					"event" : "mill_of_horrors_2",
+					"location" : "Going with the Flow",
+					"own_event" : true,
+					"milestone" : true,
+					"desc" : "Find another specimen tank"
+				},
+				{
+					"obj_id" : "mill_of_horrors_3",
+					"type" : "go_event",
+					"event" : "mill_of_horrors_3",
+					"location" : "Going with the Flow",
+					"own_event" : true,
+					"milestone" : true,
+					"desc" : "Find the last specimen tank"
+				},
+				{
+					"obj_id" : "finish_level_going_with_the_flow",
+					"type" : "finish_level",
+					"level" : "Going with the Flow",
+					"desc" : "Kill the bone dragons and unlock the way forward"
+				}
+			],
+			"rewards": {
+				"xp" : 14000,
+				"gold" : 7500,
+				"gear" : {
+					"slot" : "pants",
+					"variation" : 3,
+					"socket" : 0,
+					"name" : "Levanian Trousers",
+					"quality" : "green",
+					"stats": ["movementSpeed","vitality"],
+					"upgrade" : false,
+					"levelOffset" : 0
+				}
+			}
+		},
+		{
+			"id" : "seeds_of_life",
+			"name" : "The Seeds of Life",
+			"sequenced" : true,
+			"src" : "Alarion",
+
+			"story" : {
+				"intro" : "I finally understand what they were doing to the water, and why.",
+				"prog" : "We must stop Ragadam's plan, {HERO}.",
+				"done" : "Well done, {HERO}. Take this equipment before you enter the temple."
+			},
+			"lockGateWhileAvailable" : false,
+			"req" : {"quest" : ["dreamland"]},
+			
+			"obj" : [
+				{
+					"obj_id" : "talk_to_alarion_seeds_of_life",
+					"type" : "talk_to",
+					"npc" : "Alarion",
+					"desc" : "Talk to Alarion",
+					"location" : "hometown",
+					"dialog" : {
+						"dialog" : ["First of all, please tell me you didn't drink the water.", {"hero":"Uhh..."}, "The pregram you brought to me revealed the water is foul!", {"hero":"..."}, {"narrator":"An awkward silence takes hold..."}, "Only those with the strongest of constitutions can stand the effects and not be driven insane.", {"hero":"I must have been hallucinating for hours..."}, {"narrator":"Alarion stares at you quetly for a short while."}, "Well, {HERO}, at least we now know that you are made of sturdier stuff than anyone thought. Certainly I...", {"hero":"You didn't really have faith in me, did you Alarion?"}, "No, I... I did have faith in you, I was simply worried.", "Now, onwards with our problem. The automaton's pregram showed how they poisoned Levania's waters and turned the denizens into mindless drones. Ragadam desires a world for himself, where all life obeys him. They named their lifecrafting effort 'Project Desparia'.", {"hero":"They do have some flair for the dramatic, you have to hand it to them."}, "Yes, they do. The clues you brought show where they are directing Project Desparia from.", "It turns out they created a 'Void Temple', whatever that means. To reach it, you must pass the installation named the Seeds of Life.", "Obviously, those will be full of enemies that will try their best to stop you.", {"hero": "Why is nothing ever easy, huh?"}, {"narrator":"Alarion lifts an eyebrow."}, "You must...", {"hero":"I know this part. I must cross the installation and reach this temple, so we can stop Elban's evil plan once and for all. I think I'm getting the hang of this, Alarion!"}],
+						"continue_to" : "quest"
+					}
+				},
+				{
+					"obj_id" : "start_level_seeds_of_life",
+					"type" : "start_level",
+					"level" : "The Seeds of Life",
+					"desc" : "Travel to {LEVEL}"
+				},
+				{
+					"obj_id" : "finish_level_seeds_of_life",
+					"type" : "finish_level",
+					"level" : "The Seeds of Life",
+					"desc" : "Find a way to cross the {LEVEL}"
+				}
+			],
+			"rewards": {
+				"xp" : 7500,
+				"gold" : 4000,
+				"gear" : {
+					"itemClass": ["Shield", "Tome", "Pistol"],
+					"name": ["Levanian Defender's Shieldwall", "Levanian Diviner's Tome", "Levanian Tracker's Pistol"],
+					"levelOffset":0,
+					"variation":3,
+					"quality":"green",
+					"stats":["armor", "haste"],
+					"upgrade" : false
+				}
+			}
+		},
+		{
+			"id" : "void_temple",
+			"name" : "Temple of the Void",
+			"sequenced" : true,
+			"src" : "Alarion",
+			
+			"story" : {
+				"intro" : "Only the temple of the Void now lies between you and the dismantling of Project Desparia, champion. Why is it called that? Because Ragadam ordered this world to be Lifecrafted in his image, that of hopelessness and despair.|||| A huge Xenodon giant beast is also rumoured to be the final protector of the temple.||||Storm the temple, {HERO}, dispose of the minions inside, slay the Xenodon beast, and victory will be ours!",
+				"prog" : "{HERO}, is the temple secure?",
+				"done" : "The temple of the void... It is made to travel into the void, hero! It's not a temple at all, it's a space ship!|||| This surely threw a wrench into Ragadam and Elban's plans, and now we can sift through the Temple's data and see where it came from. That's where you will find the Demiurge."
+			},
+			"lockGateWhileAvailable" : false,
+			"req" : {"quest" : ["seeds_of_life"]},
+			"common" : { "location" : "The Temple" },
+
+			"obj" : [
+				{
+					"obj_id" : "start_level_the_temple",
+					"type" : "start_level",
+					"level" : "The Temple",
+					"desc" : "Travel to {LEVEL}"
+				},
+				{
+					"obj_id" : "find_xenodon_giant",
+					"type" : "find", 
+					"creature" : "Xenodon Giant", 
+					"desc" : "Find the Xenodon Giant"
+				},
+				{
+					"obj_id" : "kill_xenodon_giant",
+					"type" : "kill",
+					"creature" : "Xenodon Giant",
+					"desc" : "Kill the Xenodon Giant"
+				}
+			],
+			"rewards": {
+				"xp" : 15000,
+				"gold" : 10000,
+				"gear" : {
+					"itemClass": ["Staff", "Sword", "Pistol"],
+					"name": ["Levanian Sage's Greatstaff", "Levanian Conqueror's Claymore", "Levanian Assault Repeater"],
+					"levelOffset":0,
+					"variation":3,
+					"quality":"epic",
+					"stats":["criticalRating", "haste", "power"],
+					"upgrade" : false
+				}
+			}
+		}
+	]
+}

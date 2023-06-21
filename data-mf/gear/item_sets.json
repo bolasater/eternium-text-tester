@@ -1,0 +1,589 @@
+[
+    {
+        "bonuses": [
+            {
+                "num_pieces": 2, 
+                "effect": "regalia_4set", 
+                "type": "effect"
+            }, 
+            {
+                "effect": "regalia_2set", 
+                "num_pieces": 4, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "regalia_cdr", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }            
+        ], 
+        "classes": [
+            "mage"
+        ], 
+        "id": "regalia", 
+        "maxQuality": 4, 
+        "minQuality": 2, 
+        "name": "Elemental Lord’s Regalia", 
+        "num_pieces": 6, 
+        "tier": 0
+    },
+    {
+        "bonuses": [
+            {
+                "amount": 12, 
+                "num_pieces": 2, 
+                "stat": "criticalRating", 
+                "type": "stats"
+            },            
+            {
+                "effect": "def_shield10", 
+                "num_pieces": 4, 
+                "type": "effect"
+            },
+            {
+                "effect": "immolate_on_attack10", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "mage"
+        ], 
+        "id": "apprentice", 
+        "maxQuality": 4, 
+        "minQuality": 2, 
+        "name": "Apprentice Vestments", 
+        "num_pieces": 6, 
+        "tier": 0
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "extra_arcane_bolts2", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "primary_extra_damage",
+                "num_pieces": 4, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "shard_on_ability", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "mage"
+        ], 
+        "id": "arcanist", 
+        "maxQuality": 4, 
+        "minQuality": 3, 
+        "name": "Arcanist Vestments", 
+        "num_pieces": 6, 
+        "tier": 1
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "fortress_of_steel", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "shield_slam_100", 
+                "num_pieces": 4, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "improved_shield_block", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "warrior"
+        ], 
+        "id": "defender", 
+        "maxQuality": 4, 
+        "minQuality": 2, 
+        "name": "Defender's Battlegear", 
+        "num_pieces": 6, 
+        "tier": 0
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "frenzy_crit_buff3", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "meatgrinder", 
+                "num_pieces": 4, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "juggernautDT", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "warrior"
+        ], 
+        "id": "juggernaut", 
+        "maxQuality": 4, 
+        "minQuality": 3, 
+        "name": "Juggernaut's Battlegear", 
+        "num_pieces": 6, 
+        "tier": 1
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "warlord2", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "warlord4", 
+                "num_pieces": 4, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "warlord6", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "warrior"
+        ], 
+        "id": "warlord", 
+        "maxQuality": 4, 
+        "minQuality": 3, 
+        "name": "Warlord's Battlegear", 
+        "num_pieces": 6, 
+        "tier": 1
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "fury2", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "fury4", 
+                "num_pieces": 4, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "fury6", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "warrior"
+        ], 
+        "id": "fury_battlegear", 
+        "maxQuality": 4, 
+        "minQuality": 3, 
+        "name": "Fury Battlegear", 
+        "num_pieces": 6, 
+        "tier": 1
+    },     
+    {
+        "bonuses": [
+            {
+                "amount": 3, 
+                "num_pieces": 2, 
+                "stat": "criticalRating", 
+                "type": "stats"
+            }, 
+            {
+                "amount": 75, 
+                "num_pieces": 4, 
+                "stat": "criticalDamage", 
+                "type": "stats"
+            }, 
+            {
+                "amount": 3, 
+                "num_pieces": 6, 
+                "stat": "haste", 
+                "type": "stats"
+            }
+        ], 
+        "classes": [
+            "mage"
+        ], 
+        "id": "adventurer_mage", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Scholar's Gear", 
+        "num_pieces": 6, 
+        "tier": 0
+    }, 
+    {
+        "bonuses": [
+            {
+                "amount": 3, 
+                "num_pieces": 2, 
+                "stat": "criticalRating", 
+                "type": "stats"
+            }, 
+            {
+                "amount": 75, 
+                "num_pieces": 4, 
+                "stat": "criticalDamage", 
+                "type": "stats"
+            }, 
+            {
+                "amount": 3, 
+                "num_pieces": 6, 
+                "stat": "haste", 
+                "type": "stats"
+            }
+        ], 
+        "classes": [
+            "warrior"
+        ], 
+        "id": "adventurer_warrior", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Battlemaster's Gear", 
+        "num_pieces": 6, 
+        "tier": 0
+    }, 
+    {
+        "bonuses": [
+            {
+                "amount": 3, 
+                "num_pieces": 2, 
+                "stat": "criticalRating", 
+                "type": "stats"
+            }, 
+            {
+                "amount": 75, 
+                "num_pieces": 4, 
+                "stat": "criticalDamage", 
+                "type": "stats"
+            }, 
+            {
+                "amount": 3, 
+                "num_pieces": 6, 
+                "stat": "haste", 
+                "type": "stats"
+            }
+        ], 
+        "classes": [
+            "bounty_hunter"
+        ], 
+        "id": "adventurer_ranger", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Scout's Gear", 
+        "num_pieces": 6, 
+        "tier": 0
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "double_scatter", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }, 
+            {
+                "amount": 25, 
+                "num_pieces": 4, 
+                "stat": "lifePercent", 
+                "type": "stats"
+            }, 
+            {
+                "amount": 25, 
+                "num_pieces": 4, 
+                "stat": "armorPercent", 
+                "type": "stats"
+            }, 
+            {
+                "amount": 1,
+                "num_pieces": 4, 
+                "stat": "movementSpeed", 
+                "type": "stats"
+            }, 
+            {
+                "effect": "dd_rapid_fire", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "bounty_hunter"
+        ], 
+        "id": "assault_gear", 
+        "maxQuality": 4, 
+        "minQuality": 2, 
+        "name": "Assault Gear", 
+        "num_pieces": 6, 
+        "tier": 0
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "extra_poison_chance", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "extra_attack_proc20", 
+                "num_pieces": 4, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "snipe_on_attack10", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "bounty_hunter"
+        ], 
+        "id": "stalker_gear", 
+        "maxQuality": 4, 
+        "minQuality": 3, 
+        "name": "Stalker Gear", 
+        "num_pieces": 6, 
+        "tier": 1
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "missile_on_attack", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }, 
+            {
+                "type": "effect",
+                "effect" : "havoc_4",
+                "num_pieces": 4
+            }, 
+            {
+                "effect": "extra_heatseekers3", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "bounty_hunter"
+        ], 
+        "id": "havoc_gear", 
+        "maxQuality": 4, 
+        "minQuality": 3, 
+        "name": "Havoc Gear", 
+        "num_pieces": 6, 
+        "tier": 1
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "ww_cleave", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "warrior"
+        ], 
+        "id": "bladestorm_axes", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Bladestorm Armaments", 
+        "num_pieces": 2, 
+        "tier": 0
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "grievous_wounds", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "warrior"
+        ], 
+        "id": "bloody_swords", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Vampiric Blades", 
+        "num_pieces": 2, 
+        "tier": 0
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "blackguard_resilience", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "warrior"
+        ], 
+        "id": "blackguard_armaments", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Blackguard's Armaments", 
+        "num_pieces": 2, 
+        "tier": 0
+    },
+    {
+        "bonuses": [
+            {
+                "effect": "shadow_assassin_snipe", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "bounty_hunter"
+        ], 
+        "id": "shadow_assassin", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Shadow Assassin’s Pistols", 
+        "num_pieces": 2, 
+        "tier": 0
+    },
+    {
+        "bonuses": [
+            {
+                "effect": "igniters_tracer_ammo", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "bounty_hunter"
+        ], 
+        "id": "igniters", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Igniters", 
+        "num_pieces": 2, 
+        "tier": 0
+    },
+    {
+        "bonuses": [
+            {
+                "effect": "tesla_armaments_effect", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "bounty_hunter"
+        ], 
+        "id": "tesla_armaments", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Tesla Armaments", 
+        "num_pieces": 2, 
+        "tier": 0
+    },
+    {
+        "bonuses": [
+            {
+                "effect": "void_ward", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "mage"
+        ], 
+        "id": "forbidden_knowledge", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Forbidden Knowledge", 
+        "num_pieces": 2, 
+        "tier": 0
+    },
+    {
+        "bonuses": [
+            {
+                "effect": "fire_frost_effect", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "mage"
+        ], 
+        "id": "grand_magisters_command", 
+        "maxQuality": 4, 
+        "minQuality": 1, 
+        "name": "Grand Magister’s Command", 
+        "num_pieces": 2, 
+        "tier": 0
+    },
+    {
+        "bonuses": [
+            {
+                "effect": "demolitionist2", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }, 
+            {
+                "effect" : "demolitionist4",
+                "num_pieces": 4,
+                "type": "effect"
+            }, 
+            {
+                "effect": "demolitionist6", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "bounty_hunter"
+        ], 
+        "id": "demolitionist", 
+        "maxQuality": 4, 
+        "minQuality": 3, 
+        "name": "Demolitionist Battlegear", 
+        "num_pieces": 6, 
+        "tier": 1
+    }, 
+    {
+        "bonuses": [
+            {
+                "effect": "amplified_storm", 
+                "num_pieces": 2, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "globular_lightning",
+                "num_pieces": 4, 
+                "type": "effect"
+            }, 
+            {
+                "effect": "event_horizon", 
+                "num_pieces": 6, 
+                "type": "effect"
+            }
+        ], 
+        "classes": [
+            "mage"
+        ], 
+        "id": "stormcaller_regalia", 
+        "maxQuality": 4, 
+        "minQuality": 3, 
+        "name": "Stormcaller Regalia Vestments", 
+        "num_pieces": 6, 
+        "tier": 1
+    }
+]

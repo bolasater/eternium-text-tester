@@ -1,0 +1,661 @@
+[
+    {
+        "id": "L1_shore", 
+        "lines": [
+            [
+                "", 
+                "So it begins..."
+            ], 
+            [
+                "tank", 
+                "Wha?"
+            ]
+        ]
+    }, 
+    {
+        "id": "L1_first_bridge", 
+        "lines": [
+            [
+                "", 
+                "Good, the bridge still stands."
+            ], 
+            [
+                "tank", 
+                "Sure, miss big shot hero don't like her boots gettin wet."
+            ], 
+            [
+                "", 
+                "Aw shut up."
+            ]
+        ]
+    }, 
+    {
+        "id": "L1_toads", 
+        "lines": [
+            [
+                "", 
+                "Aggressive little toads, are we?"
+            ], 
+            [
+                "tank", 
+                "Merlok pests!"
+            ]
+        ]
+    }, 
+    {
+        "id": "L1_treasure_hint", 
+        "lines": [
+            [
+                "", 
+                "Hmmm, what's that up north?"
+            ]
+        ]
+    }, 
+    {
+        "id": "L1_treasure_chest", 
+        "lines": [
+            [
+                "", 
+                "Oh, shiny!"
+            ]
+        ]
+    }, 
+    {
+        "id": "L1_north_shore", 
+        "lines": [
+            [
+                "", 
+                "My boat has left. There's no way out of here now."
+            ]
+        ]
+    }, 
+    {
+        "id": "L1_end_dialog", 
+        "lines": [
+            [
+                "", 
+                "A summoner!"
+            ], 
+            [
+                "lich", 
+                "Heil Ragadam!"
+            ], 
+            [
+                "", 
+                "Ragadam you say..."
+            ]
+        ]
+    }, 
+    {
+        "id": "L2_begin", 
+        "lines": [
+            [
+                "", 
+                "Haunted ruins. How quaint."
+            ]
+        ]
+    }, 
+    {
+        "id": "L2_wraith", 
+        "lines": [
+            [
+                "", 
+                "Reapers!..."
+            ]
+        ]
+    }, 
+    {
+        "id": "L2_archer_hint", 
+        "lines": [
+            [
+                "", 
+                "Archers! I should avoid their arrows!"
+            ]
+        ]
+    }, 
+    {
+        "id": "L2_skybreaker_hint", 
+        "lines": [
+            [
+                "", 
+                "A Skybreaker!"
+            ]
+        ]
+    }, 
+    {
+        "id": "L3_begin", 
+        "lines": [
+            [
+                "", 
+                "Marcus' old village... Maybe someone here knows where he is."
+            ], 
+            [
+                "tank", 
+                "I know where he is!"
+            ]
+        ]
+    }, 
+    {
+        "id": "L3_scared_farmer", 
+        "lines": [
+            [
+                "", 
+                "Knock, knock!"
+            ], 
+            [
+                "peasant", 
+                "Go away!"
+            ], 
+            [
+                "", 
+                "I'm Kamati. Have you seen Marcus?"
+            ], 
+            [
+                "peasant", 
+                "They took him to the black tower, over the bridge."
+            ]
+        ]
+    }, 
+    {
+        "id": "L3_peasant_in_a_barrel", 
+        "lines": [
+            [
+                "", 
+                "Is there someone in that barrel?"
+            ], 
+            [
+                "scared_peasant", 
+                "No! Shut up!"
+            ]
+        ]
+    }, 
+    {
+        "id": "L3_way_to_black_tower", 
+        "lines": [
+            [
+                "", 
+                "This must be the way to the black tower."
+            ], 
+            [
+                "minion", 
+                "Yes it is."
+            ]
+        ]
+    }, 
+    {
+        "id": "L3_tower_bridge", 
+        "lines": [
+            [
+                "", 
+                "I wonder who was able to overpower Marcus..."
+            ]
+        ]
+    }, 
+    {
+        "id": "L3_elite_healer_hint", 
+        "lines": [
+            [
+                "", 
+                "Damn! A White Sister of Ragadam!"
+            ], 
+            [
+                "", 
+                "This one heals and shields them."
+            ]
+        ]
+    }, 
+    {
+        "id": "L3_see_bjorn", 
+        "lines": [
+            [
+                "", 
+                "Marcus!"
+            ], 
+            [
+                "tank", 
+                "What?"
+            ]
+        ]
+    }, 
+    {
+        "id": "Anderra_begin", 
+        "lines": [
+            [
+                "", 
+                "They set the bridge on fire. We must find another way to Anderra."
+            ]
+        ]
+    }, 
+    {
+        "id": "L4_begin", 
+        "lines": [
+            [
+                "", 
+                "So we're gladiators now..."
+            ], 
+            [
+                "tank", 
+                "Awesome!"
+            ]
+        ]
+    }, 
+    {
+        "id": "L4_blocked1", 
+        "lines": [
+            [
+                "", 
+                "This gate is barred."
+            ]
+        ]
+    }, 
+    {
+        "id": "L4_blocked2", 
+        "lines": [
+            [
+                "", 
+                "We're not getting out this way."
+            ]
+        ]
+    }, 
+    {
+        "id": "L4_blocked3", 
+        "lines": [
+            [
+                "", 
+                "It's blocked."
+            ]
+        ]
+    }, 
+    {
+        "id": "L4_house1", 
+        "lines": [
+            [
+                "", 
+                "Anyone home?"
+            ], 
+            [
+                "peasant", 
+                "No!"
+            ]
+        ]
+    }, 
+    {
+        "id": "L4_house2", 
+        "lines": [
+            [
+                "peasant", 
+                "Troll off!"
+            ]
+        ]
+    }, 
+    {
+        "id": "L5_begin", 
+        "lines": [
+            [
+                "minion", 
+                "Hello skeletons. Seen Eileen?"
+            ]
+        ]
+    }, 
+    {
+        "id": "L5_bridge", 
+        "lines": [
+            [
+                "healer", 
+                "I never thought I'd be so glad to see you."
+            ], 
+            [
+                "tank", 
+                "Yes you did."
+            ]
+        ]
+    }, 
+    {
+        "id": "L5_apple_farm", 
+        "lines": [
+            [
+                "", 
+                "How do you like them apples?"
+            ], 
+            [
+                "healer", 
+                "Looks like an apple store."
+            ], 
+            [
+                "tank", 
+                "You talking funny again."
+            ]
+        ]
+    }, 
+    {
+        "id": "L5_android_farm", 
+        "lines": [
+            [
+                "", 
+                "Why would androids defend an apple farm?"
+            ]
+        ]
+    }, 
+    {
+        "id": "L5_elites", 
+        "lines": [
+            [
+                "healer", 
+                "Magroth's lieutenants. They guard the path to his Severed Mountain."
+            ]
+        ]
+    }, 
+    {
+        "id": "L5_no_chest1", 
+        "lines": [
+            [
+                "tank", 
+                "No treasure here."
+            ]
+        ]
+    }, 
+    {
+        "id": "L5_no_chest2", 
+        "lines": [
+            [
+                "healer", 
+                "Aren't you an explorer?"
+            ]
+        ]
+    }, 
+    {
+        "id": "L5_idle_banter", 
+        "lines": [
+            [
+                "healer", 
+                "Enjoying the view?"
+            ], 
+            [
+                "tank", 
+                "No. Let's find Magroth."
+            ]
+        ]
+    }, 
+    {
+        "id": "L5_automaton_encounter", 
+        "lines": [
+            [
+                "", 
+                "What has posessed these farming appliances?"
+            ], 
+            [
+                "healer", 
+                "Magroth, probably."
+            ]
+        ]
+    }, 
+    {
+        "id": "L6_MagrothEscape", 
+        "lines": [
+            [
+                "magroth", 
+                "I shall not be defeated!"
+            ], 
+            [
+                "magroth", 
+                "I'll wait for you in Anderhelm, weakling."
+            ], 
+            [
+                "magroth", 
+                "Come there, if you dare."
+            ]
+        ]
+    }, 
+    {
+        "id": "Anderhelm_BridgeBeforeMagroth", 
+        "lines": [
+            [
+                "", 
+                "Magroth will receive aid from healers in the West Tower and summoners in the East Tower."
+            ], 
+            [
+                "", 
+                "Clearing those towers before the fight will improve our chances."
+            ]
+        ]
+    }, 
+    {
+        "id": "Anderhelm_WestWing", 
+        "lines": [
+            [
+                "", 
+                "The West Tower is controlled by healers. I must clear it before the final fight."
+            ]
+        ]
+    }, 
+    {
+        "id": "Anderhelm_EastWing", 
+        "lines": [
+            [
+                "", 
+                "The East Tower is controlled by summoners. I must clear it before the final fight."
+            ]
+        ]
+    }, 
+    {
+        "id": "A2L1_Stardust", 
+        "lines": [
+            [
+                "", 
+                "Stardust! The favorite nourishment of young dragons. Too bad it's deadly for humans."
+            ]
+        ]
+    }, 
+    {
+        "id": "A2L3_Fire", 
+        "lines": [
+            [
+                "", 
+                "Somebody really wants to stop us!"
+            ], 
+            [
+                "", 
+                "I didn't know that stardust can burn."
+            ], 
+            [
+                "healer", 
+                "At least this explains how dragons breathe fire..."
+            ]
+        ]
+    }, 
+    {
+        "id": "LG_obelisk", 
+        "lines": [
+            [
+                "minion", 
+                "What is this place?"
+            ], 
+            [
+                "", 
+                "The Levanian Gardens... I thought they were a myth."
+            ]
+        ]
+    }, 
+    {
+        "id": "LG_wrongway", 
+        "lines": [
+            [
+                "minion", 
+                "There's a ramp on the other side!"
+            ]
+        ]
+    }, 
+    {
+        "id": "LG_pipeplant", 
+        "lines": [
+            [
+                "", 
+                "What are you? Plant or animal?"
+            ], 
+            [
+                "healer", 
+                "I think they're fungi."
+            ], 
+            [
+                "tank", 
+                "Wha?"
+            ], 
+            [
+                "healer", 
+                "Mushrooms... sorta."
+            ], 
+            [
+                "tank", 
+                "Stuffed mushrooms!"
+            ]
+        ]
+    }, 
+    {
+        "id": "LG_finalroom", 
+        "lines": [
+            [
+                "", 
+                "That's a crowd!"
+            ]
+        ]
+    },
+    {
+        "id": "destroy_karas_acolytes", 
+        "lines": [
+            [
+                "", 
+                "Kara is empowered by her three acolytes: Modrok, Dragnak, and Grumber."
+            ],
+            [
+                "", 
+                "Seek and destroy them first to weaken Kara."
+            ]
+        ]
+    },
+    {
+        "id": "dreamland_1", 
+        "lines": [
+            [
+                "", 
+                "I suddenly feel so thirsty. There must be something foul in the air here..."
+            ]
+        ]
+    },
+    {
+        "id": "dreamland_2", 
+        "lines": [
+            [
+                "", 
+                "The river's waters look clean. I need to quench my thirst."
+            ]
+        ]
+    },
+    {
+        "id": "dreamland_3", 
+        "lines": [
+            [
+                "", 
+                "After I slay these enemies, I will drink from the river. I can't stand this thirst anymore."
+            ]
+        ]
+    },
+    {
+        "id": "mill_of_horrors_1", 
+        "lines": [
+            [
+                "", 
+                "The seeds in the mill come directly from the Demiurge's lair."
+            ]
+        ]
+    },
+    {
+        "id": "mill_of_horrors_2", 
+        "lines": [
+            [
+                "", 
+                "Strange... the tag on this specimen mentions a 'Temple of the Void'."
+            ]
+        ]
+    },
+    {
+        "id": "mill_of_horrors_3", 
+        "lines": [
+            [
+                "", 
+                "The shipping note reads: 'Hallucinogenic dust. Provenance: the Seeds of Life instalation'."
+            ]
+        ]
+    },
+    {
+        "id": "moon_landing_sign", 
+        "lines": [
+            [
+                "", 
+                "This looks like a good spot to place a signpost."
+            ]
+        ]
+    },
+    {
+        "id": "road_blocked", 
+        "lines": [
+            [
+                "", 
+                "The road is blocked. I must find another way to cross the ruins. Perhaps if I go to higher ground I'll see something."
+            ]
+        ]
+    },
+    {
+        "id": "higher_ground", 
+        "lines": [
+            [
+                "", 
+                "I can see the whole ruin complex from up here. There! That looks like a path, through those gardens in the distance."
+            ]
+        ]
+    },
+    {
+        "id": "minaris_lore_1", 
+        "lines": [
+            [
+                "", 
+                "They welcomed Elban the Demiurge as a scholar."
+            ]
+        ]
+    },
+    {
+        "id": "minaris_lore_2", 
+        "lines": [
+            [
+                "", 
+                "Elban gained their trust, taught them new crafts, helped them..."
+            ]
+        ]
+    },
+    {
+        "id": "minaris_lore_3", 
+        "lines": [
+            [
+                "", 
+                "They gave Elban access beneath the pyramids, to the installations that produce the fires."
+            ]
+        ]
+    },
+    {
+        "id": "minaris_lore_4", 
+        "lines": [
+            [
+                "", 
+                "Elban betrayed them. He used the pyramid fire to create the Aztrak warriors who eventually conquered Minaris."
+            ]
+        ]
+    },
+    {
+        "id": "crystal", 
+        "lines": [
+            [
+                "", 
+                "Wow, I hear some explosions in the depths."
+            ]
+        ]
+    }        
+]

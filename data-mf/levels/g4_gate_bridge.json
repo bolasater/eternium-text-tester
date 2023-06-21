@@ -1,0 +1,7853 @@
+{
+   "ambient" : [ 0, 0, 85 ],
+   "edit" : {
+      "designer" : "George Marinescu",
+      "saveTime" : "1504810983619"
+   },
+   "enemySetup" : [
+      {
+         "a" : -2.49230,
+         "creature" : "red_reaper",
+         "eliteAbility0" : "rapidfire",
+         "eliteAbility1" : "reflect_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : 1.96970,
+         "z" : 6.45150
+      },
+      {
+         "a" : -1.77330,
+         "creature" : "red_reaper",
+         "eliteAbility0" : "enrage",
+         "eliteAbility1" : "power_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : 1.55590,
+         "z" : 6.60320
+      },
+      {
+         "a" : -3.26030,
+         "creature" : "red_reaper",
+         "eliteAbility0" : "protection_aura",
+         "eliteAbility1" : "immolation_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : 1.89380,
+         "z" : 5.88670
+      },
+      {
+         "a" : 0.0,
+         "creature" : "Sheepy",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.64790,
+         "z" : 1.52380
+      },
+      {
+         "a" : 0.0,
+         "creature" : "Sheepy",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -1.04580,
+         "z" : 1.44890
+      },
+      {
+         "a" : -0.85170,
+         "creature" : "Sheepy",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.64320,
+         "z" : 1.35980
+      },
+      {
+         "a" : -1.98270,
+         "creature" : "Sheepy",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : false,
+         "isGoal" : false,
+         "x" : -0.53290,
+         "z" : 1.4990
+      },
+      {
+         "a" : -2.6180,
+         "creature" : "Sheepy",
+         "eliteAbility0" : "",
+         "eliteAbility1" : "",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -0.77690,
+         "z" : 1.39190
+      },
+      {
+         "a" : 4.42620,
+         "creature" : "countcorwin",
+         "eliteAbility0" : "fireball",
+         "eliteAbility1" : "mirrorimage",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -1.22180,
+         "z" : -2.74330
+      },
+      {
+         "a" : 4.80320,
+         "creature" : "lich",
+         "eliteAbility0" : "meteorshower",
+         "eliteAbility1" : "immolation_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -3.34280,
+         "z" : 3.86170
+      },
+      {
+         "a" : -0.78190,
+         "creature" : "ghost01",
+         "eliteAbility0" : "",
+         "eliteAbility1" : "",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -1.86630,
+         "z" : 8.69670
+      },
+      {
+         "a" : 3.99330,
+         "creature" : "ghost02",
+         "eliteAbility0" : "",
+         "eliteAbility1" : "",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -2.25290,
+         "z" : 8.64040
+      },
+      {
+         "a" : 5.50130,
+         "creature" : "ghost03",
+         "eliteAbility0" : "",
+         "eliteAbility1" : "",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -2.42240,
+         "z" : 8.43210
+      },
+      {
+         "a" : 6.360,
+         "creature" : "ghost04",
+         "eliteAbility0" : "",
+         "eliteAbility1" : "",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : -2.65510,
+         "z" : 8.1570
+      },
+      {
+         "a" : 0.0,
+         "creature" : "rogue_healer",
+         "eliteAbility0" : "shield",
+         "eliteAbility1" : "regen_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : false,
+         "x" : 3.2270,
+         "z" : 4.13620
+      },
+      {
+         "a" : -2.49230,
+         "creature" : "red_reaper",
+         "eliteAbility0" : "protection_aura",
+         "eliteAbility1" : "reflect_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : 2.46990,
+         "z" : 6.54030
+      },
+      {
+         "a" : -2.49230,
+         "creature" : "red_reaper",
+         "eliteAbility0" : "reflect_aura",
+         "eliteAbility1" : "chilling_aura",
+         "events" : {
+            "death" : "",
+            "enterCombat" : "",
+            "leaveCombat" : ""
+         },
+         "isElite" : true,
+         "isGoal" : true,
+         "x" : 2.98270,
+         "z" : 6.97630
+      }
+   ],
+   "fog" : [ 0, 0, 34 ],
+   "heroOmni" : {
+      "blue" : 0.40,
+      "green" : 0.80,
+      "r0" : 0.10,
+      "r1" : 0.750,
+      "red" : 1.0
+   },
+   "lightCol" : [ 119, 119, 255 ],
+   "lightDir" : [ -0.62470, -0.46850, 0.62470 ],
+   "props" : [
+      {
+         "heading" : -1.06120,
+         "height" : 0.88070,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 0.78550,
+         "x" : 0.79560,
+         "y" : 0.19590,
+         "z" : 3.19920
+      },
+      {
+         "heading" : -1.06120,
+         "height" : 0.85340,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 0.78550,
+         "x" : 0.66210,
+         "y" : 0.19530,
+         "z" : 3.42650
+      },
+      {
+         "heading" : -1.06120,
+         "height" : 0.67660,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 0.78550,
+         "x" : 0.39430,
+         "y" : 0.19530,
+         "z" : 3.27680
+      },
+      {
+         "heading" : -1.06120,
+         "height" : 0.67650,
+         "name" : "Wooden Bridge Segment",
+         "scaling" : 0.78550,
+         "x" : 0.5276999999999999,
+         "y" : 0.19590,
+         "z" : 3.04950
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.07570,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : 0.06790,
+         "y" : -0.1950,
+         "z" : -0.12570
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.09150,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.30980,
+         "y" : -0.1950,
+         "z" : -0.02590
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.03190,
+         "y" : -0.1950,
+         "z" : -0.50340
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.40960,
+         "y" : -0.1950,
+         "z" : -0.40360
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.13170,
+         "y" : -0.1950,
+         "z" : -0.8810
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.50930,
+         "y" : -0.1950,
+         "z" : -0.78130
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.23150,
+         "y" : -0.1950,
+         "z" : -1.25870
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.60910,
+         "y" : -0.1950,
+         "z" : -1.15890
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.80480,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.33120,
+         "y" : -0.1950,
+         "z" : -1.63640
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8048999999999999,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.70890,
+         "y" : -0.1950,
+         "z" : -1.53660
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.79550,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.4310,
+         "y" : -0.1950,
+         "z" : -2.0140
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.80870,
+         "y" : -0.1950,
+         "z" : -1.91430
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.0050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.53080,
+         "y" : -0.1950,
+         "z" : -2.39170
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.008699999999999999,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.90850,
+         "y" : -0.1950,
+         "z" : -2.29190
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.51740,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.68750,
+         "y" : -0.1950,
+         "z" : 0.07389999999999999
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.78730,
+         "y" : -0.1950,
+         "z" : -0.30380
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.8870,
+         "y" : -0.1950,
+         "z" : -0.68150
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -0.98680,
+         "y" : -0.1950,
+         "z" : -1.05910
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -1.18640,
+         "y" : -0.1950,
+         "z" : -1.81450
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.55560,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -1.28620,
+         "y" : -0.1950,
+         "z" : -2.19210
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.00080,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.15310,
+         "x" : 0.04780,
+         "y" : -0.19920,
+         "z" : 0.27450
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.55630,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -1.06510,
+         "y" : -0.1950,
+         "z" : 0.17360
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -1.1650,
+         "y" : -0.1950,
+         "z" : -0.2040
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -1.26470,
+         "y" : -0.1950,
+         "z" : -0.58170
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -1.36450,
+         "y" : -0.1950,
+         "z" : -0.95930
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -1.46430,
+         "y" : -0.1950,
+         "z" : -1.3370
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -1.56410,
+         "y" : -0.1950,
+         "z" : -1.71470
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.52630,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -1.66390,
+         "y" : -0.1950,
+         "z" : -2.09230
+      },
+      {
+         "heading" : -0.25830,
+         "height" : -0.00520,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.18570,
+         "x" : -0.92170,
+         "y" : -0.20540,
+         "z" : 0.54350
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.00080,
+         "name" : "Stone Wall Gate 01 Open",
+         "scaling" : 1.33320,
+         "x" : -0.38550,
+         "y" : -0.19930,
+         "z" : 0.43120
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.00090,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.24230,
+         "x" : 0.07040,
+         "y" : -0.19910,
+         "z" : 0.29760
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.00080,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.33320,
+         "x" : -0.37170,
+         "y" : -0.19930,
+         "z" : 0.43350
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.00080,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.33320,
+         "x" : -0.89480,
+         "y" : -0.19980,
+         "z" : 0.55550
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.00080,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.33320,
+         "x" : -1.33210,
+         "y" : -0.19940,
+         "z" : 0.67010
+      },
+      {
+         "heading" : -0.47470,
+         "height" : -0.0005999999999999999,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.18570,
+         "x" : -1.27120,
+         "y" : -0.20110,
+         "z" : 0.71180
+      },
+      {
+         "heading" : -0.7330,
+         "height" : -0.00370,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.33320,
+         "x" : -1.63440,
+         "y" : -0.20390,
+         "z" : 1.00230
+      },
+      {
+         "heading" : -0.99830,
+         "height" : -0.0,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.18570,
+         "x" : -1.55950,
+         "y" : -0.20030,
+         "z" : 0.95950
+      },
+      {
+         "heading" : -1.00530,
+         "height" : 0.03730,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.33320,
+         "x" : -1.82370,
+         "y" : -0.16310,
+         "z" : 1.40950
+      },
+      {
+         "heading" : 7.28150,
+         "height" : -0.00380,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -0.24060,
+         "y" : -0.2040,
+         "z" : 1.82490
+      },
+      {
+         "heading" : 7.77720,
+         "height" : -0.0,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -3.20560,
+         "y" : 0.18230,
+         "z" : 2.09020
+      },
+      {
+         "heading" : 6.49260,
+         "height" : -0.00380,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -3.35530,
+         "y" : 0.17880,
+         "z" : 2.51180
+      },
+      {
+         "heading" : 6.90450,
+         "height" : -0.01020,
+         "name" : "Stone House Small 01",
+         "scaling" : 1.0,
+         "x" : -3.6690,
+         "y" : 0.17240,
+         "z" : 3.23710
+      },
+      {
+         "heading" : 6.94640,
+         "height" : -0.01020,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -4.17120,
+         "y" : 0.17230,
+         "z" : 3.90910
+      },
+      {
+         "heading" : 2.97050,
+         "height" : 0.0,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.2920,
+         "y" : -0.20,
+         "z" : 1.95630
+      },
+      {
+         "heading" : 2.97050,
+         "height" : -0.0,
+         "name" : "Brick Wall 05",
+         "scaling" : 1.0,
+         "x" : 0.6770,
+         "y" : -0.20020,
+         "z" : 1.88980
+      },
+      {
+         "heading" : -1.94430,
+         "height" : -0.00390,
+         "name" : "Brick Wall 04",
+         "scaling" : 1.0,
+         "x" : -1.87760,
+         "y" : -0.2040,
+         "z" : 1.24690
+      },
+      {
+         "heading" : 3.68960,
+         "height" : 0.00690,
+         "name" : "Brick Wall 04",
+         "scaling" : 1.0,
+         "x" : 0.3750,
+         "y" : 0.18920,
+         "z" : 2.84690
+      },
+      {
+         "heading" : 3.68960,
+         "height" : 0.88940,
+         "name" : "Brick Wall 03",
+         "scaling" : 1.0,
+         "x" : 0.70840,
+         "y" : 0.18940,
+         "z" : 3.05050
+      },
+      {
+         "heading" : 3.68960,
+         "height" : 0.00690,
+         "name" : "Brick Wall 05",
+         "scaling" : 1.0,
+         "x" : 1.04180,
+         "y" : 0.18950,
+         "z" : 3.2540
+      },
+      {
+         "heading" : 6.83470,
+         "height" : -0.00040,
+         "name" : "Brick Wall 05",
+         "scaling" : 1.0,
+         "x" : 0.13220,
+         "y" : 0.18220,
+         "z" : 3.23820
+      },
+      {
+         "heading" : 6.83470,
+         "height" : 0.88220,
+         "name" : "Brick Wall 02",
+         "scaling" : 1.0,
+         "x" : 0.46490,
+         "y" : 0.18220,
+         "z" : 3.44290
+      },
+      {
+         "heading" : 6.83470,
+         "height" : -0.00040,
+         "name" : "Brick Wall 04",
+         "scaling" : 1.0,
+         "x" : 0.79760,
+         "y" : 0.18210,
+         "z" : 3.64750
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.15640,
+         "name" : "Grey Brick Tower Snowy Top C 02",
+         "scaling" : 0.83560,
+         "x" : 4.41520,
+         "y" : 0.00520,
+         "z" : 3.18120
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.13590,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : 0.53430,
+         "y" : -0.69950,
+         "z" : 3.93730
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.18520,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : 0.53430,
+         "y" : -0.37840,
+         "z" : 3.93730
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.49690,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : 0.53430,
+         "y" : -0.06670,
+         "z" : 3.93730
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.78390,
+         "name" : "Grey Brick Tower Snowy Top C 02",
+         "scaling" : 0.83560,
+         "x" : 0.53430,
+         "y" : 0.22030,
+         "z" : 3.93730
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.6052999999999999,
+         "name" : "Grey Brick Tower Snowy Top C 02",
+         "scaling" : 0.83560,
+         "x" : -0.82450,
+         "y" : -0.06670,
+         "z" : 3.92510
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.28560,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : -0.8139999999999999,
+         "y" : -0.38780,
+         "z" : 3.93440
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.00750,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : 1.23060,
+         "y" : 0.17510,
+         "z" : 5.32420
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.30250,
+         "name" : "Grey Brick Tower Snowy Top C 02",
+         "scaling" : 0.83560,
+         "x" : 1.23060,
+         "y" : 0.48510,
+         "z" : 5.32420
+      },
+      {
+         "heading" : -0.58640,
+         "height" : -0.0610,
+         "name" : "Grey Brick Tower Snowy Base 03",
+         "scaling" : 0.83560,
+         "x" : 1.84450,
+         "y" : 0.17630,
+         "z" : 5.01310
+      },
+      {
+         "heading" : -0.58640,
+         "height" : 0.24450,
+         "name" : "Grey Brick Tower Snowy Top A 03",
+         "scaling" : 0.83560,
+         "x" : 1.84450,
+         "y" : 0.48180,
+         "z" : 5.01310
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.02610,
+         "name" : "Grey Brick Tower Snowy Base 03",
+         "scaling" : 0.83560,
+         "x" : 2.81560,
+         "y" : 0.15650,
+         "z" : 5.69820
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.27860,
+         "name" : "Grey Brick Tower Snowy Top C 03",
+         "scaling" : 0.83560,
+         "x" : 2.81560,
+         "y" : 0.46120,
+         "z" : 5.69820
+      },
+      {
+         "heading" : -0.32810,
+         "height" : -0.02990,
+         "name" : "Grey Brick Tower Snowy Base 03",
+         "scaling" : 0.83560,
+         "x" : 3.45960,
+         "y" : 0.15270,
+         "z" : 5.69920
+      },
+      {
+         "heading" : -0.32810,
+         "height" : 0.2240,
+         "name" : "Grey Brick Tower Snowy Top A 03",
+         "scaling" : 0.83560,
+         "x" : 3.45960,
+         "y" : 0.40660,
+         "z" : 5.69920
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.09950000000000001,
+         "name" : "Grey Brick Tower Snowy Base 03",
+         "scaling" : 0.83560,
+         "x" : 2.35240,
+         "y" : 0.59240,
+         "z" : 7.44520
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.2050,
+         "name" : "Grey Brick Tower Snowy Top A 03",
+         "scaling" : 0.83560,
+         "x" : 2.35240,
+         "y" : 0.89690,
+         "z" : 7.44520
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.10330,
+         "name" : "Grey Brick Tower Snowy Segment 01",
+         "scaling" : 0.83560,
+         "x" : 1.75590,
+         "y" : 0.92150,
+         "z" : 7.66290
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.40660,
+         "name" : "Grey Brick Tower Snowy Top B 01",
+         "scaling" : 0.83560,
+         "x" : 1.75590,
+         "y" : 1.22480,
+         "z" : 7.66290
+      },
+      {
+         "heading" : 0.23040,
+         "height" : 0.67150,
+         "name" : "Grey Brick Tower Snowy Top A 01",
+         "scaling" : 0.83560,
+         "x" : 1.21180,
+         "y" : 0.5499000000000001,
+         "z" : 7.97830
+      },
+      {
+         "heading" : 0.23040,
+         "height" : 0.25610,
+         "name" : "Grey Brick Tower Snowy Top A 03",
+         "scaling" : 0.83560,
+         "x" : 1.01510,
+         "y" : 0.85610,
+         "z" : 7.45110
+      },
+      {
+         "heading" : 0.23040,
+         "height" : -0.06220,
+         "name" : "Grey Brick Tower Snowy Base 03",
+         "scaling" : 0.83560,
+         "x" : 1.01510,
+         "y" : 0.5377999999999999,
+         "z" : 7.45110
+      },
+      {
+         "heading" : 0.23040,
+         "height" : 0.97060,
+         "name" : "Grey Brick Tower Snowy Top A 01",
+         "scaling" : 0.83560,
+         "x" : 0.53460,
+         "y" : 0.30370,
+         "z" : 7.96010
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.03570,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : -1.64290,
+         "y" : 0.06279999999999999,
+         "z" : 6.06070
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.35210,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : -1.64290,
+         "y" : -0.25360,
+         "z" : 6.06070
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.6588000000000001,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : -1.64290,
+         "y" : -0.56030,
+         "z" : 6.06070
+      },
+      {
+         "heading" : 0.3910,
+         "height" : -0.28170,
+         "name" : "Grey Brick Tower Snowy Top C 01",
+         "scaling" : 0.83560,
+         "x" : -2.27150,
+         "y" : 0.3180,
+         "z" : 5.84390
+      },
+      {
+         "heading" : 0.3910,
+         "height" : -0.59560,
+         "name" : "Grey Brick Tower Snowy Segment 01",
+         "scaling" : 0.83560,
+         "x" : -2.27150,
+         "y" : 0.00410,
+         "z" : 5.84390
+      },
+      {
+         "heading" : -0.21640,
+         "height" : 0.75990,
+         "name" : "Grey Brick Tower Snowy Top A 02",
+         "scaling" : 0.83560,
+         "x" : -3.8790,
+         "y" : 0.06030,
+         "z" : 9.66320
+      },
+      {
+         "heading" : -0.23040,
+         "height" : 0.81720,
+         "name" : "Grey Brick Tower Snowy Top A 02",
+         "scaling" : 0.83560,
+         "x" : -3.29930,
+         "y" : 0.11720,
+         "z" : 9.05480
+      },
+      {
+         "heading" : -0.21640,
+         "height" : 0.69850,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.83560,
+         "x" : -3.8790,
+         "y" : -0.00110,
+         "z" : 9.66320
+      },
+      {
+         "heading" : -0.23040,
+         "height" : 0.43160,
+         "name" : "Grey Brick Tower Snowy Top A 03",
+         "scaling" : 0.83560,
+         "x" : -4.41320,
+         "y" : -0.26840,
+         "z" : 9.157999999999999
+      },
+      {
+         "heading" : -0.23040,
+         "height" : 0.6536999999999999,
+         "name" : "Grey Brick Tower Snowy Top C 01",
+         "scaling" : 0.83560,
+         "x" : -3.88710,
+         "y" : -0.04630,
+         "z" : 8.862399999999999
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.31760,
+         "name" : "Grey Brick Tower Snowy Top C 01",
+         "scaling" : 0.83560,
+         "x" : 0.1680,
+         "y" : 0.91760,
+         "z" : 7.47310
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.00020,
+         "name" : "Grey Brick Tower Snowy Segment 01",
+         "scaling" : 0.83560,
+         "x" : 0.1680,
+         "y" : 0.59980,
+         "z" : 7.47310
+      },
+      {
+         "heading" : 0.49570,
+         "height" : -0.01210,
+         "name" : "Grey Brick Tower Snowy Top A 03",
+         "scaling" : 0.83560,
+         "x" : -0.52230,
+         "y" : 0.5750,
+         "z" : 8.28290
+      },
+      {
+         "heading" : -0.23040,
+         "name" : "Grey Brick Tower Snowy Base 02",
+         "scaling" : 0.83560,
+         "x" : -1.39980,
+         "y" : 0.60,
+         "z" : 9.04790
+      },
+      {
+         "heading" : -0.23040,
+         "height" : 0.32580,
+         "name" : "Grey Brick Tower Snowy Top A 02",
+         "scaling" : 0.83560,
+         "x" : -1.39980,
+         "y" : 0.92580,
+         "z" : 9.04790
+      },
+      {
+         "heading" : -0.13260,
+         "height" : -0.06450,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.5030,
+         "y" : 0.61060,
+         "z" : 7.39470
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.22250,
+         "name" : "Grey Brick Tower Snowy Segment 01",
+         "scaling" : 0.83560,
+         "x" : 1.75590,
+         "y" : 0.59570,
+         "z" : 7.66290
+      },
+      {
+         "heading" : -0.13260,
+         "height" : -0.02930,
+         "name" : "Brick Wall 03",
+         "scaling" : 1.0,
+         "x" : 1.89020,
+         "y" : 0.61210,
+         "z" : 7.34310
+      },
+      {
+         "heading" : 7.12090,
+         "height" : 0.0005999999999999999,
+         "name" : "Brick Wall 05",
+         "scaling" : 1.0,
+         "x" : 1.00240,
+         "y" : 0.18270,
+         "z" : 4.62050
+      },
+      {
+         "heading" : 7.53980,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.17620,
+         "y" : 0.18310,
+         "z" : 4.93550
+      },
+      {
+         "heading" : 7.53980,
+         "height" : -0.01870,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.24440,
+         "y" : 0.1660,
+         "z" : 4.91220
+      },
+      {
+         "heading" : 5.63390,
+         "height" : -0.01340,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.99470,
+         "y" : 0.16910,
+         "z" : 4.79210
+      },
+      {
+         "heading" : 5.63390,
+         "height" : -0.01350,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.49740,
+         "y" : 0.16920,
+         "z" : 5.0380
+      },
+      {
+         "heading" : 5.63390,
+         "height" : 0.17820,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.49740,
+         "y" : 0.36090,
+         "z" : 5.0380
+      },
+      {
+         "heading" : 7.53980,
+         "height" : -0.16970,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.36510,
+         "y" : 0.16590,
+         "z" : 5.28370
+      },
+      {
+         "heading" : 6.45770,
+         "height" : -0.00750,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.38470,
+         "y" : 0.19220,
+         "z" : 5.52770
+      },
+      {
+         "heading" : 6.45770,
+         "height" : -0.21840,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.0,
+         "y" : 0.18840,
+         "z" : 5.45990
+      },
+      {
+         "heading" : 6.45770,
+         "height" : 0.17780,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.38470,
+         "y" : 0.37750,
+         "z" : 5.52770
+      },
+      {
+         "heading" : 6.45770,
+         "height" : -0.03310,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.0,
+         "y" : 0.37370,
+         "z" : 5.45990
+      },
+      {
+         "heading" : 6.45770,
+         "height" : 0.36670,
+         "name" : "Brick Wall 03",
+         "scaling" : 1.0,
+         "x" : 2.38470,
+         "y" : 0.56640,
+         "z" : 5.52770
+      },
+      {
+         "heading" : 6.45770,
+         "height" : 0.15570,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.0,
+         "y" : 0.56250,
+         "z" : 5.45990
+      },
+      {
+         "heading" : 7.02320,
+         "height" : -0.0440,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.50940,
+         "y" : 0.45470,
+         "z" : 5.92420
+      },
+      {
+         "heading" : 7.02320,
+         "height" : 0.06080,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 2.22090,
+         "y" : 0.45510,
+         "z" : 5.66080
+      },
+      {
+         "heading" : 0.52360,
+         "name" : "Brick Wall 03",
+         "scaling" : 1.0,
+         "x" : 2.64160,
+         "y" : 0.80880,
+         "z" : 7.83990
+      },
+      {
+         "heading" : 5.99690,
+         "height" : -0.05770,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.79930,
+         "y" : 0.45970,
+         "z" : 5.66330
+      },
+      {
+         "heading" : 5.99690,
+         "height" : 0.09610,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.42450,
+         "y" : 0.44370,
+         "z" : 5.77360
+      },
+      {
+         "heading" : 6.45770,
+         "height" : 0.37070,
+         "name" : "Brick Wall 02",
+         "scaling" : 1.0,
+         "x" : 1.61530,
+         "y" : 0.56240,
+         "z" : 5.39210
+      },
+      {
+         "heading" : 6.90450,
+         "height" : 0.01420,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.9068000000000001,
+         "y" : 0.57770,
+         "z" : 5.68850
+      },
+      {
+         "heading" : 5.43840,
+         "height" : 1.12560,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.8614000000000001,
+         "y" : 0.57850,
+         "z" : 5.44180
+      },
+      {
+         "heading" : 6.45770,
+         "height" : -0.00340,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.61530,
+         "y" : 0.18830,
+         "z" : 5.39210
+      },
+      {
+         "heading" : 6.45770,
+         "height" : 0.18190,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 1.61530,
+         "y" : 0.37360,
+         "z" : 5.39210
+      },
+      {
+         "heading" : 5.43840,
+         "height" : 0.92370,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.8614000000000001,
+         "y" : 0.37660,
+         "z" : 5.44180
+      },
+      {
+         "heading" : 5.43840,
+         "height" : 0.73480,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : 0.8614000000000001,
+         "y" : 0.18770,
+         "z" : 5.44180
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.20510,
+         "name" : "Grey Brick Tower Snowy Top A 02",
+         "scaling" : 0.83560,
+         "x" : -1.64290,
+         "y" : 0.30360,
+         "z" : 6.06070
+      },
+      {
+         "heading" : 4.24460,
+         "height" : 0.29140,
+         "name" : "Brick Wall 04",
+         "scaling" : 1.0,
+         "x" : -1.96460,
+         "y" : 0.35080,
+         "z" : 5.72890
+      },
+      {
+         "heading" : 7.39320,
+         "height" : 0.10450,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.96460,
+         "y" : 0.16390,
+         "z" : 5.72890
+      },
+      {
+         "heading" : 7.39320,
+         "height" : -0.09410,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.96460,
+         "y" : -0.03470,
+         "z" : 5.72890
+      },
+      {
+         "heading" : 5.95160,
+         "height" : -0.00470,
+         "name" : "Brick Wall Pillar 02",
+         "scaling" : 1.0,
+         "x" : -2.9490,
+         "y" : 0.59490,
+         "z" : 8.3050
+      },
+      {
+         "heading" : 7.6690,
+         "height" : -0.0,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : -2.93250,
+         "y" : 0.59980,
+         "z" : 8.479100000000001
+      },
+      {
+         "heading" : 7.6690,
+         "height" : 0.190,
+         "name" : "Brick Wall 05",
+         "scaling" : 1.0,
+         "x" : -2.9210,
+         "y" : 0.78970,
+         "z" : 8.54030
+      },
+      {
+         "heading" : 7.6690,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : -2.86060,
+         "y" : 0.59980,
+         "z" : 8.8630
+      },
+      {
+         "heading" : 7.6690,
+         "height" : 0.190,
+         "name" : "Brick Wall 04",
+         "scaling" : 1.0,
+         "x" : -2.86060,
+         "y" : 0.7897999999999999,
+         "z" : 8.8630
+      },
+      {
+         "heading" : 6.37050,
+         "height" : -0.00170,
+         "name" : "Brick Wall Pillar 02",
+         "scaling" : 1.0,
+         "x" : -2.79620,
+         "y" : 0.59820,
+         "z" : 9.005699999999999
+      },
+      {
+         "heading" : 6.37050,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : -2.62290,
+         "y" : 0.59980,
+         "z" : 9.059900000000001
+      },
+      {
+         "heading" : 6.37050,
+         "height" : -0.0,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : -2.23380,
+         "y" : 0.59990,
+         "z" : 9.09390
+      },
+      {
+         "heading" : 6.37050,
+         "height" : 0.0,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.84460,
+         "y" : 0.60,
+         "z" : 9.1280
+      },
+      {
+         "heading" : 6.37050,
+         "height" : 0.19610,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : -1.84460,
+         "y" : 0.79610,
+         "z" : 9.1280
+      },
+      {
+         "heading" : 6.37050,
+         "height" : 0.19610,
+         "name" : "Brick Wall 03",
+         "scaling" : 1.0,
+         "x" : -2.23380,
+         "y" : 0.7960,
+         "z" : 9.09390
+      },
+      {
+         "heading" : 6.37050,
+         "height" : 0.19610,
+         "name" : "Brick Wall 05",
+         "scaling" : 1.0,
+         "x" : -2.62290,
+         "y" : 0.7959000000000001,
+         "z" : 9.059900000000001
+      },
+      {
+         "heading" : 5.2360,
+         "height" : 0.0,
+         "name" : "Brick Wall 01",
+         "scaling" : 1.0,
+         "x" : -0.57630,
+         "y" : 0.5990,
+         "z" : 7.87360
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.58610,
+         "name" : "Stone House 01",
+         "scaling" : 0.7940,
+         "x" : 0.12760,
+         "y" : -0.19670,
+         "z" : -0.24720
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8030,
+         "name" : "Stone House 01",
+         "scaling" : 0.89070,
+         "x" : 0.00370,
+         "y" : -0.1970,
+         "z" : -0.71640
+      },
+      {
+         "heading" : 2.87980,
+         "height" : 0.8030,
+         "name" : "Stone House 01",
+         "scaling" : 0.97590,
+         "x" : -0.16540,
+         "y" : -0.1970,
+         "z" : -1.29910
+      },
+      {
+         "heading" : 2.86580,
+         "height" : 0.8028999999999999,
+         "name" : "Stone House 01",
+         "scaling" : 0.7940,
+         "x" : -0.27520,
+         "y" : -0.1970,
+         "z" : -1.77210
+      },
+      {
+         "heading" : 2.87980,
+         "height" : 0.08970,
+         "name" : "Stone House 01",
+         "scaling" : 0.90310,
+         "x" : -0.41270,
+         "y" : -0.19710,
+         "z" : -2.23760
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.78040,
+         "name" : "Stone House 01",
+         "scaling" : 0.7940,
+         "x" : -1.16260,
+         "y" : -0.1970,
+         "z" : 0.09360
+      },
+      {
+         "heading" : 2.92170,
+         "height" : 0.83690,
+         "name" : "Stone Tower 01",
+         "scaling" : 0.78260,
+         "x" : 0.02780,
+         "y" : -0.16310,
+         "z" : -0.59960
+      },
+      {
+         "heading" : 4.45060,
+         "height" : 0.94590,
+         "name" : "Stone Tower 01",
+         "scaling" : 0.61860,
+         "x" : -0.16750,
+         "y" : -0.05410,
+         "z" : -1.31390
+      },
+      {
+         "heading" : 2.85190,
+         "height" : 0.55050,
+         "name" : "Stone Tower 01",
+         "scaling" : 0.62730,
+         "x" : -0.37280,
+         "y" : -0.23740,
+         "z" : -2.12270
+      },
+      {
+         "heading" : 2.85190,
+         "height" : 0.87930,
+         "name" : "Stone Tower 01",
+         "scaling" : 0.58070,
+         "x" : -0.27510,
+         "y" : -0.12060,
+         "z" : -1.76810
+      },
+      {
+         "heading" : 7.56770,
+         "height" : 0.79970,
+         "name" : "Stone House 01",
+         "scaling" : 0.7940,
+         "x" : -1.23110,
+         "y" : -0.20030,
+         "z" : -0.50410
+      },
+      {
+         "heading" : 7.57470,
+         "height" : 0.78650,
+         "name" : "Stone House 01",
+         "scaling" : 0.76150,
+         "x" : -0.08019999999999999,
+         "y" : -0.21350,
+         "z" : -0.57040
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8030,
+         "name" : "Stone House 01",
+         "scaling" : 0.86150,
+         "x" : -1.41050,
+         "y" : -0.1970,
+         "z" : -0.84470
+      },
+      {
+         "heading" : 2.87980,
+         "height" : 0.8030,
+         "name" : "Stone House 01",
+         "scaling" : 0.91830,
+         "x" : -1.49830,
+         "y" : -0.1970,
+         "z" : -1.360
+      },
+      {
+         "heading" : 7.59570,
+         "height" : 0.79940,
+         "name" : "Stone Tower 02",
+         "scaling" : 0.81310,
+         "x" : -1.54630,
+         "y" : -0.20060,
+         "z" : -1.72520
+      },
+      {
+         "heading" : 7.59570,
+         "height" : 0.8030,
+         "name" : "Stone Tower 01",
+         "scaling" : 0.81310,
+         "x" : -1.26420,
+         "y" : -0.1970,
+         "z" : -0.2560
+      },
+      {
+         "heading" : 7.56770,
+         "height" : 0.8030,
+         "name" : "Stone House 01",
+         "scaling" : 0.7940,
+         "x" : -1.59590,
+         "y" : -0.1970,
+         "z" : -1.92340
+      },
+      {
+         "heading" : 4.45060,
+         "height" : 0.17460,
+         "name" : "Stone House 01",
+         "scaling" : 0.7940,
+         "x" : -1.74160,
+         "y" : -0.26190,
+         "z" : -2.0950
+      },
+      {
+         "heading" : 7.59570,
+         "height" : 0.8030,
+         "name" : "Stone Tower 01",
+         "scaling" : 0.65240,
+         "x" : -1.45260,
+         "y" : -0.1970,
+         "z" : -1.23170
+      },
+      {
+         "heading" : 2.87980,
+         "height" : 0.74720,
+         "name" : "Stone Tower 01",
+         "scaling" : 0.65240,
+         "x" : -1.72720,
+         "y" : -0.1970,
+         "z" : -2.01780
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.57690,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.32260,
+         "x" : -1.59260,
+         "y" : -0.20590,
+         "z" : -2.1110
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.03640,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.32260,
+         "x" : -1.02610,
+         "y" : -0.20090,
+         "z" : -2.2550
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.68370,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.25180,
+         "x" : -2.10260,
+         "y" : -0.20320,
+         "z" : -1.96530
+      },
+      {
+         "heading" : -0.21640,
+         "height" : -0.01230,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.32260,
+         "x" : -0.60510,
+         "y" : -0.21230,
+         "z" : -2.3680
+      },
+      {
+         "heading" : 6.11920,
+         "height" : -0.01020,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -4.29270,
+         "y" : 0.17240,
+         "z" : 5.03030
+      },
+      {
+         "heading" : 4.53790,
+         "height" : -0.01070,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -3.90570,
+         "y" : 0.17190,
+         "z" : 5.3630
+      },
+      {
+         "heading" : 3.64080,
+         "height" : -0.02620,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -4.38450,
+         "y" : 0.57380,
+         "z" : 6.03460
+      },
+      {
+         "heading" : 2.30730,
+         "height" : -0.02810,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -4.67120,
+         "y" : 0.57190,
+         "z" : 6.78180
+      },
+      {
+         "heading" : -0.70860,
+         "height" : -0.02930,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -4.85010,
+         "y" : 0.57070,
+         "z" : 7.78880
+      },
+      {
+         "heading" : 0.77150,
+         "height" : -0.02930,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -4.87630,
+         "y" : 0.57070,
+         "z" : 7.19230
+      },
+      {
+         "heading" : 3.66520,
+         "height" : -0.00170,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -0.14310,
+         "y" : 0.5980,
+         "z" : 7.40960
+      },
+      {
+         "heading" : 0.53060,
+         "height" : -0.00170,
+         "name" : "Stone House Small 01",
+         "scaling" : 1.0,
+         "x" : 0.70250,
+         "y" : 0.5983000000000001,
+         "z" : 6.88330
+      },
+      {
+         "heading" : 3.66520,
+         "height" : -0.00460,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -2.54930,
+         "y" : 0.5950,
+         "z" : 6.49280
+      },
+      {
+         "heading" : 2.87980,
+         "height" : 0.0030,
+         "name" : "Stone Tower 02",
+         "scaling" : 0.72750,
+         "x" : -0.50060,
+         "y" : -0.19710,
+         "z" : -2.53560
+      },
+      {
+         "heading" : -0.25830,
+         "height" : -0.00130,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.15310,
+         "x" : -0.59110,
+         "y" : -0.20130,
+         "z" : -2.41030
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.43760,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.15310,
+         "x" : -1.60890,
+         "y" : -0.20790,
+         "z" : -2.1210
+      },
+      {
+         "heading" : 1.09610,
+         "height" : -0.00250,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.15310,
+         "x" : 0.15340,
+         "y" : -0.20250,
+         "z" : 0.36690
+      },
+      {
+         "heading" : -0.68420,
+         "height" : 0.00020,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.24230,
+         "x" : 0.44650,
+         "y" : -0.20060,
+         "z" : 0.8342000000000001
+      },
+      {
+         "heading" : 0.3770,
+         "height" : -0.00190,
+         "name" : "Stone Wall 01",
+         "scaling" : 1.15310,
+         "x" : 0.63310,
+         "y" : -0.20260,
+         "z" : 0.8211000000000001
+      },
+      {
+         "heading" : -1.17290,
+         "name" : "Stone Wall Pillar 01",
+         "scaling" : 1.24230,
+         "x" : 1.08990,
+         "y" : -0.20050,
+         "z" : 1.0260
+      },
+      {
+         "heading" : 3.88510,
+         "name" : "Brick Wall 05",
+         "scaling" : 1.0,
+         "x" : 1.11980,
+         "y" : -0.20040,
+         "z" : 0.85810
+      },
+      {
+         "heading" : 3.04730,
+         "height" : -0.00390,
+         "name" : "Brick Wall 04",
+         "scaling" : 1.00330,
+         "x" : 1.39720,
+         "y" : -0.20440,
+         "z" : 0.94010
+      },
+      {
+         "heading" : 3.04730,
+         "height" : -0.0020,
+         "name" : "Brick Wall 05",
+         "scaling" : 1.0,
+         "x" : 1.78110,
+         "y" : -0.20220,
+         "z" : 0.90120
+      },
+      {
+         "heading" : 2.69480,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.46820,
+         "x" : 0.07990,
+         "y" : -0.20,
+         "z" : 2.13340
+      },
+      {
+         "heading" : 1.59870,
+         "height" : 0.00110,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.46820,
+         "x" : -1.94860,
+         "y" : -0.1980,
+         "z" : 1.69580
+      },
+      {
+         "heading" : 6.43330,
+         "height" : 0.0,
+         "name" : "Brick Wall 04",
+         "scaling" : 1.0,
+         "x" : -3.91380,
+         "y" : 0.59940,
+         "z" : 8.15930
+      },
+      {
+         "heading" : 6.43330,
+         "height" : -0.0,
+         "name" : "Brick Wall 05",
+         "scaling" : 1.0,
+         "x" : -3.14130,
+         "y" : 0.59950,
+         "z" : 8.276199999999999
+      },
+      {
+         "heading" : -0.23040,
+         "height" : 0.49140,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : -3.29930,
+         "y" : -0.20860,
+         "z" : 9.05480
+      },
+      {
+         "heading" : -0.21640,
+         "height" : 0.43820,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : -3.8790,
+         "y" : -0.26140,
+         "z" : 9.66320
+      },
+      {
+         "heading" : 2.97050,
+         "height" : -0.0,
+         "name" : "Brick Wall 04",
+         "scaling" : 1.0,
+         "x" : -0.09290,
+         "y" : -0.20010,
+         "z" : 2.02280
+      },
+      {
+         "heading" : 1.59870,
+         "height" : 0.0,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.75250,
+         "x" : -4.70070,
+         "y" : 0.18260,
+         "z" : 4.27570
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -4.7150,
+         "y" : 0.18260,
+         "z" : 4.240
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -1.95070,
+         "y" : -0.19970,
+         "z" : 1.65630
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.08830,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 0.09160,
+         "y" : -0.11170,
+         "z" : 2.13950
+      },
+      {
+         "heading" : 0.44680,
+         "name" : "Fence 05",
+         "scaling" : 1.0,
+         "x" : -0.21920,
+         "y" : -0.20080,
+         "z" : 1.34570
+      },
+      {
+         "heading" : 0.17450,
+         "height" : -0.0,
+         "name" : "Fence 07",
+         "scaling" : 1.0,
+         "x" : -1.23630,
+         "y" : -0.20140,
+         "z" : 1.12720
+      },
+      {
+         "heading" : 0.10470,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.3210,
+         "x" : -2.05160,
+         "y" : -0.38270,
+         "z" : -3.51750
+      },
+      {
+         "heading" : -2.70180,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.46820,
+         "x" : -0.67310,
+         "y" : -0.38480,
+         "z" : -3.92310
+      },
+      {
+         "heading" : 2.33880,
+         "height" : 0.0,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.46820,
+         "x" : -0.50730,
+         "y" : -0.38370,
+         "z" : -4.04440
+      },
+      {
+         "heading" : -1.44520,
+         "height" : 0.01210,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.46820,
+         "x" : -0.38230,
+         "y" : -0.38280,
+         "z" : -3.82790
+      },
+      {
+         "heading" : -0.20250,
+         "name" : "Dead Tree 01",
+         "scaling" : 2.08630,
+         "x" : -0.22860,
+         "y" : -0.39130,
+         "z" : -3.98540
+      },
+      {
+         "heading" : 0.28620,
+         "name" : "Dead Tree 04",
+         "scaling" : 0.9790,
+         "x" : -2.04970,
+         "y" : -0.36310,
+         "z" : -3.83090
+      },
+      {
+         "heading" : 3.10670,
+         "height" : 0.530,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.22740,
+         "x" : -0.32670,
+         "y" : -0.22660,
+         "z" : -3.06580
+      },
+      {
+         "heading" : 0.28620,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.09090,
+         "x" : -2.42760,
+         "y" : -0.04570,
+         "z" : -2.92130
+      },
+      {
+         "heading" : -0.3770,
+         "height" : -0.00360,
+         "name" : "White Wood House 01",
+         "scaling" : 0.7480,
+         "x" : -1.86850,
+         "y" : -0.20540,
+         "z" : -2.55290
+      },
+      {
+         "heading" : 0.60040,
+         "name" : "White Wood House 04",
+         "scaling" : 0.7480,
+         "x" : -2.33260,
+         "y" : -0.35110,
+         "z" : -3.67990
+      },
+      {
+         "heading" : 1.46610,
+         "name" : "White Wood House 03",
+         "scaling" : 0.7480,
+         "x" : -2.61340,
+         "y" : -0.050,
+         "z" : -2.58680
+      },
+      {
+         "heading" : -0.41190,
+         "height" : 0.00020,
+         "name" : "White Wood Tower 02",
+         "scaling" : 0.89280,
+         "x" : -0.43280,
+         "y" : -0.39760,
+         "z" : -3.69590
+      },
+      {
+         "heading" : -0.24430,
+         "name" : "White Wood Tower 02",
+         "scaling" : 0.7917999999999999,
+         "x" : -0.7193000000000001,
+         "y" : -0.20170,
+         "z" : -2.77280
+      },
+      {
+         "heading" : -0.24430,
+         "name" : "White Wood Tower 02",
+         "scaling" : 0.7917999999999999,
+         "x" : -1.63040,
+         "y" : -0.20190,
+         "z" : -2.56310
+      },
+      {
+         "heading" : -0.8935999999999999,
+         "height" : 0.00020,
+         "name" : "White Wood House 01",
+         "scaling" : 0.7480,
+         "x" : -2.59080,
+         "y" : -0.34710,
+         "z" : -3.76350
+      },
+      {
+         "heading" : -2.37370,
+         "height" : -0.0,
+         "name" : "White Wood Tower 02",
+         "scaling" : 0.89280,
+         "x" : -2.27330,
+         "y" : -0.37720,
+         "z" : -3.42930
+      },
+      {
+         "heading" : -2.01070,
+         "height" : -0.0,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.46820,
+         "x" : -2.06860,
+         "y" : -0.20160,
+         "z" : -2.68230
+      },
+      {
+         "heading" : -3.56060,
+         "height" : -0.00040,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.46820,
+         "x" : -0.59640,
+         "y" : -0.20230,
+         "z" : -2.92640
+      },
+      {
+         "heading" : -1.02630,
+         "height" : -0.00760,
+         "name" : "White Wood House 03",
+         "scaling" : 0.7480,
+         "x" : -1.88580,
+         "y" : -0.57170,
+         "z" : -4.49290
+      },
+      {
+         "heading" : 6.80680,
+         "height" : 0.00120,
+         "name" : "White Wood Attic 01",
+         "scaling" : 0.7480,
+         "x" : -1.8750,
+         "y" : -0.56170,
+         "z" : -4.48760
+      },
+      {
+         "heading" : 7.00230,
+         "height" : 0.0130,
+         "name" : "White Wood Attic 01",
+         "scaling" : 0.7480,
+         "x" : -2.32760,
+         "y" : -0.3380,
+         "z" : -3.68590
+      },
+      {
+         "heading" : -2.22710,
+         "height" : 0.0,
+         "name" : "Dead Tree 04",
+         "scaling" : 0.9790,
+         "x" : -2.17540,
+         "y" : -0.5540,
+         "z" : -4.28950
+      },
+      {
+         "heading" : -3.26030,
+         "height" : -0.0,
+         "name" : "Dead Tree 01",
+         "scaling" : 0.9790,
+         "x" : -1.89990,
+         "y" : -0.58310,
+         "z" : -4.82190
+      },
+      {
+         "heading" : -0.84480,
+         "height" : 0.0,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.09090,
+         "x" : -2.36610,
+         "y" : -0.050,
+         "z" : -2.16030
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.30,
+            "phase" : 0.12790,
+            "speed" : 0.30,
+            "spin" : 0.10,
+            "wobble" : 0.50
+         },
+         "heading" : 0.0,
+         "height" : 0.55150,
+         "name" : "Floating Boulder Chunk 05",
+         "scaling" : 3.36860,
+         "x" : 0.2770,
+         "y" : -0.44820,
+         "z" : -1.72370
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.20,
+            "phase" : 0.12790,
+            "speed" : 0.20,
+            "spin" : 0.10,
+            "wobble" : 0.30
+         },
+         "heading" : -1.24270,
+         "height" : 0.34540,
+         "name" : "Floating Boulder Chunk 02",
+         "scaling" : 2.54830,
+         "x" : 0.38860,
+         "y" : -0.65440,
+         "z" : -0.87930
+      },
+      {
+         "heading" : -3.26030,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.27930,
+         "x" : -1.4820,
+         "y" : -0.4720,
+         "z" : -4.96150
+      },
+      {
+         "heading" : -5.43150,
+         "height" : 0.00290,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.27930,
+         "x" : -1.57350,
+         "y" : -0.3050,
+         "z" : -5.46060
+      },
+      {
+         "heading" : -2.66690,
+         "height" : -0.17270,
+         "name" : "Dead Tree 04",
+         "scaling" : 0.9790,
+         "x" : -1.49550,
+         "y" : -0.33510,
+         "z" : -4.56140
+      },
+      {
+         "heading" : 0.53050,
+         "name" : "White Wood House 02",
+         "scaling" : 0.7480,
+         "x" : -1.14650,
+         "y" : -0.14830,
+         "z" : -6.01740
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.30,
+            "phase" : 0.12790,
+            "speed" : 0.30,
+            "spin" : 0.10,
+            "wobble" : 0.50
+         },
+         "heading" : 2.9950,
+         "height" : 0.47020,
+         "name" : "Floating Boulder Chunk 05",
+         "scaling" : 2.96370,
+         "x" : 1.38390,
+         "y" : -0.22950,
+         "z" : 2.58460
+      },
+      {
+         "heading" : -2.15020,
+         "height" : -0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.17740,
+         "x" : -0.28750,
+         "y" : -0.20070,
+         "z" : 1.44230
+      },
+      {
+         "heading" : -2.15020,
+         "name" : "Foliage 01",
+         "scaling" : 1.17740,
+         "x" : -1.22620,
+         "y" : -0.20070,
+         "z" : 1.26490
+      },
+      {
+         "heading" : -2.15020,
+         "height" : -0.0,
+         "name" : "Autumn Bush 02",
+         "scaling" : 1.06930,
+         "x" : -0.670,
+         "y" : -0.20120,
+         "z" : 1.72570
+      },
+      {
+         "heading" : -0.67720,
+         "height" : -0.0,
+         "name" : "Autumn Bush 02",
+         "scaling" : 1.06110,
+         "x" : -1.35530,
+         "y" : -0.20140,
+         "z" : 1.11620
+      },
+      {
+         "heading" : -0.67720,
+         "height" : 0.0,
+         "name" : "Crop Bush 01",
+         "scaling" : 1.06110,
+         "x" : -0.93130,
+         "y" : -0.20130,
+         "z" : 1.16390
+      },
+      {
+         "heading" : 4.41920,
+         "height" : -0.0,
+         "name" : "Closet 05",
+         "scaling" : 1.06110,
+         "x" : -1.26760,
+         "y" : -0.20060,
+         "z" : 1.38310
+      },
+      {
+         "heading" : -3.76990,
+         "height" : 0.0,
+         "name" : "Closet 02",
+         "scaling" : 1.06110,
+         "x" : -0.54570,
+         "y" : -0.20060,
+         "z" : 1.65470
+      },
+      {
+         "heading" : 4.16090,
+         "height" : 0.0,
+         "name" : "Bookcase 02",
+         "scaling" : 1.06110,
+         "x" : 0.02030,
+         "y" : -0.20070,
+         "z" : 1.48030
+      },
+      {
+         "heading" : 4.16090,
+         "name" : "Table 04",
+         "scaling" : 1.06110,
+         "x" : 0.37060,
+         "y" : -0.20020,
+         "z" : 1.6980
+      },
+      {
+         "heading" : 4.16090,
+         "name" : "Chair 02",
+         "scaling" : 1.06110,
+         "x" : 0.50180,
+         "y" : -0.20040,
+         "z" : 1.78630
+      },
+      {
+         "heading" : 4.80320,
+         "name" : "Chair 02",
+         "scaling" : 1.06110,
+         "x" : 0.29610,
+         "y" : -0.20020,
+         "z" : 1.80040
+      },
+      {
+         "heading" : 5.80150,
+         "height" : 0.0,
+         "name" : "Chair 02",
+         "scaling" : 1.06110,
+         "x" : 0.22730,
+         "y" : -0.20030,
+         "z" : 1.71890
+      },
+      {
+         "heading" : 4.69150,
+         "height" : -0.0,
+         "name" : "Chair 02",
+         "scaling" : 1.06110,
+         "x" : 0.4030,
+         "y" : -0.20010,
+         "z" : 1.83040
+      },
+      {
+         "heading" : -0.85170,
+         "height" : 0.0,
+         "name" : "White Wood House 03",
+         "scaling" : 0.7480,
+         "x" : -0.0170,
+         "y" : 0.0,
+         "z" : -3.20760
+      },
+      {
+         "heading" : -0.85170,
+         "height" : 0.0,
+         "name" : "White Wood Attic 01",
+         "scaling" : 0.7480,
+         "x" : -0.0170,
+         "y" : 0.0,
+         "z" : -3.20760
+      },
+      {
+         "heading" : 3.86070,
+         "height" : 0.07220,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.46820,
+         "x" : -0.01240,
+         "y" : 0.07220,
+         "z" : -3.00420
+      },
+      {
+         "heading" : 3.85380,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.46820,
+         "x" : 0.15770,
+         "y" : -0.0,
+         "z" : -3.4810
+      },
+      {
+         "heading" : 4.37030,
+         "height" : -0.0,
+         "name" : "Table 03",
+         "scaling" : 0.95950,
+         "x" : -1.78350,
+         "y" : -0.2020,
+         "z" : -2.69380
+      },
+      {
+         "heading" : 4.37030,
+         "height" : 0.0,
+         "name" : "Table 01",
+         "scaling" : 0.95950,
+         "x" : -0.88290,
+         "y" : -0.20180,
+         "z" : -2.74060
+      },
+      {
+         "heading" : 3.89550,
+         "name" : "White Wood House 01",
+         "scaling" : 0.7480,
+         "x" : -0.57890,
+         "y" : -0.49360,
+         "z" : -5.67410
+      },
+      {
+         "heading" : 0.02090,
+         "height" : -0.008699999999999999,
+         "name" : "White Wood Tower 02",
+         "scaling" : 0.7480,
+         "x" : -0.24670,
+         "y" : -0.48340,
+         "z" : -5.90680
+      },
+      {
+         "heading" : -1.04730,
+         "height" : -0.03460,
+         "name" : "White Wood House 02",
+         "scaling" : 0.7480,
+         "x" : -1.95580,
+         "y" : -0.34350,
+         "z" : -5.57270
+      },
+      {
+         "heading" : -1.19390,
+         "height" : -0.020,
+         "name" : "White Wood House 01",
+         "scaling" : 0.7480,
+         "x" : -2.50360,
+         "y" : -0.36990,
+         "z" : -5.48210
+      },
+      {
+         "heading" : 1.1030,
+         "name" : "White Wood House 02",
+         "scaling" : 0.7480,
+         "x" : -2.54710,
+         "y" : -0.34950,
+         "z" : -6.29470
+      },
+      {
+         "heading" : -8.077400000000001,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.27930,
+         "x" : -2.1850,
+         "y" : -0.33730,
+         "z" : -5.80910
+      },
+      {
+         "heading" : -12.24530,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.27930,
+         "x" : -2.6860,
+         "y" : -0.37490,
+         "z" : -5.67620
+      },
+      {
+         "heading" : 0.02090,
+         "height" : -0.02540,
+         "name" : "White Wood Tower 02",
+         "scaling" : 0.7480,
+         "x" : -1.67560,
+         "y" : -0.47690,
+         "z" : -5.08270
+      },
+      {
+         "heading" : 5.24990,
+         "name" : "White Wood House 04",
+         "scaling" : 0.7480,
+         "x" : 1.00460,
+         "y" : -0.39980,
+         "z" : -4.39820
+      },
+      {
+         "heading" : 5.24990,
+         "name" : "White Wood House 03",
+         "scaling" : 0.7480,
+         "x" : 1.4130,
+         "y" : -0.39970,
+         "z" : -4.69550
+      },
+      {
+         "heading" : 2.46440,
+         "name" : "Table 03",
+         "scaling" : 0.95950,
+         "x" : -0.4060,
+         "y" : -0.38890,
+         "z" : -3.96660
+      },
+      {
+         "heading" : 5.31280,
+         "name" : "Table 03",
+         "scaling" : 0.95950,
+         "x" : 1.12780,
+         "y" : -0.39520,
+         "z" : -4.68070
+      },
+      {
+         "heading" : 10.0740,
+         "name" : "Bookcase 02",
+         "scaling" : 0.95950,
+         "x" : 0.92570,
+         "y" : -0.38730,
+         "z" : -4.70960
+      },
+      {
+         "heading" : 5.2220,
+         "height" : -0.00020,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.52970,
+         "x" : 1.08260,
+         "y" : -0.3880,
+         "z" : -4.78680
+      },
+      {
+         "heading" : 6.80680,
+         "name" : "White Wood Attic 01",
+         "scaling" : 0.7480,
+         "x" : 1.4130,
+         "y" : -0.39970,
+         "z" : -4.69550
+      },
+      {
+         "heading" : -0.37710,
+         "height" : 0.43530,
+         "name" : "White Wood Tower 01",
+         "scaling" : 0.89280,
+         "x" : 1.42230,
+         "y" : -0.32540,
+         "z" : -4.19430
+      },
+      {
+         "heading" : 6.45770,
+         "height" : 0.0,
+         "name" : "White Wood House 03",
+         "scaling" : 0.7480,
+         "x" : 0.5760,
+         "y" : 0.0,
+         "z" : -3.84970
+      },
+      {
+         "heading" : 6.45770,
+         "name" : "White Wood Tower 01",
+         "scaling" : 0.7480,
+         "x" : 0.20270,
+         "y" : 0.00170,
+         "z" : -3.93510
+      },
+      {
+         "heading" : 6.45770,
+         "name" : "White Wood House 01",
+         "scaling" : 0.7480,
+         "x" : 0.99230,
+         "y" : -0.00110,
+         "z" : -3.75340
+      },
+      {
+         "heading" : -12.24530,
+         "height" : 0.00150,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.27930,
+         "x" : -1.22370,
+         "y" : -0.12960,
+         "z" : -5.74380
+      },
+      {
+         "heading" : 5.84690,
+         "name" : "White Wood Attic 01",
+         "scaling" : 0.7480,
+         "x" : -2.54710,
+         "y" : -0.34950,
+         "z" : -6.29470
+      },
+      {
+         "heading" : 1.06110,
+         "height" : -0.0160,
+         "name" : "White Wood House 02",
+         "scaling" : 0.7480,
+         "x" : -2.58380,
+         "y" : -0.01840,
+         "z" : -7.63880
+      },
+      {
+         "heading" : -1.17990,
+         "height" : -0.00430,
+         "name" : "White Wood House 02",
+         "scaling" : 0.7480,
+         "x" : 1.9770,
+         "y" : -0.04750,
+         "z" : -5.31450
+      },
+      {
+         "heading" : -1.17990,
+         "height" : -0.00860,
+         "name" : "White Wood House 03",
+         "scaling" : 0.7480,
+         "x" : 2.05980,
+         "y" : -0.04320,
+         "z" : -5.82850
+      },
+      {
+         "heading" : -1.17990,
+         "name" : "White Wood Attic 01",
+         "scaling" : 0.7480,
+         "x" : 2.02420,
+         "y" : -0.0330,
+         "z" : -5.85060
+      },
+      {
+         "heading" : -1.17990,
+         "name" : "White Wood House 02",
+         "scaling" : 0.7480,
+         "x" : 2.01120,
+         "y" : -0.03830,
+         "z" : -6.47330
+      },
+      {
+         "heading" : 0.34910,
+         "height" : 0.03550,
+         "name" : "White Wood Tower 02",
+         "scaling" : 0.7480,
+         "x" : 2.20390,
+         "y" : 0.00040,
+         "z" : -6.26160
+      },
+      {
+         "heading" : -7.28860,
+         "height" : 0.0,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.54830,
+         "x" : -1.20370,
+         "y" : -0.37830,
+         "z" : -8.261699999999999
+      },
+      {
+         "heading" : -9.24330,
+         "height" : -0.00110,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.27930,
+         "x" : -1.40290,
+         "y" : -0.37980,
+         "z" : -8.24940
+      },
+      {
+         "heading" : -9.81570,
+         "height" : 0.00010,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.27930,
+         "x" : -1.98070,
+         "y" : -0.34510,
+         "z" : -7.88350
+      },
+      {
+         "heading" : -2.12930,
+         "height" : -0.00110,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.58580,
+         "x" : -0.39970,
+         "y" : -0.58290,
+         "z" : -8.12190
+      },
+      {
+         "heading" : 0.06980,
+         "height" : 0.0005999999999999999,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.42830,
+         "x" : 0.24120,
+         "y" : -0.58050,
+         "z" : -8.124599999999999
+      },
+      {
+         "heading" : 3.77690,
+         "height" : -0.0,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.51220,
+         "x" : 1.02880,
+         "y" : -0.59030,
+         "z" : -7.92010
+      },
+      {
+         "heading" : 2.55520,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.51220,
+         "x" : 1.87880,
+         "y" : -0.39970,
+         "z" : -7.47310
+      },
+      {
+         "heading" : 2.93910,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.51220,
+         "x" : 1.95380,
+         "y" : -0.40,
+         "z" : -7.7930
+      },
+      {
+         "heading" : 0.06980,
+         "height" : 0.0,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.32430,
+         "x" : 0.10590,
+         "y" : -0.18940,
+         "z" : -6.59280
+      },
+      {
+         "heading" : -1.80120,
+         "height" : -0.0,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.32430,
+         "x" : -0.77010,
+         "y" : -0.18540,
+         "z" : -6.63840
+      },
+      {
+         "heading" : -0.8028999999999999,
+         "height" : -0.0,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.32430,
+         "x" : 0.04270,
+         "y" : -0.19110,
+         "z" : -6.66560
+      },
+      {
+         "heading" : -2.08740,
+         "height" : -0.01750,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.32430,
+         "x" : 1.7720,
+         "y" : -0.02690,
+         "z" : -5.78930
+      },
+      {
+         "heading" : -1.53590,
+         "height" : -0.0,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.32430,
+         "x" : 1.45830,
+         "y" : -0.12140,
+         "z" : -5.99560
+      },
+      {
+         "heading" : -4.27960,
+         "height" : 0.0,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.32430,
+         "x" : 1.52830,
+         "y" : -0.17790,
+         "z" : -6.75770
+      },
+      {
+         "heading" : -6.48570,
+         "height" : 0.00010,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.27930,
+         "x" : -2.38610,
+         "y" : -0.33020,
+         "z" : -6.40540
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00140,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -2.06250,
+         "y" : -0.20020,
+         "z" : -2.67450
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -0.56360,
+         "y" : -0.39170,
+         "z" : -3.8190
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 0.31580,
+         "y" : 0.00250,
+         "z" : -4.03190
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 1.09420,
+         "y" : -0.38450,
+         "z" : -4.83840
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.05520,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 1.54080,
+         "y" : -0.12350,
+         "z" : -6.7550
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 1.73950,
+         "y" : -0.39850,
+         "z" : -7.50720
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.30390,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 0.97280,
+         "y" : -0.28750,
+         "z" : -7.99040
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.37230,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 0.22990,
+         "y" : -0.20680,
+         "z" : -8.235300000000001
+      },
+      {
+         "heading" : 3.60930,
+         "height" : 0.36690,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -1.20490,
+         "y" : -0.01210,
+         "z" : -8.28440
+      },
+      {
+         "heading" : 3.60930,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 0.02560,
+         "y" : -0.19010,
+         "z" : -6.6530
+      },
+      {
+         "heading" : 3.60930,
+         "height" : 0.00010,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -2.18050,
+         "y" : -0.33990,
+         "z" : -5.8380
+      },
+      {
+         "heading" : -0.92850,
+         "height" : 0.30790,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -1.42240,
+         "y" : -0.16470,
+         "z" : -5.00580
+      },
+      {
+         "heading" : -0.92850,
+         "height" : 0.22340,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -2.02940,
+         "y" : -0.12030,
+         "z" : -7.85830
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -0.82760,
+         "y" : -0.19270,
+         "z" : -6.72270
+      },
+      {
+         "heading" : -2.10140,
+         "height" : -0.0,
+         "name" : "Well 01",
+         "scaling" : 1.0,
+         "x" : 1.30560,
+         "y" : -0.16770,
+         "z" : -6.95580
+      },
+      {
+         "heading" : 2.09440,
+         "height" : 0.21720,
+         "name" : "White Wood Tower 01",
+         "scaling" : 0.7480,
+         "x" : 1.00460,
+         "y" : -0.18260,
+         "z" : -4.39820
+      },
+      {
+         "heading" : -1.91290,
+         "height" : -0.0,
+         "name" : "Cart 01",
+         "scaling" : 1.0,
+         "x" : 1.22030,
+         "y" : -0.11620,
+         "z" : -5.69920
+      },
+      {
+         "heading" : -3.32310,
+         "height" : 0.00010,
+         "name" : "Cart 02",
+         "scaling" : 1.0,
+         "x" : -0.50690,
+         "y" : -0.16940,
+         "z" : -6.49810
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.30,
+            "phase" : 0.12790,
+            "speed" : 0.30,
+            "spin" : 0.80,
+            "wobble" : 0.50
+         },
+         "heading" : -4.16790,
+         "height" : 0.6650,
+         "name" : "Floating Boulder Chunk 03",
+         "scaling" : 2.5790,
+         "x" : -2.08690,
+         "y" : -0.3350,
+         "z" : -1.30380
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.30,
+            "phase" : 0.50,
+            "speed" : 0.20,
+            "spin" : 0.50,
+            "wobble" : 0.50
+         },
+         "heading" : -6.93950,
+         "height" : 0.97390,
+         "name" : "Floating Boulder Chunk 03",
+         "scaling" : 3.83860,
+         "x" : -1.90750,
+         "y" : -0.02610,
+         "z" : -0.66750
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.20,
+            "phase" : 0.12790,
+            "speed" : 0.30,
+            "spin" : 0.20,
+            "wobble" : 0.50
+         },
+         "heading" : -6.04590,
+         "height" : 0.9290,
+         "name" : "Floating Boulder Chunk 01",
+         "scaling" : 3.01370,
+         "x" : -1.92180,
+         "y" : -0.07099999999999999,
+         "z" : 0.31070
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.30,
+            "phase" : 0.12790,
+            "speed" : 0.30,
+            "spin" : 0.80,
+            "wobble" : 0.50
+         },
+         "heading" : -5.34770,
+         "height" : 0.76370,
+         "name" : "Floating Boulder Chunk 03",
+         "scaling" : 3.60750,
+         "x" : 0.84490,
+         "y" : -0.23630,
+         "z" : -0.23310
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.250,
+            "phase" : 0.12790,
+            "speed" : 0.250,
+            "spin" : 0.20,
+            "wobble" : 0.0
+         },
+         "heading" : -5.34770,
+         "height" : 1.06910,
+         "name" : "Floating Boulder 04",
+         "scaling" : 1.85330,
+         "x" : 1.55650,
+         "y" : 0.06909999999999999,
+         "z" : 0.32050
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.30,
+            "phase" : 0.12790,
+            "speed" : 0.20,
+            "spin" : 0.10,
+            "wobble" : 0.0
+         },
+         "heading" : -5.34770,
+         "height" : 1.24550,
+         "name" : "Floating Boulder 03",
+         "scaling" : 2.45430,
+         "x" : 2.54420,
+         "y" : 0.24560,
+         "z" : 0.83260
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.350,
+            "phase" : 0.12790,
+            "speed" : 0.2750,
+            "spin" : 0.350,
+            "wobble" : 0.0
+         },
+         "heading" : -5.34770,
+         "height" : 1.20730,
+         "name" : "Floating Boulder 02",
+         "scaling" : 1.85330,
+         "x" : 3.38140,
+         "y" : 0.20730,
+         "z" : 1.50890
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.250,
+            "phase" : 0.12790,
+            "speed" : 0.250,
+            "spin" : 0.20,
+            "wobble" : 0.0
+         },
+         "heading" : -5.34770,
+         "height" : 1.32640,
+         "name" : "Floating Boulder 04",
+         "scaling" : 2.33330,
+         "x" : -2.61980,
+         "y" : 0.32640,
+         "z" : 1.07530
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.30,
+            "phase" : 0.12790,
+            "speed" : 0.250,
+            "spin" : 0.80,
+            "wobble" : 0.50
+         },
+         "heading" : -2.19220,
+         "height" : 1.08320,
+         "name" : "Floating Boulder Chunk 03",
+         "scaling" : 2.86720,
+         "x" : -0.17560,
+         "y" : 0.38320,
+         "z" : 4.40760
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.350,
+            "phase" : 0.12790,
+            "speed" : 0.2750,
+            "spin" : 0.350,
+            "wobble" : 0.0
+         },
+         "heading" : -5.34770,
+         "height" : 2.14570,
+         "name" : "Floating Boulder 02",
+         "scaling" : 3.25860,
+         "x" : 0.16210,
+         "y" : 1.14570,
+         "z" : 8.75930
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.20,
+            "phase" : 0.12790,
+            "speed" : 0.20,
+            "spin" : 0.10,
+            "wobble" : 0.30
+         },
+         "heading" : 0.62830,
+         "height" : 0.7430,
+         "name" : "Floating Boulder Chunk 02",
+         "scaling" : 2.26490,
+         "x" : -2.92470,
+         "y" : 0.7430,
+         "z" : 9.86670
+      },
+      {
+         "gameObject" : "Floater",
+         "gameObjectParams" : {
+            "bob" : 0.30,
+            "phase" : 0.50,
+            "speed" : 0.20,
+            "spin" : 0.50,
+            "wobble" : 0.50
+         },
+         "heading" : -6.93950,
+         "height" : 0.89330,
+         "name" : "Floating Boulder Chunk 03",
+         "scaling" : 3.83860,
+         "x" : -2.09250,
+         "y" : 0.89330,
+         "z" : 9.80790
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.08150,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 0.08670,
+         "y" : -0.11080,
+         "z" : -6.66970
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.07489999999999999,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -0.79520,
+         "y" : -0.12060,
+         "z" : -6.78630
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.22840,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -2.0960,
+         "y" : 0.05260,
+         "z" : -6.11380
+      },
+      {
+         "heading" : 0.52360,
+         "height" : 0.01550,
+         "name" : "Red Brick House Door 01",
+         "scaling" : 1.0,
+         "x" : 0.36020,
+         "y" : 0.61550,
+         "z" : 6.9070
+      },
+      {
+         "heading" : 5.2360,
+         "height" : 0.01550,
+         "name" : "Red Brick House Door 01",
+         "scaling" : 1.0,
+         "x" : 0.5520,
+         "y" : 0.61550,
+         "z" : 6.64020
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.5862000000000001,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.95450,
+         "y" : -0.13410,
+         "z" : -7.8040
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.52210,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 0.23710,
+         "y" : -0.05640,
+         "z" : -8.249499999999999
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.26070,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -0.93080,
+         "y" : -0.12080,
+         "z" : -8.60440
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.38820,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -2.09070,
+         "y" : 0.00020,
+         "z" : -8.309699999999999
+      },
+      {
+         "heading" : -1.1170,
+         "name" : "Well 01",
+         "scaling" : 1.0,
+         "x" : -1.6580,
+         "y" : -0.1920,
+         "z" : -3.56670
+      },
+      {
+         "heading" : -20.65770,
+         "name" : "Desert Rock Flat 05",
+         "scaling" : 0.40510,
+         "x" : -1.74290,
+         "y" : -0.18440,
+         "z" : -3.66590
+      },
+      {
+         "heading" : -21.91430,
+         "name" : "Desert Rock Flat 06",
+         "scaling" : 0.40510,
+         "x" : -1.77460,
+         "y" : -0.19140,
+         "z" : -3.54390
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.2820,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -0.59940,
+         "y" : -0.10620,
+         "z" : -3.88670
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.43230,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -1.43490,
+         "y" : -0.0380,
+         "z" : -5.04190
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.22190,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -2.14190,
+         "y" : 0.02120,
+         "z" : -2.79980
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8050,
+         "name" : "Mine Bridge 01 Segment",
+         "scaling" : 1.0,
+         "x" : -1.08660,
+         "y" : -0.1950,
+         "z" : -1.43680
+      },
+      {
+         "heading" : -2.03160,
+         "height" : 0.81520,
+         "name" : "Lamp Post 01",
+         "omniParams" : {
+            "col_blue" : 1.0,
+            "col_green" : 1.0,
+            "col_red" : 0.30,
+            "radius0" : 0.20,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -1.41890,
+         "y" : -0.18480,
+         "z" : -1.75370
+      },
+      {
+         "heading" : -2.03160,
+         "height" : 0.77410,
+         "name" : "Lamp Post 01",
+         "omniParams" : {
+            "col_blue" : 1.0,
+            "col_green" : 1.0,
+            "col_red" : 0.30,
+            "radius0" : 0.20,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -1.18630,
+         "y" : -0.22590,
+         "z" : -0.70710
+      },
+      {
+         "heading" : -4.98470,
+         "height" : -0.02470,
+         "name" : "Lamp Post 01",
+         "omniParams" : {
+            "col_blue" : 1.0,
+            "col_green" : 1.0,
+            "col_red" : 0.30,
+            "radius0" : 0.20,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -0.67640,
+         "y" : -0.22590,
+         "z" : -2.29240
+      },
+      {
+         "heading" : -4.98470,
+         "height" : 0.81510,
+         "name" : "Lamp Post 01",
+         "omniParams" : {
+            "col_blue" : 1.0,
+            "col_green" : 1.0,
+            "col_red" : 0.30,
+            "radius0" : 0.20,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -0.38990,
+         "y" : -0.18480,
+         "z" : -1.59150
+      },
+      {
+         "heading" : -4.98470,
+         "height" : -0.00720,
+         "name" : "Lamp Post 01",
+         "omniParams" : {
+            "col_blue" : 1.0,
+            "col_green" : 1.0,
+            "col_red" : 0.30,
+            "radius0" : 0.20,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -0.00640,
+         "y" : -0.22590,
+         "z" : -0.05160
+      },
+      {
+         "heading" : -2.03160,
+         "height" : 0.3440,
+         "name" : "Lamp Post 01",
+         "omniParams" : {
+            "col_blue" : 1.0,
+            "col_green" : 1.0,
+            "col_red" : 0.30,
+            "radius0" : 0.20,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : -0.94550,
+         "y" : -0.22580,
+         "z" : 0.20420
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.18330,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 1.09790,
+         "y" : -0.1980,
+         "z" : -4.8780
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.0990,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 0.33010,
+         "y" : 0.10140,
+         "z" : -4.03660
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.14450,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.60,
+            "col_red" : 2.0,
+            "radius0" : 0.20,
+            "radius1" : 0.30
+         },
+         "scaling" : 1.0,
+         "x" : -0.85450,
+         "y" : -0.0560,
+         "z" : 1.68950
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.11590,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.60,
+            "col_red" : 2.0,
+            "radius0" : 0.20,
+            "radius1" : 0.30
+         },
+         "scaling" : 1.0,
+         "x" : -2.74750,
+         "y" : 0.71510,
+         "z" : 6.2740
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.29510,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.60,
+            "col_red" : 2.0,
+            "radius0" : 0.20,
+            "radius1" : 0.30
+         },
+         "scaling" : 1.0,
+         "x" : 0.10060,
+         "y" : 0.09420000000000001,
+         "z" : 1.60160
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.14950,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.60,
+            "col_red" : 2.0,
+            "radius0" : 0.20,
+            "radius1" : 0.30
+         },
+         "scaling" : 1.0,
+         "x" : -0.32540,
+         "y" : -0.05120,
+         "z" : 1.5020
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.1190,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.60,
+            "col_red" : 2.0,
+            "radius0" : 0.20,
+            "radius1" : 0.30
+         },
+         "scaling" : 1.0,
+         "x" : -1.38150,
+         "y" : -0.0820,
+         "z" : 1.60240
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.1810,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.60,
+            "col_red" : 2.0,
+            "radius0" : 0.20,
+            "radius1" : 0.30
+         },
+         "scaling" : 1.0,
+         "x" : -3.86450,
+         "y" : 0.29560,
+         "z" : 5.05480
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.10710,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.60,
+            "col_red" : 2.0,
+            "radius0" : 0.20,
+            "radius1" : 0.30
+         },
+         "scaling" : 1.0,
+         "x" : -0.34030,
+         "y" : 0.70660,
+         "z" : 7.18710
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.12940,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.50,
+            "col_green" : 1.60,
+            "col_red" : 2.0,
+            "radius0" : 0.20,
+            "radius1" : 0.30
+         },
+         "scaling" : 1.0,
+         "x" : 0.5348000000000001,
+         "y" : 0.72940,
+         "z" : 6.66450
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : -0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.74880,
+         "y" : -0.20050,
+         "z" : 1.79750
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : 0.00010,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 1.25410,
+         "y" : -0.20010,
+         "z" : 1.01560
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00010,
+         "name" : "Haystack",
+         "scaling" : 1.0,
+         "x" : -0.84310,
+         "y" : -0.2020,
+         "z" : -3.07710
+      },
+      {
+         "heading" : -2.01070,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.46820,
+         "x" : -0.55240,
+         "y" : -0.39980,
+         "z" : -3.40970
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Autumn Grass Decal 03",
+         "scaling" : 0.78430,
+         "x" : -0.86070,
+         "y" : -0.2020,
+         "z" : -3.08710
+      },
+      {
+         "heading" : -0.24430,
+         "height" : 0.29090,
+         "name" : "Grey Brick Tower Snowy Top C 02",
+         "scaling" : 0.84350,
+         "x" : 2.1730,
+         "y" : -0.39160,
+         "z" : 2.76650
+      },
+      {
+         "heading" : -0.24430,
+         "height" : -0.03550,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.84350,
+         "x" : 2.1730,
+         "y" : -0.7180,
+         "z" : 2.76650
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.0,
+         "x" : 4.41290,
+         "y" : 0.28570,
+         "z" : 4.62870
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00540,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 4.53510,
+         "y" : 0.27480,
+         "z" : 4.5440
+      },
+      {
+         "heading" : -0.24430,
+         "height" : -0.19250,
+         "name" : "Grey Brick Tower Snowy Top C 02",
+         "scaling" : 0.84350,
+         "x" : 4.51120,
+         "y" : -0.41220,
+         "z" : 2.91920
+      },
+      {
+         "heading" : -0.24430,
+         "height" : -0.5197000000000001,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.84350,
+         "x" : 4.51120,
+         "y" : -0.7393999999999999,
+         "z" : 2.91920
+      },
+      {
+         "heading" : -0.24430,
+         "height" : -0.85090,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.84350,
+         "x" : 4.51120,
+         "y" : -1.07060,
+         "z" : 2.91920
+      },
+      {
+         "heading" : 0.85170,
+         "height" : 0.0,
+         "name" : "Fence 06",
+         "scaling" : 1.0,
+         "x" : -3.74970,
+         "y" : 0.5993000000000001,
+         "z" : 8.08630
+      },
+      {
+         "heading" : 0.85170,
+         "height" : 0.0,
+         "name" : "Fence 05",
+         "scaling" : 1.0,
+         "x" : -3.9410,
+         "y" : 0.5990,
+         "z" : 7.86940
+      },
+      {
+         "heading" : 1.65460,
+         "height" : 0.0,
+         "name" : "Fence 05",
+         "scaling" : 1.0,
+         "x" : -4.20110,
+         "y" : 0.59940,
+         "z" : 7.41970
+      },
+      {
+         "heading" : 0.85170,
+         "height" : 0.0,
+         "name" : "Wooden Gate 06",
+         "scaling" : 1.0,
+         "x" : -4.12170,
+         "y" : 0.59950,
+         "z" : 7.66170
+      },
+      {
+         "heading" : 0.85170,
+         "height" : 0.0,
+         "name" : "Gate Doors 01",
+         "scaling" : 1.0,
+         "x" : -4.12170,
+         "y" : 0.59950,
+         "z" : 7.66170
+      },
+      {
+         "heading" : 1.65460,
+         "name" : "Fence 05",
+         "scaling" : 1.0,
+         "x" : -4.18130,
+         "y" : 0.59480,
+         "z" : 7.13090
+      },
+      {
+         "heading" : 1.65460,
+         "height" : 0.01560,
+         "name" : "Fence 07",
+         "scaling" : 1.0,
+         "x" : -4.15570,
+         "y" : 0.59520,
+         "z" : 6.84230
+      },
+      {
+         "heading" : 2.32480,
+         "height" : 0.0,
+         "name" : "Autumn Tree 01",
+         "scaling" : 1.52450,
+         "x" : -4.45060,
+         "y" : 0.59990,
+         "z" : 7.61160
+      },
+      {
+         "heading" : -1.54980,
+         "height" : -0.05340,
+         "name" : "Fence 09",
+         "scaling" : 1.0,
+         "x" : -4.15080,
+         "y" : 0.49270,
+         "z" : 6.57940
+      },
+      {
+         "heading" : 2.32480,
+         "height" : -0.05190,
+         "name" : "Autumn Tree 02",
+         "scaling" : 1.51750,
+         "x" : -4.27680,
+         "y" : 0.52510,
+         "z" : 6.63460
+      },
+      {
+         "heading" : 2.54120,
+         "name" : "Autumn Tree 04",
+         "scaling" : 1.51750,
+         "x" : -2.6730,
+         "y" : 0.59680,
+         "z" : 6.08340
+      },
+      {
+         "heading" : -0.06279999999999999,
+         "height" : 0.0,
+         "name" : "Autumn Tree 04",
+         "scaling" : 1.35180,
+         "x" : -1.17350,
+         "y" : -0.20140,
+         "z" : 1.61660
+      },
+      {
+         "heading" : -0.02090,
+         "height" : -0.04920,
+         "name" : "Grey Brick Tower Snowy Top C 01",
+         "scaling" : 0.79830,
+         "x" : -1.97310,
+         "y" : 0.14160,
+         "z" : 5.29280
+      },
+      {
+         "heading" : -1.4940,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.52450,
+         "x" : -3.40310,
+         "y" : 0.21030,
+         "z" : 5.43530
+      },
+      {
+         "heading" : 0.04190,
+         "height" : -0.00010,
+         "name" : "Autumn Tree 04",
+         "scaling" : 1.52450,
+         "x" : -4.05610,
+         "y" : 0.43130,
+         "z" : 5.550
+      },
+      {
+         "heading" : -0.24440,
+         "height" : 0.0,
+         "name" : "Fence 05",
+         "scaling" : 1.0,
+         "x" : 0.13750,
+         "y" : 0.60,
+         "z" : 6.61290
+      },
+      {
+         "heading" : -0.24440,
+         "height" : -0.0,
+         "name" : "Fence 06",
+         "scaling" : 1.0,
+         "x" : 0.43360,
+         "y" : 0.59990,
+         "z" : 6.53910
+      },
+      {
+         "heading" : 3.04390,
+         "name" : "Autumn Tree 02",
+         "scaling" : 1.82640,
+         "x" : 0.34050,
+         "y" : 0.60,
+         "z" : 6.73880
+      },
+      {
+         "heading" : 0.09080000000000001,
+         "height" : 0.0,
+         "name" : "Graveyard Crypt 01",
+         "scaling" : 1.0,
+         "x" : -1.98170,
+         "y" : 0.59970,
+         "z" : 8.95410
+      },
+      {
+         "heading" : 0.09080000000000001,
+         "name" : "Graveyard Mausoleum 01",
+         "scaling" : 1.0,
+         "x" : -2.56350,
+         "y" : 0.59980,
+         "z" : 8.85740
+      },
+      {
+         "heading" : 1.21470,
+         "height" : -0.0,
+         "name" : "Graveyard Crypt 01",
+         "scaling" : 1.0,
+         "x" : -3.06040,
+         "y" : 0.59990,
+         "z" : 8.155900000000001
+      },
+      {
+         "heading" : 1.92690,
+         "height" : -0.00720,
+         "name" : "Dead Tree 04",
+         "scaling" : 1.56350,
+         "x" : -2.78430,
+         "y" : 0.59260,
+         "z" : 8.766400000000001
+      },
+      {
+         "heading" : 0.09080000000000001,
+         "height" : -0.0,
+         "name" : "Graveyard Sarcophagus 04",
+         "scaling" : 1.0,
+         "x" : -2.1680,
+         "y" : 0.59980,
+         "z" : 8.897600000000001
+      },
+      {
+         "heading" : 0.09080000000000001,
+         "height" : -0.0,
+         "name" : "Graveyard Sarcophagus 03",
+         "scaling" : 1.0,
+         "x" : -2.28460,
+         "y" : 0.59960,
+         "z" : 8.819000000000001
+      },
+      {
+         "heading" : -3.27420,
+         "height" : -0.0,
+         "name" : "Graveyard Sarcophagus 02",
+         "scaling" : 1.0,
+         "x" : -2.79820,
+         "y" : 0.5993000000000001,
+         "z" : 8.495100000000001
+      },
+      {
+         "heading" : -2.88330,
+         "height" : 0.0,
+         "name" : "Graveyard Sarcophagus 01",
+         "scaling" : 1.0,
+         "x" : -1.77250,
+         "y" : 0.59990,
+         "z" : 8.91990
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : -0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -3.13910,
+         "y" : 0.18230,
+         "z" : 3.03390
+      },
+      {
+         "heading" : -3.90260,
+         "height" : 0.010,
+         "name" : "Cobblestone Desert Border Decal 01",
+         "scaling" : 0.58440,
+         "x" : 3.45860,
+         "y" : 0.14110,
+         "z" : 4.15480
+      },
+      {
+         "heading" : -3.33710,
+         "height" : 0.010,
+         "name" : "Cobblestone Desert Border Decal 02",
+         "scaling" : 0.58440,
+         "x" : 3.54470,
+         "y" : 0.160,
+         "z" : 4.31420
+      },
+      {
+         "heading" : -5.89920,
+         "height" : 0.010,
+         "name" : "Cobblestone Desert Border Decal 02",
+         "scaling" : 0.58440,
+         "x" : 3.54160,
+         "y" : 0.17690,
+         "z" : 4.4610
+      },
+      {
+         "heading" : -5.29190,
+         "height" : 0.010,
+         "name" : "Cobblestone Desert Border Decal 03",
+         "scaling" : 0.58440,
+         "x" : 3.43280,
+         "y" : 0.17640,
+         "z" : 4.610
+      },
+      {
+         "heading" : -4.94980,
+         "height" : 0.010,
+         "name" : "Cobblestone Desert Border Decal 02",
+         "scaling" : 0.58440,
+         "x" : 3.26180,
+         "y" : 0.17360,
+         "z" : 4.70550
+      },
+      {
+         "heading" : -4.02120,
+         "height" : 0.010,
+         "name" : "Cobblestone Desert Border Decal 02",
+         "scaling" : 0.58440,
+         "x" : 2.82280,
+         "y" : 0.18010,
+         "z" : 4.66590
+      },
+      {
+         "heading" : -3.3720,
+         "height" : 0.010,
+         "name" : "Cobblestone Desert Border Decal 01",
+         "scaling" : 0.58440,
+         "x" : 2.73520,
+         "y" : 0.18020,
+         "z" : 4.51730
+      },
+      {
+         "heading" : -2.01760,
+         "height" : 0.010,
+         "name" : "Cobblestone Desert Border Decal 02",
+         "scaling" : 0.58440,
+         "x" : 2.88230,
+         "y" : 0.13270,
+         "z" : 3.96120
+      },
+      {
+         "heading" : -4.66350,
+         "height" : 0.010,
+         "name" : "Cobblestone Desert Border Decal 02",
+         "scaling" : 0.58440,
+         "x" : 3.04780,
+         "y" : 0.12140,
+         "z" : 3.92890
+      },
+      {
+         "heading" : -2.53420,
+         "height" : 0.010,
+         "name" : "Cobblestone Desert Border Decal 02",
+         "scaling" : 0.58440,
+         "x" : 2.75950,
+         "y" : 0.15320,
+         "z" : 4.0640
+      },
+      {
+         "heading" : 5.04050,
+         "name" : "Autumn Tree 04",
+         "scaling" : 1.08080,
+         "x" : 3.14510,
+         "y" : 0.18260,
+         "z" : 5.39890
+      },
+      {
+         "heading" : -2.28990,
+         "height" : -0.0,
+         "name" : "Well 01",
+         "scaling" : 1.0,
+         "x" : -1.81120,
+         "y" : 0.18220,
+         "z" : 4.94740
+      },
+      {
+         "heading" : -1.63360,
+         "name" : "Square Brick Column 01",
+         "scaling" : 1.77820,
+         "x" : 3.01450,
+         "y" : 0.12390,
+         "z" : 3.94870
+      },
+      {
+         "heading" : -1.93380,
+         "name" : "Square Brick Column 01",
+         "scaling" : 1.66110,
+         "x" : 2.71650,
+         "y" : 0.17890,
+         "z" : 4.44030
+      },
+      {
+         "heading" : -1.93380,
+         "name" : "Square Brick Column 03",
+         "scaling" : 1.8230,
+         "x" : 3.28930,
+         "y" : 0.17380,
+         "z" : 4.70190
+      },
+      {
+         "heading" : -2.38060,
+         "name" : "Square Brick Column 02",
+         "scaling" : 1.66190,
+         "x" : 2.8430,
+         "y" : 0.17990,
+         "z" : 4.6730
+      },
+      {
+         "heading" : -2.39460,
+         "height" : 0.0,
+         "name" : "Square Brick Column 02",
+         "scaling" : 1.75140,
+         "x" : 2.79060,
+         "y" : 0.14640,
+         "z" : 4.0140
+      },
+      {
+         "heading" : -2.45740,
+         "name" : "Square Brick Column 01",
+         "scaling" : 1.78630,
+         "x" : 3.50550,
+         "y" : 0.1790,
+         "z" : 4.53920
+      },
+      {
+         "heading" : 2.54820,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 3.4080,
+         "y" : 0.17070,
+         "z" : 4.52110
+      },
+      {
+         "heading" : 2.54820,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 3.28540,
+         "y" : 0.16550,
+         "z" : 4.60380
+      },
+      {
+         "heading" : 2.54820,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 3.32630,
+         "y" : 0.16620,
+         "z" : 4.57620
+      },
+      {
+         "heading" : 2.54820,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 3.36720,
+         "y" : 0.16820,
+         "z" : 4.54860
+      },
+      {
+         "heading" : 4.37730,
+         "height" : -0.00560,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 2.80310,
+         "y" : 0.16850,
+         "z" : 4.4130
+      },
+      {
+         "heading" : 4.37730,
+         "height" : -0.00660,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 2.81940,
+         "y" : 0.16850,
+         "z" : 4.45960
+      },
+      {
+         "heading" : 4.37730,
+         "height" : -0.00760,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 2.83560,
+         "y" : 0.16820,
+         "z" : 4.50610
+      },
+      {
+         "heading" : 4.37730,
+         "height" : -0.00860,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 2.85180,
+         "y" : 0.16830,
+         "z" : 4.55270
+      },
+      {
+         "heading" : 0.81680,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 3.36440,
+         "y" : 0.13940,
+         "z" : 4.1630
+      },
+      {
+         "heading" : 0.81680,
+         "height" : -0.0010,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 3.39820,
+         "y" : 0.13930,
+         "z" : 4.19890
+      },
+      {
+         "heading" : 0.81680,
+         "height" : -0.00370,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 3.43190,
+         "y" : 0.13960,
+         "z" : 4.23490
+      },
+      {
+         "heading" : 0.81680,
+         "height" : -0.008500000000000001,
+         "name" : "Chair 03",
+         "scaling" : 1.0,
+         "x" : 3.46570,
+         "y" : 0.13990,
+         "z" : 4.27080
+      },
+      {
+         "heading" : 7.53980,
+         "height" : -0.01670,
+         "name" : "Brick Wall 05",
+         "scaling" : 1.0,
+         "x" : 2.12370,
+         "y" : 0.16560,
+         "z" : 4.54070
+      },
+      {
+         "heading" : 7.53980,
+         "height" : 0.01780,
+         "name" : "Brick Wall 02",
+         "scaling" : 1.0,
+         "x" : 2.36510,
+         "y" : 0.35340,
+         "z" : 5.28370
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.0,
+         "x" : 2.70460,
+         "y" : 0.17820,
+         "z" : 4.40160
+      },
+      {
+         "heading" : -2.52030,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.0,
+         "x" : 3.51780,
+         "y" : 0.17820,
+         "z" : 4.50030
+      },
+      {
+         "heading" : -2.52030,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.0,
+         "x" : 3.56290,
+         "y" : 0.15280,
+         "z" : 4.25180
+      },
+      {
+         "heading" : -2.52030,
+         "height" : -0.0,
+         "name" : "Jungle Plant 1 2",
+         "scaling" : 1.0,
+         "x" : 3.00320,
+         "y" : 0.1180,
+         "z" : 3.89130
+      },
+      {
+         "heading" : 0.90060,
+         "name" : "Cart 01",
+         "scaling" : 1.0,
+         "x" : 1.35110,
+         "y" : 0.18260,
+         "z" : 4.81140
+      },
+      {
+         "heading" : -1.22170,
+         "height" : -0.0,
+         "name" : "Cart 01",
+         "scaling" : 1.0,
+         "x" : -2.94140,
+         "y" : 0.1820,
+         "z" : 2.56090
+      },
+      {
+         "heading" : 0.27930,
+         "height" : 0.66150,
+         "name" : "Cart 02",
+         "scaling" : 1.0,
+         "x" : -3.48850,
+         "y" : 0.5970,
+         "z" : 8.20870
+      },
+      {
+         "heading" : 0.27930,
+         "height" : -0.0,
+         "name" : "Cart Wheel 01",
+         "scaling" : 1.0,
+         "x" : -4.02190,
+         "y" : 0.5993000000000001,
+         "z" : 8.01430
+      },
+      {
+         "heading" : -1.21470,
+         "name" : "Cart Wheel 02",
+         "scaling" : 1.0,
+         "x" : -3.95050,
+         "y" : 0.59940,
+         "z" : 8.09230
+      },
+      {
+         "heading" : -1.29850,
+         "height" : 0.78390,
+         "name" : "Grey Brick Tower Snowy Top Hatch 01",
+         "scaling" : 0.83560,
+         "x" : 0.53430,
+         "y" : 0.22030,
+         "z" : 3.93730
+      },
+      {
+         "heading" : 0.67020,
+         "height" : 0.60670,
+         "name" : "Grey Brick Tower Snowy Top Hatch 01",
+         "scaling" : 0.83560,
+         "x" : -0.8139999999999999,
+         "y" : -0.06670,
+         "z" : 3.93440
+      },
+      {
+         "heading" : -0.80280,
+         "height" : 0.30250,
+         "name" : "Grey Brick Tower Snowy Top Hatch 01",
+         "scaling" : 0.83560,
+         "x" : 1.23060,
+         "y" : 0.48510,
+         "z" : 5.32420
+      },
+      {
+         "heading" : 2.58310,
+         "height" : 0.27860,
+         "name" : "Grey Brick Tower Snowy Top Hatch 01",
+         "scaling" : 0.83560,
+         "x" : 2.81560,
+         "y" : 0.46120,
+         "z" : 5.69820
+      },
+      {
+         "heading" : 1.54990,
+         "height" : -0.04920,
+         "name" : "Grey Brick Tower Snowy Top Hatch 01",
+         "scaling" : 0.79830,
+         "x" : -1.97310,
+         "y" : 0.14160,
+         "z" : 5.29280
+      },
+      {
+         "heading" : -0.48860,
+         "height" : -0.28170,
+         "name" : "Grey Brick Tower Snowy Top Hatch 01",
+         "scaling" : 0.83560,
+         "x" : -2.27150,
+         "y" : 0.3180,
+         "z" : 5.84390
+      },
+      {
+         "heading" : 0.90060,
+         "height" : 0.01090,
+         "name" : "Cart 02",
+         "scaling" : 1.0,
+         "x" : 1.39450,
+         "y" : 0.62310,
+         "z" : 7.20680
+      },
+      {
+         "heading" : 2.79950,
+         "height" : 0.0,
+         "name" : "Cart 01",
+         "scaling" : 1.0,
+         "x" : 0.14530,
+         "y" : 0.60,
+         "z" : 6.48340
+      },
+      {
+         "heading" : 3.58140,
+         "name" : "Autumn Tree 01",
+         "scaling" : 1.39890,
+         "x" : 2.20110,
+         "y" : 0.3040,
+         "z" : 5.33940
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Barrel 01",
+         "scaling" : 1.0,
+         "x" : -0.89940,
+         "y" : 0.59960,
+         "z" : 8.37810
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Barrel 01",
+         "scaling" : 1.0,
+         "x" : -0.9780,
+         "y" : 0.59970,
+         "z" : 8.431900000000001
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Barrel 03",
+         "scaling" : 1.0,
+         "x" : -0.9530999999999999,
+         "y" : 0.59970,
+         "z" : 8.342499999999999
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Barrel 04",
+         "scaling" : 1.0,
+         "x" : -0.87670,
+         "y" : 0.59970,
+         "z" : 8.2980
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Barrel 04",
+         "scaling" : 1.0,
+         "x" : -1.22250,
+         "y" : 0.59990,
+         "z" : 8.658799999999999
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Barrel 05",
+         "scaling" : 1.0,
+         "x" : -1.30070,
+         "y" : 0.59990,
+         "z" : 8.697800000000001
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : -1.29180,
+         "y" : 0.59980,
+         "z" : 8.597200000000001
+      },
+      {
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Barrel 10",
+         "scaling" : 1.0,
+         "x" : -0.71650,
+         "y" : 0.59940,
+         "z" : 7.94670
+      },
+      {
+         "heading" : -0.80980,
+         "height" : 0.0,
+         "name" : "Crate 01",
+         "scaling" : 1.0,
+         "x" : -0.64790,
+         "y" : 0.5983000000000001,
+         "z" : 7.85590
+      },
+      {
+         "heading" : -0.40490,
+         "height" : -0.0,
+         "name" : "Crate 01",
+         "scaling" : 1.40640,
+         "x" : 0.55930,
+         "y" : 0.59910,
+         "z" : 6.42250
+      },
+      {
+         "heading" : -1.38930,
+         "name" : "Crate 01",
+         "scaling" : 1.8360,
+         "x" : -0.80110,
+         "y" : 0.59940,
+         "z" : 8.021699999999999
+      },
+      {
+         "heading" : -1.26360,
+         "height" : -0.0,
+         "name" : "Crate 01",
+         "scaling" : 1.40640,
+         "x" : 0.46740,
+         "y" : 0.5990,
+         "z" : 6.36430
+      },
+      {
+         "heading" : -2.46440,
+         "height" : -0.0,
+         "name" : "Crate 04",
+         "scaling" : 1.40640,
+         "x" : -0.09950000000000001,
+         "y" : 0.59970,
+         "z" : 6.54710
+      },
+      {
+         "heading" : 1.57080,
+         "height" : 0.29090,
+         "name" : "Grey Brick Tower Snowy Top Hatch 01",
+         "scaling" : 0.84350,
+         "x" : 2.1730,
+         "y" : -0.39160,
+         "z" : 2.76650
+      },
+      {
+         "heading" : -0.52360,
+         "height" : 0.10960,
+         "name" : "Grey Brick Tower Snowy Small 01",
+         "scaling" : 0.83560,
+         "x" : 2.36090,
+         "y" : -0.09020,
+         "z" : 3.17770
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.19540,
+         "name" : "Grey Brick Tower Snowy Base 03",
+         "scaling" : 0.83560,
+         "x" : 2.36090,
+         "y" : -0.39520,
+         "z" : 3.17770
+      },
+      {
+         "heading" : -0.41890,
+         "height" : 0.00010,
+         "name" : "Crate 01",
+         "scaling" : 1.40640,
+         "x" : 1.620,
+         "y" : 0.65160,
+         "z" : 7.2210
+      },
+      {
+         "heading" : -0.41890,
+         "height" : 0.06480,
+         "name" : "Crate 01",
+         "scaling" : 1.40640,
+         "x" : 1.38380,
+         "y" : 0.24750,
+         "z" : 4.84730
+      },
+      {
+         "heading" : -1.17980,
+         "height" : 0.0,
+         "name" : "Crate 01",
+         "scaling" : 1.51670,
+         "x" : 1.49670,
+         "y" : 0.18230,
+         "z" : 4.74110
+      },
+      {
+         "heading" : -0.78890,
+         "height" : -0.0,
+         "name" : "Crate 01",
+         "scaling" : 1.51670,
+         "x" : 1.06540,
+         "y" : 0.18220,
+         "z" : 4.55820
+      },
+      {
+         "heading" : -1.1380,
+         "height" : -0.0,
+         "name" : "Crate 01",
+         "scaling" : 1.51670,
+         "x" : 0.9913999999999999,
+         "y" : 0.18180,
+         "z" : 4.50230
+      },
+      {
+         "heading" : -1.1380,
+         "height" : 0.06940,
+         "name" : "Crate 01",
+         "scaling" : 1.51670,
+         "x" : 1.0360,
+         "y" : 0.25110,
+         "z" : 4.54250
+      },
+      {
+         "heading" : -0.04190,
+         "height" : -0.00580,
+         "name" : "Cart 02",
+         "scaling" : 1.0,
+         "x" : 1.90640,
+         "y" : 0.17640,
+         "z" : 4.59430
+      },
+      {
+         "heading" : 0.0,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.0,
+         "x" : 3.47040,
+         "y" : 0.18340,
+         "z" : 5.36870
+      },
+      {
+         "heading" : -1.68250,
+         "height" : 0.24990,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.0,
+         "x" : 3.48650,
+         "y" : 0.43370,
+         "z" : 5.37380
+      },
+      {
+         "heading" : -2.35270,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.0,
+         "x" : 3.57880,
+         "y" : 0.19770,
+         "z" : 5.36850
+      },
+      {
+         "heading" : -3.86770,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.0,
+         "x" : 3.44840,
+         "y" : 0.18340,
+         "z" : 5.35180
+      },
+      {
+         "heading" : -5.57110,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.0,
+         "x" : 2.68270,
+         "y" : 0.24280,
+         "z" : 5.37040
+      },
+      {
+         "heading" : -10.35330,
+         "height" : 0.23760,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.0,
+         "x" : 2.70490,
+         "y" : 0.46440,
+         "z" : 5.36090
+      },
+      {
+         "heading" : -3.31610,
+         "height" : -0.00010,
+         "name" : "Jungle Plant 1 3",
+         "scaling" : 1.0,
+         "x" : 2.56850,
+         "y" : 0.2940,
+         "z" : 5.38730
+      },
+      {
+         "heading" : -2.93220,
+         "name" : "Jungle Plant 1 4",
+         "scaling" : 1.0,
+         "x" : 2.96610,
+         "y" : 0.18260,
+         "z" : 5.33680
+      },
+      {
+         "heading" : -0.3630,
+         "height" : 0.0,
+         "name" : "Sack Sealed 05",
+         "scaling" : 1.0,
+         "x" : 0.6120,
+         "y" : -0.20030,
+         "z" : 1.84930
+      },
+      {
+         "heading" : -0.3630,
+         "height" : -0.0,
+         "name" : "Sack Sealed 04",
+         "scaling" : 1.0,
+         "x" : 0.51440,
+         "y" : -0.20020,
+         "z" : 1.87940
+      },
+      {
+         "heading" : -1.36830,
+         "height" : 0.0,
+         "name" : "Sack Sealed 03",
+         "scaling" : 1.0,
+         "x" : 0.31170,
+         "y" : -0.20010,
+         "z" : 1.8940
+      },
+      {
+         "heading" : 0.44680,
+         "height" : 0.0,
+         "name" : "Fence 07",
+         "scaling" : 1.0,
+         "x" : -0.47830,
+         "y" : -0.20160,
+         "z" : 1.22040
+      },
+      {
+         "heading" : -0.03490,
+         "height" : -0.00280,
+         "name" : "Fence 06",
+         "scaling" : 1.0,
+         "x" : -0.94010,
+         "y" : -0.20410,
+         "z" : 1.14590
+      },
+      {
+         "heading" : -2.2270,
+         "height" : 0.55720,
+         "name" : "Sack Sealed 05",
+         "scaling" : 1.0,
+         "x" : -1.02410,
+         "y" : -0.20070,
+         "z" : 0.1570
+      },
+      {
+         "heading" : -3.29520,
+         "height" : 0.80180,
+         "name" : "Sack Sealed 03",
+         "scaling" : 1.0,
+         "x" : -1.06140,
+         "y" : -0.19810,
+         "z" : -0.03850
+      },
+      {
+         "heading" : -3.44880,
+         "height" : 0.79150,
+         "name" : "Sack Tied 01",
+         "scaling" : 1.0,
+         "x" : -0.21890,
+         "y" : -0.20850,
+         "z" : -0.68430
+      },
+      {
+         "heading" : -6.54850,
+         "height" : 0.0220,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : -0.24320,
+         "y" : -0.19860,
+         "z" : 0.0130
+      },
+      {
+         "heading" : -6.54850,
+         "height" : 0.02020,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : -0.31050,
+         "y" : -0.19850,
+         "z" : 0.03130
+      },
+      {
+         "heading" : -6.54850,
+         "height" : 0.01970,
+         "name" : "Barrel 10",
+         "scaling" : 1.0,
+         "x" : -0.17590,
+         "y" : -0.19850,
+         "z" : -0.00530
+      },
+      {
+         "heading" : -6.54850,
+         "height" : 0.02050,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : -0.10870,
+         "y" : -0.19860,
+         "z" : -0.02360
+      },
+      {
+         "heading" : -6.54850,
+         "height" : 0.07130,
+         "name" : "Barrel 10",
+         "scaling" : 1.0,
+         "x" : -0.14510,
+         "y" : -0.14930,
+         "z" : -0.01860
+      },
+      {
+         "heading" : -6.54850,
+         "height" : 0.07270,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : -0.21240,
+         "y" : -0.14940,
+         "z" : -0.00030
+      },
+      {
+         "heading" : -6.54850,
+         "height" : 0.07240000000000001,
+         "name" : "Barrel 10",
+         "scaling" : 1.0,
+         "x" : -0.27960,
+         "y" : -0.14940,
+         "z" : 0.0180
+      },
+      {
+         "heading" : -6.54850,
+         "height" : 0.12890,
+         "name" : "Barrel 09",
+         "scaling" : 1.0,
+         "x" : -0.24540,
+         "y" : -0.09640,
+         "z" : 0.00230
+      },
+      {
+         "heading" : -3.44880,
+         "height" : 0.79150,
+         "name" : "Sack Tied 04",
+         "scaling" : 1.0,
+         "x" : -1.11750,
+         "y" : -0.20850,
+         "z" : -0.69740
+      },
+      {
+         "heading" : -3.44880,
+         "height" : 0.08260000000000001,
+         "name" : "Sack Tied 03",
+         "scaling" : 1.0,
+         "x" : -0.82570,
+         "y" : -0.20840,
+         "z" : 0.22230
+      },
+      {
+         "heading" : 9.480600000000001,
+         "height" : -0.00220,
+         "name" : "Dead Tree 01",
+         "scaling" : 1.08080,
+         "x" : 3.98040,
+         "y" : -0.16540,
+         "z" : 2.5890
+      },
+      {
+         "heading" : 7.51890,
+         "height" : 0.02160,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.08080,
+         "x" : 3.82020,
+         "y" : -0.12690,
+         "z" : 2.65290
+      },
+      {
+         "heading" : 0.48870,
+         "height" : 0.06920,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.83560,
+         "x" : 4.41520,
+         "y" : -0.0820,
+         "z" : 3.18120
+      },
+      {
+         "heading" : 0.04190,
+         "height" : -0.36720,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.84350,
+         "x" : 4.51120,
+         "y" : -0.58690,
+         "z" : 2.91920
+      },
+      {
+         "heading" : 0.04890,
+         "height" : -0.15390,
+         "name" : "Grey Brick Tower Snowy Segment 02",
+         "scaling" : 0.83560,
+         "x" : 4.41520,
+         "y" : -0.30510,
+         "z" : 3.18120
+      },
+      {
+         "heading" : -0.62830,
+         "height" : 0.18090,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.84350,
+         "x" : 2.1730,
+         "y" : -0.50160,
+         "z" : 2.76650
+      },
+      {
+         "heading" : -6.27620,
+         "height" : 0.15170,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.83560,
+         "x" : 1.23060,
+         "y" : 0.33430,
+         "z" : 5.32420
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.01370,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.83560,
+         "x" : -1.64290,
+         "y" : 0.11220,
+         "z" : 6.06070
+      },
+      {
+         "heading" : -0.13960,
+         "height" : -0.52160,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.83560,
+         "x" : -1.64290,
+         "y" : -0.42310,
+         "z" : 6.06070
+      },
+      {
+         "heading" : -0.62140,
+         "height" : 0.27520,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.83560,
+         "x" : -1.39980,
+         "y" : 0.87520,
+         "z" : 9.04790
+      },
+      {
+         "heading" : -0.12560,
+         "height" : 0.24310,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.83560,
+         "x" : -0.8552999999999999,
+         "y" : 0.84310,
+         "z" : 8.77190
+      },
+      {
+         "heading" : -0.84470,
+         "height" : 0.29840,
+         "name" : "Grey Brick Tower Snowy Top A 01",
+         "scaling" : 0.83560,
+         "x" : -0.85190,
+         "y" : 0.89840,
+         "z" : 8.765700000000001
+      },
+      {
+         "heading" : -0.84470,
+         "name" : "Grey Brick Tower Snowy Base 01",
+         "scaling" : 0.83560,
+         "x" : -0.85190,
+         "y" : 0.60,
+         "z" : 8.765700000000001
+      },
+      {
+         "heading" : 0.48170,
+         "height" : -0.0650,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.83560,
+         "x" : 1.75590,
+         "y" : 0.75320,
+         "z" : 7.66290
+      },
+      {
+         "heading" : -0.64220,
+         "height" : 0.16410,
+         "name" : "Grey Brick Tower Snowy Window 01",
+         "scaling" : 0.83560,
+         "x" : 1.75590,
+         "y" : 0.98230,
+         "z" : 7.66290
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.00380,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : 3.84910,
+         "y" : -0.13690,
+         "z" : 2.68410
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.06279999999999999,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 2.0
+         },
+         "scaling" : 1.16860,
+         "x" : 3.87120,
+         "y" : -0.08119999999999999,
+         "z" : 2.66880
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : 0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 3.12650,
+         "y" : 0.14660,
+         "z" : 4.34110
+      },
+      {
+         "heading" : -3.0020,
+         "height" : -0.0,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.52450,
+         "x" : -2.3110,
+         "y" : 0.20970,
+         "z" : 5.44430
+      },
+      {
+         "heading" : -0.77490,
+         "height" : -0.00010,
+         "name" : "Crate 02",
+         "scaling" : 1.66650,
+         "x" : 1.75750,
+         "y" : 0.65260,
+         "z" : 7.23820
+      },
+      {
+         "heading" : -0.77490,
+         "height" : 0.0,
+         "name" : "Barrel 09",
+         "scaling" : 1.31560,
+         "x" : 1.89520,
+         "y" : 0.63010,
+         "z" : 7.23610
+      },
+      {
+         "heading" : -1.65460,
+         "height" : 0.6536999999999999,
+         "name" : "Grey Brick Tower Snowy Top Hatch 01",
+         "scaling" : 0.83560,
+         "x" : -3.88710,
+         "y" : -0.04630,
+         "z" : 8.862399999999999
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.5348000000000001,
+         "y" : -0.20120,
+         "z" : -7.34920
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.16980,
+         "y" : -0.20240,
+         "z" : -7.24350
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.80080,
+         "y" : -0.1810,
+         "z" : -7.06630
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0030,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.69580,
+         "y" : -0.20420,
+         "z" : -6.54320
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.59520,
+         "y" : -0.17720,
+         "z" : -5.62890
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.80570,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.66980,
+         "y" : -0.19430,
+         "z" : -1.80630
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.80570,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.12850,
+         "y" : -0.19430,
+         "z" : -1.39270
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.80580,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.5750999999999999,
+         "y" : -0.19420,
+         "z" : -1.10170
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.80580,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.73750,
+         "y" : -0.19420,
+         "z" : -0.49780
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.54480,
+         "y" : -0.20080,
+         "z" : 1.33970
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.06070,
+         "name" : "Stone Wall Gate 01 Open",
+         "scaling" : 1.41140,
+         "x" : -1.0450,
+         "y" : -0.220,
+         "z" : -2.22590
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.00150,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.05370,
+         "y" : -0.15840,
+         "z" : -6.01310
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.25440,
+         "y" : -0.16980,
+         "z" : -5.21960
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.33450,
+         "y" : -0.19020,
+         "z" : -3.60020
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.13040,
+         "y" : -0.20140,
+         "z" : 1.42840
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.89460,
+         "y" : -0.20090,
+         "z" : 1.34710
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.00020,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.40150,
+         "y" : -0.20050,
+         "z" : 2.04070
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.00040,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.1660,
+         "y" : -0.19480,
+         "z" : 2.35290
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.04160,
+         "y" : -0.12950,
+         "z" : 2.9760
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.00010,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.48550,
+         "y" : -0.00370,
+         "z" : 3.52410
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.91490,
+         "y" : 0.18240,
+         "z" : 4.98330
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 2.4130,
+         "y" : 0.17860,
+         "z" : 3.96490
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.50180,
+         "y" : 0.18170,
+         "z" : 4.33750
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.4680,
+         "y" : 0.18150,
+         "z" : 2.7520
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.40910,
+         "y" : 0.18180,
+         "z" : 2.43650
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.40590,
+         "y" : 0.18110,
+         "z" : 2.24650
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.02740,
+         "y" : 0.18120,
+         "z" : 2.78670
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.82270,
+         "y" : 0.18170,
+         "z" : 3.19210
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.8250,
+         "y" : 0.18170,
+         "z" : 3.92640
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.9530,
+         "y" : 0.18180,
+         "z" : 4.6360
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.00080,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.77540,
+         "y" : 0.1950,
+         "z" : 5.11530
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.00230,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -3.05530,
+         "y" : 0.3040,
+         "z" : 5.870
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -3.63610,
+         "y" : 0.46380,
+         "z" : 6.41880
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -3.75250,
+         "y" : 0.58890,
+         "z" : 7.1950
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.6550,
+         "y" : 0.59950,
+         "z" : 7.00490
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.64090,
+         "y" : 0.59920,
+         "z" : 8.17440
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.01610,
+         "y" : 0.59880,
+         "z" : 7.73530
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.71590,
+         "y" : 0.5990,
+         "z" : 6.89390
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.9730,
+         "y" : 0.5990,
+         "z" : 6.29350
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -0.22890,
+         "y" : 0.59980,
+         "z" : 6.21470
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 0.39270,
+         "y" : 0.5993000000000001,
+         "z" : 5.920
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 1.11290,
+         "y" : 0.59940,
+         "z" : 6.15460
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : 0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 1.58690,
+         "y" : 0.18250,
+         "z" : 4.69830
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : -0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -4.11560,
+         "y" : 0.52690,
+         "z" : 6.40320
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : 0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -1.19390,
+         "y" : 0.59980,
+         "z" : 8.57070
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : -0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 1.20730,
+         "y" : 0.60,
+         "z" : 7.12560
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : 0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 2.20520,
+         "y" : 0.60360,
+         "z" : 7.11690
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : 0.11750,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.20,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 2.03260,
+         "y" : 0.57530,
+         "z" : 5.63650
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : -0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -1.95110,
+         "y" : 0.18290,
+         "z" : 4.96080
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : 0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 0.01530,
+         "y" : 0.18260,
+         "z" : 3.3390
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : 0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : 1.20210,
+         "y" : 0.17620,
+         "z" : 3.26050
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01690,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.34370,
+         "y" : -0.18490,
+         "z" : -2.42780
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01780,
+         "name" : "blocker",
+         "scaling" : 1.58180,
+         "x" : -1.59630,
+         "y" : -0.18480,
+         "z" : -2.24310
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01690,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.48480,
+         "y" : -0.18480,
+         "z" : -2.38840
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.99810,
+         "x" : -1.4470,
+         "y" : -0.18480,
+         "z" : -1.98070
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.88520,
+         "y" : -0.18480,
+         "z" : -2.55580
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.70880,
+         "y" : -0.18480,
+         "z" : -2.6050
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.5439000000000001,
+         "y" : -0.18480,
+         "z" : -2.4230
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.10080,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.48480,
+         "y" : -0.18490,
+         "z" : -2.21130
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81280,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.42570,
+         "y" : -0.18480,
+         "z" : -1.99970
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.37650,
+         "y" : -0.18480,
+         "z" : -1.82330
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.8149999999999999,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.31740,
+         "y" : -0.18480,
+         "z" : -1.61170
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81510,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.26810,
+         "y" : -0.18480,
+         "z" : -1.43540
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.24430,
+         "y" : -0.18480,
+         "z" : -1.21390
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.19510,
+         "y" : -0.18480,
+         "z" : -1.03750
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.14580,
+         "y" : -0.18480,
+         "z" : -0.86120
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.19250,
+         "y" : -0.18480,
+         "z" : -0.620
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.14330,
+         "y" : -0.18480,
+         "z" : -0.44360
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.79940,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : 0.04710,
+         "y" : -0.18480,
+         "z" : -0.30670
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.08860,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : 0.09630,
+         "y" : -0.18480,
+         "z" : -0.13030
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : 0.18080,
+         "y" : -0.18480,
+         "z" : 0.03620
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.06610000000000001,
+         "y" : -0.18480,
+         "z" : 0.10510
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.02380,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.16620,
+         "y" : -0.18480,
+         "z" : 0.0190
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.02560,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.23670,
+         "y" : -0.18480,
+         "z" : 0.03870
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.20720,
+         "y" : -0.18480,
+         "z" : 0.14450
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.0160,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.67550,
+         "y" : -0.18480,
+         "z" : 0.23730
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01740,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.81660,
+         "y" : -0.18480,
+         "z" : 0.27670
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.41750,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.05780,
+         "y" : -0.18480,
+         "z" : 0.230
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81350,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.08160,
+         "y" : -0.18480,
+         "z" : 0.008500000000000001
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.15630,
+         "y" : -0.18480,
+         "z" : -0.12270
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.21540,
+         "y" : -0.18480,
+         "z" : -0.33430
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.10390,
+         "y" : -0.18480,
+         "z" : -0.47960
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.14330,
+         "y" : -0.18480,
+         "z" : -0.62060
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.30820,
+         "y" : -0.18480,
+         "z" : -0.80270
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.35740,
+         "y" : -0.18480,
+         "z" : -0.97910
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.36150,
+         "y" : -0.18480,
+         "z" : -1.130
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.41080,
+         "y" : -0.18480,
+         "z" : -1.30640
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.460,
+         "y" : -0.18480,
+         "z" : -1.48270
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.81520,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -1.4740,
+         "y" : -0.18480,
+         "z" : -1.66890
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.02010,
+         "name" : "blocker",
+         "scaling" : 1.39840,
+         "x" : -0.95770,
+         "y" : -0.18480,
+         "z" : 0.31610
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.00970,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.30090,
+         "y" : 0.19220,
+         "z" : 2.7920
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01990,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.47190,
+         "y" : 0.20230,
+         "z" : 2.87210
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.75270,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.5850,
+         "y" : 0.20220,
+         "z" : 2.95590
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.90230,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.71190,
+         "y" : 0.20230,
+         "z" : 3.02890
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.83940,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.85690,
+         "y" : 0.20250,
+         "z" : 3.13830
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.02190,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.98380,
+         "y" : 0.20230,
+         "z" : 3.21130
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01970,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 1.11070,
+         "y" : 0.20230,
+         "z" : 3.28430
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01970,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.8008999999999999,
+         "y" : 0.20220,
+         "z" : 3.66470
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.08860,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.6740,
+         "y" : 0.20220,
+         "z" : 3.59170
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.89750,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.54710,
+         "y" : 0.20220,
+         "z" : 3.51870
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.90230,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.42020,
+         "y" : 0.20230,
+         "z" : 3.44570
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.30310,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.29330,
+         "y" : 0.20220,
+         "z" : 3.37270
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01970,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.16640,
+         "y" : 0.20230,
+         "z" : 3.29970
+      },
+      {
+         "heading" : -0.25830,
+         "height" : 0.01970,
+         "name" : "blocker",
+         "scaling" : 1.13520,
+         "x" : 0.03940,
+         "y" : 0.20230,
+         "z" : 3.22670
+      },
+      {
+         "gameObject" : "CommonChest",
+         "gameObjectParams" : null,
+         "heading" : -2.50630,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : -1.68950,
+         "y" : -0.20210,
+         "z" : -2.74220
+      },
+      {
+         "gameObject" : "MagicChest",
+         "gameObjectParams" : null,
+         "heading" : -3.18350,
+         "height" : -0.0,
+         "name" : "Chest 01",
+         "scaling" : 1.0,
+         "x" : -0.80560,
+         "y" : -0.20080,
+         "z" : 1.67090
+      },
+      {
+         "gameObject" : "SuperiorChest",
+         "gameObjectParams" : null,
+         "heading" : -3.07180,
+         "height" : 0.0,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : 3.16120,
+         "y" : 0.18260,
+         "z" : 5.28270
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : 3.82480,
+         "y" : 0.16180,
+         "z" : 4.17840
+      },
+      {
+         "gameObject" : "RareChest",
+         "gameObjectParams" : null,
+         "heading" : -3.3650,
+         "height" : 0.0,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -3.57060,
+         "y" : 0.18330,
+         "z" : 4.51050
+      },
+      {
+         "gameObject" : "SuperiorChest",
+         "gameObjectParams" : null,
+         "heading" : -1.75930,
+         "height" : -0.0,
+         "name" : "Chest 02",
+         "scaling" : 1.0,
+         "x" : -2.68250,
+         "y" : 0.5990,
+         "z" : 8.569900000000001
+      },
+      {
+         "gameObject" : "EpicChest",
+         "gameObjectParams" : null,
+         "heading" : -4.1260,
+         "height" : -0.0,
+         "name" : "Chest 03",
+         "scaling" : 1.0,
+         "x" : 3.39090,
+         "y" : 0.59950,
+         "z" : 7.36820
+      },
+      {
+         "heading" : 1.38230,
+         "height" : -0.00690,
+         "name" : "Fence 12",
+         "scaling" : 1.0,
+         "x" : -2.69940,
+         "y" : 0.17470,
+         "z" : 3.83710
+      },
+      {
+         "heading" : 1.38230,
+         "height" : 0.0,
+         "name" : "Fence 05",
+         "scaling" : 1.0,
+         "x" : -2.75850,
+         "y" : 0.18150,
+         "z" : 3.56050
+      },
+      {
+         "heading" : 0.69120,
+         "height" : -0.00970,
+         "name" : "Wooden Gate 05",
+         "scaling" : 1.0,
+         "x" : -2.88650,
+         "y" : 0.17150,
+         "z" : 3.34230
+      },
+      {
+         "heading" : 0.43980,
+         "name" : "Fence 05",
+         "scaling" : 1.0,
+         "x" : -3.12950,
+         "y" : 0.1820,
+         "z" : 3.210
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.15530,
+         "x" : -3.02910,
+         "y" : 0.18280,
+         "z" : 4.32110
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.15530,
+         "x" : -3.14020,
+         "y" : 0.18380,
+         "z" : 4.36440
+      },
+      {
+         "heading" : -1.02630,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.1250,
+         "y" : 0.18270,
+         "z" : 4.27130
+      },
+      {
+         "heading" : -1.93380,
+         "height" : -0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.23480,
+         "y" : 0.18410,
+         "z" : 4.34460
+      },
+      {
+         "heading" : -2.89730,
+         "height" : -0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.33450,
+         "x" : -3.23140,
+         "y" : 0.1820,
+         "z" : 4.24790
+      },
+      {
+         "heading" : -2.89730,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.46070,
+         "x" : -3.35640,
+         "y" : 0.18520,
+         "z" : 4.38810
+      },
+      {
+         "heading" : -3.90950,
+         "height" : -0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.33870,
+         "y" : 0.18260,
+         "z" : 4.27590
+      },
+      {
+         "heading" : -4.83110,
+         "height" : -0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.3420,
+         "x" : -3.29990,
+         "y" : 0.18160,
+         "z" : 4.17870
+      },
+      {
+         "heading" : -4.83110,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.22160,
+         "y" : 0.18210,
+         "z" : 4.11140
+      },
+      {
+         "heading" : -4.83110,
+         "height" : -0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.43440,
+         "y" : 0.18530,
+         "z" : 4.46050
+      },
+      {
+         "heading" : -4.83110,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.68330,
+         "y" : 0.18080,
+         "z" : 4.5760
+      },
+      {
+         "heading" : -7.35830,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.56360,
+         "x" : -3.68520,
+         "y" : 0.18230,
+         "z" : 4.47140
+      },
+      {
+         "heading" : -7.13490,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.5390,
+         "y" : 0.18350,
+         "z" : 4.37580
+      },
+      {
+         "heading" : -6.21340,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.37270,
+         "x" : -3.81550,
+         "y" : 0.17790,
+         "z" : 4.64530
+      },
+      {
+         "heading" : -5.90620,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.32930,
+         "x" : -3.14590,
+         "y" : 0.18190,
+         "z" : 4.02290
+      },
+      {
+         "heading" : -4.62870,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.33450,
+         "x" : -3.07290,
+         "y" : 0.18130,
+         "z" : 3.9830
+      },
+      {
+         "heading" : -2.89730,
+         "height" : -0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.33450,
+         "x" : -3.00050,
+         "y" : 0.18210,
+         "z" : 3.91950
+      },
+      {
+         "heading" : -4.75430,
+         "name" : "Foliage 01",
+         "scaling" : 1.14120,
+         "x" : -2.87460,
+         "y" : 0.18210,
+         "z" : 3.92020
+      },
+      {
+         "heading" : -2.89730,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.17230,
+         "x" : -2.92050,
+         "y" : 0.18220,
+         "z" : 3.81610
+      },
+      {
+         "heading" : -2.89730,
+         "name" : "Foliage 01",
+         "scaling" : 1.33450,
+         "x" : -2.77320,
+         "y" : 0.18230,
+         "z" : 3.85830
+      },
+      {
+         "heading" : -2.89730,
+         "name" : "Foliage 01",
+         "scaling" : 1.33450,
+         "x" : -2.83970,
+         "y" : 0.18190,
+         "z" : 3.69370
+      },
+      {
+         "heading" : -2.89730,
+         "name" : "Foliage 01",
+         "scaling" : 1.33450,
+         "x" : -2.85110,
+         "y" : 0.18130,
+         "z" : 3.56020
+      },
+      {
+         "heading" : -4.78230,
+         "name" : "Foliage 01",
+         "scaling" : 1.4910,
+         "x" : -2.97050,
+         "y" : 0.18220,
+         "z" : 3.76150
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.28450,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.0,
+            "col_red" : 1.50,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.16860,
+         "x" : -2.08180,
+         "y" : 0.45230,
+         "z" : 3.15820
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.25540,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.0,
+            "col_red" : 1.50,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.16860,
+         "x" : -3.04370,
+         "y" : 0.44130,
+         "z" : 4.51950
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 1.48910,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.0,
+            "col_red" : 1.50,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.16860,
+         "x" : -3.16620,
+         "y" : 0.81680,
+         "z" : 7.88120
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.24360,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 1.0,
+            "col_red" : 1.50,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.16860,
+         "x" : -1.90330,
+         "y" : 0.84350,
+         "z" : 7.67190
+      },
+      {
+         "heading" : -4.83110,
+         "height" : 0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.98860,
+         "y" : 0.18220,
+         "z" : 4.19170
+      },
+      {
+         "heading" : -6.0040,
+         "height" : -0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.89870,
+         "y" : 0.18240,
+         "z" : 4.10220
+      },
+      {
+         "heading" : -4.83110,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.81930,
+         "y" : 0.18240,
+         "z" : 4.02030
+      },
+      {
+         "heading" : -4.83110,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.86550,
+         "y" : 0.18160,
+         "z" : 4.20570
+      },
+      {
+         "heading" : -5.54320,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.71680,
+         "y" : 0.18240,
+         "z" : 4.01790
+      },
+      {
+         "heading" : -6.0040,
+         "height" : -0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.62220,
+         "y" : 0.1820,
+         "z" : 3.88550
+      },
+      {
+         "heading" : -6.0040,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.60470,
+         "y" : 0.18180,
+         "z" : 3.7280
+      },
+      {
+         "heading" : -6.0040,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.45570,
+         "y" : 0.18210,
+         "z" : 3.64110
+      },
+      {
+         "heading" : -7.56080,
+         "height" : -0.0,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.51180,
+         "y" : 0.18210,
+         "z" : 3.73370
+      },
+      {
+         "heading" : -9.424799999999999,
+         "height" : -0.00010,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.35340,
+         "y" : 0.18180,
+         "z" : 3.61480
+      },
+      {
+         "heading" : -10.74430,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.43350,
+         "y" : 0.18220,
+         "z" : 3.51480
+      },
+      {
+         "heading" : -12.46170,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.3420,
+         "y" : 0.18210,
+         "z" : 3.52320
+      },
+      {
+         "heading" : -13.4670,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.31090,
+         "y" : 0.18160,
+         "z" : 3.39610
+      },
+      {
+         "heading" : -13.4670,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.25640,
+         "y" : 0.18220,
+         "z" : 3.27190
+      },
+      {
+         "heading" : -13.4670,
+         "name" : "Foliage 01",
+         "scaling" : 1.25760,
+         "x" : -3.16630,
+         "y" : 0.18160,
+         "z" : 3.35290
+      },
+      {
+         "heading" : 4.16090,
+         "height" : -0.0,
+         "name" : "Table 04",
+         "scaling" : 1.06110,
+         "x" : -2.56020,
+         "y" : 0.18150,
+         "z" : 2.02690
+      },
+      {
+         "heading" : 4.16090,
+         "name" : "Chair 02",
+         "scaling" : 1.06110,
+         "x" : -2.73260,
+         "y" : 0.18190,
+         "z" : 2.12070
+      },
+      {
+         "heading" : 4.16090,
+         "height" : 0.0,
+         "name" : "Chair 02",
+         "scaling" : 1.06110,
+         "x" : -2.72640,
+         "y" : 0.18140,
+         "z" : 1.98040
+      },
+      {
+         "heading" : 4.16090,
+         "name" : "Chair 02",
+         "scaling" : 1.06110,
+         "x" : -2.59070,
+         "y" : 0.18180,
+         "z" : 1.87380
+      },
+      {
+         "heading" : 4.16090,
+         "name" : "Chair 02",
+         "scaling" : 1.06110,
+         "x" : -2.43690,
+         "y" : 0.18190,
+         "z" : 1.91450
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : -2.03160,
+         "height" : -0.0,
+         "name" : "Lamp Post 02",
+         "omniParams" : {
+            "col_blue" : 0.20,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 0.50
+         },
+         "scaling" : 1.0,
+         "x" : -2.86350,
+         "y" : 0.18230,
+         "z" : 1.74820
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Measure 8x",
+         "scaling" : 1.0,
+         "x" : -0.80930,
+         "y" : -0.18860,
+         "z" : -4.60620
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Measure 8x",
+         "scaling" : 1.0,
+         "x" : -0.24660,
+         "y" : -0.20030,
+         "z" : 0.94250
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.0,
+         "name" : "Measure 8x",
+         "scaling" : 1.0,
+         "x" : 1.22830,
+         "y" : 0.18250,
+         "z" : 3.5930
+      },
+      {
+         "gameObject" : "RespawnPoint",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : -0.0,
+         "name" : "Measure 8x",
+         "scaling" : 1.0,
+         "x" : -2.45120,
+         "y" : 0.59990,
+         "z" : 7.52690
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -2.37820,
+         "y" : 0.18450,
+         "z" : 4.8530
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : 0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.68490,
+         "y" : 0.18180,
+         "z" : 4.30380
+      },
+      {
+         "gameObject" : "RandomSpawn",
+         "gameObjectParams" : {
+            "eliteChance" : 0.10
+         },
+         "heading" : -0.41190,
+         "height" : -0.0,
+         "name" : "Dummy",
+         "scaling" : 1.0,
+         "x" : -1.24510,
+         "y" : 0.18230,
+         "z" : 3.37910
+      },
+      {
+         "heading" : 0.0,
+         "height" : 1.09530,
+         "name" : "Burning Object",
+         "scaling" : 1.0,
+         "x" : -3.50050,
+         "y" : 0.65030,
+         "z" : 8.18440
+      },
+      {
+         "heading" : -3.29520,
+         "name" : "Square Brick Column 02",
+         "scaling" : 1.73510,
+         "x" : 3.5310,
+         "y" : 0.15580,
+         "z" : 4.29140
+      },
+      {
+         "heading" : -3.93050,
+         "height" : 0.00080,
+         "name" : "Square Brick Column 03",
+         "scaling" : 1.68080,
+         "x" : 3.42210,
+         "y" : 0.14020,
+         "z" : 4.10360
+      },
+      {
+         "heading" : -0.5096000000000001,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 03",
+         "scaling" : 1.0,
+         "x" : -0.5368000000000001,
+         "y" : -0.18860,
+         "z" : -6.7230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 02",
+         "scaling" : 0.73110,
+         "x" : -0.35760,
+         "y" : -0.19280,
+         "z" : -6.77880
+      },
+      {
+         "heading" : -1.59170,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 03",
+         "scaling" : 0.77810,
+         "x" : 0.31180,
+         "y" : -0.19650,
+         "z" : -6.6040
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 03",
+         "scaling" : 0.8780,
+         "x" : 0.36750,
+         "y" : -0.1950,
+         "z" : -6.40740
+      },
+      {
+         "heading" : -1.18680,
+         "height" : -0.03220,
+         "name" : "Boulder Pile 03",
+         "scaling" : 0.94150,
+         "x" : 0.27140,
+         "y" : -0.22580,
+         "z" : -6.53980
+      },
+      {
+         "heading" : -1.18680,
+         "height" : -0.0,
+         "name" : "Boulder Pile 02",
+         "scaling" : 0.94150,
+         "x" : 0.31890,
+         "y" : -0.19230,
+         "z" : -6.33990
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 01",
+         "scaling" : 1.0,
+         "x" : 1.38930,
+         "y" : -0.17120,
+         "z" : -7.00260
+      },
+      {
+         "heading" : 2.6180,
+         "height" : -0.00360,
+         "name" : "Boulder Pile 02",
+         "scaling" : 0.94150,
+         "x" : 1.48840,
+         "y" : -0.18060,
+         "z" : -6.87510
+      },
+      {
+         "gameObject" : "FlickeringLight",
+         "gameObjectParams" : null,
+         "heading" : 0.0,
+         "height" : 0.08890000000000001,
+         "name" : "Omni",
+         "omniParams" : {
+            "col_blue" : 0.250,
+            "col_green" : 0.80,
+            "col_red" : 1.0,
+            "radius0" : 0.10,
+            "radius1" : 1.0
+         },
+         "scaling" : 1.0,
+         "x" : 1.56580,
+         "y" : -0.09370000000000001,
+         "z" : -7.02230
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 01",
+         "scaling" : 1.0,
+         "x" : 1.15060,
+         "y" : -0.11970,
+         "z" : -5.57430
+      },
+      {
+         "heading" : 2.6180,
+         "height" : -0.009599999999999999,
+         "name" : "Boulder Pile 03",
+         "scaling" : 0.89660,
+         "x" : 1.06580,
+         "y" : -0.13510,
+         "z" : -5.44460
+      },
+      {
+         "heading" : -1.53580,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 01",
+         "scaling" : 0.6899999999999999,
+         "x" : -0.53050,
+         "y" : -0.18090,
+         "z" : -5.1390
+      },
+      {
+         "heading" : 2.6180,
+         "height" : 0.0,
+         "name" : "Boulder 04",
+         "scaling" : 0.6770,
+         "x" : -0.55330,
+         "y" : -0.18290,
+         "z" : -5.20220
+      },
+      {
+         "heading" : 4.25160,
+         "height" : -0.0,
+         "name" : "Boulder 02",
+         "scaling" : 0.89660,
+         "x" : -0.51550,
+         "y" : -0.18080,
+         "z" : -5.12920
+      },
+      {
+         "heading" : 4.25160,
+         "height" : -0.01260,
+         "name" : "Boulder 01",
+         "scaling" : 0.89660,
+         "x" : -0.41410,
+         "y" : -0.19260,
+         "z" : -5.10950
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 0.85860,
+         "x" : 0.35760,
+         "y" : -0.17050,
+         "z" : -4.78010
+      },
+      {
+         "heading" : 0.52360,
+         "height" : 0.1950,
+         "name" : "Red Brick House Door 01",
+         "scaling" : 1.0,
+         "x" : 0.9330000000000001,
+         "y" : 0.79450,
+         "z" : 6.61770
+      },
+      {
+         "heading" : -1.59170,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 02",
+         "scaling" : 0.860,
+         "x" : 0.20470,
+         "y" : -0.1670,
+         "z" : -4.71980
+      },
+      {
+         "heading" : -4.4610,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 02",
+         "scaling" : 1.0,
+         "x" : 0.36560,
+         "y" : -0.17850,
+         "z" : -4.59180
+      },
+      {
+         "heading" : 2.6180,
+         "height" : -0.01310,
+         "name" : "Boulder Pile 02",
+         "scaling" : 0.98970,
+         "x" : 0.3340,
+         "y" : -0.18910,
+         "z" : -4.6150
+      },
+      {
+         "heading" : -2.9670,
+         "height" : -0.00680,
+         "name" : "Boulder Pile 01",
+         "scaling" : 0.94150,
+         "x" : -0.54820,
+         "y" : -0.19110,
+         "z" : -6.67010
+      },
+      {
+         "heading" : -2.91820,
+         "height" : -0.00560,
+         "name" : "Grey Rock Large 01",
+         "scaling" : 0.67730,
+         "x" : -1.81930,
+         "y" : -0.35950,
+         "z" : -7.9980
+      },
+      {
+         "heading" : -5.83640,
+         "name" : "Grey Rock Med 06",
+         "scaling" : 0.67730,
+         "x" : -0.06010,
+         "y" : -0.57520,
+         "z" : -8.18390
+      },
+      {
+         "heading" : -5.83640,
+         "height" : 0.0,
+         "name" : "Grey Rock Med 05",
+         "scaling" : 0.67730,
+         "x" : 1.34760,
+         "y" : -0.59520,
+         "z" : -7.80350
+      },
+      {
+         "heading" : -3.28820,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 05",
+         "scaling" : 1.0,
+         "x" : -1.89320,
+         "y" : -0.20180,
+         "z" : -2.66550
+      },
+      {
+         "heading" : -1.66850,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : -1.65160,
+         "y" : -0.2020,
+         "z" : -2.58060
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 05",
+         "scaling" : 1.0,
+         "x" : -0.72060,
+         "y" : -0.20180,
+         "z" : -2.81120
+      },
+      {
+         "heading" : -1.01930,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 0.66730,
+         "x" : -1.64670,
+         "y" : -0.19330,
+         "z" : -3.55280
+      },
+      {
+         "heading" : -4.03520,
+         "height" : -0.02860,
+         "name" : "Stone House 01",
+         "scaling" : 0.86150,
+         "x" : 0.38010,
+         "y" : 0.17130,
+         "z" : 5.27250
+      },
+      {
+         "heading" : -0.04890,
+         "height" : -0.01920,
+         "name" : "Stone Tower 02",
+         "scaling" : 0.86150,
+         "x" : -0.4610,
+         "y" : 0.1730,
+         "z" : 5.1220
+      },
+      {
+         "heading" : 4.16790,
+         "height" : -0.02190,
+         "name" : "Stone House 01",
+         "scaling" : 0.86150,
+         "x" : -0.80310,
+         "y" : 0.17140,
+         "z" : 5.22570
+      },
+      {
+         "heading" : -2.10840,
+         "height" : -0.01420,
+         "name" : "Stone Tower 02",
+         "scaling" : 0.86150,
+         "x" : -1.13830,
+         "y" : 0.18580,
+         "z" : 5.38530
+      },
+      {
+         "heading" : -4.70540,
+         "height" : -0.01360,
+         "name" : "Stone House 01",
+         "scaling" : 0.86150,
+         "x" : -0.08480,
+         "y" : 0.17010,
+         "z" : 5.09360
+      },
+      {
+         "heading" : -2.01060,
+         "height" : -0.06780,
+         "name" : "blocker",
+         "scaling" : 2.61890,
+         "x" : 4.37020,
+         "y" : 0.19730,
+         "z" : 3.94670
+      },
+      {
+         "heading" : -2.01060,
+         "height" : -0.02630,
+         "name" : "blocker",
+         "scaling" : 2.61890,
+         "x" : 4.34650,
+         "y" : 0.21680,
+         "z" : 4.39370
+      },
+      {
+         "heading" : -2.01060,
+         "height" : -0.06020,
+         "name" : "blocker",
+         "scaling" : 2.61890,
+         "x" : 3.96920,
+         "y" : 0.21770,
+         "z" : 4.75270
+      },
+      {
+         "heading" : -2.01060,
+         "height" : -0.0530,
+         "name" : "blocker",
+         "scaling" : 2.61890,
+         "x" : 3.73770,
+         "y" : 0.24030,
+         "z" : 5.03860
+      },
+      {
+         "heading" : -2.01060,
+         "height" : -0.06930,
+         "name" : "blocker",
+         "scaling" : 2.61890,
+         "x" : 3.71670,
+         "y" : 0.21060,
+         "z" : 5.25610
+      },
+      {
+         "heading" : -2.01060,
+         "height" : -0.00020,
+         "name" : "blocker",
+         "scaling" : 3.38060,
+         "x" : 3.87290,
+         "y" : -0.12240,
+         "z" : 2.7450
+      },
+      {
+         "heading" : -2.01060,
+         "height" : -0.25830,
+         "name" : "blocker",
+         "scaling" : 3.38060,
+         "x" : 3.26520,
+         "y" : 0.62660,
+         "z" : 6.48670
+      },
+      {
+         "heading" : -2.01060,
+         "height" : 0.18030,
+         "name" : "blocker",
+         "scaling" : 3.38060,
+         "x" : 3.04030,
+         "y" : 0.62510,
+         "z" : 6.09580
+      },
+      {
+         "heading" : -2.01060,
+         "height" : 0.4650,
+         "name" : "blocker",
+         "scaling" : 3.38060,
+         "x" : 2.75440,
+         "y" : 0.6477000000000001,
+         "z" : 5.81290
+      },
+      {
+         "heading" : -2.09440,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 01",
+         "scaling" : 0.81450,
+         "x" : -1.83150,
+         "y" : -0.19350,
+         "z" : -6.85690
+      },
+      {
+         "heading" : -2.9670,
+         "height" : -0.00580,
+         "name" : "Boulder Pile 02",
+         "scaling" : 0.94150,
+         "x" : -1.89420,
+         "y" : -0.19430,
+         "z" : -6.78180
+      },
+      {
+         "heading" : -5.83640,
+         "height" : 0.0,
+         "name" : "Grey Rock Med 04",
+         "scaling" : 0.67730,
+         "x" : 0.7290,
+         "y" : -0.58640,
+         "z" : -8.127700000000001
+      },
+      {
+         "heading" : 5.68280,
+         "height" : 0.02120,
+         "name" : "Red Brick House Door 01",
+         "scaling" : 1.0,
+         "x" : -0.25390,
+         "y" : -0.17920,
+         "z" : 1.54550
+      },
+      {
+         "heading" : 6.40190,
+         "height" : 0.01760,
+         "name" : "Red Brick House Door 01",
+         "scaling" : 1.0,
+         "x" : -0.82230,
+         "y" : -0.18330,
+         "z" : 1.78720
+      },
+      {
+         "heading" : 4.8310,
+         "height" : -0.19630,
+         "name" : "Stone House Small 02",
+         "scaling" : 1.0,
+         "x" : -0.9945000000000001,
+         "y" : -0.20740,
+         "z" : 2.00190
+      },
+      {
+         "heading" : 7.39320,
+         "height" : 0.17360,
+         "name" : "Red Brick House Door 01",
+         "scaling" : 1.0,
+         "x" : 0.06759999999999999,
+         "y" : -0.02690,
+         "z" : 1.68830
+      },
+      {
+         "heading" : -2.26190,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : 2.41010,
+         "y" : -0.47680,
+         "z" : 2.58630
+      },
+      {
+         "heading" : -3.46970,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : 2.31030,
+         "y" : -0.50740,
+         "z" : 2.49590
+      },
+      {
+         "heading" : -4.94970,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : 2.54480,
+         "y" : -0.19730,
+         "z" : 2.88710
+      },
+      {
+         "heading" : -5.38960,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : 2.65020,
+         "y" : -0.14570,
+         "z" : 3.19680
+      },
+      {
+         "heading" : 6.20640,
+         "height" : 0.03870,
+         "name" : "Red Brick House Door 01",
+         "scaling" : 1.0,
+         "x" : -3.07840,
+         "y" : 0.2210,
+         "z" : 1.82390
+      },
+      {
+         "heading" : 6.08770,
+         "height" : 0.04630,
+         "name" : "Red Brick House Door 01",
+         "scaling" : 1.0,
+         "x" : -3.80480,
+         "y" : 0.22110,
+         "z" : 5.09580
+      },
+      {
+         "heading" : 5.27790,
+         "height" : 0.05450,
+         "name" : "Red Brick House Door 01",
+         "scaling" : 1.0,
+         "x" : -2.69330,
+         "y" : 0.65350,
+         "z" : 6.25730
+      },
+      {
+         "heading" : 0.84820,
+         "height" : -0.00680,
+         "name" : "Stone House Small 01",
+         "scaling" : 1.0,
+         "x" : -4.5470,
+         "y" : 0.5931999999999999,
+         "z" : 8.14620
+      },
+      {
+         "heading" : -1.06810,
+         "height" : -0.00170,
+         "name" : "Stone House Small 01",
+         "scaling" : 1.0,
+         "x" : 0.11640,
+         "y" : 0.5983000000000001,
+         "z" : 7.03380
+      },
+      {
+         "heading" : 5.250,
+         "height" : 0.01410,
+         "name" : "Red Brick House Door 01",
+         "scaling" : 1.0,
+         "x" : -0.2890,
+         "y" : 0.61360,
+         "z" : 7.18680
+      },
+      {
+         "heading" : -2.26190,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : 0.72340,
+         "y" : 0.18090,
+         "z" : 3.87410
+      },
+      {
+         "heading" : -2.26190,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : -0.90020,
+         "y" : 0.1570,
+         "z" : 3.67270
+      },
+      {
+         "heading" : -3.44170,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : -0.99290,
+         "y" : 0.0030,
+         "z" : 3.84030
+      },
+      {
+         "heading" : 0.53050,
+         "name" : "White Wood Attic 01",
+         "scaling" : 0.7480,
+         "x" : -1.14650,
+         "y" : -0.14830,
+         "z" : -6.01740
+      },
+      {
+         "heading" : -1.23570,
+         "name" : "Grey Brick Tower Snowy Base 03",
+         "scaling" : 0.83560,
+         "x" : 3.79760,
+         "y" : 0.59920,
+         "z" : 7.65530
+      },
+      {
+         "heading" : -1.23570,
+         "height" : 0.3150,
+         "name" : "Grey Brick Tower Snowy Top A 03",
+         "scaling" : 0.83560,
+         "x" : 3.79760,
+         "y" : 0.91420,
+         "z" : 7.65530
+      },
+      {
+         "heading" : -0.06980,
+         "height" : 0.00460,
+         "name" : "Dead Tree 02",
+         "scaling" : 1.58310,
+         "x" : 4.17990,
+         "y" : 0.60490,
+         "z" : 7.56530
+      },
+      {
+         "heading" : -1.36140,
+         "height" : -0.05470,
+         "name" : "Dead Tree 03",
+         "scaling" : 1.58310,
+         "x" : 3.44060,
+         "y" : 0.59140,
+         "z" : 7.74680
+      },
+      {
+         "heading" : -0.67720,
+         "name" : "Autumn Tree 04",
+         "scaling" : 1.58310,
+         "x" : 2.87060,
+         "y" : 0.80870,
+         "z" : 7.8210
+      },
+      {
+         "heading" : 0.04890,
+         "name" : "Brick Wall 02",
+         "scaling" : 1.0,
+         "x" : 2.99770,
+         "y" : 0.80870,
+         "z" : 7.94270
+      },
+      {
+         "heading" : 0.04890,
+         "height" : 0.02040,
+         "name" : "Brick Wall 04",
+         "scaling" : 1.0,
+         "x" : 3.38790,
+         "y" : 0.80870,
+         "z" : 7.96180
+      },
+      {
+         "heading" : -3.44170,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : -1.910,
+         "y" : 0.18530,
+         "z" : 5.03910
+      },
+      {
+         "heading" : -2.05940,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : -2.14130,
+         "y" : 0.20860,
+         "z" : 5.26120
+      },
+      {
+         "heading" : -4.10490,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 02",
+         "scaling" : 1.0,
+         "x" : -3.66550,
+         "y" : 0.18140,
+         "z" : 5.10350
+      },
+      {
+         "heading" : 1.06110,
+         "name" : "White Wood House 02",
+         "scaling" : 0.7480,
+         "x" : -2.080,
+         "y" : -0.15550,
+         "z" : -7.06630
+      },
+      {
+         "heading" : 0.0,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 0.73110,
+         "x" : -1.92040,
+         "y" : -0.1790,
+         "z" : -7.05130
+      },
+      {
+         "heading" : -1.73840,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 0.73110,
+         "x" : -1.99830,
+         "y" : -0.16310,
+         "z" : -7.19410
+      },
+      {
+         "heading" : -1.73840,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 0.73110,
+         "x" : -0.98960,
+         "y" : -0.15870,
+         "z" : -6.06160
+      },
+      {
+         "heading" : -3.12760,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 0.73110,
+         "x" : -1.15610,
+         "y" : -0.15880,
+         "z" : -6.140
+      },
+      {
+         "heading" : -2.01760,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 0.73110,
+         "x" : -1.29890,
+         "y" : -0.13970,
+         "z" : -5.98970
+      },
+      {
+         "heading" : -2.01760,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 0.73110,
+         "x" : -1.35550,
+         "y" : -0.12460,
+         "z" : -5.88970
+      },
+      {
+         "heading" : -3.27430,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 0.73110,
+         "x" : -2.16520,
+         "y" : -0.14340,
+         "z" : -7.110
+      },
+      {
+         "heading" : 1.06110,
+         "name" : "White Wood Attic 01",
+         "scaling" : 0.7480,
+         "x" : -2.080,
+         "y" : -0.15550,
+         "z" : -7.06630
+      },
+      {
+         "heading" : -3.93740,
+         "height" : 0.010,
+         "name" : "Rock Pile Decal 04",
+         "scaling" : 1.0,
+         "x" : -1.04140,
+         "y" : 0.13910,
+         "z" : 3.97130
+      },
+      {
+         "heading" : 5.9620,
+         "height" : -0.009599999999999999,
+         "name" : "Stone House Small 01",
+         "scaling" : 1.0,
+         "x" : -1.540,
+         "y" : -0.21010,
+         "z" : 1.56480
+      },
+      {
+         "heading" : 7.67940,
+         "height" : -0.01020,
+         "name" : "Stone House Small 01",
+         "scaling" : 1.0,
+         "x" : -4.40310,
+         "y" : 0.17240,
+         "z" : 4.59580
+      },
+      {
+         "heading" : -5.83640,
+         "height" : 0.00240,
+         "name" : "Grey Rock Flat 06",
+         "scaling" : 0.67730,
+         "x" : 0.06930,
+         "y" : -0.57250,
+         "z" : -8.23180
+      },
+      {
+         "heading" : -5.83640,
+         "height" : 0.0,
+         "name" : "Grey Rock Flat 05",
+         "scaling" : 0.67730,
+         "x" : 0.57080,
+         "y" : -0.58280,
+         "z" : -8.197900000000001
+      },
+      {
+         "heading" : -5.83640,
+         "height" : -0.0,
+         "name" : "Grey Rock Flat 04",
+         "scaling" : 0.67730,
+         "x" : 0.92030,
+         "y" : -0.58810,
+         "z" : -8.14040
+      },
+      {
+         "heading" : -5.83640,
+         "height" : 0.0,
+         "name" : "Grey Rock Flat 03",
+         "scaling" : 0.67730,
+         "x" : 1.29280,
+         "y" : -0.59030,
+         "z" : -8.01660
+      },
+      {
+         "heading" : -5.83640,
+         "height" : -0.0,
+         "name" : "Grey Rock Flat 03",
+         "scaling" : 0.67730,
+         "x" : -0.20140,
+         "y" : -0.57930,
+         "z" : -8.23780
+      },
+      {
+         "heading" : -5.48040,
+         "height" : -0.0020,
+         "name" : "Grey Rock Flat 03",
+         "scaling" : 0.57740,
+         "x" : 0.4330,
+         "y" : -0.58190,
+         "z" : -8.24860
+      },
+      {
+         "heading" : -5.48040,
+         "height" : 0.0,
+         "name" : "Grey Rock Flat 02",
+         "scaling" : 0.57740,
+         "x" : 0.82420,
+         "y" : -0.57880,
+         "z" : -8.26390
+      },
+      {
+         "heading" : -5.48040,
+         "height" : -0.0005999999999999999,
+         "name" : "Grey Rock Flat 01",
+         "scaling" : 0.57740,
+         "x" : 1.18110,
+         "y" : -0.59360,
+         "z" : -7.87640
+      }
+   ],
+   "spawnPoints" : null,
+   "startPosition" : [ -1.4440, -6.51970 ],
+   "tint" : [ 128, 128, 128, 0 ],
+   "title" : ""
+}

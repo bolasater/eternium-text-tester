@@ -1,0 +1,71 @@
+[
+	{
+		"type" : "CreateProjectile",
+		"id" : "testbolt",
+		"lifeTime" : 2.0,
+		"speed" : 1.0,
+		"bounce" : true
+	}
+	,
+	{
+		"type" : "CreateProjectile",
+		"id" : "lightning_charge",
+		"lifeTime" : 30.0,
+		"speed" : 0.5,
+		"bounce" : true,
+		"vfx" : "firebolt2",
+		"texture" :"",
+		"trailTexture":"redBeam",
+		"targetType":"Directional"
+	}
+	,	
+	{
+		"type" : "RepeatAction",
+		"id" : "testrepeater",
+		"count" : 5,
+		"delay" : 0.1,
+		"action" : "testbolt"
+	}
+	,
+	{
+		"type" : "RepeatAction",
+		"id" : "randomized_bolts",
+		"count" : 7,
+		"delay" : 0.01,
+
+		"action" :
+		{
+			"type" : "ActionList",
+			"chain" : true,
+			"actions" : [
+				{
+					"type" : "RandomizeDirection",
+					"directionID" : "castDir",
+					"hAngle":30,
+					"vAngle":0
+				}
+				,
+				"lightning_charge"
+			]
+		}
+	}
+	,
+	{
+		"type" : "ActionList",
+		"id" : "test",
+		"chain" : true,
+		"actions" : [
+			{
+				"type" : "ModifyParams",
+				"params" : [
+					"count = 10 + abilityLevel*2",
+					"casterDamagePercent = 0.5 + abilityLevel*0.05",
+					"speed = 0.75",
+					"lifeTime = 3.0"
+				]
+			},
+			"randomized_bolts"
+		]
+	}
+
+]

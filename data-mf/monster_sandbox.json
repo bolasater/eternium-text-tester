@@ -1,0 +1,7 @@
+{
+	"trialLevel":7,
+	"creatures":[
+		{"id":"npc_blacksmith", "elite":false, "elite_abilities":[""], "npc":true},
+		{"id":"npc_jeweler", "elite":false, "elite_abilities":[""], "npc":true}
+	]
+}

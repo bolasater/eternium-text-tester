@@ -1,0 +1,92 @@
+{
+	"baseTerrain" : "Sand 01",
+	"height" : 0.05,
+	"soundEnv" : "plain",
+	"portal" : {
+		"width" : 1,
+		"slope" : 0.15,
+		"curvature" : 1,
+		"chamfer" : 0
+	},
+
+	"tools" : [
+		{
+			"tool":"wall",
+			"wallProp" : "#props/Cacti",
+			"offset" : -0.15,
+			"propScaling" : 1,
+			"randomRotation" : true,
+			"randomScaling" : 0.25,
+			"overlap" : 0.2,
+			"randomPos" : 0.8,
+			"skipBottom" : true			
+		},
+		
+		{
+			"tool":"ring",
+			"terrain" : "Desert Rock 01",
+			"offset" : 0,
+			"height" : 0.05,
+			"width" : 0.3,
+			"hardness" : 0.3,
+			"opacity" : 1.0,
+			"strength" : 0.5,
+			"extendColor" : 0.15
+		},
+		
+		{
+			"tool" : "enclave",
+			"maxNum" : 3,
+			"spacing" : 0.5,
+
+			"shape" : {
+				"size" : 0.33,
+				"verts" : 10,
+				"jumble" : 0.05
+			},
+
+			"style" : {
+				"baseTerrain" : "Desert Rock 01",
+				"height" : 0,
+				"tools" : [
+					{
+						"tool" : "crest",
+						"slope" : 1,
+						"max_height":0.08,
+						"curve_gamma" : 2
+					},
+					{
+						"tool" : "randomprop",
+						"density" : 200,
+						"minDist" : 0.09,
+						"height" : -0.05,
+						"propScaling" : 0.4,
+						"props" : "#props/DesertRocksLarge"
+					}
+				]
+			}
+		},
+
+		{
+			"tool" : "crossroads",
+			"terrain" : "Sand 03a",
+			"width" : 0.4,
+			"height" : -0.0025,
+			"curliness" : 0.33
+		},
+		
+		{
+			"tool" : "randomprop",
+			"props" : "#props/Cacti",
+			"propScaling" : 0.7,
+			"randomScaling" : 0.2,
+			"minDist" : 0.3,
+			"maxDist" : 100,
+			"avoidBuilt" : 1,
+			"markBuilt" : 1,
+			"density" : 0.4
+		},
+		
+		{ "import" : "layers/DesertGround" }
+	]
+}
